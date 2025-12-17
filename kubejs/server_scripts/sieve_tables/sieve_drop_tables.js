@@ -229,6 +229,53 @@ ServerEvents.recipes(event => {
     );
 
     registerSieveTable(
+        'minecraft:moss_block',
+        null,
+        `
+            minecraft:dandelion	5	6	7	8	9	10
+            minecraft:poppy	5	6	7	8	9	10
+            minecraft:cornflower	4	4.8	5.6	6.4	7.2	8
+            minecraft:rose_bush	0.8	3	3.6	4.2	4.8	5.4
+            minecraft:sunflower	0.8	3	3.6	4.2	4.8	5.4
+            minecraft:lilac	0.5	2	2.4	2.8	3.2	3.6
+            minecraft:peony	0.5	2	2.4	2.8	3.2	3.6
+            minecraft:allium	0.3	1	1.2	1.4	1.6	1.8
+            minecraft:azure_bluet	0.3	1	1.2	1.4	1.6	1.8
+            minecraft:blue_orchid	0.3	1	1.2	1.4	1.6	1.8
+            minecraft:lily_of_the_valley	0.3	1	1.2	1.4	1.6	1.8
+            minecraft:orange_tulip	0.3	1	1.2	1.4	1.6	1.8
+            minecraft:oxeye_daisy	0.3	1	1.2	1.4	1.6	1.8
+            minecraft:pink_tulip	0.3	1	1.2	1.4	1.6	1.8
+            minecraft:red_tulip	0.3	1	1.2	1.4	1.6	1.8
+            minecraft:white_tulip	0.3	1	1.2	1.4	1.6	1.8
+            minecraft:azalea	0	0.3	1	1.2	1.4	1.6
+            minecraft:flowering_azalea	0	0.3	1	1.2	1.4	1.6
+        `
+    );
+
+    registerSieveTable(
+        'minecraft:podzol',
+        null,
+        `
+            minecraft:spruce_sapling	5	20	24	28	32	36
+            minecraft:slime_ball	5	20	24	28	32	36
+            tconstruct:sky_slime_ball	2.5	10	12	14	16	18
+            minecraft:oak_sapling	2	8	9.6	11.2	12.8	14.4
+            minecraft:dark_oak_sapling	1.3	5	6	7	8	9
+            tconstruct:earth_slime_sapling	0	1.3	5	6	7	8
+            minecraft:jungle_sapling	0.8	3	3.6	4.2	4.8	5.4
+            tconstruct:earth_slime_grass_seeds	0.8	3	3.6	4.2	4.8	5.4
+            tconstruct:sky_slime_sapling	0	0.8	3	3.6	4.2	4.8
+            minecraft:birch_sapling	0.5	2	2.4	2.8	3.2	3.6
+            minecraft:acacia_sapling	0.5	2	2.4	2.8	3.2	3.6
+            minecraft:cherry_sapling	0.5	2	2.4	2.8	3.2	3.6
+            minecraft:mangrove_propagule	0	0.5	2	2.4	2.8	3.2
+            exdeorum:grass_seeds	0.3	1	1.2	1.4	1.6	1.8
+            tconstruct:sky_slime_grass_seeds	0.3	1	1.2	1.4	1.6	1.8
+        `
+    );
+
+    registerSieveTable(
         'exdeorum:crushed_netherrack',
         'exdeorum:compressed_crushed_netherrack',
         `
