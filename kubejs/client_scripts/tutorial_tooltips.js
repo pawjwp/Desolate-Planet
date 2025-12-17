@@ -52,6 +52,62 @@ ItemEvents.tooltip(event => {
             text.add(1, Text.gray("Can be used to smash compressed stone into gravel, sand, and then dust."));});
     });
 
+    // Sieving blocks
+    event.addAdvanced("exdeorum:dust", (item, advanced, text) => { text.add(1, Text.gray("Sifts into common ore chunks, plus redstone, bone meal, and pebbles"));});
+    event.addAdvanced("minecraft:sand", (item, advanced, text) => { text.add(1, Text.gray("Sifts into uncommon ore chunks, plus quartz and certus quartz"));});
+    event.addAdvanced("minecraft:gravel", (item, advanced, text) => { text.add(1, Text.gray("Sifts into common, uncommon, and rare ore chunks, plus flint, coal, and redstone"));});
+    event.addAdvanced("exdeorum:crushed_deepslate", (item, advanced, text) => { text.add(1, Text.gray("Sifts into common, rare, and very rare ore chunks, plus redstone, lapis, and gemstones"));});
+    
+    event.addAdvanced("minecraft:red_sand", (item, advanced, text) => { text.add(1, Text.gray("Sifts into common ore chunks, plus redstone and quartz"));});
+
+    event.addAdvanced("minecraft:dirt", (item, advanced, text) => { text.add(1, Text.gray("Sifts into pebbles and various seeds"));});
+    event.addAdvanced("minecraft:moss_block", (item, advanced, text) => { text.add(1, Text.gray("Sifts into various flowers"));});
+    event.addAdvanced("minecraft:podzol", (item, advanced, text) => { text.add(1, Text.gray("Sifts into slime and various saplings"));});
+
+    event.addAdvanced("exdeorum:crushed_netherrack", (item, advanced, text) => { text.add(1, Text.gray("Sifts into nether ingredients, with higher chances of crimson/warped items"));});
+    event.addAdvanced("exdeorum:crushed_blackstone", (item, advanced, text) => { text.add(1, Text.gray("Sifts into nether ingredients, with higher chances of gold or cobalt"));});
+    event.addAdvanced("minecraft:soul_sand", (item, advanced, text) => { text.add(1, Text.gray("Sifts into nether ingredients, with higher chances of quartz"));});
+    event.addAdvanced("exdeorum:crushed_end_stone", (item, advanced, text) => { text.add(1, Text.gray("Sifts into end ingredients"));});
+
+    // Sieving drops
+    // Very common metals
+    event.addAdvanced("exdeorum:iron_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting dust, sand, gravel, or crushed deepslate"));});
+
+    // Common metals
+    event.addAdvanced("exdeorum:copper_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting dust, gravel, or crushed deepslate"));});
+    event.addAdvanced("exdeorum:gold_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting dust, gravel, or crushed deepslate"));});
+
+    // Uncommon metals
+    event.addAdvanced("exdeorum:tin_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting sand or gravel"));});
+    event.addAdvanced("exdeorum:zinc_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting sand or gravel"));});
+    event.addAdvanced("exdeorum:nickel_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting sand or gravel"));});
+
+    // Rare metals
+    event.addAdvanced("exdeorum:silver_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting gravel or crushed deepslate"));});
+    event.addAdvanced("exdeorum:lead_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting gravel or crushed deepslate"));});
+
+    // Very rare metals
+    event.addAdvanced("exdeorum:osmium_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
+    event.addAdvanced("exdeorum:uranium_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
+
+    event.addAdvanced("exdeorum:cobalt_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting nether blocks, especially crushed blackstone"));});
+
+
+    // Common other ores
+    event.addAdvanced("minecraft:redstone", (item, advanced, text) => { text.add(1, Text.gray("From sifting dust, gravel, or crushed deepslate"));});
+
+    // Uncommon other ores
+    event.addAdvanced("minecraft:coal", (item, advanced, text) => { text.add(1, Text.gray("From sifting gravel"));});
+    event.addAdvanced("ae2:certus_quartz_crystal", (item, advanced, text) => { text.add(1, Text.gray("From sifting sand"));});
+    event.addAdvanced("minecraft:quartz", (item, advanced, text) => { text.add(1, Text.gray("From sifting sand or nether blocks"));});
+
+    // Rare other ores
+    event.addAdvanced("minecraft:lapis_lazuli", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
+    event.addAdvanced("minecraft:diamond", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
+    event.addAdvanced("minecraft:emerald", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
+    
+
+
     // Crashed Blocks
     [
         "kubejs:crashed_reactor_controller",
