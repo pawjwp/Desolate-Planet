@@ -14,7 +14,7 @@ Desolate Planet is a challenging, quest-based modpack where you must struggle fo
 
 ***
 
-[![GitHub](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/github-plural_vector.svg)](https://github.com/MarkScedra/Crash-2) [![Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg)](https://discord.gg/4en3SpWtJg)
+[![GitHub](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/github-plural_vector.svg)](https://github.com/pawjwp/Desolate-Planet) [![Discord](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg)](https://discord.gg/4en3SpWtJg)
 
 **This pack is still under development.** This version will still have bugs, and feedback is welcome.
 
@@ -65,9 +65,9 @@ A: Generally no, you won’t have any issues. Only major releases break anything
 ### Q: Can I help develop/contribute to the modpack?
 
 A: Absolutely!
-*   For simple suggestions, create an [issue](https://github.com/MarkScedra/Crash-2/issues) or let us know on the [Discord](https://discord.gg/4en3SpWtJg).
+*   For simple suggestions, create an [issue](https://github.com/pawjwp/Desolate-Planet/issues) or let us know on the [Discord](https://discord.gg/4en3SpWtJg).
 *   For simpler submissions like textures, models, buildings, or other small files, you can send those to us and we can do the implementation work for you (if approved).
-*   For anything more complicated like full game mechanics, complex scripts, or large-scale config adjustments, you can submit a [pull request](https://github.com/MarkScedra/Crash-2/pulls) on GitHub. See our [Contributing Guide](https://github.com/MarkScedra/Crash-2?tab=contributing-ov-file) for information about setting up the modpack dev environment on your computer.
+*   For anything more complicated like full game mechanics, complex scripts, or large-scale config adjustments, you can submit a [pull request](https://github.com/pawjwp/Desolate-Planet/pulls) on GitHub. See our [Contributing Guide](https://github.com/pawjwp/Desolate-Planet?tab=contributing-ov-file) for information about setting up the modpack dev environment on your computer.
 
 ### Q: Do you have a roadmap/list of planned updates?
 
