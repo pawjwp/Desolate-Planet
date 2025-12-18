@@ -6,7 +6,10 @@
     "handle":  "kubejs:item/tool/crook/handle",
     "binding": "kubejs:item/tool/crook/binding"
   },
-  "modifier_roots": [ "kubejs:item/tool/crook/modifiers/" ],
+  "modifier_roots": [
+    "kubejs:item/tool/crook/modifiers/broken/",
+    "kubejs:item/tool/crook/modifiers/"
+  ],
   "parts": [
     { "name": "head",    "index": 0 },
     { "name": "handle",  "index": 1 },
