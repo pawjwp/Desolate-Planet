@@ -303,6 +303,55 @@
       "commandrewards": []
     },
     {
+      "uuid": "d7150e2a-3614-4a26-b1b6-ddff205497b7",
+      "name": {
+        "text": "Making it Rain",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Getting a food source is urgent, but crops grow slowly. The fertilizer in your survival package won\u0027t last very long, so investing in another way to speed up crop growth is a good idea.",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 156,
+      "icon": {
+        "id": "exdeorum:wooden_watering_can",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "longDescription": {
+            "text": "The watering can speeds up plant growth when used on crops. It can be upgraded to increase its capacity and range. ",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:wooden_watering_can",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "804f4329-c6f5-4df8-915c-c590329cf26c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "exdeorum:wooden_watering_can",
+          "Count": 1,
+          "tag": "{Fluid:{Amount:300,FluidName:\"minecraft:water\"}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "56df3115-bfa0-439e-991b-65737f857231",
       "name": {
         "text": "Bare Necessities",
@@ -615,54 +664,6 @@
         {
           "id": "minecraft:bowl",
           "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "3424029a-48f4-4a10-9a3f-8aad363dac6c",
-      "name": {
-        "text": "Now We\u0027re Cooking",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "A stove can provide heat to your pot, as well as allowing you to cook up to 6 food items at once on top of it. It contains heat well and is safer to stand near than a campfire.",
-        "isTranslationKey": false
-      },
-      "x": 190,
-      "y": 156,
-      "icon": {
-        "id": "farmersdelight:stove",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Stoves are made from a campfire, bricks, and iron. They can be extinguished with water or a shovel, and relit with flint and steel.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "farmersdelight:stove",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "1fce56b7-2d7a-47f0-af68-a81a4c080b71"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:charcoal",
-          "Count": 16
         }
       ],
       "rewardchoice": [],

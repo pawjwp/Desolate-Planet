@@ -143,54 +143,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
-      "name": {
-        "text": "Penny Lane",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Copper plating is often used in fluid transportation.",
-        "isTranslationKey": false
-      },
-      "x": 110,
-      "y": 165,
-      "icon": {
-        "id": "create:copper_sheet",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Copper plates are made from putting copper ingots into a mechanical press.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:copper_sheet",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
-        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:copper_ingot",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "68d15aff-b4ec-4d53-aa16-ff96ec851e11",
       "name": {
         "text": "Top Brass",
@@ -253,6 +205,54 @@
           "Count": 32
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
+      "name": {
+        "text": "Penny Lane",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Copper plating is often used in fluid transportation.",
+        "isTranslationKey": false
+      },
+      "x": 110,
+      "y": 165,
+      "icon": {
+        "id": "create:copper_sheet",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Copper plates are made from putting copper ingots into a mechanical press.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:copper_sheet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:copper_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -759,6 +759,45 @@
       "commandrewards": []
     },
     {
+      "uuid": "4e8ad6b7-41d0-4281-bbea-1e192a609e64",
+      "name": {
+        "text": "Full Steam Ahead",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The MAT unit is capable of providing a comprehensive guide to creating mechanical contraptions using rotational force, but also has an abbreviated guide that can be opted-into instead.",
+        "isTranslationKey": false
+      },
+      "x": 142,
+      "y": 21,
+      "icon": {
+        "id": "create:precision_mechanism",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "longDescription": {
+            "text": "Most of the Create mod is not required to complete this modpack. If you want the full guide to Create with 30+ quests, click the checkbox below. If not, complete the \"Down to Brass Tacks\" quest instead.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "099d1358-0b11-49f0-aa78-43531cd739b7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:builders_tea",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "9be2b0f4-dd15-4899-8956-ee4a0f5e8403",
       "name": {
         "text": "The Daily Grind",
@@ -799,45 +838,6 @@
         {
           "id": "minecraft:wheat",
           "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "4e8ad6b7-41d0-4281-bbea-1e192a609e64",
-      "name": {
-        "text": "Full Steam Ahead",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "The MAT unit is capable of providing a comprehensive guide to creating mechanical contraptions using rotational force, but also has an abbreviated guide that can be opted-into instead.",
-        "isTranslationKey": false
-      },
-      "x": 142,
-      "y": 21,
-      "icon": {
-        "id": "create:precision_mechanism",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:checkbox",
-          "longDescription": {
-            "text": "Most of the Create mod is not required to complete this modpack. If you want the full guide to Create with 30+ quests, click the checkbox below. If not, complete the \"Down to Brass Tacks\" quest instead.",
-            "isTranslationKey": false
-          }
-        }
-      ],
-      "prerequisites": [
-        "099d1358-0b11-49f0-aa78-43531cd739b7"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "create:builders_tea",
-          "Count": 1
         }
       ],
       "rewardchoice": [],

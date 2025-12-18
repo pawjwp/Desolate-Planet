@@ -621,6 +621,55 @@
       "commandrewards": []
     },
     {
+      "uuid": "3ffa13cb-b198-4e83-bab7-676d08834311",
+      "name": {
+        "text": "Power Struggle",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You\u0027ll need more power eventually, but making any kind of advanced machinery is difficult and often requires circuit boards. However, you can set up a basic source of power with the same fuel as a furnace.",
+        "isTranslationKey": false
+      },
+      "x": 142,
+      "y": 21,
+      "icon": {
+        "id": "industrialforegoing:pitiful_generator",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A pitiful generator can be powered with furnace fuel, charcoal or coal blocks are especially effective. However, the power generation is slow and generally inefficient.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:pitiful_generator",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:flux_capacitor",
+          "Count": 1,
+          "tag": "{Energy:500000}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "ef9a7c29-55ea-4296-a908-c350381b396a",
       "name": {
         "text": "Hot Mess",
@@ -1008,8 +1057,8 @@
         "text": "For further industrialization, you\u0027ll need to move items, fluids, and energy around. Time to set up the plumbing.",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 12,
+      "x": 174,
+      "y": 21,
       "icon": {
         "id": "enderio:item_conduit",
         "Count": 1
@@ -1352,7 +1401,7 @@
         }
       ],
       "prerequisites": [
-        "099d1358-0b11-49f0-aa78-43531cd739b7",
+        "bb5d7543-ddde-4734-8690-e2fa48963b5b",
         "9be2b0f4-dd15-4899-8956-ee4a0f5e8403"
       ],
       "optionlinks": [],

@@ -2,77 +2,6 @@
   "name": "Under Pressure",
   "quests": [
     {
-      "uuid": "8fc9c1ac-631c-4c2c-aabc-bb7eeb415c76",
-      "name": {
-        "text": "Raising the Bar",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "You may have noticed some machines require more pressure than an air compressor can provide. To get around that, you\u0027ll have to upgrade.",
-        "isTranslationKey": false
-      },
-      "x": 286,
-      "y": 102,
-      "icon": {
-        "id": "pneumaticcraft:advanced_air_compressor",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Advanced Pressure Tubes",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Advanced pressure tubes have a capacity of 20 bar, up from the 5 bar capacity of normal pressure tubes. They can also be upgraded for further functionality.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:advanced_pressure_tube",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Advanced Air Compressor",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "The advanced air compressor can generate pressure at a faster rate and up to a larger capacity than the standard air compressor.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:advanced_air_compressor",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "7ddff832-1aee-4299-bb6e-570e437fc74a",
-        "0426c2a9-95cc-49a7-a6c6-742dad08b167"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "thermal:energy_cell_frame",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "0426c2a9-95cc-49a7-a6c6-742dad08b167",
       "name": {
         "text": "Tools of the Trade",
@@ -183,6 +112,77 @@
         },
         {
           "id": "pneumaticcraft:printed_circuit_board",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8fc9c1ac-631c-4c2c-aabc-bb7eeb415c76",
+      "name": {
+        "text": "Raising the Bar",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You may have noticed some machines require more pressure than an air compressor can provide. To get around that, you\u0027ll have to upgrade.",
+        "isTranslationKey": false
+      },
+      "x": 286,
+      "y": 102,
+      "icon": {
+        "id": "pneumaticcraft:advanced_air_compressor",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Advanced Pressure Tubes",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Advanced pressure tubes have a capacity of 20 bar, up from the 5 bar capacity of normal pressure tubes. They can also be upgraded for further functionality.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:advanced_pressure_tube",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Advanced Air Compressor",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The advanced air compressor can generate pressure at a faster rate and up to a larger capacity than the standard air compressor.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:advanced_air_compressor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7ddff832-1aee-4299-bb6e-570e437fc74a",
+        "0426c2a9-95cc-49a7-a6c6-742dad08b167"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:energy_cell_frame",
           "Count": 1
         }
       ],

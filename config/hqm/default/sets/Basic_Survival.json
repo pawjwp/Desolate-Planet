@@ -2,6 +2,56 @@
   "name": "Basic Survival",
   "quests": [
     {
+      "uuid": "799cc1e8-bdff-4470-b5e1-b983ebfd6624",
+      "name": {
+        "text": "Sapping the Saplings",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
+        "isTranslationKey": false
+      },
+      "x": 78,
+      "y": 75,
+      "icon": {
+        "id": "minecraft:oak_sapling",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Make sure you don\u0027t use up all of your saplings, the only way to get more is from leaves or sifting dirt.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:water_bucket",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "Count": 2,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "89f755cb-748d-43d1-9430-0a3f3de8d907",
       "name": {
         "text": "Live to Fight Another Day",
@@ -12,7 +62,7 @@
         "isTranslationKey": false
       },
       "x": 94,
-      "y": 157,
+      "y": 156,
       "icon": {
         "id": "tconstruct:sword",
         "Count": 1,
@@ -63,56 +113,6 @@
           "Count": 32
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "799cc1e8-bdff-4470-b5e1-b983ebfd6624",
-      "name": {
-        "text": "Sapping the Saplings",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
-        "isTranslationKey": false
-      },
-      "x": 78,
-      "y": 75,
-      "icon": {
-        "id": "minecraft:oak_sapling",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Make sure you don\u0027t use up all of your saplings, the only way to get more is from leaves or sifting dirt.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:water_bucket",
-                "Count": 1,
-                "tag": "{}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:potion",
-          "Count": 2,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -257,7 +257,7 @@
         "isTranslationKey": false
       },
       "x": 46,
-      "y": 130,
+      "y": 129,
       "icon": {
         "id": "minecraft:skeleton_skull",
         "Count": 1
@@ -314,8 +314,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 14,
-      "y": 39,
+      "x": 30,
+      "y": 12,
       "icon": {
         "id": "create:mechanical_press",
         "Count": 1
@@ -401,6 +401,80 @@
       "commandrewards": []
     },
     {
+      "uuid": "bb5d7543-ddde-4734-8690-e2fa48963b5b",
+      "name": {
+        "text": "Metal Detector",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Uncommon metals and crystals can be found by sifting sand, gravel, and crushed deepslate.",
+        "isTranslationKey": false
+      },
+      "x": 222,
+      "y": 102,
+      "icon": {
+        "id": "thermal:silver_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Sifting dust drops iron, copper, gold, and redstone.\nSifting sand drops iron, tin, zinc, nickel, quartz, and certus quartz.\nSifting gravel drops iron, copper, gold, tin, zinc, nickel, lead, silver, coal, and redstone \nSifting crushed deepslate drops iron, copper, gold, silver, lead, redstone, lapis, diamonds, and emeralds.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:tin_ingot",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:nickel_ingot",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:zinc_ingot",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:silver_ingot",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:lead_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8859440a-9852-445c-b1d6-15edc20c368c"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:diamond",
+          "Count": 3
+        },
+        {
+          "id": "exdeorum:golden_mesh",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "804f4329-c6f5-4df8-915c-c590329cf26c",
       "name": {
         "text": "By Hook or by Crook",
@@ -432,7 +506,7 @@
                 "Count": 1,
                 "tag": "{Damage:0}"
               },
-              "precision": "FUZZY"
+              "precision": "TAG_FUZZY"
             }
           ]
         }
@@ -551,11 +625,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Hammers can be used to crush stone into finer and finer pieces. Cobblestone can be crushed into gravel, gravel into sand, and sand into dust, though T4L0S has a lot of readily available dust on the surface already.",
+        "text": "The surface of T4L0S is covered in siftable dust, and sand, gravel, and crushed deepslate can be found underground for sifting. These blocks can also be made by crushing other blocks with a hammer. Hammers can be used to crush cobblestone into gravel, gravel into sand, and sand into dust.",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 102,
+      "x": 126,
+      "y": 156,
       "icon": {
         "id": "exdeorum:wooden_hammer",
         "Count": 1,
@@ -586,7 +660,7 @@
         }
       ],
       "prerequisites": [
-        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
+        "804f4329-c6f5-4df8-915c-c590329cf26c"
       ],
       "optionlinks": [],
       "reward": [
@@ -986,55 +1060,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "3ffa13cb-b198-4e83-bab7-676d08834311",
-      "name": {
-        "text": "Power Struggle",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "You\u0027ll need more power eventually, but making any kind of advanced machinery is difficult and often requires circuit boards. However, you can set up a basic source of power with the same fuel as a furnace.",
-        "isTranslationKey": false
-      },
-      "x": 254,
-      "y": 102,
-      "icon": {
-        "id": "industrialforegoing:pitiful_generator",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "A pitiful generator can be powered with furnace fuel, charcoal or coal blocks are especially effective. However, the power generation is slow and generally inefficient.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "industrialforegoing:pitiful_generator",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "thermal:flux_capacitor",
-          "Count": 1,
-          "tag": "{Energy:500000}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "496abe96-0a4d-47e9-9e30-e87ea63d3888",
       "name": {
         "text": "Old Soul",
@@ -1045,7 +1070,7 @@
         "isTranslationKey": false
       },
       "x": 126,
-      "y": 49,
+      "y": 48,
       "icon": {
         "id": "minecraft:soul_sand",
         "Count": 1
@@ -1175,7 +1200,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can get flint from sifting gravel, which can be crushed from cobblestone.",
+            "text": "You can get flint from sifting gravel, which can be crushed from cobblestone with a hammer or found by digging underground.",
             "isTranslationKey": false
           },
           "items": [
@@ -1189,16 +1214,20 @@
         }
       ],
       "prerequisites": [
-        "485801ed-15cb-43f9-ac50-1e31cf9c97a0"
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
       ],
       "optionlinks": [],
-      "reward": [
+      "reward": [],
+      "rewardchoice": [
         {
-          "id": "minecraft:hopper",
-          "Count": 1
+          "id": "minecraft:iron_ore",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:gold_ore",
+          "Count": 4
         }
       ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1244,55 +1273,6 @@
         {
           "id": "thermal:cured_rubber",
           "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d7150e2a-3614-4a26-b1b6-ddff205497b7",
-      "name": {
-        "text": "Making it Rain",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Getting a food source is urgent, but crops grow slowly. The fertilizer in your survival package won\u0027t last very long, so investing in another way to speed up crop growth is a good idea.",
-        "isTranslationKey": false
-      },
-      "x": 126,
-      "y": 156,
-      "icon": {
-        "id": "exdeorum:wooden_watering_can",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "longDescription": {
-            "text": "The watering can speeds up plant growth when used on crops. It can be upgraded to increase its capacity and range. ",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:wooden_watering_can",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "804f4329-c6f5-4df8-915c-c590329cf26c"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "exdeorum:wooden_watering_can",
-          "Count": 1,
-          "tag": "{Fluid:{Amount:300,FluidName:\"minecraft:water\"}}"
         }
       ],
       "rewardchoice": [],
@@ -1452,7 +1432,7 @@
         "text": "Sometimes, one life just isn\u0027t enough. In those cases, you can use Shell Storage to keep extra shells around. When you die, you will be sent to a random shell.",
         "isTranslationKey": false
       },
-      "x": 318,
+      "x": 286,
       "y": 102,
       "icon": {
         "id": "sync:shell_storage",
@@ -1576,14 +1556,14 @@
     {
       "uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
       "name": {
-        "text": "Metal Detector",
+        "text": "Bare Metal",
         "isTranslationKey": false
       },
       "description": {
-        "text": "What T4L0S lacks in water, it makes up for in metals. If you spend some time sifting the dust, you should be able to get enough metal to set up some infrastructure.",
+        "text": "What T4L0S lacks in water, it makes up for in metals. If you spend some time sifting, you should be able to get enough metal to set up some infrastructure.",
         "isTranslationKey": false
       },
-      "x": 222,
+      "x": 158,
       "y": 102,
       "icon": {
         "id": "minecraft:iron_ingot",
@@ -1617,36 +1597,21 @@
                 "id": "minecraft:gold_ingot",
                 "Count": 1
               }
-            },
-            {
-              "item": {
-                "id": "thermal:tin_ingot",
-                "Count": 1
-              },
-              "precision": "FUZZY"
             }
           ]
         }
       ],
       "prerequisites": [
-        "8859440a-9852-445c-b1d6-15edc20c368c"
+        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
+      "reward": [
         {
-          "id": "minecraft:iron_ore",
-          "Count": 16
-        },
-        {
-          "id": "minecraft:gold_ore",
-          "Count": 4
-        },
-        {
-          "id": "minecraft:diamond",
-          "Count": 2
+          "id": "minecraft:hopper",
+          "Count": 1
         }
       ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1729,7 +1694,7 @@
         "text": "This planet is full of hazards and hostiles. You will eventually need to venture out of the confines of your ship, but that poses a lot of risks. However, with a bit of effort, you may be able to give yourself a second chance if the worst happens. A Shell Constructor is the key to life after (first) death. Once you make one, you will need to provide energy and a blood sample and it will build you a new body.",
         "isTranslationKey": false
       },
-      "x": 286,
+      "x": 254,
       "y": 102,
       "icon": {
         "id": "sync:sync_core",
@@ -1760,8 +1725,9 @@
         }
       ],
       "prerequisites": [
+        "a63b8539-ab2c-4741-a920-afc5081deb38",
         "3ffa13cb-b198-4e83-bab7-676d08834311",
-        "a63b8539-ab2c-4741-a920-afc5081deb38"
+        "bb5d7543-ddde-4734-8690-e2fa48963b5b"
       ],
       "optionlinks": [],
       "reward": [
