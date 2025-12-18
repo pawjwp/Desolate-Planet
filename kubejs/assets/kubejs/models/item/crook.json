@@ -2,11 +2,11 @@
   "loader": "tconstruct:tool",
   "parent": "forge:item/default-tool",
   "textures": {
-    "head":    "desolate_planet:item/tool/crook/head",
-    "handle":  "desolate_planet:item/tool/crook/handle",
-    "binding": "desolate_planet:item/tool/crook/binding"
+    "head":    "kubejs:item/tool/crook/head",
+    "handle":  "kubejs:item/tool/crook/handle",
+    "binding": "kubejs:item/tool/crook/binding"
   },
-  "modifier_roots": [ "desolate_planet:item/tool/crook/modifiers/" ],
+  "modifier_roots": [ "kubejs:item/tool/crook/modifiers/" ],
   "parts": [
     { "name": "head",    "index": 0 },
     { "name": "handle",  "index": 1 },
@@ -15,7 +15,7 @@
   "overrides": [
     {
       "predicate": { "tconstruct:broken": 1 },
-      "model": "desolate_planet:item/tool/crook/broken"
+      "model": "kubejs:item/crook_broken"
     }
   ]
 }

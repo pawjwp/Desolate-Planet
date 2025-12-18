@@ -1,6 +1,6 @@
 ServerEvents.tags('item', event => {
-	let crook_tags = [
-	    'exdeorum:crooks',
+	[
+		'exdeorum:crooks',
 		'forge:tools',
 		'minecraft:tools',
 		'tconstruct:modifiable',
@@ -19,9 +19,7 @@ ServerEvents.tags('item', event => {
 		'tconstruct:modifiable/small',
 		'tleveling:tinker_mining',
 		'tleveling:tinker_tools'
-	]
-	crook_tags.forEach(function(tag, index) {
-        event.add(tag, 'desolate_planet:crook')
-    });
-
+	].forEach(tag => {
+		event.add(tag, 'kubejs:crook')
+	});
 })

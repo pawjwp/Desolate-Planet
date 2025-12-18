@@ -4,7 +4,7 @@ const $ToolDefinition = Java.loadClass("slimeknights.tconstruct.library.tools.de
 
 StartupEvents.registry("item", (event) => {
   event.createCustom(
-    "desolate_planet:crook",
-    () => new $ModifiableItem(new $ItemProperties().stacksTo(1), $ToolDefinition.create("desolate_planet:crook"))
+    "kubejs:crook",
+    () => new $ModifiableItem(new $ItemProperties().stacksTo(1), $ToolDefinition.create("kubejs:crook"))
   );
 });
