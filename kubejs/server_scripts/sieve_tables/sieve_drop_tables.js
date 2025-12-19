@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
         'exdeorum:compressed_gravel',
         `
             exdeorum:iron_ore_chunk	6.3	25	30	35	40	45
-            minecraft:flint	16	19.2	22.4	25.6	28.8	32
+            minecraft:flint	25	20	15	10	5	0
             exdeorum:copper_ore_chunk	14	16.8	19.6	22.4	25.2	28
             minecraft:coal	12	14.4	16.8	19.2	21.6	24
             exdeorum:zinc_ore_chunk	0	2	8	9.6	11.2	12.8
@@ -120,9 +120,9 @@ ServerEvents.recipes(event => {
         'exdeorum:dust',
         'exdeorum:compressed_dust',
         `
+            exdeorum:stone_pebble	30	24	18	12	6	0
             exdeorum:iron_ore_chunk	5	20	24	28	32	36
             minecraft:bone_meal	18	21.6	25.2	28.8	32.4	36
-            exdeorum:stone_pebble	15	18	21	24	27	30
             minecraft:redstone	3	12	14.4	16.8	19.2	21.6
             mekanism:salt	12	14.4	16.8	19.2	21.6	24
             exdeorum:copper_ore_chunk	10	12	14	16	18	20
@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
         'minecraft:dirt',
         'exdeorum:compressed_dirt',
         `
-            exdeorum:stone_pebble	180	216	252	288	324	360
+            exdeorum:stone_pebble	250	200	150	100	50	0
             exdeorum:grass_seeds	2	8	9.6	11.2	12.8	14.4
             farmersdelight:rice	6	7.2	8.4	9.6	10.8	12
             minecraft:wheat_seeds	5	6	7	8	9	10
