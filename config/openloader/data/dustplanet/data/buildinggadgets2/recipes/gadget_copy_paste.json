@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "buildinggadgets2",
+  "key": {
+    "d": {
+      "tag": "forge:gems/diamond"
+    },
+    "E": {
+      "tag": "forge:ender_pearls"
+    },
+    "i": {
+      "tag": "forge:ingots/invar"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "P": {
+      "item": "kubejs:pcb_segment"
+    }
+  },
+  "pattern": [
+    "idi",
+    "pEp",
+    "iPi"
+  ],
+  "result": {
+    "item": "buildinggadgets2:gadget_copy_paste"
+  },
+  "show_notification": true
+}

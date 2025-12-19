@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "buildinggadgets2",
+  "key": {
+    "C": {
+      "item": "enderio:pulsating_crystal"
+    },
+    "i": {
+      "tag": "forge:ingots/invar"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "P": {
+      "item": "kubejs:pcb_segment"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "pattern": [
+    "iCi",
+    "pTp",
+    "iPi"
+  ],
+  "result": {
+    "item": "buildinggadgets2:gadget_cut_paste"
+  },
+  "show_notification": true
+}

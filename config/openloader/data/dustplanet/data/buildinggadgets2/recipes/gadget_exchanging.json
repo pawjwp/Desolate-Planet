@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "buildinggadgets2",
+  "key": {
+    "e": {
+      "tag": "forge:gems/emerald"
+    },
+    "E": {
+      "tag": "forge:ender_pearls"
+    },
+    "i": {
+      "tag": "forge:ingots/invar"
+    },
+    "P": {
+      "item": "kubejs:pcb_segment"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "iei",
+    "rEr",
+    "iPi"
+  ],
+  "result": {
+    "item": "buildinggadgets2:gadget_exchanging"
+  },
+  "show_notification": true
+}

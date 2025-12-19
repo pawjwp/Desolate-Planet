@@ -1,34 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "DOD",
-    "Q#Q",
-    "ERE"
+    "LDL",
+    "QEQ",
+    "LDL"
   ],
   "key": {
     "D": {
-      "item": "minecraft:daylight_detector"
-    },
-    "O": {
-      "item": "minecraft:lapis_block"
-    },
-    "Q": {
-      "item": "minecraft:quartz"
-    },
-    "#": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:diamond"
     },
     "E": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:ender_pearl"
     },
-    "R": {
-      "item": "minecraft:redstone_block"
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "Q": {
+      "tag": "ae2:all_certus_quartz"
     }
   },
   "result": {
     "item": "sync:sync_core"
-  },
-  "smart_recipes:conditions": {
-    "not": "is_hardcore"
   }
 }

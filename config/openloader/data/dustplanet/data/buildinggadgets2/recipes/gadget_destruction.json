@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "buildinggadgets2",
+  "key": {
+    "C": {
+      "item": "enderio:pulsating_crystal"
+    },
+    "i": {
+      "tag": "forge:ingots/invar"
+    },
+    "P": {
+      "item": "kubejs:pcb_segment"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "pattern": [
+    "iCi",
+    "rTr",
+    "iPi"
+  ],
+  "result": {
+    "item": "buildinggadgets2:gadget_destruction"
+  },
+  "show_notification": true
+}
