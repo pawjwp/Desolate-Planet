@@ -2,11 +2,29 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 4,
+      "weight": 11,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:empty",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "crash_landing:city/building/billboard",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "crash_landing:city/building/bus_stop",
         "processors": "minecraft:empty"
       }
     },
@@ -79,6 +97,15 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "crash_landing:city/building/apartment_small_1",
+        "processors": "crash_landing:building_deteriorate"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "crash_landing:city/building/apartment_big_1",
         "processors": "crash_landing:building_deteriorate"
       }
     },
