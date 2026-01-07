@@ -1,15 +1,15 @@
 {
   "icon": {
-    "item": "kubejs:crook",
+    "item": "kubejs:crushing_hammer",
     "nbt": "{Damage:0,tic_broken:0b,tic_display:1b,tic_materials:[\"tconstruct:ui_render#head\",\"tconstruct:ui_render#handle\",\"tconstruct:ui_render#extra\",\"tconstruct:ui_render#large\",\"tconstruct:ui_render#extra_large\"]}"
   },
   "input_slots": [
     {
       "filter": {
-        "item": "tconstruct:adze_head"
+        "item": "tconstruct:hammer_head"
       },
-      "icon": "tconstruct:adze_head",
-      "translation_key": "item.tconstruct.adze_head",
+      "icon": "tconstruct:hammer_head",
+      "translation_key": "item.tconstruct.hammer_head",
       "x": 48,
       "y": 26
     },
@@ -24,14 +24,14 @@
     },
     {
       "filter": {
-        "item": "tconstruct:tool_handle"
+        "item": "tconstruct:tool_binding"
       },
-      "icon": "tconstruct:tool_handle",
-      "translation_key": "item.tconstruct.tool_handle",
+      "icon": "tconstruct:tool_binding",
+      "translation_key": "item.tconstruct.tool_binding",
       "x": 30,
       "y": 44
     }
   ],
   "sortIndex": 2,
-  "translation_key": "item.kubejs.crook"
+  "translation_key": "item.kubejs.crushing_hammer"
 }
