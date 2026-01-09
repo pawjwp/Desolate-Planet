@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "kubejs:block/ship_chair/yellow",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "kubejs:block/ship_chair/yellow",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "kubejs:block/ship_chair/yellow"
+    },
+    "facing=west": {
+      "model": "kubejs:block/ship_chair/yellow",
+      "y": 90
+    }
+  }
+}
