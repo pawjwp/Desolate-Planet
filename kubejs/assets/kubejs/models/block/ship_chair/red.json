@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/button",
+  "parent": "kubejs:block/ship_chair/white",
   "textures": {
 	"2": "kubejs:block/ship_chair/red"
   }

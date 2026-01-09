@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=south,half=lower": {
+      "model": "sync:block/shell_storage_lower"
+    },
+    "facing=west,half=lower": {
+      "model": "sync:block/shell_storage_lower",
+	  "y": 90
+    },
+    "facing=north,half=lower": {
+      "model": "sync:block/shell_storage_lower",
+	  "y": 180
+    },
+    "facing=east,half=lower": {
+      "model": "sync:block/shell_storage_lower",
+	  "y": 270
+    },
+
+
+    "facing=south,half=upper,powered=false": {
+      "model": "sync:block/shell_storage_upper"
+    },
+    "facing=west,half=upper,powered=false": {
+      "model": "sync:block/shell_storage_upper",
+	  "y": 90
+    },
+    "facing=north,half=upper,powered=false": {
+      "model": "sync:block/shell_storage_upper",
+	  "y": 180
+    },
+    "facing=east,half=upper,powered=false": {
+      "model": "sync:block/shell_storage_upper",
+	  "y": 270
+    },
+
+    "facing=south,half=upper,powered=true": {
+      "model": "sync:block/shell_storage_upper_powered"
+    },
+    "facing=west,half=upper,powered=true": {
+      "model": "sync:block/shell_storage_upper_powered",
+	  "y": 90
+    },
+    "facing=north,half=upper,powered=true": {
+      "model": "sync:block/shell_storage_upper_powered",
+	  "y": 180
+    },
+    "facing=east,half=upper,powered=true": {
+      "model": "sync:block/shell_storage_upper_powered",
+	  "y": 270
+    }
+  }
+}

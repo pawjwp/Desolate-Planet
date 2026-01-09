@@ -4,13 +4,21 @@ const $ToolDefinition = Java.loadClass("slimeknights.tconstruct.library.tools.de
 const ResourceLocation = Java.loadClass("net.minecraft.resources.ResourceLocation");
 
 StartupEvents.registry("item", (event) => {
+
   event.createCustom(
     "kubejs:crook",
     () => new $ModifiableItem(new $ItemProperties().stacksTo(1), $ToolDefinition.create("kubejs:crook"))
   );
+
+  event.createCustom(
+    "kubejs:crushing_hammer",
+    () => new $ModifiableItem(new $ItemProperties().stacksTo(1), $ToolDefinition.create("kubejs:crushing_hammer"))
+  );
+
 });
 
 ItemEvents.modelProperties((event) => {
+
   event.register(
     "kubejs:crook",
     new ResourceLocation("tconstruct:broken"),
@@ -21,4 +29,16 @@ ItemEvents.modelProperties((event) => {
       return isBroken ? 1 : 0;
     }
   );
+
+  event.register(
+    "kubejs:crushing_hammer",
+    new ResourceLocation("tconstruct:broken"),
+    /** @type {Internal.BooleanItemPropertyFunction} */
+    (stack) => {
+      if (!stack || !stack.nbt) return 0;
+      const isBroken = stack.nbt.contains("tic_broken") && stack.nbt.getBoolean("tic_broken");
+      return isBroken ? 1 : 0;
+    }
+  );
+
 });

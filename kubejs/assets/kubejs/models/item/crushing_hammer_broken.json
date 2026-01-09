@@ -1,0 +1,18 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "head":    "kubejs:item/tool/crushing_hammer/head_broken",
+    "handle":  "kubejs:item/tool/crushing_hammer/handle",
+    "binding": "kubejs:item/tool/crushing_hammer/binding"
+  },
+  "modifier_roots": [
+    "kubejs:item/tool/crushing_hammer/modifiers/broken/",
+    "kubejs:item/tool/crushing_hammer/modifiers/"
+  ],
+  "parts": [
+    { "name": "head",    "index": 0 },
+    { "name": "handle",  "index": 1 },
+    { "name": "binding", "index": 2 }
+  ]
+}

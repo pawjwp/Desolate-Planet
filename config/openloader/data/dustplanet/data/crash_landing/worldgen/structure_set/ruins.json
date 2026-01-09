@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "crash_landing:ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation":16,
+    "spread_type": "triangular",
+    "salt": 122567551,
+    "frequency": 0.2
+  }
+}
