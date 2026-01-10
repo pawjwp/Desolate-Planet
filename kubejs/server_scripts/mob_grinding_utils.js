@@ -399,4 +399,8 @@ ServerEvents.recipes(event => {
             X: '#desolate_planet:experience_buckets'
         }
     ).id('desolate_planet:mob_grinding_utils/spawner_upgrade_width')
+
+    // Now found in nuclear plant loot
+    event.remove({ id: 'mob_grinding_utils:recipe_nutritious_feed' })
+    event.remove({ id: 'mob_grinding_utils:recipe_cursed_feed' })
 })
