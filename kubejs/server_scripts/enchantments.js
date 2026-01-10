@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
     enderIOEnchantmentRecipe(1, 'cgm:over_capacity', 'pneumaticcraft:ingot_iron_compressed', 4)
     enderIOEnchantmentRecipe(2, 'cgm:reclaimed', 'pneumaticcraft:printed_circuit_board', 1)
     enderIOEnchantmentRecipe(2, 'cgm:accelerator', 'minecraft:firework_rocket', 12)
-    enderIOEnchantmentRecipe(1, 'cgm:puncturing', 'thermal:steel_ingot', 8)
+    enderIOEnchantmentRecipe(1, 'cgm:puncturing', 'thermal:lead_ingot', 8)
     enderIOEnchantmentRecipe(2, 'cgm:fire_starter', 'minecraft:fire_charge', 24)
 
     enderIOEnchantmentRecipe(1, 'create:capacity', 'create:fluid_tank', 1)
