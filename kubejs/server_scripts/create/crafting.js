@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
 		], {
 			R: 'thermal:cured_rubber'
 		}
-	).id('crash_landing:create/crafting/belt_connector')
+	).id('desolate_planet:create/crafting/belt_connector')
 
 	event.shaped('create:belt_connector', [
 			'RRR',
@@ -15,6 +15,6 @@ ServerEvents.recipes(event => {
 		], {
 			R: 'thermal:rubber'
 		}
-	).id('crash_landing:create/crafting/belt_connector_raw')
+	).id('desolate_planet:create/crafting/belt_connector_raw')
 
 })

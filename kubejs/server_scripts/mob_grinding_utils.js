@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
             M: '#forge:storage_blocks/iron',
             S: 'thermal:redstone_servo'
         }
-    ).id('crash_landing:mob_grinding_utils/fan')
+    ).id('desolate_planet:mob_grinding_utils/fan')
 
     event.remove({ id: 'mob_grinding_utils:recipe_tank_sink' })
     event.shaped(
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
             B: 'minecraft:iron_bars',
             T: 'mob_grinding_utils:tank'
         }
-    ).id('crash_landing:mob_grinding_utils/tank_sink')
+    ).id('desolate_planet:mob_grinding_utils/tank_sink')
 
     event.remove({ id: 'mob_grinding_utils:recipe_jumbotank' })
     event.shaped(
@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
             T: 'pneumaticcraft:huge_tank',
             C: 'pneumaticcraft:printed_circuit_board'
         }
-    ).id('crash_landing:mob_grinding_utils/jumbo_tank')
+    ).id('desolate_planet:mob_grinding_utils/jumbo_tank')
     event.shaped(
         Item.of('mob_grinding_utils:jumbo_tank'),
         [
@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
             T: 'mekanism:ultimate_fluid_tank',
             C: 'pneumaticcraft:printed_circuit_board'
         }
-    ).id('crash_landing:mob_grinding_utils/jumbo_tank_mek')
+    ).id('desolate_planet:mob_grinding_utils/jumbo_tank_mek')
 
     event.remove({ id: 'mob_grinding_utils:recipe_spikes' })
     event.shaped(
@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
             I: '#forge:ingots/iron',
             B: '#forge:storage_blocks/iron'
         }
-    ).id('crash_landing:mob_grinding_utils/spikes')
+    ).id('desolate_planet:mob_grinding_utils/spikes')
 
     event.remove({ id: 'mob_grinding_utils:recipe_saw' })
     event.shaped(
@@ -84,5 +84,5 @@ ServerEvents.recipes(event => {
             S: 'thermal:saw_blade',
             M: '#desolate_planet:machine_frame'
         }
-    ).id('crash_landing:mob_grinding_utils/saw')
+    ).id('desolate_planet:mob_grinding_utils/saw')
 })

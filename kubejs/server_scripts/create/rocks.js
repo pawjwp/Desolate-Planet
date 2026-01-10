@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
 		result: {
 			item: 'create:asurine'
 		}
-	})
+	}).id('desolate_planet:create/rocks/asurine')
 
 	event.custom({
 		type: 'tconstruct:casting_basin',
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
 		result: {
 			item: 'create:veridium'
 		}
-	})
+	}).id('desolate_planet:create/rocks/veridium')
 
 	event.custom({
 		type: 'tconstruct:casting_basin',
@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
 		result: {
 			item: 'create:crimsite'
 		}
-	})
+	}).id('desolate_planet:create/rocks/crimsite')
 
 	event.custom({
 		type: 'tconstruct:casting_basin',
@@ -62,6 +62,6 @@ ServerEvents.recipes(event => {
 		result: {
 			item: 'create:ochrum'
 		}
-	})
+	}).id('desolate_planet:create/rocks/ochrum')
 
 })
