@@ -53,10 +53,22 @@ ItemEvents.tooltip(event => {
     });
 
     // Sieving blocks
-    event.addAdvanced("exdeorum:dust", (item, advanced, text) => { text.add(1, Text.gray("Sifts into common ore chunks, plus redstone, bone meal, and pebbles"));});
-    event.addAdvanced("minecraft:sand", (item, advanced, text) => { text.add(1, Text.gray("Sifts into uncommon ore chunks, plus quartz and certus quartz"));});
-    event.addAdvanced("minecraft:gravel", (item, advanced, text) => { text.add(1, Text.gray("Sifts into common, uncommon, and rare ore chunks, plus flint, coal, and redstone"));});
-    event.addAdvanced("exdeorum:crushed_deepslate", (item, advanced, text) => { text.add(1, Text.gray("Sifts into common, rare, and very rare ore chunks, plus redstone, lapis, and gemstones"));});
+    event.addAdvanced("exdeorum:dust", (item, advanced, text) => {
+        text.add(1, Text.gray("Found across the surface or made from crushing sand"));
+        text.add(2, Text.gray("Sifts into common ore chunks, plus redstone, bone meal, and pebbles"));
+    });
+    event.addAdvanced("minecraft:sand", (item, advanced, text) => {
+        text.add(1, Text.gray("Found underground or made from crushing gravel"));
+        text.add(2, Text.gray("Sifts into uncommon ore chunks, plus quartz and certus quartz"));
+    });
+    event.addAdvanced("minecraft:gravel", (item, advanced, text) => {
+        text.add(1, Text.gray("Found underground or made from crushing cobblestone"));
+        text.add(2, Text.gray("Sifts into common, uncommon, and rare ore chunks, plus flint, coal, and redstone"));
+    });
+    event.addAdvanced("exdeorum:crushed_deepslate", (item, advanced, text) => {
+        text.add(1, Text.gray("Found deep underground or made from crushing deepslate"));
+        text.add(2, Text.gray("Sifts into common, rare, and very rare ore chunks, plus redstone, lapis, and gemstones"));
+    });
     
     event.addAdvanced("minecraft:red_sand", (item, advanced, text) => { text.add(1, Text.gray("Sifts into common ore chunks, plus redstone and quartz"));});
 
