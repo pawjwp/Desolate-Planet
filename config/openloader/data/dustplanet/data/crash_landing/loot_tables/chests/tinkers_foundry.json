@@ -9,38 +9,6 @@
       },
       "entries": [
         {
-          "type": "minecraft:tag",
-          "name": "tconstruct:casts/gold",
-          "expand": true,
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tconstruct:scorched_brick",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 4
-              },
-              "add": false
-            }
-          ]
-        },
-        {
           "type": "minecraft:item",
           "name": "kubejs:dust_pile",
           "weight": 15,
@@ -58,8 +26,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "tconstruct:nether_grout",
-          "weight": 5,
+          "name": "minecraft:cobweb",
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -74,15 +42,63 @@
         },
         {
           "type": "minecraft:item",
-          "name": "tconstruct:raw_cobalt",
+          "name": "tconstruct:scorched_brick",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 12
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:nether_grout",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "tconstruct:casts/gold",
+          "expand": true,
           "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_rod",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
-                "max": 2
+                "max": 4
               },
               "add": false
             }
@@ -91,7 +107,7 @@
         {
           "type": "minecraft:item",
           "name": "thermal:bronze_ingot",
-          "weight": 5,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -99,6 +115,38 @@
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:raw_cobalt",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tconstruct:cobalt_ingot",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
               },
               "add": false
             }
@@ -113,8 +161,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 5
+                "min": 2,
+                "max": 8
               },
               "add": false
             }
@@ -123,14 +171,14 @@
         {
           "type": "minecraft:item",
           "name": "tconstruct:hepatizon_ingot",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
+                "min": 2,
+                "max": 4
               },
               "add": false
             }
@@ -138,16 +186,28 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cobweb",
-          "weight": 15,
+          "name": "minecraft:netherite_scrap",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 3
+                "max": 2
               },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
               "add": false
             }
           ]
