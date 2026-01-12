@@ -140,20 +140,20 @@ ServerEvents.recipes(event => {
             minecraft:wheat_seeds	5	6	7	8	9	10
             legumedelight:beans	4	4.8	5.6	6.4	7.2	8
             legumedelight:peanuts	4	4.8	5.6	6.4	7.2	8
-            minecraft:sugar_cane	1	4	4.8	5.6	6.4	7.2
-            minecraft:oak_sapling	0.8	3	3.6	4.2	4.8	5.4
-            minecraft:potato	0.6	2.5	3	3.5	4	4.5
+            scarcity:sugar_cane_seeds	1	4	4.8	5.6	6.4	7.2
+            scarcity:oak_seed	0.8	3	3.6	4.2	4.8	5.4
+            scarcity:potato_seeds	0.6	2.5	3	3.5	4	4.5
             farmersdelight:tomato_seeds	2	2.4	2.8	3.2	3.6	4
-            thermal:rubberwood_sapling	0	0.5	2	2.4	2.8	3.2
-            farmersdelight:onion	0.4	1.5	1.8	2.1	2.4	2.7
-            minecraft:carrot	0.4	1.5	1.8	2.1	2.4	2.7
-            minecraft:spruce_sapling	0.3	1	1.2	1.4	1.6	1.8
-            minecraft:birch_sapling	0.3	1	1.2	1.4	1.6	1.8
-            minecraft:sweet_berries	1	1.2	1.4	1.6	1.8	2
+            scarcity:rubberwood_seed	0	0.5	2	2.4	2.8	3.2
+            scarcity:onion_seeds	0.4	1.5	1.8	2.1	2.4	2.7
+            scarcity:carrot_seeds	0.4	1.5	1.8	2.1	2.4	2.7
+            scarcity:spruce_seed	0.3	1	1.2	1.4	1.6	1.8
+            scarcity:birch_seed	0.3	1	1.2	1.4	1.6	1.8
+            scarcity:sweet_berry_seeds	1	1.2	1.4	1.6	1.8	2
             farmersdelight:cabbage_seeds	0.3	1	1.2	1.4	1.6	1.8
             minecraft:beetroot_seeds	0.3	1	1.2	1.4	1.6	1.8
-            minecraft:bamboo	0	0.3	1	1.2	1.4	1.6
-            minecraft:cactus	0	0.3	1	1.2	1.4	1.6
+            scarcity:bamboo_seeds	0	0.3	1	1.2	1.4	1.6
+            scarcity:cactus_seeds	0	0.3	1	1.2	1.4	1.6
             minecraft:cocoa_beans	0	0.3	1	1.2	1.4	1.6
             minecraft:melon_seeds	0	0.3	1	1.2	1.4	1.6
             minecraft:pumpkin_seeds	0	0.3	1	1.2	1.4	1.6
@@ -190,18 +190,18 @@ ServerEvents.recipes(event => {
         'minecraft:podzol',
         null,
         `
-            minecraft:spruce_sapling	5	20	24	28	32	36
+            scarcity:spruce_seed	5	20	24	28	32	36
             minecraft:slime_ball	5	20	24	28	32	36
             tconstruct:sky_slime_ball	2.5	10	12	14	16	18
-            minecraft:oak_sapling	2	8	9.6	11.2	12.8	14.4
-            minecraft:dark_oak_sapling	1.3	5	6	7	8	9
+            scarcity:oak_seed	2	8	9.6	11.2	12.8	14.4
+            scarcity:dark_oak_seed	1.3	5	6	7	8	9
             tconstruct:earth_slime_sapling	0	1.3	5	6	7	8
-            minecraft:jungle_sapling	0.8	3	3.6	4.2	4.8	5.4
+            scarcity:jungle_seed	0.8	3	3.6	4.2	4.8	5.4
             tconstruct:earth_slime_grass_seeds	0.8	3	3.6	4.2	4.8	5.4
             tconstruct:sky_slime_sapling	0	0.8	3	3.6	4.2	4.8
-            minecraft:birch_sapling	0.5	2	2.4	2.8	3.2	3.6
-            minecraft:acacia_sapling	0.5	2	2.4	2.8	3.2	3.6
-            minecraft:cherry_sapling	0.5	2	2.4	2.8	3.2	3.6
+            scarcity:birch_seed	0.5	2	2.4	2.8	3.2	3.6
+            scarcity:acacia_seed	0.5	2	2.4	2.8	3.2	3.6
+            scarcity:cherry_seed	0.5	2	2.4	2.8	3.2	3.6
             minecraft:mangrove_propagule	0	0.5	2	2.4	2.8	3.2
             exdeorum:grass_seeds	0.3	1	1.2	1.4	1.6	1.8
             tconstruct:sky_slime_grass_seeds	0.3	1	1.2	1.4	1.6	1.8
