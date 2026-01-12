@@ -13,4 +13,3 @@ restoreDedicatedCommands = true
 # Whether to use whitelists on LAN worlds
 # default: false
 useWhiteList = false
-
