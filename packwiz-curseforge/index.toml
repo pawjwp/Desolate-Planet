@@ -7766,6 +7766,11 @@ hash = "a2967afbd695d6fb52f1a693aef4f4f062b244e43067546687caf6e0b04ab0fa"
 metafile = true
 
 [[files]]
+file = "mods/cb-multipart.pw.toml"
+hash = "6f9ada4ae8dfcf29a7071e0eec596d8408e6e9091385db8fd1cddd0c2d89217a"
+metafile = true
+
+[[files]]
 file = "mods/chipped-express.pw.toml"
 hash = "64de0920802dd64b4e4d0ab114437f3e76bc4b3b30bd6cc4e1a9b34a2bd4986b"
 metafile = true
@@ -7787,7 +7792,7 @@ metafile = true
 
 [[files]]
 file = "mods/codechicken-lib-1-8.pw.toml"
-hash = "78546ced03dbef0abd454f5e5f6f4b8320d490f237a8baba8db5046640674cdc"
+hash = "f88db7aef79947669ba4d736cc2f352a2269eb21770d5597d306c3017ea126dc"
 metafile = true
 
 [[files]]
@@ -8223,6 +8228,21 @@ metafile = true
 [[files]]
 file = "mods/powerfuljs.pw.toml"
 hash = "dd0be6f47f51d0d66fab54aa51b30ea636c245677643ea2899f508844d0075a7"
+metafile = true
+
+[[files]]
+file = "mods/project-red-core.pw.toml"
+hash = "11235263add95d02a50cef25f363a02aa1cf90e43773c1c4889a71a67192cdb4"
+metafile = true
+
+[[files]]
+file = "mods/project-red-integration.pw.toml"
+hash = "3655f9bbd83aaa65be40e40a9961da4c97dee82622a44a30b7e0cded4eb1a88b"
+metafile = true
+
+[[files]]
+file = "mods/project-red-transmission.pw.toml"
+hash = "3374b17465daf9ca3eb5c069d1ee6043ba8b3a0dbe3a219212d24d3894ab4764"
 metafile = true
 
 [[files]]
