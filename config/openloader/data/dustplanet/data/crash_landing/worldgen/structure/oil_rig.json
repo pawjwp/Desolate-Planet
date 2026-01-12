@@ -9,16 +9,106 @@
             "bounding_box": "piece",
             "spawns": [
                 {
+                    "type": "minecraft:zombie",
+                    "maxCount": 5,
+                    "minCount": 2,
+                    "weight": 1
+                },
+                {
+                    "type": "specialmobs:brutezombie",
+                    "maxCount": 3,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "specialmobs:firezombie",
+                    "maxCount": 3,
+                    "minCount": 1,
+                    "weight": 3
+                },
+                {
+                    "type": "specialmobs:hungryzombie",
+                    "maxCount": 5,
+                    "minCount": 1,
+                    "weight": 4
+                },
+                {
                     "type": "specialmobs:huskzombie",
                     "maxCount": 5,
+                    "minCount": 2,
+                    "weight": 6
+                },
+                {
+                    "type": "specialmobs:plaguezombie",
+                    "maxCount": 4,
+                    "minCount": 2,
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:zombified_piglin",
+                    "maxCount": 5,
+                    "minCount": 1,
+                    "weight": 5
+                },
+                {
+                    "type": "specialmobs:hungryzombifiedpiglin",
+                    "maxCount": 4,
+                    "minCount": 1,
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:skeleton",
+                    "maxCount": 5,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "specialmobs:bruteskeleton",
+                    "maxCount": 3,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "specialmobs:gatlingskeleton",
+                    "maxCount": 3,
+                    "minCount": 1,
+                    "weight": 1
+                },
+                {
+                    "type": "specialmobs:sniperskeleton",
+                    "maxCount": 4,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "specialmobs:weatheredskeleton",
+                    "maxCount": 5,
+                    "minCount": 1,
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:spider",
+                    "maxCount": 3,
                     "minCount": 2,
                     "weight": 3
                 },
                 {
-                    "type": "specialmobs:hungryzombifiedpiglin",
+                    "type": "specialmobs:desertspider",
                     "maxCount": 3,
+                    "minCount": 2,
+                    "weight": 4
+                },
+                {
+                    "type": "specialmobs:motherspider",
+                    "maxCount": 1,
                     "minCount": 1,
                     "weight": 1
+                },
+                {
+                    "type": "specialmobs:weaverspider",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 2
                 }
             ]
         }
