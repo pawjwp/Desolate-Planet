@@ -1,0 +1,16 @@
+// Compost colors for scarcity. You may add your own colors, change existing ones, or remove colors that aren't needed.
+acacia_seed, #ffffff
+bamboo_seeds, #ffffff
+birch_seed, #ffffff
+cactus_seeds, #ffffff
+carrot_seeds, #ffffff
+cherry_seed, #ffffff
+dark_oak_seed, #ffffff
+jungle_seed, #ffffff
+oak_seed, #ffffff
+onion_seeds, #ffffff
+potato_seeds, #ffffff
+rubberwood_seed, #ffffff
+spruce_seed, #ffffff
+sugar_cane_seeds, #ffffff
+sweet_berry_seeds, #ffffff

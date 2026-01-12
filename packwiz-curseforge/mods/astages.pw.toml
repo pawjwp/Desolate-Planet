@@ -1,6 +1,7 @@
 name = "AStages"
 filename = "astages-1.4.0-1.20.1-all.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

@@ -1,0 +1,18 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "minecraft:pitcher_plant"
+  },
+  "result": [
+    {
+      "item": "minecraft:cyan_dye",
+      "count": 4
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 100,
+      "nbt": {"Purity": 2}
+    }
+  ],
+  "energy": 3200
+}

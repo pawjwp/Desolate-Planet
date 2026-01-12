@@ -1,6 +1,7 @@
 name = "Baubley Heart Canisters"
 filename = "baubley-heart-canisters-1.20.1-1.1.0.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

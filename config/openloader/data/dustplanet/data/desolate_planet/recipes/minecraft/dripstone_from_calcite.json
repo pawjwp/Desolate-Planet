@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:calcite"
+    },
+    {
+      "item": "minecraft:clay"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:dripstone_block"
+  }
+}

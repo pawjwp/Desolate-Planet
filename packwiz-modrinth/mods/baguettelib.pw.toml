@@ -1,13 +1,13 @@
 name = "BaguetteLib"
-filename = "baguettelib-1.20.1-Forge-1.1.1.jar"
+filename = "baguettelib-1.20.1-Forge-1.1.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/OfKzpbRU/versions/zcwsIJEa/baguettelib-1.20.1-Forge-1.1.1.jar"
+url = "https://cdn.modrinth.com/data/OfKzpbRU/versions/lFRf3UUH/baguettelib-1.20.1-Forge-1.1.5.jar"
 hash-format = "sha512"
-hash = "0e9f34e0e8d8703269fd6d26a3635268d8f01d79c17355a85f07cd3cf382e84d23635c9715522e3839091caed6db723984b4df569fd06b042557fcf7f46f0f08"
+hash = "e5de5fea569e3ef00230b7f1638885424c00d7f3b9ac471682ceb667ee0f22776c05bce0b25c592a350e787861077e67ebcc067d4104f4b993d886aa4f31a6ed"
 
 [update]
 [update.modrinth]
 mod-id = "OfKzpbRU"
-version = "zcwsIJEa"
+version = "lFRf3UUH"

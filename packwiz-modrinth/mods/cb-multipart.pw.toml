@@ -1,0 +1,13 @@
+name = "CB Multipart"
+filename = "CBMultipart-1.20.1-3.3.0.146-universal.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LmvnWWSV/versions/RKOPiW1p/CBMultipart-1.20.1-3.3.0.146-universal.jar"
+hash-format = "sha512"
+hash = "223078f12e00d765b2b7ed24919fbc905af6ecde3e003c33465d0f067faecb2483505187be5e2c5361db60c6f72d147c0b21e94927fc65194fdc2b2deb7aa385"
+
+[update]
+[update.modrinth]
+mod-id = "LmvnWWSV"
+version = "RKOPiW1p"

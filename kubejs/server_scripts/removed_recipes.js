@@ -90,8 +90,11 @@ ServerEvents.recipes(event => {
         type: "create:haunting",
         output:
             [
+                "minecraft:soul_campfire",
+                "minecraft:soul_lantern",
                 "minecraft:soul_sand",
-                "minecraft:soul_soil"
+                "minecraft:soul_soil",
+                "minecraft:soul_torch"
             ]
     });
 

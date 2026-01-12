@@ -1,0 +1,13 @@
+name = "Project Red Core"
+filename = "ProjectRed-1.20.1-4.21.0-core.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zIlxygxr/versions/jhpBRUqn/ProjectRed-1.20.1-4.21.0-core.jar"
+hash-format = "sha512"
+hash = "62a473831234f860216e2dc8195f89f5ffe3725a20017e8e45be0b2904199be7ff8f51cd4e4fb598eadd89b97021a4bc994b354fe3781009b44f111b12062eeb"
+
+[update]
+[update.modrinth]
+mod-id = "zIlxygxr"
+version = "jhpBRUqn"
