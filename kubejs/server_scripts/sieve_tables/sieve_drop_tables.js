@@ -68,6 +68,8 @@ ServerEvents.recipes(event => {
             minecraft:redstone	1.3	5	6	7	8	9
             minecraft:diamond	0	1	4	4.8	5.6	6.4
             minecraft:emerald	0	0.5	2	2.4	2.8	3.2
+            minecraft:amethyst_shard	0	0	0.3	1	1.2	1.4
+            thermal:apatite	0	0	0.3	1	1.2	1.4
             exdeorum:uranium_ore_chunk	0	0	0	0.3	1	1.2
         `
     );
@@ -225,7 +227,8 @@ ServerEvents.recipes(event => {
             exdeorum:warped_nylium_spores	1	1.2	1.4	1.6	1.8	2
             tconstruct:blood_slime_grass_seeds	0.5	0.6	0.7	0.8	0.9	1
             tconstruct:blood_slime_sapling	0.5	0.6	0.7	0.8	0.9	1
-            thermal:sulfur	0	0	0.1	0.5	0.6	0.7
+            thermal:sulfur	0	0.1	0.5	0.6	0.7	0.8
+            thermal:niter	0	0.1	0.5	0.6	0.7	0.8
         `
     );
 
