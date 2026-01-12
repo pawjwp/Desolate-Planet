@@ -5,9 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "crash_landing:chests/misc_technical",
-          "functions": [],
-          "weight": 1
+          "name": "crash_landing:chests/misc_technical"
         }
       ]
     },
@@ -16,8 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "crash_landing:chests/misc_industrial_iron_decor",
-          "weight": 1
+          "name": "crash_landing:chests/misc_industrial_iron_decor"
         }
       ]
     },
@@ -26,8 +23,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "crash_landing:chests/nuclear_plant_reactor_parts",
-          "weight": 1
+          "name": "crash_landing:chests/nuclear_plant_reactor_parts"
         }
       ]
     },
@@ -40,23 +36,32 @@
         {
           "type": "minecraft:loot_table",
           "name": "crash_landing:chests/misc_technical",
-          "functions": [],
-          "weight": 3
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "name": "crash_landing:chests/misc_industrial_iron_decor",
-          "weight": 2
+          "weight": 6
         },
         {
           "type": "minecraft:loot_table",
           "name": "crash_landing:chests/nuclear_plant_reactor_parts",
-          "weight": 2
+          "weight": 6
         },
         {
           "type": "minecraft:loot_table",
           "name": "crash_landing:chests/nuclear_plant_turbine_parts",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mob_grinding_utils:rotten_egg",
           "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mob_grinding_utils:golden_egg",
+          "weight": 1
         }
       ]
     }
