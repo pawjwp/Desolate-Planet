@@ -19,11 +19,6 @@ ServerEvents.recipes(event => {
     ], '#immersive_weathering:leaf_piles').energy(1000)
 
     event.recipes.thermal.centrifuge([
-        Item.of('mekanism:bio_fuel').withChance(0.15),
-        Fluid.of('minecraft:water', 50, {Purity: 2})
-    ], '#minecraft:flowers').energy(1000)
-
-    event.recipes.thermal.centrifuge([
         Item.of('mekanism:bio_fuel').withChance(0.25),
         Fluid.of('minecraft:water', 50, {Purity: 2})
     ], '#forge:crops').energy(1000)

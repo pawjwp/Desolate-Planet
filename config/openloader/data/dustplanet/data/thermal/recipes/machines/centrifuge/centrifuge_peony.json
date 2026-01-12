@@ -1,0 +1,19 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "minecraft:peony"
+  },
+  "result": [
+    {
+      "item": "minecraft:pink_dye",
+      "count": 4
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 100,
+      "nbt": {"Purity": 2}
+    }
+  ],
+  "energy": 3200,
+  "experience": 0.2
+}

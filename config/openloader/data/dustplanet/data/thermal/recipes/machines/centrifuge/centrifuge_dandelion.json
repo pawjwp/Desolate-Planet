@@ -1,0 +1,19 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "minecraft:dandelion"
+  },
+  "result": [
+    {
+      "item": "minecraft:yellow_dye",
+      "count": 2
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 50,
+      "nbt": {"Purity": 2}
+    }
+  ],
+  "energy": 1600,
+  "experience": 0.1
+}
