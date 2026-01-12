@@ -8276,6 +8276,11 @@ hash = "41ecc1c60a8084cc3bdfffbd5cb598ab41294570731eb3697cf63c0a8e4f7c2f"
 metafile = true
 
 [[files]]
+file = "mods/scarcity.pw.toml"
+hash = "5b19b5b4a6f49387e0e01008815722ba3e402e002390da3ca7e9de4d40339d61"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "bb6eaf3e63dbccf890594fbe4a0f6c81cf39e32018265afc2277e068e1027ddd"
 metafile = true

@@ -607,6 +607,11 @@
     "modId": "rhino",
     "version": "2001.2.3-build.10"
   },
+  "scarcity-1.0.0.jar": {
+    "jarName": "scarcity-1.0.0.jar",
+    "modId": "scarcity",
+    "version": "1.0.0"
+  },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",
     "modId": "searchables",
@@ -716,11 +721,6 @@
     "jarName": "ThirstWasTaken-1.20.1-1.4.0.jar",
     "modId": "thirst",
     "version": "1.20.1-1.4.0"
-  },
-  "ThirstyBottles-Forge-1.20.1-7.0.2.jar": {
-    "jarName": "ThirstyBottles-Forge-1.20.1-7.0.2.jar",
-    "modId": "thirstybottles",
-    "version": "7.0.2"
   },
   "timecontrol-1.20.1-1.6.0.jar": {
     "jarName": "timecontrol-1.20.1-1.6.0.jar",

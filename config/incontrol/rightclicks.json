@@ -1,22 +1,7 @@
 [
     {
-        "playerhelditem": "minecraft:glass_bottle",
-        "block": "minecraft:water",
-        "result": "deny"
-    },
-    {
-        "playerhelditem": "minecraft:bowl",
-        "block": "minecraft:water",
-        "result": "deny"
-    },
-    {
         "playerhelditem": "thirst:terracotta_bowl",
         "block": "minecraft:water",
         "result": "deny"
-    },
-    {
-        "playerhelditem": "minecraft:glass_bottle",
-        "block": "thermal:machine_centrifuge",
-        "result": "allow"
     }
 ]
