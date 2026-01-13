@@ -90,4 +90,6 @@
 	enable_bottle_pickup_adjustments = true
 	#Enable falling block adjustments, giving falling blocks a chance to break the partial blocks they land on
 	enable_falling_block_breaking_adjustments = true
+	#Enable zombie villager conversion, disable to prevent zombie villagers from being cured
+	enable_zombie_villager_curing = false
 
