@@ -20,9 +20,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-				"text": "City Pamphlet",
-				"italic": false
-			  }
+                "text": "City Pamphlet",
+                "italic": false
+              }
             }
           ],
           "name": "minecraft:map"
@@ -30,7 +30,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "quality": 3,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:exploration_map",
@@ -42,9 +42,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-				"text": "Oil Rig Map",
-				"italic": false
-			  }
+                "text": "Oil Rig Map",
+                "italic": false
+              }
             }
           ],
           "name": "minecraft:map"
@@ -53,6 +53,28 @@
           "type": "minecraft:item",
           "weight": 1,
           "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "decoration": "red_x",
+              "destination": "crash_landing:foundry_bastion",
+              "zoom": 2,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Foundry City Map",
+                "italic": false
+              }
+            }
+          ],
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 4,
           "functions": [
             {
               "function": "minecraft:exploration_map",
@@ -64,9 +86,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-				"text": "Matter Energy Research Map",
-				"italic": false
-			  }
+                "text": "Matter Energy Research Map",
+                "italic": false
+              }
             }
           ],
           "name": "minecraft:map"
@@ -74,7 +96,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "quality": 3,
+          "quality": 5,
           "functions": [
             {
               "function": "minecraft:exploration_map",
@@ -86,9 +108,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-				"text": "Nuclear Plant Map",
-				"italic": false
-			  }
+                "text": "Nuclear Plant Map",
+                "italic": false
+              }
             }
           ],
           "name": "minecraft:map"
@@ -106,7 +128,7 @@
           "type": "minecraft:item",
           "name": "minecraft:paper",
           "weight": 1,
-          "quality": 1,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -121,6 +143,8 @@
         {
           "type": "minecraft:item",
           "name": "kubejs:trash_pile",
+          "weight": 1,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",

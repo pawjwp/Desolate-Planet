@@ -12,7 +12,7 @@
                     "type": "minecraft:zombified_piglin",
                     "maxCount": 4,
                     "minCount": 1,
-                    "weight": 12
+                    "weight": 20
                 },
                 {
                     "type": "specialmobs:brutezombifiedpiglin",
@@ -24,7 +24,7 @@
                     "type": "specialmobs:hungryzombifiedpiglin",
                     "maxCount": 2,
                     "minCount": 1,
-                    "weight": 2
+                    "weight": 4
                 },
                 {
                     "type": "specialmobs:knightzombifiedpiglin",
@@ -36,13 +36,13 @@
                     "type": "specialmobs:fireskeleton",
                     "maxCount": 2,
                     "minCount": 1,
-                    "weight": 2
+                    "weight": 1
                 },
                 {
                     "type": "specialmobs:spitfireskeleton",
                     "maxCount": 2,
                     "minCount": 1,
-                    "weight": 2
+                    "weight": 1
                 },
                 {
                     "type": "specialmobs:weatheredskeleton",
@@ -54,7 +54,7 @@
                     "type": "minecraft:wither_skeleton",
                     "maxCount": 3,
                     "minCount": 1,
-                    "weight": 3
+                    "weight": 2
                 },
                 {
                     "type": "specialmobs:brutewitherskeleton",
@@ -75,16 +75,22 @@
                     "weight": 2
                 },
                 {
-                    "type": "specialmobs:hardenedmagmacube",
+                    "type": "minecraft:magma_cube",
                     "maxCount": 3,
                     "minCount": 1,
-                    "weight": 4
+                    "weight": 1
+                },
+                {
+                    "type": "specialmobs:hardenedmagmacube",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:blaze",
                     "maxCount": 3,
                     "minCount": 1,
-                    "weight": 4
+                    "weight": 3
                 },
                 {
                     "type": "specialmobs:conflagrationblaze",
@@ -96,19 +102,13 @@
                     "type": "specialmobs:emberblaze",
                     "maxCount": 3,
                     "minCount": 1,
-                    "weight": 1
-                },
-                {
-                    "type": "specialmobs:hellfireblaze",
-                    "maxCount": 2,
-                    "minCount": 1,
-                    "weight": 3
+                    "weight": 2
                 },
                 {
                     "type": "specialmobs:infernoblaze",
                     "maxCount": 2,
                     "minCount": 1,
-                    "weight": 3
+                    "weight": 2
                 },
                 {
                     "type": "specialmobs:wildfireblaze",
