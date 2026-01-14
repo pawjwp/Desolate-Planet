@@ -1,0 +1,1 @@
+resourcePacks:["vanilla","mod_resources","file/Mob Grinding Utils Vanillafied.zip"]
