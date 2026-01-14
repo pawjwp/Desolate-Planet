@@ -205,4 +205,13 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("thermal:dynamo_compression", (item, advanced, text) => { text.add(1, Text.gray("A reliable and efficient power generator."));});
     event.addAdvanced("thermal:dynamo_compression", (item, advanced, text) => { text.add(2, [Text.gray("Follow the quests in "), Text.white("Under Pressure"), Text.gray(" for oil refining instructions.")]); });
 
+    // Zombie villager warning
+    event.addAdvanced('minecraft:golden_apple', (item,advanced,text) => {text.add(1, Text.darkRed("Warning: zombie villager conversion is disabled"))})
+    event.addAdvanced('minecraft:potion', (item,advanced,text) => {
+        if (item.nbt != null) if (item.nbt.Potion == "minecraft:weakness") text.add(1, Text.darkRed("Warning: zombie villager conversion is disabled"))
+    })
+    event.addAdvanced('minecraft:splash_potion', (item,advanced,text) => {
+        if (item.nbt != null) if (item.nbt.Potion == "minecraft:weakness") text.add(1, Text.darkRed("Warning: zombie villager conversion is disabled"))
+    })
+
 });
