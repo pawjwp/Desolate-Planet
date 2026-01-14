@@ -29,8 +29,8 @@
     {
       "type": "tconstruct:base_stats",
       "stats": {
-        "tconstruct:attack_damage": 0.6,
-        "tconstruct:attack_speed": 1.0
+        "tconstruct:attack_damage": 1.0,
+        "tconstruct:attack_speed": 0.8
       }
     },
     {
