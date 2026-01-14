@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
             M: '#desolate_planet:machine_frame',
             G: '#forge:gears/gold',
             R: 'thermal:rf_coil',
-            S: 'mob_grinding_utils:spikes'
+            S: 'create:propeller'
         }
     ).id('desolate_planet:industrialforegoing/machines/mob_slaughter_factory')
 
@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
             M: '#industrialforegoing:machine_frame/advanced',
             G: '#forge:gears/lapis',
             R: 'thermal:rf_coil',
-            S: 'mob_grinding_utils:saw'
+            S: 'mob_grinding_utils:spikes'
         }
     ).id('desolate_planet:industrialforegoing/machines/mob_crusher')
 
@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
         {
             P: '#forge:plastic',
             M: '#industrialforegoing:machine_frame/simple',
-            F: '#desolate_planet:fluid_pipes',
+            F: '#desolate_planet:fluid_conduits',
             D: 'farmersdelight:rich_soil'
         }
     ).id('desolate_planet:industrialforegoing/machines/hydroponic_bed')
