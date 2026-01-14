@@ -11,7 +11,7 @@
     {
       "type": "tconstruct:multiply_stats",
       "multipliers": {
-        "tconstruct:durability": 1.5,
+        "tconstruct:durability": 2.0,
         "tconstruct:mining_speed": 1.0
       }
     },
