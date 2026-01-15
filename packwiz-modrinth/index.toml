@@ -93,6 +93,10 @@ file = "config/MouseTweaks.cfg"
 hash = "611b9c06b577cb3cdc72c8b74a78b16b9a7b42832e1380a85107d086a8854fa8"
 
 [[files]]
+file = "config/ProjectRed.cfg"
+hash = "845d58e1152443480b0c8eaf372b0cdeeeb80cdc637ebc9ef3d366ed00b228e9"
+
+[[files]]
 file = "config/SpecialMobs/README.toml"
 hash = "342faa846653a328ef91c06ed297e9e527bf6aaf8db4ad9165563feae201cf93"
 
@@ -946,15 +950,15 @@ hash = "2da551a5dc4492dff699ac361b2ca3fb5c791cfb3c4101f28f758de1e3348da8"
 
 [[files]]
 file = "config/coldsweat/item.toml"
-hash = "87b06aef8de265d1900a5f008e47ed3f6b0b032cd1a7734288e7c37eb0885cd6"
+hash = "8d35aa8b58cfe41dc6657d267ac8302261752a7d44b61f11f54a1240cf982833"
 
 [[files]]
 file = "config/coldsweat/main.toml"
-hash = "cb0870a8e943b5cb2cbdedac2280ecb7de6af8169fa1274e73ef56ace465df3f"
+hash = "d7c2d2e495d8d3be97fb82f1b4d73290294f270f8c98847c91f45fe77fcd1452"
 
 [[files]]
 file = "config/coldsweat/world.toml"
-hash = "1070389f9678d33bc0739113e5f6f10ff028e5a4630f69cfafde9fbc3ffa3b7c"
+hash = "b2d955ce5a6592816178e78a91ea034ff3437bfe1b1f3c47013d8e392133b7c2"
 
 [[files]]
 file = "config/collective.json5"
@@ -982,7 +986,7 @@ hash = "55245c61420b1403ebe9c37bf63a4c4ccb98b234cdb128a5bf14c1f46370889a"
 
 [[files]]
 file = "config/crash_assistant/config.toml"
-hash = "883772aa552c4af0e75a3e0157a42fd1bc1d26838f92758c966f86a33092aecd"
+hash = "a8d6107a495949fff1e2c31a3fb0262e60ea3998474da577853058e4b8d1738d"
 
 [[files]]
 file = "config/crash_assistant/config.toml.bak"
@@ -994,7 +998,7 @@ hash = "52f394cd3754a29a6f236b1fe622bb430fa7e4632bce262eeb0333d71842bb52"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "94383911f4c193094748a95c9d7bb379978e196d4a049195fbf4a20d36bcf315"
+hash = "a88f076339f36ada143663fe5f8b093d0d09fff345ef8f14bf6a05f72e958740"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -1025,6 +1029,10 @@ file = "config/curios-common.toml"
 hash = "5fe808869d46a4b80e1191fbe40f40a4d63987beda0eaeb2d89b909a990ea2ea"
 
 [[files]]
+file = "config/custom-micromaterials.cfg"
+hash = "4d0caa199d91f8038c660f30e66dd92aafa353bb9d3693542ad5934254731a9d"
+
+[[files]]
 file = "config/diet-client.toml"
 hash = "aa0b175190d5197e6855c9470e2f24038dc3fc1334a46368647f7a7ec0ad2cef"
 
@@ -1042,7 +1050,7 @@ hash = "951f25df08b8ba7c1f353d225f503ee103fff7df85eb8570dd68e877b217587a"
 
 [[files]]
 file = "config/e4mc/e4mc.toml"
-hash = "732f5e4dd96b13393b54a087f3f65a99210d8afbc5d0709a412bd7a4f7f19790"
+hash = "0530f81bc071dd4a0d8bfe7e864898f6a71327c6a694d5c0b02c054e0bf4797c"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
@@ -1147,6 +1155,10 @@ hash = "d1bf7f9c949446818bf8c0a5cee4763000d53b5429fee2dec5eb955ae3046265"
 [[files]]
 file = "config/exdeorum/compost_colors/cable_facades.txt"
 hash = "ad93874969d5b1aa507237dd2fb5f0e1a39edc04d5ea9e47d693afe6d749108e"
+
+[[files]]
+file = "config/exdeorum/compost_colors/cb_microblock.txt"
+hash = "cbc5ffcfc75a16a2bcae6c695ddafd36ecd251a1ac0324fcbf74f31ce79f9f52"
 
 [[files]]
 file = "config/exdeorum/compost_colors/chipped.txt"
@@ -1259,6 +1271,10 @@ hash = "53c1393bc28df0177490a94597d8eb371f59cb1e57bbaab51285b2ff7b6a0809"
 [[files]]
 file = "config/exdeorum/compost_colors/pneumaticcraft.txt"
 hash = "4626b53fb3c1fa94f3f23834ee6e33012d5a52316c1a9cac0df6acd2e3baaec7"
+
+[[files]]
+file = "config/exdeorum/compost_colors/projectred_core.txt"
+hash = "39f9a162d58e45869a1ad550f6e3961357c7acc1f5dc98630768ecd94c953fff"
 
 [[files]]
 file = "config/exdeorum/compost_colors/quark.txt"
@@ -1410,7 +1426,7 @@ hash = "3f344aa8bb2787457def07f2ea08780c742d68d5a76c3fa990f3d6c560820f42"
 
 [[files]]
 file = "config/hqm/default/sets/Basic_Survival.json"
-hash = "a4d1fd3f12b0ee5df95425576c5733bc36d52c96277fd2f237c97fbe6063e29e"
+hash = "45a8d0acd513a15319d39fe3bf28a92bcb9f943dadb0949a5170e8f1d8178625"
 
 [[files]]
 file = "config/hqm/default/sets/Like_Clockwork.json"
@@ -1422,7 +1438,7 @@ hash = "92ad6093d21df384d4ace4e6cc091d3677531677d0527c17c7356e9eecae64e7"
 
 [[files]]
 file = "config/hqm/default/sets/Technological_Revolution.json"
-hash = "cae75903a0211ba8f2bc3c25116298e12f8610b9b6bfe0558dad39201bf71238"
+hash = "b158be0b882054238fdf3d8c0f4763cf1407ff87e02cdf8b819d19a17117f86f"
 
 [[files]]
 file = "config/hqm/default/sets/The_Food_Pyramid.json"
@@ -1434,7 +1450,7 @@ hash = "2d429049dc294ed9f784a45e0353dd301e83c1e514933760a9ed29b032155736"
 
 [[files]]
 file = "config/hqm/default/sets/Under_Pressure.json"
-hash = "21b1ea7d298a24bd93e2fe317abec2ddb4e533186c5044115eb6aa894e8890c1"
+hash = "55145b3565d15361cb1f45685aa7fbd79261fa6838569c630755975c5feb2a67"
 
 [[files]]
 file = "config/hqm/front.png"
@@ -1554,7 +1570,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "7a4571a117446260915c557d63af764a8d2e199b8964db1bf5dde1f5015e1494"
+hash = "b8b9b1f9ba77e4d4440001e958f1767b55dda813125baba399f0d89eda0ddd7e"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1578,7 +1594,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "51cdc4663a8d090c979d0cb49af8b65bdd70db087357f0cd8abbb0109837f5db"
+hash = "c46d7f1df4b13beeda9e8b82a49b877be9ce5a59a53d6db8e60775f9d6ad3617"
 
 [[files]]
 file = "config/jeiintegration-client.toml"
@@ -1594,7 +1610,7 @@ hash = "b101c668c6c658e2db126b7f6d3b9eb913537ff8903fbfce0128534299b2aea5"
 
 [[files]]
 file = "config/lighty.config"
-hash = "8c8a668d972b39d1102de79ce044d40edd50db0f20b662416cd29c80375a526f"
+hash = "b0668045b4865b06dcd8b5b96c870178320117217010f37843a75c53967a12a1"
 
 [[files]]
 file = "config/lmft.json"
@@ -1602,7 +1618,7 @@ hash = "d761a8913e8c0f05581903ff981e5a5215770988aef8eb5d6799a9eee5fac1f8"
 
 [[files]]
 file = "config/mantle-client.toml"
-hash = "c9be7ebf0f0669a862cc83ea47378414ddb363afa40d2bd8d5773f86987b829b"
+hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mantle-server.toml"
@@ -1630,7 +1646,7 @@ hash = "78557fc0d62b4ca3a586371769fa9d553599169513213fc3a8432780a9d514e8"
 
 [[files]]
 file = "config/moonlight-common.toml"
-hash = "a9426a4ac57696e303947f831e5357ec53870d16a2d83304581be0db6e9b9691"
+hash = "78b0e525a30c60ac70ab9244b65c912f24fd0cf5fd95744ca7748df8f78683d9"
 
 [[files]]
 file = "config/nbttooltip.json"
@@ -1638,7 +1654,7 @@ hash = "1f22d8e270c33d9dbe3f4a7b076d98cd86efb7141c273caa60d8298040c1adc3"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "578ec1113ac97ff43cd9c036077894d2c027c5263a177ce9b16b9a9b8c82c220"
+hash = "09435a2ae8ac19333d56503420b51d4992de2cea1a6f0b61c21cfaf60afde496"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -1934,7 +1950,7 @@ hash = "2e6d42be00cd25f8e3cb4771560de3a305e9d19cf5e76f2f81d1c2cd7f205cdf"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/cities_dust_loot.json"
-hash = "960358b5f725e09547bb7a37a23d2f155f77907090e2da74c399755974cc3b62"
+hash = "f26f7b035f70d66b3e6e4754e0399abdb817428b2773a2385ef26e15de39d13f"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/cities_normal.json"
@@ -1954,7 +1970,7 @@ hash = "d92f754601ee13aba49a81cefafd68dc50713f3b26675bc0d4c826a117cb1549"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/kitchen_food.json"
-hash = "46787a84651539c6bff6b7ed4768a581abaedfedc78acf0605117be15f2d510a"
+hash = "f5fb818f351555f5f85e4fd760e694dd1d15f776f283fe90b627fcb93a138e93"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/kitchen_rare.json"
@@ -1966,7 +1982,7 @@ hash = "d90182c128c1d69b9e1ba7ddde111753c7b91a931ffc8e277d8050978fc4f2bd"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/map.json"
-hash = "9c8c202dba04dad6ee3e99cb4b47f1af908c5104759e656b3887484ad77d34b9"
+hash = "735033fa0a4c60f528fbbfd962ae3fba31cfffb6e8902a65aaa1a8819b61078b"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/office.json"
@@ -2062,11 +2078,15 @@ hash = "1ee715cbdfaf47820d53659b755358edcb90cc50ea849bb3961bd6c177de97d9"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/tinkers_factory.json"
-hash = "b35237c45c38a2a17d26b3b9fa1dedb0799ed9b8837cb3ca1e02f80262a6e50d"
+hash = "bc9b2b52fc36389a5d5aea8520ad82da2918031576431d9de7e04cde85df6fda"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/tinkers_foundry.json"
-hash = "4f75c7e7ea363bc61bc638a079e177e5393e13d12fe38cdce408d1c64ee9ae32"
+hash = "d64611879e30d86982872dac814929d7116ccdd80c8de4ac5d106e123be142d7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/tinkers_foundry_treasure.json"
+hash = "78fbec9d4c93cd57a7c9a165d5d384e33a9ac89c2441fa1ddfb2ac86fbf89953"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/apartment_big_1.nbt"
@@ -2366,67 +2386,75 @@ hash = "2d8a1c7b1d17f4469be1978fd24ebd6f5e55c9293e1d3c91729bad23da9ce4f9"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/1.nbt"
-hash = "7c53c74fa2705df14dfcc4c3a81926aece2b831b9a22a83589fad7a94a3d992f"
+hash = "ee8e14d9c304aa474c1c6d8ed49cece0f586b37e35fd75572801b9e388356c5c"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/10.nbt"
-hash = "04fdb280eedfb66c34f626623ea994867fa699a29bcb08d42b28f26fb0748844"
+hash = "a78240016d06a28767822084be87aafbefd6f7520fbe9961f6fa41b393cf3d8d"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/11.nbt"
-hash = "62a362a588afb1162a09dc60f274b185ac6f2c16163ffea1190cb8f59fd231f0"
+hash = "0ef53049d0c0fe7214485c11eba1beae4f616faef2e7793bd69d329740a6e511"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/12.nbt"
-hash = "877a9ce8480b1c0406f175ba83c1695247918896dc8c94f1f372b3de03d64286"
+hash = "5ad1878d8e5acde9beefc0f76c04792ee8c1cf2097bab52dc07bf3da47fb7b99"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/13.nbt"
-hash = "7720e9a94d256c1715e932238865159be0b164b13abe9a58dc116d8b91c3c8ed"
+hash = "6570113fe6a272e5a21946434bc0582b3bc26ef1a850be2db809601bfac7f986"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/14.nbt"
-hash = "68017f4b29583a64777187ceb10d4a32ffea903e4e045a0a79b45df27c94cc6a"
+hash = "9bda63012f5eb2f523ca9bbd870909ef62d5ef5094d4aa80068fb35bd51c1892"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/15.nbt"
-hash = "d133b8b5e1073b67cd0e89e4efd2c6bb4eb7be317039d70de84e000ccfe03af4"
+hash = "ad984e4640a0246e11fadfb593c5b2fdae315d3b51a109fc1e68245971518a11"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/16.nbt"
-hash = "59017214ebea22e7cd7dd431671d57e300d34e06127794a9e7a0b3c7dc2c0629"
+hash = "2966aeb566117d6050cc2e9d9a2ee9395ec79d6fdd91594edd4994c48464cc70"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/17.nbt"
+hash = "e8889d90296aeff84ac78b59fed4a8f02061aab29a28af98f10c7996196347e4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/18.nbt"
+hash = "33095269d41d7c606589a847142bc4ccb84cead9770fc4cd28e61a51cc39f200"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/2.nbt"
-hash = "265f59f02c51d69071215cc3aafac3e45a76350b7fdb6682c466e5a712ae1733"
+hash = "00a616b9f1b423127efef10a299a6db3b7fdbb2dd52b5005b9b41a7b5cfbda38"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/3.nbt"
-hash = "6c77d333cc271a63351fc4d1a2926bf0d1c52858419c95557c40cce7eb1479b1"
+hash = "222a4dd2ce54678c6bb6856be9d9741c52e2ce25d3a1d1b883afd170cf7809c2"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/4.nbt"
-hash = "16229f8dd9ca441d8b70643f470ae4a1e6d7b5a68e5274f996e0378fa0fa6ed6"
+hash = "7858c3fe393dbb09a7821c6e28e3373588e895e3902a662f76a21d63d87f864e"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/5.nbt"
-hash = "2a95ecbd5e56ae99df530696e53f2a5e5d23585cc27cc556521675befca6bf84"
+hash = "cb5e4ed6a0287eb6302e33f1b590a00799d7884dc0aee83876a2b626f4c83d2f"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/6.nbt"
-hash = "0c1d8c675bf2da276b5d0d30a1d2f02abebec5800797ae9422a96b106075a1a1"
+hash = "599d56ccc44549f5741dabe7ccf0cbc5601b023af589aa4a945219645711fc26"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/7.nbt"
-hash = "6ba5c5de87837f5ce9876d90e5691da70883bcb51d2381f5a09915baad0ae644"
+hash = "89e31a1b27ee4ed49e3ba8380ff0235820ec52d1dc0c2630346eba934e13d6ff"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/8.nbt"
-hash = "6e4d13affa0f972957238955bd313a9319155e36679e0292c113f8435b3da97d"
+hash = "d5497db4f060e016181c8a26ce32c9b9bd9f2584f5efa3794d16b94488dc4a4e"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/9.nbt"
-hash = "996c2644092e4a49072974f7be562a58ff8fd035420c4024febebfc1325d5346"
+hash = "62a8c80588b98085d278abb0092e0c8aa1890622fb77903821cfe8205a8370ff"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/office_5x5/1.nbt"
@@ -2466,47 +2494,47 @@ hash = "2d1744517fa090b36eda4e7ffbfaa0baa1dc9af16f1fb95a241819cbf5fe18a1"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/1.nbt"
-hash = "bc9ab06021a7f32dbf81d26745ac5220dc18b1ed14489987fe83661dc4f695d1"
+hash = "b450b521d7fd82449a9b391da2904061f8fd7928173864f77e06a69519fa64b3"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/10.nbt"
-hash = "cf88f7d12336bae94828ffffb457ef7479826a29b8907d33b9565647a67ae886"
+hash = "2b15200b876f6117de9c82a586306d9b567f09efdef677ee235444237d04997e"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/11.nbt"
-hash = "364581cbbada93260d9cc341eca504637c8a86283c517948269a7ec128566a3f"
+hash = "64207bfd0001d8f6d45b111fc4a95db6098ea9c735dbb49a20a1f2c3950b427c"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/2.nbt"
-hash = "f2b8a717edebe3ce4a9ec6c63929ee66f1f0a2ced20b999d7fe3a04f90514390"
+hash = "abe860c26d91f6f1932ad85d7e45ce5f4996b1e9869686696c10eecfc7cb8752"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/3.nbt"
-hash = "18f1525c8f5fd404379890ee02599dda20dd52b91ada1fe64c9f0b91a133eb7b"
+hash = "772c7e964e7f80c2c32256ff7de30f371456e39eee385fb71b731566d9114e93"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/4.nbt"
-hash = "685c3689d6c0d0d375e75c8f01ca86949e59fc8f17d1832a150dac7efd9cf5a3"
+hash = "f983545ca0a334c27ba09d048e7eac0300a261d4853c8a378c522e6625f9ef87"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/5.nbt"
-hash = "703537763618bafcd1261fa05fcffb256a816b8b0ad04eb13886ad81f495274d"
+hash = "08ad509fa8d1883ea226c7d0e9c00e729e86493f445d2b06ebc5af386b06541c"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/6.nbt"
-hash = "e41bd432fa414a31ef13fd5d618099dd2da0c1e2ae5c77b08449318fcf0f4df9"
+hash = "066e704ef62999453c782fbdaa1a2ef85f8e9038ca81f8ca727f9cac837c4ba0"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/7.nbt"
-hash = "71268ea6e9ca869030fd8b09d912e6377dec70fa61c65bf14f47150d039d8abd"
+hash = "44d449a831fe8badfe05fd7eb1e5fcc638e2d2eed0832086711de052dd7d1ddb"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/8.nbt"
-hash = "38473186cdfbd9e6bb9a7b3bae8b3c859eaed2a48ea034f7d160ce5b42222ff8"
+hash = "777ab4f43da4446e73c0320811c371262f41b7c878ed9824e0e5e74a53ad9153"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/9.nbt"
-hash = "e102e84cda0d6ebadb1a9136c02bf80a7185bae20a7a64bfca4c89867af3a813"
+hash = "fd94ce3d5bcc59dfb6a1535a9cf5097c1bc3e69c249f7557cba702539c92e716"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/spawner_3x3.nbt"
@@ -2718,19 +2746,27 @@ hash = "bb1d75860965590ef61fa3fe6826f3683dbb93aa0163ce31adb7322d9fa123d7"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/room_1.nbt"
-hash = "ac3f038d33ea06905dbb3d17a8f5b060f4a1eb0b4ea0299de6de52b5b66c9db3"
+hash = "1ae0785b5dc1b85b256f8f8859959ebf7613933156a8f9e612b241ff0028859d"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/room_2.nbt"
-hash = "de175d7d79fded7a49001d1333b3917230acb2e4bad00842dab834111790df34"
+hash = "d23cf75640dc69ab9ced1b20311843a3deaa7bae85214650a8dd71a0c3ee3137"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/room_3.nbt"
-hash = "54f96765fa424d3ea8a1c0f09d8bbee7596c4caa0b1c25a95c04370b5556ccf2"
+hash = "aefe385acbd54fdc959eed825c9a939f12f19556d1cec18efa4c31970cde6162"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/room_4.nbt"
-hash = "fad9117ed8b579a197daeca64850ece86fe60f90ec0d80fb04f594f094881065"
+hash = "d72c7bfb66bdafedef6bf6207e87e25ea13a6eb639522fe017b8607856b72424"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/room_5.nbt"
+hash = "1706c61ab47a694857eeced6b2e50d84efeaca1cb6a4a685211ed6afb81c7d3c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/room_6.nbt"
+hash = "59fc9f092d9945d603ce0648dc4cd9538a7e4be02bc80f935d114dc52c77942d"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/stairs.nbt"
@@ -3338,15 +3374,15 @@ hash = "3d3c06f2fc35d39cbf6f61c8e3286b9419f25660605afb06e713e34486202f81"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/farm.json"
-hash = "9c2105033a2cc5d7cb5348746da00570a55ad761c755b4caafc4fe8b27b5fc3d"
+hash = "f67cf0593cc9efdd23df14d65f7e9e1ba2edb958386745a4ebdddd3f0be9ae69"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/foundry_bastion.json"
-hash = "e389a0a8ebffd92ad0b42dff5dc047e6f7db3a05cb15b1c3202f055f4a7e2528"
+hash = "741d6da846ef2c29e2377de8bd4df5849b5f94f25e0f1e892aee118c8ac89217"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/mer_lab.json"
-hash = "b01cc75e7fcbd085a9ac1c1aa6574b6a814ae33f3e87f7b9ccb4d6bb32d9f396"
+hash = "21dec6a2c89b291af898f78eab1dc7f1dcf0f57506a1663eeb4aa50d396836b7"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/nuclear.json"
@@ -3354,11 +3390,11 @@ hash = "e652e8c399db2d9420a24eff2b10b6cc366aad60dd9629bc85d228faa6dca60f"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/nuclear_plant.json"
-hash = "556ec44b601f1178ac799d2e96060ec373e396e50f8ba9a78ab82205983e8b31"
+hash = "2659baa526e07f9a0183e79d462926886f851a5fc78db7b9b31435aeefd8c820"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/oil_rig.json"
-hash = "533c766e31eae0a473fb0690cecf70bbf789039604fd2c6938529f914fb751e3"
+hash = "a1d92ad8942557c2e1a5d88a7fb2f10b417a03ef319a5a25f961af40742b711a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/ruins.json"
@@ -3369,16 +3405,12 @@ file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/
 hash = "af38ff54b09bc0330fa662b3cc7be4d9c5493fff424234002c5fd62665712d9a"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/foundry_bastion.json"
-hash = "594004a3ce07ba0f4f22b5012cf9a913264eda245aeecb7aee4ac049849caabf"
-
-[[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/large_structures.json"
-hash = "fae8db4e3d868a093cd4990845f63290a052335fb31b3d3538c51fa503dad884"
+hash = "5cf235d4dd643b147c7edcc2be619df1b0b684f94f5c044288f5c847192f9d10"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/ruins.json"
-hash = "f3260112a215d55f3e1062a5bda617568d30f239ff391d4d7483ffb80ac11a96"
+hash = "3b7d0b8d1c7c4567218447be2405a191492c77e42beda851bd3b7bbb291cf750"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/ship.json"
@@ -3474,7 +3506,7 @@ hash = "b9fb315efa07b4d47d84cacdbdacb2fe83860cdd3cd56a3e5df94e6593f31878"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/foundry_bastion/tunnel.json"
-hash = "412a58d433cd7991ed96349a8e571efab1cdf6510b67946442d60374dbce9fc5"
+hash = "0d1b00e057e484498e38cc38d8af4941a6df14472ef351db9203fbfa5f95b35f"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/mer_lab/building.json"
@@ -4926,83 +4958,83 @@ hash = "695551cfc8141ad0a04665b5c1d2b37115c16c367f1fc8f63fedcd477728e7a8"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_allium.json"
-hash = "e150052728bc47452c0c61eb36fe2530accb6f76f696bc860ed0f64809bd2bb1"
+hash = "1dbe79edda9fdfca0dac6ee0ed608653abb460fa3f807b756cf2776df41d4bd4"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_azure_bluet.json"
-hash = "7ae9f6a74dba46cf54774560d9254695a2999c026f175cdb3c692e8579094b0d"
+hash = "467d7ea38efea96eee4396bf820335081ce29344a848f68d6d51b0152d69f6cc"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_blue_orchid.json"
-hash = "3f9749a203ba7a73bb5e2a4aa13617e69e56301a3ec6d5a02c152b500a87b5e1"
+hash = "f6473bfccd3f8e234b5c31ca6cb51aa2262e0c70950b70d1dde28b2d07e738f9"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_cornflower.json"
-hash = "40dcea0e5e47e77b17d2182cca3c7926d5869566722be93f8d0dc106f546c58f"
+hash = "84d6e1a28b2e88566490f3fba4aeb2c378bd7b7c2b831f2d1a338f17c6bd97e9"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_dandelion.json"
-hash = "b58a91b1c371577576c610eb0456730698c59935d3d03ae825206bd798471855"
+hash = "e37d72186e05e8e9ab300d0c252ebe55260ea1ed53a56fac5fe0f9290f572fb2"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_lilac.json"
-hash = "cc925d1860135e51bdb6b33590ebaaaf8befd813189fc0c190921cc8f4655980"
+hash = "f4e7cb05c03b8ce4da93faad8537d337f096d00732131f442e098d44a70b0b59"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_lily_of_the_valley.json"
-hash = "9644d117ee98195e5876d8628b83f73ae14a7cda392a2c21d2ef50a69e43d395"
+hash = "58d907af8da39fe460a75943ef6e63cd39f93082e454551ecbf2b5e28c854149"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_orange_tulip.json"
-hash = "581e65b1b68256e41e737ea8c074c2a2650defe6eb85361cf669aebd8fd1188f"
+hash = "b5efad5ab82f528901296977b7ba3927a251c0e13bb4653ebf404f131d54ac11"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_oxeye_daisy.json"
-hash = "107547562197396b73b257f07a5ede24ac99fe01ba8abe04e2d385d6b46dd99a"
+hash = "34b903d20f5d0d15769ff45dc9cf89827b744ed31a0948acf61ce5b2c0062a7b"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_peony.json"
-hash = "beb34c284b2d87d86f3919c65ace3169d921409aa9527c5bcf259d109e58e16e"
+hash = "9a256df5ea7199c218ca91d997b63f8698471aadbfe584f04a358d51f218aaa3"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_pink_petals.json"
-hash = "8bb3c24a40cf6c7bf1014bfbae85cb8ab03be797ee1e6dfc4aae230bd9a45ff4"
+hash = "684a067ed3438d685edc3b8a8f06f36e6675cd8143c3e2b2c12b43bbd178116a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_pink_tulip.json"
-hash = "1088c7f1e42ac6eaa167bbf84bd85c36e8b1a80c14d0512f9595f8c5ee90a52a"
+hash = "58ebbd974c613b91528ea49d32ad6e9a5f07c29e68ca0d36edf60feb3320ce71"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_pitcher_plant.json"
-hash = "924228a40f4010316db38df8b2bde47a97fbd6a51236285146bb85026b938562"
+hash = "182cddb3d62fba93b16d27492dabf91a2fee332adaa45a017795a5a33ba3a8e9"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_poppy.json"
-hash = "b28576bcae99f2800396adea485f9939f96465c94132720e3ba4e17a0694acd7"
+hash = "d7d3e93f3a875c1e97fe11f5622c19d6f1418bb0d0c08ba4c0ce0f527c8b4a8c"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_red_tulip.json"
-hash = "a3ddc5e000c6b11bee58755f391f250c551aca33e4f906c60f93a9944c9fe4f1"
+hash = "52fa22a68f33e86facaca75750a9e3916ca4d73d1316c852721b407ad58fc962"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_rose_bush.json"
-hash = "29f686bc708e4a21f09d42165a7c4e9b717fd715615e804c245a266a70009d7b"
+hash = "19bb2db06b2c2c669003a76a6fae7920b51e33f31e3faf9d502a44c62723c5a0"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_sunflower.json"
-hash = "35a34bd6ac5a914193212ac47d8777aa48a15f6735efc89348a12cc2e045c873"
+hash = "6838556c37a188e20cc10067d9a668f2ca708eb18a2dda6328bc16894fa11a15"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_torchflower.json"
-hash = "bf834a641acaf244a484d63222477eaa0fa1d6f37f68bdbb552d5b76f2281130"
+hash = "a7cbc821b03c80b47f7c00784ce8660c4b3ddcb160eb77af8c715dc5072cd5dd"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_white_tulip.json"
-hash = "9e33d95836c428dff5566d337ae7f3d20bc03f82ca32a5967ee91f1fc473d921"
+hash = "ae5dc618f5a8822a2ab8c4404f8e5d49095e3912ee00592d60997cbb468f0b17"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/centrifuge/centrifuge_wither_rose.json"
-hash = "d2bf35372f161371f3a69d16950ab5b4e414851e232f92d0355671d332848915"
+hash = "a56134dc808186fe82222b0fb4b89e294cb1aae3fdf51dd288b619fddeaa8810"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/machines/chiller/chiller_liquid_plastic_to_plastic.json"
@@ -6386,7 +6418,7 @@ hash = "38ae1ed6caca08047f7b7ec62bfbd99962a64d9c1aa8ede41969eaa139e04f20"
 
 [[files]]
 file = "config/scarcity-common.toml"
-hash = "8c4fd336daac6526083e5be5617b599d68fee509cdd308437ff2d87761564ee5"
+hash = "8ecbb9d98241c1278f1086de0bbfe8e0707c672dbca4ebaeb38122aa7f4f4d04"
 
 [[files]]
 file = "config/simplyjetpacks-client.toml"
@@ -6450,11 +6482,11 @@ hash = "f134346777dfccf1a68dc8f9a0f8481d60db3f0d538334ba95a48961c19be192"
 
 [[files]]
 file = "config/tconstruct-client.toml"
-hash = "fc10ac3a7de0464cf5fc0c17b5363ca775ef590842d9addfd81c3ec71f0717e6"
+hash = "ead5290f0e85e9e803dba9a8bcf9a637fa16d3a7724f501ec45d60e1bd0501f2"
 
 [[files]]
 file = "config/tconstruct-common.toml"
-hash = "88eb7ea0b93873c73c22245f537b50b2deaa58fd36cce9073c01ca54ef1bc764"
+hash = "0e9117bb833b7a642f3a9f436c5000b20698adb42f438cf541f6aacb08f531d8"
 
 [[files]]
 file = "config/thermal-client.toml"
@@ -6511,6 +6543,14 @@ hash = "565e7782790d656fd31350ef9d90cb8ff8b4f38d1fb2418072829fb404195e58"
 [[files]]
 file = "config/torchmaster.toml"
 hash = "8e6a91f152a24b60d2d03ebecb980527249f009382d2548af84e973f1d59c220"
+
+[[files]]
+file = "config/transition.json"
+hash = "6c0060c7301372bbc414f86a139b383e34fb620f0621badd71bb19efc3f26767"
+
+[[files]]
+file = "config/trender.json"
+hash = "fe0bed19bd0927b3d519816c73378730689080a8f07e66a6167c266ffde29dd2"
 
 [[files]]
 file = "config/zeta-common.toml"
@@ -6646,7 +6686,7 @@ hash = "be70bc2f57e038011b3d82aaafb4f931b265c8e6032adf2cfc03183048375308"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "6ed5b40c9959d5b2d9348c62f93308af613f0485e14670a07e76c6adacd90a1d"
+hash = "e6c3fa2043baad394ccad11f5a203dc36ff3cf1b8a975be17858885d94ece477"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/crashed_crafting_unit.json"
@@ -8170,7 +8210,7 @@ hash = "ba855653ae5400c52bef115dcbc469fccf20cde037c1f7839d7961e4ee06ce67"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/head_broken.png"
-hash = "a87387ad3aff3c00da3c03d72216df0c200a05cc141ed9e0850a18440df7f525"
+hash = "baab733138daabb4445ee56716284dac5e51a16146ba50d4272bf1e36ed1996e"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/head_broken_tconstruct_unknown.png"
@@ -8179,6 +8219,150 @@ hash = "529c7ef28b5f1ad9cb17fa64a1a24b6054f4660b95c1f7464cb492df624a2320"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/head_tconstruct_unknown.png"
 hash = "f8f860849242956bb649e53e9eb9fb9eb5acbf14490ca391729ba22f4585f855"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/broken/tconstruct_diamond.png"
+hash = "d3512d47a376c787c33f2413e8d73f5eb4ff8abc63aa1c2b2261c64bd5e9a7a3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/broken/tconstruct_fiery.png"
+hash = "6371bc839bed5e18895300b544e9b5e960fc86467f8b4ba7601dab627716d390"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/broken/tconstruct_netherite.png"
+hash = "0eb93f105fd9bca301b9bdba051503bcdadcfd180360b207f0272bdddddee833"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/broken/tconstruct_severing.png"
+hash = "52a30b4642e5df195b0948dcd3d14501be1b786f4536b4924770ed6bbfc51d06"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/broken/tconstruct_sharpness.png"
+hash = "1a78a92742143ff1447f91f1951f4b2e24d6b47ddbc1ff8bb06e8b13ca1a184e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/broken/tconstruct_silky.png"
+hash = "26e1541442d2c79c8e9af7400bb09af08bd8a47426873b485ffdd3e73ef9718a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_antiaquatic.png"
+hash = "50d3462165c6f9dcff2bb9cc5299944d599582f713d64aaf53cbe21f3476d7b7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_bane_of_sssss.png"
+hash = "274e55f2ecd20c9ed75aa70d33b96fa843c2cb6e93e19c3e6507805cf190f9cc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_blasting.png"
+hash = "cf68ab86846a182f88f74d5def039f50373279589d7c86be417a8f5c60f29052"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_bucketing.png"
+hash = "1b8d4c6fddd6946f397d51c66202ec741aeacdd4421e675552ec94e25ac8219b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_bucketing_full.png"
+hash = "7cbd83ee7b96a0d5e9261a695afc764bb823b5a0b887a09640101f2e339465de"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_cooling.png"
+hash = "915f618c8a58e49c587b474b1cc1671c1c0bb30385e2fbf103382d2252208aa1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_diamond.png"
+hash = "ca240696941cd9e2b00b8ca58fc65132089029c1f2cc79c9ca780b8d8a58735f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_emerald.png"
+hash = "18de212e475486c133a785a8940519c021fa0784c40cd237dd409921148c07b7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_experienced.png"
+hash = "311bf9026b3da9ca75347b91ec9a3b3297b25ca2e4186ce33d0b33b967c4c374"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_fiery.png"
+hash = "3c338167a518dd28a4b485bb5590ba538a18b4c94257273889e5f9eb20571def"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_glowing.png"
+hash = "4d53d61ecc1bace647a76c234c0df0fddada436f74cd8619f03ff83de4173771"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_haste.png"
+hash = "530b5bec31132c0f4e3f823394c3b7af89c1239393336d82401a189183b05e53"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_hydraulic.png"
+hash = "5638e2f24877f7125f0b5c9d7e50bf0593c2143dc7731287ccfe93a2850954cb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_knockback.png"
+hash = "e85a06d1119c49c537adf8e6d484a155df037d686f1c99300f2d78f77f974775"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_lightspeed.png"
+hash = "a3f0d840e1bfd1fe46545352e26e800475c08f7a9fb9ba01b767eab2bfc4bc87"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_luck.png"
+hash = "7a0d6fe1ade369e2acd249ae3cace2e6dde688f75832609f731e504e383e7861"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_magnetic.png"
+hash = "52b2f8ea953777d81988d4db5c5797c08d583a998233f27ef34388e9fdf91512"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_necrotic.png"
+hash = "278890c35bf83b3242660eae71e100c88202ef88940bf961855a173814add053"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_netherite.png"
+hash = "357817ed2fe289b0bf597fdb17cae3b80f515ee0d3a0d8628449114141c69f4e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_overforced.png"
+hash = "c9da952ec37e7943df40eea31dae8bdc7a3f26b32bf85f8fa1cec7b281e16a5e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_reinforced.png"
+hash = "54c12e1ff6662001410626a8f86d9de1860adda30709a109feece7628e44d66d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_severing.png"
+hash = "e62dee102b17dacd141a562af0e48a3863dccc522b41b300009118ad3992ddcd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_sharpness.png"
+hash = "e452a742a9b14ae7ffc7a29f7b04cba1b0e215a6dc5134cffeec83f9a43426a7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_silky.png"
+hash = "a9a330a8d92d94e398e026c6615deba57f3dc848091a9836ef6880ce78697d76"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_smite.png"
+hash = "c70e611e71642a472e3d9e3d95394602dac487aabb67baa13808a692e500e19b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_soulbound.png"
+hash = "c41296dbd90df44802f04c751ed2e4e538b6fe1d3e9bec31b694562b4bb5d797"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_tank.png"
+hash = "a33884331e97cf9031f384aa71ea6c1a8aa58b9992fb37e170f81fbdb8c715d3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_tank_full.png"
+hash = "b28e451ab948bdaa71efead7ad827972e444692149421da1f405a6a9fed57861"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_tank_partial.png"
+hash = "9c05ca4cdca70cc9aec1142a259bb73bf1ab56448a92b02abab729e3fbb11134"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tool/crushing_hammer/modifiers/tconstruct_unbreakable.png"
+hash = "fd7e13b263095a7ff0edcc049fd37ee7e085960ee8d3dfdc0bfecc14c480b547"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/trash_pile.png"
@@ -8425,7 +8609,11 @@ file = "kubejs/client_scripts/jsconfig.json"
 hash = "844303f6a3d392e809779dc10bc136a65e6b488502fc47f92dcad29dbd629b45"
 
 [[files]]
-file = "kubejs/client_scripts/refurbished_furniture_removal_jei.js"
+file = "kubejs/client_scripts/misc_hide_jei.js"
+hash = "38728d3e8a41d78cbeebd3b22278d2fdcbae2b6040bf4f051472249c50514a49"
+
+[[files]]
+file = "kubejs/client_scripts/refurbished_furniture_removal_jei.js.disabled"
 hash = "179a3ddaba628e664c2a67f2f9836f8504263c3c67e613c033ff78697ebe339a"
 
 [[files]]
@@ -8446,7 +8634,7 @@ hash = "e7f3296eabb666c6fb115aae97b2f0c12f1cda4ade8d726548899933f8ae7b29"
 
 [[files]]
 file = "kubejs/client_scripts/tutorial_tooltips.js"
-hash = "b0d81e99fdaa1894f7c6782bdacc28380a83ba4b3cac4dc757e877fcddc22688"
+hash = "62e27da433dd4a5ab29809822b7d6e0df5f7a76ec1cb24f7e84c8a79fad16f89"
 
 [[files]]
 file = "kubejs/client_scripts/water_tanks_bottle.disabled"
@@ -8459,6 +8647,10 @@ hash = "ce75018e3178760fb88a5971b473567f187f2da3c24c8e270f472b564c54cb19"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "45cbc7b9b6efc4fa325786f3298e8480aae50d9ee67df39b877a1986155aec58"
+
+[[files]]
+file = "kubejs/config/defaultoptions.txt"
+hash = "eb22b1bbc6910b4ac619cd249e578d329fc5e841431712b8da9cc0dc8d1e8d4f"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -8606,11 +8798,11 @@ hash = "8643ba9c5b3bb6b392700f439ea34cf015c0153aa0524678cdfb3d55c63285fb"
 
 [[files]]
 file = "kubejs/data/kubejs/tinkering/tool_definitions/crook.json"
-hash = "350add496c9ef011fba24b80ee650a5131bbe98470ed230a25e6166ba9d797fb"
+hash = "eb31e73408719a16d67efd263fd4c238bef0c0f18b33f041fe353f798d25b32a"
 
 [[files]]
 file = "kubejs/data/kubejs/tinkering/tool_definitions/crushing_hammer.json"
-hash = "248a8815d1461dfaea6a1c6db5d02c6ca66c79e8090776276d9ddaf4040f292e"
+hash = "762b9243ed56017cc3e0f125b579facb148292fbbb1499bb2d5bbbd1dc31e68b"
 
 [[files]]
 file = "kubejs/data/kubejs/tinkering/tool_definitions/pickaxe.json"
@@ -9061,6 +9253,10 @@ file = "kubejs/server_scripts/camel_pack_crafting.js"
 hash = "90856a75b9a16b7609890992efbce8b683d270fab4c6b5481bdd62e593a0f5af"
 
 [[files]]
+file = "kubejs/server_scripts/compressed_hammer_recipes.js"
+hash = "fb3ce84a1c82b7e8b483eb7238963b4715fda7ec627eab2473a738e50801ada9"
+
+[[files]]
 file = "kubejs/server_scripts/crafting/shaped/custom_armor.js"
 hash = "aab9dc0dd064e1f7e617a8164a3f62915ddae8c7c9b1d97b96ebaca0b52ff8af"
 
@@ -9086,7 +9282,7 @@ hash = "9d267dcd56f565831b29c14044e0bfcf9647862da72caadd6d1387578ceb13a4"
 
 [[files]]
 file = "kubejs/server_scripts/create/crushing.js"
-hash = "6e12f5d39bb5da552522f49453ca2d1f16f7c0bfb92cc822deb49944730ba5b2"
+hash = "3161d58b5780eb37cd0fef67581de22563eb4227869fea116b01b66ad09a4a47"
 
 [[files]]
 file = "kubejs/server_scripts/create/ore_processing.js"
@@ -9095,6 +9291,10 @@ hash = "36ea58c245c7eb22e57e97fa5f342378f54eac871322d8afefc28e6f1aee23a9"
 [[files]]
 file = "kubejs/server_scripts/create/rocks.js"
 hash = "91edc60775f2d8e0fe92d703985b7551ac3eaa733a16cd5258243d0b289c9224"
+
+[[files]]
+file = "kubejs/server_scripts/create/thermal_mixing_compat.js"
+hash = "4c0b46ee78f6b88198c08ca25b2af6b26d6875b1fc629bf90752a02c1120c713"
 
 [[files]]
 file = "kubejs/server_scripts/crumbling_seared_bricks.js"
@@ -9125,6 +9325,10 @@ file = "kubejs/server_scripts/functional_storage_warning.js"
 hash = "afc6bd6504536772b2d0006e5d08cab47048ce400740833a597fe975c4067b48"
 
 [[files]]
+file = "kubejs/server_scripts/industrialforegoing/machines.js"
+hash = "dd9dfd748f3d60473cf02c9b6351bc34341cd67da0805f19c9ce0ada46ef3a20"
+
+[[files]]
 file = "kubejs/server_scripts/insulation_items.js"
 hash = "2bfbf71da75bd038424313b687e0731e7ea50b9ceb1365dcc8f3aaed5458f9e9"
 
@@ -9149,6 +9353,10 @@ file = "kubejs/server_scripts/mob_grinding_utils.js"
 hash = "d01cc43793ff2fef7abbb32690e14c552ff6e6e46fcdb9dd3017e68a3349d3bb"
 
 [[files]]
+file = "kubejs/server_scripts/nutrient_brick.js"
+hash = "403932f9500bbbeeb2f0e7252034cc0f637283c9d1743387a09b3dd04010d96b"
+
+[[files]]
 file = "kubejs/server_scripts/paste.js"
 hash = "602f508e9e74a166d445db1a0e653d93a549e6dae7100d6178737a480afb163c"
 
@@ -9167,6 +9375,10 @@ hash = "8cf3dd4ded7c26e0c97a8408202cda1ab2a719e4df4325d25a5c80cc038e4d32"
 [[files]]
 file = "kubejs/server_scripts/removed_recipes.js"
 hash = "733f3d1ddd5632d790c5578b2e718415520f1641b0765d39f933a9ca40c93fbd"
+
+[[files]]
+file = "kubejs/server_scripts/replace_vanilla_tool_recipes.js"
+hash = "f85baad05c906e7b4ff11e550a78a4abb9a11b424bf4474ce4b9cb535e9daad1"
 
 [[files]]
 file = "kubejs/server_scripts/replacements/general_replacements.js"
@@ -9206,7 +9418,7 @@ hash = "406bf9b529d616e5eb65726bb6e222bbe91f1c4ba139ccc7fb91d0a64ef45763"
 
 [[files]]
 file = "kubejs/server_scripts/sunlight_detection.js"
-hash = "eaa4c513aeb63e4492e8cf5f6e5c616575084cf95207d4dae12fafd59e37e42d"
+hash = "fc3869be86c8f84603c89e0d76d66e73848984a6e377cc8e825644fdeb32fa06"
 
 [[files]]
 file = "kubejs/server_scripts/tags/bookshelf_books.js"
@@ -9217,16 +9429,8 @@ file = "kubejs/server_scripts/tags/conductive.js"
 hash = "47964c7431b92502ed74e6af2d4012c9dfa389b82b90cdc18228e59c6e2bad38"
 
 [[files]]
-file = "kubejs/server_scripts/tags/crooks.js"
-hash = "5ecab16a83d232fec9a161b72d566ce8b4c9531cc134b1881d494071c1e9e02d"
-
-[[files]]
 file = "kubejs/server_scripts/tags/furniture.js"
 hash = "76ac58c9ee0d4fd6f0c01c19ef53a5ba4d9b9e27dc5aca4c91ec79ca95aa6811"
-
-[[files]]
-file = "kubejs/server_scripts/tags/hammers.js"
-hash = "58ef26d92db68bda8bb47eea079cb4025b0f5347fd1e257b478b03883da087a0"
 
 [[files]]
 file = "kubejs/server_scripts/tags/mineables.js"
@@ -9234,7 +9438,7 @@ hash = "499d463f1a0446383d07cc45c00ec24467b3ea6c36383d9d2065f2198e8fd4c6"
 
 [[files]]
 file = "kubejs/server_scripts/tags/misc.js"
-hash = "fc3705cb72ac0642e926b3c7c0adefad232c48295c788d74646e66ccd0405220"
+hash = "faa59e39b850da04a884ec06bc3b50e860e9d0d749d9af9855c115dccdda3f7c"
 
 [[files]]
 file = "kubejs/server_scripts/tags/plastic_scraps.js"
@@ -9271,6 +9475,10 @@ hash = "de2abc56afe638831a04f99c90a9fa7b453897353ffafdfb2cdedc319028915d"
 [[files]]
 file = "kubejs/server_scripts/thermal/centrifuge.js"
 hash = "209832e1dd72825139c236acafbbe8ac4081b1d691997743c0d5e00fdd665e5e"
+
+[[files]]
+file = "kubejs/server_scripts/thermal/create_pressing_compat.js"
+hash = "d3a3cf8184e0ac6d29882147ea840565915c48a2cae8961787e76892779c1c9f"
 
 [[files]]
 file = "kubejs/server_scripts/thermal/fuel/diesel_compression.js"
@@ -9311,10 +9519,6 @@ hash = "52ccde6e5a125385fbf7d2e12e590ac2af68493cd71fcbf2126c19e72a514203"
 [[files]]
 file = "kubejs/startup_scripts/crash_blocks/ship_blocks.js"
 hash = "627218c6088744dfef7423b8e65d8786e80a8bbc8ef8549fa8964d48b4301aca"
-
-[[files]]
-file = "kubejs/startup_scripts/crash_blocks/ship_chair.js"
-hash = "7577ea9430aa9c525ac14ec640c86d953e42d253a733be946b99485cb6ce5c41"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_armor.js"
@@ -9363,6 +9567,10 @@ hash = "12781ab01de6fadf2619865744f6e24501cc631fd9da5987eab30bac386ac84a"
 [[files]]
 file = "kubejs/startup_scripts/food/halved_food.js"
 hash = "c32fc6315b51a246abd6e83c84263581bd79a5a16ad398194b0705b4952897c1"
+
+[[files]]
+file = "kubejs/startup_scripts/furnitures/ship_chair.js"
+hash = "7577ea9430aa9c525ac14ec640c86d953e42d253a733be946b99485cb6ce5c41"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
@@ -9418,7 +9626,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "bc9bc4dc5e09b5213fb158a83d63d5def7bb016c3cef65405f8f2f6c0c62b158"
+hash = "9a85a245e9ccc6d5bf72f9df8376859ed007cc43f26f8849fea39767df898eac"
 metafile = true
 
 [[files]]
@@ -9443,7 +9651,7 @@ metafile = true
 
 [[files]]
 file = "mods/astages.pw.toml"
-hash = "1d174b2118fafe3b9f80831c83a18b12e9afd7925fb9ae637dc103c3c01b0845"
+hash = "70e379e8420a02f60b18104a8a40ee7b27ba710948fa28041e62e6c3f6c1354d"
 metafile = true
 
 [[files]]
@@ -9458,17 +9666,17 @@ metafile = true
 
 [[files]]
 file = "mods/baguettelib.pw.toml"
-hash = "5f24210b920f18cc159c690f098a2547359390041148526c2724ce97da196835"
+hash = "927164196622085518c1ee40bd7a9c3dc78ddf76e102b17e8e5f1e17157a9a14"
 metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "fec49033058ced91f7668d4e305e599f5527501ef37c1f30f96d8927d6202d32"
+hash = "1b7e887241ae83dfea706c0b38b3e07d6911e8b039f5bc584ac5504b269fb169"
 metafile = true
 
 [[files]]
 file = "mods/baubley-heart-canisters.pw.toml"
-hash = "be649bb983930b896f085dfff82d8374697e40fd0d45dd46b60a3880cb82209d"
+hash = "8ccdebb57625a274bf44604123688f0b68cb4976fcdf4725727413837ec3783b"
 metafile = true
 
 [[files]]
@@ -9493,7 +9701,7 @@ metafile = true
 
 [[files]]
 file = "mods/cable-facades.pw.toml"
-hash = "5f1fdb13de879aeaba419728ec61caeb9eab70bbd07a233b1d8ef9e2a4eba564"
+hash = "4a017157931712508f4a8336eb2e38b40f5dac0ffa6f1703399233fc7c9b62dc"
 metafile = true
 
 [[files]]
@@ -9533,7 +9741,7 @@ metafile = true
 
 [[files]]
 file = "mods/cold-sweat.pw.toml"
-hash = "f908b067476b78b86c84f6ecb5c8211ee345582dac96899a33e8c538fe1e6bc6"
+hash = "0a8012f47dbc5f5727c5901f85ae4d6b0750220e1f7b85656ede174e4de926d6"
 metafile = true
 
 [[files]]
@@ -9583,7 +9791,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "5c54e5306fa641958d698ca8fbb616d173a206e56eba625d7e109f0c8fa11231"
+hash = "a7155484a0a8e453acc257c429fdecbe6a5394472660c874502356861bdbe9a7"
 metafile = true
 
 [[files]]
@@ -9633,7 +9841,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "98713566cc727183fdd2fe9ceba4c4b79b99e21bed6c253fd496b1ab19f5e7ed"
+hash = "32c39798bad9d5b10b4ed53a9aa9d46971d4ad60b3777cd52dd34dbff26c3f4e"
 metafile = true
 
 [[files]]
@@ -9648,7 +9856,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "78370ae52e87fdd72c5a988bed40674d1a7a9bc8a7d69e899f6a4fa91901925d"
+hash = "827e29cda86c3fdf420b4c033ae6bdcb036c4f012600cf6167b1a565df3e9418"
 metafile = true
 
 [[files]]
@@ -9658,7 +9866,7 @@ metafile = true
 
 [[files]]
 file = "mods/enderio.pw.toml"
-hash = "1883977eb59beaa9c35f7bbe0ba17ac2d155e5ddc504b98ba47eb33efeaabf09"
+hash = "fa87ef183c10bec2eb73ef65b9341aa09efa6c1dd8e7c019938ed98fb48c40c9"
 metafile = true
 
 [[files]]
@@ -9668,7 +9876,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "25d3f272639cef595de126a2c51faff793dc03bcde63ef060e1277c315583ce7"
+hash = "fa4efa6ad10f58813530a319b3b227b8dabfcd312c2c9250ccc4ce5de0bd02dc"
 metafile = true
 
 [[files]]
@@ -9698,7 +9906,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastsuite.pw.toml"
-hash = "7d637c1d2aa62964e00c32d26d3c9b38a8bc29f3c60a313a95b5d79cbd70db8e"
+hash = "d2323a031213b0efe588838d964a728c4bb256e6a59989f6575e04df51d02215"
 metafile = true
 
 [[files]]
@@ -9718,7 +9926,7 @@ metafile = true
 
 [[files]]
 file = "mods/framedblocks.pw.toml"
-hash = "9fd68ed0b2b69ddabb1cc6c6c13251c4894a7a017cdd80032d92759954270e15"
+hash = "d45edb5f665312c0a6c8a9686eb64261031f29315d0086f616f1e34d7121f24d"
 metafile = true
 
 [[files]]
@@ -9733,7 +9941,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "64426fd63554594b3d2d2390cae5183309bb1ac2116db0baa77f1957d3eee4ac"
+hash = "b72c7c0038fd9adffd65341b1c9e235ab216fd2fe95fbb50332feb3244a74e3e"
 metafile = true
 
 [[files]]
@@ -9773,7 +9981,7 @@ metafile = true
 
 [[files]]
 file = "mods/in-control.pw.toml"
-hash = "003e8dad3f1a36f084d5a33368ba87edf07430af2cb8f30fe679c01e0d38b43d"
+hash = "2705818dfd4fbb22b604dda80804656de030ef1a6e7da52f6a95ed7ece2c7ba0"
 metafile = true
 
 [[files]]
@@ -9798,7 +10006,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "43c7ec5ca556dbc07cbe29f53a8aee3d4a9ba07758dbeda22c4d58a0b43dda47"
+hash = "9bb7329f7f3050afc2e23318c3eff6cb129fd4251cebffd6698542af80ca0a38"
 metafile = true
 
 [[files]]
@@ -9813,7 +10021,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
+hash = "ab3c4bdb5bb3bfb3b7dadfaa7ede0a624e31dc4f5f728816e06868ce591aa803"
 metafile = true
 
 [[files]]
@@ -9858,7 +10066,7 @@ metafile = true
 
 [[files]]
 file = "mods/mantle.pw.toml"
-hash = "453967db73cfa22884fd892e65314822c9a15dcebd57510e40e5785b748e9e70"
+hash = "968343b70436530723e0aa3f925b382e63b52f1c842744d7ddecf5901970f63a"
 metafile = true
 
 [[files]]
@@ -9883,12 +10091,12 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "186909f73870979511db893fca2e2a318b311361f168d425ba0e58fc539188ee"
+hash = "d18b9811438096270a05115f3286faa11e17b7f364a7be8d3b4449ff8bc75af6"
 metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "65a91af2199b20368a52cd49ccd3c0a874cd5ed8acd1892745bf778705c4f07e"
+hash = "635f6dda7d005ec9f6c105b41d445efab91946a8f2deeb591d5535e8feb12c30"
 metafile = true
 
 [[files]]
@@ -9943,7 +10151,7 @@ metafile = true
 
 [[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
-hash = "8cbe8e110ed972c22c00cabd1b1fcfda9d80d73d02973f61c1d73ba2a31c6f3c"
+hash = "6667d8f6cdf14dc4c24f72b764fb5d97e8e3a170a1f928e8fe4250187f9755bd"
 metafile = true
 
 [[files]]
@@ -9988,7 +10196,7 @@ metafile = true
 
 [[files]]
 file = "mods/rechiseled-chipped.pw.toml"
-hash = "6404fb65e80b83afe92bad0d4562253d2b7f821114e5574fcf7eb58e08b6da66"
+hash = "f9e6f73d1babbd2e40e5672fd0e2bdb7152390c2c95e269648868fde530f23fd"
 metafile = true
 
 [[files]]
@@ -10053,22 +10261,22 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "998a0dc386cc40fe5ddda00c417b829d4eb8e0ad24ae18b69b1d779be287b074"
+hash = "ef06ffc776e260cfc7fec8502ffd38717c21749efeda04903438dbeff093a797"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "f62fff2633570dc40c5d0923a7fd7e97d86871c109a92ca641c3142be08724f6"
+hash = "af11a0e31db8872d8c46b38e23ef5c7dc5bd14aae94e6dcdd6ebe8f98cc80c38"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "1d845e91fef3625d8f5b309913317e68bd1c03ff2c779158d19ea0edc90a46b2"
+hash = "6def5fa1f71dd23fc304dbf2723c7c1dd51e15c4ce5ca17a8e3672f18f55f974"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "58499d6d984b3b3ffa5e642e4c9dea964ea2a37636b14dd0de491b1ed9bb0b20"
+hash = "b1d43533264bbef73126c623bc25ddfbdecd5d3b5af4e42dfb0b546756e0c272"
 metafile = true
 
 [[files]]
@@ -10088,7 +10296,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "94880f4c797bec65ef62b0334792a699d4b0db9c4841465785368d3cf62e89e2"
+hash = "c496d20511f5ff2360cb10fde4b5cef08b953a4da3f3591e301cb54042468d8b"
 metafile = true
 
 [[files]]
@@ -10138,7 +10346,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkers-construct.pw.toml"
-hash = "d976517d4d8951e9ee57ecdcdcb79a6c390614d595624b68287d945c2dcf9614"
+hash = "7c8d34a1bb955ef2507dc69340c53f559d3868952eb73c9a2c329a968a64ed84"
 metafile = true
 
 [[files]]
@@ -10163,7 +10371,7 @@ metafile = true
 
 [[files]]
 file = "mods/zeta.pw.toml"
-hash = "b43f507cffbcc7178b184fa63b2d74fc6b2b8103c4d299ec5633ccf1f5abdafb"
+hash = "db20b75277a1b4560b5c3d4a5127e9510a7c08d79fc950ff9f241b3fa35d2e52"
 metafile = true
 
 [[files]]
@@ -10177,10 +10385,10 @@ hash = "3073a22dcaf05d14733abe00dfb1344fb88fccc17a74b18df8c90918b0f1a142"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "531a8d239c952428d9a633ff99cb03461656ada28decbe2e1ef19f60f7fd5726"
+hash = "9329c7b46e61656ad3bdc3db0de205a8eb061fac538444e1dea7ae407036b43a"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "134b3cee2ac2b5c5b9d02d8d70e8e4ba32c7c241f5bc51209521831a7c254e22"
+hash = "0e42af5a9f811367d5df2c21c8a37ef938b40d17db403c1d0f9947a1967c0010"
 metafile = true
