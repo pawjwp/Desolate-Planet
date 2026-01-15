@@ -1,0 +1,5 @@
+// Compost colors for cb_microblock. You may add your own colors, change existing ones, or remove colors that aren't needed.
+diamond_saw, #b9d0be
+iron_saw, #e0d7ca
+stone_rod, #5a9497
+stone_saw, #ccc2b4

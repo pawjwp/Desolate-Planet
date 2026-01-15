@@ -9,14 +9,86 @@
             "bounding_box": "piece",
             "spawns": [
                 {
+                    "type": "minecraft:zombie",
+                    "maxCount": 3,
+                    "minCount": 2,
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:zombie_villager",
+                    "maxCount": 6,
+                    "minCount": 2,
+                    "weight": 10
+                },
+                {
+                    "type": "specialmobs:brutezombie",
+                    "maxCount": 4,
+                    "minCount": 2,
+                    "weight": 1
+                },
+                {
                     "type": "specialmobs:madscientistzombie",
-                    "maxCount": 8,
-                    "minCount": 4,
+                    "maxCount": 5,
+                    "minCount": 2,
+                    "weight": 16
+                },
+                {
+                    "type": "specialmobs:plaguezombie",
+                    "maxCount": 4,
+                    "minCount": 2,
+                    "weight": 1
+                },
+                {
+                    "type": "specialmobs:lightningcreeper",
+                    "maxCount": 1,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "specialmobs:ninjaskeleton",
+                    "maxCount": 1,
+                    "minCount": 1,
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:enderman",
+                    "maxCount": 1,
+                    "minCount": 1,
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:witch",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 6
+                },
+                {
+                    "type": "specialmobs:shadowswitch",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 1
+                },
+                {
+                    "type": "specialmobs:undeadwitch",
+                    "maxCount": 2,
+                    "minCount": 1,
                     "weight": 4
                 },
                 {
-                    "type": "specialmobs:giantzombie",
+                    "type": "specialmobs:windwitch",
                     "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 4
+                },
+                {
+                    "type": "specialmobs:joltblaze",
+                    "maxCount": 4,
+                    "minCount": 1,
+                    "weight": 1
+                },
+                {
+                    "type": "ad_astra:corrupted_lunarian",
+                    "maxCount": 4,
                     "minCount": 1,
                     "weight": 1
                 }

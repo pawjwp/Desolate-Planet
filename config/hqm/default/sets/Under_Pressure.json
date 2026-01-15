@@ -976,7 +976,8 @@
               "item": {
                 "id": "minecraft:tnt",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_FUZZY"
             }
           ]
         },

@@ -127,6 +127,7 @@
         "id": "thermal:machine_frame",
         "Count": 1
       },
+      "parentrequirement": 2,
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -146,6 +147,7 @@
       ],
       "prerequisites": [
         "3f8636bd-b018-4fb3-a0d9-19800abb507f",
+        "eddaaad6-761a-458a-8e0f-ff4297889adc",
         "67994482-4981-4cfd-9ca6-afde4340fb62"
       ],
       "optionlinks": [],

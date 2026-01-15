@@ -4,7 +4,7 @@ setlocal EnableExtensions EnableDelayedExpansion
 rem ====== Paths ======
 for %%I in ("%~dp0..") do set "ROOT=%%~fI"
 set "SERVER_DIR=%ROOT%\packwiz-server"
-set "PACK_FOLDER=%ROOT%\packwiz-curseforge"
+set "PACK_FOLDER=%ROOT%\packwiz-modrinth"
 set "BUILD_DIR=%ROOT%\packwiz-builds"
 set "COPY_LIST_FILE=%ROOT%\packwiz-scripts\configs\server-copy-list.txt"
 
@@ -72,7 +72,7 @@ for /f "usebackq tokens=* delims= eol=#" %%L in ("%COPY_LIST_FILE%") do (
 )
 
 rem ====== Zip server folder ======
-set "OUTZIP=%BUILD_DIR%\Desolate Planet Server Pack.zip"
+set "OUTZIP=%BUILD_DIR%\Desolate Planet Server Pack Modrinth.zip"
 echo Creating "%OUTZIP%" ...
 powershell -NoProfile -Command ^
   "if (Test-Path -LiteralPath '%OUTZIP%') { Remove-Item -LiteralPath '%OUTZIP%' -Force } ;" ^

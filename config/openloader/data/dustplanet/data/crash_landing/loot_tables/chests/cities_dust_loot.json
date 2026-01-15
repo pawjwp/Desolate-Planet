@@ -99,11 +99,11 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 5
+                "max": 3
               }
             }
           ],
-          "weight": 10
+          "weight": 2
         },
         {
           "type": "item",

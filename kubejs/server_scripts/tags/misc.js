@@ -21,6 +21,14 @@ ServerEvents.tags('item', event => {
         'enderio:ender_fluid_conduit'
     )
 
+    event.add('desolate_planet:explosives',
+        'minecraft:tnt',
+        'ae2:tiny_tnt',
+        'mekanismadditions:obsidian_tnt',
+        'tconstruct:efln_ball',
+        'thermal:explosive_grenade'
+    )
+
     Ingredient.of(/^immersive_weathering:.*_leaf_pile$/).itemIds.forEach(id => {
         event.add('immersive_weathering:leaf_piles', id);
     });

@@ -8,24 +8,84 @@
         "monster": {
             "bounding_box": "piece",
             "spawns": [
-              {
-                "type": "minecraft:blaze",
-                "maxCount": 2,
-                "minCount": 1,
-                "weight": 3
-              },
-              {
-                "type": "minecraft:wither_skeleton",
-                "maxCount": 5,
-                "minCount": 2,
-                "weight": 3
-              },
-              {
-                "type": "minecraft:magma_cube",
-                "maxCount": 1,
-                "minCount": 1,
-                "weight": 1
-              }
+                {
+                    "type": "minecraft:zombie_villager",
+                    "maxCount": 3,
+                    "minCount": 1,
+                    "weight": 4
+                },
+                {
+                    "type": "specialmobs:giantzombie",
+                    "maxCount": 1,
+                    "minCount": 1,
+                    "weight": 3
+                },
+                {
+                    "type": "specialmobs:madscientistzombie",
+                    "maxCount": 3,
+                    "minCount": 1,
+                    "weight": 10
+                },
+                {
+                    "type": "specialmobs:plaguezombie",
+                    "maxCount": 4,
+                    "minCount": 2,
+                    "weight": 8
+                },
+                {
+                    "type": "minecraft:creeper",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 4
+                },
+                {
+                    "type": "specialmobs:deathcreeper",
+                    "maxCount": 1,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "specialmobs:doomcreeper",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:lightningcreeper",
+                    "maxCount": 1,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:wither_skeleton",
+                    "maxCount": 4,
+                    "minCount": 1,
+                    "weight": 3
+                },
+                {
+                    "type": "specialmobs:giantwitherskeleton",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "specialmobs:ninjawitherskeleton",
+                    "maxCount": 1,
+                    "minCount": 1,
+                    "weight": 3
+                },
+                {
+                    "type": "specialmobs:sniperwitherskeleton",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 1
+                },
+                {
+                    "type": "specialmobs:unholyghast",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 5
+                }
             ]
           }
     },

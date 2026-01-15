@@ -41,7 +41,7 @@
         {
           "type": "minecraft:item",
           "name": "kubejs:nutrient_brick",
-          "weight": 2,
+          "weight": 1,
           "quality": 3,
           "functions": [
             {

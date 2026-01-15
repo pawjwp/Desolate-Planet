@@ -2,15 +2,19 @@
   "structures": [
     {
       "structure": "crash_landing:city",
-      "weight": 10
+      "weight": 18
     },
     {
       "structure": "crash_landing:oil_rig",
-      "weight": 4
+      "weight": 5
+    },
+    {
+      "structure": "crash_landing:foundry_bastion",
+      "weight": 5
     },
     {
       "structure": "crash_landing:mer_lab",
-      "weight": 3
+      "weight": 4
     },
     {
       "structure": "crash_landing:nuclear_plant",
@@ -23,7 +27,7 @@
     "spread": 3,
     "count": 128,
     "preferred_biomes": "minecraft:desert",
-    "salt": 1269475,
+    "salt": 0,
     "frequency": 1
   }
 }

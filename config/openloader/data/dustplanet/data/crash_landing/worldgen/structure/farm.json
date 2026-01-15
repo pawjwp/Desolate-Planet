@@ -13,6 +13,12 @@
                 "maxCount": 2,
                 "minCount": 1,
                 "weight": 1
+              },
+              {
+                "type": "specialmobs:hungryzombifiedpiglin",
+                "maxCount": 3,
+                "minCount": 1,
+                "weight": 1
               }
             ]
           }

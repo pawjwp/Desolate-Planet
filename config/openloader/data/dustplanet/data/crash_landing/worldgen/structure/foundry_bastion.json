@@ -10,12 +10,30 @@
             "spawns": [
                 {
                     "type": "minecraft:zombified_piglin",
-                    "maxCount": 3,
+                    "maxCount": 4,
                     "minCount": 1,
-                    "weight": 3
+                    "weight": 20
                 },
                 {
                     "type": "specialmobs:brutezombifiedpiglin",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 4
+                },
+                {
+                    "type": "specialmobs:hungryzombifiedpiglin",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 4
+                },
+                {
+                    "type": "specialmobs:knightzombifiedpiglin",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "specialmobs:fireskeleton",
                     "maxCount": 2,
                     "minCount": 1,
                     "weight": 1
@@ -27,13 +45,73 @@
                     "weight": 1
                 },
                 {
-                    "type": "specialmobs:firecreeper",
-                    "maxCount": 1,
+                    "type": "specialmobs:weatheredskeleton",
+                    "maxCount": 2,
                     "minCount": 1,
                     "weight": 1
                 },
                 {
+                    "type": "minecraft:wither_skeleton",
+                    "maxCount": 3,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "specialmobs:brutewitherskeleton",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 1
+                },
+                {
+                    "type": "specialmobs:gatlingwitherskeleton",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 1
+                },
+                {
+                    "type": "specialmobs:spitfirewitherskeleton",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:magma_cube",
+                    "maxCount": 3,
+                    "minCount": 1,
+                    "weight": 1
+                },
+                {
+                    "type": "specialmobs:hardenedmagmacube",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:blaze",
+                    "maxCount": 3,
+                    "minCount": 1,
+                    "weight": 3
+                },
+                {
+                    "type": "specialmobs:conflagrationblaze",
+                    "maxCount": 1,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "specialmobs:emberblaze",
+                    "maxCount": 3,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
                     "type": "specialmobs:infernoblaze",
+                    "maxCount": 2,
+                    "minCount": 1,
+                    "weight": 2
+                },
+                {
+                    "type": "specialmobs:wildfireblaze",
                     "maxCount": 1,
                     "minCount": 1,
                     "weight": 1

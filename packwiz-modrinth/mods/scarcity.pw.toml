@@ -1,13 +1,13 @@
 name = "Scarcity"
-filename = "scarcity-1.0.0.jar"
+filename = "scarcity-1.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "50b49f6647e3271f74cd4cfced3d7d6968bdd9b7"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/9x6gkfgk/versions/CzZ5nv11/scarcity-1.0.2.jar"
+hash-format = "sha512"
+hash = "287f3a82abbf3f82458c6543109c87cba732efed3d91d0d8efec57640b917e1704584002123b9c1d37b1976a67329e8025cb73a5714aae133ada372975d19eda"
 
 [update]
-[update.curseforge]
-file-id = 7423896
-project-id = 1421947
+[update.modrinth]
+mod-id = "9x6gkfgk"
+version = "CzZ5nv11"

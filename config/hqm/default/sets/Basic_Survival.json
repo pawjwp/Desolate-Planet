@@ -66,7 +66,7 @@
       "icon": {
         "id": "tconstruct:sword",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:wood\",\"tconstruct:bone\"],tic_modifiers:[{level:2,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":5.25f,\"tconstruct:attack_speed\":1.68f,\"tconstruct:durability\":96.25f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.75f},tic_volatile_data:{abilities:1,upgrades:3}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:wood\",\"tconstruct:bone\"],tic_modifiers:[{level:2,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":5.25f,\"tconstruct:attack_speed\":1.68f,\"tconstruct:block_amount\":10.0f,\"tconstruct:durability\":96.25f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.75f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -481,38 +481,39 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Breaking leaves will give saplings, but the chance is small. By knocking them down with a crook, you can triple your chance of finding saplings. Perhaps you can find something else useful in the leaves as well.",
+        "text": "Breaking leaves will give saplings, but the drop chance is low. By knocking them down with a crook, you can triple your chance of finding saplings. Perhaps you can find something else useful in the leaves as well.",
         "isTranslationKey": false
       },
       "x": 110,
       "y": 129,
       "icon": {
-        "id": "exdeorum:crook",
+        "id": "kubejs:crook",
         "Count": 1,
-        "tag": "{Damage:0}"
+        "tag": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:2,name:\"tconstruct:padded\"}],tic_multipliers:{\"tconstruct:durability\":1.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.75f,\"tconstruct:durability\":91.5f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A crook will increase the drop chance of saplings from leaves, and has a small chance of giving a silk worm.",
+            "text": "A crook will increase the drop chance of saplings from leaves, and has a small chance of giving a silk worm. Crooks are crafted from sticks or in a tinker station.",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "exdeorum:crook",
+                "id": "kubejs:crook",
                 "Count": 1,
-                "tag": "{Damage:0}"
+                "tag": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:2,name:\"tconstruct:padded\"}],tic_multipliers:{\"tconstruct:durability\":1.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.75f,\"tconstruct:durability\":91.5f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
               },
-              "precision": "TAG_FUZZY"
+              "precision": "FUZZY"
             }
           ]
         }
       ],
       "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970",
+        "0f7c28b0-3881-419c-9d4b-ca936ad109f3"
       ],
       "optionlinks": [],
       "reward": [
@@ -631,16 +632,41 @@
       "x": 126,
       "y": 156,
       "icon": {
-        "id": "exdeorum:wooden_hammer",
+        "id": "kubejs:crushing_hammer",
         "Count": 1,
-        "tag": "{Damage:0}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.6f,\"tconstruct:durability\":90.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Hammers",
+            "isTranslationKey": false
+          },
           "longDescription": {
-            "text": "A hammer can crush stone into gravel and sand. You can generate cobblestone where flowing water and lava meet. The water and fuel leaks near the back of the ship could even be connected for an early source of stone.",
+            "text": "A hammer can crush stone into gravel and sand. It can be made as a tinker tool.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:crushing_hammer",
+                "Count": 1,
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.6f,\"tconstruct:durability\":90.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Crushing",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Break cobblestone with a hammer to get gravel, and break gravel to get sand. You can generate cobblestone where flowing water and lava meet. The water and fuel leaks near the back of the ship could be connected for an early source of stone.",
             "isTranslationKey": false
           },
           "items": [
@@ -663,13 +689,17 @@
         "804f4329-c6f5-4df8-915c-c590329cf26c"
       ],
       "optionlinks": [],
-      "reward": [
+      "reward": [],
+      "rewardchoice": [
         {
           "id": "minecraft:gravel",
           "Count": 16
+        },
+        {
+          "id": "minecraft:sand",
+          "Count": 16
         }
       ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
