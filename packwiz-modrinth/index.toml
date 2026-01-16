@@ -9680,6 +9680,11 @@ hash = "8ccdebb57625a274bf44604123688f0b68cb4976fcdf4725727413837ec3783b"
 metafile = true
 
 [[files]]
+file = "mods/betterblockz.pw.toml"
+hash = "88834fab03063c6a28f5f6aed6b28013b9030fa3487cb159fda999b030274fa2"
+metafile = true
+
+[[files]]
 file = "mods/biggerreactors.pw.toml"
 hash = "5843632e47c19e4a224ac4be495be73f4198b60152cea2f20d83e41caecfd7f9"
 metafile = true
