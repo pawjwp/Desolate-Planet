@@ -203,6 +203,8 @@
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],
-  "ignoredRecipes": [],
+  "ignoredRecipes": [
+    "tconstruct:smeltery/melting/metal/gold/nether_gold_ore"
+  ],
   "itemsHidingJeiRei": true
 }

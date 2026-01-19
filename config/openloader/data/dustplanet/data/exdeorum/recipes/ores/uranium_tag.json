@@ -1,22 +1,18 @@
 {
-    "type": "exdeorum:tag_result",
-    "recipe": {
-        "type": "minecraft:crafting_shaped",
-        "category": "misc",
-        "key": {
-            "#": {
-                "item": "exdeorum:uranium_ore_chunk"
-            }
-        },
-        "pattern": [
-            "##",
-            "##"
-        ],
-        "result": {
-            "item": "minecraft:air",
-            "count": 2
-        },
-        "show_notification": true
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "exdeorum:uranium_ore_chunk"
+        }
     },
-    "result_tag": "mekanism:clumps/uranium"
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "result": {
+        "item": "mekanism:clump_uranium",
+        "count": 2
+    },
+    "show_notification": true
 }

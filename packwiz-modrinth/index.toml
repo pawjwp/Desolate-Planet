@@ -826,7 +826,7 @@ hash = "bd7b1bc32ddda016771f51a83432514a6804aaca96c253936eff4ce3e3fed7fb"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "00801193d4955e3c655d2d837441810f30e7132ca96136e2e5dabd747f91792a"
+hash = "85d5196b40d0da1088009ff5b3529aeefa1d54499449647b382ab57d1fd64945"
 
 [[files]]
 file = "config/appleskin-client.toml"
@@ -998,7 +998,7 @@ hash = "52f394cd3754a29a6f236b1fe622bb430fa7e4632bce262eeb0333d71842bb52"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "a88f076339f36ada143663fe5f8b093d0d09fff345ef8f14bf6a05f72e958740"
+hash = "c652e0da4f736dae3ea2aaa8dae59332756637d72aadb5a6c7b225dd1ce4af76"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -1158,7 +1158,7 @@ hash = "ad93874969d5b1aa507237dd2fb5f0e1a39edc04d5ea9e47d693afe6d749108e"
 
 [[files]]
 file = "config/exdeorum/compost_colors/cb_microblock.txt"
-hash = "cbc5ffcfc75a16a2bcae6c695ddafd36ecd251a1ac0324fcbf74f31ce79f9f52"
+hash = "8c2319a8891d97c3aa8724a43a50c32c560e142eb2d5be2a65b494091437e469"
 
 [[files]]
 file = "config/exdeorum/compost_colors/chipped.txt"
@@ -1274,7 +1274,7 @@ hash = "4626b53fb3c1fa94f3f23834ee6e33012d5a52316c1a9cac0df6acd2e3baaec7"
 
 [[files]]
 file = "config/exdeorum/compost_colors/projectred_core.txt"
-hash = "39f9a162d58e45869a1ad550f6e3961357c7acc1f5dc98630768ecd94c953fff"
+hash = "c5bee5793846967f35f0fe1384f9511459967f083f7417dfee210861b8d6345d"
 
 [[files]]
 file = "config/exdeorum/compost_colors/quark.txt"
@@ -1434,7 +1434,7 @@ hash = "82110724ea8185ef577b7ed0b6800d99d025334507d7cf5b2e88aaa3c7ca642a"
 
 [[files]]
 file = "config/hqm/default/sets/Salvage_Operation.json"
-hash = "92ad6093d21df384d4ace4e6cc091d3677531677d0527c17c7356e9eecae64e7"
+hash = "30602f571cd330bec44fe33ba6ed8bbe7520349db8ccdb6be35817e7d1fe0347"
 
 [[files]]
 file = "config/hqm/default/sets/Technological_Revolution.json"
@@ -4038,7 +4038,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/exdeorum/recipes/ores/uranium_tag.json"
-hash = "25521870b9653b112d5f724cbbc42d473b7e811c180c99b2792adbae6fa0934d"
+hash = "747a936456982732626e5b750cf8020204f2abbeb751283f8a1efa80c88d0105"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/farmersdelight/recipes/cooking_pot.json"
@@ -6418,7 +6418,7 @@ hash = "38ae1ed6caca08047f7b7ec62bfbd99962a64d9c1aa8ede41969eaa139e04f20"
 
 [[files]]
 file = "config/scarcity-common.toml"
-hash = "8ecbb9d98241c1278f1086de0bbfe8e0707c672dbca4ebaeb38122aa7f4f4d04"
+hash = "ee73d8ab0d57b2247bf5924ae43310b1dbee1528cabc8575f796ddfc387efba4"
 
 [[files]]
 file = "config/simplyjetpacks-client.toml"
@@ -6506,7 +6506,7 @@ hash = "315e92d20ca8372c06a4f7ba310bce09e030d1e5004b6fe5ec19f4705db8b8d3"
 
 [[files]]
 file = "config/thirst/common.toml"
-hash = "2f400301b537f1388a9201c339fffa3aa5df9cd99804e0e632c92377758a471a"
+hash = "da4cd7575b69d21614dd657916461dfe649f540dd5dd54c8af2f8754f73f1ccb"
 
 [[files]]
 file = "config/thirst/container.toml"
@@ -6546,11 +6546,11 @@ hash = "8e6a91f152a24b60d2d03ebecb980527249f009382d2548af84e973f1d59c220"
 
 [[files]]
 file = "config/transition.json"
-hash = "6c0060c7301372bbc414f86a139b383e34fb620f0621badd71bb19efc3f26767"
+hash = "11e2fd51f2487c460fd659f0c5824a14e3643d0629888988d0c87a2a1dabcbce"
 
 [[files]]
 file = "config/trender.json"
-hash = "fe0bed19bd0927b3d519816c73378730689080a8f07e66a6167c266ffde29dd2"
+hash = "e28327bfc6526ecf8dbf9f74436da291b36b9a3c72bd76ff6299e800c7bd19d1"
 
 [[files]]
 file = "config/zeta-common.toml"
@@ -9402,7 +9402,7 @@ hash = "4bbbd2c581301e766d6a4b971f7511d4ca887227f09a724300a2bb7c88f5850b"
 
 [[files]]
 file = "kubejs/server_scripts/sieve_tables/sieve_drop_tables.js"
-hash = "096535f033e61b4979f44343b6dca8ca0890251ab64419ed5cca8bdbbf33ce37"
+hash = "54a01c070ef0c2684917a296e779993e3b8627243217111d5c2dbe84681a39aa"
 
 [[files]]
 file = "kubejs/server_scripts/simplyjetpacks.js"
@@ -10231,7 +10231,7 @@ metafile = true
 
 [[files]]
 file = "mods/scarcity.pw.toml"
-hash = "04e4ca93154ef085d290e9ac7b134682395261194452367d2c8743ffc01e2196"
+hash = "d37f59f12aea077f074a93f1e3224d33a8ca94397ea638bcf1f7e6ee304c10f3"
 metafile = true
 
 [[files]]
