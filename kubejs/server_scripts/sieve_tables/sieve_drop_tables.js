@@ -89,6 +89,7 @@ ServerEvents.recipes(event => {
             minecraft:redstone	1.3	5	6	7	8	9
             exdeorum:lead_ore_chunk	0	0.8	3	3.6	4.2	4.8
             exdeorum:silver_ore_chunk	0	0.5	2	2.4	2.8	3.2
+            minecraft:diamond	0	0.3	1	1.2	1.4	1.6
         `
     );
 
