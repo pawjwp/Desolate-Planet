@@ -917,9 +917,9 @@
             },
             {
               "item": {
-                "id": "exdeorum:iron_hammer",
+                "id": "kubejs:crushing_hammer",
                 "Count": 1,
-                "tag": "{Damage:0}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:1,name:\"tconstruct:magnetic\"},{level:2,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.25f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":3.0f,\"tconstruct:attack_speed\":0.8f,\"tconstruct:durability\":312.5f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":6.0f},tic_volatile_data:{abilities:1,upgrades:3}}"
               },
               "precision": "FUZZY"
             },
