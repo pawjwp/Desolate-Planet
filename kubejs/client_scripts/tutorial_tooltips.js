@@ -214,4 +214,31 @@ ItemEvents.tooltip(event => {
         if (item.nbt != null) if (item.nbt.Potion == "minecraft:weakness") text.add(1, Text.darkRed("Warning: zombie villager conversion is disabled"))
     })
 
+    // Insulation items
+    [
+        "kubejs:snow_hat",
+        "kubejs:snow_coat",
+        "kubejs:snow_pants",
+        "kubejs:snow_shoes"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("Warm clothing that provides protection from the freezing cold."));
+            text.add(2, Text.gray("Slows how fast you freeze."));
+        });
+    });
+    [
+        "kubejs:desert_cap",
+        "kubejs:desert_tunic",
+        "kubejs:desert_pants",
+        "kubejs:desert_shoes"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("Light and breathable clothing that provides protection from the blazing heat."));
+            text.add(2, Text.gray("Slows how fast you overheat."));
+        });
+    });
+    event.addAdvanced("kubejs:stillsuit", (item, advanced, text) => {
+        text.add(1, Text.gray("Significantly insulates you from extreme temperatures."));
+        text.add(2, Text.gray("Recycles moisture to reduce your water use."));
+    });
 });
