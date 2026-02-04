@@ -306,9 +306,11 @@
             {
               "item": {
                 "id": "minecraft:water_bucket",
-                "Count": 1
-              }
-            },
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            }
             {
               "item": {
                 "id": "minecraft:clay_ball",
