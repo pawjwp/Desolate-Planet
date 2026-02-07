@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:dragon_breath"
+    },
+    "M": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "S": {
+      "item": "tconstruct:dragon_scale"
+    }
+  },
+  "pattern": [
+    "MBM",
+    "MSM",
+    "M M"
+  ],
+  "result": {
+    "item": "minecraft:elytra"
+  },
+  "show_notification": true
+}
