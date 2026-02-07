@@ -11,6 +11,13 @@
     "curseForgeHash": 2713479490,
     "modrinthHash": "537ac3e358a97efd7b03648a9bfd7b11f1ae7ff7"
   },
+  "AdvancedLootInfo-forge-1.20.1-1.7.1.jar": {
+    "jarName": "AdvancedLootInfo-forge-1.20.1-1.7.1.jar",
+    "modId": "ali",
+    "version": "1.7.1",
+    "curseForgeHash": 3170683389,
+    "modrinthHash": "3babf4e0813a24b82c392c64df15ef3404fa68b6"
+  },
   "AI-Improvements-1.20-0.5.2.jar": {
     "jarName": "AI-Improvements-1.20-0.5.2.jar",
     "modId": "aiimprovements",
@@ -606,13 +613,6 @@
     "curseForgeHash": 2452310598,
     "modrinthHash": "fdd97a782bdc6d0e28a851a9715abb190df47aa6"
   },
-  "JustEnoughResources-1.20.1-1.4.0.247.jar": {
-    "jarName": "JustEnoughResources-1.20.1-1.4.0.247.jar",
-    "modId": "jeresources",
-    "version": "1.4.0.247",
-    "curseForgeHash": 3995349408,
-    "modrinthHash": "526e788a9b38afc5171fab49b64a5a54e1bb25d7"
-  },
   "kjsindustrialforegoing-1.0.jar": {
     "jarName": "kjsindustrialforegoing-1.0.jar",
     "modId": "kjsindustrialforegoing",
@@ -726,9 +726,9 @@
   "nfm-2025.09.20a-1.20.1.jar": {
     "jarName": "nfm-2025.09.20a-1.20.1.jar",
     "modId": "nfm",
-    "version": "2026.01.30",
-    "curseForgeHash": 2212047106,
-    "modrinthHash": "119c5c1ff9cfedc5d79ac97876b795396b7ae784"
+    "version": "2025.09.20a",
+    "curseForgeHash": 3685155606,
+    "modrinthHash": "ed76cfb172a370919ebfd0143369fdea37c6fc18"
   },
   "oculus-mc1.20.1-1.8.0.jar": {
     "jarName": "oculus-mc1.20.1-1.8.0.jar",
