@@ -41,6 +41,7 @@ ServerEvents.recipes(event => {
     .id('desolate_planet:tinkering/bone_crook_replacement');
 
     // Hammers
+
     event.remove({ id: 'exdeorum:wooden_hammer' })
     event.recipes.kubejs
     .shaped(
@@ -52,7 +53,7 @@ ServerEvents.recipes(event => {
             '/  '
         ],
         {
-            '#': '#minecraft:planks',
+            '#': '#minecraft:logs',
             '/': 'minecraft:stick'
         }
     )
@@ -68,12 +69,12 @@ ServerEvents.recipes(event => {
         // Shown in JEI
         Item.of('exdeorum:stone_hammer', "{Damage:0,display:{Lore:['{\"text\":\"Converts into a Tinkers tool\"}']}}"),
         [
-            ' # ',
-            ' /#',
+            '  #',
+            ' / ',
             '/  '
         ],
         {
-            '#': '#minecraft:stone_tool_materials',
+            '#': '#exdeorum:compressed/cobblestone',
             '/': 'minecraft:stick'
         }
     )
@@ -89,12 +90,12 @@ ServerEvents.recipes(event => {
         // Shown in JEI
         Item.of('exdeorum:golden_hammer', "{Damage:0,display:{Lore:['{\"text\":\"Converts into a Tinkers tool\"}']}}"),
         [
-            ' # ',
-            ' /#',
+            '  #',
+            ' / ',
             '/  '
         ],
         {
-            '#': 'minecraft:gold_ingot',
+            '#': 'minecraft:gold_block',
             '/': 'minecraft:stick'
         }
     )
@@ -110,12 +111,12 @@ ServerEvents.recipes(event => {
         // Shown in JEI
         Item.of('exdeorum:iron_hammer', "{Damage:0,display:{Lore:['{\"text\":\"Converts into a Tinkers tool\"}']}}"),
         [
-            ' # ',
-            ' /#',
+            '  #',
+            ' / ',
             '/  '
         ],
         {
-            '#': 'minecraft:iron_ingot',
+            '#': 'minecraft:iron_block',
             '/': 'minecraft:stick'
         }
     )
@@ -131,12 +132,13 @@ ServerEvents.recipes(event => {
         // Shown in JEI
         Item.of('exdeorum:diamond_hammer', "{Damage:0,display:{Lore:['{\"text\":\"Converts into a Tinkers tool\"}']}}"),
         [
-            ' # ',
-            ' /#',
+            ' $#',
+            ' /$',
             '/  '
         ],
         {
-            '#': 'minecraft:diamond',
+            '$': 'minecraft:diamond',
+            '#': 'minecraft:iron_block',
             '/': 'minecraft:stick'
         }
     )
