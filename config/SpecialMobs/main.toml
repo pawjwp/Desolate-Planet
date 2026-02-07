@@ -22,9 +22,18 @@
   # <Boolean> Valid Values: { true, false }, Default: true
   general.enable_added_natural_spawning = true
 
-  # If enabled, mobs spawned from spawner blocks/dungeon spawners will not be subject to mob replacement.
-  # <Boolean> Valid Values: { true, false }, Default: false
-  general.skip_spawner_spawns = false
+  # A list of mob spawn types that the mob replacer should not process.
+  # For example, listing "spawner" here will stop the mob replacer from processing mobs spawned from spawners.
+  # Valid types are as follows: "natural", "chunk_generation", "spawner", "structure", "breeding", "mob_summoned",
+  #   "jockey", "event", "conversion", "reinforcement", "triggered", "bucket", "spawn_egg", "command", "dispenser",
+  #   "patrol"
+  # <MobSpawnType List> Format: [ "mobspawntype1", "mobspawntype2", ... ], Default: [ "structure", "bucket",
+  #   "chunk_generation" ]
+  general.skipped_spawn_types = [
+    "structure",
+    "bucket",
+    "chunk_generation"
+  ]
 
   # Whether the mod uses Special Mobs entities in place of vanilla entities for non-special species. This allows your
   #   config options to apply to non-special species and allows them to benefit from Special Mob Data and any

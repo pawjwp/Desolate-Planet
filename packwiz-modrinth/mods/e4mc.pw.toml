@@ -1,13 +1,13 @@
 name = "e4mc"
-filename = "e4mc_minecraft-forge-5.5.4.jar"
+filename = "e4mc-forge-6.0.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/qANg5Jrr/versions/hhjrLvn9/e4mc_minecraft-forge-5.5.4.jar"
+url = "https://cdn.modrinth.com/data/qANg5Jrr/versions/dbujFt30/e4mc-forge-6.0.5.jar"
 hash-format = "sha512"
-hash = "ed5914cddcfabe241b6746cc6b158172bf81c11e9b15a918c2504367ebf2888b93cf7ac1b1c5f305d9c1dab67afd13462c98fd3c5cccdd4c7bd19a8e663299b8"
+hash = "dcc594ddfb30c3c15c30a8a5eb451c6599223c047f07ad3a0c2fb95df17484704bc7ed86f88bcc8e6e78fff54795ac520dce4da1e762770a732725f9402d7987"
 
 [update]
 [update.modrinth]
 mod-id = "qANg5Jrr"
-version = "hhjrLvn9"
+version = "dbujFt30"
