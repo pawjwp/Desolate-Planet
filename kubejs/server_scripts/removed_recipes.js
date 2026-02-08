@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
         'industrialforegoing:diamond_gear',
         'industrialforegoing:gold_gear',
         'industrialforegoing:iron_gear',
+        'pneumaticcraft:amadron_tablet',
         'tconstruct:molten_pewter',
         'tconstruct:smeltery/casting/scorched/brick_composite',
         'tconstruct:smeltery/casting/scorched/stone_from_magma',
@@ -80,6 +81,7 @@ ServerEvents.recipes(event => {
         'create:potions',
         'exdeorum:compressed_sieve',
         'exdeorum:water_crucible',
+        'pneumaticcraft:amadron',
         'tconstruct:casting_table_potion'
     ].forEach(t => {
         event.remove({ type: t });

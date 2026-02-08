@@ -29,6 +29,13 @@ ServerEvents.tags('item', event => {
         'thermal:explosive_grenade'
     )
 
+    event.add('desolate_planet:pcb_templates',
+        'pneumaticcraft:pcb_blueprint',
+        'pneumaticcraft:unassembled_pcb',
+        'pneumaticcraft:printed_circuit_board',
+        'pneumaticcraft:failed_pcb',
+    )
+
     Ingredient.of(/^immersive_weathering:.*_leaf_pile$/).itemIds.forEach(id => {
         event.add('immersive_weathering:leaf_piles', id);
     });
