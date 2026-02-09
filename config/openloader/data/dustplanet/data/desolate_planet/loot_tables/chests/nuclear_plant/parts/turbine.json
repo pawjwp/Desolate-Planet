@@ -1,12 +1,26 @@
 {
   "pools": [
     {
-      "name": "desolate_planet:chests/nuclear_plant_reactor_parts",
+      "name": "desolate_planet:chests/nuclear_plant/parts/reactor",
       "rolls": 1,
       "entries": [
         {
           "type": "item",
-          "name": "biggerreactors:graphite_block",
+          "name": "biggerreactors:turbine_rotor_blade",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "biggerreactors:turbine_rotor_shaft",
           "functions": [
             {
               "function": "set_count",
@@ -20,7 +34,7 @@
         },
         {
           "type": "item",
-          "name": "biggerreactors:reactor_fuel_rod",
+          "name": "biggerreactors:turbine_glass",
           "functions": [
             {
               "function": "set_count",
@@ -30,11 +44,11 @@
               }
             }
           ],
-          "weight": 1
+          "weight": 3
         },
         {
           "type": "item",
-          "name": "biggerreactors:reactor_glass",
+          "name": "kubejs:crashed_turbine_frame",
           "functions": [
             {
               "function": "set_count",
@@ -44,21 +58,7 @@
               }
             }
           ],
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "kubejs:crashed_reactor_frame",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 3
-              }
-            }
-          ],
-          "weight": 1
+          "weight": 3
         }
       ]
     }

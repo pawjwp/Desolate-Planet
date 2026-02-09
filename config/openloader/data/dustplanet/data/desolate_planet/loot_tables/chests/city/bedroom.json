@@ -19,7 +19,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 5
+                "max": 3
               }
             }
           ]
@@ -76,7 +76,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
+          "name": "minecraft:leather",
           "weight": 2,
           "quality": 1,
           "functions": [
@@ -92,7 +92,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
+          "name": "minecraft:string",
           "weight": 2,
           "quality": 1,
           "functions": [
@@ -109,7 +109,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:black_dye",
+          "name": "minecraft:emerald",
           "weight": 1,
           "quality": 3
         }
@@ -119,12 +119,12 @@
       "rolls": {
         "type": "minecraft:binomial",
         "n": 1,
-        "p": 0.1
+        "p": 0.2
       },
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/deco/rare",
+          "name": "desolate_planet:chests/city/rare",
           "weight": 1,
           "quality": 1
         }

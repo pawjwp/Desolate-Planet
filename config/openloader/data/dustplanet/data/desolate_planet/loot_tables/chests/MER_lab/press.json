@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/mer_rare",
+          "name": "desolate_planet:chests/MER_lab/rare",
           "weight": 1
         }
       ]

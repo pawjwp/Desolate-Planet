@@ -171,7 +171,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/deco/rare",
+          "name": "desolate_planet:chests/city/rare",
           "weight": 1,
           "quality": 1
         }

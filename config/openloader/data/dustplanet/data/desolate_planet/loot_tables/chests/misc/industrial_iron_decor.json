@@ -1,12 +1,54 @@
 {
   "pools": [
     {
-      "name": "desolate_planet:chests/misc_technical",
+      "name": "desolate_planet:chests/misc/industrial_iron_decor",
       "rolls": 1,
       "entries": [
         {
           "type": "item",
-          "name": "kubejs:plastic_scrap",
+          "name": "createdeco:industrial_iron_sheet_metal",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "createdeco:industrial_iron_ladder",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "createdeco:yellow_industrial_iron_lamp",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "createdeco:industrial_iron_catwalk",
           "functions": [
             {
               "function": "set_count",
@@ -16,45 +58,17 @@
               }
             }
           ],
-          "weight": 9
+          "weight": 2
         },
         {
           "type": "item",
-          "name": "thermal:invar_ingot",
+          "name": "createdeco:industrial_iron_catwalk_railing",
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 2,
                 "max": 4
-              }
-            }
-          ],
-          "weight": 4
-        },
-        {
-          "type": "item",
-          "name": "thermal:electrum_ingot",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 4
-              }
-            }
-          ],
-          "weight": 4
-        },
-        {
-          "type": "item",
-          "name": "pneumaticcraft:failed_pcb",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
               }
             }
           ],
@@ -62,13 +76,13 @@
         },
         {
           "type": "item",
-          "name": "thermal:machine_frame",
+          "name": "createdeco:industrial_iron_support",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 1,
-                "max": 2
+                "min": 2,
+                "max": 4
               }
             }
           ],

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/misc_technical"
+          "name": "desolate_planet:chests/misc/technical"
         }
       ]
     },
@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/misc_industrial_iron_decor"
+          "name": "desolate_planet:chests/misc/industrial_iron_decor"
         }
       ]
     },
@@ -24,7 +24,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/nuclear_plant_reactor_parts"
+          "name": "desolate_planet:chests/nuclear_plant/parts/reactor"
         }
       ]
     },
@@ -36,22 +36,22 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/misc_technical",
+          "name": "desolate_planet:chests/misc/technical",
           "weight": 10
         },
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/misc_industrial_iron_decor",
+          "name": "desolate_planet:chests/misc/industrial_iron_decor",
           "weight": 6
         },
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/nuclear_plant_reactor_parts",
+          "name": "desolate_planet:chests/nuclear_plant/parts/reactor",
           "weight": 6
         },
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/nuclear_plant_turbine_parts",
+          "name": "desolate_planet:chests/nuclear_plant/parts/turbine",
           "weight": 5
         },
         {

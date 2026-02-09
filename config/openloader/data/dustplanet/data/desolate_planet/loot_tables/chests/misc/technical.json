@@ -1,18 +1,60 @@
 {
   "pools": [
     {
-      "name": "desolate_planet:chests/nuclear_plant_reactor_parts",
+      "name": "desolate_planet:chests/misc/technical",
       "rolls": 1,
       "entries": [
         {
           "type": "item",
-          "name": "biggerreactors:turbine_rotor_blade",
+          "name": "kubejs:plastic_scrap",
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 2,
-                "max": 3
+                "max": 5
+              }
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "type": "item",
+          "name": "thermal:invar_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "thermal:electrum_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "pneumaticcraft:failed_pcb",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
               }
             }
           ],
@@ -20,7 +62,7 @@
         },
         {
           "type": "item",
-          "name": "biggerreactors:turbine_rotor_shaft",
+          "name": "thermal:machine_frame",
           "functions": [
             {
               "function": "set_count",
@@ -31,34 +73,6 @@
             }
           ],
           "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "biggerreactors:turbine_glass",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 3
-              }
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "item",
-          "name": "kubejs:crashed_turbine_frame",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 3
-              }
-            }
-          ],
-          "weight": 3
         }
       ]
     }

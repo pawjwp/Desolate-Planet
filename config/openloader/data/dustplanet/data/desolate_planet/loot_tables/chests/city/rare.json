@@ -11,19 +11,19 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/gun/pistol",
+          "name": "desolate_planet:chests/misc/gun/pistol",
           "weight": 1,
           "quality": 1
         },
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/gun/shotgun",
+          "name": "desolate_planet:chests/misc/gun/shotgun",
           "weight": 1,
           "quality": 1
         },
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/gun/rifle",
+          "name": "desolate_planet:chests/misc/gun/rifle",
           "weight": 1,
           "quality": 1
         },

@@ -26,13 +26,13 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/deco/kitchen_food",
+          "name": "desolate_planet:chests/city/kitchen/food",
           "weight": 8,
           "quality": 1
         },
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/deco/kitchen_seeds",
+          "name": "desolate_planet:chests/city/kitchen/seeds",
           "weight": 8,
           "quality": 1
         },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/deco/kitchen_rare",
+          "name": "desolate_planet:chests/city/kitchen/rare",
           "weight": 1,
           "quality": 1
         }
