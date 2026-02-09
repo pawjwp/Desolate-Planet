@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/mer_rare",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ae2:calculation_processor_press",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:engineering_processor_press",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:logic_processor_press",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:silicon_press",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cgm:rifle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Color:4673362}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Color:6192150}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoCount:0}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cgm:advanced_bullet",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 20
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

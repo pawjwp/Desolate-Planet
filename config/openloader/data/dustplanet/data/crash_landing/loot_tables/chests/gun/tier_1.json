@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/gun/pistol",
+          "weight": 1,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/gun/rifle",
+          "weight": 1,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/gun/shotgun",
+          "weight": 1,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/gun/basic_bullet",
+          "weight": 3,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}
