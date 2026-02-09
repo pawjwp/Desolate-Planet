@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "desolate_planet:farm",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 64,
+      "separation": 16,
+      "spread_type": "triangular",
+      "salt": 327975993
+    }
+  }

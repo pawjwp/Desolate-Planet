@@ -1,0 +1,33 @@
+{
+  "name": "desolate_planet:decor_closets_7x6_shelves",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "desolate_planet:nuclear_plant/decor/closets/7x6/shelves/shelves_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "desolate_planet:nuclear_plant/decor/closets/7x6/shelves/shelves_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "desolate_planet:nuclear_plant/decor/closets/7x6/shelves/shelves_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

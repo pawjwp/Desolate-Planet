@@ -1,0 +1,15 @@
+{
+  "name": "desolate_planet:reactor_reactor_face_dock",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "desolate_planet:nuclear_plant/reactor/reactor_faces/reactor_face_dock",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

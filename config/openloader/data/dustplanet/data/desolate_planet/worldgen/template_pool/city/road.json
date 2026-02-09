@@ -1,0 +1,114 @@
+{
+  "fallback": "desolate_planet:city/road_end",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/small_dusty",
+        "processors": "desolate_planet:road_dusting"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/long_dusty",
+        "processors": "desolate_planet:road_dusting"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/straight_small",
+        "processors": "desolate_planet:road_dusting"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/straight_long",
+        "processors": "desolate_planet:road_dusting"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/straight_xl",
+        "processors": "desolate_planet:road_dusting"
+      }
+    },
+
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/cross",
+        "processors": "desolate_planet:road_dusting"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/cross_big",
+        "processors": "desolate_planet:road_dusting"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/junction",
+        "processors": "desolate_planet:road_dusting"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/junction_left",
+        "processors": "desolate_planet:road_dusting"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/junction_right",
+        "processors": "desolate_planet:road_dusting"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/turn_left",
+        "processors": "desolate_planet:road_dusting"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/turn_right",
+        "processors": "desolate_planet:road_dusting"
+      }
+    }
+  ]
+}
