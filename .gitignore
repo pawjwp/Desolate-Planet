@@ -44,6 +44,9 @@ packwiz-installer-bootstrap.jar
 packwiz-scripts/tools/forge-*-installer.jar
 packwiz-scripts/forge-*-installer.jar.log
 
+/packwiz-scripts/**/*.nbt
+/packwiz-scripts/**/*.snbt
+
 /packwiz-builds
 
 /packwiz-curseforge/config
