@@ -60,7 +60,7 @@
                     "type": "minecraft:witch",
                     "maxCount": 2,
                     "minCount": 1,
-                    "weight": 6
+                    "weight": 8
                 },
                 {
                     "type": "specialmobs:shadowswitch",
@@ -75,22 +75,16 @@
                     "weight": 4
                 },
                 {
-                    "type": "specialmobs:windwitch",
-                    "maxCount": 2,
-                    "minCount": 1,
-                    "weight": 4
-                },
-                {
                     "type": "specialmobs:joltblaze",
                     "maxCount": 4,
                     "minCount": 1,
-                    "weight": 1
+                    "weight": 2
                 },
                 {
                     "type": "ad_astra:corrupted_lunarian",
                     "maxCount": 4,
                     "minCount": 1,
-                    "weight": 1
+                    "weight": 2
                 }
             ]
         }
