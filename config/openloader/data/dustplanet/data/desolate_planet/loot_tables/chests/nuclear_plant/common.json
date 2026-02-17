@@ -2,67 +2,36 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/misc/technical"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/misc/industrial_iron_decor"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/nuclear_plant/parts/reactor"
-        }
-      ]
-    },
-    {
       "rolls": {
-        "min": 2,
-        "max": 4
+        "type": "minecraft:binomial",
+        "n": 5,
+        "p": 0.5
       },
       "entries": [
         {
           "type": "minecraft:loot_table",
           "name": "desolate_planet:chests/misc/technical",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "desolate_planet:chests/nuclear_plant/parts/reactor",
           "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "name": "desolate_planet:chests/misc/industrial_iron_decor",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "desolate_planet:chests/nuclear_plant/parts/reactor",
-          "weight": 6
+          "weight": 8
         },
         {
           "type": "minecraft:loot_table",
           "name": "desolate_planet:chests/nuclear_plant/parts/turbine",
-          "weight": 5
+          "weight": 6
         },
         {
           "type": "minecraft:item",
           "name": "mob_grinding_utils:rotten_egg",
           "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "mob_grinding_utils:golden_egg",
-          "weight": 1
         }
       ]
     }
