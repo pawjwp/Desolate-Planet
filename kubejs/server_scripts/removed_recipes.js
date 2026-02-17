@@ -9,6 +9,7 @@ ServerEvents.recipes(event => {
         'pneumaticcraft:amadron_tablet',
         'tconstruct:molten_pewter',
         'tconstruct:smeltery/casting/scorched/brick_composite',
+        'tconstruct:smeltery/casting/scorched/polished_from_magma',
         'tconstruct:smeltery/casting/scorched/stone_from_magma',
         'tconstruct:smeltery/casting/seared/brick_composite',
         'tconstruct:smeltery/casting/seared/stone/block_from_seared',
