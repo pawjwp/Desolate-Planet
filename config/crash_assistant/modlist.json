@@ -11,12 +11,12 @@
     "curseForgeHash": 2713479490,
     "modrinthHash": "537ac3e358a97efd7b03648a9bfd7b11f1ae7ff7"
   },
-  "AdvancedLootInfo-forge-1.20.1-1.7.1.jar": {
-    "jarName": "AdvancedLootInfo-forge-1.20.1-1.7.1.jar",
+  "AdvancedLootInfo-forge-1.20.1-1.7.2.jar": {
+    "jarName": "AdvancedLootInfo-forge-1.20.1-1.7.2.jar",
     "modId": "ali",
-    "version": "1.7.1",
-    "curseForgeHash": 3170683389,
-    "modrinthHash": "3babf4e0813a24b82c392c64df15ef3404fa68b6"
+    "version": "1.7.2",
+    "curseForgeHash": 3652719923,
+    "modrinthHash": "4e213aa31bf72508f80c3be1636b0796850bf900"
   },
   "AI-Improvements-1.20-0.5.2.jar": {
     "jarName": "AI-Improvements-1.20-0.5.2.jar",
@@ -88,12 +88,12 @@
     "curseForgeHash": 3211401917,
     "modrinthHash": "2acee24454af859988a691f0506271a465f68f7b"
   },
-  "AttributeFix-Forge-1.20.1-21.0.4.jar": {
-    "jarName": "AttributeFix-Forge-1.20.1-21.0.4.jar",
+  "AttributeFix-Forge-1.20.1-21.0.5.jar": {
+    "jarName": "AttributeFix-Forge-1.20.1-21.0.5.jar",
     "modId": "attributefix",
-    "version": "21.0.4",
-    "curseForgeHash": 381211649,
-    "modrinthHash": "6eb69343eb21d38f95d1b1d00e6bc777bdb336fa"
+    "version": "21.0.5",
+    "curseForgeHash": 3762486546,
+    "modrinthHash": "76d6b2d0f2a3c9842587ad20666ba419cd8c1efa"
   },
   "baguettelib-1.20.1-Forge-1.1.5.jar": {
     "jarName": "baguettelib-1.20.1-Forge-1.1.5.jar",
@@ -396,12 +396,12 @@
     "curseForgeHash": 4281946638,
     "modrinthHash": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
   },
-  "EnchantmentDescriptions-Forge-1.20.1-17.1.20.jar": {
-    "jarName": "EnchantmentDescriptions-Forge-1.20.1-17.1.20.jar",
+  "EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar": {
+    "jarName": "EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",
     "modId": "enchdesc",
-    "version": "17.1.20",
-    "curseForgeHash": 3529265314,
-    "modrinthHash": "7942d3bf21a5060fb070f0809bf43a165b163fb5"
+    "version": "17.1.21",
+    "curseForgeHash": 3504336343,
+    "modrinthHash": "0328a8350cf0a6d1c44265367a077649088b354b"
   },
   "EnderIO-1.20.1-6.2.17-beta-all.jar": {
     "jarName": "EnderIO-1.20.1-6.2.17-beta-all.jar",
@@ -452,12 +452,12 @@
     "curseForgeHash": 285715923,
     "modrinthHash": "1d5b4e5694a141952be0460dd85c286ea31d0d5e"
   },
-  "FarmersDelight-1.20.1-1.2.9.jar": {
-    "jarName": "FarmersDelight-1.20.1-1.2.9.jar",
+  "FarmersDelight-1.20.1-1.2.10.jar": {
+    "jarName": "FarmersDelight-1.20.1-1.2.10.jar",
     "modId": "farmersdelight",
-    "version": "1.20.1-1.2.9",
-    "curseForgeHash": 4034486801,
-    "modrinthHash": "ca9417c369e75d38dacdac59937223e5f6adcc18"
+    "version": "1.20.1-1.2.10",
+    "curseForgeHash": 389083042,
+    "modrinthHash": "0dd8364318dd98e257c07168f905b71be9b39869"
   },
   "FastLeafDecay-32.jar": {
     "jarName": "FastLeafDecay-32.jar",
@@ -912,12 +912,12 @@
     "curseForgeHash": 1655686120,
     "modrinthHash": "a4e47dbf4382ebe092b6c2cb71919e412b456d84"
   },
-  "sophisticatedbackpacks-1.20.1-3.24.20.1500.jar": {
-    "jarName": "sophisticatedbackpacks-1.20.1-3.24.20.1500.jar",
+  "sophisticatedbackpacks-1.20.1-3.24.23.1529.jar": {
+    "jarName": "sophisticatedbackpacks-1.20.1-3.24.23.1529.jar",
     "modId": "sophisticatedbackpacks",
-    "version": "3.24.20.1500",
-    "curseForgeHash": 61160278,
-    "modrinthHash": "76d439b9157fa4b5c118753c9de91bda33f07c7b"
+    "version": "3.24.23.1529",
+    "curseForgeHash": 2596633231,
+    "modrinthHash": "d6fa8d95ee29aeab6e582fdeff0c31e64a6be111"
   },
   "sophisticatedbackpackscreateintegration-1.20.1-0.1.5.30.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.20.1-0.1.5.30.jar",
@@ -926,19 +926,19 @@
     "curseForgeHash": 2143818380,
     "modrinthHash": "b8d8789f077e80d7b280f7f31a119167c3e4427c"
   },
-  "sophisticatedcore-1.20.1-1.3.1.1460.jar": {
-    "jarName": "sophisticatedcore-1.20.1-1.3.1.1460.jar",
+  "sophisticatedcore-1.20.1-1.3.3.1482.jar": {
+    "jarName": "sophisticatedcore-1.20.1-1.3.3.1482.jar",
     "modId": "sophisticatedcore",
-    "version": "1.3.1.1460",
-    "curseForgeHash": 898685919,
-    "modrinthHash": "bb315bcf87d1bb6d30710dfb025a53bb8fabfe8b"
+    "version": "1.3.3.1482",
+    "curseForgeHash": 568501125,
+    "modrinthHash": "fc741821d5f18c61d6d54363d59e42e89942496d"
   },
-  "sophisticatedstorage-1.20.1-1.4.24.1486.jar": {
-    "jarName": "sophisticatedstorage-1.20.1-1.4.24.1486.jar",
+  "sophisticatedstorage-1.20.1-1.4.25.1488.jar": {
+    "jarName": "sophisticatedstorage-1.20.1-1.4.25.1488.jar",
     "modId": "sophisticatedstorage",
-    "version": "1.4.24.1486",
-    "curseForgeHash": 213070522,
-    "modrinthHash": "17b84785855e8fff5cfa123c6099d9506c8d6222"
+    "version": "1.4.25.1488",
+    "curseForgeHash": 3846802603,
+    "modrinthHash": "38430235be92366937b1d405b0f52f8f5c3eab51"
   },
   "sophisticatedstoragecreateintegration-1.20.1-0.1.15.63.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.20.1-0.1.15.63.jar",
