@@ -161,17 +161,11 @@ ItemEvents.tooltip(event => {
 
     // Tinkers' Construct
     event.addAdvanced("tconstruct:grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling seared bricks in the ruins."));});
-    event.addAdvanced("tconstruct:nether_grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling seared bricks in the ruins."));});
+    event.addAdvanced("tconstruct:nether_grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling scorched bricks in the ruins."));});
     event.addAdvanced("tconstruct:seared_brick", (item, advanced, text) => { text.add(1, Text.gray("Find crumbling seared bricks in the ruins."));});
-    [
-        "kubejs:crumbling_seared_brick",
-        "kubejs:crumbling_seared_brick_2",
-        "kubejs:crumbling_seared_brick_3"
-    ].forEach(tool => {
-        event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.gray("Can be crushed into seared bricks with a hammer."));
-        });
-    });
+    event.addAdvanced("tconstruct:scorched_brick", (item, advanced, text) => { text.add(1, Text.gray("Find crumbling scorched bricks in the ruins."));});
+    event.addAdvanced("kubejs:crumbling_seared_bricks", (item, advanced, text) => { text.add(1, Text.gray("Can be crushed into seared bricks with a hammer."));});
+    event.addAdvanced("kubejs:crumbling_scorched_bricks", (item, advanced, text) => { text.add(1, Text.gray("Can be crushed into scorched bricks with a hammer."));});
     event.addAdvanced("tconstruct:blazing_blood_bucket", (item, advanced, text) => { text.add(1, Text.gold("Craft by melting down blaze powder (or the blazes themselves)."));});
 
     // Food items
