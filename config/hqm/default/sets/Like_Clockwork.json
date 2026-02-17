@@ -310,7 +310,7 @@
                 "tag": "{}"
               },
               "precision": "FUZZY"
-            }
+            },
             {
               "item": {
                 "id": "minecraft:clay_ball",
@@ -1634,7 +1634,8 @@
                 "id": "create:mechanical_crafter",
                 "Count": 1
               },
-              "required": 21
+              "required": 21,
+              "precision": "FUZZY"
             }
           ]
         }
