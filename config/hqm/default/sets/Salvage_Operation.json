@@ -164,7 +164,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The foundry is structured in mostly the same way as the smeltery, but made out of foundry blocks. Unlike the smeltery, you must fill the edges of a foundry with acceptable blocks, not just the inner faces. Consult the \"Fantastical Foundry\" guide for more information.",
+            "text": "You can find foundry components in the foundry city structure.\nThe foundry multiblock is built in a similar way to the smeltery, but made out of foundry blocks. Unlike the smeltery, you must fill the edges of a foundry with acceptable blocks, not just the inner faces. Consult the \"Fantastical Foundry\" guide for more information.",
             "isTranslationKey": false
           },
           "items": [
@@ -445,7 +445,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Once you have access to netherrack, soulsand, and other nether blocks, you can start sifting them for cobalt and ancient debris. These are the two main ingredients behind the best tool materials in the game.",
+        "text": "Once you have found cobalt and ancient debris in a Foundry city, you can start creating advanced Tinkers' Materials. These are the two main ingredients behind the best tool materials in the game.",
         "isTranslationKey": false
       },
       "x": 158,
@@ -479,8 +479,8 @@
       ],
       "prerequisites": [
         "4cc6ede3-b15f-4cae-ad96-9903227e5ae8",
-        "c5d70928-cc40-46b5-bfb0-3f3b800a84ea",
-        "48aa589e-ca93-4ee0-a841-57cb95c49dfb"
+        "48aa589e-ca93-4ee0-a841-57cb95c49dfb",
+        "c477a1a1-782a-4fe8-9566-97dc4f9cff31"
       ],
       "optionlinks": [],
       "reward": [
@@ -855,7 +855,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can make blazing blood by melting blaze powder (or the blazes themselves).",
+            "text": "You can make blazing blood by melting blazes in a smeltery. Blazes can be found in the Foundry structure. Small amounts of blazing blood can also be gained by melting blaze rods or blaze powder.",
             "isTranslationKey": false
           },
           "items": [
