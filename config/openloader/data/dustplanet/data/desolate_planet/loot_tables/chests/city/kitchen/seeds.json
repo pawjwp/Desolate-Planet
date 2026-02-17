@@ -2,14 +2,14 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
-        "max": 2
+        "type": "minecraft:constant",
+        "value": 1
       },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "legumedelight:beans",
-          "weight": 10,
+          "weight": 20,
           "quality": 3,
           "functions": [
             {
@@ -25,7 +25,7 @@
         {
           "type": "minecraft:item",
           "name": "legumedelight:peanuts",
-          "weight": 9,
+          "weight": 18,
           "quality": 3,
           "functions": [
             {
@@ -41,7 +41,7 @@
         {
           "type": "minecraft:item",
           "name": "farmersdelight:rice",
-          "weight": 8,
+          "weight": 16,
           "quality": 2,
           "functions": [
             {
@@ -57,7 +57,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cocoa_beans",
-          "weight": 4,
+          "weight": 10,
           "quality": 3,
           "functions": [
             {
@@ -72,8 +72,24 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "weight": 8,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "farmersdelight:tomato_seeds",
-          "weight": 3,
+          "weight": 5,
           "quality": 2,
           "functions": [
             {
@@ -89,7 +105,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:pumpkin_seeds",
-          "weight": 3,
+          "weight": 5,
           "quality": 2,
           "functions": [
             {
@@ -105,7 +121,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:melon_seeds",
-          "weight": 2,
+          "weight": 4,
           "quality": 2,
           "functions": [
             {
@@ -120,8 +136,24 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wheat_seeds",
-          "weight": 1,
+          "name": "scarcity:sweet_berry_seeds",
+          "weight": 3,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scarcity:carrot_seeds",
+          "weight": 3,
           "quality": 1,
           "functions": [
             {
@@ -129,7 +161,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 2
+                "max": 3
               }
             }
           ]
@@ -137,7 +169,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:beetroot_seeds",
-          "weight": 1,
+          "weight": 2,
           "quality": 1,
           "functions": [
             {
@@ -152,8 +184,40 @@
         },
         {
           "type": "minecraft:item",
+          "name": "scarcity:onion_seeds",
+          "weight": 2,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scarcity:potato_seeds",
+          "weight": 2,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "farmersdelight:cabbage_seeds",
-          "weight": 1,
+          "weight": 2,
           "quality": 2,
           "functions": [
             {
