@@ -53,6 +53,91 @@ ItemEvents.tooltip(event => {
             text.add(1, Text.gray("Can be used to smash compressed stone into gravel, sand, and then dust."));});
     });
 
+    // Seeds
+    
+    // Found from sifting dirt, plant 
+    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => {
+        text.add(1, Text.gray("Found from sifting dirt"));
+        text.add(2, [Text.red("Warning: "), Text.gray("Due to a bug with Sync, you may not respawn correctly if you are using shaders")]);
+        text.add(3, Text.gray("We recommend disabling shaders until this is resolved, hopefully next update"));
+    });
+    
+    // From dirt or chest loot
+    [
+        "farmersdelight:cabbage_seeds",
+        "farmersdelight:rice",
+        "farmersdelight:tomato_seeds",
+        "legumedelight:beans",
+        "legumedelight:peanuts",
+        "minecraft:beetroot_seeds",
+        "minecraft:cocoa_beans",
+        "minecraft:melon_seeds",
+        "minecraft:pumpkin_seeds",
+        "minecraft:wheat_seeds",
+        "scarcity:carrot_seeds",
+        "scarcity:onion_seeds",
+        "scarcity:potato_seeds",
+        "scarcity:sweet_berry_seeds"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("From sifting dirt or from chests in the ruins"));
+        });
+    });
+    event.addAdvanced("scarcity:carrot_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into carrots when planted on farmland")); });
+    event.addAdvanced("scarcity:onion_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into onions when planted on farmland")); });
+    event.addAdvanced("scarcity:potato_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into potatoes when planted on farmland")); });
+    event.addAdvanced("scarcity:sweet_berry_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into sweet berries when planted on farmland")); });
+
+    // From dirt
+    [
+        "exdeorum:grass_seeds",
+        "exdeorum:mycelium_spores",
+        "scarcity:bamboo_seeds",
+        "scarcity:cactus_seeds",
+        "scarcity:sugar_cane_seeds"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("From sifting dirt"));
+        });
+    });
+    event.addAdvanced("scarcity:bamboo_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into bamboo when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:cactus_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into cactus when planted on sand")); });
+    event.addAdvanced("scarcity:sugar_cane_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into sugar cane when planted on dirt or sand")); });
+    
+    // From dirt or podzol
+    [
+        "scarcity:oak_seed",
+        "scarcity:spruce_seed",
+        "scarcity:birch_seed",
+        "scarcity:rubberwood_seed"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("From sifting dirt or podzol"));
+        });
+    });
+    event.addAdvanced("scarcity:oak_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into an oak sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:spruce_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a spruce sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:birch_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a birch sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:rubberwood_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a rubberwood sapling when planted on dirt or grass")); });
+
+    // From podzol
+    [
+        "scarcity:jungle_seed",
+        "scarcity:dark_oak_seed",
+        "scarcity:acacia_seed",
+        "scarcity:cherry_seed",
+        "minecraft:mangrove_propagule"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("From sifting podzol"));
+        });
+    });
+    event.addAdvanced("scarcity:jungle_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a jungle sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:dark_oak_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a dark oak sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:acacia_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into an acacia sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:cherry_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a cherry sapling when planted on dirt or grass")); });
+
+
     // Sieving blocks
     event.addAdvanced("exdeorum:dust", (item, advanced, text) => {
         text.add(1, Text.gray("Found across the surface or made from crushing sand"));
