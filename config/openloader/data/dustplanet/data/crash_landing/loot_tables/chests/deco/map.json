@@ -8,34 +8,12 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:exploration_map",
-              "decoration": "red_x",
-              "destination": "crash_landing:cities",
-              "zoom": 2,
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "City Pamphlet",
-                "italic": false
-              }
-            }
-          ],
-          "name": "minecraft:map"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
           "quality": 2,
           "functions": [
             {
               "function": "minecraft:exploration_map",
               "decoration": "red_x",
-              "destination": "crash_landing:oil_rig",
+              "destination": "desolate_planet:oil_rig",
               "zoom": 2,
               "skip_existing_chunks": false
             },
@@ -57,7 +35,7 @@
             {
               "function": "minecraft:exploration_map",
               "decoration": "red_x",
-              "destination": "crash_landing:foundry_bastion",
+              "destination": "desolate_planet:foundry_bastion",
               "zoom": 2,
               "skip_existing_chunks": false
             },
@@ -79,7 +57,7 @@
             {
               "function": "minecraft:exploration_map",
               "decoration": "red_x",
-              "destination": "crash_landing:mer_lab",
+              "destination": "desolate_planet:mer_lab",
               "zoom": 2,
               "skip_existing_chunks": false
             },
@@ -101,7 +79,7 @@
             {
               "function": "minecraft:exploration_map",
               "decoration": "red_x",
-              "destination": "crash_landing:nuclear_plant",
+              "destination": "desolate_planet:nuclear_plant",
               "zoom": 2,
               "skip_existing_chunks": false
             },
