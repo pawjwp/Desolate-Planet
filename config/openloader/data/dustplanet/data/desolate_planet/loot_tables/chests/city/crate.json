@@ -10,47 +10,47 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
-          "weight": 3,
-          "quality": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 10,
-                "max": 32
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:poisonous_potato",
-          "weight": 2,
+          "name": "kubejs:plastic_scrap",
+          "weight": 8,
           "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 10,
-                "max": 32
+                "min": 4,
+                "max": 16
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
-          "weight": 2,
-          "quality": 2,
+          "name": "minecraft:paper",
+          "weight": 8,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 10,
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle",
+          "weight": 6,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
                 "max": 32
               }
             }
@@ -59,6 +59,78 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
+          "weight": 5,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "desolate_planet:lootable_crop_seeds",
+          "expand": true,
+          "weight": 4,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "desolate_planet:lootable_tree_seeds",
+          "expand": true,
+          "weight": 4,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "desolate_planet:chests/city/kitchen/food",
+          "weight": 3,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
           "weight": 2,
           "quality": 2,
           "functions": [
@@ -66,24 +138,24 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 10,
-                "max": 32
+                "min": 4,
+                "max": 16
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:glass_bottle",
+          "name": "thermal:rubber",
           "weight": 2,
-          "quality": 1,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 10,
-                "max": 32
+                "min": 8,
+                "max": 24
               }
             }
           ]
@@ -91,14 +163,14 @@
         {
           "type": "minecraft:item",
           "name": "createaddition:spool",
-          "weight": 2,
+          "weight": 1,
           "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 10,
+                "min": 8,
                 "max": 24
               }
             }
@@ -114,7 +186,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 10,
+                "min": 8,
                 "max": 32
               }
             }
@@ -130,7 +202,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 10,
+                "min": 8,
                 "max": 24
               }
             }
@@ -141,14 +213,14 @@
     {
       "rolls": {
         "type": "minecraft:binomial",
-        "n": 1,
-        "p": 0.8
+        "n": 4,
+        "p": 0.4
       },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "kubejs:dust_pile",
-          "conditions": [],
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -156,6 +228,21 @@
                 "type": "minecraft:uniform",
                 "min": 2,
                 "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:trash_pile",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
               }
             }
           ]
