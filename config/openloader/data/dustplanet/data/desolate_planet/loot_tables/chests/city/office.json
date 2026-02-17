@@ -10,25 +10,9 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kubejs:dust_pile",
-          "weight": 3,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "kubejs:plastic_scrap",
           "weight": 4,
-          "quality": 2,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -42,16 +26,32 @@
         },
         {
           "type": "minecraft:item",
-          "name": "thermal:invar_coin",
-          "weight": 2,
-          "quality": 4,
+          "name": "kubejs:dust_pile",
+          "weight": 3,
+          "quality": 0,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 8,
-                "max": 32
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thermal:invar_coin",
+          "weight": 2,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 16
               },
               "add": false
             }
@@ -68,7 +68,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 4,
-                "max": 16
+                "max": 8
               },
               "add": false
             }
