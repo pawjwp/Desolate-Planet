@@ -3,51 +3,15 @@
   "pools": [
     {
       "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2,
-        "max": 5
+        "type": "minecraft:binomial",
+        "n": 2,
+        "p": 0.4
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tconstruct:mattock",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "tconstruct:add_tool_data",
-              "materials": [
-                {
-                  "type": "tconstruct:random",
-                  "allow_hidden": true,
-                  "material": {
-                    "type": "mantle:tag",
-                    "tag": "tconstruct:scavenged_head"
-                  }
-                },
-                {
-                  "type": "tconstruct:random",
-                  "allow_hidden": true,
-                  "material": {
-                    "type": "mantle:tag",
-                    "tag": "tconstruct:scavenged_base"
-                  }
-                },
-                {
-                  "type": "tconstruct:random",
-                  "allow_hidden": true,
-                  "material": {
-                    "type": "mantle:tag",
-                    "tag": "tconstruct:scavenged_head"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "thermal:compost",
-          "weight": 5,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -62,14 +26,29 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone_meal",
-          "weight": 4,
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:straw",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
-                "max": 6
+                "max": 8
               }
             }
           ]
@@ -103,11 +82,21 @@
               }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 3,
+        "p": 0.5
+      },
+      "entries": [
         {
           "type": "minecraft:item",
-          "name": "farmersdelight:straw",
-          "weight": 1,
+          "name": "minecraft:wheat_seeds",
+          "weight": 15,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -121,23 +110,9 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wheat_seeds",
-          "weight": 16,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "legumedelight:beans",
-          "weight": 10,
+          "weight": 12,
+          "quality": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -151,8 +126,9 @@
         },
         {
           "type": "minecraft:item",
-          "name": "legumedelight:peanuts",
+          "name": "farmersdelight:rice",
           "weight": 10,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -168,6 +144,39 @@
           "type": "minecraft:item",
           "name": "farmersdelight:tomato_seeds",
           "weight": 9,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scarcity:carrot_seeds",
+          "weight": 8,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scarcity:potato_seeds",
+          "weight": 8,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -181,8 +190,57 @@
         },
         {
           "type": "minecraft:item",
-          "name": "farmersdelight:rice",
+          "name": "scarcity:onion_seeds",
           "weight": 8,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legumedelight:peanuts",
+          "weight": 6,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scarcity:sweet_berry_seeds",
+          "weight": 6,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:cabbage_seeds",
+          "weight": 5,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -197,7 +255,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:beetroot_seeds",
-          "weight": 6,
+          "weight": 4,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -212,43 +271,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:melon_seeds",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "farmersdelight:cabbage_seeds",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sugar_cane",
           "weight": 4,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2,
+                "min": 1,
                 "max": 6
               }
             }
@@ -258,12 +288,13 @@
           "type": "minecraft:item",
           "name": "minecraft:pumpkin_seeds",
           "weight": 3,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2,
+                "min": 1,
                 "max": 6
               }
             }
@@ -271,15 +302,16 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:sweet_berries",
+          "name": "minecraft:cocoa_beans",
           "weight": 2,
+          "quality": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 3
+                "max": 4
               }
             }
           ]
