@@ -6,10 +6,10 @@
   "input_slots": [
     {
       "filter": {
-        "item": "tconstruct:hammer_head"
+        "item": "tconstruct:adze_head"
       },
-      "icon": "tconstruct:hammer_head",
-      "translation_key": "item.tconstruct.hammer_head",
+      "icon": "tconstruct:adze_head",
+      "translation_key": "item.tconstruct.adze_head",
       "x": 48,
       "y": 26
     },

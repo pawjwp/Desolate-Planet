@@ -4,9 +4,11 @@
 /.example_assets
 /.example_data
 /.vscode
+/config/axiom
 /config/cubes_without_borders.json
 /config/fabric
 /config/jei/world
+/config/lighty.config
 /config/modernfix-mixins.properties
 /config/oculus.properties
 /config/worldedit
@@ -43,6 +45,9 @@ packwiz-installer-bootstrap.jar
 
 packwiz-scripts/tools/forge-*-installer.jar
 packwiz-scripts/forge-*-installer.jar.log
+
+/packwiz-scripts/**/*.nbt
+/packwiz-scripts/**/*.snbt
 
 /packwiz-builds
 
@@ -81,4 +86,3 @@ packwiz-scripts/forge-*-installer.jar.log
 !/saves/Original world, will reset when pack updates/region/r.0.-1.mca
 !/saves/Original world, will reset when pack updates/region/r.-1.0.mca
 !/saves/Original world, will reset when pack updates/region/r.-1.-1.mca
-/config/axiom

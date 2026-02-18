@@ -1,6 +1,7 @@
 name = "Nosiphus Furniture Mod"
 filename = "nfm-2025.09.20a-1.20.1.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

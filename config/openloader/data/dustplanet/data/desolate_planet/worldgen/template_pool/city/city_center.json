@@ -1,0 +1,14 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "desolate_planet:city/road/monument_round",
+        "processors": "desolate_planet:road_dusting"
+      }
+    }
+  ]
+}

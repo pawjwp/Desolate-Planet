@@ -1,90 +1,12 @@
 {
+  "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:constant",
-        "min": 1,
-        "max": 1,
-        "value": 1
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "crash_landing:chests/gun/pistol",
-          "weight": 1,
-          "quality": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "crash_landing:chests/gun/shotgun",
-          "weight": 1,
-          "quality": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "crash_landing:chests/gun/rifle",
-          "weight": 1,
-          "quality": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "pneumaticcraft:failed_pcb",
-          "weight": 3,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 3,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_ingot",
-          "weight": 2,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 16,
-                "max": 32
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "tconstruct:debris_nugget",
-          "weight": 2,
-          "quality": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
+          "name": "desolate_planet:chests/city/rare"
         }
       ]
     }

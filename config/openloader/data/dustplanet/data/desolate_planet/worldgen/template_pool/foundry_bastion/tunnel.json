@@ -1,0 +1,151 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/straight",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/junction",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/junction_l",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/junction_r",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/cross",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/stairs",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/trap_1",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/trap_2",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/trap_3",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/end",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/room_1",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/room_2",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/room_3",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/room_4",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/room_5",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/tunnel/room_6",
+        "processors": "desolate_planet:foundry_bastion/tunnels"
+      }
+    }
+  ]
+}

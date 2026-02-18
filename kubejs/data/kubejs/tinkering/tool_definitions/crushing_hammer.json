@@ -3,7 +3,7 @@
     {
       "type": "tconstruct:part_stats",
       "parts": [
-        "tconstruct:hammer_head",
+        "tconstruct:adze_head",
         "tconstruct:tool_handle",
         "tconstruct:tool_binding"
       ],

@@ -1,0 +1,15 @@
+{
+  "name": "desolate_planet:decor_misc_door_air",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "desolate_planet:nuclear_plant/decor/misc/door_air",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

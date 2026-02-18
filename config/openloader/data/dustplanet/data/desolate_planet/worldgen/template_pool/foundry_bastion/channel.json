@@ -1,0 +1,81 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/channel/1a",
+        "processors": "desolate_planet:foundry_bastion/channel"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/channel/1b",
+        "processors": "desolate_planet:foundry_bastion/channel"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/channel/1c",
+        "processors": "desolate_planet:foundry_bastion/channel"
+      }
+    },
+
+
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/channel/2a",
+        "processors": "desolate_planet:foundry_bastion/channel"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/channel/2b",
+        "processors": "desolate_planet:foundry_bastion/channel"
+      }
+    },
+
+
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/channel/3a",
+        "processors": "desolate_planet:foundry_bastion/channel"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/channel/3b",
+        "processors": "desolate_planet:foundry_bastion/channel"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/channel/3c",
+        "processors": "desolate_planet:foundry_bastion/channel"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "desolate_planet:tower_tower_connector",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "desolate_planet:nuclear_plant/tower/tower_connectors/tower_connector_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "desolate_planet:nuclear_plant/tower/tower_connectors/tower_connector_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "desolate_planet:nuclear_plant/tower/tower_connectors/tower_connector_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

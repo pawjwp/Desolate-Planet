@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
             G: '#forge:gravel',
             P: 'minecraft:paper'
         }
-    ).id('kubejs:filter');
+    ).id('desolate_planet:filter');
 
     const waterPurifyRecipe = (input_item) => {
         const input_id = input_item.itemIds[0];
@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
             L: '#forge:leather',
             S: '#forge:string'
         }
-    ).id('kubejs:camel_pack');
+    ).id('desolate_planet:camel_pack');
 
     const FluidUtil = Java.loadClass('net.minecraftforge.fluids.FluidUtil');
     const ForgeRegs = Java.loadClass('net.minecraftforge.registries.ForgeRegistries');

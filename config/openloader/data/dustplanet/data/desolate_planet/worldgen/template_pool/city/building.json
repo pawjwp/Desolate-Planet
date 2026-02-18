@@ -1,0 +1,140 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 11,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:empty",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/billboard",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/bus_stop",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/office_small",
+        "processors": "desolate_planet:building_deteriorate"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/broken_office_small",
+        "processors": "desolate_planet:building_deteriorate"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/office_small_1",
+        "processors": "desolate_planet:building_deteriorate"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/broken_office_small_1",
+        "processors": "desolate_planet:building_deteriorate"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/office_small_2",
+        "processors": "desolate_planet:building_deteriorate"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/apartment_small",
+        "processors": "desolate_planet:building_deteriorate"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/broken_apartment_small",
+        "processors": "desolate_planet:building_deteriorate"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/apartment_small_1",
+        "processors": "desolate_planet:building_deteriorate"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/apartment_big_1",
+        "processors": "desolate_planet:building_deteriorate"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/restaurant",
+        "processors": "desolate_planet:building_deteriorate"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/smeltery",
+        "processors": "desolate_planet:smeltery_building"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:city/building/smeltery_small",
+        "processors": "desolate_planet:smeltery_building"
+      }
+    }
+  ]
+}

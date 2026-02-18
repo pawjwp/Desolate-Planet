@@ -306,8 +306,10 @@
             {
               "item": {
                 "id": "minecraft:water_bucket",
-                "Count": 1
-              }
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
             },
             {
               "item": {
@@ -1632,7 +1634,8 @@
                 "id": "create:mechanical_crafter",
                 "Count": 1
               },
-              "required": 21
+              "required": 21,
+              "precision": "FUZZY"
             }
           ]
         }

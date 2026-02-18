@@ -1,0 +1,130 @@
+{
+  "blockCategories": [
+    {
+      "key": "ali:plant_loot",
+      "type": "BLOCK",
+      "icon": "minecraft:diamond_hoe",
+      "hide": false,
+      "classes": [
+        "net.minecraft.world.level.block.BushBlock"
+      ]
+    },
+    {
+      "key": "ali:block_loot",
+      "type": "BLOCK",
+      "icon": "minecraft:diamond_pickaxe",
+      "hide": false,
+      "classes": [
+        "net.minecraft.world.level.block.Block"
+      ]
+    }
+  ],
+  "entityCategories": [
+    {
+      "key": "ali:entity_loot",
+      "type": "ENTITY",
+      "icon": "minecraft:skeleton_skull",
+      "hide": false,
+      "classes": [
+        "net.minecraft.world.entity.Entity"
+      ]
+    }
+  ],
+  "gameplayCategories": [
+    {
+      "key": "ali:chest_loot_desolate_planet",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:chest",
+      "hide": false,
+      "pattern": [
+        "^desolate_planet:chests/.*$"
+      ]
+    },
+    {
+      "key": "ali:chest_loot_crash_landing",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:chest",
+      "hide": true,
+      "pattern": [
+        "^crash_landing:chests/.*$"
+      ]
+    },
+    {
+      "key": "ali:chest_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:chest",
+      "hide": true,
+      "pattern": [
+        "^.*:chests/.*$"
+      ]
+    },
+    {
+      "key": "ali:chest_loot_injects",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:ender_chest",
+      "hide": true,
+      "pattern": [
+        "^.*:inject.*$"
+      ]
+    },
+    {
+      "key": "ali:fishing_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:fishing_rod",
+      "hide": true,
+      "pattern": [
+        "^.*:gameplay/fishing.*$"
+      ]
+    },
+    {
+      "key": "ali:archaeology_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:decorated_pot",
+      "hide": true,
+      "pattern": [
+        "^.*:archaeology/.*$"
+      ]
+    },
+    {
+      "key": "ali:hero_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:emerald",
+      "hide": true,
+      "pattern": [
+        "^.*:gameplay/hero_of_the_village/.*$"
+      ]
+    },
+    {
+      "key": "ali:block_loot_miscategorized",
+      "type": "GAMEPLAY",
+      "icon": "quark:oak_chest",
+      "hide": true,
+      "pattern": [
+        "^.*:blocks/.*$"
+      ]
+    },
+    {
+      "key": "ali:gameplay_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:compass",
+      "hide": true,
+      "pattern": [
+        ".*"
+      ]
+    }
+  ],
+  "tradeCategories": [
+    {
+      "key": "ali:trade_loot",
+      "type": "TRADE",
+      "icon": "minecraft:emerald_block",
+      "hide": true,
+      "pattern": [
+        ".*"
+      ]
+    }
+  ],
+  "disabledEntities": [],
+  "logMoreStatistics": false,
+  "showInGameNames": true
+}

@@ -29,6 +29,35 @@ ServerEvents.tags('item', event => {
         'thermal:explosive_grenade'
     )
 
+    event.add('desolate_planet:pcb_templates',
+        'pneumaticcraft:pcb_blueprint',
+        'pneumaticcraft:unassembled_pcb',
+        'pneumaticcraft:printed_circuit_board',
+        'pneumaticcraft:failed_pcb',
+    )
+
+    event.add('desolate_planet:lootable_crop_seeds',
+        '#forge:seeds',
+        'scarcity:bamboo_seeds',
+        'scarcity:cactus_seeds',
+        'scarcity:sugar_cane_seeds',
+        'scarcity:sweet_berry_seeds',
+        'scarcity:potato_seeds',
+        'scarcity:carrot_seeds',
+        'scarcity:onion_seeds'
+    )
+
+    event.add('desolate_planet:lootable_tree_seeds',
+        'scarcity:oak_seed',
+        'scarcity:spruce_seed',
+        'scarcity:birch_seed',
+        'scarcity:jungle_seed',
+        'scarcity:acacia_seed',
+        'scarcity:dark_oak_seed',
+        'scarcity:cherry_seed',
+        'scarcity:rubberwood_seed'
+    )
+
     Ingredient.of(/^immersive_weathering:.*_leaf_pile$/).itemIds.forEach(id => {
         event.add('immersive_weathering:leaf_piles', id);
     });

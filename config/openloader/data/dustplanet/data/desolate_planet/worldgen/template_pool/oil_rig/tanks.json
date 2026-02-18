@@ -1,0 +1,68 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/tanks/1"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/tanks/2"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/tanks/3"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/tanks/4"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/tanks/5"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/tanks/6"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/tanks/7"
+            },
+            "weight": 1
+        }
+    ]
+}

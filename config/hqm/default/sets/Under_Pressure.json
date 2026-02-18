@@ -846,8 +846,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "pneumaticcraft:plastic",
-          "Count": 4
+          "id": "pneumaticcraft:pcb_blueprint",
+          "Count": 1
         }
       ],
       "rewardchoice": [],

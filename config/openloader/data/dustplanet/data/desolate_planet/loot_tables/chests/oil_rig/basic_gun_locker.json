@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "desolate_planet:chests/misc/gun/pistol",
+          "weight": 1,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "desolate_planet:chests/misc/gun/rifle",
+          "weight": 1,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "desolate_planet:chests/misc/gun/shotgun",
+          "weight": 1,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "desolate_planet:chests/misc/gun/basic_bullet",
+          "weight": 3,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

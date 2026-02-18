@@ -13,3 +13,18 @@ restoreDedicatedCommands = true
 # Whether to use whitelists on LAN worlds
 # default: false
 useWhiteList = false
+# Whether to enable sharing LAN worlds with e4mc
+# default: true
+hostEnabled = true
+# Whether to enable Dialtone peer-to-peer connections as the host
+# default: true
+dialtoneHostEnabled = true
+# Whether to enable Dialtone peer-to-peer connections as the player
+# default: true
+dialtonePlayerEnabled = true
+# The URL to get the list of Iroh relays to use
+# default: https://natives.e4mc.link/relaymap.json
+dialtoneRelayMap = "https://natives.e4mc.link/relaymap.json"
+# Whether to hide direct IP addresses from the relay
+# default: true
+dialtoneSanitizeTicket = true

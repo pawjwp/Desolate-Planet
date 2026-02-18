@@ -1,0 +1,86 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 25,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:empty",
+        "processors": "desolate_planet:foundry_bastion/building"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/building/big_house",
+        "processors": "desolate_planet:foundry_bastion/building"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/building/moderate_house",
+        "processors": "desolate_planet:foundry_bastion/building"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/building/short_house",
+        "processors": "desolate_planet:foundry_bastion/building"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/building/small_house",
+        "processors": "desolate_planet:foundry_bastion/building"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/building/tall_house",
+        "processors": "desolate_planet:foundry_bastion/building"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/building/tinker_big",
+        "processors": "desolate_planet:foundry_bastion/building"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/building/big_small",
+        "processors": "desolate_planet:foundry_bastion/building"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "desolate_planet:foundry_bastion/building/tower",
+        "processors": "desolate_planet:foundry_bastion/building"
+      }
+    }
+  ]
+}

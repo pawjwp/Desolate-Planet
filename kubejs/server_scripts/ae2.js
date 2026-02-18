@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
             result: {
             item: 'kubejs:controller_frame'
         }
-    }).id('crash_landing:inscriber/controller_frame')
+    }).id('desolate_planet:inscriber/controller_frame')
     event.custom({
         type: 'ae2:inscriber',
         ingredients: {
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
             result: {
             item: 'kubejs:controller_frame'
         }
-    }).id('crash_landing:inscriber/controller_frame_from_new')
+    }).id('desolate_planet:inscriber/controller_frame_from_new')
     event.custom({
         type: 'ae2:inscriber',
         ingredients: {
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
             result: {
             item: 'kubejs:controller_frame'
         }
-    }).id('crash_landing:inscriber/controller_frame_duplicate')
+    }).id('desolate_planet:inscriber/controller_frame_duplicate')
     
     event.shaped(
         Item.of('ae2:controller'),
@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
             E: 'ae2:engineering_processor',
             S: '#ae2:smooth_sky_stone_blocks'
         }
-    ).id('crash_landing:crafting/controller')
+    ).id('desolate_planet:crafting/controller')
     event.shaped(
         Item.of('ae2:controller'),
         [
@@ -76,7 +76,7 @@ ServerEvents.recipes(event => {
             E: 'ae2:engineering_processor',
             S: '#ae2:smooth_sky_stone_blocks'
         }
-    ).id('crash_landing:crafting/controller_from_frame')
+    ).id('desolate_planet:crafting/controller_from_frame')
     
     
     event.recipes.create.crushing(
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
             Item.of('ae2:fluix_crystal').withChance(0.5)
         ],
         'kubejs:crashed_applied_controller'
-    ).id('crash_landing:crushing/crashed_applied_controller')
+    ).id('desolate_planet:crushing/crashed_applied_controller')
     event.recipes.create.crushing(
         [
             '2x minecraft:iron_ingot',
@@ -97,7 +97,7 @@ ServerEvents.recipes(event => {
             Item.of('ae2:fluix_crystal').withChance(0.5)
         ],
         'kubejs:crashed_me_drive'
-    ).id('crash_landing:crushing/crashed_me_drive')
+    ).id('desolate_planet:crushing/crashed_me_drive')
     event.recipes.create.crushing(
         [
             '2x minecraft:iron_ingot',
@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
             Item.of('ae2:formation_core').withChance(0.25)
         ],
         'kubejs:crashed_me_interface'
-    ).id('crash_landing:crushing/crashed_me_interface')
+    ).id('desolate_planet:crushing/crashed_me_interface')
     event.recipes.create.crushing(
         [
             '2x minecraft:iron_ingot',
@@ -116,5 +116,5 @@ ServerEvents.recipes(event => {
             Item.of('ae2:logic_processor').withChance(0.25)
         ],
         'kubejs:crashed_crafting_unit'
-    ).id('crash_landing:crushing/crashed_crafting_unit')
+    ).id('desolate_planet:crushing/crashed_crafting_unit')
 });

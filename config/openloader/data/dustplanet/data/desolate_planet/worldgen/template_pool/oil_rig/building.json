@@ -1,0 +1,131 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/center"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/n"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/nw"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/w"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/sw"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/s"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/se"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/e"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/ne"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/nee"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/ee"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "desolate_planet:oil_rig_spawner",
+                "location": "desolate_planet:oil_rig/see"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "desolate_planet:oil_rig/rig"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "desolate_planet:oil_rig/refinery"
+            },
+            "weight": 1
+        }
+    ]
+}

@@ -4,7 +4,11 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("exdeorum:crook", (item, advanced, text) => { text.add(1, Text.gray("Can be used to break leaves to increase sapling drops and get silk worms."));});
     event.addAdvanced("exdeorum:bone_crook", (item, advanced, text) => { text.add(1, Text.gray("Can be used to break leaves to increase sapling drops and get silk worms."));});
     event.addAdvanced("thermal:phytogro", (item, advanced, text) => { text.add(1, Text.gold("Can be used like bone meal."));});
-    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => { text.add(1, Text.gray("Place next to a power source and right-click to provide a DNA sample."));});
+    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => {
+        text.add(1, Text.gray("Place next to a power source and right-click to provide a DNA sample."));
+        text.add(2, [Text.red("Warning: "), Text.gray("Due to a bug with Sync, you may not respawn correctly if you are using shaders")]);
+        text.add(3, Text.gray("We recommend disabling shaders until this is resolved, hopefully next update"));
+    });
     event.addAdvanced("kubejs:paste", (item, advanced, text) => { text.add(1, Text.gray("Usable as a slimeball substitute in many recipes."));});
     event.addAdvanced("minecraft:netherrack", (item, advanced, text) => { text.add(1, Text.gray("Can be made in small quantities by placing redstone dust in a barrel of lava."));});
     event.addAdvanced("minecraft:netherrack", (item, advanced, text) => { text.add(2, Text.gray("Can be automated with an extruder by casting liquid redstone with lava."));});
@@ -19,6 +23,8 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("kubejs:pcb_segment", (item, advanced, text) => { text.add(1, [Text.gray("Crafted from a PCB, follow the quests in "), Text.white("Under Pressure"), Text.gray(" for PCB crafting instructions.")]); });
     event.addAdvanced("thermal:machine_frame", (item, advanced, text) => { text.add(1, Text.gray("A unified base material for machine crafting across multiple mods."));});
     event.addAdvanced("thermal:machine_frame", (item, advanced, text) => { text.add(2, [Text.gray("Requires a PCB, follow the quests in "), Text.white("Under Pressure"), Text.gray(" for PCB crafting instructions.")]); });
+    event.addAdvanced("pneumaticcraft:heat_sink", (item, advanced, text) => { text.add(1, [Text.red("Warning: "), Text.gray("Due to a bug with PneumaticCraft, your game may crash if you take damage from a heatsink while wearing Tinkers Construct armor.")]); });
+    event.addAdvanced("pneumaticcraft:heat_sink", (item, advanced, text) => { text.add(2, Text.gray("We recommend placing your heat sinks in a place where you aren't likely to accidentally run into them.")); });
 
     // ExDeorum
     event.addAdvanced("exdeorum:silk_worm", (item, advanced, text) => { text.add(1, Text.gray("Right-click leaves to infest. Fully infested leaf blocks drop string, more with a crook."));});
@@ -52,6 +58,91 @@ ItemEvents.tooltip(event => {
         event.addAdvanced(tool, (item, advanced, text) => {
             text.add(1, Text.gray("Can be used to smash compressed stone into gravel, sand, and then dust."));});
     });
+
+    // Seeds
+    
+    // Found from sifting dirt, plant 
+    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => {
+        text.add(1, Text.gray("Found from sifting dirt"));
+        text.add(2, [Text.red("Warning: "), Text.gray("Due to a bug with Sync, you may not respawn correctly if you are using shaders")]);
+        text.add(3, Text.gray("We recommend disabling shaders until this is resolved, hopefully next update"));
+    });
+    
+    // From dirt or chest loot
+    [
+        "farmersdelight:cabbage_seeds",
+        "farmersdelight:rice",
+        "farmersdelight:tomato_seeds",
+        "legumedelight:beans",
+        "legumedelight:peanuts",
+        "minecraft:beetroot_seeds",
+        "minecraft:cocoa_beans",
+        "minecraft:melon_seeds",
+        "minecraft:pumpkin_seeds",
+        "minecraft:wheat_seeds",
+        "scarcity:carrot_seeds",
+        "scarcity:onion_seeds",
+        "scarcity:potato_seeds",
+        "scarcity:sweet_berry_seeds"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("From sifting dirt or from chests in the ruins"));
+        });
+    });
+    event.addAdvanced("scarcity:carrot_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into carrots when planted on farmland")); });
+    event.addAdvanced("scarcity:onion_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into onions when planted on farmland")); });
+    event.addAdvanced("scarcity:potato_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into potatoes when planted on farmland")); });
+    event.addAdvanced("scarcity:sweet_berry_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into sweet berries when planted on farmland")); });
+
+    // From dirt
+    [
+        "exdeorum:grass_seeds",
+        "exdeorum:mycelium_spores",
+        "scarcity:bamboo_seeds",
+        "scarcity:cactus_seeds",
+        "scarcity:sugar_cane_seeds"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("From sifting dirt"));
+        });
+    });
+    event.addAdvanced("scarcity:bamboo_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into bamboo when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:cactus_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into cactus when planted on sand")); });
+    event.addAdvanced("scarcity:sugar_cane_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into sugar cane when planted on dirt or sand")); });
+    
+    // From dirt or podzol
+    [
+        "scarcity:oak_seed",
+        "scarcity:spruce_seed",
+        "scarcity:birch_seed",
+        "scarcity:rubberwood_seed"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("From sifting dirt or podzol"));
+        });
+    });
+    event.addAdvanced("scarcity:oak_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into an oak sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:spruce_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a spruce sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:birch_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a birch sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:rubberwood_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a rubberwood sapling when planted on dirt or grass")); });
+
+    // From podzol
+    [
+        "scarcity:jungle_seed",
+        "scarcity:dark_oak_seed",
+        "scarcity:acacia_seed",
+        "scarcity:cherry_seed",
+        "minecraft:mangrove_propagule"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("From sifting podzol"));
+        });
+    });
+    event.addAdvanced("scarcity:jungle_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a jungle sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:dark_oak_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a dark oak sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:acacia_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into an acacia sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:cherry_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a cherry sapling when planted on dirt or grass")); });
+
 
     // Sieving blocks
     event.addAdvanced("exdeorum:dust", (item, advanced, text) => {
@@ -103,7 +194,8 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("exdeorum:osmium_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
     event.addAdvanced("exdeorum:uranium_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
 
-    event.addAdvanced("exdeorum:cobalt_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting nether blocks, especially crushed blackstone"));});
+    event.addAdvanced("exdeorum:cobalt_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("Cobalt can be found plentifully in the Foundry structure"));});
+    event.addAdvanced("exdeorum:cobalt_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("Also found from sifting nether blocks, especially crushed blackstone"));});
 
 
     // Common other ores
@@ -118,6 +210,16 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("minecraft:lapis_lazuli", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
     event.addAdvanced("minecraft:diamond", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
     event.addAdvanced("minecraft:emerald", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
+
+    // Ingots
+    [
+        "minecraft:ancient_debris",
+        "minecraft:netherite_scrap",
+        "minecraft:netherite_ingot",
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("Debris and netherite can be found in the Foundry structure"));});
+    });
     
 
 
@@ -161,17 +263,11 @@ ItemEvents.tooltip(event => {
 
     // Tinkers' Construct
     event.addAdvanced("tconstruct:grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling seared bricks in the ruins."));});
-    event.addAdvanced("tconstruct:nether_grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling seared bricks in the ruins."));});
+    event.addAdvanced("tconstruct:nether_grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling scorched bricks in the ruins."));});
     event.addAdvanced("tconstruct:seared_brick", (item, advanced, text) => { text.add(1, Text.gray("Find crumbling seared bricks in the ruins."));});
-    [
-        "kubejs:crumbling_seared_brick",
-        "kubejs:crumbling_seared_brick_2",
-        "kubejs:crumbling_seared_brick_3"
-    ].forEach(tool => {
-        event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.gray("Can be crushed into seared bricks with a hammer."));
-        });
-    });
+    event.addAdvanced("tconstruct:scorched_brick", (item, advanced, text) => { text.add(1, Text.gray("Find crumbling scorched bricks in the ruins."));});
+    event.addAdvanced("kubejs:crumbling_seared_bricks", (item, advanced, text) => { text.add(1, Text.gray("Can be crushed into seared bricks with a hammer."));});
+    event.addAdvanced("kubejs:crumbling_scorched_bricks", (item, advanced, text) => { text.add(1, Text.gray("Can be crushed into scorched bricks with a hammer."));});
     event.addAdvanced("tconstruct:blazing_blood_bucket", (item, advanced, text) => { text.add(1, Text.gold("Craft by melting down blaze powder (or the blazes themselves)."));});
 
     // Food items
@@ -214,4 +310,31 @@ ItemEvents.tooltip(event => {
         if (item.nbt != null) if (item.nbt.Potion == "minecraft:weakness") text.add(1, Text.darkRed("Warning: zombie villager conversion is disabled"))
     })
 
+    // Insulation items
+    [
+        "kubejs:snow_hat",
+        "kubejs:snow_coat",
+        "kubejs:snow_pants",
+        "kubejs:snow_shoes"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("Warm clothing that provides protection from the freezing cold."));
+            text.add(2, Text.gray("Slows how fast you freeze."));
+        });
+    });
+    [
+        "kubejs:desert_cap",
+        "kubejs:desert_tunic",
+        "kubejs:desert_pants",
+        "kubejs:desert_shoes"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("Light and breathable clothing that provides protection from the blazing heat."));
+            text.add(2, Text.gray("Slows how fast you overheat."));
+        });
+    });
+    event.addAdvanced("kubejs:stillsuit", (item, advanced, text) => {
+        text.add(1, Text.gray("Significantly insulates you from extreme temperatures."));
+        text.add(2, Text.gray("Recycles moisture to reduce your water use."));
+    });
 });
