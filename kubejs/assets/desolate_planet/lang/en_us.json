@@ -4,5 +4,6 @@
   "emi.category.ali.chest_loot": "Earth Chest Loot",
   "emi.category.ali.chest_loot_crash_landing": "T4L0S Chest Loot (Legacy)",
   "emi.category.ali.chest_loot_desolate_planet": "T4L0S Chest Loot",
-  "emi.category.ali.chest_loot_injects": "Modded Chest Loot Injects"
+  "emi.category.ali.chest_loot_injects": "Modded Chest Loot Injects",
+  "hqm.questBook.infiniteLives": "Extra lives through HQM are disabled, you must use Sync to get more lives."
 }
