@@ -6,33 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "crash_landing:chests/gun/machine_pistol",
-          "weight": 1,
-          "quality": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "crash_landing:chests/gun/assault_rifle",
-          "weight": 1,
-          "quality": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "crash_landing:chests/gun/heavy_rifle",
-          "weight": 1,
-          "quality": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "crash_landing:chests/gun/basic_bullet",
-          "weight": 2,
-          "quality": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "crash_landing:chests/gun/advanced_bullet",
-          "weight": 2,
-          "quality": 1
+          "name": "desolate_planet:chests/oil_rig/advanced_gun_locker"
         }
       ]
     }

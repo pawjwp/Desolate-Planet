@@ -1,27 +1,12 @@
 {
+  "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 5
-      },
+      "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "cgm:basic_bullet",
-          "weight": 1,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 32,
-                "max": 64
-              },
-              "add": false
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "name": "desolate_planet:chests/misc/gun/basic_bullet"
         }
       ]
     }
