@@ -4,7 +4,11 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("exdeorum:crook", (item, advanced, text) => { text.add(1, Text.gray("Can be used to break leaves to increase sapling drops and get silk worms."));});
     event.addAdvanced("exdeorum:bone_crook", (item, advanced, text) => { text.add(1, Text.gray("Can be used to break leaves to increase sapling drops and get silk worms."));});
     event.addAdvanced("thermal:phytogro", (item, advanced, text) => { text.add(1, Text.gold("Can be used like bone meal."));});
-    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => { text.add(1, Text.gray("Place next to a power source and right-click to provide a DNA sample."));});
+    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => {
+        text.add(1, Text.gray("Place next to a power source and right-click to provide a DNA sample."));
+        text.add(2, [Text.red("Warning: "), Text.gray("Due to a bug with Sync, you may not respawn correctly if you are using shaders")]);
+        text.add(3, Text.gray("We recommend disabling shaders until this is resolved, hopefully next update"));
+    });
     event.addAdvanced("kubejs:paste", (item, advanced, text) => { text.add(1, Text.gray("Usable as a slimeball substitute in many recipes."));});
     event.addAdvanced("minecraft:netherrack", (item, advanced, text) => { text.add(1, Text.gray("Can be made in small quantities by placing redstone dust in a barrel of lava."));});
     event.addAdvanced("minecraft:netherrack", (item, advanced, text) => { text.add(2, Text.gray("Can be automated with an extruder by casting liquid redstone with lava."));});
@@ -19,6 +23,8 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("kubejs:pcb_segment", (item, advanced, text) => { text.add(1, [Text.gray("Crafted from a PCB, follow the quests in "), Text.white("Under Pressure"), Text.gray(" for PCB crafting instructions.")]); });
     event.addAdvanced("thermal:machine_frame", (item, advanced, text) => { text.add(1, Text.gray("A unified base material for machine crafting across multiple mods."));});
     event.addAdvanced("thermal:machine_frame", (item, advanced, text) => { text.add(2, [Text.gray("Requires a PCB, follow the quests in "), Text.white("Under Pressure"), Text.gray(" for PCB crafting instructions.")]); });
+    event.addAdvanced("pneumaticcraft:heat_sink", (item, advanced, text) => { text.add(1, [Text.red("Warning: "), Text.gray("Due to a bug with PneumaticCraft, your game may crash if you take damage from a heatsink while wearing Tinkers Construct armor.")]); });
+    event.addAdvanced("pneumaticcraft:heat_sink", (item, advanced, text) => { text.add(2, Text.gray("We recommend placing your heat sinks in a place where you aren't likely to accidentally run into them.")); });
 
     // ExDeorum
     event.addAdvanced("exdeorum:silk_worm", (item, advanced, text) => { text.add(1, Text.gray("Right-click leaves to infest. Fully infested leaf blocks drop string, more with a crook."));});
@@ -188,7 +194,8 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("exdeorum:osmium_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
     event.addAdvanced("exdeorum:uranium_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
 
-    event.addAdvanced("exdeorum:cobalt_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting nether blocks, especially crushed blackstone"));});
+    event.addAdvanced("exdeorum:cobalt_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("Cobalt can be found plentifully in the Foundry structure"));});
+    event.addAdvanced("exdeorum:cobalt_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("Also found from sifting nether blocks, especially crushed blackstone"));});
 
 
     // Common other ores
@@ -203,6 +210,16 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("minecraft:lapis_lazuli", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
     event.addAdvanced("minecraft:diamond", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
     event.addAdvanced("minecraft:emerald", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
+
+    // Ingots
+    [
+        "minecraft:ancient_debris",
+        "minecraft:netherite_scrap",
+        "minecraft:netherite_ingot",
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, Text.gray("Debris and netherite can be found in the Foundry structure"));});
+    });
     
 
 
