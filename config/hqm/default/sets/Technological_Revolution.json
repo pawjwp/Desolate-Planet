@@ -1070,7 +1070,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Conduits are made from conduit binder and their respective materials. You can change conduit settings by right clicking their I/O interface or right clicking with a wrench to make quick adjustments.",
+            "text": "Conduits are made from conduit binder and their respective materials. You can change conduit settings by right clicking their I/O interface or right clicking with a wrench to make quick adjustments.\nWarning: Due to a bug with EnderIO and Thirst, most sources of water are unable to be transferred by fluid conduits. Other liquids will work, but we recommend using other modded transfer methods for moving water.",
             "isTranslationKey": true
           },
           "items": [

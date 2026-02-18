@@ -4,11 +4,6 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("exdeorum:crook", (item, advanced, text) => { text.add(1, Text.gray("Can be used to break leaves to increase sapling drops and get silk worms."));});
     event.addAdvanced("exdeorum:bone_crook", (item, advanced, text) => { text.add(1, Text.gray("Can be used to break leaves to increase sapling drops and get silk worms."));});
     event.addAdvanced("thermal:phytogro", (item, advanced, text) => { text.add(1, Text.gold("Can be used like bone meal."));});
-    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => {
-        text.add(1, Text.gray("Place next to a power source and right-click to provide a DNA sample."));
-        text.add(2, [Text.red("Warning: "), Text.gray("Due to a bug with Sync, you may not respawn correctly if you are using shaders")]);
-        text.add(3, Text.gray("We recommend disabling shaders until this is resolved, hopefully next update"));
-    });
     event.addAdvanced("kubejs:paste", (item, advanced, text) => { text.add(1, Text.gray("Usable as a slimeball substitute in many recipes."));});
     event.addAdvanced("minecraft:netherrack", (item, advanced, text) => { text.add(1, Text.gray("Can be made in small quantities by placing redstone dust in a barrel of lava."));});
     event.addAdvanced("minecraft:netherrack", (item, advanced, text) => { text.add(2, Text.gray("Can be automated with an extruder by casting liquid redstone with lava."));});
@@ -23,8 +18,6 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("kubejs:pcb_segment", (item, advanced, text) => { text.add(1, [Text.gray("Crafted from a PCB, follow the quests in "), Text.white("Under Pressure"), Text.gray(" for PCB crafting instructions.")]); });
     event.addAdvanced("thermal:machine_frame", (item, advanced, text) => { text.add(1, Text.gray("A unified base material for machine crafting across multiple mods."));});
     event.addAdvanced("thermal:machine_frame", (item, advanced, text) => { text.add(2, [Text.gray("Requires a PCB, follow the quests in "), Text.white("Under Pressure"), Text.gray(" for PCB crafting instructions.")]); });
-    event.addAdvanced("pneumaticcraft:heat_sink", (item, advanced, text) => { text.add(1, [Text.red("Warning: "), Text.gray("Due to a bug with PneumaticCraft, your game may crash if you take damage from a heatsink while wearing Tinkers Construct armor.")]); });
-    event.addAdvanced("pneumaticcraft:heat_sink", (item, advanced, text) => { text.add(2, Text.gray("We recommend placing your heat sinks in a place where you aren't likely to accidentally run into them.")); });
 
     // ExDeorum
     event.addAdvanced("exdeorum:silk_worm", (item, advanced, text) => { text.add(1, Text.gray("Right-click leaves to infest. Fully infested leaf blocks drop string, more with a crook."));});
@@ -305,17 +298,18 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('minecraft:golden_apple', (item,advanced,text) => {text.add(1, Text.darkRed("Warning: zombie villager conversion is disabled"))})
     event.addAdvanced('minecraft:potion', (item,advanced,text) => {
         if (item.nbt != null) if (item.nbt.Potion == "minecraft:weakness") text.add(1, Text.darkRed("Warning: zombie villager conversion is disabled"))
-    })
+    });
     event.addAdvanced('minecraft:splash_potion', (item,advanced,text) => {
         if (item.nbt != null) if (item.nbt.Potion == "minecraft:weakness") text.add(1, Text.darkRed("Warning: zombie villager conversion is disabled"))
-    })
+    });
 
     // Insulation items
+    // Currently non-functional due to existing tooltip handling
     [
         "kubejs:snow_hat",
         "kubejs:snow_coat",
         "kubejs:snow_pants",
-        "kubejs:snow_shoes"
+        "kubejs:snow_boots"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
             text.add(1, Text.gray("Warm clothing that provides protection from the freezing cold."));
@@ -336,5 +330,31 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("kubejs:stillsuit", (item, advanced, text) => {
         text.add(1, Text.gray("Significantly insulates you from extreme temperatures."));
         text.add(2, Text.gray("Recycles moisture to reduce your water use."));
+    });
+
+    // Bug warnings:
+
+    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => {
+        text.add(1, Text.gray("Place next to a power source and right-click to provide a DNA sample.")); // Move this line back to misc section when fixed
+        text.add(2, [Text.red("Warning: "), Text.gray("Due to a bug with Sync, you may not respawn correctly when using shaders")]);
+        text.add(3, Text.gray("We recommend disabling shaders until this is resolved"));
+    });
+    
+    event.addAdvanced("pneumaticcraft:heat_sink", (item, advanced, text) => {
+        // Remove from quest info when fixed
+        text.add(1, [Text.red("Warning: "), Text.gray("Due to a bug with PneumaticCraft, your game may crash if you take damage from a heat sink while wearing Tinkers Construct armor.")]);
+        text.add(2, Text.gray("We recommend placing your heat sinks in a place where you aren't likely to accidentally run into them."));
+    });
+
+    [
+        "enderio:fluid_conduit",
+        "enderio:pressurized_fluid_conduit",
+        "enderio:ender_fluid_conduit"
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            // Remove from quest info when fixed
+            text.add(1, [Text.red("Warning: "), Text.gray("Due to a bug with EnderIO and Thirst, most sources of water are unable to be transferred with fluid conduits.")]);
+            text.add(2, [Text.gray("Other liquids will work, but we recommend using other modded transfer methods for moving "), Text.gray("water").italic(true), Text.gray(".")]);
+        });
     });
 });
