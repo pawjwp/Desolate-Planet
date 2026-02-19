@@ -54,13 +54,6 @@ ItemEvents.tooltip(event => {
 
     // Seeds
     
-    // Found from sifting dirt, plant 
-    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => {
-        text.add(1, Text.gray("Found from sifting dirt"));
-        text.add(2, [Text.red("Warning: "), Text.gray("Due to a bug with Sync, you may not respawn correctly if you are using shaders")]);
-        text.add(3, Text.gray("We recommend disabling shaders until this is resolved, hopefully next update"));
-    });
-    
     // From dirt or chest loot
     [
         "farmersdelight:cabbage_seeds",
