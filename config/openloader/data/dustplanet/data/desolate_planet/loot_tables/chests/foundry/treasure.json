@@ -7,15 +7,15 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_scrap",
-          "weight": 9,
+          "weight": 10,
           "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 6,
-                "max": 10
+                "min": 4,
+                "max": 8
               },
               "add": false
             }
@@ -24,14 +24,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ancient_debris",
-          "weight": 5,
+          "weight": 6,
           "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 6,
+                "min": 4,
                 "max": 8
               },
               "add": false
@@ -72,15 +72,15 @@
     },
     {
       "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 3
+        "type": "minecraft:binomial",
+        "n": 3,
+        "p": 0.5
       },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "tconstruct:cobalt_ingot",
-          "weight": 5,
+          "weight": 6,
           "quality": 3,
           "functions": [
             {
@@ -97,7 +97,7 @@
         {
           "type": "minecraft:item",
           "name": "tconstruct:raw_cobalt",
-          "weight": 3,
+          "weight": 4,
           "quality": 2,
           "functions": [
             {
@@ -114,7 +114,7 @@
         {
           "type": "minecraft:item",
           "name": "tconstruct:hepatizon_ingot",
-          "weight": 3,
+          "weight": 4,
           "quality": 3,
           "functions": [
             {
@@ -148,7 +148,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
-          "weight": 2,
+          "weight": 3,
           "quality": 1,
           "functions": [
             {
@@ -166,15 +166,15 @@
     },
     {
       "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 2
+        "type": "minecraft:binomial",
+        "n": 2,
+        "p": 0.5
       },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "kubejs:dust_pile",
-          "weight": 5,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -190,7 +190,7 @@
         {
           "type": "minecraft:item",
           "name": "tconstruct:scorched_brick",
-          "weight": 3,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -206,7 +206,7 @@
         {
           "type": "minecraft:item",
           "name": "tconstruct:nether_grout",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
