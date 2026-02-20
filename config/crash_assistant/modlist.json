@@ -116,6 +116,13 @@
     "curseForgeHash": 2206670812,
     "modrinthHash": "d34860a7dd8d0b245035d197b5408b83fd791cd9"
   },
+  "betterblockz-0.2.6-1.20.1-forge.jar": {
+    "jarName": "betterblockz-0.2.6-1.20.1-forge.jar",
+    "modId": "betterblockz",
+    "version": "0.2.6-1.20.1-forge",
+    "curseForgeHash": 3701726544,
+    "modrinthHash": "7798015ccc49562944665f2e6a1ed352cca7bd3b"
+  },
   "biggerreactors-1.20.1-0.6.0-beta.10.5.jar": {
     "jarName": "biggerreactors-1.20.1-0.6.0-beta.10.5.jar",
     "modId": "biggerreactors",
@@ -639,6 +646,13 @@
     "curseForgeHash": 2938549854,
     "modrinthHash": "93fcf0eacc5dc08a4f719eaaed1dc93f0dc80f66"
   },
+  "kubejs-mekanism-forge-2001.1.5.1-build.2.jar": {
+    "jarName": "kubejs-mekanism-forge-2001.1.5.1-build.2.jar",
+    "modId": "kubejs_mekanism",
+    "version": "2001.1.5.1-build.2",
+    "curseForgeHash": 519095484,
+    "modrinthHash": "d16736c07c210f41d4987a95c26f439bb5121d14"
+  },
   "kubejs-thermal-2001.1.10-build.2.jar": {
     "jarName": "kubejs-thermal-2001.1.10-build.2.jar",
     "modId": "kubejs_thermal",
@@ -877,12 +891,12 @@
     "curseForgeHash": 1432081092,
     "modrinthHash": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1"
   },
-  "scarcity-1.1.0.jar": {
-    "jarName": "scarcity-1.1.0.jar",
+  "scarcity-1.1.1.jar": {
+    "jarName": "scarcity-1.1.1.jar",
     "modId": "scarcity",
-    "version": "1.1.0",
-    "curseForgeHash": 306352529,
-    "modrinthHash": "f239aa86289190c4731bc8154e80efe13a528c77"
+    "version": "1.1.1",
+    "curseForgeHash": 394516538,
+    "modrinthHash": "639f99cded4ac233914f14b36a55e16718953e8d"
   },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",

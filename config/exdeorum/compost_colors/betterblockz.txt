@@ -1,0 +1,22 @@
+// Compost colors for betterblockz. You may add your own colors, change existing ones, or remove colors that aren't needed.
+better_builder, #89848c
+block_disconnect, #94739a
+block_randomizer, #8c8354
+checkered_spade, #9b7f4d
+number_blockz_0, #ffffff
+number_blockz_1, #c3c3c3
+number_blockz_10, #4dffff
+number_blockz_11, #50e3ff
+number_blockz_12, #28ff
+number_blockz_13, #7800ff
+number_blockz_14, #b900ff
+number_blockz_15, #ff00ff
+number_blockz_2, #989898
+number_blockz_3, #363636
+number_blockz_4, #c6621b
+number_blockz_5, #ff0000
+number_blockz_6, #ffa23a
+number_blockz_7, #ffff00
+number_blockz_8, #a8ff00
+number_blockz_9, #4bff00
+omni_spade, #a77a46
