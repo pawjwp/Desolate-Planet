@@ -402,7 +402,7 @@ hash = "5d4d1ca491df62eef32e9ec9ad016cfee27457f357166dc72a46bcc450ccbb90"
 
 [[files]]
 file = "config/SpecialMobs/main.toml"
-hash = "69afaca3bc331e444919e4dc668d79eae5babd76971d8ee6504a6645a462c6dc"
+hash = "2bea9e29c8cb18eff54d83ec1acb163b1298ecea54137df009bff975cfb54637"
 
 [[files]]
 file = "config/SpecialMobs/silverfish/_family_of_silverfish.toml"
@@ -753,42 +753,6 @@ file = "config/SpecialMobs/zombified_piglins/vampire_zombified_piglins.toml"
 hash = "6fdee37c2586dd2283e8f56baed3e67b3808c7e6d1e9d965b1eca18b23c09df5"
 
 [[files]]
-file = "config/Survive Configs/hygiene-common.toml"
-hash = "1c13edcd50d78c9ac60cf38804b5d352ecd3930cbbf89eabc2983a8d939bed13"
-
-[[files]]
-file = "config/Survive Configs/stamina-client.toml"
-hash = "d1382531a0a88f4330a16d94bd3e96b1246179964dd27a19dce027dc1fe48662"
-
-[[files]]
-file = "config/Survive Configs/stamina-common.toml"
-hash = "fd65af534ad662164aecaf1d87b11dd21f8a77df16de6940786d5acdb2783ea6"
-
-[[files]]
-file = "config/Survive Configs/stamina-server.toml"
-hash = "de229763d324641f20f435b468d050e3fc2df1f8a35a99df1ef7f7eea4258eaf"
-
-[[files]]
-file = "config/Survive Configs/temperature-client.toml"
-hash = "513405b53d824b2e18b056dc2d016e70856408d5e16201c6901aa649a77fa41d"
-
-[[files]]
-file = "config/Survive Configs/temperature-common.toml"
-hash = "9136e94eb1a4314dcbb86147db019060bf185ec8ee80909c930d0200754a64df"
-
-[[files]]
-file = "config/Survive Configs/thirst-common.toml"
-hash = "09a1bc1203ff45a18f24deddba3a59191a0b184cd8342d742836ffde9f05a78d"
-
-[[files]]
-file = "config/Survive Configs/thirst-server.toml"
-hash = "fbefb7f2c4eee87b33b2a31f37644aab7ce7c8a24dfaf345ffe9e3f36b40b781"
-
-[[files]]
-file = "config/Survive Configs/wellbeing-common.toml"
-hash = "f79cba5151b5a06827d949fa3848815320707c35523689a9ba03f3c6e5d8f6d6"
-
-[[files]]
 file = "config/ad_astra-client.jsonc"
 hash = "eff1be886673bc30e4dde7030f6970915c5c1c648d671f81bae5c941025705b3"
 
@@ -807,6 +771,10 @@ hash = "f390a5328244fa4f300041b581369bd17fbb6194824574a7cae47523ed01b046"
 [[files]]
 file = "config/aiimprovements-common.toml"
 hash = "08a9f7c6f63bd35d49b15fa5bccd8cdf667f21af0c9a8cb2ab5998eb598ee7c3"
+
+[[files]]
+file = "config/ali/ali_common.json"
+hash = "a55ada17a46c8ae45f778365728f39bbfdc22df662c5479c0408b9e76f4e41bb"
 
 [[files]]
 file = "config/alltheleaks.json"
@@ -954,11 +922,11 @@ hash = "8d35aa8b58cfe41dc6657d267ac8302261752a7d44b61f11f54a1240cf982833"
 
 [[files]]
 file = "config/coldsweat/main.toml"
-hash = "d7c2d2e495d8d3be97fb82f1b4d73290294f270f8c98847c91f45fe77fcd1452"
+hash = "e251b3dc24fe4266d4e74c1fea066105b27f89255c72fce0e6f57b517da12d43"
 
 [[files]]
 file = "config/coldsweat/world.toml"
-hash = "b2d955ce5a6592816178e78a91ea034ff3437bfe1b1f3c47013d8e392133b7c2"
+hash = "21320947d7de3ad29187af8216db1ea951bc236738082d618eb1de4d3639d6e5"
 
 [[files]]
 file = "config/collective.json5"
@@ -998,7 +966,7 @@ hash = "52f394cd3754a29a6f236b1fe622bb430fa7e4632bce262eeb0333d71842bb52"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "c652e0da4f736dae3ea2aaa8dae59332756637d72aadb5a6c7b225dd1ce4af76"
+hash = "93d72d5993c605559dc8c7e7a2c57e60fb4978c5d296e1fa7a2704bbd0a93656"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -1050,7 +1018,7 @@ hash = "951f25df08b8ba7c1f353d225f503ee103fff7df85eb8570dd68e877b217587a"
 
 [[files]]
 file = "config/e4mc/e4mc.toml"
-hash = "0530f81bc071dd4a0d8bfe7e864898f6a71327c6a694d5c0b02c054e0bf4797c"
+hash = "3967d3b931472a818bdb8430414c324f40f2441132fafc029fef95f89507cc8e"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
@@ -1139,6 +1107,10 @@ hash = "e4261eb5856c8b1348ecf454b5269164a6d2be861046d14f52d9dfcfd6a6459c"
 [[files]]
 file = "config/exdeorum/compost_colors/appmek.txt"
 hash = "1ce5c0f46326240d032e382cac41ae9efe881414b117bdfad98ee131d32ff47f"
+
+[[files]]
+file = "config/exdeorum/compost_colors/betterblockz.txt"
+hash = "0b363c1e680c132df0fe7de8ebf72af829115ea3bc28338bdb85fd29d592529e"
 
 [[files]]
 file = "config/exdeorum/compost_colors/bhc.txt"
@@ -1430,15 +1402,15 @@ hash = "45a8d0acd513a15319d39fe3bf28a92bcb9f943dadb0949a5170e8f1d8178625"
 
 [[files]]
 file = "config/hqm/default/sets/Like_Clockwork.json"
-hash = "82110724ea8185ef577b7ed0b6800d99d025334507d7cf5b2e88aaa3c7ca642a"
+hash = "26c16a4aca24fee929e26fb491f018ba8a95ab43e85dd5d1820f0fa1d1120bf6"
 
 [[files]]
 file = "config/hqm/default/sets/Salvage_Operation.json"
-hash = "30602f571cd330bec44fe33ba6ed8bbe7520349db8ccdb6be35817e7d1fe0347"
+hash = "c331e16fff361b785bd163cb4ebe9dfb49334c70bd65a046b8e4c0c11dc2815e"
 
 [[files]]
 file = "config/hqm/default/sets/Technological_Revolution.json"
-hash = "b158be0b882054238fdf3d8c0f4763cf1407ff87e02cdf8b819d19a17117f86f"
+hash = "1a9360e3f2e1271c908690a5a099bc90283ee920ed2f030f36f32522ed5798d5"
 
 [[files]]
 file = "config/hqm/default/sets/The_Food_Pyramid.json"
@@ -1446,11 +1418,11 @@ hash = "93b2c3c29d41c0f546a9ed6ea4a7ac8eabbe604b46760aab638e2889f36bb0f6"
 
 [[files]]
 file = "config/hqm/default/sets/To_Infinity_and_Beyond.json"
-hash = "2d429049dc294ed9f784a45e0353dd301e83c1e514933760a9ed29b032155736"
+hash = "3aa078a84a0fd1f1ff441212a1b88e8249d5245e674d2d1f913c09663b019991"
 
 [[files]]
 file = "config/hqm/default/sets/Under_Pressure.json"
-hash = "55145b3565d15361cb1f45685aa7fbd79261fa6838569c630755975c5feb2a67"
+hash = "8d47884e0c2472e0fe054545667376f82e938f36a6f0cf16005a3c2cfc2b1168"
 
 [[files]]
 file = "config/hqm/front.png"
@@ -1570,7 +1542,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "b8b9b1f9ba77e4d4440001e958f1767b55dda813125baba399f0d89eda0ddd7e"
+hash = "f4685ca9266c2f0aa3e8ce4acdee8013ad68ff7ee703c4527ba7b2b77a39092c"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1594,23 +1566,15 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "c46d7f1df4b13beeda9e8b82a49b877be9ce5a59a53d6db8e60775f9d6ad3617"
+hash = "65b8e7538fbc7d62d6bfc7506fa0779563a721f29fe0c76b2c365321828d7563"
 
 [[files]]
 file = "config/jeiintegration-client.toml"
 hash = "c6cf2a1f253bff9c24251312b981d31869b2dcb676f399a7ca2a7756cfb8f76d"
 
 [[files]]
-file = "config/jeresources-common.toml"
-hash = "9dbe8c6973dc932be6dd20cb63381276740b23c75349dbe870fc8098c8529989"
-
-[[files]]
-file = "config/jeresources.toml"
-hash = "b101c668c6c658e2db126b7f6d3b9eb913537ff8903fbfce0128534299b2aea5"
-
-[[files]]
 file = "config/lighty.config"
-hash = "b0668045b4865b06dcd8b5b96c870178320117217010f37843a75c53967a12a1"
+hash = "b8f0491906b9f2310bb19907ad34fb52c133dde79e6b947544d87b3ca047e623"
 
 [[files]]
 file = "config/lmft.json"
@@ -1638,7 +1602,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "f359b229b0cb290b7bf05f901d6c704c0ca86dfff411c20b6c4a82c379283956"
+hash = "3720deebb7e923b97f1c60b910d3590f41fdc80792b18f20b75ba0cd90ec6ebd"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -1646,7 +1610,7 @@ hash = "78557fc0d62b4ca3a586371769fa9d553599169513213fc3a8432780a9d514e8"
 
 [[files]]
 file = "config/moonlight-common.toml"
-hash = "78b0e525a30c60ac70ab9244b65c912f24fd0cf5fd95744ca7748df8f78683d9"
+hash = "fe51ec0f4071f1a93f60fcfc527ce3419dca959b39a4b6ef5b169d3fbfe669c3"
 
 [[files]]
 file = "config/nbttooltip.json"
@@ -1654,7 +1618,7 @@ hash = "1f22d8e270c33d9dbe3f4a7b076d98cd86efb7141c273caa60d8298040c1adc3"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "09435a2ae8ac19333d56503420b51d4992de2cea1a6f0b61c21cfaf60afde496"
+hash = "c541d1bc5aec739c9303f6a476023151fede25abe2c05c528c250a9025a2cc0e"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -1949,1760 +1913,232 @@ file = "config/openloader/data/dustplanet/data/comforts/recipes/sleeping_bag_yel
 hash = "2e6d42be00cd25f8e3cb4771560de3a305e9d19cf5e76f2f81d1c2cd7f205cdf"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/cities_dust_loot.json"
-hash = "f26f7b035f70d66b3e6e4754e0399abdb817428b2773a2385ef26e15de39d13f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/cities_normal.json"
-hash = "eec26b1068cbf13dbf29b71dd6ea102b6cc7cb68b9fe1d72cebe58bd161f65cb"
-
-[[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/bedroom.json"
-hash = "e46f9fb4dd4cc1af5f10232e15b855bd37bc37b0eda46810da38fba8524bfe7f"
+hash = "451de567a9f9a7978c0ce53108c813e40305ef7d12d532830dc4083a515216ae"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/crate.json"
-hash = "eb14a8c457446469e08f0f8d3744921f0a75f419108ef822f0b8fe2c536bbd15"
+hash = "de296441033f0f69412c0781da2e41c5a8bf23c98f43209a4618aecf1e848e84"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/kitchen.json"
-hash = "d92f754601ee13aba49a81cefafd68dc50713f3b26675bc0d4c826a117cb1549"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/kitchen_food.json"
-hash = "f5fb818f351555f5f85e4fd760e694dd1d15f776f283fe90b627fcb93a138e93"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/kitchen_rare.json"
-hash = "3f24573b411214ea012907852b5bf657d20aa8999cde4add2d396b04dbf40e7e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/kitchen_seeds.json"
-hash = "d90182c128c1d69b9e1ba7ddde111753c7b91a931ffc8e277d8050978fc4f2bd"
+hash = "0625219f7dd003d99b1c3c1dd26c45ff9525d22166575194a55b1d6cf294f936"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/map.json"
-hash = "735033fa0a4c60f528fbbfd962ae3fba31cfffb6e8902a65aaa1a8819b61078b"
+hash = "f209bc6f403ef182f6312219ba66fd26f8cd3f20ca6ce2047936fe01a0e3e35a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/office.json"
-hash = "aaee178d2872bb1b6152eb579f182acab5c43fd3b786266fb616ec1c412202bb"
+hash = "6903f7cb55023c157c0f804d76a2e06a3c8c15ecee5f320daa62f99451a540fe"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/deco/rare.json"
-hash = "273edb475860dbe479f76f3237f7a1702e97820e0990e8a2f1516c1e2c1c6257"
+hash = "4783a14de85ab7689f8ca8b37ec78b20dfd365a043d32fbbd7443f69cc67440d"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/farm.json"
-hash = "741178852921af5045a3280019e5476df5875db80ad745372081a64efe4c710e"
+hash = "69b8c09c1ba8ae5a77632242189ef83fd938453dff290086b11b10e34f5e00b4"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/gun/advanced_bullet.json"
-hash = "67d738c0d3b2ac53992e31e73c42b053a2bd75fab83ff5c5de266a39b6b7da60"
+hash = "6deedad6e8f1016d3a366e520e1896fd8a60d16b2f4b75d421a01bd5d2dcd693"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/gun/assault_rifle.json"
-hash = "115f330c14988555388e06f9214635e683e6a98538c054a85fad95816ecc78f4"
+hash = "bce386792ce5a0dc8864eb5564323d5e83d192a6d1623f3366869ce522399cdb"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/gun/basic_bullet.json"
-hash = "9264a4dc980989f1640af3d5beef8575d56c1ccef73ab8083dc2458852d0d8bd"
+hash = "60f2ab80dcfa1ed1bf1108f1f63b9ddeef9083e2cb1cfa951f91aae8b9776ca7"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/gun/heavy_rifle.json"
-hash = "3d2662ac5cc6b4610dae8a1b1f9b4d1905ea1034977994701ae899ad870c9728"
+hash = "53febf824371df58b0e7f639511bc53a8375d5b0140cb98a4f92c34bcd0e1a91"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/gun/machine_pistol.json"
-hash = "bb203ea5a77f7b2d414e3bbec8e693e94fc800feb646021563ceb7a7075e04aa"
+hash = "872d95a1e4cbc47cd8e55878e81344a481b260c42d9fe6b05d3f3fa3696da07a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/gun/pistol.json"
-hash = "b3e001dc8240d4d52980cbd90ad0af1ae1247865da893958474a82c47e458870"
+hash = "aed91a247f1673b4f8f391c864ea287da94c4ceb7955ed9f12e266f225b4c931"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/gun/rifle.json"
-hash = "d3c14dd1dda41f2e5202037c6cfc071394c975229b2c0ecf9133b13e512a1b5b"
+hash = "28ddd06726548608bd7b8b122622155a343a61f9fe630c574170ff62cd96a8f6"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/gun/shotgun.json"
-hash = "f8cba9074e39bf0615a6c7497462b04fb30a2552e4eadd25ab84279039cfe0e9"
+hash = "4c2552c005e69f9a532b61859e954e0b97355cee25bedf43bf74e0d255973f4f"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/gun/tier_1.json"
-hash = "34034460d655e3e1796ceae2b430e7cad59c02075246b3e578c8cb5d13a9ce5c"
+hash = "4e984f6d8fa625429cbde2e278641a67bd2b032b78555f75ee9f0feb5ecdf8c2"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/gun/tier_2.json"
-hash = "60c49ad956deb304088a95a47675d5a722ac36cd0f94074799279091d253fcc7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/industrial_normal.json"
-hash = "d73fbf10f357a9cbadfca07c6a37256d6bff11215c637c9f99721de3f243783f"
+hash = "c52702f4c9beae09eb7a9112e4b7880e28d0869a6593c2fbbcdea3666029c13c"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/mer_common.json"
-hash = "55333b01bcd844322f1ee45660dbf1a618475a768f97c75398057ea7949a748f"
+hash = "03c76710734a7225c162b6636cee65f632206b7613c68a649f451875202e7671"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/mer_press.json"
-hash = "e472cafbbc20e25dccf7cec4291b04bbfa732070fa586cc058c8e2f001fdc42d"
+hash = "cc307b5075d249e29ce9bb46d4334bbb8568f512af9d8dbbfbc6d862d99bb84e"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/mer_rare.json"
-hash = "d3856e6212431ae34065eb79dc0136abbeb5bf5a94a2eb654880bf78a415a431"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/misc_industrial_iron_decor.json"
-hash = "0c7e819b5b2e77bc217868a6b1fae19e9fc9e949c75568dd712154d0c5335dbd"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/misc_technical.json"
-hash = "f8262bd7e998f53c68a18994cd23946dc5bcfd1a15e2652c5871320313a9c17e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/nuclear_plant_reactor_parts.json"
-hash = "e8bdea6ac9b834eb503190d1bc1c3285cf228455e97921150c5c40605b310fd7"
+hash = "aea6044a04cb392f878dc7c0559cc79a79c183256ab95035205c5282e9996e13"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/nuclear_plant_storage.json"
-hash = "82cbdbca35987855b75e002a1bbff906c0cb072eba81ece12fb6028e0417db0d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/nuclear_plant_turbine_parts.json"
-hash = "6b16c31f18973f9e2b401267283359367e94884a2811d8c2408ed002a36925b2"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/oil_rig/common.json"
-hash = "1ee715cbdfaf47820d53659b755358edcb90cc50ea849bb3961bd6c177de97d9"
+hash = "d64000efa16ad745b9900a3480f135ce8d124f430e275ee0fc8c43dea6d173cb"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/tinkers_factory.json"
-hash = "bc9b2b52fc36389a5d5aea8520ad82da2918031576431d9de7e04cde85df6fda"
+hash = "8c135729c2371d75086228332d7429e0bca15087fc6f4d2ac52acf3f0f33e88a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/tinkers_foundry.json"
-hash = "d64611879e30d86982872dac814929d7116ccdd80c8de4ac5d106e123be142d7"
+hash = "a09239c78298f3d280a767355b46373580e85ac5cf50f393ff7f5e570d146819"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/tinkers_foundry_treasure.json"
-hash = "78fbec9d4c93cd57a7c9a165d5d384e33a9ac89c2441fa1ddfb2ac86fbf89953"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/apartment_big_1.nbt"
-hash = "e0246a3fd0cd1fe2eff068f381b08e1beb009316b7c6043758b8754e9906a345"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/apartment_small.nbt"
-hash = "664e58f8a0333f6a9bb5b11c0488a1299d5c6546f94de5a22d26f9386f30bf6d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/apartment_small_1.nbt"
-hash = "5c5cfdb6447587cac29fb06377fb998391ca2ec95779ce949e4ef384e09d06f7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/billboard.nbt"
-hash = "ffb6fd0728c22fa130de260edf4d3505d1180276ecb19055af247a850245c6fa"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/broken_apartment_small.nbt"
-hash = "7e13f7176eb04b8fd273b2a5ce89e1cb41e174a3719c36845435d343c9033818"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/broken_office_small.nbt"
-hash = "6b0bf321e17e90a52c230271fbd9fb65c8629d2643e24fc49c2e41bc3ed30339"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/broken_office_small_1.nbt"
-hash = "18efd3d5092b657ef57a105c3f67f4df35381bdf20fb961457a339f2271a8e2d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/bus_stop.nbt"
-hash = "3888faaaa2a6be7c492ef2eda8d4ffe6a6b925b11a62c3871cd3ba067bccf7a1"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/office_small.nbt"
-hash = "2349130abcf6f231602aea5c123a26f4fc7a79b93d99e2a99f772f04829faf62"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/office_small_1.nbt"
-hash = "65221ef39fdd226c01918c97d4210542cbb40a5f8e9a8d17d55e6949c16ad783"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/office_small_2.nbt"
-hash = "7ab94a03ef3724d550692051d98994398b1e114f6c14ccb0a86fe8a27f497b3c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/restaurant.nbt"
-hash = "3ee3aae4e0aeaec09ac18d61c0fad7625402eac5c1f4b1d1def4f09b665bd771"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/smeltery.nbt"
-hash = "0e3f1e2fc1c0a0bb0dff8f6524b2f947e1ef0319770846e3ec1adae596725153"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/building/smeltery_small.nbt"
-hash = "95060ab3cba15aa08a46e44992df59ae9b0ac1068ca4acefb0d85952c0344ca7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/cross.nbt"
-hash = "30fd58b8a1393aaeb529ecc8a78945d77911e3c985d4c0f1e468029a6bbeb51a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/cross_big.nbt"
-hash = "a613aa1932bfbf11c7225d060a0634e3fd9fcf23a88269cacb4b276c25415950"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/end_a.nbt"
-hash = "8e1f909d2a96d83d3d83760fa84d9c9352886e492458510d4e2319d52d02cccf"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/end_b.nbt"
-hash = "216e0d8a388835f06084e5b5c5fa16fcb460d7690fefc702d88428e99084f1d9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/junction.nbt"
-hash = "50bb12833646250fabe9b39722f78118cbbb95a953cefdc941545bcc8ef1e556"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/junction_left.nbt"
-hash = "58fdfc5fd3af1f74949bb93423d871345a93fa65f9cb9c1439f3369c95a57268"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/junction_right.nbt"
-hash = "6ef9c554c61cc7ec2fe67c27810e5d8c8aa43a1c46ffccaa3859bb8215aa0ce8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/long_dusty.nbt"
-hash = "a718202ad9d229cc4c373dde41ee7e327886b9699fb8b5f69a1bd9a11672aeca"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/monument_round.nbt"
-hash = "3b98cf7afa7c72650fd75c9819f15ca35bb3df4f091699d9d83c000d9898439c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/small_dusty.nbt"
-hash = "4b9bee04f4664523d13b08fba1765e6d6411f42de355b379cc0ba754eefcd4c0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/straight_long.nbt"
-hash = "a09b50ad4df5df6f4f46340dbbffe0948d98bb42cfde1290f71a0bb7492acd9f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/straight_small.nbt"
-hash = "b04f9831f3a63c824a564b9e741e01a6149b878e5bbfad1f61432b0e09c442fd"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/straight_xl.nbt"
-hash = "84ea93febd1efe5dde2566474aff2d2ceddd778035c890330daf08df6572246f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/turn_left.nbt"
-hash = "73b6546b44a9f459865a53d99c566d0470e1bc503708f5d85959a626decf249f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/city/road/turn_right.nbt"
-hash = "5341b65d2e1477ef9e1f7e70ce2143213cdd348c4224d8f873d56b47ffca47c7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_3x3/1.nbt"
-hash = "ca4be641360b3c790e8adce7ca732a6f62da9a3c9dcf43cb2c2c6c2641a61935"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_3x3/10.nbt"
-hash = "42d980c6cf5060616417be85d5c79f551d35f00404ef5d15da9b073cb0072b65"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_3x3/2.nbt"
-hash = "fe3dd7f8a027b0f4837fa4d84aaf76ae09242cefab800f88a75aaeffce1743ad"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_3x3/3.nbt"
-hash = "d0739379ffc5b87334186b6182c0f3abb8ee8c3a60123694b280f7297272c2ce"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_3x3/4.nbt"
-hash = "e365d05d459f37cc7a7c2daaca04a85dd5072f064b6cd7af21cde5002360e519"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_3x3/5.nbt"
-hash = "19dfca5ef105cdc215fbb855c18008244ee83d985e3b8de9014688c7c4c67386"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_3x3/6.nbt"
-hash = "13485b47eb54a04815f0f933ade5aa70b325370ada77331872b018de34bd071e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_3x3/7.nbt"
-hash = "2b56c459e6250ec7c1eee916182060314d529d209564b36dead907928ec3e17b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_3x3/8.nbt"
-hash = "b9c3fe1d81ed9acfae30a29d238b0becec05810f5e526927e82eedd830daa0a0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_3x3/9.nbt"
-hash = "e5065299ef1b54678e69e42028fe16769e25478bef27876fc4faaac660050736"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_5x5/1.nbt"
-hash = "97f01b94d01f93c48c698a554e9a426d00096709c9359d081895a9af0bc24f39"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_5x5/2.nbt"
-hash = "2343f3d6b2e0c8e64ff05b0d06b30c3b552175635f23414075c91fc8b7b53c7e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_5x5/3.nbt"
-hash = "270c70467bddb2deaf0a9c367bde006e52ccd0bf3d4ced6bf77917ece9b44990"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_5x5/4.nbt"
-hash = "4ff428695bec71d9f56f0879f5a01965889bab6e5208d300d36a60392bc3cba6"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_5x5/5.nbt"
-hash = "cf7f9b5598b0e549d625f11e641341dc352322666b2c3662ff7b2789a94412b7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_5x5/6.nbt"
-hash = "3cee34405ce766d1b2298227f9c569482c464b2c1afabd54bcdc7bcedb956d9c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/bedroom_5x5/7.nbt"
-hash = "8c27416f40cabe9fe8e13d53f2b9ea1e25704f07670d9a80255e09c3757061e1"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/chest_3x3.nbt"
-hash = "0ccf514c3f73baa233e45e4d281c7f996950f80a2082c59b8321f6a1973f8ac8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_3x3/1.nbt"
-hash = "563343253fa81e43cdee7fb2e6a51bebdc611b74317400190c71124cf0d0b1f0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_3x3/10.nbt"
-hash = "d2987471b9b10d2d0b99503af5baf254cccd894d0fdacc96b08a143bfcddcbe5"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_3x3/11.nbt"
-hash = "57e4aaed87176d131759263816608ef760ae61a1f863abe6cc1ce4f68bc602d6"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_3x3/2.nbt"
-hash = "dd454d3195373539453d567be3530422b8d162e15f670cf4e1594f6b440dfd6b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_3x3/3.nbt"
-hash = "eeb4f533ff8b0a9ce183bd6c1ed23555fb92d2d5fce54a5c46d72a781157eef0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_3x3/4.nbt"
-hash = "14724efdf8fe76501618743e2c8944c35682b143875ec19820025feabcce9449"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_3x3/5.nbt"
-hash = "ae4e27cd8d1d9704b6d25fe9220af11b54cfc5d5bbb4a3e1a39527e45f200840"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_3x3/6.nbt"
-hash = "341740fb4cec4018b3c98edd23272ae5a4c1d46b851adbc4c98b751a43d002be"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_3x3/7.nbt"
-hash = "d89eca1331aa00c49bd577a8d62ca91ebaca7996759db0f33bf374ea610f9d06"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_3x3/8.nbt"
-hash = "539941363a276f9f013cce9037b4db48992d702cf22fe7bd48ede125d5278e31"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_3x3/9.nbt"
-hash = "469cea553d2a1a8a4a8b99d86d8042c5eb2ad25cdd9497760cc43d3ddea99843"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_5x5/1.nbt"
-hash = "43edd57a6ee3718d2e82d8e6cea08f3c8b6066198549855d9c72d020ba32e3a4"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_5x5/10.nbt"
-hash = "222e16804c77f8f42e0d16df684dea909bd7afe1e5b9e916351f57ada7be32b2"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_5x5/2.nbt"
-hash = "34ad935f33755551ac28a7564bae09a5bc8363e8bdb59bcf80bc9bdc7cfb1e98"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_5x5/3.nbt"
-hash = "f6e2b55d748cdaa288de9a1d8ac1a9feaee477e25870f1a2e7aaf8f935a892bb"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_5x5/4.nbt"
-hash = "0604dab5cc3555d05343dc68129716ec74aea9de18b3eaac8146817339eae311"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_5x5/5.nbt"
-hash = "2e99d442a435eafdb7a6a023e80e7cd615c3b35711e3c7dc236437e75588e70f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_5x5/6.nbt"
-hash = "ebaf2384aed0de78b36ec888aaef3273dc006883a089752319e4cca97c074a8c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_5x5/7.nbt"
-hash = "8757b66186b5f5321dd5719414ab0e5f4831b7c9ba1459ae97a7477573084bcf"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_5x5/8.nbt"
-hash = "6b3038f6287d1950589f0f4ff2f77a39bbb4215be5cebe192f6033a8ac9c6d07"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/crate_5x5/9.nbt"
-hash = "1e5b23b7bf74a6d8df10949acd999071902d6d8322c4182babe829126ea2b4d4"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/cupboard_3x2/1.nbt"
-hash = "8865e019a02e7ffec2e925238c3357828dd391f3f68fe4d41ed4a71ecdb53a89"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/cupboard_3x2/2.nbt"
-hash = "21bcc7f3a74851d5d5e008bf6b656cac1f18a9b0c4b55a80e2ccb290a72e90a8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/cupboard_3x2/3.nbt"
-hash = "ff03a293644ba7cdc3077f035a30437f30e3b7f08ffb5c4e3c3919bee5cea3c3"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/cupboard_3x2/4.nbt"
-hash = "d4837f7d78c9421604299fbaf3fc9b0b92bffdfd0c5bd15076865001e809f5f5"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/cupboard_3x2/5.nbt"
-hash = "7cd563bcf1dba7310941cbfac7db3974693d05034567157e655d3c3b5a6a8d6f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/cupboard_3x2/6.nbt"
-hash = "2d8a1c7b1d17f4469be1978fd24ebd6f5e55c9293e1d3c91729bad23da9ce4f9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/1.nbt"
-hash = "ee8e14d9c304aa474c1c6d8ed49cece0f586b37e35fd75572801b9e388356c5c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/10.nbt"
-hash = "a78240016d06a28767822084be87aafbefd6f7520fbe9961f6fa41b393cf3d8d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/11.nbt"
-hash = "0ef53049d0c0fe7214485c11eba1beae4f616faef2e7793bd69d329740a6e511"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/12.nbt"
-hash = "5ad1878d8e5acde9beefc0f76c04792ee8c1cf2097bab52dc07bf3da47fb7b99"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/13.nbt"
-hash = "6570113fe6a272e5a21946434bc0582b3bc26ef1a850be2db809601bfac7f986"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/14.nbt"
-hash = "9bda63012f5eb2f523ca9bbd870909ef62d5ef5094d4aa80068fb35bd51c1892"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/15.nbt"
-hash = "ad984e4640a0246e11fadfb593c5b2fdae315d3b51a109fc1e68245971518a11"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/16.nbt"
-hash = "2966aeb566117d6050cc2e9d9a2ee9395ec79d6fdd91594edd4994c48464cc70"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/17.nbt"
-hash = "e8889d90296aeff84ac78b59fed4a8f02061aab29a28af98f10c7996196347e4"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/18.nbt"
-hash = "33095269d41d7c606589a847142bc4ccb84cead9770fc4cd28e61a51cc39f200"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/2.nbt"
-hash = "00a616b9f1b423127efef10a299a6db3b7fdbb2dd52b5005b9b41a7b5cfbda38"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/3.nbt"
-hash = "222a4dd2ce54678c6bb6856be9d9741c52e2ce25d3a1d1b883afd170cf7809c2"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/4.nbt"
-hash = "7858c3fe393dbb09a7821c6e28e3373588e895e3902a662f76a21d63d87f864e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/5.nbt"
-hash = "cb5e4ed6a0287eb6302e33f1b590a00799d7884dc0aee83876a2b626f4c83d2f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/6.nbt"
-hash = "599d56ccc44549f5741dabe7ccf0cbc5601b023af589aa4a945219645711fc26"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/7.nbt"
-hash = "89e31a1b27ee4ed49e3ba8380ff0235820ec52d1dc0c2630346eba934e13d6ff"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/8.nbt"
-hash = "d5497db4f060e016181c8a26ce32c9b9bd9f2584f5efa3794d16b94488dc4a4e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/foundry_3x3/9.nbt"
-hash = "62a8c80588b98085d278abb0092e0c8aa1890622fb77903821cfe8205a8370ff"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/office_5x5/1.nbt"
-hash = "40def55fd75942098d89e8ac8de8c112fd0a5da55587a9f5a8723e5e4cb0893d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/office_5x5/2.nbt"
-hash = "e35b19a6938987bb38d3025352dd432d82262a7ca53a1dbc642349ffa9720ef9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/office_5x5/3.nbt"
-hash = "65bc45d7765765b75bbcf6fff662888e691dc0abbccacc63178e1e09fd116687"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/office_5x5/4.nbt"
-hash = "08e842a567173979b4f5f4ecdb3f7cc9606931e98cf8b3da2c65345015b781bf"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/office_5x5/5.nbt"
-hash = "d0a88b1b79c6c3d26c7c6ddfecae560eb8a95ffdc6223e16213a5bc1f2a3cb00"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/office_5x5/6.nbt"
-hash = "0cbb796379e1a0de0ad80f2a436245d1c8df00113c99cc7506a2f00cc609855f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/office_5x5/7.nbt"
-hash = "dc5ebdcf203db7be600642b9c91621ede54fdefeb689721e155d7362c26a55b3"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/office_5x5/8.nbt"
-hash = "af2763c49e7fbcac593f6849ae70f90d617a9f68af7cd9c086ca0104c06eb0d4"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/office_5x5/9.nbt"
-hash = "2d1744517fa090b36eda4e7ffbfaa0baa1dc9af16f1fb95a241819cbf5fe18a1"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/1.nbt"
-hash = "b450b521d7fd82449a9b391da2904061f8fd7928173864f77e06a69519fa64b3"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/10.nbt"
-hash = "2b15200b876f6117de9c82a586306d9b567f09efdef677ee235444237d04997e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/11.nbt"
-hash = "64207bfd0001d8f6d45b111fc4a95db6098ea9c735dbb49a20a1f2c3950b427c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/2.nbt"
-hash = "abe860c26d91f6f1932ad85d7e45ce5f4996b1e9869686696c10eecfc7cb8752"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/3.nbt"
-hash = "772c7e964e7f80c2c32256ff7de30f371456e39eee385fb71b731566d9114e93"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/4.nbt"
-hash = "f983545ca0a334c27ba09d048e7eac0300a261d4853c8a378c522e6625f9ef87"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/5.nbt"
-hash = "08ad509fa8d1883ea226c7d0e9c00e729e86493f445d2b06ebc5af386b06541c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/6.nbt"
-hash = "066e704ef62999453c782fbdaa1a2ef85f8e9038ca81f8ca727f9cac837c4ba0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/7.nbt"
-hash = "44d449a831fe8badfe05fd7eb1e5fcc638e2d2eed0832086711de052dd7d1ddb"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/8.nbt"
-hash = "777ab4f43da4446e73c0320811c371262f41b7c878ed9824e0e5e74a53ad9153"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/smeltery_3x3/9.nbt"
-hash = "fd94ce3d5bcc59dfb6a1535a9cf5097c1bc3e69c249f7557cba702539c92e716"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/spawner_3x3.nbt"
-hash = "38de3741bb18526c396b2a4ce0392c240dcf4fe054c998b665f70577e837c511"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/spawner_5x5.nbt"
-hash = "6541fc7713f595c2cf56cad5d1ae7297c98ebe1a936e83502e317e8b44160260"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/street_light/1.nbt"
-hash = "deda7163ac39328518d339bac2517ff0856b3ad516c0196607d3288fe3b32c30"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/street_light/2.nbt"
-hash = "f4e1a59a125420170e65240def22c503f4b7f76c8ccbca9d7060b5d61bb8bf8c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/deco/street_light/3.nbt"
-hash = "c8294cb9cf36aa65d6b9ba84d73d31e1aaed9f8fb526d5e7159d5b853d8aa9e5"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/empty.nbt"
-hash = "7a3fe9a9745cf3563dacebd3802b34589329da4901d330e5b2cd997c29b07fa4"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/bastion.nbt"
-hash = "ffab06a6d75eb6795cfca16b62566d6b859e39a1187e2d0bb2308c27ce1812bf"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/bastion_underground.nbt"
-hash = "01d71e2f0c7ac46711dffc5e16191bc5a16b325e35ed2aeae6ee97ec76dfb5b8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/building/big_house.nbt"
-hash = "485846ba2b6445f28fe70a40bfe89765bb29aa5a7ff05887c83cc9d761151556"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/building/moderate_house.nbt"
-hash = "9d9eac998aabe5e6e373767f9e4537525941d9a8263f8359e1c949834eab8611"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/building/short_house.nbt"
-hash = "f567479bb9b0fef71d5d5e2ad51afb2674f59455d7049133d8bf138e8f1c1c62"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/building/small_house.nbt"
-hash = "f1f4a2ad3a9b8a3f42ce5b45d5483a0f153975277382a09a16c1c1ab5e58f24a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/building/tall_house.nbt"
-hash = "1fa78f05ff02792e99faee19fc395b4b66f58b6094abbb282850e7ae2fe61d8d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/building/tinker_big.nbt"
-hash = "cf2894e2dd79d47b0adccbeb4d4c5654df871c9b5954e7ae513aace4d2c420d8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/building/tinker_small.nbt"
-hash = "a0f40c6168c36f4d33dd3487dae2f50a20dd17559533799608985c9d5a44564e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/building/tower.nbt"
-hash = "788a9c8c962c20fa37a54c1fa511b520bc51dea0651e2526eed4dd3beecb76af"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/chains/1.nbt"
-hash = "cae46a632c831f2b478a2ce226c84186be68b8558e2607fc6fe85d00d5aa533b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/chains/2.nbt"
-hash = "7d6c7d5aae065323512c6356b32e009e35ad87f58b7364a6e17fdafc8a71ccaa"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/chains/3.nbt"
-hash = "4101f0669746c97126c741d15fc5c88775d3553dcb6ef706d9519dca9a227c85"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/chains/4.nbt"
-hash = "f6df90d63b77a8f1db8f55af6a4fdce76f7801104edc131e951b7d54db2c8a8c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/chains/5.nbt"
-hash = "916bd767fae57cb3a4104ee765d0495efe37a90b31a6307f6ca9b288284f9237"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/chains/spawner_1.nbt"
-hash = "16d5aef59e875b9750c5cab41acaa9f28a6cdb645da9a00d13a05ef24aeab68b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/chains/spawner_2.nbt"
-hash = "7ba9aa8d8c234578413ab8a7a22d0ad82ba2c4dc303a818a53e96bee0fbf36b1"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/channel/1a.nbt"
-hash = "76dfda311c0a8629edab65515d765fe5dcfb0d1bbed0cca759d8d775d39d515f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/channel/1b.nbt"
-hash = "9c363e97f17d942bc4c63d111c2af70c2f325ee423e87695474cd0b699a887b5"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/channel/1c.nbt"
-hash = "d7b0bc9c4d770ea287fe27e9c61cf6a651b4b05f3d8b9455b97458bb38edc79b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/channel/2a.nbt"
-hash = "527e06a4f23208bb8f7b3eb147546b2b75408f4423a8524df8a8e31f2e9e8ce5"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/channel/2b.nbt"
-hash = "4cfab724f27e38cac4312e9eb0c772827c67ea8810eeda33291138db8234b065"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/channel/3a.nbt"
-hash = "0fe30d8683954b061a80e4ba63b3496f9535c4b401f144c24676e418fd528ba0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/channel/3b.nbt"
-hash = "7a6741a51750fc9e1980121e107a83a013b34072c04e8fc4170e54af274de191"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/channel/3c.nbt"
-hash = "15fe49625a1fb6e240e2939c812de53679fd5d2d96c16a1c76d5b4de33710bfb"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/hallway/hall_1.nbt"
-hash = "727000d915ae449e7351021216986060e0d04907f038aed2ee9661350929230d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/hallway/hall_2.nbt"
-hash = "c1708db5ac0f232d0c4645c8634f6dc24cbadeef09c7d2805cf6e4e4e1232777"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/hallway/hall_3.nbt"
-hash = "988fd9336d4134291dda86a0be5e56938c7633feca7c3fc0e5fd4e97d4fcdf27"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/hallway/hall_4.nbt"
-hash = "5979ebe82f2f937b9ed5ab30f9b02db9f85da182d133a21bfd0b2dbb38216938"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/hallway/hall_5.nbt"
-hash = "a9cb6fc02abdc6256b33bf27fc65c3a8495ec3a3dd7d00c47093d1e69684487a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/hallway/junction.nbt"
-hash = "5534c20848c2556b71359af56e0c1ffde731eff8fbf3ef6c4c1ca79a1c93b9b8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/hallway/turn_l.nbt"
-hash = "dead5f0d3a656ef94b04b24bdc2a988e7965838bd57d090b224561db7aed175b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/hallway/turn_r.nbt"
-hash = "58ce4bca91b5d2407794694d861f9541d1b0d0291001ddaf8e45abd34e90757c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/road/cross.nbt"
-hash = "e9b3728af13740bcab399d2f0c2b8acd514879c3aa5fd9fc33ce4589bf0213f9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/road/junction.nbt"
-hash = "59ceb62d5828e062ced125518ae114711e05756cc27c9fe7b54d6538d9a38780"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/road/junction_l.nbt"
-hash = "a0f36c8ac73919dbed5f4ebb075a3e54e623d1445aecba31bb5ec836013cb1ba"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/road/junction_r.nbt"
-hash = "b85e23fdcddfddbe3c169282274d4dbddfa88989ebafc8aa8ab81d545db93714"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/road/long.nbt"
-hash = "ff6a942ea5d8fecc145721544bb7e491d09aa4951167e3578505a75a8f6d4be6"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/road/short.nbt"
-hash = "474336d204a4a62887d7b49d7c82475e7b7c7085b2f223247176999ae196c491"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/road/turn_l.nbt"
-hash = "8a6baa5dd11bb79d6bdc8a2a7b0c367f7d06bd16ecf52996c3f0797a94f89c08"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/road/turn_r.nbt"
-hash = "54b0c57affc19002a605c91761e3a05beb6227b7a6cc101c19e3001cc51b9a0e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/cross.nbt"
-hash = "ac4c971f9c2f06e3c7810b897c71a4e4451fd1ba1773fb46a3f537f59d00fe67"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/end.nbt"
-hash = "20c28899546b2183c5931deb56c1cf55f0bec8b47911c65ccbc8cb90121ddcc7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/junction.nbt"
-hash = "2e35ad60934d4c74ebc75bc1d1e4737a4df08a3ecedd76840d11f4cc81b8c7da"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/junction_l.nbt"
-hash = "3593ef271d538477a9a2999f0e590301a24f73959a60062cf0b05a8ae9aa2427"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/junction_r.nbt"
-hash = "bb1d75860965590ef61fa3fe6826f3683dbb93aa0163ce31adb7322d9fa123d7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/room_1.nbt"
-hash = "1ae0785b5dc1b85b256f8f8859959ebf7613933156a8f9e612b241ff0028859d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/room_2.nbt"
-hash = "d23cf75640dc69ab9ced1b20311843a3deaa7bae85214650a8dd71a0c3ee3137"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/room_3.nbt"
-hash = "aefe385acbd54fdc959eed825c9a939f12f19556d1cec18efa4c31970cde6162"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/room_4.nbt"
-hash = "d72c7bfb66bdafedef6bf6207e87e25ea13a6eb639522fe017b8607856b72424"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/room_5.nbt"
-hash = "1706c61ab47a694857eeced6b2e50d84efeaca1cb6a4a685211ed6afb81c7d3c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/room_6.nbt"
-hash = "59fc9f092d9945d603ce0648dc4cd9538a7e4be02bc80f935d114dc52c77942d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/stairs.nbt"
-hash = "443f3dd98d6181360ed7e0643513a3062c5f733187a01bb7733e8fd1dd610c54"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/straight.nbt"
-hash = "5be727e7c9117c7551442b3d5f7a093ad70333699e14bbc7a76b3b3f6c738d39"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/trap_1.nbt"
-hash = "9fd1291873c9c6d1bdcb5c22a8a7c85856b0fb18cf0c0588270fba4eaecf9bd4"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/trap_2.nbt"
-hash = "5615b9ed091e747c905eab5996a76e6f4d5e94e900f16331bf8158765985e20a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/foundry_bastion/tunnel/trap_3.nbt"
-hash = "2c9e66e910d0f520ce4ad8fa69f5de2bf8b069a11c9a82e820d60e124d61fc59"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/mer_lab/back.nbt"
-hash = "f8cde16af18efa60908f01d6dfdf823a3d62894bf98674aea2dbbcad5d481189"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/mer_lab/back_left.nbt"
-hash = "0cf30c1cd603fa64576ccda725083b4510633139ff346d2bcf40ee1cd2168389"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/mer_lab/back_right.nbt"
-hash = "3ed065a8e4f215c85509ad66c99bac2232a1e0c939e93461d41c569457856cd0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/mer_lab/center.nbt"
-hash = "8480474ab1185ef7c8259f50596d5935bdccc397c7827aea7098ab81fd933813"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/mer_lab/front.nbt"
-hash = "08da6601bc0738783aa5199e136b964fac048ca65f3c58f9369a74e85563efbd"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/mer_lab/front_left.nbt"
-hash = "cf7e45928e8bd768a87df2d45f19b36942f7f69f24f1bba7f2e68df622961b5d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/mer_lab/front_right.nbt"
-hash = "7da8a04b8662b7de0e9c4dad0fb53901d4ed4ad294dca061f0cfdcbe0f83d02e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_0.nbt"
-hash = "504508a4ace59f203c0e2e8cd8fa479c435b130b8483ecdde707f48915fb2f5c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_1.nbt"
-hash = "0ebeca97a8edb88bca11c83ddace975c0ee4d8da41da98006190c52b7125cc57"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_2.nbt"
-hash = "c853b17b01e83c9dad08d5619aee04d4aebdca43cadffebff19f5a39966f4b10"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_3.nbt"
-hash = "eeadaff9fa5f1d3ae78e0322ca4c638e0745072d8126169711cda0379fcec8f8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_4.nbt"
-hash = "60fa5a6041fd0cdf0467161aa8fe8d5abc295315742ab608603e779749e80d60"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_5.nbt"
-hash = "792857cbc488dc5136ef2781a26340213710dc2c5d1e25b78b218a95f2870872"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_6.nbt"
-hash = "c757e61528925d23b28d978f2f3380db898029cedb4d40e29caabafd9a06e0d6"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_7.nbt"
-hash = "e9b4fe75764e2dea07541417770f805b47353f861dcdf516b7c7a05ab6040656"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_8.nbt"
-hash = "0992e52720b815c90d19d80b4995ef10b4f5b03ee6155be519450cf52316c8ff"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_9.nbt"
-hash = "c7499d74177b590b74e3bdf7b12fe7d19b9a62355c3ba3118e772398b343ea77"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_0.nbt"
-hash = "b071ad56a34a1ee833fb3ad0fd3b00700c24e641e0aebbdcbd195e96ddde8e53"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_1.nbt"
-hash = "b07fdef09ca07dda800107c52a9c7154f72d219863291cbb21ac0858eaeb9189"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_2.nbt"
-hash = "4021d9c883bdba0fb8443e4689de441fa316b66c7cc67f20d93705bcc275b44e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_3.nbt"
-hash = "179707eb21cdbb566dad808e266faa505bebbf70fe78e9b00aeec3018baae7cf"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_4.nbt"
-hash = "72f436ea978df7c03a4ff90ede7419c85bf360ebfc6099852c1055e24acc8845"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_5.nbt"
-hash = "c1ab66d0944df9edc878a4d735149b1f8bd35a487c1c3d3f1b584081c880717d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_6.nbt"
-hash = "55e4ac5f88272894dd6446bc694c0a3c94b91ccced62e4c55076df24d35c1b63"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_7.nbt"
-hash = "bf71773e4d957b59274830f82af63277d2bfd3e50161b01770a2ba5494639eae"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_8.nbt"
-hash = "3bd03a991df735e167259dbce9ee129a5e37a175743d4df342429b7bbaacbf97"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_9.nbt"
-hash = "dee93b2d72cd7006572e550614b1649f00dfa70876dbe5394c6b13f755d94792"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/misc/door_air.nbt"
-hash = "db8f6caeb8c9a9ce4a1fb09ea01a0124047e8198c2ff7543b25f69af3d992559"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_00.nbt"
-hash = "f900b285274899993ff25e3ca1f68fa197599f36f0890b1463b3655487068867"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_01.nbt"
-hash = "7bc33dd8acbdc59f12b827f486a4e69a8e05a542c91762ad391fbd44c0e8c441"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_02.nbt"
-hash = "4dbf4a1792501ec8e50e8ba0e705d5eeb3f9445120f2289b51cb227e16fda6a7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_03.nbt"
-hash = "ec8d6228d241d9de18576fa19a0a4e6c7c85ca498a9a58baba0d9929278c569f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_04.nbt"
-hash = "785fd4c2698d21a8da67471dd506d09449e9d51edef44b37e2cc7c2b00ea63fc"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_05.nbt"
-hash = "1afeb981bbd1be868bf272468ab5acf41d338ec831668b905e47335a525ed84d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_06.nbt"
-hash = "8c058872b432d1b50e895c29361803ba78eaf68aad3368f6e8b699e8c9345518"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_07.nbt"
-hash = "b844f224a13f56ba88a259b238aa3824c3503579dd7223f37e357c6eaca5181b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_08.nbt"
-hash = "7915ff7bf0f57634bdd2bb326b7f896907aa0c7b5dae1bd808c352ffcaed8a03"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_09.nbt"
-hash = "23287f47c14c43f40f2efe469bda685484ec16d68e3d0441ce8eea4ea5f2f553"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_10.nbt"
-hash = "3ad7eed9344ffa67669d3bc6b448f5e09798fe7d70092905a02c2be5d1e5995a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_11.nbt"
-hash = "9c9be204fb6912fd3a4c3dcfb90866bcdb803a98627ec43b833b4dfa8698b66f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_12.nbt"
-hash = "2d5544276a9171fd1a043728edd6869e6c9be0066792936ff65b9766fc4b8cf4"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_13.nbt"
-hash = "85f9c50dbda0a29dfcd2e88adf27ea0479dd6c987747edb15593468e0f30841d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_14.nbt"
-hash = "3b581cc3e15f516109aa172b279432d8ff00fe992fbb158224084bf0f3295782"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_15.nbt"
-hash = "a2f1ee9c2f57f95c5d7683effb7f5431c482e867570c6af1f8ac6114b44d57a4"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_16.nbt"
-hash = "bab8ce85e3a9b399eedc497c2ef1716471a27165fe2288b9246c43f25de1cdb8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/shipping_variants/shipping_variant_00.nbt"
-hash = "1c51269452becb40ea0bce334f6e968439d0ab9038890edf593a227d2d3e8d55"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/shipping_variants/shipping_variant_01.nbt"
-hash = "7a7d16b99f1c84b99f7fd91c01c879f34e02ce0728a87cfa47eaafc21647f266"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/shipping_variants/shipping_variant_02.nbt"
-hash = "7d9b38f0a5312a5d35639d41a31eeda61a518d17f152e9aeada0929291d305a3"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/trucks/truck_00.nbt"
-hash = "c74cad3c768a9c345ce58a8f84d13750cd3cc9dac64c11ace49761d918327687"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/trucks/truck_01.nbt"
-hash = "1df4fa7f3c7314de4171d5a28e0f87ff4b272412a6b9ef66c2ae7240388ea113"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_01.nbt"
-hash = "0fa89ff7406fc454e0e43e357c2c8d4a0266188f41f3f5a86f16737a0c512fcf"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_02.nbt"
-hash = "bd16233dbe38e75d3b2295068b29cfc3f0bc056f0eedb6cce904c02e35fde875"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_03.nbt"
-hash = "7be207db4c4bfe422ccb01e6b10c35f467ebddb7103ba2b2fe38567f604d8ba9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_04.nbt"
-hash = "a18ad1819ad11dc56f5b2355bed8e623fcdd0313196a5428f5b9724dca3e283d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_05.nbt"
-hash = "1157f6fac674cb7bca052675d048996ed533aa18913f12b4664d46d647d71705"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_06.nbt"
-hash = "03003c77ddcbc021f8e2af195266c90165b742306bb8b6eb0e7e8d5ec9e0a684"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_07.nbt"
-hash = "c582b5db10843f28a2b17b83c21496c570eef4bcb10b6ad09d5f7da0c1273cac"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_08.nbt"
-hash = "09762d7c43c4b19d84676fbb38d81da4b7b7ab04b3a4b28a7e2903c481b33632"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/small/small_01.nbt"
-hash = "f6fcb2553fd5691252bc5a9a7d697cc8e06beee26e1a7ae8fb3bed48b5aa508e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/small/small_02.nbt"
-hash = "068ba0b71bc05b70dfa9790aec20a239ea0212e2c9a9c88ac3de81d1842e27b8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/small/small_03.nbt"
-hash = "bbe88c60938adf70936a6c5f149dc6715d1601720c78eddeba1723200ad1390f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/small/small_04.nbt"
-hash = "48143bdd4ad8a27e6ffe186bfb843153866c219346a0204314d56e0e9fe9bbfb"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/small/small_05.nbt"
-hash = "e5fcf01a9721036e51c1e6780765c5486b7f814734874556c9ad83cb615485ce"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/small/small_06.nbt"
-hash = "2bc65c59c403f60c33553ca8e7dadb518530c063b0aa2a083ceae96849fafdf5"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/dock/dock_building.nbt"
-hash = "a0d8693e1609d35f88996993379cb4650fb85e0fa3375e384fa45c9abcd98b2c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/building_faces/building_face_dock.nbt"
-hash = "5813f916f7f0e9c4ef8f8396a1bddbe613a3ac842088698ecf17eb12d15738bc"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/building_faces/building_face_entrance.nbt"
-hash = "25b0dc67551bc3051a278ec6f7650d26805fff197824399d0e2f781e92c98601"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/building_faces/building_face_tower.nbt"
-hash = "c918e84ea4580285675560c0adb77652eaf03ef77b876d978346b04880d8a679"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/building_faces/building_face_turbine.nbt"
-hash = "bb6ef2886fbddc74e9374ae57491fb5fca7d3ef88cf8ee928a290bbb0c06ddc0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/reactor_buildings/reactor_building_1.nbt"
-hash = "68c77b1d574ebf33eef002d79f0d08c7b77157933968d0f3db726f08c06ecf39"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/reactor_buildings/reactor_building_2.nbt"
-hash = "e6542070cd03697d6592eef41370c4f0130e36a446cb3a6c502708216a1757c4"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/reactor_buildings/reactor_building_3.nbt"
-hash = "02ae2332d7bba13ff3933f95840f30dc8fad9e21e1a8af1f30820b8f6eafafa8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/reactor_buildings/reactor_building_4.nbt"
-hash = "c1467e64d583ef6f9cc549c132f278f9d505a3e14658f3e6ed2e844c6f8dcc85"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/reactor_buildings/reactor_building_5.nbt"
-hash = "fe7c6bd383a794ef110fe8c436080116ae44f98fe2c17e8e7afea8cff0047fd9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/reactor_buildings/reactor_building_6.nbt"
-hash = "54db5fc78e21c74f5376b6f77af7e00cd0798e97a21c3a709a2fbe6fc6cc49b3"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/reactor_faces/reactor_face_dock.nbt"
-hash = "cbcc760be8248a316558fd4a3279fd0b49ed2b6517faf02a9927318158fc1720"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/reactor_faces/reactor_face_entrance.nbt"
-hash = "be2ba604d838dcf6871796003703f70115e2515a15aa2f7bfc1f3dcc5a1470fe"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/reactor_faces/reactor_face_tower.nbt"
-hash = "4b35c48a1b6a9f928d30780cafdead419a90ee919099fdf49689fe6b601cdfa7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/reactor_faces/reactor_face_turbine.nbt"
-hash = "bef932e73f680522ef4159dce23519ad530a9a2ac1c4d49a8dd019a683c37c21"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/tower/tower_building.nbt"
-hash = "ac23b964c5a798ebc007e2f9bfd5617c4e7df9418dc9bdd740d0f0dc3ae97e0b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/tower/tower_connectors/tower_connector_1.nbt"
-hash = "04282da373c56de7ffaebc11c0c6afee41887b95e8291dcb1c7fdafeaa8b37a9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/tower/tower_connectors/tower_connector_2.nbt"
-hash = "a59d0d892cc5d4ff953d26efc54fedf61178832cee7c49d14da7a4a7af2a4d22"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/tower/tower_connectors/tower_connector_3.nbt"
-hash = "dc203920747a935063c97beeda05ea1e6070c2f45d5f2d8f084b4a14f8e0ceb2"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/turbine/turbine_building.nbt"
-hash = "ca6a187a5e163102a77a36e75aae531bc4e69522bba6cd88a972f24571a54412"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/turbine/turbine_connector.nbt"
-hash = "814ff2ec0aa18fcf3ca4c48cab22646cdd7f2e319692b97f27d6ae62588b3a08"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/center.nbt"
-hash = "aa5f71ac6ae158931fdc40897ee18fe7bdaf058f3326b47c1aca78ea7cf273f6"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/e.nbt"
-hash = "7339171262362c1c20ff411d5c93fa6651dd23a76496c1c42a03484ea2409ea0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/ee.nbt"
-hash = "707979d9d5fa10b00a20d1df74576e24fb16d4a0a00dfcefbbd8d2dad85136c3"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/n.nbt"
-hash = "e8ce7ce13addddcc6916b052ea2937b536a86615cb9b43a22b01fc2619a02e7c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/ne.nbt"
-hash = "1371282867d9b7fa944b89048b46f404064d3eeb5809615e645f1b5646f7b159"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/nee.nbt"
-hash = "107771f22b7eea23194a69415a54d23d555274f009a26015fa1d14a090f82989"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/nw.nbt"
-hash = "5d4e9eb50c0b6b9e4bad44cba05674ba48b330b263fbfc77c6a82a49f02cbb34"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/refinery.nbt"
-hash = "34304e5fc24fd6942f9ea911d312a465187f540e98324f652ba4f21f7d6bc57a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/rig.nbt"
-hash = "627d03c9b2c0562c4fc36242e1ca7a34b1ece5265f1d00b278bc513b4df75704"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/s.nbt"
-hash = "218e144b99137f84bcd011e369a98f5c1e7bb0e7a92c1b96badcdd91750966e5"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/se.nbt"
-hash = "a4e18f9f4b373b121bdba75db2ada498a672230bf61072423ab3378dbef72a90"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/see.nbt"
-hash = "23f3d86cedea228ae39331cc821af77fa20a46adef25e22d0712496112e109f4"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/sw.nbt"
-hash = "1579888011356f8a01c9d585357cbbabf5a89d49e07b661e82a1620605fe729c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/tanks/1.nbt"
-hash = "b3734060fa480ad8027b1a03928f7c609ec081ae824d6e9cc1836041b0e3de32"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/tanks/2.nbt"
-hash = "fcda5a001f65e0dffcb09d90d266f755995a9d7bbb790bba8f08050f6254c2ae"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/tanks/3.nbt"
-hash = "137f0428b16674257236750c483d18fb384ff686ef2e357ce73cc143e74a8e97"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/tanks/4.nbt"
-hash = "7c96abba5e6c04fceecc56bec02cb6ede0facbb2ef8eeb39919dd69cb9620ed7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/tanks/5.nbt"
-hash = "6f07a240a0c0d7a465b707d10fb39ed0e2c05e7ecc859a2c6516be1b1c6b8316"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/tanks/6.nbt"
-hash = "ad8d6a931410d6eed277b1ef1b00a6ce444ea227a10fe8baa130976485b4b1ea"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/tanks/7.nbt"
-hash = "bd6ae7c5aed00caef1907cb9a90f32b71c90a382f6bf850db724fcbc4a31eba2"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/oil_rig/w.nbt"
-hash = "b6089318497978543d38b36c2515f6bab65503a59206c992d2ac9d071dc1e14f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ruins/andesite/corner_1.nbt"
-hash = "c762e5938fad7414bbdb02c00df65811a2d38ff7bffb2ef45d4d10c4d3b928b2"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ruins/andesite/corner_2.nbt"
-hash = "4c93c1c409e794c9b28b1cf508823d63acaa4b647114d573a3b5a9d24ae7a94f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ruins/andesite/corner_3.nbt"
-hash = "7630c8abe530034af44a13a8759c9ab0b01bdd419dea404715b75ffcc1898f0e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ruins/andesite/corner_4.nbt"
-hash = "0387c7ca332c850ae06ad35716c3b0dd2e8927f2db8f20fa304be8b492153d36"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ruins/andesite/corner_5.nbt"
-hash = "97562e93d8b8b055ac524eca37e56e559a33714dc3029598099e8d3993d17d5b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ruins/andesite/corner_6.nbt"
-hash = "5182fbb77956828cc67c9be8abac98c8389bd8e9badb85d673de36a4911681bf"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ruins/andesite/corner_7.nbt"
-hash = "b9cd55e9d226b557c2e785f5b22f61056b3947f9b3aec98ff6700b98adcd046a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ruins/andesite/corner_8.nbt"
-hash = "adcf9aedebd08ac4afdccd7001a9f6ea5e2ec579fcb19bcdccc7f625df2aab8e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ruins/andesite_small.nbt"
-hash = "4b850bbfc341a8bc5c9a3e59e240c0c66b97c362eeebbcf1be9d381b43622b3f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ruins/empty.nbt"
-hash = "1d25acc9e5fe6a0500ebd6375fa66c7457f02f2a2e7ede1d0631358d269b75f0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ship_crash/ship.nbt"
-hash = "bc0a2d714fc389678a7237aba8b71bac1d188813a472bd99362ccde4f60e0a1b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ship_crash/ship2.nbt"
-hash = "d7f62b5b0458122318fa900b5059faf12eae06436589753841f2649a7cf9a96a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ship_crash/ship3.nbt"
-hash = "5c5c8d1dbf86480ceed8718af536cb4bf87f72a82fe67f67be3270dda655d20b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ship_crash/ship4.nbt"
-hash = "2aa2bf229a4da7336ff33080fd3e38526bad6c201fca11c6a8a594f1ec359d50"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/ship_crash/ship5.nbt"
-hash = "3c06caf50d71da6c1fca3ebe263a85ee680be12399234e68b4b9a005125ffd77"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/spread/farm_1.nbt"
-hash = "1116067955fd49783fdcc06276cceb149b30285413ad471efc47a6a82f761cf1"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/structures/spread/tinkers_factory.nbt"
-hash = "253a05609866aa77c2b283bdec36fb2d7a538010a8f425ce0836bfd4a6c9abe0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/tags/worldgen/biome/farm.json"
-hash = "0346c90440d810652330d9d8f2f1b05aaa2b4d8176dec271fd1f87cd3f80993e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/tags/worldgen/biome/has_city.json"
-hash = "0346c90440d810652330d9d8f2f1b05aaa2b4d8176dec271fd1f87cd3f80993e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/tags/worldgen/biome/nuclear.json"
-hash = "0346c90440d810652330d9d8f2f1b05aaa2b4d8176dec271fd1f87cd3f80993e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/tags/worldgen/biome/ship.json"
-hash = "60426cff5202144e050730836dddb5a96e6ada8a5590306af371c0a0aa37a346"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/tags/worldgen/structure/cities.json"
-hash = "5200048d4cda659abb0a1704e986c3a8dac5a4b9cf26d17cb9e8231b76ce0456"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/tags/worldgen/structure/foundry_bastion.json"
-hash = "8605402f793eb40493fb9efd9fb0889fbd5fa1dba7d866aa9657afa53ad289b5"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/tags/worldgen/structure/mer_lab.json"
-hash = "9223ecdf8d9a5532848cddec70dd843b9a34bf9077d1cc6dbd9b1064f556ee42"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/tags/worldgen/structure/nuclear_plant.json"
-hash = "cf4872f016c54dd36a858b10ce867c3474d6a4fb7945f49c568a9dc1c3f0c059"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/tags/worldgen/structure/oil_rig.json"
-hash = "1dead1b579e27d4ec150a4ccc1548701c593b34122a3dde2ec77de9fa5165ef0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/biome/desert.json"
-hash = "63908d97167296e899c98bcd752983b0ce1b112eae63ab2d9bf9bcd118fba900"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/biome/dustplanet.json"
-hash = "98b53d0812c12886a6e31df7fca2f00197313c76887cbf80a8a8040a1e46e18b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/processor_list/building_deteriorate.json"
-hash = "0a3a61930ce497e51977683406cba50deab6e4098533b264eca3b472e99d61e0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/processor_list/city_spawner.json"
-hash = "0230c19cf06cf9987f6dd7db537f368dfe2b57fb5877865eb32d7c28adab3e12"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/processor_list/foundry_bastion/building.json"
-hash = "fb60ed60ce0f4ad217f6a9c6b521fbddff93259d59a7ebd0feec72c47c80f848"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/processor_list/foundry_bastion/channel.json"
-hash = "400d0e3ce28d812a293aa98838e7dbb1e0884f63ce8358578cc7285099e582c9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/processor_list/foundry_bastion/road_dusting.json"
-hash = "a65e8b84df841523a22891fffe5905d2f72dcb7f1cfa64f1e7b62bb3ca072449"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/processor_list/foundry_bastion/spawner.json"
-hash = "18f25ffefc20a680f4baf750b009371743112a99fd6c7211852e04c4995e2046"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/processor_list/foundry_bastion/tunnels.json"
-hash = "32631c6837cb7d6b22dd7972fe4a8735456d8ba06f9b73523c807b5e68c3ca50"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/processor_list/oil_rig_spawner.json"
-hash = "7eb764ac5a2d57e9738b53b813b674c57a23165e744629088a4ad76df646ac92"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/processor_list/road_dusting.json"
-hash = "4412df1afc9cd8c0e8c1d865cf6d8c31a845e9989b10ab4c2d0fa8bcecd181ca"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/processor_list/ruins.json"
-hash = "4f7118541be903f2b0b10878eba95d19742e3030d97aa339552ad9c733750982"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/processor_list/smeltery_building.json"
-hash = "b0fc321ddf6b3639f1f4cd05b4a9c27c6194a895b370583aa8d611eac1dd5756"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/city.json"
-hash = "3d3c06f2fc35d39cbf6f61c8e3286b9419f25660605afb06e713e34486202f81"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/farm.json"
-hash = "f67cf0593cc9efdd23df14d65f7e9e1ba2edb958386745a4ebdddd3f0be9ae69"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/foundry_bastion.json"
-hash = "741d6da846ef2c29e2377de8bd4df5849b5f94f25e0f1e892aee118c8ac89217"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/mer_lab.json"
-hash = "21dec6a2c89b291af898f78eab1dc7f1dcf0f57506a1663eeb4aa50d396836b7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/nuclear.json"
-hash = "e652e8c399db2d9420a24eff2b10b6cc366aad60dd9629bc85d228faa6dca60f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/nuclear_plant.json"
-hash = "2659baa526e07f9a0183e79d462926886f851a5fc78db7b9b31435aeefd8c820"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/oil_rig.json"
-hash = "a1d92ad8942557c2e1a5d88a7fb2f10b417a03ef319a5a25f961af40742b711a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/ruins.json"
-hash = "0a343b4d1337c066f621dc0968734b47ee9e6c139bd84fac3253a117e8fdc83a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure/ship.json"
-hash = "af38ff54b09bc0330fa662b3cc7be4d9c5493fff424234002c5fd62665712d9a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/large_structures.json"
-hash = "5cf235d4dd643b147c7edcc2be619df1b0b684f94f5c044288f5c847192f9d10"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/ruins.json"
-hash = "3b7d0b8d1c7c4567218447be2405a191492c77e42beda851bd3b7bbb291cf750"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/ship.json"
-hash = "6efe74bcc0841e9e479e7b5ca19a471b03a8cd19e8ac007cd4d4c4f1e9ed3e28"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/structure_set/small_structures.json"
-hash = "d997434ed794b11f9924c380d7f45f024292fd7dbe96f8984a9847008a57ec3e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/city/building.json"
-hash = "554a95c6aaf8a842b2bd9f5f144b5d6e86538c2893d84486bd7a0d5ce8e267e0"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/city/city_center.json"
-hash = "d11959460d690997ca4dc4813da502f1a1e83d065f96fec38430876404869cdf"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/city/road.json"
-hash = "dd56937b381e884d98a991c74e53ca280afe0c372e009fa1f5b61f1b25a46af8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/city/road_end.json"
-hash = "3c127efb92dd9af6b612418958a8e4f133d07067cd8ab2d030d57a92bc63efdb"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/deco/bedroom_3x3.json"
-hash = "cfea5d6bb4a94976e6c4b571a387b60fd651a74760d006dc3e38493c7786ccd8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/deco/bedroom_5x5.json"
-hash = "45edb8d98d65458b9e1efe060573a40acdae261d1a10c05833ebae44b42fcc97"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/deco/crate_3x3.json"
-hash = "6f336035fb2a884bf7dbf9301ab9c998b280de42424afa181fa3d22245d6d829"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/deco/crate_5x5.json"
-hash = "858096d108cf47dbb4546d503b109dbd388bb9a693f7e3b2b0d4a1fedff1d490"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/deco/cupboard_3x2.json"
-hash = "d04d09023c68910fd41ea6e1f560e94cf44d34efe96e2e6c70ec665a5b17877f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/deco/foundry_3x3.json"
-hash = "854d030ec4080512046c6157cb0bff6841b5464f57a819eef7045489606b8f4f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/deco/office_5x5.json"
-hash = "a69bb66ad0d3b116bffc6127aa5f6ae5790f64d930064eaa4876b9bff6a26c43"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/deco/smeltery_3x3.json"
-hash = "b3025ba3ffb60b138c638551cc02466ce2ec78bf0961ab088fed396e5e885fb6"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/deco/street_light.json"
-hash = "13a31941f75914392e04a1f0b8b0f1043c49ad729f25e1b957579748bc10a715"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/farm.json"
-hash = "4784d29db60b6579f39137eb2110ffe91de293d9a3d381474913947498a5d47e"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/foundry_bastion/bastion.json"
-hash = "05dc4f714804ae3315e231fcb9085adfed171527440c1075e79ef7129b70dce5"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/foundry_bastion/bastion_underground.json"
-hash = "27ab5ce4e4c312aad0c5ef7696c80c4318d64df6f2dfd85516601bc6b12ad149"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/foundry_bastion/building.json"
-hash = "6f9577234fe3bfd6800f7ec6026db6c22df385fad5cd0e34c0052be6ab73d5ac"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/foundry_bastion/chains.json"
-hash = "c28070f5f214aac108536b15586dea093950b603d29255af76766627fd10cfc8"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/foundry_bastion/channel.json"
-hash = "54e378f9bf2a01823e6358c558f40b2deb9b16baca54fbc7e36e6267a93bee7c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/foundry_bastion/hallway.json"
-hash = "a9382c48a12d1110cebf41711d639461f6ef2be3f48af83d88f1ffa9b1c27fe5"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/foundry_bastion/road.json"
-hash = "b9fb315efa07b4d47d84cacdbdacb2fe83860cdd3cd56a3e5df94e6593f31878"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/foundry_bastion/tunnel.json"
-hash = "0d1b00e057e484498e38cc38d8af4941a6df14472ef351db9203fbfa5f95b35f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/mer_lab/building.json"
-hash = "f57af9c01c4cd13279e4fccc4fa0320da1ff5f03a1b1283b9f992bab69729dc9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/mer_lab/center.json"
-hash = "10289b605c589e9cba40345826e6b1fa74f0c548f29422d81a32e079657e3766"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear.json"
-hash = "3664ebe70c1f86537e6646cc06bcdcadd95da77d5a28642f1f5ff7c5cfef561b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/closets/3x5/any.json"
-hash = "35615c4f5b996344477777c4901bebfa594728ab5ec78be25d81b8ad446527ef"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/closets/3x5/boxes.json"
-hash = "228441e3f779cd8db8dfaa8c6f8d81e8e06c6eb8b621e904c9bf22480b249a54"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/closets/3x5/parts.json"
-hash = "0b610b76a9091d3990fea6bdeca2c396febd95d4b5bb81b63a21afc4765cd761"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/closets/7x6/shelves.json"
-hash = "a4f03a60b7c2626eb9c6a7bfce3430ffb65e11c5a0c844489112e05a3d425056"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/corners/7x7/left.json"
-hash = "bc1062f9cd68ba9a572c618becb0a2ed0b96b97f7bce8113796eebd90b94b238"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/corners/7x7/left_25.json"
-hash = "fdd7c95674868f42776b40ed936db64829241da58f53649c59ab71f7585f7f58"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/corners/7x7/left_50.json"
-hash = "abc4bdf24e980788236ed5d6e1e3c7abfcd0ac8e2116fd18c8221d3beb5943dd"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/corners/7x7/right.json"
-hash = "7e2f6dec697eff45ad57dd17ec166575e6f71cae7d10e2bd06510067e7371481"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/corners/7x7/right_25.json"
-hash = "ba900686dfc1dfded4e75be2e6d884cb9be9b6822df0366d8541e58b041cffb3"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/corners/7x7/right_50.json"
-hash = "31e323526fd3ff87c64890fab9487f1fe3e065943bcdeff43e4d65eb430b8d6a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/misc/door_air.json"
-hash = "0d73e6973b558029c0605f3daae591cc2ac9da43177b06019ebd83ec46f72de5"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/shipping/cargo.json"
-hash = "60076372ef26b0589bc67492f658dd475e4bf5424ec8075775833b0b85b229e4"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/shipping/shipping_variant.json"
-hash = "7e8ebcf0471a7ce359186b3e4df30b9b86041fc1097bdb70cae6cf25edfa5e61"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/shipping/shipping_variant_25.json"
-hash = "247c682d24e4ed540d3c20252e90cc776dbd4ecd1e683e4e35ebfe996d944ead"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/shipping/shipping_variant_50.json"
-hash = "1c78641de7a6c9e2b249db268893b0a8bd6973904a181cf19af288f0045d99f2"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/shipping/truck.json"
-hash = "3f695c513bac74b659c506403feec884847b79b1f9afbffba30a54adc2879feb"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/strips/any.json"
-hash = "d74b271c50654e5966167450da02eca082b07694ef92a689b8d83d90ba6ed16c"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/strips/any_25.json"
-hash = "0ed1b0d19fdc947238fb5bb72615a45f734e0d7615eb899b7a22a66645acb84b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/strips/any_50.json"
-hash = "3ae51cd64ec1385db434834bd5cd550c3563c96239296d0d089558f5db6ec536"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/strips/medium.json"
-hash = "50d8e58c6c6f9c6cd857d896448763f6ef5d25c11d27188a3ff09875b77c9dca"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/strips/medium_25.json"
-hash = "afc2cf4debf210daa580ff86c42dcdc92d8cc839fa2a59989aeb7c3420520f5f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/strips/medium_50.json"
-hash = "f2cfeb3bf17e630edc1c493918d28e67433994b3ef20d7f38d4bf598c68b1cd9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/strips/small.json"
-hash = "a789c4367a3b96412b0015537d492ec1a63815b268293c48363ae589fe866bfd"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/strips/small_25.json"
-hash = "a026a214a03ee42d6833ce89791533467b0c588b468c6afb8d245b8e03a59d57"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/strips/small_50.json"
-hash = "1ed02236b137cdfa19b75d29f9d75e63613efadd147750868bd77625e7ac19f4"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/dock/dock_building.json"
-hash = "365ffb91c8c2406f65a3f50df6d83bc828ae4a734b0aa74bc0aafcf376a57bf6"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/reactor/building_face_dock.json"
-hash = "8818b5366b54de970c7c5d2e36475b7926758eed7618450099f21020a37f0fc9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/reactor/building_face_entrance.json"
-hash = "5c0bfa484ef3b4876f8a1488f006367bedc97220f6a284d4b34019a00f9667fb"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/reactor/building_face_tower.json"
-hash = "dc79954fc36833bda1ebe5481f9731e1dfc83312c65186e276b85201cb752d7f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/reactor/building_face_turbine.json"
-hash = "79883ba46b09498d87dcb6c876970c447d2775f7afeeb1e6b683a68a5f559e60"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/reactor/reactor_building.json"
-hash = "2a9835de587cc9e226ae4b90423ccfa1f3a0012e5815d4713c85aa7d458d3fe9"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/reactor/reactor_face_dock.json"
-hash = "40a8ec17e90bb643bffcd64b54134dba030f8f147d83cb0e875bf64aa79227c1"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/reactor/reactor_face_entrance.json"
-hash = "e9b05cf161d9b4ee0ce6414692f9c25d242020b484a5ccfc6b3fba1c2cdeb33a"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/reactor/reactor_face_tower.json"
-hash = "e98c7d2d594399cf49ced5aafaaef20a365eb02032bd30724788620dc6220d12"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/reactor/reactor_face_turbine.json"
-hash = "7048f6ab8706a0044fe99cd9420442a99db33d4eaf3168a4265c8ae21578af11"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/tower/tower_building.json"
-hash = "95ef483b141e28f19d3a8a1a1da0e238c65627974538cc6f91b681546b6e869d"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/tower/tower_connector.json"
-hash = "4c52477b432158806e6e44912ec327e6052f804ab30dfb563fa396d54dd241ec"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/turbine/turbine_building.json"
-hash = "99f3a97a490e0f69b6a3e26a65e489f4e9e907b1cacc9533c50d330ae22bc04b"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/turbine/turbine_connector.json"
-hash = "f674e236c4077439bca05272cbce120c5ded3f0156f8adf1ce48761f94e2ae23"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/oil_rig/building.json"
-hash = "de8b66bf81ccc599628680f4b1d98e65e99d46603372ae8f32760becfc088f58"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/oil_rig/center.json"
-hash = "f99818d033c4d4ca499532dfc79a82e62d751e774bd50c0a901d28b414cac5bc"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/oil_rig/tanks.json"
-hash = "e4f7789d6438c1d7b87b1a19f673c3f12c3588d16aba8437010b9237a91f75e7"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/ruins/andesite.json"
-hash = "9d2ccae276fbbc08eb5bd84df2936255c5ddaea8771f10802b9b40ccb1cd60ec"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/ruins/ruins.json"
-hash = "d6d9eb0c75f5cf759ac11e1e15cf4727b0ea4883230fea10e1ae67769198ad56"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/ship.json"
-hash = "c396f844522ff00da3512b702d1156cee7c59332ffb23c7ada3bb2fc72cf01fc"
+hash = "cc773a0d79a57eeda4d533bc02d022dc00b73908046816166daa9d64d2690cb9"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/createaddition/recipes/rolling/straw_plastic.json"
 hash = "36a7db6ed6abec1835729104394b471f87c5bbfe157303a3a1f9a82f5398daf0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/MER_lab/common.json"
+hash = "55333b01bcd844322f1ee45660dbf1a618475a768f97c75398057ea7949a748f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/MER_lab/press.json"
+hash = "776d0f31df1a2fb830a0f201c39929e812b973bba790afb1540e638bf9865c89"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/MER_lab/rare.json"
+hash = "d3856e6212431ae34065eb79dc0136abbeb5bf5a94a2eb654880bf78a415a431"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/city/bedroom.json"
+hash = "5e6d175d3b26e18447869a0455a232be603cd38d6ef6ba81c8e42bb8e7c5fc79"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/city/crate.json"
+hash = "da1ef3a889a0936db9d7064f1ad06dfc13a8761744bab05cd1c7718ca690deb5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/city/kitchen.json"
+hash = "a2ad160a8bcf30bda32c196f980fdba4d737b4cb221690accef37ae5b1a52c23"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/city/kitchen/food.json"
+hash = "e9c6e3aad45967e2297d45d7480ed5dd26359770ca7022aa4f5ad3b0353c37c8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/city/kitchen/rare.json"
+hash = "bf24a94fef8723d82fa2f44525c9dfcf1fc3f65bfcd5a8fd0dcd696b6b5127e5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/city/kitchen/seeds.json"
+hash = "70443cd7393039b8a2967082fd6b499fcce923513a43db4f3987dca6ac96f030"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/city/map.json"
+hash = "e8d48fcd1fd585660d50bf91739c19878676d72cd839214fdd0503ac65519303"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/city/office.json"
+hash = "2925d4772e39a55580147107d5503045719d8609e6eb76f3a56c97d5c97649d7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/city/rare.json"
+hash = "4c3694c4bffd73e07b739a916370d7f72bd22056cb46a63e9adbdfad5f37b0f7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/farmhouse/common.json"
+hash = "db7646c29884f6636a3da4a886ae0543268e747c71e82f8783d7420995002a00"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/farmhouse/tools.json"
+hash = "3bb6ad1da0e4c8f6634aa3df3b24adfc1e8ef52ce749637823842d7840e806f5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/foundry/common.json"
+hash = "4cd4df3f6920e81b28998191829b85ad0afce7a6b2964916eb5db3d901fc1499"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/foundry/treasure.json"
+hash = "fd9effe5b649bf91fca1c2d61d1afbce4a2bfc355831997d5f503b2eaeb20b32"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/misc/gun/advanced_bullet.json"
+hash = "67d738c0d3b2ac53992e31e73c42b053a2bd75fab83ff5c5de266a39b6b7da60"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/misc/gun/assault_rifle.json"
+hash = "115f330c14988555388e06f9214635e683e6a98538c054a85fad95816ecc78f4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/misc/gun/basic_bullet.json"
+hash = "9264a4dc980989f1640af3d5beef8575d56c1ccef73ab8083dc2458852d0d8bd"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/misc/gun/heavy_rifle.json"
+hash = "3d2662ac5cc6b4610dae8a1b1f9b4d1905ea1034977994701ae899ad870c9728"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/misc/gun/machine_pistol.json"
+hash = "bb203ea5a77f7b2d414e3bbec8e693e94fc800feb646021563ceb7a7075e04aa"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/misc/gun/pistol.json"
+hash = "b3e001dc8240d4d52980cbd90ad0af1ae1247865da893958474a82c47e458870"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/misc/gun/rifle.json"
+hash = "d3c14dd1dda41f2e5202037c6cfc071394c975229b2c0ecf9133b13e512a1b5b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/misc/gun/shotgun.json"
+hash = "f8cba9074e39bf0615a6c7497462b04fb30a2552e4eadd25ab84279039cfe0e9"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/misc/industrial_iron_decor.json"
+hash = "3f1eda81dbb961ea72d6152e533b3afa8e8e9a01213d2dd0c3820808f7e07b45"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/misc/technical.json"
+hash = "b28d3d806817dd2514a39d89ca6aea6ba6b91615b6f43c8ac93f09bd6adcefeb"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/nuclear_plant/common.json"
+hash = "8ed7108cac3d0549b50db63d8ad4dc050b9faa8a411ef5480e24bf44ec2ca9aa"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/nuclear_plant/parts/reactor.json"
+hash = "fb5e9836da2fe4a318719305ab699cdcb5066b1060a1833b8e9f85da27c30e50"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/nuclear_plant/parts/turbine.json"
+hash = "2f2bb515694660833c69f96172c5504bc2040c3fe5b3d581eb59d2e9f5bc1067"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/oil_rig/advanced_gun_locker.json"
+hash = "03fe3987b2434c7bc96f174e7d2da42e4a43bc7450929846fd57360f9a58a130"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/oil_rig/basic_gun_locker.json"
+hash = "a41945a56bdbc43d3d736ec6ae770e5c6afc3d688b5792e38e449ec180b5a277"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/smeltery/common.json"
+hash = "bc9b2b52fc36389a5d5aea8520ad82da2918031576431d9de7e04cde85df6fda"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/ae2/mysterious_cube/crushing_mysterious_cube.json"
@@ -3739,6 +2175,10 @@ hash = "c6dfa5156af8e7e1995684820e68da1739c5f823fae6f47a9f31884e7605c108"
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/create/limestone_from_calcite.json"
 hash = "698aa42e3af36102428e51b180db50c0a3e926f3dc391d4edba84bd9bb58598c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/exdeorum/barrel_compost/rotten_tomato.json"
+hash = "e813a3c326f6457b7336a03ae9ec92ca8fe8d8f4b1b2e5437456a1fabcf7fa79"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/exdeorum/crucible_heat_source/blaze_burner.json"
@@ -3921,8 +2361,1624 @@ file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/tconstruc
 hash = "a91dc3f012b4679402603b0d800172481f3557cd922f15aaca349d598d754923"
 
 [[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/tconstruct/elytra_renewable.json"
+hash = "6ad807dc560c20b9f0f32dd55e0cd857d8f693480402d6c618ca97ebbd807db0"
+
+[[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/tconstruct/shulker_shell_renewable.json"
 hash = "f8449b2ded98fa2e7320ca872ac6432becf1461e19ef77fc1e5276dadc8a8ed2"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/apartment_big_1.nbt"
+hash = "891c43c7b6236613ba06ec8b5c8daab4c138eb21689c2143fa011df90af8fb2a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/apartment_small.nbt"
+hash = "16201dc34a0017319a511749143aeeddd1b7467d8e60f742d9f729838bffa823"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/apartment_small_1.nbt"
+hash = "61803fc5c7c98d0a5001b578037dbb4c64cf48d9ecd49a049dbf8b2a446beab8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/billboard.nbt"
+hash = "7c46d0af6901336572288ed6db49b2616b38255ebeff6907f06d34072e25fbf2"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/broken_apartment_small.nbt"
+hash = "2636f21254fe237d2180468fc1ed3186dfda550ba24e587b46e7383d2d6e5853"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/broken_office_small.nbt"
+hash = "78e0b74602dbfeeb2ca5aa302e799e13807f901acc795022e90d76e3953e28af"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/broken_office_small_1.nbt"
+hash = "301d28ae95cfcd9b4a5d9c991c7b11b2c6f53c49d4674c3d9563ca30766504d5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/bus_stop.nbt"
+hash = "7bdb3774e96e0aba028c84f594048b9d3cf1fe76f9dd16f793f827eaca3bcafe"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/office_small.nbt"
+hash = "08c4fc29f062faf2692070b6d878ccd7a1c04552b4b261946e9d415b163b903b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/office_small_1.nbt"
+hash = "7be01a54dd24b59943157017848fa78abd1adf91f2bf47b6444f034bbad16f84"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/office_small_2.nbt"
+hash = "c7fd9a23da233f4c179415256fe02b0e4aa04e8faa8b9aeb95a63e9b91328a8e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/restaurant.nbt"
+hash = "7e438b22fecf152f44d75f9420b229e6ebe915ee2ef59ef5bb82933db13893e1"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/smeltery.nbt"
+hash = "eb0e681526fa5e250f65356e52c440dedd3c811bef68fb37f6bde850f7313ed0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/smeltery_small.nbt"
+hash = "fe94351d31dc7a15bcd0dbeba2416e59a0885d3c4a500254c3ef78b95d347245"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/cross.nbt"
+hash = "524c3f5b894872b607f5609d1d28665a52eed95c98d3ced09285cb35bf4abf9b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/cross_big.nbt"
+hash = "c33c50efd4d347a8fee12f3de85686f086ac748c4eeb5ce62782c9ad315ff10d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/end_a.nbt"
+hash = "163674b1f39f9ebf76a7c30911fb6b977042282a6ab576c6ad98dc2ddaeec4d7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/end_b.nbt"
+hash = "baabfc4ae343c56d9eb1d1aca121ef088ae9642e8a9a4b015e9a3805c740e22e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/junction.nbt"
+hash = "3ac7104593852b0a2c49a8248750f22aa342fe045e1198c684d9302857247538"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/junction_left.nbt"
+hash = "4150b9f2b633ad9a10f298542fa552ddebdeb02a2b41a3fb8394a475f01e2965"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/junction_right.nbt"
+hash = "6918626137ba8012900e966f02e140563ddeeab41a8e2212a512fa4670ca7d77"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/long_dusty.nbt"
+hash = "f29174370ee066e5efd3d57b321b633e5b974fe80d6762c37bf0f92f8d6ebda3"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/monument_round.nbt"
+hash = "93832f094b5371be81fb212963a42665b3d9efd92144446005d5b6e2e33ab139"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/small_dusty.nbt"
+hash = "e62dd5d7e23e9468b35f387d1e92d6960f56c5c7d1b8579975e9a9cd5433e977"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/straight_long.nbt"
+hash = "cb9376d8af3762c9e841f0574f07a6da6d873dbfc00e523b620fab0ba5e4c4ac"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/straight_small.nbt"
+hash = "c7df9dcc6d797934f2f36a6674c7f4749a3ec38c2badd668aaf1e7255e28d2c1"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/straight_xl.nbt"
+hash = "0964b2c1b93efd1692a22bffeebc9e4305dae1041c9b70c66e2e8724eaa8c020"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/turn_left.nbt"
+hash = "5ebad60fd86f4a91304892cd537045baa8ef95aea6c39faa20d71eb645b673c7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/turn_right.nbt"
+hash = "0ee7b5ddd230c773b2178ed82562b453ae85ec0820da2704be403149ef332c5c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_3x3/1.nbt"
+hash = "e5a4e0b2c3e13f96637bd54df301a091bed84db05912b7bb926ea7abe9571896"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_3x3/10.nbt"
+hash = "de01888cdb324d988dd40da9689b6e0b85b05c0878a73102c3c8b8f067a23c04"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_3x3/2.nbt"
+hash = "df6d549a8e1f11637f9a083452d2dfc0506d745e4d66de68bee0fa46c83a2b92"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_3x3/3.nbt"
+hash = "71d9effe7e719b3b258053c0112cb39ac30b5846f2cb0490b22e288636b5a2a6"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_3x3/4.nbt"
+hash = "7bcb3c261b227b786313e37becc05328956d6812510827e5f9c252f7dad90af4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_3x3/5.nbt"
+hash = "af6b828d406b3c4c63eeac4675862dd63326927f1ffae7bf6c5cafb591bda019"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_3x3/6.nbt"
+hash = "0da7a76dd0fa6fffe8f469ced4765abed133bbce5b95fdfb61ecf6cf770ab2da"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_3x3/7.nbt"
+hash = "03642bca22a6c0de074878289d68b40279f77f9be81ab3aee1508ca606b78680"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_3x3/8.nbt"
+hash = "124ad43f343986675f91ede506bd42bc8360f400ffecd064b2b05eec84bfcf72"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_3x3/9.nbt"
+hash = "42a952738ff83cefbeb286afb1e9e9e790e2faf6da6125ccd80177fa67c87443"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_5x5/1.nbt"
+hash = "c679f7a88d059bc72395badab56edcea1d9c19f196180a8cd12fec9b21cafcc8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_5x5/2.nbt"
+hash = "d4ae7b490e0440ea6247fa8aee40e246cbf591b4db21fc2816d7bc9e4537c4f2"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_5x5/3.nbt"
+hash = "81b4018733b2e921646a64dbe3265c9e222f3cdfda360d328bd0d7175f31f170"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_5x5/4.nbt"
+hash = "bf1fdc1f9654d0e22d8e7261bbfb9551538f4e2e8ed0897fa7781d38fa89f83b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_5x5/5.nbt"
+hash = "1a3ae977f621a77a84819b6be86a1d2c1fbeba7c6d997ac4dcb71248f79d67df"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_5x5/6.nbt"
+hash = "7fdeea52fb1c0d240d324a12469c2ef6d126ca84b23301382908ca8ac51a647a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/bedroom_5x5/7.nbt"
+hash = "7a58e411ecd08889fd07ee9277d3afe88c395b5cfd5a3754949bd6d6eae5398e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/chest_3x3.nbt"
+hash = "5d8236908de350da936046704bf441d2a1e8ea9df917b4603df2408e9035bb21"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_3x3/1.nbt"
+hash = "c4363c822ae88546fd6dd4e4cc72668d36ef09e93c47cf5d589cfe151b9a0ae6"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_3x3/10.nbt"
+hash = "6fef16f142fe3f99b8179ea411f51d0937d925acc446fc105c81f5cede4ffab7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_3x3/11.nbt"
+hash = "42215941572874a0385417029b055e87fd9a9db1321dfe805c95df00cefb617b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_3x3/2.nbt"
+hash = "64f24feabf3b1c9f7d6f022e084f5311af7bfc688c2534cc1f53f1011b043b57"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_3x3/3.nbt"
+hash = "d5e76e88fd76f76fab301b7c12dd0cd9a6c9d2c8857c12e3780b85123c1ac9b2"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_3x3/4.nbt"
+hash = "c1e75f5dc4c8a2f99a0c8272ebf50461803a3ac575950fe4ceeb77b95ba29fec"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_3x3/5.nbt"
+hash = "9330dd5b1cf8fc4779cf50e4b010bcff2b443ec6d94b4af52d65497531cf875c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_3x3/6.nbt"
+hash = "d16864b57fd83ca7bebefff4abfc39c7af772125903d29007f92fab91ddf7b06"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_3x3/7.nbt"
+hash = "530eb24bfbe5d52168410ca2db1cb33a5390d10604b7d7e3529ff04dbc4db67d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_3x3/8.nbt"
+hash = "43e640818996d01adf998cc7d8c10c4ff6137a21fbedd7668c07ece6ad2e9a08"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_3x3/9.nbt"
+hash = "23ef7a7ccfd05e90dd044495e506046acb9f350146b533b47a4150522e6b4b94"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_5x5/1.nbt"
+hash = "5a39316e76f72b3a992cf6f8d78fe40014c188217d8f94024f3c7f1322d4884f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_5x5/10.nbt"
+hash = "7339cb19115bca3a5afb53cbff7474d8aabe131e46e76504b0c45dbb233074d0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_5x5/2.nbt"
+hash = "b72e000072fe25b930b3ebfd81e8b6333e3814e1cf61ba4408cccbeb2f90c24d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_5x5/3.nbt"
+hash = "0bf7db4f14c51cf55f9390f49d2eefabde5211913dbba682c11c1f06a03d3ee6"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_5x5/4.nbt"
+hash = "8ee832b86481707e67347f67872944c7de357902fa869a31c87a8fa18697d93c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_5x5/5.nbt"
+hash = "6cc1e5b9918a2d4b5609f313f2bb9ec7ada436eba4c85752270f691399c3c08d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_5x5/6.nbt"
+hash = "5ba2d368f657931b931f84db3377863331203ac8c92f50fa52c0f261baabecab"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_5x5/7.nbt"
+hash = "eaebad0d682cc1f3a54a58122087d566adc9dab7de47f602bdaf9a5a75c48eb7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_5x5/8.nbt"
+hash = "4e263d07be12d31fb1e4977e9285c2437a015755fe77ce93394d71fcb04e3189"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_5x5/9.nbt"
+hash = "f571613c6d09111f227e7a0a2c5628297f120eeeae0372a5d1cd3fe9e856b4b4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/cupboard_3x2/1.nbt"
+hash = "afa98e034844342d82f00b50c0812efbde045c536754674dd1cc91a200e2c395"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/cupboard_3x2/2.nbt"
+hash = "4db8e4bcfabba31f9b34bee82326dba0b9d8ca82844e5eeb65ad517e7d111164"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/cupboard_3x2/3.nbt"
+hash = "5179d9727426896c13767967320be6ac5e2e44a2a9913e5cd094f4d3cd84435a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/cupboard_3x2/4.nbt"
+hash = "6607f674c9b3796f5eb1dec2d38c323cfd9924676ae5b5e7565f30a9961b357e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/cupboard_3x2/5.nbt"
+hash = "470fc43616ef3921e406c8ab6e21c4fb85d7ac5be7fd4d018ef9e1fd17b6793a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/cupboard_3x2/6.nbt"
+hash = "62c5bcaf8111f8b22694129932742262f145600c1d26ea9a27fbdb083d3d15d4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/1.nbt"
+hash = "276da86b8c8519aa30bce622c876ce9ce01850abd37dd56e30c362123c5af470"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/10.nbt"
+hash = "c830c9a0f9213f84d684abe47bdbdd58d466b8b27898b0de4db2edbc82c290da"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/11.nbt"
+hash = "f3c8463df1de16f643eb951bf8e19faecf5de5a9bd726b16a49a709f11ae9f77"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/12.nbt"
+hash = "b2293a96ddae8f5a57d3b05a100964a77f65bf2899af0328ca938d1141ee40b5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/13.nbt"
+hash = "4c33f9d81ce23b9c3338b688ed813d6651256970f86ad088c210df15e07e0e9a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/14.nbt"
+hash = "4281b0dc1097c5020b0125ddd3254fcc2600c7aedf17762afc27b014d09f9421"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/15.nbt"
+hash = "cf776da26edeeedf1bcea2dedcf5c9b79c25b3210dbc0471b0f87af13ce3a808"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/16.nbt"
+hash = "2539f0b18761cf1916c294f1857235037b807420b5ccae8637601bfa511d74eb"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/17.nbt"
+hash = "894b70e2dc36bda0c7338d72afbcc1bcaf197865950dfcf5072e3a542ec52a71"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/18.nbt"
+hash = "68b59fdba713f09e1e8da8ccf19e73b055dad9950fc3fe96bde175ca19c3f48a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/2.nbt"
+hash = "00b6d35550cf898f36db0092f9ea9acefdd79ece3169738fb1544db57d1f627d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/3.nbt"
+hash = "99e787053d476e76120143de8e4cf474403c6c4d634f3a0a6079f145fc61dbf3"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/4.nbt"
+hash = "9b58ef60fcce1fb481e36bf5ea81c735c0163dbbb19f7b97e56f41936fd7b37f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/5.nbt"
+hash = "64e131235e95a2b21b2ff23fd3b2527edb91f5d17cc9b1340b67b72875fe7811"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/6.nbt"
+hash = "41359421c58ff9ef859047c65da0595f0beab0927b7d17a1668937703578872e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/7.nbt"
+hash = "7b5fbe44006b2fb1f13b1e0ef23bbcdb118face391bbd859c9defbad9bec7d3d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/8.nbt"
+hash = "df0b92a5f24301adf2a1bdaf8617e812afa384191835e17737222b7aa27a61e1"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/foundry_3x3/9.nbt"
+hash = "85d5ca67f6ba75971fee1911db6da881034990b7c2713c5e48246bb24daadc64"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/office_5x5/1.nbt"
+hash = "321d58af98ac7221ac508b68192bc2cebb8e46f78cfbfaabcce6990923380467"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/office_5x5/2.nbt"
+hash = "9377dc52a81d195a2a351a64e9ee5d9621da7d84876758824600de6417b07a6e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/office_5x5/3.nbt"
+hash = "512b1803fb2dfd90b032b20e4a7193f8b8d0ebfb00102d82509b646f160d2dfb"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/office_5x5/4.nbt"
+hash = "1fa024560b71c8455eb96f38df23ad9591e7d82c918398b5e6770751978e5a1c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/office_5x5/5.nbt"
+hash = "2f757a40ea63e52c4a85a230b5bfc8abf31200712e3de02e31f88950209be64e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/office_5x5/6.nbt"
+hash = "6c483c4d34377d435d65933787f6a34db31d2d03eb3d704770070512e2cc6de3"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/office_5x5/7.nbt"
+hash = "f1369f9daf30e272a99687c026c2ecc5d1f9ec30201ecd91bfa3b4d2fa050819"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/office_5x5/8.nbt"
+hash = "ff095069e03d341a82e091a2459a2517bc471bd52680e166360bf35a2ebe6c00"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/office_5x5/9.nbt"
+hash = "90209e4eae99c95f02356b01c612a4454b0298351eafd9591d9bdcd0933e8f9c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/1.nbt"
+hash = "d58fa879dea2205a46a99ae59f6368293788f0db90f34b05519759996ca02b36"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/10.nbt"
+hash = "3b16217352e184adf73b00ebbfc0fef4cb7c5f82b871fef4fda7deb21461cf86"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/11.nbt"
+hash = "71ed0c4f6bfc276bca31e969e1df2243ff5dada641fd0341c99c4acdfde4475d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/2.nbt"
+hash = "d7f8ea807df173fb67a4a7482c71242092c874bb566459119f573776436062c4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/3.nbt"
+hash = "f3da11a20c9aa6c82e4a83197a6cf5bad337732d2cf4e97216684e45d7924bdf"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/4.nbt"
+hash = "ebad7bda79f53153144d14e6534b16e45a7c891babbab69d688be54956424b41"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/5.nbt"
+hash = "0a299a19e887fbf1b40555fb30a905b4bb76fa22cddfb6bc0abcbdd6de8aafa3"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/6.nbt"
+hash = "0ab5f6b77b8a9fc6e5014f8f29df2062d0a81912753dbcd6ea20dfc5ed9fc550"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/7.nbt"
+hash = "4f244872f184e7dd431e28eb0aaa831b137472db5b836d7973b5fd6902940eae"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/8.nbt"
+hash = "02506c238ab9b157ccdd159119eeb06192bf7cfe1d8fcdffdce3ec66c372ca58"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/9.nbt"
+hash = "06c2d5bc86181e0018b0f1e01012363f569aae2816ba56887a1a0012b978b183"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/spawner_3x3.nbt"
+hash = "7f0e5269c0bed3951510fa271d36a928ee04e5c77ed464a08389e13d10234763"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/spawner_5x5.nbt"
+hash = "16066604aa279e1516c8c2aebc611c34eb3754949d50dc6766700665c966fbcc"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/street_light/1.nbt"
+hash = "e8bb0daed57cac78c1a11e04dfa84cb8effa1c843177cca93919798698185d6d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/street_light/2.nbt"
+hash = "68a5106e4deb4efd07f502d560684acb4183b8d12c4548b9a37f466bb877cdb7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/street_light/3.nbt"
+hash = "59ee23380d2306651cc52e530c18e344168b4cdd396dc658bbb40845a1eeb0d4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/empty.nbt"
+hash = "cdd5ddc6c58a6033d926804eec409751cd06b51ec6b37933bc659c8b428d6e0e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/bastion.nbt"
+hash = "26db4a40487ba5b9ffa43bea4c642247ebc23fc8d0ec274c9ea9289b49fdcdfc"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/bastion_underground.nbt"
+hash = "30cf502f43db3818e9cd6fb1c2d0c63e57cce8f15bca08f838a7706f1e242c2f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/building/big_house.nbt"
+hash = "31e0d796fd2f4440cd6322f4f4b1c231a54142403841d88c45919b7c6ed109eb"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/building/moderate_house.nbt"
+hash = "08917a34b30fcbbcf11953fdaf2ab1d85685c505a95d3c6a9afa3c237e07f457"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/building/short_house.nbt"
+hash = "7f9fe2a4f6c261f8f93fe3031e803df1e2021091e78ef64ce3f23aac45d4013e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/building/small_house.nbt"
+hash = "afaeeb5e1c9d1bf796183799f2fb9afc1513ad2994975a53a210fe8eb7594bc1"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/building/tall_house.nbt"
+hash = "8bcfce77fa1d9553bd0bc97502e09c0908fd2b4173110dc2471fe1b36a3e5029"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/building/tinker_big.nbt"
+hash = "cf44c7981c1086fa0989e30f50c71c7876b01f02688c51208707e601c890b387"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/building/tinker_small.nbt"
+hash = "62249bb225a19d6e581143f427886daf693f91050e234e0ae0746330239a7bc1"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/building/tower.nbt"
+hash = "762850cd2d128235f7fc390a6222dc049686d204632037b8ac03b4f42852bffa"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/chains/1.nbt"
+hash = "8e2a64e3692441b432ce89879e2d8b01bb863a622c93bce05c3467b2c73bfd9b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/chains/2.nbt"
+hash = "2b4c01049366cc4471e045041b566c27434401c7ecb2cee3fe85cbdaf05d464e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/chains/3.nbt"
+hash = "dc81fa14285b3596b45d59536cb5a66d34cb9c3caf141c0468b91ecea7f703b0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/chains/4.nbt"
+hash = "8991b551a518c8680d0f1b07b8098a7798bb7a2f4332dbeb4b12483dbef2dadc"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/chains/5.nbt"
+hash = "12f707a67a8d36885af3971889f1bf866785c395f53e4048f1ea77aa3138118d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/chains/spawner_1.nbt"
+hash = "0a3e7fead5030d1e05ad152ad70b2edb13373af4f6136416699820a070e459e2"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/chains/spawner_2.nbt"
+hash = "ddb79d704837eab6100863a626e4c670607c287e1ef0e82a564fa1d9ff472c8d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/channel/1a.nbt"
+hash = "16eee906b01a19030f7ffa47fadbba302e7a66f3fea0e940b43c1012750e122a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/channel/1b.nbt"
+hash = "ec3eb78bc8e6ac7a6e3d15e39e0bfe6051f99f0dca325122040410a663f85954"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/channel/1c.nbt"
+hash = "da776fa78302b66db5698a2a10b48e95bfefc97d0e566819dcdcf551293f4b54"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/channel/2a.nbt"
+hash = "2e0f8d8ffa7489078a9cad1baef8695e6c473e2e13b4ec340ab1ca0c0339a79a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/channel/2b.nbt"
+hash = "fdfb2657f4c0b2352129702f86f1ebda99ff680b434d5b67114cc68e606227a4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/channel/3a.nbt"
+hash = "df06a9f0ace80fd42f46ee5c279df862b4e406226337b243773ea480f0b06535"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/channel/3b.nbt"
+hash = "01dc89c54b6fefd8c94e90ad77d6a0dd3cc5b382653afedf1c8cca564ae85161"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/channel/3c.nbt"
+hash = "fb2fbb3f06dff31346321f50ec57bf1c4ce9d938171dfa3f699eb2dae95efed0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/hallway/hall_1.nbt"
+hash = "a543f28e6646761cad7f40d2818d4352ebb83bc9d85359f13b16b9a16d766dd4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/hallway/hall_2.nbt"
+hash = "42de248418efda098ff1e4581922e7559c376128392c8fa390c159dd9dc236ee"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/hallway/hall_3.nbt"
+hash = "62ba4b400264fda4bc27bad091723f577080d1eb46655906c75bf9710c4ed0dc"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/hallway/hall_4.nbt"
+hash = "77bf3680aac2f22ed13566ce3248068dc61d73476b5673eb7ab7c9b13647eb2a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/hallway/hall_5.nbt"
+hash = "d9c6b7937e2af708b72ae20d01d2857d3c759ff4f7d057a4d0ccfbda3a75fb99"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/hallway/junction.nbt"
+hash = "da65cc493a15df5a216372e78f8c438f745106e3bd4a4f0d7e17dd64b774aa16"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/hallway/turn_l.nbt"
+hash = "a3753f506d287d5482965cbe09b5b4cde3255a1a3808ff7e4a912f0c62e63241"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/hallway/turn_r.nbt"
+hash = "421e8267a6d670b84a4aa00919083fe641642a90b0948a181c527b027e8c04a0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/road/cross.nbt"
+hash = "312260f86db368b39bb45b958e0e124e76d025f63864af7722cfbb899eba7c77"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/road/junction.nbt"
+hash = "27a13cad2319d7223921a7835f2e340c35afcb0b64cb40e7e811430895e0ed4d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/road/junction_l.nbt"
+hash = "37614c052095dd0246164a71d81d2f6a88274070cabeb48c9b9a13682406ac5c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/road/junction_r.nbt"
+hash = "5910ad77561239a82dc919a20281de2f0655e9e84e48e27aed40b1eb788c4ab0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/road/long.nbt"
+hash = "17fd30f2e7ded4f7050ecdac3fce8b87dc0c31357bcd528dd4bc8337ca3cf696"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/road/short.nbt"
+hash = "40bd0d005d2237cb850e7871bdc5eacda4b3a7e49a522fd200fb57f62f81dd43"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/road/turn_l.nbt"
+hash = "e340cbbdfd4e4e80b88c02fc7494fad0f4422605f0bdd4c6e58d0aff78d133dd"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/road/turn_r.nbt"
+hash = "91fc65c7ecab58db1dcb3a42ff5fc8740c937cb00a0ba49426f6cf850d8ecc0b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/cross.nbt"
+hash = "78778a37f383bec4abb530e2a6c670022d78f3c302bfe8a33520ddac46ca1d3c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/end.nbt"
+hash = "feb474f4a85abcd04b8142a760683435f3854104425158eb846ef4ac541d8c9b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/junction.nbt"
+hash = "049606b641268926d4a743553ecd9281bcabd7c107807ad9fa7afe385dcd98b8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/junction_l.nbt"
+hash = "6c6d3fcc34af2c67c2c2ea51170377d31ccb07f2c9fc1c8c126ddb0434cd8b20"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/junction_r.nbt"
+hash = "3b7b55f48620538a426ec10338350978809aa5ffadbcd6809916085bbe3e0ace"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/room_1.nbt"
+hash = "bfdca74aec3b1768609d88b2c08ab09910bce93e23ec19dd18d5fced56dbec83"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/room_2.nbt"
+hash = "a7dfd8688fd7de6e7544b9542da2f7495d2e24c1097bf80f98e53f8ea1c9b94e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/room_3.nbt"
+hash = "d2705b6e6127e1f4904aa180ccd2273e709ec7bd43ba65d201be50287e2a4015"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/room_4.nbt"
+hash = "50cc5ec81ec421235e0b63d91919883f879a0131878b86c799bea8f033232419"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/room_5.nbt"
+hash = "8400d72b232057cde0560d29255deb595bac251076e6883f26b35a3fa20e649d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/room_6.nbt"
+hash = "1a57f2f408c674954e6218a9b1ea0353faecda21853f77577f1fef337c2d0c57"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/stairs.nbt"
+hash = "fee64a0e84cfd8161d590088dae6c92efbeab022094b0407003c7ecd36d3029f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/straight.nbt"
+hash = "d1b29155ddc65e78deffdd6c1dd8121047e1779eba9656b1442a5dc79d3d2f48"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/trap_1.nbt"
+hash = "0e4cdc9df0fbf2757bf37e3a7f4f0d1eb2da0205722c8ea15df9687eac27ac17"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/trap_2.nbt"
+hash = "406c34d0edd661c8c616a25a07557b1dadc78259fe28c5934010f3a840179e13"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/tunnel/trap_3.nbt"
+hash = "db1621e42a8a10ae66508fadc4f321cd310860755dc2a31d8b76bc2a16f809be"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/back.nbt"
+hash = "19995f244c00d60b04f608f794d21e16e956a0c03956480898b3cc8ae121dc7d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/back_left.nbt"
+hash = "4fcca406fdfc7f8f39d314e69bce1fd9ecda63937c6ecac46d56985094cc62d6"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/back_right.nbt"
+hash = "f6d1f54bc3765e0d9f7045116449c695b6fea7ad8e9baaefcaedb876652d8fc5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/center.nbt"
+hash = "52aa8820c85d9c8f49fc6df3868a828bd1372f2fdab32fd033975a4e837fb88a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/front.nbt"
+hash = "8c7ca42fe2f15f845bb72082988946e7cd29f758c393a204ba8fc98b9cc42772"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/front_left.nbt"
+hash = "0fe31a53cd77ba93b87dc133c27b97d83f5ec08413b155eae44493dc2eb360a7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/front_right.nbt"
+hash = "7ef776c147e1dfc3cecb32bc88ae2859fc9b741d5d71cff132c0591079e0b5e4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/left/left_0.nbt"
+hash = "be2a0dd2491ebd027c880354e736b23606169ec7942c2d8aaedb3613857b871d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/left/left_1.nbt"
+hash = "12adc674210091beb50b1c594dde795935e74812fd89e0f19eac13d83fe7e39c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/left/left_2.nbt"
+hash = "14dd9d9faaf6af40f8ff3db28bfba09f1fed524eb73aa5a394d0f1604cc7d316"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/left/left_3.nbt"
+hash = "bcc267da722d6fd89a85585272b36ab65b89fb7916478572fd74fdbcf381d34a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/left/left_4.nbt"
+hash = "4311693269985f50e90bd52db0c84d6602e933dfba363d01897a619b1f46befb"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/left/left_5.nbt"
+hash = "c1a1cb9f341ea18beedaa064656d3b0df8c85974ce64a253f45439a415d31f8f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/left/left_6.nbt"
+hash = "c6225d2edc2acd2b40dba4bbdf7b0824a74f9557ac9bf213d0ff894466716faf"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/left/left_7.nbt"
+hash = "79c2a066e8bd05363c37965b862d24dbcb6f684c7d244292539df70d09376397"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/left/left_8.nbt"
+hash = "7997926c16a9c7c64976c5d13ed02d0d47b66f8da0b6a223b03dc3de0c42d279"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/left/left_9.nbt"
+hash = "48ecf7018b7fc1647a09b23c7549b958659dfe5cb4f44c95f41480a430841937"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/right/right_0.nbt"
+hash = "570f63c070efe5132f6a32ac6c2c66e302741dc4055b07bd9e3ce0a9b2390842"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/right/right_1.nbt"
+hash = "a9ece22c35c1386336b80962fc9b7210c9df5ba0d9e506a6c2079a1e067d13d0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/right/right_2.nbt"
+hash = "dfb4868f03e596a770c28c1121414347340019c2ee6819ade28a0125650fd534"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/right/right_3.nbt"
+hash = "3bcbf391211cc5bc7da1b99416069912d24acdd87d5730c31c7062f4cef7c27c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/right/right_4.nbt"
+hash = "1d4077aa6070c22ef40b731e4443c6b527530d4ed8814aa22a4d494bccccca7b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/right/right_5.nbt"
+hash = "96863d6d01d3ffcd5d7a4a68d9c3b64bda8cac67b0709303bb2c72b76ec581fa"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/right/right_6.nbt"
+hash = "6a19b50bdce68e25c881fcf0fda859c47019138a56eaee10762a4b576b62d719"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/right/right_7.nbt"
+hash = "0aff6f7d3ed95718c8f5b49e8c0c42f4b924436d36bd7128d465cc6d02c57323"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/right/right_8.nbt"
+hash = "d03892e565cf1005d1417952b75da1106ddcf8b8d3d60ff17cd6e8807da279d0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/right/right_9.nbt"
+hash = "d541a9243680962e02cbc5b74b7b4ae340b4b2eed103cd8a28c60ee209b640f0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/misc/door_air.nbt"
+hash = "b76dec1b3e3385da7055afcf2805af314a2324958855062388d507d2acf7aa67"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_00.nbt"
+hash = "dd3b993f05874ae8d45c8835e27459302743fbbeaf8212f1c1dbd76742f17ef4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_01.nbt"
+hash = "b5bcbc384ea31a3d210bc26d60bf1018c892f3d9d0dc6f3ef95a4f9ea510a178"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_02.nbt"
+hash = "b6f733462ce97ea1ffcc6a7b22946894656ce5ca39cfc281155ab515a07e0f46"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_03.nbt"
+hash = "c30edd3b15fe4c14371c463d4dad460aec0a3bb47aa2ecdf14a8be416cafc06d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_04.nbt"
+hash = "07a999618e1c68b7443f609633e3de074b2d18578de6980b72674ced92ccceca"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_05.nbt"
+hash = "55c3af0872c8d913f67aa26f752ba49864addfe4aae904661d74bf035e7c1d31"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_06.nbt"
+hash = "27e7a18137514d269a4b9c980c09df68fea2501e8a48b7f449696e094dccbc16"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_07.nbt"
+hash = "1ece612ff1ed022625cec001fee727bdf653f94089d595dc8629a092ff637240"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_08.nbt"
+hash = "6547479d35c30bc7afa2647e8c1f1c6bb3793c4b8b134494213aece3f38229d1"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_09.nbt"
+hash = "3d11928480e498e3d3c15ac89f4f2ffe2faa72528e656cc826f3fb814a5bba74"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_10.nbt"
+hash = "0cc1abc77ee7869d0559da854973026c05e96b1d6b974ae619f0804ce5030959"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_11.nbt"
+hash = "b00746d5592663e3e0faadcbc9e86268b4f85b9675995123de4a5b6276c436c4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_12.nbt"
+hash = "f3a8b34c1b6d05d005691180503e0651a89accbae567ecbd0e567389739df01e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_13.nbt"
+hash = "1360bd72fc154b4470269858d029011cfb5a9967b3b4617260c501381fb6d331"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_14.nbt"
+hash = "2f6e6553be9de6300e073bdda1a63b2e04aea61eea4165d1972260b255fa433c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_15.nbt"
+hash = "d117058ecf7519359a5219297537c28ac452218ba937befdddb61ad63913a584"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/cargo/cargo_16.nbt"
+hash = "af92ba2707463e3bdb071ecf89e13acb3d21755e3f52ff228fcacd71a44ef4a0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/shipping_variants/shipping_variant_00.nbt"
+hash = "a79c05f6e82387abe00fc34c033360e6af43defa887c02a1c3d2b101183f31cd"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/shipping_variants/shipping_variant_01.nbt"
+hash = "db3caa51200712813204dcfd55df7ea6eb279a7299717cfd76adefb8ccc24323"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/shipping_variants/shipping_variant_02.nbt"
+hash = "2c66419a7590cf2580b73b0b34940e60a6e216cbf1f920a04c2fbc057e8b4a1f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/trucks/truck_00.nbt"
+hash = "583891232532994a25d5cfa1a311b8a8851dfcca26649602d2aa221727e7cffb"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/shipping/trucks/truck_01.nbt"
+hash = "1e4dad79b192d6ba6f53d0092820d018107f95d49bf99d5ce8a805fd61ca01ba"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/medium/medium_01.nbt"
+hash = "5285e87b189b8cc121c4fb77286197d156f3bbac9cd1e23bd133914b65e5fd85"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/medium/medium_02.nbt"
+hash = "f0bf7dd9f3b29a5ffc94de77909e001dbc64f20fb2850e002ba019ce979bac6f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/medium/medium_03.nbt"
+hash = "2d1b86d5ec116269247dc03a6f86bc5c391b9a7d2890c461a2187a2f45022902"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/medium/medium_04.nbt"
+hash = "50b70d411b6ca15b32f3c5f9ddad1149c9840929237e85b28dd25330a311bac3"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/medium/medium_05.nbt"
+hash = "34fc0705fe411c74d424ed189d4bbb94d74e6b7a3bbb70d07ecc68c34aa62595"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/medium/medium_06.nbt"
+hash = "1397c3792afb470792f8eaacc8a0058a234751a99457d3ad47f39dcd50573524"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/medium/medium_07.nbt"
+hash = "fce7ec2452d97e1af8d91bcad1066ab3a6f09b92ad718826f9212f40015f6ac0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/medium/medium_08.nbt"
+hash = "4ec584d32ef1407fe8c8ccc04226974ef40fbe629cfe3479d39fdcfa5a4b152c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/small/small_01.nbt"
+hash = "7685ca4d477f60399ff9403871edc136fd5130897ac52da82a88f0450c9b18be"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/small/small_02.nbt"
+hash = "7f7f8080e46e06112aa7d525a1dcc2be21627bebc7ef5ad76870705204c003f3"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/small/small_03.nbt"
+hash = "236f12ee99644b8d886aac60c2042f874fe8a4862589adaaac9ebeb3dbb245ac"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/small/small_04.nbt"
+hash = "c272bd8ea2ba1e41b6fe580c71f46fc8a8aae19e9655d963a4742bf5cb117326"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/small/small_05.nbt"
+hash = "e2876211ff2f3aabf0093884810b45640f8af26b1480acbc414d20438501fc64"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/strips/small/small_06.nbt"
+hash = "c46916e912e747885a978fd4fe96e96048685712e0e22a8e9dcb3ad0ff006c95"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/dock/dock_building.nbt"
+hash = "73a43623eb0b8c87a7c441705373945e042d71d0f4276ce97e0d3fd0afc233a9"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/building_faces/building_face_dock.nbt"
+hash = "743304f0de711461a89558deeae5a5cb26601438bfb8acbc4395ed897f83842b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/building_faces/building_face_entrance.nbt"
+hash = "6beb889608ec05904f9f312110609e385f524b7fd5761ae26e37b1f3a65d8590"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/building_faces/building_face_tower.nbt"
+hash = "77a740ec3538f087fde9ae3a2060f079ec43075c0cd441d03150e16c8bdce67e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/building_faces/building_face_turbine.nbt"
+hash = "236b4d8d67c16592100c108e940e4cedb97607d91f64127713bbb22aa8f319b2"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/reactor_buildings/reactor_building_1.nbt"
+hash = "014932ca8e7738f54cca6bc4f8b0964d5e1fc0aea1439485a60ea0e708a6db14"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/reactor_buildings/reactor_building_2.nbt"
+hash = "368ac5b3bff52ac24bfe4b31994fb9b666400a95d79c0de40aef8187ae3a9219"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/reactor_buildings/reactor_building_3.nbt"
+hash = "2f00d606eaa90a06f29958f71e75c7dd95fd3f74e11fdd9b4e5851d9777d8471"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/reactor_buildings/reactor_building_4.nbt"
+hash = "cdd7163a0a485663a741015a2c14ff90408dcea6fc732a55819bee0378a87cf8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/reactor_buildings/reactor_building_5.nbt"
+hash = "505119d8ab0e394f3b23bd0e797f13bcc9fa99e5033e62f649a6e509a46673c1"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/reactor_buildings/reactor_building_6.nbt"
+hash = "13a0911c55ad29df7539c9c1b3884a937a7a4be46b35b8dcd836dff547072831"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/reactor_faces/reactor_face_dock.nbt"
+hash = "95e9406be9e13290cc1de3315ee3b6331bd9498d663dd4b376050e16f8e226c8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/reactor_faces/reactor_face_entrance.nbt"
+hash = "a014418c964bca4af84824d1283456832058a50fd371350a8b5255fada1754f6"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/reactor_faces/reactor_face_tower.nbt"
+hash = "b0b663a4400a89f33cd389f910b8b22457b4475da44abdbc38b572fe50cd552b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/reactor/reactor_faces/reactor_face_turbine.nbt"
+hash = "3c25e0da735efa95c9b95f18e082cd5f98dee4db1bd943c68c3d603b088a2938"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/tower/tower_building.nbt"
+hash = "327e5fe99c68192c303557979b7beb917007ff85c8fea7e86ef67e62fc61c844"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/tower/tower_connectors/tower_connector_1.nbt"
+hash = "d692091f15ec68bb6e11a4f028928dee5f94181828a97f03bae65a2944a7b090"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/tower/tower_connectors/tower_connector_2.nbt"
+hash = "6524d5389e9c86b89c85a6be9171e9fd1d2998a0170bd472d5127554002d70de"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/tower/tower_connectors/tower_connector_3.nbt"
+hash = "fbd1cec851e39ae2736212024c683a5d4c7d948cd5df9e4daf75a085e535f207"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/turbine/turbine_building.nbt"
+hash = "6729ae52386b9e68b89621cd1c85baf153f055f953996be80b775cfa4e4ee518"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/turbine/turbine_connector.nbt"
+hash = "3d376c33b469c53e3063c27c241883bd01ae137208655ad298cbd97bde25aaa7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/center.nbt"
+hash = "cba87bd53e651728b7250e4859ab3181714731c180aa21c868698d98280b36b4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/e.nbt"
+hash = "5b31b172a740b297277b75460c6f8a648098662cb37a0939e67aeceef98c5349"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/ee.nbt"
+hash = "d350df8e8b0d91f886bf468a9e6c6aabdf7f784a1466124497c2b794d3cd90b7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/n.nbt"
+hash = "16f87c46dd9680827c3f6a1f3d554d81ab4a7a03644d887f730b7223099a8811"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/ne.nbt"
+hash = "3b4da10989f8b5c7492528435408f938307a026e2fbf58ccf277d803834066ae"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/nee.nbt"
+hash = "0c76f39c3216783cb9b6fcf0dad1dfc488cd1e8c9f324ef17274035887461e6b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/nw.nbt"
+hash = "71db6ecc6de6b3b67a39a5a7640d29116cc82e272aaf0950bb98d44d1c082c22"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/refinery.nbt"
+hash = "fc24ab2a393f74dbdee71f7131dadf33aebb5b0692ba57e777f29bb57b4ac166"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/rig.nbt"
+hash = "291dae5e5d2308ae6e97ace98d18f819990bdb5071b83d0e15ff00949ef9f786"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/s.nbt"
+hash = "7aa23d012a6edf825b60ba01a0204fc8ee9aa5b82bc234ed04a5a06ba628d16f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/se.nbt"
+hash = "bb55bb490e4e1e4034d5c75e838b5b09999b2fcf23a6cf0ca49d563b519141cd"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/see.nbt"
+hash = "0eecc93e4d1603e9016dacf7644a1cb554fc251859876fcd6ac0a89836d2cc4e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/sw.nbt"
+hash = "991c689f6b4fbf50c146ef9fd454d6d1630d7b9d1cb8c3ec2b9a40285492f7b8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/tanks/1.nbt"
+hash = "6423647cd8b1a150172d08fcd4d411c68cbe34eaf04be153cec9e9829e03d44c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/tanks/2.nbt"
+hash = "e38fc539541cdb4d06eaa1d0cbec462bcb53890d98a87ce9ae177f352d88a799"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/tanks/3.nbt"
+hash = "eaef823c8f36e0f11a2b6bfb419e5381237a7b4e906357a6f49b7ea183317c2f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/tanks/4.nbt"
+hash = "b537a71835ed3412a4508776bb89b2cadead9b264336d79f2a9c56c45ca21d74"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/tanks/5.nbt"
+hash = "b39511885d3271c751b3dd45b6ba9998ce5d47de8e1df81a0abe8429228227bf"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/tanks/6.nbt"
+hash = "7b1d0e0ad48165d3cbf012edba608d6583e116e2933edfcbd0d3fe951c9be2e5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/tanks/7.nbt"
+hash = "6abf1aac7f271068162d8c2fb0a2e243167b9773db08883a58ba1a572a6deb10"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/w.nbt"
+hash = "37de0005e1b85d63da69d967ec9563239a76514a2dbf17d9bb70c190e65f9da6"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ruins/andesite/corner_1.nbt"
+hash = "348bf20532771be3dc309031ae843773c662b01782e9c0f46a46a29f7537b8ca"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ruins/andesite/corner_2.nbt"
+hash = "290f661ceb25f47f484d703b1d25b7f292810b5ba47b9cd2c52e203e10a25ddc"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ruins/andesite/corner_3.nbt"
+hash = "7c995709c2fd7b710a6a1dcb64007db97d8299f10fb0ec042224b16de6734fd8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ruins/andesite/corner_4.nbt"
+hash = "8ab1b0f034a431ab9c9a6061327354af9e90d0dc79d198f4322220f5eb5123e5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ruins/andesite/corner_5.nbt"
+hash = "2d9e4e9bbda8f2ae35a276fb4d36445de92917a4211e95999a840fa2384ba661"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ruins/andesite/corner_6.nbt"
+hash = "6927938fadaa3172f114667c185a0ad2c70efa990e7ef34aaee4d56e9d1a7d4c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ruins/andesite/corner_7.nbt"
+hash = "83e614aa8899c6f6a8f7694ae153c8aa9a0ef93a0f5761c22553a31ecbc82de7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ruins/andesite/corner_8.nbt"
+hash = "f3ceeb99e8a5069dc7c6f48a059fabccd6355a90e03125cd8b58ba9b52139c5a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ruins/andesite_small.nbt"
+hash = "e1b4cd192456749b5f41907a3a23049f703a1fc8d2b181f9524c61c35686041c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ruins/empty.nbt"
+hash = "1483bd376563dc9bf666684bc3ec3a95c59c24a0ac97888f171de74b3a125e4b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ship_crash/ship.nbt"
+hash = "ad8d44fa8da3733cbab10ab0e76256662c48865cf3f2777a729c6a5cd8dca8c6"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ship_crash/ship2.nbt"
+hash = "21ab011d224bd8f994c98c223ee20e10465ea6123b787d3149e2979981fe164e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ship_crash/ship3.nbt"
+hash = "286f682d3dd6960cc60ea0dfa8bcf9e42b3e594aaa2a678dad8bc01d1c0982ab"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ship_crash/ship4.nbt"
+hash = "aa1c2b0fa8b5c1d65a4e7165675658dfe95f893d091fd6000cb4b23b9d3ff485"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ship_crash/ship5.nbt"
+hash = "e1cac1ddfa047240507a7d130b81b5d3da11f0e96176aa7e26904dfb72c679cd"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/spread/farm_1.nbt"
+hash = "b3cea2112414c3c45109aad04129ff0335ae44c3e0df8c93462cfdef4df6f026"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/spread/tinkers_factory.nbt"
+hash = "7d28d4ef11b7c5ddcb11dbb737eee5131407ae806e0bb8cf1723a802951d6499"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/tags/worldgen/biome/farm.json"
+hash = "0346c90440d810652330d9d8f2f1b05aaa2b4d8176dec271fd1f87cd3f80993e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/tags/worldgen/biome/has_city.json"
+hash = "0346c90440d810652330d9d8f2f1b05aaa2b4d8176dec271fd1f87cd3f80993e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/tags/worldgen/biome/nuclear.json"
+hash = "0346c90440d810652330d9d8f2f1b05aaa2b4d8176dec271fd1f87cd3f80993e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/tags/worldgen/biome/ship.json"
+hash = "60426cff5202144e050730836dddb5a96e6ada8a5590306af371c0a0aa37a346"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/tags/worldgen/structure/cities.json"
+hash = "704548e2264fcdeb8c88fb6b822ef58d30f3a97bd2fe2f8b10386af7b97856de"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/tags/worldgen/structure/foundry_bastion.json"
+hash = "09595f183fb2b6cc092f9b29e2f3b0168701a58f98039e061d7442789c614ad9"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/tags/worldgen/structure/mer_lab.json"
+hash = "da4bd1a75115608579e139d614e046fb46b4d2e0e6c2977f6c77b00c4a1f959a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/tags/worldgen/structure/nuclear_plant.json"
+hash = "a98098873cba0c33682b1104e659d1a49d45dbe7be9967f68a0420b5724adfca"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/tags/worldgen/structure/oil_rig.json"
+hash = "7da3abf035cb34490b75b9f901493c104cd9e37054ec654d4e1d71074a852f00"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/biome/desert.json"
+hash = "63908d97167296e899c98bcd752983b0ce1b112eae63ab2d9bf9bcd118fba900"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/biome/dustplanet.json"
+hash = "98b53d0812c12886a6e31df7fca2f00197313c76887cbf80a8a8040a1e46e18b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/processor_list/building_deteriorate.json"
+hash = "0a3a61930ce497e51977683406cba50deab6e4098533b264eca3b472e99d61e0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/processor_list/city_spawner.json"
+hash = "0230c19cf06cf9987f6dd7db537f368dfe2b57fb5877865eb32d7c28adab3e12"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/processor_list/foundry_bastion/building.json"
+hash = "fb60ed60ce0f4ad217f6a9c6b521fbddff93259d59a7ebd0feec72c47c80f848"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/processor_list/foundry_bastion/channel.json"
+hash = "400d0e3ce28d812a293aa98838e7dbb1e0884f63ce8358578cc7285099e582c9"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/processor_list/foundry_bastion/road_dusting.json"
+hash = "a65e8b84df841523a22891fffe5905d2f72dcb7f1cfa64f1e7b62bb3ca072449"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/processor_list/foundry_bastion/spawner.json"
+hash = "18f25ffefc20a680f4baf750b009371743112a99fd6c7211852e04c4995e2046"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/processor_list/foundry_bastion/tunnels.json"
+hash = "32631c6837cb7d6b22dd7972fe4a8735456d8ba06f9b73523c807b5e68c3ca50"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/processor_list/oil_rig_spawner.json"
+hash = "7eb764ac5a2d57e9738b53b813b674c57a23165e744629088a4ad76df646ac92"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/processor_list/road_dusting.json"
+hash = "4412df1afc9cd8c0e8c1d865cf6d8c31a845e9989b10ab4c2d0fa8bcecd181ca"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/processor_list/ruins.json"
+hash = "4f7118541be903f2b0b10878eba95d19742e3030d97aa339552ad9c733750982"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/processor_list/smeltery_building.json"
+hash = "b0fc321ddf6b3639f1f4cd05b4a9c27c6194a895b370583aa8d611eac1dd5756"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure/city.json"
+hash = "ced466d6b8c4cbc2c14ed942edc676949adc705e35a85a6e56a668535b1267dd"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure/farm.json"
+hash = "815bb727e7822c596e5956e69a1d5e518e70b21f1ea9f379549922268b72a6f0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure/foundry_bastion.json"
+hash = "27ee40e7d3104c893b795a5afdbcee3add16559b8b7dcdd04cf951b33bba4229"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure/mer_lab.json"
+hash = "7c04105878de25a5888caa4eaf6f0a3c7391d49d38f0313fda90745f225216a5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure/nuclear.json"
+hash = "b413311550a72eef85969e536bf5465cdb668798b9ded6eb89ee7d0e53e3f0fa"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure/nuclear_plant.json"
+hash = "16ce7c6339134befc276dcc6e86c9fc11589c390135be3fad7b1a474379af139"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure/oil_rig.json"
+hash = "f0295f59c85931e59ecea314e42eca3531186721c3c64f9c4a9a7ea79971887c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure/ruins.json"
+hash = "7b50115f12a5ad9d95c1ba3da437a2c9df4826c73c498557cbc3e6db54b0d9a1"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure/ship.json"
+hash = "6fdbf675558d9272714db67fbdb4d4d2ce42a1e871021fb3efb3a5eade3033f1"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure_set/large_structures.json"
+hash = "1c385fcb4b2ee3d6e8f07c8f97420b34638a18802a1938be291f824826fe3e7c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure_set/ruins.json"
+hash = "7700bdef4475e4590d4dd2ff39449cb175b8f40d9c13dc10037719c1e0d4a1e5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure_set/ship.json"
+hash = "ec4f53b6b6ef7fdeb298b952907a9f9ea06fed8270937df20cd376868bbae061"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure_set/small_structures.json"
+hash = "38a6ee995c9382fae697fe0303f79748a9748dff90e7691cdc148a6b8f4ce38a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/city/building.json"
+hash = "fa24e116972bc014652a5402d1cc74a9df5780866edeb871e2b0e8c61e4bd11b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/city/city_center.json"
+hash = "e4f163a11d7c3ecbf844cb106c4d92cf9b029d53f550adb259d2f87af19c135c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/city/road.json"
+hash = "e4a61fdf68f95dbc9d0a31f5515444bd379d032c8d92348cc375cf5bd211eb2a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/city/road_end.json"
+hash = "a11a9d11ded3b17b7ef6dd5080b5463339a4483dddf994ed8cef96f5062b1a10"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/deco/bedroom_3x3.json"
+hash = "9070c3d676d76fbbeb71bb2d183a3ce85c216d20e54f8910f386cb182383808a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/deco/bedroom_5x5.json"
+hash = "208e8c54b0ba4e865226bcf119e4fafe52c075cd162265687c3f27a267f86cab"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/deco/crate_3x3.json"
+hash = "e67153874c81b3e3b77225cb8a4a479ba4016e97cc1fbec743246dbb2b3b166b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/deco/crate_5x5.json"
+hash = "89825d454ac88d5e307e87ff88df7d8f42e3af8e16cdc7105a46e23580a62ad9"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/deco/cupboard_3x2.json"
+hash = "bcbfdedf58c3ed53f62ccb986b6ad026cffce4c41a9dc977be734f5fb21cccda"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/deco/foundry_3x3.json"
+hash = "751996cb4b49a82be6d1ee762d2214e7495525492196018fbd23fe3926567744"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/deco/office_5x5.json"
+hash = "fafd9b050eaa00bcb32142f5bbb1118b89d69f24f508e544aeb8845c67c1d7e0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/deco/smeltery_3x3.json"
+hash = "d2f6e48ed2d187bd852f3634f0dd18fef5b2e6c2cf79bb642055de6175bd942b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/deco/street_light.json"
+hash = "947bc62e5280adba70d3f67c5d1eb6ed7202bfdb6b1eb1381a87c01e0efac0e8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/farm.json"
+hash = "98394a15417c013c5db47bd7853d4b2bdcdb8d1f823beedf6531af5f9ead9c0d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/foundry_bastion/bastion.json"
+hash = "1cc2b3f5aca2074d9cbbaeace9d0b2a0302b91bcc13ec466d4e04620734add6e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/foundry_bastion/bastion_underground.json"
+hash = "a79ad266f579fe31fa4a39864b28f2240258d701596a2db680a5d5cb3ccbb9d4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/foundry_bastion/building.json"
+hash = "8f6953e16eaf897e0d5a577995f9634198e0fb123a491ed05af7223366c9e27c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/foundry_bastion/chains.json"
+hash = "0f73a28e6031b7a5b689be72ee26d3238c7f56a7978a515eb3d263389e587121"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/foundry_bastion/channel.json"
+hash = "aea1e5fd7f77b81576a307b922a529ea7224b4d2c1e856685c17ad82ff6da5ca"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/foundry_bastion/hallway.json"
+hash = "0eb5bb4a9d9e56fe52fb61073ea5a4d28da60976c0bf00fb46bf25204c1cea8a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/foundry_bastion/road.json"
+hash = "97227acdd46d521a36e08f5faef3ef9cacc1332f3725f8a34d62d2b5137d6054"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/foundry_bastion/tunnel.json"
+hash = "8b44bdba9095f9671fb74600c0bbce04ee813aef480411d1f4dedd91d285c01b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/mer_lab/building.json"
+hash = "047ad20780df043e7f7a02e4e418a55ebaeb576619b3caf919df48d39de5dfb6"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/mer_lab/center.json"
+hash = "0455495d410ab04cb054ddd79739f4cffc1af9568eb1579ca374c847605db9b6"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear.json"
+hash = "9a519f47712bb0cc0779d3ced357583e9f7c16db70709e42d1988a11811c85c6"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/closets/3x5/any.json"
+hash = "4d71d7520bfe9095464eee0bff442d7f9c6f86792156ce65a9d7f97fb1e951ee"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/closets/3x5/boxes.json"
+hash = "950478df81a00e78e87a0288738ddfddd00fd3b1f4889074f9f101d0e736c38b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/closets/3x5/parts.json"
+hash = "ade8f3e185a28b6986dddb93135929c215c7d1a04618f601d804eb14390098d1"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/closets/7x6/shelves.json"
+hash = "c88a7f8a5155edbcde64e9063fbc2f8c54c9f708004853519178dba7a440ff5f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/corners/7x7/left.json"
+hash = "7bab0458a843959d2e177f9317e218bb5b8a9393d41b94583e60f74ac593e57a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/corners/7x7/left_25.json"
+hash = "3c55959910c50052a40793351254f49a8980f26d9aafbc90ed129ff8be226f63"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/corners/7x7/left_50.json"
+hash = "6f830ee91c21edb168e75546f8b692c6e3d2748d727413ef195cc11156d566f2"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/corners/7x7/right.json"
+hash = "df4d64d07d577182795afc01dad25e163b37fc4ac6e2c7d64c2e8f332ea106f6"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/corners/7x7/right_25.json"
+hash = "331ebe8bfbbcf06bc5e1ac4e1ef296380ed4c1b3c12d81ff67672e75daf4e759"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/corners/7x7/right_50.json"
+hash = "e70d67a5efdad99cb377034f52751f60255f091e333470ff6ffa57347c3e66c4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/misc/door_air.json"
+hash = "69532e28100978d15be0026e8e6c1a9692a9124761d636daaa8bb7b61df9f2be"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/shipping/cargo.json"
+hash = "87c46ca66785dc417daddaebb739f3bcf55361bc71f9859fe7d0393b451b55a5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/shipping/shipping_variant.json"
+hash = "807eef03d4599fbe873ad402d51bfb92209c8d4358ef44cccc8c8eb1c09ebabc"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/shipping/shipping_variant_25.json"
+hash = "48be66eadee00e2d8abaddaec1baf7d74ee9634736c963f0809c03690ee4372e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/shipping/shipping_variant_50.json"
+hash = "575da5380436774c7833e925c12d341ea60ff91b81c27a094e9b76474074a8be"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/shipping/truck.json"
+hash = "b40b7990c040cf49270c194b8dfba553055defc7c9efb0aa70b0408aee4ffb27"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/strips/any.json"
+hash = "6d466e0206f62d24dd156e21d47edf7422be0b899e0be1e5b97ce551b61e2579"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/strips/any_25.json"
+hash = "3aafdf6d05bc5279e8d1df08e62cfb8f890c50b2f51feec53591b6d24a3d7f92"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/strips/any_50.json"
+hash = "cbded22d52ba713bebb5e00bf790fb401ecfdb11eeb2430244fab9f551e7c607"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/strips/medium.json"
+hash = "a7d270f16ddfb030c0c11bb8dea984e1698e9ac9671a29c37028b939cf16e035"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/strips/medium_25.json"
+hash = "e9b9ed36600b3287031538767e2a0a91b81b65c69971d25252f53e7bd0a1a739"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/strips/medium_50.json"
+hash = "fb5409367868b1e744c01c01ef9995ec257223a9ba6a23b28693980916b0b382"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/strips/small.json"
+hash = "72280ec5e664c037d7f2a9ede8a3ffe648327066609f3af982ab574016b6f1d0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/strips/small_25.json"
+hash = "52a7bfd6cb300c3e4aeb45c57530d26d459c6d0ce59e17f8c3843ada713b4489"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/decor/strips/small_50.json"
+hash = "cf31571ef739685b6050906600ba0ed5d55f198c538e70eb6bee346435ba1a73"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/dock/dock_building.json"
+hash = "2e076cf1bd966b69d9a052b4f6e0aed18812b79c40af6ee44cf054f38d985c70"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/reactor/building_face_dock.json"
+hash = "d6ff488787b64ec931676ae7a0a1f5b9e6139969dc680bc845e15f47a742bdec"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/reactor/building_face_entrance.json"
+hash = "1eb08697947d76d8f90b97eec865d1a64d0f2473e1226a8c83a458013cc34e75"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/reactor/building_face_tower.json"
+hash = "efc2640c44335343236e701ef11e30b23d36fbf6de02fb69deb86fe8c96a6e00"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/reactor/building_face_turbine.json"
+hash = "2a4a26d37a468b7c315bc240429ccf16d05329d9bf0d273f21cc80f22340d268"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/reactor/reactor_building.json"
+hash = "6f3fbb9281c0764e785a8e8095dfb0ba64b790a294284721f6ba211439a97629"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/reactor/reactor_face_dock.json"
+hash = "f0be28eb92dfbcab3f94d62844035f4229921ee3db053fa1b0622af02802e1b4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/reactor/reactor_face_entrance.json"
+hash = "9c76178235f1350e0d2eae1801e87ae9357491b2d668fa1b98f45e4bb66a51a2"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/reactor/reactor_face_tower.json"
+hash = "aff5d3ec98adeb139ca6c19c84d2ca86bc225cf416933b229ecbea2a85152e94"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/reactor/reactor_face_turbine.json"
+hash = "c47da67ffbe9d56eef6b6a3ea98e824b67579bba7ce61847f1bbb0811912c72b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/tower/tower_building.json"
+hash = "3b184164df58eab747dafc5832006e6558241d3fcf49449d2d30f1faf7db0817"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/tower/tower_connector.json"
+hash = "aa77333b81bc7e431679af0589179912eb2cc4bb629fadeb30d3389d746d08ac"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/turbine/turbine_building.json"
+hash = "2c34b905bbb1e92c4ee004ae78a9292fa6e83ef6458f050b7bc7b601eba253f5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/nuclear_plant/turbine/turbine_connector.json"
+hash = "a0eb36715baf1f2adbe059cc86cb9a1360e61ce366f1fecd0344a5d4d78b6430"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/oil_rig/building.json"
+hash = "c7ce53606261caca1caa92716a927c24772697400f573cb679d6fa6c4b202158"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/oil_rig/center.json"
+hash = "0cbef4202b43db8e93bb3196b303d6132e3457dadd808b91d7a73b33e441bec8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/oil_rig/tanks.json"
+hash = "17e6d0159fabbdfdab0225a9886592190c9a7b7cb8e3bea2eb1ff8121e2aa537"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/ruins/andesite.json"
+hash = "73ad9791ff45a687796efbaa6d6d4cf31e8dbaeaf8fcb673a6279d66de63a641"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/ruins/ruins.json"
+hash = "f4efc8e5b4f71179f242a403611b5d081ba336caa69f7ce20629bef4e56290a0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/ship.json"
+hash = "e8952f4d05496e797b81b6ac2913b2fc7fed81f5a0944236419e748c1d3139d0"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/enderio/recipes/sag_milling/blackstone.json"
@@ -4438,7 +4494,7 @@ hash = "646bb659bda04a5d04db91aa22398acefa6d69d9b0e8b5f5e42c9ef7ae312036"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/worldgen/structure/cities.json"
-hash = "f5b4bf55472b9c9f2c620860625fe53a895c156c59c451bd23cc8818d1021ce7"
+hash = "ef057c64eb825752a30ee7da208dcdae1aa6bc5245689dae291de50e402de8eb"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/worldgen/structure/desert_pyramid.json"
@@ -4795,6 +4851,14 @@ hash = "f74705f40918f3220e8b7bb577994a5f8903a364022750a1359fc96eb6b4addc"
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/seared/stone.json"
 hash = "84fd2dec1fc23f0eadc6efb1af54b53a2805251006907bbae5cadc366b0305de"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/tools/materials/composite/scorched_stone.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/tools/materials/composite/seared_stone.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/tools/modifiers/ability/blocking.json"
@@ -6582,7 +6646,7 @@ hash = "c72b62ecff281c1ccaee78722d0b581f9a1ef661e56678210402b8f1df762f3e"
 
 [[files]]
 file = "kubejs/assets/desolate_planet/lang/en_us.json"
-hash = "91f72b63e8054b5a29e3e95895821d446b5518643f2c445449881feb9c5c6ddd"
+hash = "9948ca683bd25bdc3f2949cc900135ae364d34649808148e8df0ba81e740d031"
 
 [[files]]
 file = "kubejs/assets/exdeorum/models/block/dust.json"
@@ -8625,16 +8689,12 @@ file = "kubejs/client_scripts/staple_foods_hide_jei.js"
 hash = "553d3faf56d29bd941121e81d39d3f89e1e12be1f4fc7f65fe1a85b7d8ca4faf"
 
 [[files]]
-file = "kubejs/client_scripts/survival_item_tooltips.js"
-hash = "7f3c256b2f1503b54c0a07a18133bf6fed617c3a44c62e1561b859e356af2c3e"
-
-[[files]]
 file = "kubejs/client_scripts/thermal_crate_hide_jei.js"
 hash = "e7f3296eabb666c6fb115aae97b2f0c12f1cda4ade8d726548899933f8ae7b29"
 
 [[files]]
 file = "kubejs/client_scripts/tutorial_tooltips.js"
-hash = "62e27da433dd4a5ab29809822b7d6e0df5f7a76ec1cb24f7e84c8a79fad16f89"
+hash = "74a7103c81125b31b7accb74930e51c2d6d5d858dd08505edaea8f7f479bc675"
 
 [[files]]
 file = "kubejs/client_scripts/water_tanks_bottle.disabled"
@@ -8650,7 +8710,7 @@ hash = "45cbc7b9b6efc4fa325786f3298e8480aae50d9ee67df39b877a1986155aec58"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "eb22b1bbc6910b4ac619cd249e578d329fc5e841431712b8da9cc0dc8d1e8d4f"
+hash = "2f36d385513a212a8c43774f9287d2b70efd63bf905a4acd973840ac8180a0c7"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -8770,7 +8830,7 @@ hash = "6c497f2df92d53eb2c5f15370ad3162b598775db6f1d176d71ed75a72a47165e"
 
 [[files]]
 file = "kubejs/data/kubejs/loot_tables/blocks/trash_pile_silk.json"
-hash = "068b64c08ce94a17eb6485f6744f98fd9ce2f800dc69fc577328a7737ff632a9"
+hash = "a2661039b4b0a54426c682367f0f6d43e72bc7faa861eab9f740409fb6e9b8d8"
 
 [[files]]
 file = "kubejs/data/kubejs/loot_tables/blocks/white_ship_chair.json"
@@ -8794,7 +8854,7 @@ hash = "ddff8b8672810e2d203c7a22bc99ada61d53879405f408b90236cbc3b66431bb"
 
 [[files]]
 file = "kubejs/data/kubejs/tinkering/station_layouts/crushing_hammer.json"
-hash = "8643ba9c5b3bb6b392700f439ea34cf015c0153aa0524678cdfb3d55c63285fb"
+hash = "027bd5dd26cda0821a7b70da1165bcf34d9cb2dffe7f186df61d2c2b6d9b2513"
 
 [[files]]
 file = "kubejs/data/kubejs/tinkering/tool_definitions/crook.json"
@@ -8802,7 +8862,7 @@ hash = "eb31e73408719a16d67efd263fd4c238bef0c0f18b33f041fe353f798d25b32a"
 
 [[files]]
 file = "kubejs/data/kubejs/tinkering/tool_definitions/crushing_hammer.json"
-hash = "762b9243ed56017cc3e0f125b579facb148292fbbb1499bb2d5bbbd1dc31e68b"
+hash = "7726aa0ae187969b0f6733db562667c5fe317c9e840fbecd6e2fda4263cdb091"
 
 [[files]]
 file = "kubejs/data/kubejs/tinkering/tool_definitions/pickaxe.json"
@@ -9242,7 +9302,7 @@ hash = "88e69cb55d51cf726063e67a25833c19fe99cb822750c0916142d845bac1eaab"
 
 [[files]]
 file = "kubejs/server_scripts/ae2.js"
-hash = "5ea5fd637cb2dc52359745fda8b1b65509ea8d955259e2a5f31cd748db6621aa"
+hash = "9268b633cc02311367be1dbeef23e83f3d8e969d37321b1e6839fff999849241"
 
 [[files]]
 file = "kubejs/server_scripts/barrel_compost.js"
@@ -9250,7 +9310,7 @@ hash = "58c6879dbe71f214c3c2c4b30f2f162aae97da1aaa4c00d0611abf1541e2ce55"
 
 [[files]]
 file = "kubejs/server_scripts/camel_pack_crafting.js"
-hash = "90856a75b9a16b7609890992efbce8b683d270fab4c6b5481bdd62e593a0f5af"
+hash = "305afb1e45435482ea45352119b8360f8be921b8a047196a9e735f66400bcee1"
 
 [[files]]
 file = "kubejs/server_scripts/compressed_hammer_recipes.js"
@@ -9269,8 +9329,8 @@ file = "kubejs/server_scripts/crafting/shaped/megatorch.js"
 hash = "e07ac40eba8e54906fc5d88afb4c9c9955ef23495b5008da4a82ac4b5d1c4923"
 
 [[files]]
-file = "kubejs/server_scripts/crafting/shaped/pcb_blueprint.js"
-hash = "67cd381a4def71cc6a960ffca4adf508e67a4dbd4fdc77922e024b0169bbc058"
+file = "kubejs/server_scripts/crafting/shaped/pneumaticcraft.js"
+hash = "6beca42e5e382e846201378f5b8330204553f0afafc6d8f0614cda4bdd9bf795"
 
 [[files]]
 file = "kubejs/server_scripts/crafting/shapeless/dirty_water_from_dirt.js"
@@ -9297,8 +9357,8 @@ file = "kubejs/server_scripts/create/thermal_mixing_compat.js"
 hash = "4c0b46ee78f6b88198c08ca25b2af6b26d6875b1fc629bf90752a02c1120c713"
 
 [[files]]
-file = "kubejs/server_scripts/crumbling_seared_bricks.js"
-hash = "aa166113b39860c4f7dd1719edcf0fc62948786be7df729478cc0cac885321a6"
+file = "kubejs/server_scripts/crumbling_bricks.js"
+hash = "c718303ec857cc1ccd130aba7036a7dfa681abe6ca6ff0017bc11fef99f13946"
 
 [[files]]
 file = "kubejs/server_scripts/enchantments.js"
@@ -9374,7 +9434,7 @@ hash = "8cf3dd4ded7c26e0c97a8408202cda1ab2a719e4df4325d25a5c80cc038e4d32"
 
 [[files]]
 file = "kubejs/server_scripts/removed_recipes.js"
-hash = "733f3d1ddd5632d790c5578b2e718415520f1641b0765d39f933a9ca40c93fbd"
+hash = "72cd584482aedc4566352732a8d6783202f3a1d02497e59487d0b34ba44748f7"
 
 [[files]]
 file = "kubejs/server_scripts/replace_vanilla_tool_recipes.js"
@@ -9414,7 +9474,7 @@ hash = "ba98b9e6f24ffa77d56c24c34b361cc15864b648dbc2515380543725c438a4a3"
 
 [[files]]
 file = "kubejs/server_scripts/stillsuit_crafting.js"
-hash = "406bf9b529d616e5eb65726bb6e222bbe91f1c4ba139ccc7fb91d0a64ef45763"
+hash = "d8afa53434d41f5ca9fa9a2f65ff70e395f732664aa702a183f71bf29ff320e8"
 
 [[files]]
 file = "kubejs/server_scripts/sunlight_detection.js"
@@ -9438,7 +9498,7 @@ hash = "499d463f1a0446383d07cc45c00ec24467b3ea6c36383d9d2065f2198e8fd4c6"
 
 [[files]]
 file = "kubejs/server_scripts/tags/misc.js"
-hash = "faa59e39b850da04a884ec06bc3b50e860e9d0d749d9af9855c115dccdda3f7c"
+hash = "efe5615e8c0f8ada90ac0f5541b73569add866978fea896367a96f0e259d7a20"
 
 [[files]]
 file = "kubejs/server_scripts/tags/plastic_scraps.js"
@@ -9610,6 +9670,11 @@ hash = "edb123325d870f3bd5e931f30f4dc1bf89d1b9be87f3aaf1b50f08f6f7d8e2db"
 metafile = true
 
 [[files]]
+file = "mods/advanced-loot-info.pw.toml"
+hash = "e7b0d5fd81b928fbf4678c44bc90dfb95118f9e56608e6daaa4e12f5e938e14b"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "5783e13e88cb69f19d36c9c8073e1a25ba1ba0cd96d7963398615384400e574a"
 metafile = true
@@ -9661,7 +9726,7 @@ metafile = true
 
 [[files]]
 file = "mods/attributefix.pw.toml"
-hash = "c05ab78a3363850217b7108f12adf63e29d647be3d594ec4efb8008061324e3b"
+hash = "f05cd3b2e55cf713289cae44e12794f66bc899280f5542f8339401f52a52a34a"
 metafile = true
 
 [[files]]
@@ -9681,7 +9746,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterblockz.pw.toml"
-hash = "88834fab03063c6a28f5f6aed6b28013b9030fa3487cb159fda999b030274fa2"
+hash = "e92ce8ae7ea61e7cb02327ca8e589c337202158d3a592862bebc7aca8a68001d"
 metafile = true
 
 [[files]]
@@ -9746,7 +9811,7 @@ metafile = true
 
 [[files]]
 file = "mods/cold-sweat.pw.toml"
-hash = "0a8012f47dbc5f5727c5901f85ae4d6b0750220e1f7b85656ede174e4de926d6"
+hash = "c353392fb52bd934759cda6da659c36135ff27f6d106020a9ef9f8ead04343bb"
 metafile = true
 
 [[files]]
@@ -9846,7 +9911,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "32c39798bad9d5b10b4ed53a9aa9d46971d4ad60b3777cd52dd34dbff26c3f4e"
+hash = "673574e7d10d0bcdc67746909bb682faeafa1cd0d27bb2f5cab68b04bb41c20e"
 metafile = true
 
 [[files]]
@@ -9861,7 +9926,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "827e29cda86c3fdf420b4c033ae6bdcb036c4f012600cf6167b1a565df3e9418"
+hash = "46b743ddfe026008bb98a1e0f5b2bc0c524d9ab578f93a084972190936fbbe32"
 metafile = true
 
 [[files]]
@@ -9901,7 +9966,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "c896f64cdd40f5b44b6939602b98975505d0aa4b14ab3986f5a43b1c5c67ddbe"
+hash = "06de51e5a2e92c78fc5fde530046191f8dbdef7a472973a5704c159f44f18526"
 metafile = true
 
 [[files]]
@@ -9911,7 +9976,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastsuite.pw.toml"
-hash = "d2323a031213b0efe588838d964a728c4bb256e6a59989f6575e04df51d02215"
+hash = "d27be8407395d2a10c4f06a1e5cd5cdfee6c0ebb55cecfaf180938489f65ad43"
 metafile = true
 
 [[files]]
@@ -9936,7 +10001,7 @@ metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "1850643cf5d129bd4b03d8a390b6517002f44742c797c769dc2bf444fa486cdb"
+hash = "492813eb84be2ee547d1119641a5b09ad9023dba624e900726b15dff1e86376f"
 metafile = true
 
 [[files]]
@@ -9946,12 +10011,12 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "b72c7c0038fd9adffd65341b1c9e235ab216fd2fe95fbb50332feb3244a74e3e"
+hash = "5622ac16d7e31a9d741c1ae0a965bbc6b10e83675f351b46490cc04e6e0bfd72"
 metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "01e61be303d676aa32b3a32077b5a5162fc78af97040eb994d42f3a625ebee67"
+hash = "395a23e8b3eae8c96fcb036246c7c9debceb30a874182d7d5db1dc939cfa6b77"
 metafile = true
 
 [[files]]
@@ -10020,11 +10085,6 @@ hash = "1eb4f08fdd06c12b4c081d04f86c73b6d063f04209ebd1fb101b77e2db395e17"
 metafile = true
 
 [[files]]
-file = "mods/just-enough-resources-jer.pw.toml"
-hash = "970fa94907c8db8aadcffa114bf5b38f7f4bb88d773f3a4a494972a14a43ec4b"
-metafile = true
-
-[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "ab3c4bdb5bb3bfb3b7dadfaa7ede0a624e31dc4f5f728816e06868ce591aa803"
 metafile = true
@@ -10042,6 +10102,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs-industrial-foregoing.pw.toml"
 hash = "330b4a57cdef0b41d59da0f5dfc605dc8221fa4c7db94d361caa19335d971160"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-mekanism-unofficial.pw.toml"
+hash = "dcc375ae9427fb652cb6d51d4b9cbe7f825d624c4900070ddf040fc341cabb67"
 metafile = true
 
 [[files]]
@@ -10071,7 +10136,7 @@ metafile = true
 
 [[files]]
 file = "mods/mantle.pw.toml"
-hash = "968343b70436530723e0aa3f925b382e63b52f1c842744d7ddecf5901970f63a"
+hash = "5d540febb455557892d372abb9fa7e35faf81be1be68b388679109f5175d64b5"
 metafile = true
 
 [[files]]
@@ -10096,12 +10161,12 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "d18b9811438096270a05115f3286faa11e17b7f364a7be8d3b4449ff8bc75af6"
+hash = "c73f3d6fbca15571238df36d5a41ed3887fd7ada988a9f83f349f6abcd634497"
 metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "635f6dda7d005ec9f6c105b41d445efab91946a8f2deeb591d5535e8feb12c30"
+hash = "9c0d51c0f90521cdf08d6c08bbfc24cf5d906187b2951d65d6f45b199b241fcf"
 metafile = true
 
 [[files]]
@@ -10121,7 +10186,7 @@ metafile = true
 
 [[files]]
 file = "mods/nosiphus-furniture-mod.pw.toml"
-hash = "c1924c7822ab46d5abd5c59399ca949b2608a3fe0c42b4019d7841c2f58f430b"
+hash = "4e3709489c693b31d783f22be60d59a1d991e008e32d784dfce4490d20031725"
 metafile = true
 
 [[files]]
@@ -10201,17 +10266,17 @@ metafile = true
 
 [[files]]
 file = "mods/rechiseled-chipped.pw.toml"
-hash = "f9e6f73d1babbd2e40e5672fd0e2bdb7152390c2c95e269648868fde530f23fd"
+hash = "5e4f42a18d7dfd7634327168a5ae030d50cabd99ccc7222bd22d8399f6096be7"
 metafile = true
 
 [[files]]
 file = "mods/rechiseled-create.pw.toml"
-hash = "9267b638dec084b806d3b6e3031d2727607c29cb9e2614687a700b93b67c3f2c"
+hash = "d63fbac2c13fdb37c68ea0fd8a444664532471542d659cb28a4e0f6680d8cbda"
 metafile = true
 
 [[files]]
 file = "mods/rechiseled.pw.toml"
-hash = "9d4dd0378dd4142de56758954b15e0c340cd1fe940da8ca1eec1e93569c18b5d"
+hash = "9e86215f7d0e8c1c69e5153009cec010fc1434d63ccdd8c2234d8b31ad9dafcc"
 metafile = true
 
 [[files]]
@@ -10236,7 +10301,7 @@ metafile = true
 
 [[files]]
 file = "mods/scarcity.pw.toml"
-hash = "d37f59f12aea077f074a93f1e3224d33a8ca94397ea638bcf1f7e6ee304c10f3"
+hash = "da1b38702959baf61f374e31a5be1e4468e0279e8c77071e53493af5f72ba174"
 metafile = true
 
 [[files]]
@@ -10266,12 +10331,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "ef06ffc776e260cfc7fec8502ffd38717c21749efeda04903438dbeff093a797"
+hash = "3e69a4d46689495b9ef0b670bb58c7f505f32f0b6daf56f8e32a0ccf1912becb"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "af11a0e31db8872d8c46b38e23ef5c7dc5bd14aae94e6dcdd6ebe8f98cc80c38"
+hash = "d30245616c584a9b11c5b6507858912ff79f7cd82de3f0458b0015c48b29db70"
 metafile = true
 
 [[files]]
@@ -10281,12 +10346,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "b1d43533264bbef73126c623bc25ddfbdecd5d3b5af4e42dfb0b546756e0c272"
+hash = "8aaaed446452027aeac3d260dea9db844d004ec58696f2c8a96b23eb6ddf7ef1"
 metafile = true
 
 [[files]]
 file = "mods/special-mobs.pw.toml"
-hash = "788f6cb19ab66a00e86acd7da8a07ba7542b937056121a3afc53f6b9bd8a2b58"
+hash = "84e629627fb3c88ca35e504b283110bf2b21db0d04956a9ffc1de4786c854738"
 metafile = true
 
 [[files]]
@@ -10301,7 +10366,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "c496d20511f5ff2360cb10fde4b5cef08b953a4da3f3591e301cb54042468d8b"
+hash = "fda66af649c66a214f06ed0cca9d86b0cb6dc9b3efb5e7c2a6c52e9f3cdf5109"
 metafile = true
 
 [[files]]
@@ -10390,10 +10455,10 @@ hash = "3073a22dcaf05d14733abe00dfb1344fb88fccc17a74b18df8c90918b0f1a142"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "9329c7b46e61656ad3bdc3db0de205a8eb061fac538444e1dea7ae407036b43a"
+hash = "4351ec6409c0e66606f3ee5486f6594dc0efaeaed1bb2921c25efcdbe30cdf7f"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "0e42af5a9f811367d5df2c21c8a37ef938b40d17db403c1d0f9947a1967c0010"
+hash = "0a8094e71a321a3c62dd8c1e6b8944b0b3ae1c37c0292f3a7790155b5bb13f57"
 metafile = true
