@@ -1,0 +1,13 @@
+name = "Tips"
+filename = "Tips-Forge-1.20.1-12.1.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/AMCbgyVw/versions/bOsklji6/Tips-Forge-1.20.1-12.1.9.jar"
+hash-format = "sha512"
+hash = "e029acc0526ca306b0e4706ce26b3028d20225574c8c6b4434f54b27223d09ab6d18123423bdce93acde9ddc83a343017f9bd96da86b01c3e438b0508a8e75b9"
+
+[update]
+[update.modrinth]
+mod-id = "AMCbgyVw"
+version = "bOsklji6"

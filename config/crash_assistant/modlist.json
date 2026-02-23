@@ -179,6 +179,13 @@
     "curseForgeHash": 1188811762,
     "modrinthHash": "66d0ac56f3f6f1efbd6ed7b3cb4a48824d0585c0"
   },
+  "cfm_wap-1.20.1-forge-1.2.0.jar": {
+    "jarName": "cfm_wap-1.20.1-forge-1.2.0.jar",
+    "modId": "cfm_wap",
+    "version": "1.2.0",
+    "curseForgeHash": 1321869180,
+    "modrinthHash": "89c78735e6555b7691caf9fd77a523ca67512421"
+  },
   "CGM-Unofficial-1.4.19+Forge+1.20.1.jar": {
     "jarName": "CGM-Unofficial-1.4.19+Forge+1.20.1.jar",
     "modId": "cgm",
@@ -305,6 +312,13 @@
     "curseForgeHash": 2572310949,
     "modrinthHash": "5531e149477b9e540684a296fb196238bf1d85e8"
   },
+  "craftingtweaks-forge-1.20.1-18.2.8.jar": {
+    "jarName": "craftingtweaks-forge-1.20.1-18.2.8.jar",
+    "modId": "craftingtweaks",
+    "version": "18.2.8",
+    "curseForgeHash": 2195681015,
+    "modrinthHash": "14105e247ccff9a7674fd8c85ce8c77e7f318846"
+  },
   "CrashAssistant-forge-1.19-1.20.1-1.10.28.jar": {
     "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.28.jar",
     "modId": "crash_assistant",
@@ -325,6 +339,13 @@
     "version": "1.1.2",
     "curseForgeHash": 795212286,
     "modrinthHash": "4b96ca65a8b0c5bbfc16b5a9532ed931d18c8925"
+  },
+  "create_connected-1.1.13-mc1.20.1-all.jar": {
+    "jarName": "create_connected-1.1.13-mc1.20.1-all.jar",
+    "modId": "create_connected",
+    "version": "1.1.13-mc1.20.1",
+    "curseForgeHash": 1389736234,
+    "modrinthHash": "14ecb2facb6eaa99635f03a46346d91a331b7768"
   },
   "create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar": {
     "jarName": "create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar",
@@ -996,6 +1017,13 @@
     "curseForgeHash": 2082955487,
     "modrinthHash": "c3e799b0b5d17dd1cc902b086009dc6dc77a8656"
   },
+  "Sync-0.2.0.jar": {
+    "jarName": "Sync-0.2.0.jar",
+    "modId": "sync",
+    "version": "0.1.0",
+    "curseForgeHash": 3765829024,
+    "modrinthHash": "42f1347bc5cc95706d96b452966423beef933120"
+  },
   "tagtooltips-forge-1.20.1-1.1.0.jar": {
     "jarName": "tagtooltips-forge-1.20.1-1.1.0.jar",
     "modId": "tagtooltips",
@@ -1058,6 +1086,13 @@
     "version": "1.6.0",
     "curseForgeHash": 3918943778,
     "modrinthHash": "955afd02aaf486dd5417f08e902584ddd954de1f"
+  },
+  "Tips-Forge-1.20.1-12.1.9.jar": {
+    "jarName": "Tips-Forge-1.20.1-12.1.9.jar",
+    "modId": "tipsmod",
+    "version": "12.1.9",
+    "curseForgeHash": 2041389298,
+    "modrinthHash": "033d62395ecf7939f82e5a69ef53cf62ad1afb7f"
   },
   "titanium-1.20.1-3.8.32.jar": {
     "jarName": "titanium-1.20.1-3.8.32.jar",

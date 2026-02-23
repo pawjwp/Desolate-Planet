@@ -9790,6 +9790,11 @@ hash = "2d6871bd64549145a139e93fc59a2ec9b7b17e50329ee86839b98c7ec2c13140"
 metafile = true
 
 [[files]]
+file = "mods/cfm-wap.pw.toml"
+hash = "fb7b975da2954d3ee7cadd93618c7b9b66cf721a743adbe552d778128c6f03a9"
+metafile = true
+
+[[files]]
 file = "mods/chipped-express.pw.toml"
 hash = "64de0920802dd64b4e4d0ab114437f3e76bc4b3b30bd6cc4e1a9b34a2bd4986b"
 metafile = true
@@ -9870,6 +9875,11 @@ hash = "0290ff439fe73ce0c144f1789a8ea3bb250cbe4fd0ba0958403c71e21746a692"
 metafile = true
 
 [[files]]
+file = "mods/crafting-tweaks.pw.toml"
+hash = "6a18fc2c584371e5f5fe6b621980e3ae4695bff2c5e90d7758c4acbf099743b0"
+metafile = true
+
+[[files]]
 file = "mods/crash-assistant.pw.toml"
 hash = "e5c1f88fd567db923c36303bee15a3ffd7ca610f8c2b7911c96693fcfd826ee2"
 metafile = true
@@ -9877,6 +9887,11 @@ metafile = true
 [[files]]
 file = "mods/create-cold-sweat.pw.toml"
 hash = "9d54b7b648a0f1eb8203afae0c86ba10f98a430964adac627a2a593f398e7ebc"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "8d3f40c638fa0085a62a3ac477a3f2ed23e63af62da2cdf502183fa0bddbca7c"
 metafile = true
 
 [[files]]
@@ -10432,6 +10447,11 @@ metafile = true
 [[files]]
 file = "mods/tinkers-tool-leveling-2.pw.toml"
 hash = "d61563247837d272916ed9126c995c7cbf119daeaa467d3dc016fb47bfec6656"
+metafile = true
+
+[[files]]
+file = "mods/tips.pw.toml"
+hash = "1200df8e3cd3d1214d9870c54408feb058cf7fda8371139ef02ef3fc89fac078"
 metafile = true
 
 [[files]]
