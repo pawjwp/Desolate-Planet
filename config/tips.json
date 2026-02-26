@@ -1,6 +1,8 @@
 {
-  "defaultCycleTime": 5000,
-  "ignoredNamespaces": [],
+  "defaultCycleTime": 8000,
+  "ignoredNamespaces": [
+    "tipsmod"
+  ],
   "ignoredTips": [],
   "hideUnlocalizedTips": false,
   "tipRenderWidthPercent": 0.35,

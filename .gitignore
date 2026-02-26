@@ -86,3 +86,7 @@ packwiz-scripts/forge-*-installer.jar.log
 !/saves/Original world, will reset when pack updates/region/r.0.-1.mca
 !/saves/Original world, will reset when pack updates/region/r.-1.0.mca
 !/saves/Original world, will reset when pack updates/region/r.-1.-1.mca
+
+# Tips
+/packwiz-scripts/tip_generation/tips
+packwiz-scripts/tip_generation/en_us.json
