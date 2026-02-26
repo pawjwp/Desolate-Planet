@@ -11,6 +11,11 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("minecraft:end_stone", (item, advanced, text) => { text.add(2, Text.gray("Can be automated with an extruder by casting liquid ender with lava."));});
     event.addAdvanced("biggerreactors:blutonium_ingot", (item, advanced, text) => { text.add(1, Text.gray("Processed from Cyanite in a Cyanite Reprocessor."));});
     event.addAdvanced("sync:shell_constructor", (item, advanced, text) => { text.add(1, Text.gray("Place next to a power source and right-click to provide a DNA sample.")); });
+    event.addAdvanced("tconstruct:dragon_scale", (item, advanced, text) => {
+        text.remove(1);
+        text.add(1, Text.gray("A remnant of a lost world... don't use up your last one!"));
+        text.add(2, Text.gray("Renewable by combining with phantom membrane."));
+    });
 
     // PCBs
     event.addAdvanced("pneumaticcraft:plastic", (item, advanced, text) => { text.add(1, Text.gray("Made by refining oil or melting plastic scraps from cities."));});
