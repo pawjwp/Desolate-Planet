@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.thermal.centrifuge([
         Item.of('mekanism:bio_fuel').withChance(0.25),
-        Fluid.of('minecraft:water', 100, {Purity: 2})
+        Fluid.of('minecraft:water', 50, {Purity: 2})
     ], '#forge:fruits').energy(1000)
 
     event.recipes.thermal.centrifuge([
