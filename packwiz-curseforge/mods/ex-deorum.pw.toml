@@ -1,13 +1,13 @@
 name = "Ex Deorum"
-filename = "exdeorum-1.48.jar"
+filename = "exdeorum-1.49.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4541d3f62428c49a0ac4311c8764e657d79224f7"
+hash = "8da39e1aaf767fb51d8ac84f58ba987b2b09dcc5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7288118
+file-id = 7666539
 project-id = 901420

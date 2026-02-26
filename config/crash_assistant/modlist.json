@@ -459,12 +459,12 @@
     "curseForgeHash": 538559316,
     "modrinthHash": "524be2ed63e9f131a17393ead67cd3fddc97ca2b"
   },
-  "exdeorum-1.48.jar": {
-    "jarName": "exdeorum-1.48.jar",
+  "exdeorum-1.49.jar": {
+    "jarName": "exdeorum-1.49.jar",
     "modId": "exdeorum",
-    "version": "1.48",
-    "curseForgeHash": 245425619,
-    "modrinthHash": "7f6c06072763f751312a1940b92acdf8298ffcbd"
+    "version": "1.49",
+    "curseForgeHash": 3613111127,
+    "modrinthHash": "681052e16bf210f2726d97cf8f3317038ea64b51"
   },
   "experimentalsettingsdisabler-1.20.1-3.0.jar": {
     "jarName": "experimentalsettingsdisabler-1.20.1-3.0.jar",
