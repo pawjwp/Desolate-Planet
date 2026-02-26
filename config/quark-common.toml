@@ -132,7 +132,7 @@
 	Shingles = true
 	"Soul Sandstone" = true
 	Stools = false
-	"Sturdy Stone" = true
+	"Sturdy Stone" = false
 	Thatch = false
 	"Variant Bookshelves" = false
 	"Variant Chests" = false
