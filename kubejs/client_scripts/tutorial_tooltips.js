@@ -10,6 +10,7 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("minecraft:end_stone", (item, advanced, text) => { text.add(1, Text.gray("Can be in made small quantities by placing glowstone dust in a barrel of lava."));});
     event.addAdvanced("minecraft:end_stone", (item, advanced, text) => { text.add(2, Text.gray("Can be automated with an extruder by casting liquid ender with lava."));});
     event.addAdvanced("biggerreactors:blutonium_ingot", (item, advanced, text) => { text.add(1, Text.gray("Processed from Cyanite in a Cyanite Reprocessor."));});
+    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => { text.add(1, Text.gray("Place next to a power source and right-click to provide a DNA sample.")); });
 
     // PCBs
     event.addAdvanced("pneumaticcraft:plastic", (item, advanced, text) => { text.add(1, Text.gray("Made by refining oil or melting plastic scraps from cities."));});
@@ -141,7 +142,7 @@ ItemEvents.tooltip(event => {
     });
     event.addAdvanced("minecraft:gravel", (item, advanced, text) => {
         text.add(1, Text.gray("Found underground or made from crushing cobblestone"));
-        text.add(2, Text.gray("Sifts into common, uncommon, and rare ore chunks, plus flint, coal, and redstone"));
+        text.add(2, Text.gray("Sifts into common, uncommon, and rare ore chunks, plus flint, coal, redstone, and diamonds"));
     });
     event.addAdvanced("exdeorum:crushed_deepslate", (item, advanced, text) => {
         text.add(1, Text.gray("Found deep underground or made from crushing deepslate"));
@@ -194,7 +195,7 @@ ItemEvents.tooltip(event => {
 
     // Rare other ores
     event.addAdvanced("minecraft:lapis_lazuli", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
-    event.addAdvanced("minecraft:diamond", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
+    event.addAdvanced("minecraft:diamond", (item, advanced, text) => { text.add(1, Text.gray("From sifting gravel or crushed deepslate"));});
     event.addAdvanced("minecraft:emerald", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
 
     // Ingots
@@ -248,10 +249,10 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('ae2:controller', (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crashed Controller in a structure."));});
 
     // Tinkers' Construct
-    event.addAdvanced("tconstruct:grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling seared bricks in the ruins."));});
-    event.addAdvanced("tconstruct:nether_grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling scorched bricks in the ruins."));});
-    event.addAdvanced("tconstruct:seared_brick", (item, advanced, text) => { text.add(1, Text.gray("Find crumbling seared bricks in the ruins."));});
-    event.addAdvanced("tconstruct:scorched_brick", (item, advanced, text) => { text.add(1, Text.gray("Find crumbling scorched bricks in the ruins."));});
+    event.addAdvanced("tconstruct:grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling seared bricks in cities."));});
+    event.addAdvanced("tconstruct:nether_grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling scorched bricks the foundry structure."));});
+    event.addAdvanced("tconstruct:seared_brick", (item, advanced, text) => { text.add(1, Text.gray("Find crumbling seared bricks in cities."));});
+    event.addAdvanced("tconstruct:scorched_brick", (item, advanced, text) => { text.add(1, Text.gray("Find crumbling scorched bricks in the foundry structure."));});
     event.addAdvanced("kubejs:crumbling_seared_bricks", (item, advanced, text) => { text.add(1, Text.gray("Can be crushed into seared bricks with a hammer."));});
     event.addAdvanced("kubejs:crumbling_scorched_bricks", (item, advanced, text) => { text.add(1, Text.gray("Can be crushed into scorched bricks with a hammer."));});
     event.addAdvanced("tconstruct:blazing_blood_bucket", (item, advanced, text) => { text.add(1, Text.gold("Craft by melting down blaze powder (or the blazes themselves)."));});
@@ -326,12 +327,6 @@ ItemEvents.tooltip(event => {
     });
 
     // Bug warnings:
-
-    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => {
-        text.add(1, Text.gray("Place next to a power source and right-click to provide a DNA sample.")); // Move this line back to misc section when fixed
-        text.add(2, [Text.red("Warning: "), Text.gray("Due to a bug with Sync, you may not respawn correctly when using shaders")]);
-        text.add(3, Text.gray("We recommend disabling shaders until this is resolved"));
-    });
     
     event.addAdvanced("pneumaticcraft:heat_sink", (item, advanced, text) => {
         // Remove from quest info when fixed
