@@ -3,7 +3,7 @@ ServerEvents.tags('item', event => { event.add('desolate_planet:crumbling_seared
 ServerEvents.tags('block', event => { event.add('desolate_planet:crumbling_seared_bricks', 'kubejs:crumbling_seared_bricks') })
 
 // Scorched tags
-ServerEvents.tags('item', event => { event.add('desolate_planet:crumbling_scorched_bricks', 'kubejs:crumbling_seared_bricks') })
+ServerEvents.tags('item', event => { event.add('desolate_planet:crumbling_scorched_bricks', 'kubejs:crumbling_scorched_bricks') })
 ServerEvents.tags('block', event => { event.add('desolate_planet:crumbling_scorched_bricks', 'kubejs:crumbling_scorched_bricks') })
 
 
