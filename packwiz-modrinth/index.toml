@@ -877,6 +877,10 @@ file = "config/cfm-common.toml"
 hash = "27aa738212d7314f08bed2fcfb782a146cf5889a3f0891a74dfb1c22e94d2b2e"
 
 [[files]]
+file = "config/cfm_wap.server.toml"
+hash = "97e4a3cdc28af740232c4dbaf9ad2ed8463dee24c3f04e4e47d92e6be453ce92"
+
+[[files]]
 file = "config/cgm-client.toml"
 hash = "b7c627160f8a6e35c2ea2e4fc9705fd54bb309bf77d3a792d291490ae8f34297"
 
@@ -953,6 +957,10 @@ file = "config/corpsecurioscompat-common.toml"
 hash = "55245c61420b1403ebe9c37bf63a4c4ccb98b234cdb128a5bf14c1f46370889a"
 
 [[files]]
+file = "config/craftingtweaks-common.toml"
+hash = "7ac94e5c0a1bfbe7611666c05491a2da0009940cfa6e7886d6a4f6051f672c09"
+
+[[files]]
 file = "config/crash_assistant/config.toml"
 hash = "a8d6107a495949fff1e2c31a3fb0262e60ea3998474da577853058e4b8d1738d"
 
@@ -966,7 +974,7 @@ hash = "52f394cd3754a29a6f236b1fe622bb430fa7e4632bce262eeb0333d71842bb52"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "93d72d5993c605559dc8c7e7a2c57e60fb4978c5d296e1fa7a2704bbd0a93656"
+hash = "ce88717c29a5048bb05e8301e9a0c25840f672f6c26d0546413cfb82a9ce6b18"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -979,6 +987,10 @@ hash = "d450dabe4d5eb00f28acc6397a33b39aca4d93d4d959fd0523f9e19d2ff6527e"
 [[files]]
 file = "config/create-common.toml"
 hash = "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
+
+[[files]]
+file = "config/create_connected-common.toml"
+hash = "bb3d13b619b8eaf0236ec23fb81407a8b29af778076b16694941b854f7ffa722"
 
 [[files]]
 file = "config/create_mechanical_extruder-common.toml"
@@ -1161,6 +1173,10 @@ file = "config/exdeorum/compost_colors/create.txt"
 hash = "0490da58e5d029e13ad488e29f397f469efb415d3946f3bcf1bfe28cb433f636"
 
 [[files]]
+file = "config/exdeorum/compost_colors/create_connected.txt"
+hash = "01efe2e82ae802181fcce0815068e25a10c882839c9bb2fde3fcce473ba34f3a"
+
+[[files]]
 file = "config/exdeorum/compost_colors/createaddition.txt"
 hash = "4870c96df63b83a03bfa42419014958bd390c1f0346633ccd986a0eed58bbe6e"
 
@@ -1211,6 +1227,10 @@ hash = "12263fd145616f0ab3e184fe2c2b18205821374bc017119339ff89a1b409d50b"
 [[files]]
 file = "config/exdeorum/compost_colors/industrialforegoing.txt"
 hash = "051ff8b5bf9b4161b1b5f332b59468986973eaccbf4c5668c927e51bb7d7381f"
+
+[[files]]
+file = "config/exdeorum/compost_colors/laserio.txt"
+hash = "2c624f345d90a8e81a32e64dac897f4c483ccc513abcc5088e0c4c20f60609e5"
 
 [[files]]
 file = "config/exdeorum/compost_colors/legumedelight.txt"
@@ -1398,11 +1418,11 @@ hash = "3f344aa8bb2787457def07f2ea08780c742d68d5a76c3fa990f3d6c560820f42"
 
 [[files]]
 file = "config/hqm/default/sets/Basic_Survival.json"
-hash = "45a8d0acd513a15319d39fe3bf28a92bcb9f943dadb0949a5170e8f1d8178625"
+hash = "a92109104eaaa8dda9fb6cf3da4fd74dc7921779bc19a885b7b839f1e119e9c6"
 
 [[files]]
 file = "config/hqm/default/sets/Like_Clockwork.json"
-hash = "26c16a4aca24fee929e26fb491f018ba8a95ab43e85dd5d1820f0fa1d1120bf6"
+hash = "ba999794661a3edd666dc087890c25734b76940780b8df7240243934b00319f3"
 
 [[files]]
 file = "config/hqm/default/sets/Salvage_Operation.json"
@@ -1422,7 +1442,7 @@ hash = "3aa078a84a0fd1f1ff441212a1b88e8249d5245e674d2d1f913c09663b019991"
 
 [[files]]
 file = "config/hqm/default/sets/Under_Pressure.json"
-hash = "8d47884e0c2472e0fe054545667376f82e938f36a6f0cf16005a3c2cfc2b1168"
+hash = "b108668f9fc19e36af1e9f61ed78ca2def4ec589bb023a7f90734af022cb4c01"
 
 [[files]]
 file = "config/hqm/front.png"
@@ -1542,7 +1562,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "f4685ca9266c2f0aa3e8ce4acdee8013ad68ff7ee703c4527ba7b2b77a39092c"
+hash = "9b49c9ef876116f1293e66acd62de52c10a1661c3bd56665b26016a906acc16f"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1574,7 +1594,7 @@ hash = "c6cf2a1f253bff9c24251312b981d31869b2dcb676f399a7ca2a7756cfb8f76d"
 
 [[files]]
 file = "config/lighty.config"
-hash = "b8f0491906b9f2310bb19907ad34fb52c133dde79e6b947544d87b3ca047e623"
+hash = "dd6e4349e7b3b442039bcb20e6e8b40a0b09c9e6fa5c7186b1203e8ec749dcd8"
 
 [[files]]
 file = "config/lmft.json"
@@ -1618,7 +1638,7 @@ hash = "1f22d8e270c33d9dbe3f4a7b076d98cd86efb7141c273caa60d8298040c1adc3"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "c541d1bc5aec739c9303f6a476023151fede25abe2c05c528c250a9025a2cc0e"
+hash = "e7149f3900342576d152b9b4ae2dd9d3aa1762f2eda724f663b4ba853823c158"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -2013,18 +2033,6 @@ file = "config/openloader/data/dustplanet/data/createaddition/recipes/rolling/st
 hash = "36a7db6ed6abec1835729104394b471f87c5bbfe157303a3a1f9a82f5398daf0"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/MER_lab/common.json"
-hash = "55333b01bcd844322f1ee45660dbf1a618475a768f97c75398057ea7949a748f"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/MER_lab/press.json"
-hash = "776d0f31df1a2fb830a0f201c39929e812b973bba790afb1540e638bf9865c89"
-
-[[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/MER_lab/rare.json"
-hash = "d3856e6212431ae34065eb79dc0136abbeb5bf5a94a2eb654880bf78a415a431"
-
-[[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/city/bedroom.json"
 hash = "5e6d175d3b26e18447869a0455a232be603cd38d6ef6ba81c8e42bb8e7c5fc79"
 
@@ -2075,6 +2083,18 @@ hash = "4cd4df3f6920e81b28998191829b85ad0afce7a6b2964916eb5db3d901fc1499"
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/foundry/treasure.json"
 hash = "fd9effe5b649bf91fca1c2d61d1afbce4a2bfc355831997d5f503b2eaeb20b32"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/mer_lab/common.json"
+hash = "55333b01bcd844322f1ee45660dbf1a618475a768f97c75398057ea7949a748f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/mer_lab/press.json"
+hash = "776d0f31df1a2fb830a0f201c39929e812b973bba790afb1540e638bf9865c89"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/mer_lab/rare.json"
+hash = "d3856e6212431ae34065eb79dc0136abbeb5bf5a94a2eb654880bf78a415a431"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/misc/gun/advanced_bullet.json"
@@ -2135,6 +2155,10 @@ hash = "03fe3987b2434c7bc96f174e7d2da42e4a43bc7450929846fd57360f9a58a130"
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/oil_rig/basic_gun_locker.json"
 hash = "a41945a56bdbc43d3d736ec6ae770e5c6afc3d688b5792e38e449ec180b5a277"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/smelltery/common.json"
+hash = "8c135729c2371d75086228332d7429e0bca15087fc6f4d2ac52acf3f0f33e88a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/loot_tables/chests/smeltery/common.json"
@@ -2386,7 +2410,7 @@ hash = "7c46d0af6901336572288ed6db49b2616b38255ebeff6907f06d34072e25fbf2"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/broken_apartment_small.nbt"
-hash = "2636f21254fe237d2180468fc1ed3186dfda550ba24e587b46e7383d2d6e5853"
+hash = "e606dc7f9d9ffada8e0944d1a299b95d50510958982244f14ed19ce312da5565"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/broken_office_small.nbt"
@@ -2418,11 +2442,11 @@ hash = "7e438b22fecf152f44d75f9420b229e6ebe915ee2ef59ef5bb82933db13893e1"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/smeltery.nbt"
-hash = "eb0e681526fa5e250f65356e52c440dedd3c811bef68fb37f6bde850f7313ed0"
+hash = "c05354e45d3a766f4e1d5cd4b9514e69c1e03433daab5432342d1d7249109820"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/building/smeltery_small.nbt"
-hash = "fe94351d31dc7a15bcd0dbeba2416e59a0885d3c4a500254c3ef78b95d347245"
+hash = "02bb580e59c905d3762f4c784e107440887e590edd197a38fb5776cda84b4c3e"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/city/road/cross.nbt"
@@ -2790,7 +2814,7 @@ hash = "d7f8ea807df173fb67a4a7482c71242092c874bb566459119f573776436062c4"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/3.nbt"
-hash = "f3da11a20c9aa6c82e4a83197a6cf5bad337732d2cf4e97216684e45d7924bdf"
+hash = "db96e8daeb4ead240f51e4fc421e8e61155b6e91130f29dcbf57d79724a80e0a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/4.nbt"
@@ -2802,7 +2826,7 @@ hash = "0a299a19e887fbf1b40555fb30a905b4bb76fa22cddfb6bc0abcbdd6de8aafa3"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/6.nbt"
-hash = "0ab5f6b77b8a9fc6e5014f8f29df2062d0a81912753dbcd6ea20dfc5ed9fc550"
+hash = "b049ecde6bfba99096fa6d90cb5c4f95a08dd302d8383ef8e63398f4f60e0bb5"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/smeltery_3x3/7.nbt"
@@ -2870,7 +2894,7 @@ hash = "8bcfce77fa1d9553bd0bc97502e09c0908fd2b4173110dc2471fe1b36a3e5029"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/building/tinker_big.nbt"
-hash = "cf44c7981c1086fa0989e30f50c71c7876b01f02688c51208707e601c890b387"
+hash = "db136759f3e6fd6e5a6f00d5712cabf2f59707959125fb1efb43072eff95c1f9"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/foundry_bastion/building/tinker_small.nbt"
@@ -3074,7 +3098,7 @@ hash = "19995f244c00d60b04f608f794d21e16e956a0c03956480898b3cc8ae121dc7d"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/back_left.nbt"
-hash = "4fcca406fdfc7f8f39d314e69bce1fd9ecda63937c6ecac46d56985094cc62d6"
+hash = "b822335c5500d33d1ea495e2ff864aef6208fce930fd3cc4f9b1e8a29d205f0a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/back_right.nbt"
@@ -3082,7 +3106,7 @@ hash = "f6d1f54bc3765e0d9f7045116449c695b6fea7ad8e9baaefcaedb876652d8fc5"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/center.nbt"
-hash = "52aa8820c85d9c8f49fc6df3868a828bd1372f2fdab32fd033975a4e837fb88a"
+hash = "b119c09c6ea748a82b7025a48124c0abe3fe4d3fedc049a175ad30d56ad39a60"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/front.nbt"
@@ -3094,7 +3118,7 @@ hash = "0fe31a53cd77ba93b87dc133c27b97d83f5ec08413b155eae44493dc2eb360a7"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/front_right.nbt"
-hash = "7ef776c147e1dfc3cecb32bc88ae2859fc9b741d5d71cff132c0591079e0b5e4"
+hash = "d911d3f65d1b9571b177042f79d3cdbbc51b58a6b48dedf8937d54e336267b0c"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/left/left_0.nbt"
@@ -4250,7 +4274,7 @@ hash = "01c0dcfe1a6d1f62989cbff62fa6ba894e8f9cb7adae0e8e2e191a02666b3359"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/dimension_type/overworld.json"
-hash = "0b25941a48f2b954b074074d58d6ac1830bc56e8b5e4ba761e17a9cc6913fb27"
+hash = "3f2724549569f75aa89eb66f66878c9aaafa05bc20ea551dfcbd52bf944f1443"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/functions/load"
@@ -4607,6 +4631,10 @@ hash = "9a74222a23ab631372dcf1e8fb8b71a01de32c70b5d2bf6279f80590361c2d99"
 [[files]]
 file = "config/openloader/data/dustplanet/data/pneumaticcraft/recipes/security_station.json"
 hash = "ebe60e79bf0a44f5ff5e48de22ac3dabc0ee61579231915ad983316283cb9d9f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/pneumaticcraft/recipes/uv_light_box.json"
+hash = "10bf257b1dab2bd7ba552715d8893cf13ffe0fa5d282b73c20df7daeb17c8cf7"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/pneumaticcraft/recipes/vortex_cannon.json"
@@ -6462,7 +6490,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "dc615ba167f336a4e054babcd8853e3d6becc89d66ea6f3116347c4bd436c9e7"
+hash = "4283366366b7ee055857d44ad31d3b8724ee00da0d6d8536917eeb2b0af59bf0"
 
 [[files]]
 file = "config/rechiseled_chipped-common.toml"
@@ -6499,10 +6527,6 @@ hash = "257fbdd7a536a41ce332c3416da84946c6825c88cb81a28ae96956f79f36e6e2"
 [[files]]
 file = "config/sliceanddice-common.toml"
 hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
-
-[[files]]
-file = "config/smart_recipes.properties"
-hash = "51574e9207715ec28af125fb47114dd9bad6b2d8cb3f6943980a52e17da96e66"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
@@ -6542,7 +6566,7 @@ hash = "3c06caf50d71da6c1fca3ebe263a85ee680be12399234e68b4b9a005125ffd77"
 
 [[files]]
 file = "config/sync-common.toml"
-hash = "f134346777dfccf1a68dc8f9a0f8481d60db3f0d538334ba95a48961c19be192"
+hash = "0b2ecae4e3860576406f0d06a7cc2afa541131e2b1c4d84228d9cb6fabd41001"
 
 [[files]]
 file = "config/tconstruct-client.toml"
@@ -6578,7 +6602,7 @@ hash = "add7b4dd4feca681131ff87f343254cdc254fc49ceeb9b8f30467811782c9b76"
 
 [[files]]
 file = "config/thirst/item_settings.toml"
-hash = "be92aecb89410c2dbebcfc0d511c52942f8b5fa41c8e793eff63b57bdc5a37d9"
+hash = "a5e2bd1e49106fa66ef5a7b3032295823a42304e1bc030cee0d18d44d3f31b60"
 
 [[files]]
 file = "config/thirst/keyword.toml"
@@ -6595,6 +6619,10 @@ hash = "da652d992d05e8a3ba36e17ec3f32cebfdb56a6c33bfd7108795ea5c3c422520"
 [[files]]
 file = "config/tinkersleveling-common.toml"
 hash = "8bd638f14746adb72833ad7240773f5773297102c612b3c4c9ec05fb33270607"
+
+[[files]]
+file = "config/tips.json"
+hash = "583b9740eb9e62c9fcf6a1c4ece87f530005e39beecb4c8cd65ba0e3b0c10c31"
 
 [[files]]
 file = "config/titanium/titanium-tags.toml"
@@ -6647,6 +6675,238 @@ hash = "c72b62ecff281c1ccaee78722d0b581f9a1ef661e56678210402b8f1df762f3e"
 [[files]]
 file = "kubejs/assets/desolate_planet/lang/en_us.json"
 hash = "9948ca683bd25bdc3f2949cc900135ae364d34649808148e8df0ba81e740d031"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/basic_build_perimeter.json"
+hash = "d917799322481b2663fb713a10d8c02edf554d8ebf58b03e45307645f258906a"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/basic_check_quests.json"
+hash = "df521b768b5ee3d6be2194f9abcc8f5ecac5c0588678effe5119faa42f1f902c"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/basic_check_spiders.json"
+hash = "548c0f63b1d82714b45b40e9b5a4212fcf6936cd9ac4913190f92f8203eee227"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/basic_cobblestone_generator.json"
+hash = "a6e132cdad9d44fa6a010c7c901361a7dc4d97ae6d0e7b672efc024631d883e3"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/basic_seeds.json"
+hash = "3e8dc47157f3aae12463c48210560789c8aad54c1d681c71a26a5a65c5507c55"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/diet_balanced_diet.json"
+hash = "9d46b8f00292a164fb32d95447d91d7c2bd0bd4ba27df0d8f495d06c8c86b6b2"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/diet_high_fruits.json"
+hash = "2b6286c1b5a690ddc05f660f0552ff73ef8e2ac943f9bf1aa139ff4ebf43fd28"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/diet_high_grains.json"
+hash = "39670542f7b3151aaafeb703df93443dd65f56f0e61256b27e98756d514ea270"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/diet_high_proteins.json"
+hash = "c7eb854b0360a8d37dbcdccf5c09d298837ec49ae152ab96dd6fb5b9e2934157"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/diet_high_vegetables.json"
+hash = "adb39192917784e75fc2d72c08a1b12ddb065edece0cc6e5e5b8de69ac1232ea"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/diet_low_fruits.json"
+hash = "5d333b5699bd7340abd4b59d44b3f6e2df3a3dcb4da54f7ef6216903ac70428a"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/diet_low_grains.json"
+hash = "347320e846f087b2c07a83d9c7148c07fae5858257e787976b9833e12dee3c06"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/diet_low_proteins.json"
+hash = "c37ab2c18d8d21ab4825ed659353fc5900055998411b51481b940e583e6e9ad2"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/diet_low_vegetables.json"
+hash = "bf8e31b34af838614928b1e2002f025f87c62f79f9394ea93c01dbfed294f054"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/diet_sugars.json"
+hash = "3c024f081a90a3aac5c211e17c8589f7c01c711c2a8ee51c8d33de0558267232"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/drink_acceptable_water.json"
+hash = "f830b68471d3ee69f8faab9fbd291b5cad792096f7e49ecd2ef48039c5e4f3f5"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/drink_camel_pack.json"
+hash = "abf1ccd044970350e309cf2f0e6ed025963ed4939626d29ce941641a6f50d215"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/drink_camel_pack_lava.json"
+hash = "515310ae807e312f2f938a5db023ab92eb0e410d2f8ee920d28e0c514e75f214"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/drink_campfire_purification.json"
+hash = "125a49e401c3dbba40a1225b07ffb9bd35d486b3b9556fd1b207685200256dde"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/drink_composting_leaves.json"
+hash = "02c0d7033bd8339b6d89f0d30885c1eba24b8be0ae703598909ed820e801fd28"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/drink_composting_sawdust.json"
+hash = "ac7a8ad9d8b178acc21053e229d4407b0cfde25f78d802244161b0e0a5b1bddb"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/drink_stillsuit.json"
+hash = "b373a38c2a4ed2ac4a740352329b2f8d96e1150a19807eb0805ca6cdf53e2b2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_crook_drops.json"
+hash = "c727e1c9ac02da117ffbc5088a8dce62ce1ca79179e291902e44c35e603ad94d"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_crook_oak_leaves.json"
+hash = "6e57491f1b7c0749cc30d5496d88d4ac1f08898e6bc717e50db2370a668d79b0"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_crucible_lava.json"
+hash = "cb52325925e0a04dc3bfdca54bf39fc88d2136fcb68fba3ffb028093f0c78ac1"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_crucible_ores.json"
+hash = "a3cee8f90b39a730992de27c2d8510e3b15c567e788f639c14123be94b054a2e"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_crucible_water.json"
+hash = "d0ef790bb8a7a485c9d86fafa7eebee9774aa5e6bff22bac941ed01a93b02ae0"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_automation.json"
+hash = "0b75c01c2c8a141f61cac86e0c087a18709e17c4d746bde97aa475b0f56000b3"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_crushed_blackstone.json"
+hash = "867b9ecb81452348c4c11845bda74432d7b46b080209a9b154ab0e3ad815f4d4"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_crushed_deepslate.json"
+hash = "c811251874127011a7735c009c041e4b2c064ff0db82372c6f9e81128948ef46"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_crushed_end_stone.json"
+hash = "dd1800812c0be850e6885d30025925cd755aad395fec70ab1d9d69c2b25962d6"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_crushed_netherrack.json"
+hash = "00068d6b28193336a8e18e390d9a8ba1c3781a0dd1bc072cddaac786c0ebdc83"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_dirt.json"
+hash = "0eef109898a55b3da286d6f46baf4d55332b2e72888e73676f00fb49fb1a4a06"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_dust.json"
+hash = "f13ffa1b250b43d11e5607abcc06747939eca3a8c3d803f688a1a1ec777d649a"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_gravel.json"
+hash = "0e7703c4851a362aea963539a7ea1af6eea6d722fd455d1265fe7ecc4bc68256"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_moss.json"
+hash = "8b1735090fa1d67cbcf3c3fe0e16b45d8960954a7fb355dd1b06fba4823b7a8b"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_multiple_sieves.json"
+hash = "54427ea64307eef01e3433c0c7d8b015c361842c50f0b3905d2ffe97e8227142"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_podzol.json"
+hash = "cb9fa25664e55f8b7a43101d1970367f799bb671bb9d9b8e29e149c10e06a3a0"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_sand.json"
+hash = "844c31af229e8515e69bbd84cde0af63879fd7da78e47c197b8ddffdc4a33928"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_soul_sand.json"
+hash = "201c32827d3c44ea911cdfea0b6f45520fbd3a8be5e414b2d53047b7012ed91c"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/exdeorum_sifting_upgrade_mesh.json"
+hash = "777d2f3dd878f936119df38bd9cf953a70e7b607b14a461b0022639e4e0910e2"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/misc_building_gadgets.json"
+hash = "719918f63464ebf93f24a59f17c20951cb4d25565ec9510e04162f87b3d10ef0"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/misc_building_gadgets_exchanging.json"
+hash = "b42878a11c89184088a223ef7e205b01fb0feb62d4759354ba2f47cb74a67eff"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/misc_crafting_end_stone.json"
+hash = "4cc88119c36a1c06911efda67ce4eb488711d34084d45bb31b03f46781e89366"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/misc_crafting_netherrack.json"
+hash = "ac9ab50b575043987dcd0dd61fc950b78fc043cbf7225e7811e6128a3217032c"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/misc_finding_cobalt.json"
+hash = "9f00a0afda4db8c5b3111455351ab124bbca2fe699a729a45c66ee14df4fd82e"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/misc_finding_netherite.json"
+hash = "49db384018e616b50924b384cd7c49e116c6251e75a01ad5b7140959ba0eb1ed"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/misc_plastic_scraps.json"
+hash = "4dbe032f864866c8b33ad3e84b87551cf0b1888d532063dd6fbcceb659418ffe"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/misc_substituting_paste.json"
+hash = "a00aa553459e9f3ce0f3bb9198721514a96353f9368e1a932f8e37d2343c4c2b"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/structures_loot_preview.json"
+hash = "8eb574e0bdd407a26346bd3c6a961d2a32165a3aecc53e52b84b7095a9473471"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/structures_navigation_rover.json"
+hash = "92b6b1ca943f67a8d09b6689fe2942cb6791dee13b4988912cf17a9d3fa42eed"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/structures_trash_piles.json"
+hash = "f84578ec2e23fc790ffe7da7fd08c1554b544fb918854296a209e9e36f8bf63f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/structures_warning_spawners.json"
+hash = "4ba2962b3d5fbb34bd110a1d23e1ee4ecf78686e2112153a818400336d766010"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/tech_if_dissolution_spawn_eggs.json"
+hash = "aa14c029c7ed6f137cca5b9813a34f27d631e8db737f03412da4a8e87bafaa39"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/tech_mekanism_energy_redstone.json"
+hash = "ca68bd607f99365c61534e6531a99ce80c36b0e2b56b6ee911e45583e513fe58"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/tinkering_crafting_seared_stone.json"
+hash = "8457df6042543821caffd270d38d98df73f7f8560878f3aba658c8aa4605e8f5"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/tinkering_ore_doubling.json"
+hash = "a2eb2715bb843d2783428d451b28b0d9a9c6bad1a4dd0f074782d5ed58b3879b"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/tips/tinkering_part_swapping.json"
+hash = "e17abd6d4c86ba42454f31cfe1e0b2455e7e6d265d2ca9217923fb193e1a7e00"
 
 [[files]]
 file = "kubejs/assets/exdeorum/models/block/dust.json"
@@ -8625,6 +8885,10 @@ file = "kubejs/assets/sync/textures/item/sync_core.png.mcmeta"
 hash = "5af2b7d16f0c37f320f3a1f60fbc76a1900eead187c29893b7464bfc0a2adf74"
 
 [[files]]
+file = "kubejs/assets/tips/lang/en_us.json"
+hash = "93eac43c83614b9422ef17b8dadf1219006b7fead94fc24c0225a3c9cfa399cb"
+
+[[files]]
 file = "kubejs/assets/zombieawareness/sounds/investigate/zombie_investigate_1.ogg"
 hash = "bd8c119726e035b76f511528bf96607d04eadc2da34f7fe7df60a6361a3001ae"
 
@@ -8694,7 +8958,7 @@ hash = "e7f3296eabb666c6fb115aae97b2f0c12f1cda4ade8d726548899933f8ae7b29"
 
 [[files]]
 file = "kubejs/client_scripts/tutorial_tooltips.js"
-hash = "74a7103c81125b31b7accb74930e51c2d6d5d858dd08505edaea8f7f479bc675"
+hash = "2e3c5596a0201f020c488a54f1b17ee49386c0b062ce38d8e242cbe8a9604180"
 
 [[files]]
 file = "kubejs/client_scripts/water_tanks_bottle.disabled"
@@ -9358,7 +9622,7 @@ hash = "4c0b46ee78f6b88198c08ca25b2af6b26d6875b1fc629bf90752a02c1120c713"
 
 [[files]]
 file = "kubejs/server_scripts/crumbling_bricks.js"
-hash = "c718303ec857cc1ccd130aba7036a7dfa681abe6ca6ff0017bc11fef99f13946"
+hash = "e7177c6fbff13bd064df6f17ffec0bab968a64d6753860ce8d2cf6d29ba34a06"
 
 [[files]]
 file = "kubejs/server_scripts/enchantments.js"
@@ -9398,7 +9662,7 @@ hash = "5395af010f9f7ba7a8f3e4894e97435c3ab1aaca6713d2fae73a5d5e6b9d4af3"
 
 [[files]]
 file = "kubejs/server_scripts/lava_crucible/water_crucible_melting.js"
-hash = "834a96ab7a566808f3a864b7b657b10a66dab906d5e7ea764d253cc1ef0735d7"
+hash = "ecb165d90b42a1c5ad8153b1b6e2d6cd2b8156773c0f86240cd95e5f9d8ca3d7"
 
 [[files]]
 file = "kubejs/server_scripts/leaf_drops.js"
@@ -9462,7 +9726,7 @@ hash = "4bbbd2c581301e766d6a4b971f7511d4ca887227f09a724300a2bb7c88f5850b"
 
 [[files]]
 file = "kubejs/server_scripts/sieve_tables/sieve_drop_tables.js"
-hash = "54a01c070ef0c2684917a296e779993e3b8627243217111d5c2dbe84681a39aa"
+hash = "809ca6ceb23e957bfd7d539a340eaf4942b5e6ed949c1856c340dc2342a8a1cc"
 
 [[files]]
 file = "kubejs/server_scripts/simplyjetpacks.js"
@@ -9534,7 +9798,7 @@ hash = "de2abc56afe638831a04f99c90a9fa7b453897353ffafdfb2cdedc319028915d"
 
 [[files]]
 file = "kubejs/server_scripts/thermal/centrifuge.js"
-hash = "209832e1dd72825139c236acafbbe8ac4081b1d691997743c0d5e00fdd665e5e"
+hash = "37e0eb568481123c116627380947b61500db5e54955b2933b8c296c6804ecf5e"
 
 [[files]]
 file = "kubejs/server_scripts/thermal/create_pressing_compat.js"
@@ -9966,7 +10230,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-deorum.pw.toml"
-hash = "b5f5e28e2e5c6abe2dbea6cb9b37c45d2728a2a498cdaf5261dcde2bd598a671"
+hash = "501769d5efcc0bdcf391c4d7f0baae82eaf9110947d27dc214960388cccb2377"
 metafile = true
 
 [[files]]
@@ -10132,6 +10396,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs.pw.toml"
 hash = "c029203eb50554be89525f7923a744b8a4395255e556059603db65a42778ec2d"
+metafile = true
+
+[[files]]
+file = "mods/laserio.pw.toml"
+hash = "fadc07b40f8f4c69283764335b8c40353cb7b9b917a41f358f8711af1509b072"
 metafile = true
 
 [[files]]
@@ -10385,8 +10654,8 @@ hash = "fda66af649c66a214f06ed0cca9d86b0cb6dc9b3efb5e7c2a6c52e9f3cdf5109"
 metafile = true
 
 [[files]]
-file = "mods/sync-forge.pw.toml"
-hash = "70902e8b9d72b013bf146eb1a836b09523fa3894976341279b192880dc0bf398"
+file = "mods/sync-rereported.pw.toml"
+hash = "501280ec39410c943bb1e3149ec2c027f783e2ef4581fe662d9cdfe50041af05"
 metafile = true
 
 [[files]]
