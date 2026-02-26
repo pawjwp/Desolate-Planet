@@ -848,6 +848,10 @@
         {
           "id": "pneumaticcraft:pcb_blueprint",
           "Count": 1
+        },
+        {
+          "id": "minecraft:glowstone",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
