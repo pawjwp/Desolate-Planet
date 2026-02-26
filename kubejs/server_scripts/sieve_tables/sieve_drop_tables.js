@@ -199,6 +199,7 @@ ServerEvents.recipes(event => {
             scarcity:oak_seed	2	8	9.6	11.2	12.8	14.4
             scarcity:dark_oak_seed	1.3	5	6	7	8	9
             tconstruct:earth_slime_sapling	0	1.3	5	6	7	8
+            scarcity:rubberwood_seed	0	1	4	4.8	5.6	6.4
             scarcity:jungle_seed	0.8	3	3.6	4.2	4.8	5.4
             tconstruct:earth_slime_grass_seeds	0.8	3	3.6	4.2	4.8	5.4
             tconstruct:sky_slime_sapling	0	0.8	3	3.6	4.2	4.8
