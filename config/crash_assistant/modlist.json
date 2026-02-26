@@ -688,6 +688,13 @@
     "curseForgeHash": 2919309141,
     "modrinthHash": "c2720e589a292d5d168ef71a57f5dc3436db96b1"
   },
+  "laserio-1.6.8.jar": {
+    "jarName": "laserio-1.6.8.jar",
+    "modId": "laserio",
+    "version": "1.6.8",
+    "curseForgeHash": 2261526642,
+    "modrinthHash": "f9e8dc07506eaa058f64e875e1f46dcd44ab6003"
+  },
   "legumedelight-1.1.0.jar": {
     "jarName": "legumedelight-1.1.0.jar",
     "modId": "legumedelight",
