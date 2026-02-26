@@ -332,7 +332,7 @@ ItemEvents.tooltip(event => {
     });
 
     // Building Gadgets
-    event.addAdvanced("buildinggadgets2:gadget_building", (item, advanced, text) => { text.add(1, Text.gray("Used to automatically place large amounts of blocks, like an advanced version of a building wand.")); });
+    event.addAdvanced("buildinggadgets2:gadget_building", (item, advanced, text) => { text.add(1, Text.gray("Used to place large amounts of blocks, like an advanced building wand.")); });
     event.addAdvanced("buildinggadgets2:gadget_exchanging", (item, advanced, text) => { text.add(1, Text.gray("Used to exchange large amounts of placed blocks with other blocks.")); });
     event.addAdvanced("buildinggadgets2:gadget_copy_paste", (item, advanced, text) => { text.add(1, Text.gray("Used to copy and paste large amounts of blocks.")); });
     event.addAdvanced("buildinggadgets2:gadget_cut_paste", (item, advanced, text) => { text.add(1, Text.gray("Used to cut and paste large amounts of blocks.")); });
@@ -345,11 +345,16 @@ ItemEvents.tooltip(event => {
         "buildinggadgets2:gadget_cut_paste",
         "buildinggadgets2:gadget_destruction"
     ], (item, advanced, text) => {
-        text.add(2, [
-            Text.gray("Configure by holding the "),
-            Text.keybind("key.buildinggadgets2.settings_menu").white(),
-            Text.gray(" key.")
-        ]);
+        text.remove(2);
+        if (!event.shift) {
+            text.add(2, [
+                Text.gray("Configure by holding the "),
+                Text.keybind("key.buildinggadgets2.settings_menu").white(),
+                Text.gray(" key. Hold "),
+                Text.white("shift"),
+                Text.gray(" to view current settings.")
+            ]);
+        }
     });
 
     // Bug warnings:
