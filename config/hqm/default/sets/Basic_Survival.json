@@ -352,7 +352,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can use the crucible as a mini-smeltery. Shift-right click to place a faucet. It only takes blocks, not dusts or broken pieces of ore. If you\u0027ve still have lava by the broken engine, you can use that to heat your crucible. Also, you can make casts by pouring gold over stone parts.",
+            "text": "You can use the crucible as a mini-smeltery. Shift-right click to place a faucet. It can accept ore blocks or chunks. If you\u0027ve still have lava by the broken engine, you can use that to heat your crucible. Also, you can make casts by pouring gold over wood tool parts.",
             "isTranslationKey": false
           },
           "items": [
@@ -1796,7 +1796,7 @@
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "If you want to sift faster, you can place sieves next to one another, allowing up to 25 sieves to be used at once. Alternatively, a compressed sieve takes up just one block and can sift compressed dust.",
+            "text": "If you want to sift faster, you can place sieves next to one another, allowing multiple to be sifted at once. Alternatively, a compressed sieve takes up just one block and can sift compressed dust.",
             "isTranslationKey": false
           },
           "items": [
@@ -1830,7 +1830,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "You\u0027ll need some tools to stay alive out here as well. Bone tools are likelythe best starting material, but you can make a different type if you\u0027d like. Wood and stone tools are generally ineffective.",
+        "text": "You\u0027ll need some tools to stay alive out here as well. Bone tools are likely the best starting material, but you can make a different type if you\u0027d like. Wood and stone tools are generally ineffective.",
         "isTranslationKey": false
       },
       "x": 62,

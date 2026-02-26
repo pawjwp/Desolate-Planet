@@ -163,7 +163,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Brass plates are made from putting brass ingots into a mechanical press, and electron tubes are made from polished rose quartz. Rose quartz is crafted from quartz and redstone, and it can be polished by made by using sandpaper while the rose quartz is in your offhand.",
+            "text": "Brass plates are made from putting brass ingots into a mechanical press, and electron tubes are made from polished rose quartz. Rose quartz is crafted from quartz and redstone, which can be polished by using sandpaper while the rose quartz is in your offhand.",
             "isTranslationKey": false
           },
           "items": [
