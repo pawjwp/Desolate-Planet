@@ -1010,13 +1010,6 @@
     "curseForgeHash": 2861020415,
     "modrinthHash": "9fa704bce5ef3fc2b38d1ba73cb6f6a38f10e33f"
   },
-  "Sync-0.1.8.jar": {
-    "jarName": "Sync-0.1.8.jar",
-    "modId": "sync",
-    "version": "0.1.8",
-    "curseForgeHash": 2082955487,
-    "modrinthHash": "c3e799b0b5d17dd1cc902b086009dc6dc77a8656"
-  },
   "Sync-0.2.0.jar": {
     "jarName": "Sync-0.2.0.jar",
     "modId": "sync",

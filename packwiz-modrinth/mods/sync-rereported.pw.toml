@@ -1,0 +1,13 @@
+name = "Sync Re-Re-Ported"
+filename = "Sync-0.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qN9hcsQT/versions/gtF5mNXG/Sync-0.2.0.jar"
+hash-format = "sha512"
+hash = "723f612a33f92081509bb3337f810fc8593c18629fb47f8eb34dd9d9d2ee4de093dac257b4e1c67b37513be4db2ff7aa1be2cd6391cff45ad4ff6bd9d507a77d"
+
+[update]
+[update.modrinth]
+mod-id = "qN9hcsQT"
+version = "gtF5mNXG"

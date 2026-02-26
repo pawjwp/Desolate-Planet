@@ -24,6 +24,8 @@
 		consumeItemInCreative = false
 		#Custom error message when missing required item (use %s for item name, %d for count)
 		missingItemMessage = "You need %s x%d to construct a new shell!"
+		#If syncing on death will be blocked if an original (non-constructed) body died
+		mustMaintainOriginalBody = false
 
 	#Shell Storage Settings
 	[general.storage]
@@ -34,8 +36,8 @@
 		#Range: 10 ~ 9223372036854775807
 		shellStorageCapacity = 320
 		#Energy consumption per tick for shell storage
-		#Range: 1 ~ 1000
-		shellStorageConsumption = 1
+		#Range: 0 ~ 1000
+		shellStorageConsumption = 0
 		#Whether shell storage accepts redstone power
 		shellStorageAcceptsRedstone = true
 		#Maximum ticks shell storage can run without power

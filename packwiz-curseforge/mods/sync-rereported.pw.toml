@@ -1,0 +1,13 @@
+name = "Sync Re-Re-Ported"
+filename = "Sync-0.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "79010f9cfeb48ee66c7d60054c8d8260d5630f22"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7679221
+project-id = 1280121
