@@ -102,6 +102,35 @@ if not "%PW_EXIT%"=="0" (
 )
 
 echo.
+echo === Patching manifest.json in exported zip (recommendedRam) ===
+for %%Z in ("%EXPORT_DIR%\*.zip") do (
+  echo   Patching "%%~nxZ" ...
+  powershell -NoProfile -ExecutionPolicy Bypass -Command ^
+    "Add-Type -AssemblyName System.IO.Compression;" ^
+    "Add-Type -AssemblyName System.IO.Compression.FileSystem;" ^
+    "$zip = [System.IO.Compression.ZipFile]::Open('%%Z', 'Update');" ^
+    "$entry = $zip.GetEntry('manifest.json');" ^
+    "$sr = New-Object System.IO.StreamReader($entry.Open());" ^
+    "$json = $sr.ReadToEnd(); $sr.Close();" ^
+    "$q = [char]34;" ^
+    "$m = [regex]::Match($json, '\]([\s]*?)\}');" ^
+    "if ($m.Success) {" ^
+    "  $ws = $m.Groups[1].Value;" ^
+    "  $rep = '],' + $ws + '  ' + $q + 'recommendedRam' + $q + ': 8192' + $ws + '}';" ^
+    "  $json = $json.Substring(0, $m.Index) + $rep + $json.Substring($m.Index + $m.Length);" ^
+    "};" ^
+    "$entry.Delete();" ^
+    "$newEntry = $zip.CreateEntry('manifest.json');" ^
+    "$sw = New-Object System.IO.StreamWriter($newEntry.Open());" ^
+    "$sw.Write($json); $sw.Close();" ^
+    "$zip.Dispose();"
+  if errorlevel 1 (
+    echo   [ERROR] Failed to patch manifest in "%%~nxZ"
+    goto :CLEANUP_AND_FAIL
+  )
+)
+
+echo.
 echo === Cleaning up copied items (files and directories) ===
 call :CLEAN_LIST_COPIES "%DEST%" "%COPY_LIST_FILE%"
 
