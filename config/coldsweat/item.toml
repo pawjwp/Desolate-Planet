@@ -262,7 +262,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# Whether a thermometer is required to see exact world and body temperature
 	# ⌄ 
-	"Require Thermometer" = true
+	"Require Thermometer" = false
 
 # Drains pressure from Create's netherite backtank if the player is in a hot/cold environment
 # Triggered by the set bonus for wearing a full set of netherite diving gear
