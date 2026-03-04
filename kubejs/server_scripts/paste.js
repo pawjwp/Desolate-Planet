@@ -34,6 +34,7 @@ ServerEvents.recipes(event => {
 
 
     event.remove({ output: '#forge:dough' });
+    event.remove({ id: 'farmersdelight:wheat_dough_from_water' });
     event.remove({ id: 'create:crafting/appliances/slime_ball' });
 
     // Dough from water bottle and bases
