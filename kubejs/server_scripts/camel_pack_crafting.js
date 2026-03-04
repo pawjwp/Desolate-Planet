@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
                 // Get NBT of input container
                 const nbtTag = fluid_container_input.nbt || new CompoundTag();
                 // If purity is present, ensure it is 2 or above
-                if (nbtTag.Purity && nbtTag.Purity < 2) return;
+                if (nbtTag.contains('Purity') && nbtTag.Purity < 2) return;
                 // If potion data is present, ensure it is the same as the inserted fluid
                 if (nbtTag.Potion && nbtTag.Potion !== fluid_id) return;
 
