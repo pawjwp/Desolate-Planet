@@ -29,7 +29,16 @@ StartupEvents.registry('item', event => {
     event.create('enderios').food(food => {
         food
             .hunger(7)
-            .saturation(1/3)
+            .saturation(8/15)
+            // 100% of 2 seconds of darkness
+            .effect('minecraft:darkness', 40, 0, 1.0)
+            // 30% each for enderference, glowing, and invisibility
+            .effect('cofh:enderference', 600, 0, 0.3)
+            .effect('minecraft:glowing', 600, 0, 0.3)
+            .effect('minecraft:invisibility', 600, 0, 0.3)
+            // 15% each to heal 8 health or get double jump
+            .effect('minecraft:instant_health', 1, 2, 0.15)
+            .effect('tconstruct:double_jump', 600, 0, 0.15)
     })
 
     event.create('nutrient_brick').food(food => {

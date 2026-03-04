@@ -268,7 +268,7 @@ ItemEvents.tooltip(event => {
             text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
         }
         else {
-            text.add(2, Text.red("Has a chance to deal slight damage upon eating.").italic());
+            text.add(1, Text.red("Has a chance to deal slight damage upon eating.").italic());
         }
     });
     event.addAdvanced('kubejs:monster_mash', (item, advanced, text) => {
@@ -276,7 +276,7 @@ ItemEvents.tooltip(event => {
             text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
         }
         else {
-            text.add(2, Text.red("Has a small chance to deal slight damage upon eating.").italic());
+            text.add(1, Text.red("Has a small chance to deal slight damage upon eating.").italic());
         }
     });
     event.addAdvanced('kubejs:bug_broth', (item, advanced, text) => {
@@ -284,8 +284,11 @@ ItemEvents.tooltip(event => {
             text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
         }
         else {
-            text.add(2, Text.red("Has a very small chance to deal slight damage upon eating.").italic());
+            text.add(1, Text.red("Has a very small chance to deal slight damage upon eating.").italic());
         }
+    });
+    event.addAdvanced('kubejs:enderios', (item, advanced, text) => {
+        text.add(1, Text.gray("May cause minor unpredictable effects when eaten."));
     });
 
     // Power generation

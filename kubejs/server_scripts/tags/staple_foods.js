@@ -26,6 +26,7 @@ ServerEvents.tags('item', event => {
         'kubejs:staple_fruits',
         'minecraft:apple',
         'minecraft:sweet_berries',
-        'minecraft:melon_slice'
+        'minecraft:melon_slice',
+        'farmersdelight:tomato'
     )
 });

@@ -22,7 +22,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "There are three main fruits to farm; apples, sweet berries, and melons. Apples drop from oak leaves and sweet berries and melon seeds have a small chance of dropping from sifting dirt, or can be found in abandoned farm houses. Apples are easier to obtain in small quantities, but sweet berries are the easiest to farm when you need a more permanant source of fruits.",
+            "text": "There are three main fruits to farm; apples, sweet berries, and melons. Additionally, tomatoes are considered both a fruit and a vegetable.\nApples drop from oak leaves, while sweet berries and melon seeds have a small chance of dropping from sifting dirt, or can be found in abandoned farm houses.\n\nApples are easier to obtain in small quantities, but sweet berries are the easiest to farm when you need a more permanant source of fruits.",
             "isTranslationKey": false
           },
           "items": [
@@ -163,7 +163,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "The ender pearl is a fascinating material with interesting properties. It seems like it could be turned into viable food source if neutralized with some gunpowder.",
+        "text": "The ender pearl is a fascinating material with interesting properties. It seems like it could be turned into viable food source if neutralized with some gunpowder. Be careful though, as there may be some strange side effects from eating it.",
         "isTranslationKey": false
       },
       "x": 190,
@@ -177,7 +177,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Enderios are made by mixing together ender pearl dust, flour, and gunpowder in a mixing bowl.",
+            "text": "Enderios are made by mixing together ender pearl dust, wheat, and gunpowder in a cooking pot.",
             "isTranslationKey": false
           },
           "items": [
@@ -420,7 +420,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Monster mash is made by mixing together rotten flesh, bones, and salt in a mixing bowl.",
+            "text": "Monster mash is made by mixing together rotten flesh, bones, and salt.",
             "isTranslationKey": false
           },
           "items": [
@@ -584,7 +584,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Combine some salt and some bug parts in your pot to make bug broth.",
+            "text": "Bug broth is made by mixing together some salt and bug parts in a cooking pot.",
             "isTranslationKey": false
           },
           "items": [
