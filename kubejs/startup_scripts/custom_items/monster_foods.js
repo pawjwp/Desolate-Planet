@@ -33,7 +33,7 @@ StartupEvents.registry('item', event => {
             // 100% of 2 seconds of darkness
             .effect('minecraft:darkness', 40, 0, 1.0)
             // 30% each for enderference, glowing, and invisibility
-            .effect('cofh:enderference', 600, 0, 0.3)
+            .effect('cofh_core:enderference', 600, 0, 0.3)
             .effect('minecraft:glowing', 600, 0, 0.3)
             .effect('minecraft:invisibility', 600, 0, 0.3)
             // 15% each to heal 8 health or get double jump
