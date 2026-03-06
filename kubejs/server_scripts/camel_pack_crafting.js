@@ -58,6 +58,25 @@ ServerEvents.recipes(event => {
     waterPurifyRecipe(Item.of('thirst:terracotta_water_bowl').weakNBT());
 
 
+    event.recipes.kubejs
+        .shapeless(
+            Item.of('minecraft:potion', 4, '{Potion:"minecraft:water"}'),
+            [
+                Item.of('minecraft:water_bucket').weakNBT(),
+                'minecraft:glass_bottle',
+                'minecraft:glass_bottle',
+                'minecraft:glass_bottle',
+                'minecraft:glass_bottle'
+            ]
+        )
+        .modifyResult((grid, result) => {
+            const bucket = grid.find(Ingredient.of('minecraft:water_bucket'));
+            if (!bucket) return;
+            const nbtTag = bucket.nbt || new CompoundTag();
+            const purity = nbtTag.Purity !== undefined ? nbtTag.Purity : 2;
+            return Item.of('minecraft:potion', 4, `{Potion:"minecraft:water",Purity:${purity}}`).strongNBT();
+        })
+        .id('kubejs:water_bucket_to_bottles');
 
 
 
