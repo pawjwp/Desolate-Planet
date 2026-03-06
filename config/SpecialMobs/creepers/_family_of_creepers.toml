@@ -26,7 +26,6 @@
   general.family_random_scaling = -1.0
 
   # The chance for creepers to spawn as special variants.
-  # NOTE: Some environment check types can cause deadlocks on servers currently, so be careful!
   # <Number> Range: 0.0 ~ 1.0, Default: 0.33
   general.special_variant_chance.base = 0.33
   # The chance for creepers to spawn as special variants when specific environmental conditions are met.
@@ -52,6 +51,7 @@
   general.weight.ender.base = 15.0
   general.weight.fire.base = 60.0
   general.weight.gravel.base = 60.0
+  general.weight.imploding.base = 60.0
   general.weight.jumping.base = 60.0
   general.weight.lightning.base = 60.0
   general.weight.mini.base = 15.0
@@ -96,6 +96,7 @@
     "7.5 biome minecraft:deep_frozen_ocean"
   ]
   general.weight.gravel.exceptions = []
+  general.weight.imploding.exceptions = []
   general.weight.jumping.exceptions = [
     "300.0",
     "300.0 y_from_sea >= 25",

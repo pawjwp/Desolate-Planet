@@ -368,12 +368,12 @@
     "curseForgeHash": 1368200461,
     "modrinthHash": "54c8ad5686b846310bca9e69982a455e668dede3"
   },
-  "crust-1.20.1-4.9.17.jar": {
-    "jarName": "crust-1.20.1-4.9.17.jar",
+  "crust-1.20.1-4.11.20.jar": {
+    "jarName": "crust-1.20.1-4.11.20.jar",
     "modId": "crust",
-    "version": "4.9.17",
-    "curseForgeHash": 1006725818,
-    "modrinthHash": "046012ddc2035d51591cefe4c4ff59c53affba3e"
+    "version": "4.11.20",
+    "curseForgeHash": 3331098556,
+    "modrinthHash": "d0d511c24b4ffbaca632e09985ffaf996e090de2"
   },
   "curios-forge-5.14.1+1.20.1.jar": {
     "jarName": "curios-forge-5.14.1+1.20.1.jar",
@@ -989,12 +989,12 @@
     "curseForgeHash": 1944495786,
     "modrinthHash": "494319eca4d2430b5abb699d28194c37dbdf3d92"
   },
-  "specialmobs-1.20.1-4.1.19.jar": {
-    "jarName": "specialmobs-1.20.1-4.1.19.jar",
+  "specialmobs-1.20.1-4.1.21.jar": {
+    "jarName": "specialmobs-1.20.1-4.1.21.jar",
     "modId": "specialmobs",
-    "version": "1.20.1-4.1.19",
-    "curseForgeHash": 1560156697,
-    "modrinthHash": "6e01d78df6c1c1d234109cc8e3ea9912db4f7da6"
+    "version": "1.20.1-4.1.21",
+    "curseForgeHash": 1804300863,
+    "modrinthHash": "16090d4c1f6ace665904a185fa8ea3a31c8a2c3a"
   },
   "starterstructure-1.20.1-4.2.jar": {
     "jarName": "starterstructure-1.20.1-4.2.jar",

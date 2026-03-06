@@ -12,8 +12,8 @@
   # The chance for drowning creepers to succeed at natural spawn attempts when specific environmental conditions are
   #   met.
   # <Environment List> Format: [ "value condition1 state1 & condition2 state2 & ...", ... ], Default: [ "0.06 biome
-  #   minecraft:warm_ocean", "0.06 biome_category river", "0.02 biome_category ocean & y_from_sea < -17", "0.0
-  #   biome_category ocean" ]
+  #   minecraft:warm_ocean", "0.06 biome_tag #minecraft:is_river", "0.02 biome_tag #minecraft:is_ocean & y_from_sea < -
+  #   17", "0.0 biome_tag #minecraft:is_ocean" ]
   #    Range for Values: 0.0 ~ 1.0
   general.natural_spawn_chance.exceptions = [
     "0.06 biome minecraft:warm_ocean",

@@ -26,7 +26,6 @@
   general.family_random_scaling = -1.0
 
   # The chance for magma cubes to spawn as special variants.
-  # NOTE: Some environment check types can cause deadlocks on servers currently, so be careful!
   # <Number> Range: 0.0 ~ 1.0, Default: 0.33
   general.special_variant_chance.base = 0.33
   # The chance for magma cubes to spawn as special variants when specific environmental conditions are met.

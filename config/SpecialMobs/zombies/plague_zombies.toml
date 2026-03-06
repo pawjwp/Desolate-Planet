@@ -67,8 +67,8 @@
     # <"minecraft:block" Registry List> Format: [ "namespace:entry_name", ... ], Default: []
     general.special_data.immune_to_sticky_blocks = []
     # Plague zombies cannot be inflicted with any effects specified here (e.g. "instant_damage" or "regeneration").
-    # <"minecraft:mob_effect" Registry List> Format: [ "namespace:entry_name", ... ], Default: [
-    #   "minecraft:regeneration", "minecraft:poison" ]
+    # <"minecraft:mob_effect" Registry List> Format: [ "namespace:entry_name", ... ], Default: [ "minecraft:poison",
+    #   "minecraft:regeneration" ]
     general.special_data.immune_to_effects = [
       "minecraft:regeneration",
       "minecraft:poison"

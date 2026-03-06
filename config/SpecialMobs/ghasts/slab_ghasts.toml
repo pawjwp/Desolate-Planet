@@ -24,7 +24,7 @@
   #   same attributes as their parent vanilla mob.
   # <Attribute List> Format: [ "namespace:attribute_name operation value", ... ], Default: [
   #   "minecraft:generic.max_health + 5.0", "minecraft:generic.attack_damage + 4.0", "minecraft:generic.movement_speed *
-  #   1.5" ]
+  #   2.0" ]
   #    Range for Values: Any Value
   general.attributes = [
     "minecraft:generic.max_health + 5.0",
