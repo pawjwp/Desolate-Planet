@@ -48,7 +48,7 @@
       ],
       "rewardchoice": [
         {
-          "id": "minecraft:sweet_berries",
+          "id": "scarcity:sweet_berry_seeds",
           "Count": 1
         },
         {
@@ -134,7 +134,8 @@
               "item": {
                 "id": "minecraft:bread",
                 "Count": 1
-              }
+              },
+              "required": 3
             }
           ]
         }
@@ -323,7 +324,7 @@
         {
           "type": "hardcorequesting:consume",
           "longDescription": {
-            "text": "The watering can speeds up plant growth when used on crops. It can be upgraded to increase its capacity and range. ",
+            "text": "The watering can speeds up plant growth when used on crops. It can be upgraded to increase its capacity and range. Advanced watering cans will no longer consume water once they have been filled all the way for the first time.",
             "isTranslationKey": false
           },
           "items": [
@@ -463,7 +464,7 @@
       "x": 126,
       "y": 102,
       "icon": {
-        "id": "farmersdelight:tomato",
+        "id": "farmersdelight:cabbage",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -497,15 +498,19 @@
       ],
       "rewardchoice": [
         {
-          "id": "minecraft:beetroot_seeds",
+          "id": "scarcity:carrot_seeds",
           "Count": 1
         },
         {
-          "id": "farmersdelight:tomato_seeds",
+          "id": "scarcity:potato_seeds",
           "Count": 1
         },
         {
           "id": "farmersdelight:cabbage_seeds",
+          "Count": 1
+        },
+        {
+          "id": "scarcity:onion_seeds",
           "Count": 1
         }
       ],
@@ -708,10 +713,6 @@
       ],
       "optionlinks": [],
       "reward": [
-        {
-          "id": "minecraft:bread",
-          "Count": 1
-        },
         {
           "id": "minecraft:potion",
           "Count": 2,

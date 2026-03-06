@@ -170,7 +170,8 @@
               "item": {
                 "id": "pneumaticcraft:advanced_air_compressor",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }

@@ -28,11 +28,10 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:water_bucket",
+                "id": "minecraft:potion",
                 "Count": 1,
-                "tag": "{}"
-              },
-              "precision": "FUZZY"
+                "tag": "{Potion:\"minecraft:water\",Purity:2}"
+              }
             }
           ]
         }
@@ -73,7 +72,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "For your weapon, you\u0027ll need the blade to be bone to start. No other starting material is comparable for weapons.",
+            "text": "Weapon blades can be made from a variety of materials, though bone blades are usually the strongest when starting out. Bone tool parts can be made from bones or bone meal in a part builder.",
             "isTranslationKey": false
           },
           "items": [
@@ -155,9 +154,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "exdeorum:bone_crook",
-          "Count": 1,
-          "tag": "{Damage:0}"
+          "id": "minecraft:string",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -183,8 +181,7 @@
       "parentrequirement": 1,
       "prerequisites": [
         "10a23876-3d34-40db-b3be-0f9569c5b459",
-        "059da201-0f0d-47ee-9bf0-416b63d26600",
-        "eb909f46-772b-4fdf-8680-225dabb668ff"
+        "059da201-0f0d-47ee-9bf0-416b63d26600"
       ],
       "optionlinks": [],
       "reward": [],
@@ -292,13 +289,13 @@
           "Count": 4
         },
         {
-          "id": "kubejs:nutrient_brick",
-          "Count": 4
-        },
-        {
           "id": "minecraft:potion",
           "Count": 4,
           "tag": "{Potion:\"minecraft:water\",Purity:3}"
+        },
+        {
+          "id": "kubejs:nutrient_brick",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -323,8 +320,7 @@
       "trigger": "QUEST_TRIGGER",
       "parentrequirement": 1,
       "prerequisites": [
-        "13a983d5-2a40-4c74-91f0-9847656342e0",
-        "b498eec9-851e-4d17-ab0d-b86eeb4a72be"
+        "13a983d5-2a40-4c74-91f0-9847656342e0"
       ],
       "optionlinks": [],
       "reward": [],
@@ -489,7 +485,7 @@
       "icon": {
         "id": "kubejs:crook",
         "Count": 1,
-        "tag": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:2,name:\"tconstruct:padded\"}],tic_multipliers:{\"tconstruct:durability\":1.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.75f,\"tconstruct:durability\":91.5f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:2,name:\"tconstruct:padded\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.75f,\"tconstruct:durability\":122.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -504,7 +500,7 @@
               "item": {
                 "id": "kubejs:crook",
                 "Count": 1,
-                "tag": "{tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:2,name:\"tconstruct:padded\"}],tic_multipliers:{\"tconstruct:durability\":1.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.75f,\"tconstruct:durability\":91.5f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:2,name:\"tconstruct:padded\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.75f,\"tconstruct:durability\":122.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
               },
               "precision": "FUZZY"
             }
@@ -512,7 +508,6 @@
         }
       ],
       "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970",
         "0f7c28b0-3881-419c-9d4b-ca936ad109f3"
       ],
       "optionlinks": [],
@@ -593,7 +588,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Craft some water and flour together to make paste, a sticky substance that can be used in many recipes instead of slimeballs.",
+            "text": "Craft some water and wheat together to make paste, a sticky substance that can be used in many recipes instead of slimeballs.",
             "isTranslationKey": false
           },
           "items": [
@@ -607,6 +602,7 @@
         }
       ],
       "prerequisites": [
+        "76cfa1f2-c3a7-4369-bc3c-2838db6384ef",
         "799cc1e8-bdff-4470-b5e1-b983ebfd6624"
       ],
       "optionlinks": [],
@@ -634,7 +630,7 @@
       "icon": {
         "id": "kubejs:crushing_hammer",
         "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.6f,\"tconstruct:durability\":90.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.25f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":0.8f,\"tconstruct:durability\":75.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
@@ -653,7 +649,7 @@
               "item": {
                 "id": "kubejs:crushing_hammer",
                 "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.6f,\"tconstruct:durability\":90.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.25f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":0.8f,\"tconstruct:durability\":75.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
               },
               "precision": "FUZZY"
             }
@@ -709,7 +705,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "In case of crash landing, you were equipped with a deluxe survival package:\n- Sync Shell Constructor\n- Spare Power Cell\n- Extra Shotgun Shells\n- Saplings\n- Fertilizer\n- Water Bottles\n- Choice of Sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
+        "text": "In case of crash landing, you were equipped with a deluxe survival package:\n- Sync Shell Constructor\n- Spare Power Cell\n- Extra Shotgun Shells\n- Saplings\n- Fertilizer\n- Water Bottles\n- Dried Nutrient Bricks \n- Choice of Sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
         "isTranslationKey": false
       },
       "x": 46,
@@ -758,6 +754,10 @@
           "id": "minecraft:potion",
           "Count": 8,
           "tag": "{Potion:\"minecraft:water\",Purity:3}"
+        },
+        {
+          "id": "kubejs:nutrient_brick",
+          "Count": 8
         }
       ],
       "rewardchoice": [
@@ -1181,7 +1181,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The easiest way to purify water is with some fire. Put a dirty water bottle into a furnace, apply some heat, and you\u0027ll get clean, drinkable water.",
+            "text": "The easiest way to purify water is with some fire. Put a dirty water bottle into a furnace, apply some heat, and you\u0027ll get clean, drinkable water. You can also make acceptable water directly by melting organic matter.",
             "isTranslationKey": false
           },
           "items": [
@@ -1312,7 +1312,7 @@
     {
       "uuid": "0f7c28b0-3881-419c-9d4b-ca936ad109f3",
       "name": {
-        "text": "Tinker\u0027s Tools",
+        "text": "Tinker, Tailor",
         "isTranslationKey": false
       },
       "description": {
