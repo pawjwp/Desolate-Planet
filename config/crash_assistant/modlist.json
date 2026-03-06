@@ -319,12 +319,12 @@
     "curseForgeHash": 2195681015,
     "modrinthHash": "14105e247ccff9a7674fd8c85ce8c77e7f318846"
   },
-  "CrashAssistant-forge-1.19-1.20.1-1.10.28.jar": {
-    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.28.jar",
+  "CrashAssistant-forge-1.19-1.20.1-1.11.0.jar": {
+    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.11.0.jar",
     "modId": "crash_assistant",
-    "version": "1.10.28",
-    "curseForgeHash": 2399972476,
-    "modrinthHash": "ff33e66ea1d828f0a5de39cf31d765e75d0a3859"
+    "version": "1.11.0",
+    "curseForgeHash": 3944427644,
+    "modrinthHash": "9b9e8f2e0a8b12e3944c06426244e3b9df87f007"
   },
   "create-1.20.1-6.0.8.jar": {
     "jarName": "create-1.20.1-6.0.8.jar",
