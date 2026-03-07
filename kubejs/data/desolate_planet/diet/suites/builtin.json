@@ -56,11 +56,6 @@
           "name": "minecraft:generic.armor_toughness",
           "operation": "add",
           "amount": 0.5
-        },
-        {
-          "name": "minecraft:generic.luck",
-          "operation": "add",
-          "amount": 1.0
         }
       ],
       "conditions": [
@@ -87,7 +82,7 @@
         {
           "name": "minecraft:generic.luck",
           "operation": "add",
-          "amount": 2.0
+          "amount": 1.0
         }
       ],
       "conditions": [
@@ -217,7 +212,7 @@
           "groups": ["grains"],
           "match": "all",
           "above": 0.2,
-          "below": 0.4
+          "below": 0.3
         }
       ]
     },
@@ -243,8 +238,8 @@
         {
           "groups": ["grains"],
           "match": "all",
-          "above": 0.6,
-          "below": 0.8
+          "above": 0.7,
+          "below": 0.9
         }
       ]
     },
@@ -270,7 +265,7 @@
         {
           "groups": ["grains"],
           "match": "all",
-          "above": 0.8,
+          "above": 0.9,
           "below": 1.0
         }
       ]
@@ -322,7 +317,7 @@
           "groups": ["proteins"],
           "match": "all",
           "above": 0.2,
-          "below": 0.4
+          "below": 0.3
         }
       ]
     },
@@ -332,23 +327,6 @@
           "name": "minecraft:generic.attack_damage",
           "operation": "add",
           "amount": 1.0
-        }
-      ],
-      "conditions": [
-        {
-          "groups": ["proteins"],
-          "match": "all",
-          "above": 0.4,
-          "below": 0.6
-        }
-      ]
-    },
-    {
-      "attributes": [
-        {
-          "name": "minecraft:generic.attack_damage",
-          "operation": "add",
-          "amount": 2.0
         }
       ],
       "conditions": [
@@ -365,7 +343,7 @@
         {
           "name": "minecraft:generic.attack_damage",
           "operation": "add",
-          "amount": 4.0
+          "amount": 2.0
         }
       ],
       "conditions": [
@@ -373,6 +351,23 @@
           "groups": ["proteins"],
           "match": "all",
           "above": 0.8,
+          "below": 0.9
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_damage",
+          "operation": "add",
+          "amount": 3.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins"],
+          "match": "all",
+          "above": 0.9,
           "below": 1.0
         }
       ]
@@ -452,8 +447,8 @@
         {
           "groups": ["vegetables"],
           "match": "all",
-          "above": 0.6,
-          "below": 0.8
+          "above": 0.7,
+          "below": 0.9
         }
       ]
     },
@@ -474,7 +469,7 @@
         {
           "groups": ["vegetables"],
           "match": "all",
-          "above": 0.8,
+          "above": 0.9,
           "below": 1.0
         }
       ]
@@ -485,9 +480,25 @@
     {
       "attributes": [
         {
-          "name": "diet:natural_regeneration",
-          "operation": "add",
-          "amount": -1.0
+          "name": "scarcity:regen_speed",
+          "operation": "multiply_base",
+          "amount": -0.875
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "below": 0.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "scarcity:regen_speed",
+          "operation": "multiply_base",
+          "amount": -0.75
         }
       ],
       "conditions": [
@@ -495,15 +506,101 @@
           "groups": ["fruits"],
           "match": "all",
           "above": 0.0,
+          "below": 0.1
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "scarcity:regen_speed",
+          "operation": "multiply_base",
+          "amount": -0.5
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "above": 0.1,
+          "below": 0.2
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "scarcity:regen_speed",
+          "operation": "multiply_base",
+          "amount": -0.25
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "above": 0.2,
           "below": 0.4
         }
       ]
     },
     {
-      "status_effects": [
+      "attributes": [
         {
-          "name": "minecraft:regeneration",
-          "power": 0
+          "name": "scarcity:regen_speed",
+          "operation": "multiply_base",
+          "amount": 0.25
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "above": 0.6,
+          "below": 0.7
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "scarcity:regen_speed",
+          "operation": "multiply_base",
+          "amount": 0.5
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "above": 0.7,
+          "below": 0.8
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "scarcity:regen_speed",
+          "operation": "multiply_base",
+          "amount": 0.75
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "above": 0.8,
+          "below": 0.9
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "scarcity:regen_speed",
+          "operation": "multiply_base",
+          "amount": 1.0
         }
       ],
       "conditions": [
