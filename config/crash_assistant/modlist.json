@@ -919,12 +919,12 @@
     "curseForgeHash": 1432081092,
     "modrinthHash": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1"
   },
-  "scarcity-1.1.1.jar": {
-    "jarName": "scarcity-1.1.1.jar",
+  "scarcity-1.1.2.jar": {
+    "jarName": "scarcity-1.1.2.jar",
     "modId": "scarcity",
-    "version": "1.1.1",
-    "curseForgeHash": 394516538,
-    "modrinthHash": "639f99cded4ac233914f14b36a55e16718953e8d"
+    "version": "1.1.2",
+    "curseForgeHash": 677856102,
+    "modrinthHash": "8562e8bb08e2e4a27bf7d6468d92903dbae83794"
   },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",

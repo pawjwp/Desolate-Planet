@@ -627,6 +627,17 @@
         "value": 10000000
       }
     },
+    "scarcity:regen_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "tconstruct:player.critical_damage": {
       "enabled": false,
       "min": {
@@ -671,6 +682,17 @@
         "value": 0.949999988079071
       }
     },
+    "scarcity:fast_regen_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "tconstruct:player.use_item_speed": {
       "enabled": false,
       "min": {
@@ -713,6 +735,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "scarcity:slow_regen_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "cold_sweat:world_temperature_offset": {
