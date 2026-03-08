@@ -1017,12 +1017,12 @@
     "curseForgeHash": 2861020415,
     "modrinthHash": "9fa704bce5ef3fc2b38d1ba73cb6f6a38f10e33f"
   },
-  "Sync-0.2.0.jar": {
-    "jarName": "Sync-0.2.0.jar",
+  "Sync-0.2.1.jar": {
+    "jarName": "Sync-0.2.1.jar",
     "modId": "sync",
-    "version": "0.1.0",
-    "curseForgeHash": 3765829024,
-    "modrinthHash": "42f1347bc5cc95706d96b452966423beef933120"
+    "version": "0.2.0",
+    "curseForgeHash": 3281554464,
+    "modrinthHash": "873e67341751201d96f2cd75305814dfb6165f68"
   },
   "tagtooltips-forge-1.20.1-1.1.0.jar": {
     "jarName": "tagtooltips-forge-1.20.1-1.1.0.jar",
