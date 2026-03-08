@@ -378,7 +378,7 @@
     {
       "status_effects": [
         {
-          "name": "crust:vulnerability",
+          "name": "cofh_core:sundered",
           "power": 2
         },
         {
@@ -401,7 +401,7 @@
     {
       "status_effects": [
         {
-          "name": "crust:vulnerability",
+          "name": "cofh_core:sundered",
           "power": 1
         }
       ],
@@ -417,7 +417,7 @@
     {
       "status_effects": [
         {
-          "name": "crust:vulnerability",
+          "name": "cofh_core:sundered",
           "power": 0
         }
       ],
@@ -482,22 +482,6 @@
         {
           "name": "scarcity:regen_speed",
           "operation": "multiply_base",
-          "amount": -0.875
-        }
-      ],
-      "conditions": [
-        {
-          "groups": ["fruits"],
-          "match": "all",
-          "below": 0.0
-        }
-      ]
-    },
-    {
-      "attributes": [
-        {
-          "name": "scarcity:regen_speed",
-          "operation": "multiply_base",
           "amount": -0.75
         }
       ],
@@ -556,23 +540,6 @@
         {
           "groups": ["fruits"],
           "match": "all",
-          "above": 0.6,
-          "below": 0.7
-        }
-      ]
-    },
-    {
-      "attributes": [
-        {
-          "name": "scarcity:regen_speed",
-          "operation": "multiply_base",
-          "amount": 0.5
-        }
-      ],
-      "conditions": [
-        {
-          "groups": ["fruits"],
-          "match": "all",
           "above": 0.7,
           "below": 0.8
         }
@@ -583,7 +550,7 @@
         {
           "name": "scarcity:regen_speed",
           "operation": "multiply_base",
-          "amount": 0.75
+          "amount": 0.5
         }
       ],
       "conditions": [
@@ -609,6 +576,22 @@
           "match": "all",
           "above": 0.9,
           "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "scarcity:regen_speed",
+          "operation": "multiply_base",
+          "amount": 1.5
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "above": 1.0
         }
       ]
     },

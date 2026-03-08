@@ -2,7 +2,7 @@
   "icon": "minecraft:apple",
   "color": "#d41c53",
   "order": 30,
-  "default_value": 0.7,
+  "default_value": 0.6,
   "gain_multiplier": 0.75,
   "decay_multiplier": 0.5,
   "beneficial": true
