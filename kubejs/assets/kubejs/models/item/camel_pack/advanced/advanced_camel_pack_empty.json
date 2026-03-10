@@ -1,0 +1,31 @@
+{
+	"loader": "forge:separate_transforms",
+	"gui_light": "front",
+	"base": {
+		"parent": "kubejs:item/camel_pack/templates/camel_pack_worn_0",
+		"textures": {
+			"1": "kubejs:item/advanced_camel_pack_worn",
+			"particle": "kubejs:item/advanced_camel_pack_worn"
+		}
+	},
+	"perspectives": {
+		"gui": {
+  			"parent": "minecraft:item/generated",
+			"textures": {
+				"layer0": "kubejs:item/advanced_camel_pack"
+			}
+		},
+		"fixed": {
+			"parent": "minecraft:item/generated",
+			"textures": {
+				"layer0": "kubejs:item/advanced_camel_pack"
+			}
+		},
+		"ground": {
+			"parent": "minecraft:item/generated",
+			"textures": {
+				"layer0": "kubejs:item/advanced_camel_pack"
+			}
+		}
+	}
+}

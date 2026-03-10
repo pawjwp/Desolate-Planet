@@ -1,0 +1,82 @@
+{
+	"parent": "kubejs:item/camel_pack/advanced/advanced_camel_pack_empty",
+	"overrides": [
+		{ "predicate": { "fluid": 0.01, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_blue_1" },
+		{ "predicate": { "fluid": 0.01, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_blue_2" },
+		{ "predicate": { "fluid": 0.01, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_blue_3" },
+		{ "predicate": { "fluid": 0.01, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_blue_4" },
+		{ "predicate": { "fluid": 0.01, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_blue_5" },
+
+		{ "predicate": { "fluid": 0.02, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_orange_1" },
+		{ "predicate": { "fluid": 0.02, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_orange_2" },
+		{ "predicate": { "fluid": 0.02, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_orange_3" },
+		{ "predicate": { "fluid": 0.02, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_orange_4" },
+		{ "predicate": { "fluid": 0.02, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_orange_5" },
+
+		{ "predicate": { "fluid": 0.03, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_white_1" },
+		{ "predicate": { "fluid": 0.03, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_white_2" },
+		{ "predicate": { "fluid": 0.03, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_white_3" },
+		{ "predicate": { "fluid": 0.03, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_white_4" },
+		{ "predicate": { "fluid": 0.03, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_white_5" },
+
+		{ "predicate": { "fluid": 0.04, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_lime_1" },
+		{ "predicate": { "fluid": 0.04, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_lime_2" },
+		{ "predicate": { "fluid": 0.04, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_lime_3" },
+		{ "predicate": { "fluid": 0.04, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_lime_4" },
+		{ "predicate": { "fluid": 0.04, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_lime_5" },
+
+		{ "predicate": { "fluid": 0.05, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_purple_1" },
+		{ "predicate": { "fluid": 0.05, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_purple_2" },
+		{ "predicate": { "fluid": 0.05, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_purple_3" },
+		{ "predicate": { "fluid": 0.05, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_purple_4" },
+		{ "predicate": { "fluid": 0.05, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_purple_5" },
+
+		{ "predicate": { "fluid": 0.06, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_brown_1" },
+		{ "predicate": { "fluid": 0.06, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_brown_2" },
+		{ "predicate": { "fluid": 0.06, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_brown_3" },
+		{ "predicate": { "fluid": 0.06, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_brown_4" },
+		{ "predicate": { "fluid": 0.06, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_brown_5" },
+
+		{ "predicate": { "fluid": 0.07, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_yellow_1" },
+		{ "predicate": { "fluid": 0.07, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_yellow_2" },
+		{ "predicate": { "fluid": 0.07, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_yellow_3" },
+		{ "predicate": { "fluid": 0.07, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_yellow_4" },
+		{ "predicate": { "fluid": 0.07, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_yellow_5" },
+
+		{ "predicate": { "fluid": 0.08, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_red_1" },
+		{ "predicate": { "fluid": 0.08, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_red_2" },
+		{ "predicate": { "fluid": 0.08, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_red_3" },
+		{ "predicate": { "fluid": 0.08, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_red_4" },
+		{ "predicate": { "fluid": 0.08, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_red_5" },
+
+		{ "predicate": { "fluid": 0.09, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_teal_1" },
+		{ "predicate": { "fluid": 0.09, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_teal_2" },
+		{ "predicate": { "fluid": 0.09, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_teal_3" },
+		{ "predicate": { "fluid": 0.09, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_teal_4" },
+		{ "predicate": { "fluid": 0.09, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_teal_5" },
+
+		{ "predicate": { "fluid": 0.10, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_cyan_1" },
+		{ "predicate": { "fluid": 0.10, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_cyan_2" },
+		{ "predicate": { "fluid": 0.10, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_cyan_3" },
+		{ "predicate": { "fluid": 0.10, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_cyan_4" },
+		{ "predicate": { "fluid": 0.10, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_cyan_5" },
+
+		{ "predicate": { "fluid": 0.11, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_green_1" },
+		{ "predicate": { "fluid": 0.11, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_green_2" },
+		{ "predicate": { "fluid": 0.11, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_green_3" },
+		{ "predicate": { "fluid": 0.11, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_green_4" },
+		{ "predicate": { "fluid": 0.11, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_green_5" },
+
+		{ "predicate": { "fluid": 0.12, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_pink_1" },
+		{ "predicate": { "fluid": 0.12, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_pink_2" },
+		{ "predicate": { "fluid": 0.12, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_pink_3" },
+		{ "predicate": { "fluid": 0.12, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_pink_4" },
+		{ "predicate": { "fluid": 0.12, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_pink_5" },
+
+		{ "predicate": { "fluid": 0.99, "stored": 0.10000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_black_1" },
+		{ "predicate": { "fluid": 0.99, "stored": 0.30000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_black_2" },
+		{ "predicate": { "fluid": 0.99, "stored": 0.50000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_black_3" },
+		{ "predicate": { "fluid": 0.99, "stored": 0.70000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_black_4" },
+		{ "predicate": { "fluid": 0.99, "stored": 0.90000 }, "model": "kubejs:item/camel_pack/advanced/advanced_camel_pack_black_5" }
+	]
+}
