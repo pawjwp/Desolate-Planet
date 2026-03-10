@@ -18,7 +18,13 @@ ServerEvents.tags('item', event => {
     event.add('desolate_planet:fluid_conduits',
         'enderio:fluid_conduit',
         'enderio:pressurized_fluid_conduit',
-        'enderio:ender_fluid_conduit'
+        'enderio:ender_fluid_conduit',
+        'mekanism:basic_pressurized_tube',
+        'mekanism:advanced_pressurized_tube',
+        'mekanism:elite_pressurized_tube',
+        'mekanism:ultimate_pressurized_tube',
+        'thermal:fluid_duct',
+        'thermal:fluid_duct_windowed'
     )
 
     event.add('desolate_planet:explosives',

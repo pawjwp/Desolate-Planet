@@ -30,15 +30,14 @@ ServerEvents.recipes(event => {
     event.shaped(
         Item.of('kubejs:stillsuit', 1),
         [
-            'FCF',
+            'FFF',
             'PWP',
             'FPF'
         ],
         {
-            C: '#desolate_planet:fluid_conduits',
             F: 'kubejs:insulated_hydraulic_fabric',
             P: 'kubejs:filtration_pocket',
-            W: 'kubejs:camel_pack'
+            W: 'kubejs:advanced_camel_pack'
         }
     ).id('desolate_planet:stillsuit');
 
