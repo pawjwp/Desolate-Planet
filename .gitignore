@@ -91,3 +91,10 @@ packwiz-scripts/forge-*-installer.jar.log
 # Tips
 /packwiz-scripts/tip_generation/tips
 packwiz-scripts/tip_generation/en_us.json
+
+# Markdown files
+*.md
+!README.md
+!README-Curseforge.md
+!CONTRIBUTING.md
+!TEST.md
