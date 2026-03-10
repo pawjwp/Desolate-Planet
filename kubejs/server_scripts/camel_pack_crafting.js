@@ -96,6 +96,47 @@ ServerEvents.recipes(event => {
         }
     ).id('desolate_planet:camel_pack');
 
+    // Advanced camel pack
+    event.shaped(
+        Item.of('kubejs:advanced_camel_pack', 1),
+        [
+            'FCF',
+            'PBP',
+            'FPF'
+        ],
+        {
+            B: 'minecraft:bucket',
+            C: '#desolate_planet:fluid_conduits',
+            F: 'kubejs:insulated_hydraulic_fabric',
+            P: 'kubejs:filtration_pocket'
+        }
+    ).id('desolate_planet:advanced_camel_pack');
+
+    event.shaped(
+        Item.of('kubejs:advanced_camel_pack', 1),
+        [
+            'FCF',
+            'PWP',
+            'FFF'
+        ],
+        {
+            C: '#desolate_planet:fluid_conduits',
+            F: 'kubejs:insulated_hydraulic_fabric',
+            P: 'kubejs:filtration_pocket',
+            W: 'kubejs:camel_pack'
+        }
+    )
+    .modifyResult((grid, result) => {
+        const camel_pack_input = grid.find(Ingredient.of('kubejs:camel_pack'));
+        if (!camel_pack_input) return result;
+
+        const fluid = camel_pack_input.nbt ? camel_pack_input.nbt.Fluid : null;
+        if (!fluid || fluid.FluidName !== 'minecraft:water' || !fluid.Amount) return result;
+
+        return Item.of('kubejs:advanced_camel_pack', `{Fluid:{Amount:${fluid.Amount},FluidName:"minecraft:water"}}`).strongNBT();
+    })
+    .id('desolate_planet:advanced_camel_pack_upgrade');
+
     const FluidUtil = Java.loadClass('net.minecraftforge.fluids.FluidUtil');
     const ForgeRegs = Java.loadClass('net.minecraftforge.registries.ForgeRegistries');
 

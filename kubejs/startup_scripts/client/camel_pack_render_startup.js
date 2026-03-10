@@ -69,6 +69,7 @@ if (Platform.isClientEnvironment()) {
 
     StartupEvents.postInit(function () {
       registerCamelPackRenderer('kubejs:camel_pack')
+      registerCamelPackRenderer('kubejs:advanced_camel_pack')
     })
   })()
 }
