@@ -99,18 +99,20 @@ ServerEvents.recipes(event => {
     const FluidUtil = Java.loadClass('net.minecraftforge.fluids.FluidUtil');
     const ForgeRegs = Java.loadClass('net.minecraftforge.registries.ForgeRegistries');
 
-    const camelPackFillRecipe = (input_item, fluid_id, fill_amount, leftovers) => {
+    // Filling recipe registration for a specific camel pack
+    const camelPackFillRecipe = (itemId, capacity) => (input_item, fluid_id, fill_amount, leftovers) => {
+        const inputItemId = (typeof input_item === 'string' ? Item.of(input_item).weakNBT().itemIds[0] : input_item.itemIds[0]).split(':').pop()
         event.recipes.kubejs
             .shapeless(
-                Item.of('kubejs:camel_pack', `{Fluid:{Amount:${fill_amount},FluidName:"${fluid_id}"}}`),
+                Item.of(itemId, `{Fluid:{Amount:${fill_amount},FluidName:"${fluid_id}"}}`),
                 [
                     input_item,
-                    Item.of('kubejs:camel_pack').weakNBT()
+                    Item.of(itemId).weakNBT()
                 ]
             )
             .replaceIngredient(input_item, leftovers)
             .modifyResult((grid, result) => {
-                const camel_pack_input = grid.find(Ingredient.of('kubejs:camel_pack'));
+                const camel_pack_input = grid.find(Ingredient.of(itemId));
                 const fluid_container_input = grid.find(input_item);
                 if (!camel_pack_input || !fluid_container_input) return;
 
@@ -137,25 +139,42 @@ ServerEvents.recipes(event => {
                 if (current_camel_pack_fluid !== fluid_id && current_camel_pack_amount > 0) return;
 
                 const new_amount = current_camel_pack_amount + fill_amount;
-                if (new_amount > 4000) return;
+                if (new_amount > capacity) return;
 
-                return Item.of('kubejs:camel_pack', `{Fluid:{Amount:${new_amount},FluidName:"${fluid_id}"}}`).strongNBT();
+                return Item.of(itemId, `{Fluid:{Amount:${new_amount},FluidName:"${fluid_id}"}}`).strongNBT();
             })
-            .id(`kubejs:camel_pack_fill${fluid_id ? '/' + fluid_id.split(':').pop() : ''}/${(typeof input_item === 'string' ? Item.of(input_item).weakNBT().itemIds[0] : input_item.itemIds[0]).split(':').pop()}`);
+            .id(`kubejs:${itemId.split(':').pop()}_fill/${fluid_id.split(':').pop()}/${inputItemId}`);
     };
 
-    // Recipe definitions
-    camelPackFillRecipe('minecraft:water_bucket', 'minecraft:water', 1000, 'minecraft:bucket');
-    // camelPackFillRecipe('minecraft:lava_bucket', 'minecraft:lava', 1000, 'minecraft:bucket');
-    // camelPackFillRecipe('minecraft:milk_bucket', 'minecraft:milk', 1000, 'minecraft:bucket');
-    // camelPackFillRecipe('create:chocolate_bucket', 'create:chocolate', 1000, 'minecraft:bucket');
-    // camelPackFillRecipe('create:honey_bucket', 'create:honey', 1000, 'minecraft:bucket');
-    // camelPackFillRecipe('#desolate_planet:experience_buckets', 'industrialforegoing:essence', 1000, 'minecraft:bucket');
+    const CAMEL_PACK_TIERS = [
+        { itemId: 'kubejs:camel_pack',          capacity: 4000  },
+    ]
 
-    camelPackFillRecipe(Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT(), 'minecraft:water', 250, 'minecraft:glass_bottle');
+    const CAMEL_PACK_FILL_RECIPES = [
+        { input: 'minecraft:water_bucket',                                            fluidId: 'minecraft:water',             fillAmount: 1000, leftovers: 'minecraft:bucket'       },
+        // { input: 'minecraft:lava_bucket',                                             fluidId: 'minecraft:lava',              fillAmount: 1000, leftovers: 'minecraft:bucket'       },
+        // { input: 'minecraft:milk_bucket',                                             fluidId: 'minecraft:milk',              fillAmount: 1000, leftovers: 'minecraft:bucket'       },
+        // { input: 'create:chocolate_bucket',                                           fluidId: 'create:chocolate',            fillAmount: 1000, leftovers: 'minecraft:bucket'       },
+        // { input: 'create:honey_bucket',                                               fluidId: 'create:honey',                fillAmount: 1000, leftovers: 'minecraft:bucket'       },
+        // { input: '#desolate_planet:experience_buckets',                               fluidId: 'industrialforegoing:essence', fillAmount: 1000, leftovers: 'minecraft:bucket'       },
+        { input: Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT(), fluidId: 'minecraft:water',             fillAmount: 250,  leftovers: 'minecraft:glass_bottle' },
+        // { input: 'minecraft:experience_bottle',                                       fluidId: 'industrialforegoing:essence', fillAmount: 250,  leftovers: 'minecraft:glass_bottle' },
+        // { input: 'minecraft:honey_bottle',                                            fluidId: 'create:honey',                fillAmount: 250,  leftovers: 'minecraft:glass_bottle' },
+        // { input: 'minecraft:honey_block',                                             fluidId: 'create:honey',                fillAmount: 1000, leftovers: ''                       },
+        // { input: 'create:bar_of_chocolate',                                           fluidId: 'create:chocolate',            fillAmount: 250,  leftovers: ''                       },
+    ]
 
-    // camelPackFillRecipe('minecraft:experience_bottle', 'industrialforegoing:essence', 250, 'minecraft:glass_bottle');
-    // camelPackFillRecipe('minecraft:honey_bottle', 'create:honey', 250, 'minecraft:glass_bottle');
-    // camelPackFillRecipe('minecraft:honey_block', 'create:honey', 1000, '');
-    // camelPackFillRecipe('create:bar_of_chocolate', 'create:chocolate', 250, '');
+    // Register all fill recipes for every tier
+    CAMEL_PACK_TIERS.forEach(tier => {
+        const itemId = tier.itemId;
+        const capacity = tier.capacity;
+        const fill = camelPackFillRecipe(itemId, capacity)
+        CAMEL_PACK_FILL_RECIPES.forEach(recipe => {
+            const input = recipe.input;
+            const fluidId = recipe.fluidId;
+            const fillAmount = recipe.fillAmount;
+            const leftovers = recipe.leftovers;
+            fill(input, fluidId, fillAmount, leftovers)
+        })
+    })
 });

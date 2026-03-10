@@ -38,12 +38,12 @@ if (Platform.isClientEnvironment()) {
     var OverlayTexture         = Java.loadClass('net.minecraft.client.renderer.texture.OverlayTexture')
 
     // register the Curios renderer
-    StartupEvents.postInit(function () {
-      CuriosRendererRegistry.register('kubejs:camel_pack', function () {
+    function registerCamelPackRenderer(itemId) {
+      CuriosRendererRegistry.register(itemId, function () {
         return new RendererCurios(function (ctx) {
           var matrixStack   = ctx.matrixStack
           var wearer        = ctx.slotContext.entity()
-          var stack         = ctx.stack || Item.of('kubejs:camel_pack')
+          var stack         = ctx.stack || Item.of(itemId)
 
           matrixStack.pushPose()
 
@@ -65,6 +65,10 @@ if (Platform.isClientEnvironment()) {
           matrixStack.popPose()
         })
       })
+    }
+
+    StartupEvents.postInit(function () {
+      registerCamelPackRenderer('kubejs:camel_pack')
     })
   })()
 }

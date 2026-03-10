@@ -1,7 +1,13 @@
-ItemEvents.tooltip(function (e) {
-	e.addAdvanced('kubejs:camel_pack', function (item, advanced, text) {
+function registerCamelPackTooltip(e, itemId, capacity, description, hasTank) {
+	if (hasTank === undefined) hasTank = true
 
-		var capacity = 4000
+	e.addAdvanced(itemId, function (item, advanced, text) {
+
+		if (!hasTank) {
+			text.add(1, Text.gray(description))
+			return
+		}
+
 		var fluidType = null
 		var amount = 0
 
@@ -13,12 +19,16 @@ ItemEvents.tooltip(function (e) {
 
 		if (!fluidType) {
 			text.add(1, Text.white('Empty'))
-			text.add(2, Text.gray('A wearable tank for keeping you hydrated.'))
+			text.add(2, Text.gray(description))
 			return
 		}
 
 		text.add(1, Text.white('Fluid: ' + String(fluidType.substring(fluidType.indexOf(':') + 1)).replace(/_/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase() })))
 		text.add(2, Text.white('Amount: ' + amount + ' / ' + capacity + ' mB'))
-		text.add(3, Text.gray('A wearable tank for keeping you hydrated.'))
+		text.add(3, Text.gray(description))
 	})
+}
+
+ItemEvents.tooltip(function (e) {
+	registerCamelPackTooltip(e, 'kubejs:camel_pack',          4000,  'A wearable tank for keeping you hydrated.')
 })
