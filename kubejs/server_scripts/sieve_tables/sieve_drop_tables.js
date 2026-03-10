@@ -166,7 +166,7 @@ ServerEvents.recipes(event => {
 
     registerSieveTable(
         'minecraft:moss_block',
-        null,
+        'exdeorum:compressed_moss_block',
         `
             minecraft:dandelion	5	6	7	8	9	10
             minecraft:poppy	5	6	7	8	9	10
