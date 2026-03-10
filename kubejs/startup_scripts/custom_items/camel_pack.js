@@ -324,6 +324,7 @@ function registerCamelPackModelProperties(e, itemId, capacity) {
 const CAMEL_PACK_CONFIGS = [
     { id: 'camel_pack',           displayName: 'Camel Pack',                  capacity: 4000,  thirstMult: 1.0, quenchMult: 1.0,  hasTank: true  },
     { id: 'advanced_camel_pack',  displayName: 'Advanced Camel Pack',         capacity: 20000, thirstMult: 1.0, quenchMult: 1.25, hasTank: true  },
+    { id: 'unlimited_camel_pack', displayName: 'Condensentrating Camel Pack',                  thirstMult: 1.5, quenchMult: 1.5,  hasTank: false },
 ]
 
 StartupEvents.registry('item', (event) => {

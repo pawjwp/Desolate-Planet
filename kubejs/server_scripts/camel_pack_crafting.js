@@ -137,6 +137,23 @@ ServerEvents.recipes(event => {
     })
     .id('desolate_planet:advanced_camel_pack_upgrade');
 
+    // Unlimited camel pack
+    event.shaped(
+        Item.of('kubejs:unlimited_camel_pack', 1),
+        [
+            'ARA',
+            'SWS',
+            'ATA'
+        ],
+        {
+            A: '#mekanism:alloys/atomic',
+            R: 'thermal:upgrade_augment_3',
+            S: 'ae2:cell_component_256k',
+            T: 'mekanism:ultimate_fluid_tank',
+            W: 'kubejs:advanced_camel_pack'
+        }
+    ).id('desolate_planet:unlimited_camel_pack');
+
     const FluidUtil = Java.loadClass('net.minecraftforge.fluids.FluidUtil');
     const ForgeRegs = Java.loadClass('net.minecraftforge.registries.ForgeRegistries');
 
@@ -189,6 +206,7 @@ ServerEvents.recipes(event => {
 
     const CAMEL_PACK_TIERS = [
         { itemId: 'kubejs:camel_pack',          capacity: 4000  },
+        { itemId: 'kubejs:advanced_camel_pack', capacity: 20000 },
     ]
 
     const CAMEL_PACK_FILL_RECIPES = [
