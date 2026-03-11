@@ -75,6 +75,8 @@ ServerEvents.recipes(event => {
                 "minecraft:composter",
                 "tconstruct:grout",
                 "tconstruct:nether_grout",
+                'thirst:clay_bowl',
+                'thirst:terracotta_bowl',
                 "torchmaster:megatorch"
             ]
     });

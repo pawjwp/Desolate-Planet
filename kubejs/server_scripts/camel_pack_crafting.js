@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
     // Recipe definitions
     waterPurifyRecipe(Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT());
     waterPurifyRecipe(Item.of('minecraft:water_bucket').weakNBT());
-    waterPurifyRecipe(Item.of('thirst:terracotta_water_bowl').weakNBT());
+    // waterPurifyRecipe(Item.of('thirst:terracotta_water_bowl').weakNBT());
 
 
     event.recipes.kubejs
