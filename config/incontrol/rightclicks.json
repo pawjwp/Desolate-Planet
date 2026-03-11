@@ -1,12 +1,1 @@
-[
-    {
-        "playerhelditem": "minecraft:bowl",
-        "block": "minecraft:water",
-        "result": "deny"
-    },
-    {
-        "playerhelditem": "thirst:terracotta_bowl",
-        "block": "minecraft:water",
-        "result": "deny"
-    }
-]
+[]
