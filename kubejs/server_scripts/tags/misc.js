@@ -64,7 +64,17 @@ ServerEvents.tags('item', event => {
         'scarcity:rubberwood_seed'
     )
 
+    Ingredient.of(/^(cfm|nfm|refurbished_furniture):.*sink.*$/).itemIds.forEach(id => {
+        event.add('desolate_planet:sinks', id);
+    });
+
     Ingredient.of(/^immersive_weathering:.*_leaf_pile$/).itemIds.forEach(id => {
         event.add('immersive_weathering:leaf_piles', id);
+    });
+});
+
+ServerEvents.tags('block', event => {
+    Ingredient.of(/^(cfm|nfm|refurbished_furniture):.*sink.*$/).itemIds.forEach(id => {
+        event.add('desolate_planet:sinks', id);
     });
 });

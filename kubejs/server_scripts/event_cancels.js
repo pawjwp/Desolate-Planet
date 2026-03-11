@@ -8,4 +8,9 @@ BlockEvents.rightClicked(event => {
             return;
         }
     }
+
+    // Deny right-clicking any block tagged as a sink
+    if (block.hasTag('desolate_planet:sinks')) {
+        event.cancel();
+    }
 });
