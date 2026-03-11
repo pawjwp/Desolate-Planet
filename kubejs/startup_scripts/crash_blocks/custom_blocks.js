@@ -5,7 +5,10 @@ let metalCrate
 
 StartupEvents.registry('block', event => {
     dustLayer = event.createCustom('dust_pile', () => new $LayerBlock($Properties.copy(Blocks.SAND)))
-    trashLayer = event.createCustom('trash_pile', () => new $LayerBlock($Properties.copy(Blocks.GLASS).sound($SoundType.SUSPICIOUS_GRAVEL)))
+    trashLayer = event.createCustom('trash_pile', () => new $LayerBlock($Properties.copy(Blocks.GLASS)
+        .sound($SoundType.SUSPICIOUS_GRAVEL)
+        .destroyTime(0.1)
+    ))
     metalCrate = event.createCustom('metal_crate', () => new $BarrelBlock($Properties.copy(Blocks.IRON_BLOCK)))
 
     //whiteShipChair = event.createCustom('white_ship_chair', () => new $ChairBlock($WoodType.OAK, $Properties.copy(Blocks.IRON_BLOCK)))
