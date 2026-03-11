@@ -30,7 +30,7 @@ function registerCamelPackTooltip(e, itemId, capacity, description, hasTank) {
 }
 
 ItemEvents.tooltip(function (e) {
-	registerCamelPackTooltip(e, 'kubejs:camel_pack',          4000,  'A wearable tank for keeping you hydrated.')
-	registerCamelPackTooltip(e, 'kubejs:advanced_camel_pack', 20000, 'A wearable tank for keeping you hydrated.')
-	registerCamelPackTooltip(e, 'kubejs:unlimited_camel_pack', 0,    'A wearable pack that keeps you hydrated indefinitely.', false)
+	registerCamelPackTooltip(e, 'kubejs:camel_pack',           4000,  'A wearable liquid tank that keeps you hydrated.')
+	registerCamelPackTooltip(e, 'kubejs:advanced_camel_pack',  20000, 'A large wearable liquid tank that keeps you hydrated.')
+	registerCamelPackTooltip(e, 'kubejs:unlimited_camel_pack', 0,     'A wearable liquid tank that collects water from the air to keep you hydrated.', false)
 })
