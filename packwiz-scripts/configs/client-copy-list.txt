@@ -7,3 +7,4 @@ kubejs
 -config\jei\world
 -config\worldedit
 -config\cubes_without_borders.json
+-kubejs\probe
