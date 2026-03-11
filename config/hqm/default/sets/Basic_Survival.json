@@ -1018,10 +1018,12 @@
         "b447d7bd-febd-458b-b0aa-43c1957e7d9e"
       ],
       "optionlinks": [],
-      "reward": [
+      "reward": [],
+      "rewardchoice": [
         {
-          "id": "minecraft:leather",
-          "Count": 8
+          "id": "thermal:fluid_reservoir",
+          "Count": 1,
+          "tag": "{}"
         },
         {
           "id": "minecraft:potion",
@@ -1029,7 +1031,6 @@
           "tag": "{Potion:\"minecraft:water\",Purity:3}"
         }
       ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
