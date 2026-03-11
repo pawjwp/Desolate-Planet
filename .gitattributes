@@ -4,7 +4,6 @@
 /config/hqm/** -text
 /config/pneumaticcraft/** -text
 
-config/crash_assistant/lang/** text eol=lf
 config/ad_astra-client.jsonc text eol=lf
 config/ad_astra.jsonc text eol=lf
 config/ae2/client.json text eol=lf
@@ -14,8 +13,10 @@ config/attributefix.json text eol=lf
 config/biggerreactors-client.toml text eol=lf
 config/biggerreactors-server.toml text eol=lf
 config/crash_assistant/lang/*.json text eol=lf
+config/crash_assistant/lang/** text eol=lf
 config/embeddium-options.json text eol=lf
 config/enchdesc.json text eol=lf
 config/lostcities/profiles/** text eol=lf
 config/phosphophyllite/*.json5 text eol=lf
+config/tips.json text eol=lf
 kubejs/config/probejs.json text eol=lf
