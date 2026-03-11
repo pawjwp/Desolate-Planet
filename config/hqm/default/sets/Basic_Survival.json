@@ -1000,7 +1000,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Camel packs can be filled with liquid to passively provide hydration. The attached tank can be filled from most tank blocks, or by crafting together with bottles and buckets. The filter helps to automatically purify most water, but when crafting, you must use bottles with a purity of Acceptable or Purified.",
+            "text": "Camel packs can be filled with liquid to passively provide hydration. The attached tank can be filled from most tank blocks, or by crafting together with bottles and buckets. The filter helps to automatically purify most water, but when crafting, you must use bottles with a purity of Acceptable or Purified. Camel packs can be upgraded to get higher capacity, and eventually to absorb water directly from the air.",
             "isTranslationKey": false
           },
           "items": [
