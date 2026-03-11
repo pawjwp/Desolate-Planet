@@ -90,4 +90,6 @@
 	enable_falling_block_breaking_adjustments = true
 	#Enable zombie villager conversion, disable to prevent zombie villagers from being cured
 	enable_zombie_villager_curing = false
+	#Prevent water plants (kelp, seagrass, Farmer's Delight rice) from being placed or growing in flowing water
+	enable_water_plant_source_prevention = true
 
