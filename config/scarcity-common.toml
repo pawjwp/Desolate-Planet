@@ -63,13 +63,13 @@
 			sprint_one_block = 0.1
 			#Exhaustion added per block length swum.
 			#Range: 0.0 ~ 40.0
-			swim_one_block = 0.075
+			swim_one_block = 0.05
 			#Exhaustion added per block length walked underwater.
 			#Range: 0.0 ~ 40.0
-			walk_underwater_one_block = 0.075
+			walk_underwater_one_block = 0.05
 			#Exhaustion added per block length walked on water.
 			#Range: 0.0 ~ 40.0
-			walk_on_water_one_block = 0.075
+			walk_on_water_one_block = 0.025
 			#Exhaustion added per block length climbed.
 			#Range: 0.0 ~ 40.0
 			climb_one_block = 0.05
