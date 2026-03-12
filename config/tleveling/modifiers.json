@@ -1,0 +1,764 @@
+{
+  "values": [
+    {
+      "item": "tconstruct:pickaxe",
+      "source": [
+        "tleveling:break_block"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:experienced",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "You sense a magical aura surround your tool... (+1 experienced)"
+        },
+        {
+          "modifier": "tconstruct:magnetic",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool pull you closer... (+1 magnetic)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:haste",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel the tool become lighter in your hands... (+1 haste)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:sledge_hammer",
+      "source": [
+        "tleveling:break_block"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:experienced",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "You sense a magical aura surround your tool... (+1 experienced)"
+        },
+        {
+          "modifier": "tconstruct:magnetic",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool pull you closer... (+1 magnetic)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:haste",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel the tool become lighter in your hands... (+1 haste)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:vein_hammer",
+      "source": [
+        "tleveling:break_block"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:experienced",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "You sense a magical aura surround your tool... (+1 experienced)"
+        },
+        {
+          "modifier": "tconstruct:magnetic",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool pull you closer... (+1 magnetic)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:haste",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel the tool become lighter in your hands... (+1 haste)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:mattock",
+      "source": [
+        "tleveling:break_block"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:magnetic",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool pull you closer... (+1 magnetic)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:haste",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel the tool become lighter in your hands... (+1 haste)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:pickadze",
+      "source": [
+        "tleveling:break_block"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:magnetic",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool pull you closer... (+1 magnetic)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:haste",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel the tool become lighter in your hands... (+1 haste)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:excavator",
+      "source": [
+        "tleveling:break_block"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:magnetic",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool pull you closer... (+1 magnetic)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:haste",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel the tool become lighter in your hands... (+1 haste)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:hand_axe",
+      "source": [
+        "tleveling:break_block",
+        "tleveling:damage_entity"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:magnetic",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool pull you closer... (+1 magnetic)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:haste",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel the tool become lighter in your hands... (+1 haste)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:broad_axe",
+      "source": [
+        "tleveling:break_block",
+        "tleveling:damage_entity"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:magnetic",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool pull you closer... (+1 magnetic)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:haste",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel the tool become lighter in your hands... (+1 haste)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:kama",
+      "source": [
+        "tleveling:till",
+        "tleveling:shear",
+        "tleveling:break_block"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:magnetic",
+          "weight": 1,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool pull you closer... (+1 magnetic)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 1,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:scythe",
+      "source": [
+        "tleveling:till",
+        "tleveling:shear",
+        "tleveling:break_block"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:magnetic",
+          "weight": 1,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool pull you closer... (+1 magnetic)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 1,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:dagger",
+      "source": [
+        "tleveling:damage_entity"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:experienced",
+          "weight": 4,
+          "max": 5,
+          "exceptions": [],
+          "message": "You sense a magical aura surround your tool... (+1 experienced)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:fiery",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "You tool feels much warmer than it was before... (+1 fiery)"
+        },
+        {
+          "modifier": "tconstruct:knockback",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool become more forceful... (+1 knockback)"
+        },
+        {
+          "modifier": "tconstruct:necrotic",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your sword feels oddly rotten... (+1 necrotic)"
+        },
+        {
+          "modifier": "tconstruct:severing",
+          "weight": 3,
+          "max": 3,
+          "exceptions": [],
+          "message": "You feel your tool become much sharper than before... (+1 severing)"
+        },
+        {
+          "modifier": "tconstruct:sweeping_edge",
+          "weight": 3,
+          "max": 3,
+          "exceptions": [],
+          "message": "You tool whistles through the air as it strikes... (+1 sweeping)"
+        },
+        {
+          "modifier": "tconstruct:pierce",
+          "weight": 2,
+          "max": 3,
+          "exceptions": [],
+          "message": "You feel your tool become very pointy... (+1 pierce)"
+        },
+        {
+          "modifier": "tconstruct:sharpness",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool has become much more deadly... (+1 sharpness)"
+        },
+        {
+          "modifier": "tconstruct:smite",
+          "weight": 4,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool sends the undead running... (+1 smite)"
+        },
+        {
+          "modifier": "tconstruct:swiftstrike",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool become much lighter and faster... (+1 swiftstrike)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:sword",
+      "source": [
+        "tleveling:damage_entity"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:experienced",
+          "weight": 4,
+          "max": 5,
+          "exceptions": [],
+          "message": "You sense a magical aura surround your tool... (+1 experienced)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:fiery",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "You tool feels much warmer than it was before... (+1 fiery)"
+        },
+        {
+          "modifier": "tconstruct:knockback",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool become more forceful... (+1 knockback)"
+        },
+        {
+          "modifier": "tconstruct:necrotic",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your sword feels oddly rotten... (+1 necrotic)"
+        },
+        {
+          "modifier": "tconstruct:severing",
+          "weight": 3,
+          "max": 3,
+          "exceptions": [],
+          "message": "You feel your tool become much sharper than before... (+1 severing)"
+        },
+        {
+          "modifier": "tconstruct:sweeping_edge",
+          "weight": 3,
+          "max": 3,
+          "exceptions": [],
+          "message": "You tool whistles through the air as it strikes... (+1 sweeping)"
+        },
+        {
+          "modifier": "tconstruct:pierce",
+          "weight": 2,
+          "max": 3,
+          "exceptions": [],
+          "message": "You feel your tool become very pointy... (+1 pierce)"
+        },
+        {
+          "modifier": "tconstruct:sharpness",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool has become much more deadly... (+1 sharpness)"
+        },
+        {
+          "modifier": "tconstruct:smite",
+          "weight": 4,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool sends the undead running... (+1 smite)"
+        },
+        {
+          "modifier": "tconstruct:swiftstrike",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool become much lighter and faster... (+1 swiftstrike)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:cleaver",
+      "source": [
+        "tleveling:damage_entity"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:experienced",
+          "weight": 4,
+          "max": 5,
+          "exceptions": [],
+          "message": "You sense a magical aura surround your tool... (+1 experienced)"
+        },
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:fiery",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "You tool feels much warmer than it was before... (+1 fiery)"
+        },
+        {
+          "modifier": "tconstruct:knockback",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool become more forceful... (+1 knockback)"
+        },
+        {
+          "modifier": "tconstruct:necrotic",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your sword feels oddly rotten... (+1 necrotic)"
+        },
+        {
+          "modifier": "tconstruct:severing",
+          "weight": 3,
+          "max": 3,
+          "exceptions": [],
+          "message": "You feel your tool become much sharper than before... (+1 severing)"
+        },
+        {
+          "modifier": "tconstruct:sweeping_edge",
+          "weight": 3,
+          "max": 3,
+          "exceptions": [],
+          "message": "You tool whistles through the air as it strikes... (+1 sweeping)"
+        },
+        {
+          "modifier": "tconstruct:pierce",
+          "weight": 2,
+          "max": 3,
+          "exceptions": [],
+          "message": "You feel your tool become very pointy... (+1 pierce)"
+        },
+        {
+          "modifier": "tconstruct:sharpness",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool has become much more deadly... (+1 sharpness)"
+        },
+        {
+          "modifier": "tconstruct:smite",
+          "weight": 4,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool sends the undead running... (+1 smite)"
+        },
+        {
+          "modifier": "tconstruct:swiftstrike",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "You feel your tool become much lighter and faster... (+1 swiftstrike)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:crossbow",
+      "source": [
+        "tleveling:damage_entity"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 4,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:power",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your projectiles seem especially powerful... (+1 power)"
+        },
+        {
+          "modifier": "tconstruct:punch",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your projectiles seem like they would pack a punch... (+1 punch)"
+        },
+        {
+          "modifier": "tconstruct:quick_charge",
+          "weight": 4,
+          "max": 4,
+          "exceptions": [],
+          "message": "Your crossbow seems especially easy to charge... (+1 quick_charge)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:longbow",
+      "source": [
+        "tleveling:damage_entity"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 4,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:power",
+          "weight": 5,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your projectiles seem especially powerful... (+1 power)"
+        },
+        {
+          "modifier": "tconstruct:punch",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your projectiles seem like they would pack a punch... (+1 punch)"
+        },
+        {
+          "modifier": "tconstruct:quick_charge",
+          "weight": 4,
+          "max": 4,
+          "exceptions": [],
+          "message": "Your crossbow seems especially easy to charge... (+1 quick_charge)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:plate_helmet",
+      "source": [
+        "tleveling:take_damage"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:thorns",
+          "weight": 1,
+          "max": 3,
+          "exceptions": [],
+          "message": "Your armor has become very spikey... (+1 thorns)"
+        },
+        {
+          "modifier": "tconstruct:respiration",
+          "weight": 3,
+          "max": 3,
+          "exceptions": [],
+          "message": "You find it strangely easy to breathe in your armor... (+1 respiration)"
+        },
+        {
+          "modifier": "tconstruct:protection",
+          "weight": 5,
+          "max": 3,
+          "exceptions": [],
+          "message": "Your feel much safer in your armor now... (+1 protection)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:plate_chestplate",
+      "source": [
+        "tleveling:take_damage"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:thorns",
+          "weight": 1,
+          "max": 3,
+          "exceptions": [],
+          "message": "Your armor has become very spikey... (+1 thorns)"
+        },
+        {
+          "modifier": "tconstruct:protection",
+          "weight": 5,
+          "max": 3,
+          "exceptions": [],
+          "message": "Your feel much safer in your armor now... (+1 protection)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:plate_leggings",
+      "source": [
+        "tleveling:take_damage"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:thorns",
+          "weight": 1,
+          "max": 3,
+          "exceptions": [],
+          "message": "Your armor has become very spikey... (+1 thorns)"
+        },
+        {
+          "modifier": "tconstruct:protection",
+          "weight": 5,
+          "max": 3,
+          "exceptions": [],
+          "message": "Your feel much safer in your armor now... (+1 protection)"
+        }
+      ]
+    },
+    {
+      "item": "tconstruct:plate_boots",
+      "source": [
+        "tleveling:take_damage"
+      ],
+      "modifiers": [
+        {
+          "modifier": "tconstruct:reinforced",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "Your tool seems much more durable now... (+1 reinforced)"
+        },
+        {
+          "modifier": "tconstruct:thorns",
+          "weight": 1,
+          "max": 3,
+          "exceptions": [],
+          "message": "Your armor has become very spikey... (+1 thorns)"
+        },
+        {
+          "modifier": "tconstruct:feather_falling",
+          "weight": 3,
+          "max": 4,
+          "exceptions": [],
+          "message": "Your boots feel as light as a feather... (+1 feather falling)"
+        },
+        {
+          "modifier": "tconstruct:protection",
+          "weight": 5,
+          "max": 3,
+          "exceptions": [],
+          "message": "Your feel much safer in your armor now... (+1 protection)"
+        }
+      ]
+    }
+  ]
+}

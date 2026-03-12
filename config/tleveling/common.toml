@@ -1,0 +1,20 @@
+
+["Common Configs for Tinker's Tool Leveling"]
+	#The multiplier for the exp granted to a mining tool after each block break. Default is 1.0
+	#Range: 0.0 ~ 2.147483647E9
+	blockBreakMultiplier = 1.0
+	#The multiplier for the exp granted to a melee weapon after each block break. Default is 1.0
+	#Range: 0.0 ~ 2.147483647E9
+	damageEntityMultiplier = 1.0
+	#The multiplier for the exp granted to an armor piece after each block break. Default is 1.0
+	#Range: 0.0 ~ 2.147483647E9
+	armorHitMultiplier = 1.0
+	#The amount of levels between each bonus modifier. Set to 0 to disable bonus modifiers. Default is 3
+	modifierLevelGap = 3
+	#The base exp required to level up a tool. Default is 500
+	#Range: > 1
+	levelupExpRequired = 200
+	#The exponential increase between tool exp levels. Default is 2.0
+	#Range: 0.0 ~ 2.147483647E9
+	levelupExpIncrease = 2.0
+
