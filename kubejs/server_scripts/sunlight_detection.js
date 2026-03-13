@@ -5,11 +5,40 @@ const Placement = Java.loadClass('com.momosoftworks.coldsweat.api.util.placement
 const Matcher = Java.loadClass('com.momosoftworks.coldsweat.api.util.placement.Matcher');
 const Order = Java.loadClass('com.momosoftworks.coldsweat.api.util.placement.Order');
 const TempModifierRegistry = Java.loadClass('com.momosoftworks.coldsweat.api.registry.TempModifierRegistry');
-// const ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation');
+const ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation');
 
 PlayerEvents.tick(event => {
     const player = event.player;
     if (player.age % 5 !== 0) return;
+
+    // If cold_sweat:biomes modifier is missing, add all world modifiers back
+    const worldModifiers = Temperature.getModifiers(player, coldsweat.getTrait('world'));
+    let hasBiomes = false;
+    for (let i = 0; i < worldModifiers.size(); i++) {
+        var key = TempModifierRegistry.getKey(worldModifiers.get(i));
+        if (key.equals(new ResourceLocation('cold_sweat:biomes'))) {
+            hasBiomes = true;
+            break;
+        }
+    }
+    if (!hasBiomes) {
+        var modifiersToRestore = [
+            'cold_sweat:biomes',
+            'cold_sweat:shade',
+            'cold_sweat:elevation',
+            'cold_sweat:cave_biomes',
+            'cold_sweat:blocks',
+            'cold_sweat:entities',
+            'ad_astra:oxygen',
+            'cold_sweat:inventory_items',
+        ];
+        modifiersToRestore.forEach(id => {
+            const modifier = coldsweat.createModifier(id);
+            if (modifier !== null) {
+                Temperature.replaceOrAddModifier(player, modifier, coldsweat.getTrait('world'), Matcher.SAME_CLASS);
+            }
+        });
+    }
 
     const level = player.level;
     const dimensionHasSky = level.dimensionType().hasSkyLight();
