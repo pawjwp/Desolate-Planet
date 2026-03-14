@@ -366,12 +366,6 @@ ItemEvents.tooltip(event => {
     });
 
     // Bug warnings:
-    
-    event.addAdvanced("pneumaticcraft:heat_sink", (item, advanced, text) => {
-        // Remove from quest info when fixed
-        text.add(1, [Text.red("Warning: "), Text.gray("Due to a bug with PneumaticCraft, your game may crash if you take damage from a heat sink while wearing Tinkers Construct armor.")]);
-        text.add(2, Text.gray("We recommend placing your heat sinks in a place where you aren't likely to accidentally run into them."));
-    });
 
     [
         "enderio:fluid_conduit",
