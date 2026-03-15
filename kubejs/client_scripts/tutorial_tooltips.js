@@ -268,6 +268,31 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("tconstruct:blazing_blood_bucket", (item, advanced, text) => { text.add(1, Text.gold("Craft by melting down blaze powder (or the blazes themselves)."));});
 
     // Food items
+    [
+        "minecraft:cookie",
+        "minecraft:honey_bottle",
+        "minecraft:sugar",
+        "create:bar_of_chocolate",
+        "create:chocolate_glazed_berries",
+        "create:sweet_roll",
+        "farmersdelight:apple_cider",
+        "farmersdelight:apple_pie_slice",
+        "farmersdelight:apple_pie",
+        "legumedelight:baked_beans",
+        "legumedelight:bean_paste",
+        "legumedelight:beans_on_toast",
+        "legumedelight:candied_peanuts",
+        "legumedelight:peanut_butter_cup",
+        "legumedelight:rice_cake",
+        "thermal:syrup_bottle",
+    ].forEach(tool => {
+        event.addAdvanced(tool, (item, advanced, text) => {
+            text.add(1, [Text.red("Warning: "), Text.gray("Eating too much sugar will give "), Text.darkGreen("weakness"), Text.gray(" and "), Text.darkGreen("hunger")]);
+            text.add(2, Text.gray("Moderate sugar levels will increase your speed"));
+            text.add(3, Text.gray("There are no debuffs for sugars being too low"));
+        });
+    });
+
     event.addAdvanced('kubejs:zombie_jerky', (item, advanced, text) => {
         if (!event.shift) {
             text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
