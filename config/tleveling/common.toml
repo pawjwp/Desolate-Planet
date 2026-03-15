@@ -10,7 +10,7 @@
 	#Range: 0.0 ~ 2.147483647E9
 	armorHitMultiplier = 1.0
 	#The amount of levels between each bonus modifier. Set to 0 to disable bonus modifiers. Default is 3
-	modifierLevelGap = 3
+	modifierLevelGap = 5
 	#The base exp required to level up a tool. Default is 500
 	#Range: > 1
 	levelupExpRequired = 200

@@ -11,49 +11,49 @@
           "weight": 2,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown so familiar with the swing of your tool that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
+          "message": "You've grown so familiar with the swing of your pickaxe that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
         },
         {
           "modifier": "tconstruct:haste",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your tool. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
+          "message": "With countless strikes, you have mastered the balance of your pickaxe. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
         },
         {
           "modifier": "tconstruct:magnetic",
           "weight": 3,
           "max": 1,
           "exceptions": [],
-          "message": "After breaking countless blocks, your tool has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
+          "message": "After breaking countless blocks, your pickaxe has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
         },
         {
           "modifier": "tconstruct:maintained",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your tool, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your pickaxe, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You have learned the rhythm of your tool, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
+          "message": "You have learned the rhythm of your pickaxe, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your tool rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your pickaxe rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your tool beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your pickaxe beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         }
       ]
     },
@@ -65,52 +65,52 @@
       "modifiers": [
         {
           "modifier": "tconstruct:airborne",
-          "weight": 2,
+          "weight": 1,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown so familiar with the swing of your tool that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
+          "message": "You've grown so familiar with the swing of your hammer that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
         },
         {
           "modifier": "tconstruct:haste",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your tool. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
+          "message": "With countless strikes, you have mastered the balance of your hammer. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
         },
         {
           "modifier": "tconstruct:magnetic",
-          "weight": 3,
+          "weight": 5,
           "max": 1,
           "exceptions": [],
-          "message": "After breaking countless blocks, your tool has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
+          "message": "After breaking countless blocks, your hammer has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
         },
         {
           "modifier": "tconstruct:maintained",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your tool, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your hammer, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You have learned the rhythm of your tool, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
+          "message": "You have learned the rhythm of your hammer, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your tool rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your hammer rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your tool beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your hammer beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         }
       ]
     },
@@ -122,52 +122,52 @@
       "modifiers": [
         {
           "modifier": "tconstruct:airborne",
-          "weight": 2,
+          "weight": 1,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown so familiar with the swing of your tool that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
+          "message": "You've grown so familiar with the swing of your hammer that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
         },
         {
           "modifier": "tconstruct:haste",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your tool. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
+          "message": "With countless strikes, you have mastered the balance of your hammer. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
         },
         {
           "modifier": "tconstruct:magnetic",
-          "weight": 3,
+          "weight": 5,
           "max": 1,
           "exceptions": [],
-          "message": "After breaking countless blocks, your tool has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
+          "message": "After breaking countless blocks, your hammer has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
         },
         {
           "modifier": "tconstruct:maintained",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your tool, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your hammer, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You have learned the rhythm of your tool, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
+          "message": "You have learned the rhythm of your hammer, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your tool rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your hammer rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your tool beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your hammer beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         }
       ]
     },
@@ -179,52 +179,52 @@
       "modifiers": [
         {
           "modifier": "tconstruct:airborne",
-          "weight": 2,
+          "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown so familiar with the swing of your tool that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
+          "message": "You've grown so familiar with the swing of your mattock that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
         },
         {
           "modifier": "tconstruct:haste",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your tool. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
+          "message": "With countless strikes, you have mastered the balance of your mattock. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
         },
         {
           "modifier": "tconstruct:magnetic",
           "weight": 3,
           "max": 1,
           "exceptions": [],
-          "message": "After breaking countless blocks, your tool has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
+          "message": "After breaking countless blocks, your mattock has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
         },
         {
           "modifier": "tconstruct:maintained",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your tool, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your mattock, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You have learned the rhythm of your tool, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
+          "message": "You have learned the rhythm of your mattock, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your tool rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your mattock rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your tool beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your mattock beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         }
       ]
     },
@@ -239,49 +239,49 @@
           "weight": 2,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown so familiar with the swing of your tool that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
+          "message": "You've grown so familiar with the swing of your pickadze that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
         },
         {
           "modifier": "tconstruct:haste",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your tool. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
+          "message": "With countless strikes, you have mastered the balance of your pickadze. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
         },
         {
           "modifier": "tconstruct:magnetic",
           "weight": 3,
           "max": 1,
           "exceptions": [],
-          "message": "After breaking countless blocks, your tool has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
+          "message": "After breaking countless blocks, your pickadze has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
         },
         {
           "modifier": "tconstruct:maintained",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your tool, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your pickadze, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You have learned the rhythm of your tool, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
+          "message": "You have learned the rhythm of your pickadze, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your tool rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your pickadze rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your tool beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your pickadze beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         }
       ]
     },
@@ -293,52 +293,52 @@
       "modifiers": [
         {
           "modifier": "tconstruct:airborne",
-          "weight": 2,
+          "weight": 1,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown so familiar with the swing of your tool that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
+          "message": "You've grown so familiar with the swing of your excavator that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
         },
         {
           "modifier": "tconstruct:haste",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your tool. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
+          "message": "With countless strikes, you have mastered the balance of your excavator. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
         },
         {
           "modifier": "tconstruct:magnetic",
-          "weight": 3,
+          "weight": 5,
           "max": 1,
           "exceptions": [],
-          "message": "After breaking countless blocks, your tool has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
+          "message": "After breaking countless blocks, your excavator has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
         },
         {
           "modifier": "tconstruct:maintained",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your tool, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your excavator, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You have learned the rhythm of your tool, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
+          "message": "You have learned the rhythm of your excavator, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your tool rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your excavator rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your tool beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your excavator beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         }
       ]
     },
@@ -351,52 +351,52 @@
       "modifiers": [
         {
           "modifier": "tconstruct:airborne",
-          "weight": 2,
+          "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown so familiar with the swing of your tool that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
+          "message": "You've grown so familiar with the swing of your axe that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
         },
         {
           "modifier": "tconstruct:haste",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your tool. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
+          "message": "With countless strikes, you have mastered the balance of your axe. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
         },
         {
           "modifier": "tconstruct:magnetic",
           "weight": 3,
           "max": 1,
           "exceptions": [],
-          "message": "After breaking countless blocks, your tool has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
+          "message": "After breaking countless blocks, your axe has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
         },
         {
           "modifier": "tconstruct:maintained",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your tool, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your axe, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You have learned the rhythm of your tool, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
+          "message": "You have learned the rhythm of your axe, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your tool rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your axe rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your tool beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your axe beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         }
       ]
     },
@@ -412,49 +412,49 @@
           "weight": 1,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown so familiar with the swing of your tool that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
+          "message": "You've grown so familiar with the swing of your axe that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
         },
         {
           "modifier": "tconstruct:haste",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your tool. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
+          "message": "With countless strikes, you have mastered the balance of your axe. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
         },
         {
           "modifier": "tconstruct:magnetic",
           "weight": 3,
           "max": 1,
           "exceptions": [],
-          "message": "After breaking countless blocks, your tool has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
+          "message": "After breaking countless blocks, your axe has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
         },
         {
           "modifier": "tconstruct:maintained",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your tool, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your axe, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You have learned the rhythm of your tool, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
+          "message": "You have learned the rhythm of your axe, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your tool rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your axe rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your tool beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your axe beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         }
       ]
     },
@@ -468,52 +468,52 @@
       "modifiers": [
         {
           "modifier": "tconstruct:airborne",
-          "weight": 2,
+          "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown so familiar with the swing of your tool that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
+          "message": "You've grown so familiar with the swing of your kama that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
         },
         {
           "modifier": "tconstruct:haste",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your tool. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
+          "message": "With countless strikes, you have mastered the balance of your kama. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
         },
         {
           "modifier": "tconstruct:magnetic",
           "weight": 3,
           "max": 1,
           "exceptions": [],
-          "message": "After breaking countless blocks, your tool has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
+          "message": "After breaking countless blocks, your kama has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
         },
         {
           "modifier": "tconstruct:maintained",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your tool, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your kama, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You have learned the rhythm of your tool, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
+          "message": "You have learned the rhythm of your kama, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your tool rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your kama rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your tool beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your kama beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         }
       ]
     },
@@ -527,52 +527,52 @@
       "modifiers": [
         {
           "modifier": "tconstruct:airborne",
-          "weight": 2,
+          "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown so familiar with the swing of your tool that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
+          "message": "You've grown so familiar with the swing of your scythe that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
         },
         {
           "modifier": "tconstruct:haste",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your tool. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
+          "message": "With countless strikes, you have mastered the balance of your scythe. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
         },
         {
           "modifier": "tconstruct:magnetic",
-          "weight": 3,
+          "weight": 5,
           "max": 1,
           "exceptions": [],
-          "message": "After breaking countless blocks, your tool has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
+          "message": "After breaking countless blocks, your scythe has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
         },
         {
           "modifier": "tconstruct:maintained",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your tool, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your scythe, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You have learned the rhythm of your tool, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
+          "message": "You have learned the rhythm of your scythe, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your tool rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your scythe rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your tool beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your scythe beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         }
       ]
     },
@@ -584,52 +584,52 @@
       "modifiers": [
         {
           "modifier": "tconstruct:airborne",
-          "weight": 2,
+          "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown so familiar with the swing of your tool that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
+          "message": "You've grown so familiar with the swing of your crook that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
         },
         {
           "modifier": "tconstruct:haste",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your tool. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
+          "message": "With countless strikes, you have mastered the balance of your crook. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
         },
         {
           "modifier": "tconstruct:magnetic",
           "weight": 3,
           "max": 1,
           "exceptions": [],
-          "message": "After breaking countless blocks, your tool has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
+          "message": "After breaking countless blocks, your crook has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
         },
         {
           "modifier": "tconstruct:maintained",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your tool, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your crook, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You have learned the rhythm of your tool, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
+          "message": "You have learned the rhythm of your crook, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your tool rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your crook rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your tool beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your crook beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         }
       ]
     },
@@ -644,49 +644,49 @@
           "weight": 2,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown so familiar with the swing of your tool that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
+          "message": "You've grown so familiar with the swing of your hammer that even with your feet off the ground, your strikes land cleanly. The air beneath you no longer hinders your swing. (+1 Airborne)"
         },
         {
           "modifier": "tconstruct:haste",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your tool. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
+          "message": "With countless strikes, you have mastered the balance of your hammer. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
         },
         {
           "modifier": "tconstruct:magnetic",
           "weight": 3,
           "max": 1,
           "exceptions": [],
-          "message": "After breaking countless blocks, your tool has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
+          "message": "After breaking countless blocks, your hammer has begun to hum with a quiet pull. Debris is drawn toward you now, rather than scattering to the ground. (+1 Magnetic)"
         },
         {
           "modifier": "tconstruct:maintained",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your tool, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your hammer, and your careful attention has paid off. As long as it stays in good repair, your mining will be swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You have learned the rhythm of your tool, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
+          "message": "You have learned the rhythm of your hammer, each swing feeding into the next with greater ease. Every block you shatter quickens the next swing, building a cadence that grows faster the longer you keep mining. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your tool rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your hammer rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your tool beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your hammer beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         }
       ]
     },
@@ -701,28 +701,28 @@
           "weight": 2,
           "max": 1,
           "exceptions": [],
-          "message": "Your weapon rings with a frequency that tears at the fabric of the void itself. Struck targets find themselves anchored in this world, unable to teleport for a brief time. (+1 Enderference)"
+          "message": "Your dagger rings with a frequency that tears at the fabric of the void itself. Struck targets find themselves anchored in this world, unable to teleport for a brief time. (+1 Enderference)"
         },
         {
           "modifier": "tconstruct:fiery",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "Your weapon breathes heat from somewhere deep within its edge. Each strike ignites what it touches, setting your targets ablaze. (+1 Fiery)"
+          "message": "Your dagger breathes heat from somewhere deep within its edge. Each strike ignites what it touches, setting your targets ablaze. (+1 Fiery)"
         },
         {
           "modifier": "tconstruct:freezing",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your weapon carries a bitter, creeping cold. Each strike chills what it touches, slowing your targets and sapping their health. (+1 Freezing)"
+          "message": "Your dagger carries a bitter, creeping cold. Each strike chills what it touches, slowing your targets and sapping their health. (+1 Freezing)"
         },
         {
           "modifier": "tconstruct:insatiable",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your weapon has developed a ravenous hunger, its edge sharpening with every hit. Each enemy struck feeds the blade... and makes it hungry for more. (+1 Insatiable)"
+          "message": "Your dagger has developed a ravenous hunger, its edge sharpening with every hit. Each enemy struck feeds the blade... and makes it hungry for more. (+1 Insatiable)"
         },
         {
           "modifier": "tconstruct:lacerating",
@@ -743,28 +743,28 @@
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "With practice, you've grown precise enough with your weapon to strike through your targets' defenses. Your hits slip between the cracks, bypassing some of your enemies' armor. (+1 Pierce)"
+          "message": "With practice, you've grown precise enough with your dagger to strike through your targets' defenses. Your hits slip between the cracks, bypassing some of your enemies' armor. (+1 Pierce)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your weapon rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your dagger rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:raging",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your weapon itself seems to mirror your desperation. The closer you are to death, the more savagely it strikes. (+1 Raging)"
+          "message": "Your dagger itself seems to mirror your desperation. The closer you are to death, the more savagely it strikes. (+1 Raging)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your weapon beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your dagger beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         },
         {
           "modifier": "tconstruct:severing",
@@ -778,28 +778,21 @@
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "Countless swings have honed your technique, and your weapon's edge along with it. It cuts deeper now, every hit landing harder. (+1 Sharpness)"
+          "message": "Countless swings have honed your technique, and your dagger's edge along with it. It cuts deeper now, every hit landing harder. (+1 Sharpness)"
         },
         {
           "modifier": "tconstruct:smite",
           "weight": 8,
           "max": 5,
           "exceptions": [],
-          "message": "Combat against the risen dead has anointed your weapon with a sense of holy purpose. It now strikes the undead with a newfound fury. (+1 Smite)"
-        },
-        {
-          "modifier": "tconstruct:sweeping_edge",
-          "weight": 3,
-          "max": 3,
-          "exceptions": [],
-          "message": "You've mastered your weapon's flourish. Your attacks sweep through groups of enemies in a single arc, punishing anything foolish enough to stand beside your target. (+1 Sweeping Edge)"
+          "message": "Combat against the risen dead has anointed your dagger with a sense of holy purpose. It now strikes the undead with a newfound fury. (+1 Smite)"
         },
         {
           "modifier": "tconstruct:swiftstrike",
           "weight": 8,
           "max": 3,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your weapon. Your swings come faster now, cutting through enemies before they can even react. (+1 Swiftstrike)"
+          "message": "With countless strikes, you have mastered the balance of your dagger. Your swings come faster now, cutting through enemies before they can even react. (+1 Swiftstrike)"
         }
       ]
     },
@@ -814,28 +807,28 @@
           "weight": 2,
           "max": 1,
           "exceptions": [],
-          "message": "Your weapon rings with a frequency that tears at the fabric of the void itself. Struck targets find themselves anchored in this world, unable to teleport for a brief time. (+1 Enderference)"
+          "message": "Your sword rings with a frequency that tears at the fabric of the void itself. Struck targets find themselves anchored in this world, unable to teleport for a brief time. (+1 Enderference)"
         },
         {
           "modifier": "tconstruct:fiery",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "Your weapon breathes heat from somewhere deep within its edge. Each strike ignites what it touches, setting your targets ablaze. (+1 Fiery)"
+          "message": "Your sword breathes heat from somewhere deep within its edge. Each strike ignites what it touches, setting your targets ablaze. (+1 Fiery)"
         },
         {
           "modifier": "tconstruct:freezing",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your weapon carries a bitter, creeping cold. Each strike chills what it touches, slowing your targets and sapping their health. (+1 Freezing)"
+          "message": "Your sword carries a bitter, creeping cold. Each strike chills what it touches, slowing your targets and sapping their health. (+1 Freezing)"
         },
         {
           "modifier": "tconstruct:insatiable",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your weapon has developed a ravenous hunger, its edge sharpening with every hit. Each enemy struck feeds the blade... and makes it hungry for more. (+1 Insatiable)"
+          "message": "Your sword has developed a ravenous hunger, its edge sharpening with every hit. Each enemy struck feeds the blade... and makes it hungry for more. (+1 Insatiable)"
         },
         {
           "modifier": "tconstruct:lacerating",
@@ -856,28 +849,28 @@
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "With practice, you've grown precise enough with your weapon to strike through your targets' defenses. Your hits slip between the cracks, bypassing some of your enemies' armor. (+1 Pierce)"
+          "message": "With practice, you've grown precise enough with your sword to strike through your targets' defenses. Your hits slip between the cracks, bypassing some of your enemies' armor. (+1 Pierce)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your weapon rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your sword rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:raging",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your weapon itself seems to mirror your desperation. The closer you are to death, the more savagely it strikes. (+1 Raging)"
+          "message": "Your sword itself seems to mirror your desperation. The closer you are to death, the more savagely it strikes. (+1 Raging)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your weapon beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your sword beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         },
         {
           "modifier": "tconstruct:severing",
@@ -891,28 +884,28 @@
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "Countless swings have honed your technique, and your weapon's edge along with it. It cuts deeper now, every hit landing harder. (+1 Sharpness)"
+          "message": "Countless swings have honed your technique, and your sword's edge along with it. It cuts deeper now, every hit landing harder. (+1 Sharpness)"
         },
         {
           "modifier": "tconstruct:smite",
           "weight": 8,
           "max": 5,
           "exceptions": [],
-          "message": "Combat against the risen dead has anointed your weapon with a sense of holy purpose. It now strikes the undead with a newfound fury. (+1 Smite)"
+          "message": "Combat against the risen dead has anointed your sword with a sense of holy purpose. It now strikes the undead with a newfound fury. (+1 Smite)"
         },
         {
           "modifier": "tconstruct:sweeping_edge",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You've mastered your weapon's flourish. Your attacks sweep through groups of enemies in a single arc, punishing anything foolish enough to stand beside your target. (+1 Sweeping Edge)"
+          "message": "You've mastered your sword's flourish. Your attacks sweep through groups of enemies in a single arc, punishing anything foolish enough to stand beside your target. (+1 Sweeping Edge)"
         },
         {
           "modifier": "tconstruct:swiftstrike",
           "weight": 8,
           "max": 3,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your weapon. Your swings come faster now, cutting through enemies before they can even react. (+1 Swiftstrike)"
+          "message": "With countless strikes, you have mastered the balance of your sword. Your swings come faster now, cutting through enemies before they can even react. (+1 Swiftstrike)"
         }
       ]
     },
@@ -927,28 +920,28 @@
           "weight": 2,
           "max": 1,
           "exceptions": [],
-          "message": "Your weapon rings with a frequency that tears at the fabric of the void itself. Struck targets find themselves anchored in this world, unable to teleport for a brief time. (+1 Enderference)"
+          "message": "Your cleaver rings with a frequency that tears at the fabric of the void itself. Struck targets find themselves anchored in this world, unable to teleport for a brief time. (+1 Enderference)"
         },
         {
           "modifier": "tconstruct:fiery",
           "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "Your weapon breathes heat from somewhere deep within its edge. Each strike ignites what it touches, setting your targets ablaze. (+1 Fiery)"
+          "message": "Your cleaver breathes heat from somewhere deep within its edge. Each strike ignites what it touches, setting your targets ablaze. (+1 Fiery)"
         },
         {
           "modifier": "tconstruct:freezing",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your weapon carries a bitter, creeping cold. Each strike chills what it touches, slowing your targets and sapping their health. (+1 Freezing)"
+          "message": "Your cleaver carries a bitter, creeping cold. Each strike chills what it touches, slowing your targets and sapping their health. (+1 Freezing)"
         },
         {
           "modifier": "tconstruct:insatiable",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your weapon has developed a ravenous hunger, its edge sharpening with every hit. Each enemy struck feeds the blade... and makes it hungry for more. (+1 Insatiable)"
+          "message": "Your cleaver has developed a ravenous hunger, its edge sharpening with every hit. Each enemy struck feeds the blade... and makes it hungry for more. (+1 Insatiable)"
         },
         {
           "modifier": "tconstruct:lacerating",
@@ -969,33 +962,33 @@
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "With practice, you've grown precise enough with your weapon to strike through your targets' defenses. Your hits slip between the cracks, bypassing some of your enemies' armor. (+1 Pierce)"
+          "message": "With practice, you've grown precise enough with your cleaver to strike through your targets' defenses. Your hits slip between the cracks, bypassing some of your enemies' armor. (+1 Pierce)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your weapon rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your cleaver rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:raging",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your weapon itself seems to mirror your desperation. The closer you are to death, the more savagely it strikes. (+1 Raging)"
+          "message": "Your cleaver itself seems to mirror your desperation. The closer you are to death, the more savagely it strikes. (+1 Raging)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Long hours of use have tempered your weapon beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+          "message": "Long hours of use have tempered your cleaver beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
         },
         {
           "modifier": "tconstruct:severing",
-          "weight": 5,
-          "max": 3,
+          "weight": 10,
+          "max": 4,
           "exceptions": [],
           "message": "You have learned to deal your killing blows with surgical precision. Slain enemies are more likely to leave their heads behind. (+1 Severing)"
         },
@@ -1004,28 +997,21 @@
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "Countless swings have honed your technique, and your weapon's edge along with it. It cuts deeper now, every hit landing harder. (+1 Sharpness)"
+          "message": "Countless swings have honed your technique, and your cleaver's edge along with it. It cuts deeper now, every hit landing harder. (+1 Sharpness)"
         },
         {
           "modifier": "tconstruct:smite",
           "weight": 8,
           "max": 5,
           "exceptions": [],
-          "message": "Combat against the risen dead has anointed your weapon with a sense of holy purpose. It now strikes the undead with a newfound fury. (+1 Smite)"
-        },
-        {
-          "modifier": "tconstruct:sweeping_edge",
-          "weight": 3,
-          "max": 3,
-          "exceptions": [],
-          "message": "You've mastered your weapon's flourish. Your attacks sweep through groups of enemies in a single arc, punishing anything foolish enough to stand beside your target. (+1 Sweeping Edge)"
+          "message": "Combat against the risen dead has anointed your cleaver with a sense of holy purpose. It now strikes the undead with a newfound fury. (+1 Smite)"
         },
         {
           "modifier": "tconstruct:swiftstrike",
           "weight": 8,
           "max": 3,
           "exceptions": [],
-          "message": "With countless strikes, you have mastered the balance of your weapon. Your swings come faster now, cutting through enemies before they can even react. (+1 Swiftstrike)"
+          "message": "With countless strikes, you have mastered the balance of your cleaver. Your swings come faster now, cutting through enemies before they can even react. (+1 Swiftstrike)"
         }
       ]
     },
@@ -1040,7 +1026,7 @@
           "weight": 8,
           "max": 5,
           "exceptions": [],
-          "message": "Combat against the risen dead has anointed your bow with a sense of holy purpose. It now strikes the undead with a newfound fury.  (+1 Holy)"
+          "message": "Combat against the risen dead has anointed your crossbow with a sense of holy purpose. It now strikes the undead with a newfound fury.  (+1 Holy)"
         },
         {
           "modifier": "tconstruct:impaling",
@@ -1054,7 +1040,7 @@
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your bow has developed a ravenous hunger, its strikes sharpening with every hit. Each arrow that finds its mark feeds it... and makes it hungry for more. (+1 Insatiable)"
+          "message": "Your crossbow has developed a ravenous hunger, its strikes sharpening with every hit. Each arrow that finds its mark feeds it... and makes it hungry for more. (+1 Insatiable)"
         },
         {
           "modifier": "tconstruct:lacerating",
@@ -1068,56 +1054,56 @@
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your bow, and your careful attention has paid off. As long as it stays in good repair, your arrows will fly swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your crossbow, and your careful attention has paid off. As long as it stays in good repair, your arrows will fly swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "You have learned the rhythm of your bow, each shot feeding into the next with greater ease. Every arrow you loose quickens the next draw, building a cadence that grows faster the longer you keep firing. (+1 Momentum)"
+          "message": "You have learned the rhythm of your crossbow, each shot feeding into the next with greater ease. Every arrow you loose quickens the next draw, building a cadence that grows faster the longer you keep firing. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:pierce",
           "weight": 5,
           "max": 3,
           "exceptions": [],
-          "message": "With practice, you've grown precise enough with your bow to strike through your targets' defenses. Your arrows slip between the cracks, bypassing some of your enemies' armor. (+1 Pierce)"
+          "message": "With practice, you've grown precise enough with your crossbow to strike through your targets' defenses. Your arrows slip between the cracks, bypassing some of your enemies' armor. (+1 Pierce)"
         },
         {
           "modifier": "tconstruct:power",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "Countless draws have honed your technique, and your bow's limbs along with it. Your arrows strike deeper now, every hit landing with greater force. (+1 Power)"
+          "message": "Countless draws have honed your technique, and your crossbow's limbs along with it. Your arrows strike deeper now, every hit landing with greater force. (+1 Power)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your bow rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your crossbow rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:quick_charge",
           "weight": 5,
           "max": 4,
           "exceptions": [],
-          "message": "After countless arrows nocked, you have mastered the draw of your bow. Your shots come faster now, loosing before your targets can even react. (+1 Quick Charge)"
+          "message": "After countless arrows nocked, you have mastered the draw of your crossbow. Your shots come faster now, loosing before your targets can even react. (+1 Quick Charge)"
         },
         {
           "modifier": "tconstruct:raging",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your bow itself seems to mirror your desperation. The closer you are to death, the more savagely it strikes. (+1 Raging)"
+          "message": "Your crossbow itself seems to mirror your desperation. The closer you are to death, the more savagely it strikes. (+1 Raging)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Draw after draw, the limbs of your bow have settled into something more resilient. Its shape holds firmer now, less likely to fray with each arrow you loose. (+1 Reinforced)"
+          "message": "Draw after draw, the limbs of your crossbow have settled into something more resilient. Its shape holds firmer now, less likely to fray with each arrow you loose. (+1 Reinforced)"
         },
         {
           "modifier": "tconstruct:unburdened",
@@ -1139,21 +1125,14 @@
           "weight": 8,
           "max": 5,
           "exceptions": [],
-          "message": "Combat against the risen dead has anointed your bow with a sense of holy purpose. It now strikes the undead with a newfound fury.  (+1 Holy)"
-        },
-        {
-          "modifier": "tconstruct:impaling",
-          "weight": 3,
-          "max": 4,
-          "exceptions": [],
-          "message": "You've learned to loose arrows with enough force that they don't stop after hitting your first target. You can now pierce through multiple enemies with a single shot. (+1 Impaling)"
+          "message": "Combat against the risen dead has anointed your longbow with a sense of holy purpose. It now strikes the undead with a newfound fury.  (+1 Holy)"
         },
         {
           "modifier": "tconstruct:insatiable",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your bow has developed a ravenous hunger, its strikes sharpening with every hit. Each arrow that finds its mark feeds it... and makes it hungry for more. (+1 Insatiable)"
+          "message": "Your longbow has developed a ravenous hunger, its strikes sharpening with every hit. Each arrow that finds its mark feeds it... and makes it hungry for more. (+1 Insatiable)"
         },
         {
           "modifier": "tconstruct:lacerating",
@@ -1167,56 +1146,56 @@
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your bow, and your careful attention has paid off. As long as it stays in good repair, your arrows will fly swifter. (+1 Maintained)"
+          "message": "You have meticulously maintained your longbow, and your careful attention has paid off. As long as it stays in good repair, your arrows will fly swifter. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:momentum",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "You have learned the rhythm of your bow, each shot feeding into the next with greater ease. Every arrow you loose quickens the next draw, building a cadence that grows faster the longer you keep firing. (+1 Momentum)"
+          "message": "You have learned the rhythm of your longbow, each shot feeding into the next with greater ease. Every arrow you loose quickens the next draw, building a cadence that grows faster the longer you keep firing. (+1 Momentum)"
         },
         {
           "modifier": "tconstruct:pierce",
           "weight": 5,
           "max": 3,
           "exceptions": [],
-          "message": "With practice, you've grown precise enough with your bow to strike through your targets' defenses. Your arrows slip between the cracks, bypassing some of your enemies' armor. (+1 Pierce)"
+          "message": "With practice, you've grown precise enough with your longbow to strike through your targets' defenses. Your arrows slip between the cracks, bypassing some of your enemies' armor. (+1 Pierce)"
         },
         {
           "modifier": "tconstruct:power",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "Countless draws have honed your technique, and your bow's limbs along with it. Your arrows strike deeper now, every hit landing with greater force. (+1 Power)"
+          "message": "Countless draws have honed your technique, and your longbow's limbs along with it. Your arrows strike deeper now, every hit landing with greater force. (+1 Power)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your bow rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to work with the grain of your longbow rather than against it. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:quick_charge",
           "weight": 5,
           "max": 4,
           "exceptions": [],
-          "message": "After countless arrows nocked, you have mastered the draw of your bow. Your shots come faster now, loosing before your targets can even react. (+1 Quick Charge)"
+          "message": "After countless arrows nocked, you have mastered the draw of your longbow. Your shots come faster now, loosing before your targets can even react. (+1 Quick Charge)"
         },
         {
           "modifier": "tconstruct:raging",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your bow itself seems to mirror your desperation. The closer you are to death, the more savagely it strikes. (+1 Raging)"
+          "message": "Your longbow itself seems to mirror your desperation. The closer you are to death, the more savagely it strikes. (+1 Raging)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Draw after draw, the limbs of your bow have settled into something more resilient. Its shape holds firmer now, less likely to fray with each arrow you loose. (+1 Reinforced)"
+          "message": "Draw after draw, the limbs of your longbow have settled into something more resilient. Its shape holds firmer now, less likely to fray with each arrow you loose. (+1 Reinforced)"
         },
         {
           "modifier": "tconstruct:unburdened",
@@ -1238,35 +1217,35 @@
           "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've walked through enough explosions to know how to brace for them. Your armor absorbs the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
+          "message": "You've walked through enough explosions to know how to brace for them. Your helmet absorbs the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
         },
         {
           "modifier": "tconstruct:consecrated",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Combat against the risen dead has anointed your armor with a sense of holy purpose. It now resists strikes from the undead with a newfound righteousness. (+1 Consecrated)"
+          "message": "Combat against the risen dead has anointed your helmet with a sense of holy purpose. It now resists strikes from the undead with a newfound righteousness. (+1 Consecrated)"
         },
         {
           "modifier": "tconstruct:ductile",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your armor has been stressed and shaped by the forces it's endured, and come out tougher for it. It bends where it once would crack, increasing both its durability and toughness. (+1 Ductile)"
+          "message": "Your helmet has been stressed and shaped by the forces it's endured, and come out tougher for it. It bends where it once would crack, increasing both its durability and toughness. (+1 Ductile)"
         },
         {
           "modifier": "tconstruct:fiery",
           "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "Your armor radiates a searing heat that flares on impact. Strikes against you ignite the attacker, setting anyone who dares to cross you ablaze. (+1 Fiery)"
+          "message": "Your helmet radiates a searing heat that flares on impact. Strikes against you ignite the attacker, setting anyone who dares to cross you ablaze. (+1 Fiery)"
         },
         {
           "modifier": "tconstruct:freezing",
           "weight": 5,
           "max": 3,
           "exceptions": [],
-          "message": "Your armor radiates a bitter cold that erupts on impact. Strikes against you chill the attacker, slowing them and sapping their health. (+1 Freezing)"
+          "message": "Your helmet radiates a bitter cold that erupts on impact. Strikes against you chill the attacker, slowing them and sapping their health. (+1 Freezing)"
         },
         {
           "modifier": "tconstruct:kinetic",
@@ -1280,70 +1259,70 @@
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your armor, and your careful attention has paid off. As long as it stays in good repair, your armor will be more resilient against attack. (+1 Maintained)"
+          "message": "You have meticulously maintained your helmet, and your careful attention has paid off. As long as it stays in good repair, your helmet will be more resilient against attack. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:melee_protection",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your armor catches blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
+          "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your helmet catches blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to move in your armor rather than grinding it against itself. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to move in your helmet rather than grinding it against itself. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:projectile_protection",
           "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your armor catches arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
+          "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your helmet catches arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
         },
         {
           "modifier": "tconstruct:protection",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your armor absorbs damage better now, reducing harm from all sources. (+1 Protection)"
+          "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your helmet absorbs damage better now, reducing harm from all sources. (+1 Protection)"
         },
         {
           "modifier": "tconstruct:recurrent_protection",
-          "weight": 5,
+          "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your armor braces against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
+          "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your helmet braces against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Dent by dent, your armor has settled into something stronger than its original form. It resists wear more stubbornly now, less likely to take lasting damage from blows. (+1 Reinforced)"
+          "message": "Dent by dent, your helmet has settled into something stronger than its original form. It resists wear more stubbornly now, less likely to take lasting damage from blows. (+1 Reinforced)"
         },
         {
           "modifier": "tconstruct:scorch_protection",
-          "weight": 35,
+          "weight": 5,
           "max": 3,
           "exceptions": [],
-          "message": "You've faced enough creatures born of fire to know how they burn. Your armor has been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
+          "message": "You've faced enough creatures born of fire to know how they burn. Your helmet has been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
         },
         {
           "modifier": "tconstruct:thorns",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "The pattern of wear on your armor has left jagged edges and sharp ridges that punish contact. Anything that strikes you will regret the attempt. (+1 Thorns)"
+          "message": "The pattern of wear on your helmet has left jagged edges and sharp ridges that punish contact. Anything that strikes you will regret the attempt. (+1 Thorns)"
         },
         {
           "modifier": "tconstruct:vital_protection",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your armor itself seems to mirror your desperation. The closer you are to death, the greater protection it offers. (+1 Vital Protection)"
+          "message": "Your helmet itself seems to mirror your desperation. The closer you are to death, the greater protection it offers. (+1 Vital Protection)"
         }
       ]
     },
@@ -1358,35 +1337,35 @@
           "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've walked through enough explosions to know how to brace for them. Your armor absorbs the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
+          "message": "You've walked through enough explosions to know how to brace for them. Your chestplate absorbs the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
         },
         {
           "modifier": "tconstruct:consecrated",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Combat against the risen dead has anointed your armor with a sense of holy purpose. It now resists strikes from the undead with a newfound righteousness. (+1 Consecrated)"
+          "message": "Combat against the risen dead has anointed your chestplate with a sense of holy purpose. It now resists strikes from the undead with a newfound righteousness. (+1 Consecrated)"
         },
         {
           "modifier": "tconstruct:ductile",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your armor has been stressed and shaped by the forces it's endured, and come out tougher for it. It bends where it once would crack, increasing both its durability and toughness. (+1 Ductile)"
+          "message": "Your chestplate has been stressed and shaped by the forces it's endured, and come out tougher for it. It bends where it once would crack, increasing both its durability and toughness. (+1 Ductile)"
         },
         {
           "modifier": "tconstruct:fiery",
           "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "Your armor radiates a searing heat that flares on impact. Strikes against you ignite the attacker, setting anyone who dares to cross you ablaze. (+1 Fiery)"
+          "message": "Your chestplate radiates a searing heat that flares on impact. Strikes against you ignite the attacker, setting anyone who dares to cross you ablaze. (+1 Fiery)"
         },
         {
           "modifier": "tconstruct:freezing",
           "weight": 5,
           "max": 3,
           "exceptions": [],
-          "message": "Your armor radiates a bitter cold that erupts on impact. Strikes against you chill the attacker, slowing them and sapping their health. (+1 Freezing)"
+          "message": "Your chestplate radiates a bitter cold that erupts on impact. Strikes against you chill the attacker, slowing them and sapping their health. (+1 Freezing)"
         },
         {
           "modifier": "tconstruct:haste",
@@ -1407,70 +1386,70 @@
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your armor, and your careful attention has paid off. As long as it stays in good repair, your armor will be more resilient against attack. (+1 Maintained)"
+          "message": "You have meticulously maintained your chestplate, and your careful attention has paid off. As long as it stays in good repair, your chestplate will be more resilient against attack. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:melee_protection",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your armor catches blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
+          "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your chestplate catches blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to move in your armor rather than grinding it against itself. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to move in your chestplate rather than grinding it against itself. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:projectile_protection",
           "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your armor catches arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
+          "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your chestplate catches arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
         },
         {
           "modifier": "tconstruct:protection",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your armor absorbs damage better now, reducing harm from all sources. (+1 Protection)"
+          "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your chestplate absorbs damage better now, reducing harm from all sources. (+1 Protection)"
         },
         {
           "modifier": "tconstruct:recurrent_protection",
-          "weight": 5,
+          "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your armor braces against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
+          "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your chestplate braces against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Dent by dent, your armor has settled into something stronger than its original form. It resists wear more stubbornly now, less likely to take lasting damage from blows. (+1 Reinforced)"
+          "message": "Dent by dent, your chestplate has settled into something stronger than its original form. It resists wear more stubbornly now, less likely to take lasting damage from blows. (+1 Reinforced)"
         },
         {
           "modifier": "tconstruct:scorch_protection",
-          "weight": 35,
+          "weight": 5,
           "max": 3,
           "exceptions": [],
-          "message": "You've faced enough creatures born of fire to know how they burn. Your armor has been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
+          "message": "You've faced enough creatures born of fire to know how they burn. Your chestplate has been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
         },
         {
           "modifier": "tconstruct:thorns",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "The pattern of wear on your armor has left jagged edges and sharp ridges that punish contact. Anything that strikes you will regret the attempt. (+1 Thorns)"
+          "message": "The pattern of wear on your chestplate has left jagged edges and sharp ridges that punish contact. Anything that strikes you will regret the attempt. (+1 Thorns)"
         },
         {
           "modifier": "tconstruct:vital_protection",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your armor itself seems to mirror your desperation. The closer you are to death, the greater protection it offers. (+1 Vital Protection)"
+          "message": "Your chestplate itself seems to mirror your desperation. The closer you are to death, the greater protection it offers. (+1 Vital Protection)"
         }
       ]
     },
@@ -1485,35 +1464,35 @@
           "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've walked through enough explosions to know how to brace for them. Your armor absorbs the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
+          "message": "You've walked through enough explosions to know how to brace for them. Your leggings absorbs the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
         },
         {
           "modifier": "tconstruct:consecrated",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Combat against the risen dead has anointed your armor with a sense of holy purpose. It now resists strikes from the undead with a newfound righteousness. (+1 Consecrated)"
+          "message": "Combat against the risen dead has anointed your leggings with a sense of holy purpose. It now resists strikes from the undead with a newfound righteousness. (+1 Consecrated)"
         },
         {
           "modifier": "tconstruct:ductile",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your armor has been stressed and shaped by the forces it's endured, and come out tougher for it. It bends where it once would crack, increasing both its durability and toughness. (+1 Ductile)"
+          "message": "Your leggings has been stressed and shaped by the forces it's endured, and come out tougher for it. It bends where it once would crack, increasing both its durability and toughness. (+1 Ductile)"
         },
         {
           "modifier": "tconstruct:fiery",
           "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "Your armor radiates a searing heat that flares on impact. Strikes against you ignite the attacker, setting anyone who dares to cross you ablaze. (+1 Fiery)"
+          "message": "Your leggings radiates a searing heat that flares on impact. Strikes against you ignite the attacker, setting anyone who dares to cross you ablaze. (+1 Fiery)"
         },
         {
           "modifier": "tconstruct:freezing",
           "weight": 5,
           "max": 3,
           "exceptions": [],
-          "message": "Your armor radiates a bitter cold that erupts on impact. Strikes against you chill the attacker, slowing them and sapping their health. (+1 Freezing)"
+          "message": "Your leggings radiates a bitter cold that erupts on impact. Strikes against you chill the attacker, slowing them and sapping their health. (+1 Freezing)"
         },
         {
           "modifier": "tconstruct:kinetic",
@@ -1527,70 +1506,70 @@
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your armor, and your careful attention has paid off. As long as it stays in good repair, your armor will be more resilient against attack. (+1 Maintained)"
+          "message": "You have meticulously maintained your leggings, and your careful attention has paid off. As long as it stays in good repair, your leggings will be more resilient against attack. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:melee_protection",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your armor catches blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
+          "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your leggings catches blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to move in your armor rather than grinding it against itself. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to move in your leggings rather than grinding it against itself. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:projectile_protection",
           "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your armor catches arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
+          "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your leggings catches arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
         },
         {
           "modifier": "tconstruct:protection",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your armor absorbs damage better now, reducing harm from all sources. (+1 Protection)"
+          "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your leggings absorbs damage better now, reducing harm from all sources. (+1 Protection)"
         },
         {
           "modifier": "tconstruct:recurrent_protection",
-          "weight": 5,
+          "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your armor braces against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
+          "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your leggings braces against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Dent by dent, your armor has settled into something stronger than its original form. It resists wear more stubbornly now, less likely to take lasting damage from blows. (+1 Reinforced)"
+          "message": "Dent by dent, your leggings has settled into something stronger than its original form. It resists wear more stubbornly now, less likely to take lasting damage from blows. (+1 Reinforced)"
         },
         {
           "modifier": "tconstruct:scorch_protection",
-          "weight": 35,
+          "weight": 5,
           "max": 3,
           "exceptions": [],
-          "message": "You've faced enough creatures born of fire to know how they burn. Your armor has been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
+          "message": "You've faced enough creatures born of fire to know how they burn. Your leggings has been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
         },
         {
           "modifier": "tconstruct:thorns",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "The pattern of wear on your armor has left jagged edges and sharp ridges that punish contact. Anything that strikes you will regret the attempt. (+1 Thorns)"
+          "message": "The pattern of wear on your leggings has left jagged edges and sharp ridges that punish contact. Anything that strikes you will regret the attempt. (+1 Thorns)"
         },
         {
           "modifier": "tconstruct:vital_protection",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your armor itself seems to mirror your desperation. The closer you are to death, the greater protection it offers. (+1 Vital Protection)"
+          "message": "Your leggings itself seems to mirror your desperation. The closer you are to death, the greater protection it offers. (+1 Vital Protection)"
         }
       ]
     },
@@ -1605,21 +1584,21 @@
           "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've walked through enough explosions to know how to brace for them. Your armor absorbs the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
+          "message": "You've walked through enough explosions to know how to brace for them. Your boots absorbs the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
         },
         {
           "modifier": "tconstruct:consecrated",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Combat against the risen dead has anointed your armor with a sense of holy purpose. It now resists strikes from the undead with a newfound righteousness. (+1 Consecrated)"
+          "message": "Combat against the risen dead has anointed your boots with a sense of holy purpose. It now resists strikes from the undead with a newfound righteousness. (+1 Consecrated)"
         },
         {
           "modifier": "tconstruct:ductile",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your armor has been stressed and shaped by the forces it's endured, and come out tougher for it. It bends where it once would crack, increasing both its durability and toughness. (+1 Ductile)"
+          "message": "Your boots has been stressed and shaped by the forces it's endured, and come out tougher for it. It bends where it once would crack, increasing both its durability and toughness. (+1 Ductile)"
         },
         {
           "modifier": "tconstruct:feather_falling",
@@ -1633,14 +1612,14 @@
           "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "Your armor radiates a searing heat that flares on impact. Strikes against you ignite the attacker, setting anyone who dares to cross you ablaze. (+1 Fiery)"
+          "message": "Your boots radiates a searing heat that flares on impact. Strikes against you ignite the attacker, setting anyone who dares to cross you ablaze. (+1 Fiery)"
         },
         {
           "modifier": "tconstruct:freezing",
           "weight": 5,
           "max": 3,
           "exceptions": [],
-          "message": "Your armor radiates a bitter cold that erupts on impact. Strikes against you chill the attacker, slowing them and sapping their health. (+1 Freezing)"
+          "message": "Your boots radiates a bitter cold that erupts on impact. Strikes against you chill the attacker, slowing them and sapping their health. (+1 Freezing)"
         },
         {
           "modifier": "tconstruct:kinetic",
@@ -1654,70 +1633,70 @@
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your armor, and your careful attention has paid off. As long as it stays in good repair, your armor will be more resilient against attack. (+1 Maintained)"
+          "message": "You have meticulously maintained your boots, and your careful attention has paid off. As long as it stays in good repair, your boots will be more resilient against attack. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:melee_protection",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your armor catches blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
+          "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your boots catches blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to move in your armor rather than grinding it against itself. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to move in your boots rather than grinding it against itself. It holds together longer now, and mends more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:projectile_protection",
           "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your armor catches arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
+          "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your boots catches arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
         },
         {
           "modifier": "tconstruct:protection",
           "weight": 20,
           "max": 5,
           "exceptions": [],
-          "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your armor absorbs damage better now, reducing harm from all sources. (+1 Protection)"
+          "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your boots absorbs damage better now, reducing harm from all sources. (+1 Protection)"
         },
         {
           "modifier": "tconstruct:recurrent_protection",
-          "weight": 5,
+          "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your armor braces against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
+          "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your boots braces against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Dent by dent, your armor has settled into something stronger than its original form. It resists wear more stubbornly now, less likely to take lasting damage from blows. (+1 Reinforced)"
+          "message": "Dent by dent, your boots has settled into something stronger than its original form. It resists wear more stubbornly now, less likely to take lasting damage from blows. (+1 Reinforced)"
         },
         {
           "modifier": "tconstruct:scorch_protection",
-          "weight": 35,
+          "weight": 5,
           "max": 3,
           "exceptions": [],
-          "message": "You've faced enough creatures born of fire to know how they burn. Your armor has been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
+          "message": "You've faced enough creatures born of fire to know how they burn. Your boots has been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
         },
         {
           "modifier": "tconstruct:thorns",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "The pattern of wear on your armor has left jagged edges and sharp ridges that punish contact. Anything that strikes you will regret the attempt. (+1 Thorns)"
+          "message": "The pattern of wear on your boots has left jagged edges and sharp ridges that punish contact. Anything that strikes you will regret the attempt. (+1 Thorns)"
         },
         {
           "modifier": "tconstruct:vital_protection",
           "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your armor itself seems to mirror your desperation. The closer you are to death, the greater protection it offers. (+1 Vital Protection)"
+          "message": "Your boots itself seems to mirror your desperation. The closer you are to death, the greater protection it offers. (+1 Vital Protection)"
         }
       ]
     }
