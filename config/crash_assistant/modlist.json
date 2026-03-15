@@ -431,12 +431,12 @@
     "curseForgeHash": 3504336343,
     "modrinthHash": "0328a8350cf0a6d1c44265367a077649088b354b"
   },
-  "EnderIO-1.20.1-6.2.17-beta-all.jar": {
-    "jarName": "EnderIO-1.20.1-6.2.17-beta-all.jar",
+  "EnderIO-1.20.1-6.2.18-beta-all.jar": {
+    "jarName": "EnderIO-1.20.1-6.2.18-beta-all.jar",
     "modId": "enderio",
-    "version": "6.2.17-beta",
-    "curseForgeHash": 3138600415,
-    "modrinthHash": "8b5aad2aa546d2ff8f2408a77c74e8dbb5d2c6d8"
+    "version": "6.2.18-beta",
+    "curseForgeHash": 643940021,
+    "modrinthHash": "33587f98f2d96507de0e9d2f57f5ab35328ace7d"
   },
   "EnderStorage-1.20.1-2.11.0.188-universal.jar": {
     "jarName": "EnderStorage-1.20.1-2.11.0.188-universal.jar",
@@ -1101,12 +1101,12 @@
     "curseForgeHash": 921711792,
     "modrinthHash": "4672c64a8019e81a4a6c8239f20661d5edbd5da1"
   },
-  "tleveling-0.2.5-1.20.1.jar": {
-    "jarName": "tleveling-0.2.5-1.20.1.jar",
+  "tleveling-1.0.0-1.20.1.jar": {
+    "jarName": "tleveling-1.0.0-1.20.1.jar",
     "modId": "tleveling",
-    "version": "0.2.5-1.20.1",
-    "curseForgeHash": 1780294509,
-    "modrinthHash": "dc51f8fed7ab3884bc4c80f413bc34fc753a05a8"
+    "version": "1.0.0-1.20.1",
+    "curseForgeHash": 263407803,
+    "modrinthHash": "0e13aa046a41d0417b230c946b62a887cc618515"
   },
   "torchmaster-20.1.9.jar": {
     "jarName": "torchmaster-20.1.9.jar",
