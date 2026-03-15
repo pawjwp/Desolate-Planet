@@ -15,7 +15,7 @@
         },
         {
           "modifier": "tconstruct:haste",
-          "weight": 20,
+          "weight": 16,
           "max": 5,
           "exceptions": [],
           "message": "With countless strikes, you have mastered the balance of your pickaxe. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
@@ -50,7 +50,7 @@
         },
         {
           "modifier": "tconstruct:reinforced",
-          "weight": 10,
+          "weight": 8,
           "max": 5,
           "exceptions": [],
           "message": "Long hours of use have tempered your pickaxe beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
@@ -72,7 +72,7 @@
         },
         {
           "modifier": "tconstruct:haste",
-          "weight": 20,
+          "weight": 16,
           "max": 5,
           "exceptions": [],
           "message": "With countless strikes, you have mastered the balance of your hammer. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
@@ -107,7 +107,7 @@
         },
         {
           "modifier": "tconstruct:reinforced",
-          "weight": 10,
+          "weight": 8,
           "max": 5,
           "exceptions": [],
           "message": "Long hours of use have tempered your hammer beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
@@ -129,7 +129,7 @@
         },
         {
           "modifier": "tconstruct:haste",
-          "weight": 20,
+          "weight": 16,
           "max": 5,
           "exceptions": [],
           "message": "With countless strikes, you have mastered the balance of your hammer. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
@@ -164,7 +164,7 @@
         },
         {
           "modifier": "tconstruct:reinforced",
-          "weight": 10,
+          "weight": 8,
           "max": 5,
           "exceptions": [],
           "message": "Long hours of use have tempered your hammer beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
@@ -186,7 +186,7 @@
         },
         {
           "modifier": "tconstruct:haste",
-          "weight": 20,
+          "weight": 16,
           "max": 5,
           "exceptions": [],
           "message": "With countless strikes, you have mastered the balance of your mattock. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
@@ -221,7 +221,7 @@
         },
         {
           "modifier": "tconstruct:reinforced",
-          "weight": 10,
+          "weight": 8,
           "max": 5,
           "exceptions": [],
           "message": "Long hours of use have tempered your mattock beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
@@ -243,7 +243,7 @@
         },
         {
           "modifier": "tconstruct:haste",
-          "weight": 20,
+          "weight": 16,
           "max": 5,
           "exceptions": [],
           "message": "With countless strikes, you have mastered the balance of your pickadze. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
@@ -278,7 +278,7 @@
         },
         {
           "modifier": "tconstruct:reinforced",
-          "weight": 10,
+          "weight": 8,
           "max": 5,
           "exceptions": [],
           "message": "Long hours of use have tempered your pickadze beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
@@ -300,7 +300,7 @@
         },
         {
           "modifier": "tconstruct:haste",
-          "weight": 20,
+          "weight": 16,
           "max": 5,
           "exceptions": [],
           "message": "With countless strikes, you have mastered the balance of your excavator. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
@@ -335,7 +335,7 @@
         },
         {
           "modifier": "tconstruct:reinforced",
-          "weight": 10,
+          "weight": 8,
           "max": 5,
           "exceptions": [],
           "message": "Long hours of use have tempered your excavator beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
@@ -358,7 +358,7 @@
         },
         {
           "modifier": "tconstruct:haste",
-          "weight": 20,
+          "weight": 16,
           "max": 5,
           "exceptions": [],
           "message": "With countless strikes, you have mastered the balance of your axe. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
@@ -393,10 +393,31 @@
         },
         {
           "modifier": "tconstruct:reinforced",
-          "weight": 10,
+          "weight": 8,
           "max": 5,
           "exceptions": [],
           "message": "Long hours of use have tempered your axe beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+        },
+        {
+          "modifier": "tconstruct:sharpness",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "Countless swings have honed your technique, and your axe's edge along with it. It cuts deeper now, every hit landing harder. (+1 Sharpness)"
+        },
+        {
+          "modifier": "tconstruct:smite",
+          "weight": 2,
+          "max": 5,
+          "exceptions": [],
+          "message": "Combat against the risen dead has anointed your axe with a sense of holy purpose. It now strikes the undead with a newfound fury. (+1 Smite)"
+        },
+        {
+          "modifier": "tconstruct:swiftstrike",
+          "weight": 1,
+          "max": 3,
+          "exceptions": [],
+          "message": "With countless strikes, you have mastered the balance of your axe. Your swings come faster now, cutting through enemies before they can even react. (+1 Swiftstrike)"
         }
       ]
     },
@@ -416,7 +437,7 @@
         },
         {
           "modifier": "tconstruct:haste",
-          "weight": 20,
+          "weight": 16,
           "max": 5,
           "exceptions": [],
           "message": "With countless strikes, you have mastered the balance of your axe. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
@@ -451,10 +472,17 @@
         },
         {
           "modifier": "tconstruct:reinforced",
-          "weight": 10,
+          "weight": 8,
           "max": 5,
           "exceptions": [],
           "message": "Long hours of use have tempered your axe beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+        },
+        {
+          "modifier": "tconstruct:sharpness",
+          "weight": 1,
+          "max": 5,
+          "exceptions": [],
+          "message": "Countless swings have honed your technique, and your axe's edge along with it. It cuts deeper now, every hit landing harder. (+1 Sharpness)"
         }
       ]
     },
@@ -475,7 +503,7 @@
         },
         {
           "modifier": "tconstruct:haste",
-          "weight": 20,
+          "weight": 16,
           "max": 5,
           "exceptions": [],
           "message": "With countless strikes, you have mastered the balance of your kama. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
@@ -510,7 +538,7 @@
         },
         {
           "modifier": "tconstruct:reinforced",
-          "weight": 10,
+          "weight": 8,
           "max": 5,
           "exceptions": [],
           "message": "Long hours of use have tempered your kama beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
@@ -534,7 +562,7 @@
         },
         {
           "modifier": "tconstruct:haste",
-          "weight": 20,
+          "weight": 16,
           "max": 5,
           "exceptions": [],
           "message": "With countless strikes, you have mastered the balance of your scythe. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
@@ -569,10 +597,38 @@
         },
         {
           "modifier": "tconstruct:reinforced",
-          "weight": 10,
+          "weight": 8,
           "max": 5,
           "exceptions": [],
           "message": "Long hours of use have tempered your scythe beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
+        },
+        {
+          "modifier": "tconstruct:necrotic",
+          "weight": 1,
+          "max": 5,
+          "exceptions": [],
+          "message": "Something dark and parasitic has seeped into your blade. Each critical wound you inflict siphons a sliver of stolen life into your veins. (+1 Necrotic)"
+        },
+        {
+          "modifier": "tconstruct:severing",
+          "weight": 1,
+          "max": 3,
+          "exceptions": [],
+          "message": "You have learned to deal your killing blows with surgical precision. Slain enemies are more likely to leave their heads behind. (+1 Severing)"
+        },
+        {
+          "modifier": "tconstruct:sharpness",
+          "weight": 3,
+          "max": 5,
+          "exceptions": [],
+          "message": "Countless swings have honed your technique, and your scythe's edge along with it. It cuts deeper now, every hit landing harder. (+1 Sharpness)"
+        },
+        {
+          "modifier": "tconstruct:smite",
+          "weight": 1,
+          "max": 5,
+          "exceptions": [],
+          "message": "Combat against the risen dead has anointed your scythe with a sense of holy purpose. It now strikes the undead with a newfound fury. (+1 Smite)"
         }
       ]
     },
@@ -591,7 +647,7 @@
         },
         {
           "modifier": "tconstruct:haste",
-          "weight": 20,
+          "weight": 10,
           "max": 5,
           "exceptions": [],
           "message": "With countless strikes, you have mastered the balance of your crook. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
@@ -626,7 +682,7 @@
         },
         {
           "modifier": "tconstruct:reinforced",
-          "weight": 10,
+          "weight": 12,
           "max": 5,
           "exceptions": [],
           "message": "Long hours of use have tempered your crook beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
@@ -648,7 +704,7 @@
         },
         {
           "modifier": "tconstruct:haste",
-          "weight": 20,
+          "weight": 16,
           "max": 5,
           "exceptions": [],
           "message": "With countless strikes, you have mastered the balance of your hammer. Your swings come faster now, with stone and earth giving way before you can even register the impact. (+1 Haste)"
@@ -683,7 +739,7 @@
         },
         {
           "modifier": "tconstruct:reinforced",
-          "weight": 10,
+          "weight": 8,
           "max": 5,
           "exceptions": [],
           "message": "Long hours of use have tempered your hammer beyond how it was forged. Its edge holds firmer now, less likely to wear with each strike you land. (+1 Reinforced)"
@@ -1214,14 +1270,14 @@
       "modifiers": [
         {
           "modifier": "tconstruct:blast_protection",
-          "weight": 5,
+          "weight": 2,
           "max": 5,
           "exceptions": [],
           "message": "You've walked through enough explosions to know how to brace for them. Your helmet absorbs the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
         },
         {
           "modifier": "tconstruct:consecrated",
-          "weight": 10,
+          "weight": 5,
           "max": 5,
           "exceptions": [],
           "message": "Combat against the risen dead has anointed your helmet with a sense of holy purpose. It now resists strikes from the undead with a newfound righteousness. (+1 Consecrated)"
@@ -1232,13 +1288,6 @@
           "max": 3,
           "exceptions": [],
           "message": "Your helmet has been stressed and shaped by the forces it's endured, and come out tougher for it. It bends where it once would crack, increasing both its durability and toughness. (+1 Ductile)"
-        },
-        {
-          "modifier": "tconstruct:fiery",
-          "weight": 5,
-          "max": 5,
-          "exceptions": [],
-          "message": "Your helmet radiates a searing heat that flares on impact. Strikes against you ignite the attacker, setting anyone who dares to cross you ablaze. (+1 Fiery)"
         },
         {
           "modifier": "tconstruct:freezing",
@@ -1263,7 +1312,7 @@
         },
         {
           "modifier": "tconstruct:melee_protection",
-          "weight": 10,
+          "weight": 5,
           "max": 5,
           "exceptions": [],
           "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your helmet catches blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
@@ -1277,21 +1326,21 @@
         },
         {
           "modifier": "tconstruct:projectile_protection",
-          "weight": 5,
+          "weight": 3,
           "max": 5,
           "exceptions": [],
           "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your helmet catches arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
         },
         {
           "modifier": "tconstruct:protection",
-          "weight": 20,
+          "weight": 10,
           "max": 5,
           "exceptions": [],
           "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your helmet absorbs damage better now, reducing harm from all sources. (+1 Protection)"
         },
         {
           "modifier": "tconstruct:recurrent_protection",
-          "weight": 3,
+          "weight": 2,
           "max": 3,
           "exceptions": [],
           "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your helmet braces against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
@@ -1305,7 +1354,7 @@
         },
         {
           "modifier": "tconstruct:scorch_protection",
-          "weight": 5,
+          "weight": 3,
           "max": 3,
           "exceptions": [],
           "message": "You've faced enough creatures born of fire to know how they burn. Your helmet has been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
@@ -1319,7 +1368,7 @@
         },
         {
           "modifier": "tconstruct:vital_protection",
-          "weight": 2,
+          "weight": 1,
           "max": 3,
           "exceptions": [],
           "message": "Your helmet itself seems to mirror your desperation. The closer you are to death, the greater protection it offers. (+1 Vital Protection)"
@@ -1334,14 +1383,14 @@
       "modifiers": [
         {
           "modifier": "tconstruct:blast_protection",
-          "weight": 5,
+          "weight": 2,
           "max": 5,
           "exceptions": [],
           "message": "You've walked through enough explosions to know how to brace for them. Your chestplate absorbs the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
         },
         {
           "modifier": "tconstruct:consecrated",
-          "weight": 10,
+          "weight": 5,
           "max": 5,
           "exceptions": [],
           "message": "Combat against the risen dead has anointed your chestplate with a sense of holy purpose. It now resists strikes from the undead with a newfound righteousness. (+1 Consecrated)"
@@ -1352,13 +1401,6 @@
           "max": 3,
           "exceptions": [],
           "message": "Your chestplate has been stressed and shaped by the forces it's endured, and come out tougher for it. It bends where it once would crack, increasing both its durability and toughness. (+1 Ductile)"
-        },
-        {
-          "modifier": "tconstruct:fiery",
-          "weight": 5,
-          "max": 5,
-          "exceptions": [],
-          "message": "Your chestplate radiates a searing heat that flares on impact. Strikes against you ignite the attacker, setting anyone who dares to cross you ablaze. (+1 Fiery)"
         },
         {
           "modifier": "tconstruct:freezing",
@@ -1390,7 +1432,7 @@
         },
         {
           "modifier": "tconstruct:melee_protection",
-          "weight": 10,
+          "weight": 5,
           "max": 5,
           "exceptions": [],
           "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your chestplate catches blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
@@ -1404,21 +1446,21 @@
         },
         {
           "modifier": "tconstruct:projectile_protection",
-          "weight": 5,
+          "weight": 3,
           "max": 5,
           "exceptions": [],
           "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your chestplate catches arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
         },
         {
           "modifier": "tconstruct:protection",
-          "weight": 20,
+          "weight": 10,
           "max": 5,
           "exceptions": [],
           "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your chestplate absorbs damage better now, reducing harm from all sources. (+1 Protection)"
         },
         {
           "modifier": "tconstruct:recurrent_protection",
-          "weight": 3,
+          "weight": 2,
           "max": 3,
           "exceptions": [],
           "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your chestplate braces against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
@@ -1432,7 +1474,7 @@
         },
         {
           "modifier": "tconstruct:scorch_protection",
-          "weight": 5,
+          "weight": 3,
           "max": 3,
           "exceptions": [],
           "message": "You've faced enough creatures born of fire to know how they burn. Your chestplate has been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
@@ -1446,7 +1488,7 @@
         },
         {
           "modifier": "tconstruct:vital_protection",
-          "weight": 2,
+          "weight": 1,
           "max": 3,
           "exceptions": [],
           "message": "Your chestplate itself seems to mirror your desperation. The closer you are to death, the greater protection it offers. (+1 Vital Protection)"
@@ -1461,38 +1503,31 @@
       "modifiers": [
         {
           "modifier": "tconstruct:blast_protection",
-          "weight": 5,
+          "weight": 2,
           "max": 5,
           "exceptions": [],
-          "message": "You've walked through enough explosions to know how to brace for them. Your leggings absorbs the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
+          "message": "You've walked through enough explosions to know how to brace for them. Your leggings absorb the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
         },
         {
           "modifier": "tconstruct:consecrated",
-          "weight": 10,
+          "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "Combat against the risen dead has anointed your leggings with a sense of holy purpose. It now resists strikes from the undead with a newfound righteousness. (+1 Consecrated)"
+          "message": "Combat against the risen dead have anointed your leggings with a sense of holy purpose. They now resist strikes from the undead with a newfound righteousness. (+1 Consecrated)"
         },
         {
           "modifier": "tconstruct:ductile",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your leggings has been stressed and shaped by the forces it's endured, and come out tougher for it. It bends where it once would crack, increasing both its durability and toughness. (+1 Ductile)"
-        },
-        {
-          "modifier": "tconstruct:fiery",
-          "weight": 5,
-          "max": 5,
-          "exceptions": [],
-          "message": "Your leggings radiates a searing heat that flares on impact. Strikes against you ignite the attacker, setting anyone who dares to cross you ablaze. (+1 Fiery)"
+          "message": "Your leggings have been stressed and shaped by the forces they've endured, and come out tougher for it. They bends where they once would crack, increasing both their durability and toughness. (+1 Ductile)"
         },
         {
           "modifier": "tconstruct:freezing",
           "weight": 5,
           "max": 3,
           "exceptions": [],
-          "message": "Your leggings radiates a bitter cold that erupts on impact. Strikes against you chill the attacker, slowing them and sapping their health. (+1 Freezing)"
+          "message": "Your leggings radiate a bitter cold that erupts on impact. Strikes against you chill the attacker, slowing them and sapping their health. (+1 Freezing)"
         },
         {
           "modifier": "tconstruct:kinetic",
@@ -1506,70 +1541,70 @@
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your leggings, and your careful attention has paid off. As long as it stays in good repair, your leggings will be more resilient against attack. (+1 Maintained)"
+          "message": "You have meticulously maintained your leggings, and your careful attention has paid off. As long as they stay in good repair, your leggings will be more resilient against attack. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:melee_protection",
-          "weight": 10,
+          "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your leggings catches blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
+          "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your leggings catch blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to move in your leggings rather than grinding it against itself. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to move in your leggings rather than grinding them against themselves. They hold together longer now, and mend more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:projectile_protection",
-          "weight": 5,
+          "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your leggings catches arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
+          "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your leggings catch arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
         },
         {
           "modifier": "tconstruct:protection",
-          "weight": 20,
+          "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your leggings absorbs damage better now, reducing harm from all sources. (+1 Protection)"
+          "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your leggings absorb damage better now, reducing harm from all sources. (+1 Protection)"
         },
         {
           "modifier": "tconstruct:recurrent_protection",
-          "weight": 3,
+          "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your leggings braces against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
+          "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your leggings brace against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Dent by dent, your leggings has settled into something stronger than its original form. It resists wear more stubbornly now, less likely to take lasting damage from blows. (+1 Reinforced)"
+          "message": "Dent by dent, your leggings have settled into something stronger than their original form. They resists wear more stubbornly now, less likely to take lasting damage from blows. (+1 Reinforced)"
         },
         {
           "modifier": "tconstruct:scorch_protection",
-          "weight": 5,
+          "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You've faced enough creatures born of fire to know how they burn. Your leggings has been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
+          "message": "You've faced enough creatures born of fire to know how they burn. Your leggings have been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
         },
         {
           "modifier": "tconstruct:thorns",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "The pattern of wear on your leggings has left jagged edges and sharp ridges that punish contact. Anything that strikes you will regret the attempt. (+1 Thorns)"
+          "message": "The pattern of wear on your leggings have left jagged edges and sharp ridges that punish contact. Anything that strikes you will regret the attempt. (+1 Thorns)"
         },
         {
           "modifier": "tconstruct:vital_protection",
-          "weight": 2,
+          "weight": 1,
           "max": 3,
           "exceptions": [],
-          "message": "Your leggings itself seems to mirror your desperation. The closer you are to death, the greater protection it offers. (+1 Vital Protection)"
+          "message": "Your leggings themself seem to mirror your desperation. The closer you are to death, the greater protection they offer. (+1 Vital Protection)"
         }
       ]
     },
@@ -1581,45 +1616,38 @@
       "modifiers": [
         {
           "modifier": "tconstruct:blast_protection",
-          "weight": 5,
+          "weight": 2,
           "max": 5,
           "exceptions": [],
-          "message": "You've walked through enough explosions to know how to brace for them. Your boots absorbs the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
+          "message": "You've walked through enough explosions to know how to brace for them. Your boots absorb the shockwave better now, sparing you from the worst of the blast. (+1 Blast Protection)"
         },
         {
           "modifier": "tconstruct:consecrated",
-          "weight": 10,
+          "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "Combat against the risen dead has anointed your boots with a sense of holy purpose. It now resists strikes from the undead with a newfound righteousness. (+1 Consecrated)"
+          "message": "Combat against the risen dead have anointed your boots with a sense of holy purpose. They now resist strikes from the undead with a newfound righteousness. (+1 Consecrated)"
         },
         {
           "modifier": "tconstruct:ductile",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Your boots has been stressed and shaped by the forces it's endured, and come out tougher for it. It bends where it once would crack, increasing both its durability and toughness. (+1 Ductile)"
+          "message": "Your boots have been stressed and shaped by the forces they've endured, and come out tougher for it. They bends where they once would crack, increasing both their durability and toughness. (+1 Ductile)"
         },
         {
           "modifier": "tconstruct:feather_falling",
-          "weight": 8,
+          "weight": 5,
           "max": 2,
           "exceptions": [],
           "message": "Your boots have absorbed the shock of countless landings, and you've learned to spread the impact of each fall. Your landings are softer now, reducing the damage you take from hitting the ground. (+1 Feather Falling)"
-        },
-        {
-          "modifier": "tconstruct:fiery",
-          "weight": 5,
-          "max": 5,
-          "exceptions": [],
-          "message": "Your boots radiates a searing heat that flares on impact. Strikes against you ignite the attacker, setting anyone who dares to cross you ablaze. (+1 Fiery)"
         },
         {
           "modifier": "tconstruct:freezing",
           "weight": 5,
           "max": 3,
           "exceptions": [],
-          "message": "Your boots radiates a bitter cold that erupts on impact. Strikes against you chill the attacker, slowing them and sapping their health. (+1 Freezing)"
+          "message": "Your boots radiate a bitter cold that erupts on impact. Strikes against you chill the attacker, slowing them and sapping their health. (+1 Freezing)"
         },
         {
           "modifier": "tconstruct:kinetic",
@@ -1633,70 +1661,70 @@
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You have meticulously maintained your boots, and your careful attention has paid off. As long as it stays in good repair, your boots will be more resilient against attack. (+1 Maintained)"
+          "message": "You have meticulously maintained your boots, and your careful attention has paid off. As long as they stay in good repair, your boots will be more resilient against attack. (+1 Maintained)"
         },
         {
           "modifier": "tconstruct:melee_protection",
-          "weight": 10,
+          "weight": 5,
           "max": 5,
           "exceptions": [],
-          "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your boots catches blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
+          "message": "You've learned to read a swing before it lands and shift your weight to meet it. Your boots catch blades better now, blunting the force of melee strikes. (+1 Melee Protection)"
         },
         {
           "modifier": "tconstruct:preserved",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "Through careful use and growing familiarity, you've learned to move in your boots rather than grinding it against itself. It holds together longer now, and mends more easily. (+1 Preserved)"
+          "message": "Through careful use and growing familiarity, you've learned to move in your boots rather than grinding them against themselves. They hold together longer now, and mend more easily. (+1 Preserved)"
         },
         {
           "modifier": "tconstruct:projectile_protection",
-          "weight": 5,
+          "weight": 3,
           "max": 5,
           "exceptions": [],
-          "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your boots catches arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
+          "message": "You've grown attuned to the whistle of incoming fire and learned to angle away from it. Your boots catch arrows better now, turning direct hits into glancing blows. (+1 Projectile Protection)"
         },
         {
           "modifier": "tconstruct:protection",
-          "weight": 20,
+          "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your boots absorbs damage better now, reducing harm from all sources. (+1 Protection)"
+          "message": "Experience has taught you where to take a hit and how to roll with one you can't avoid. Your boots absorb damage better now, reducing harm from all sources. (+1 Protection)"
         },
         {
           "modifier": "tconstruct:recurrent_protection",
-          "weight": 3,
+          "weight": 2,
           "max": 3,
           "exceptions": [],
-          "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your boots braces against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
+          "message": "Your reflexes heighten and your resolve hardens in response to crisis. For a brief moment after taking a hit, your boots brace against the next blow, reducing the damage you take. (+1 Recurrent Protection)"
         },
         {
           "modifier": "tconstruct:reinforced",
           "weight": 10,
           "max": 5,
           "exceptions": [],
-          "message": "Dent by dent, your boots has settled into something stronger than its original form. It resists wear more stubbornly now, less likely to take lasting damage from blows. (+1 Reinforced)"
+          "message": "Dent by dent, your boots have settled into something stronger than their original form. They resists wear more stubbornly now, less likely to take lasting damage from blows. (+1 Reinforced)"
         },
         {
           "modifier": "tconstruct:scorch_protection",
-          "weight": 5,
+          "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "You've faced enough creatures born of fire to know how they burn. Your boots has been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
+          "message": "You've faced enough creatures born of fire to know how they burn. Your boots have been tempered by their particular heat, reducing the damage they deal. (+1 Scorch Protection)"
         },
         {
           "modifier": "tconstruct:thorns",
           "weight": 3,
           "max": 3,
           "exceptions": [],
-          "message": "The pattern of wear on your boots has left jagged edges and sharp ridges that punish contact. Anything that strikes you will regret the attempt. (+1 Thorns)"
+          "message": "The pattern of wear on your boots have left jagged edges and sharp ridges that punish contact. Anything that strikes you will regret the attempt. (+1 Thorns)"
         },
         {
           "modifier": "tconstruct:vital_protection",
-          "weight": 2,
+          "weight": 1,
           "max": 3,
           "exceptions": [],
-          "message": "Your boots itself seems to mirror your desperation. The closer you are to death, the greater protection it offers. (+1 Vital Protection)"
+          "message": "Your boots themself seem to mirror your desperation. The closer you are to death, the greater protection they offer. (+1 Vital Protection)"
         }
       ]
     }
