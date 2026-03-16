@@ -992,7 +992,7 @@ hash = "2210b80af84b5472b258aad55b67a2b657838b1a10ef8920f3d1cdb90f94bdad"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "4fe9e9c29a6e20fa34f6a819dbd139949adbe82daf1ea6edc7d9499b0b8c63d3"
+hash = "23350dc87b94f8024c8ef2cd845435e316d5d6bdbce6761929637213e9408d72"
 
 [[files]]
 file = "config/crash_assistant/scripts/log_analysis/example.jexl"
@@ -1620,7 +1620,7 @@ hash = "c6cf2a1f253bff9c24251312b981d31869b2dcb676f399a7ca2a7756cfb8f76d"
 
 [[files]]
 file = "config/lighty.config"
-hash = "62a8cc09849c2f8bb50870a31a09ddfafc2f41f4e293c5b3d1cbcee9c7d5352d"
+hash = "40fcd6c2a45c785e9d4ccf229cae72ae21c2c264d5acbc16f623f595676e3409"
 
 [[files]]
 file = "config/lmft.json"
@@ -1664,7 +1664,7 @@ hash = "1f22d8e270c33d9dbe3f4a7b076d98cd86efb7141c273caa60d8298040c1adc3"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ea7d3b0c0b34a980073dc5fe1e8db9add56766c8fe66542936418f8e9f9d7e66"
+hash = "2a24d79d4f28af97478dadaf735943e8235ac37cb223f273c6534e770bfdf339"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -5308,7 +5308,7 @@ hash = "55de9636ecc165a733672cd23630783f6d309052847ff16b24f9b5bab1982e1b"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/minecraft/texts/splashes.txt"
-hash = "c02ee3fb20e32ba95c29c5b63ca3f2a4a675a785db005efd222648f9c9f80efc"
+hash = "51a4925287b7003016bdbe74b99f86743957705aced3df5410fbd314e6d41fc8"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_chair.json"
@@ -6668,11 +6668,11 @@ hash = "565e7782790d656fd31350ef9d90cb8ff8b4f38d1fb2418072829fb404195e58"
 
 [[files]]
 file = "config/tleveling/common.toml"
-hash = "6ce35d89c0f9a66731e069dd94e20208ba942fc4feb0dc6e0d5943dc6559255d"
+hash = "84625bb11bc83a12cba104bbc85e4bccdcc44db31c5100eb26917418799aaca0"
 
 [[files]]
 file = "config/tleveling/modifiers.json"
-hash = "cba5c0902f59f31fcc3852baa2807a28382f37bebe07a6fb6158977046668336"
+hash = "2ed163d591391c36608d124901f5b50989dc867b3485d8c0907b56aaaf471430"
 
 [[files]]
 file = "config/torchmaster.toml"
@@ -10167,7 +10167,7 @@ metafile = true
 
 [[files]]
 file = "mods/ender-io.pw.toml"
-hash = "15802a30f25d18ed9282941ad717a1e231bf72d7f05662dec60a4bd7ac66a905"
+hash = "0804a98fd04b10b1c7d40c4ad997c50523fff926b47508e8a6ddf00d5b2d3597"
 metafile = true
 
 [[files]]
@@ -10542,7 +10542,7 @@ metafile = true
 
 [[files]]
 file = "mods/scarcity.pw.toml"
-hash = "d0a9bd05ab7d4ac70618836fa065c2610dbf57fb36a9d5e5dd9de03d3c923df8"
+hash = "cb61f9d457c4de64ddf04957f923ee8c79eb212ffde2b82f6501f727924e1b62"
 metafile = true
 
 [[files]]
@@ -10667,7 +10667,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkers-tool-leveling-2.pw.toml"
-hash = "6a38e37e73d3bf1477f5efde8d092019dd98a88d741508cf6503f0c1bc3ac4a4"
+hash = "1492edcbdcf7b689b268fd7d381fff457aace88545eb5b896f01be9b57428d96"
 metafile = true
 
 [[files]]
