@@ -1,0 +1,10 @@
+{
+  "dimension": "minecraft:overworld",
+  "gravity": 9.807,
+  "orbit": "desolate_planet:talos_orbit",
+  "oxygen": true,
+  "solar_power": 24,
+  "solar_system": "desolate_planet:varkin_system",
+  "temperature": 32,
+  "tier": 1
+}
