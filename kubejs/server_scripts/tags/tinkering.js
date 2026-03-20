@@ -49,4 +49,6 @@ ServerEvents.tags('item', event => {
 	].forEach(tag => {
 		event.add(tag, 'kubejs:crushing_hammer')
 	});
+	
+	event.add('forge:tools/knives', 'tconstruct:dagger')
 })
