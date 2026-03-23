@@ -81,6 +81,13 @@
     "curseForgeHash": 3615341742,
     "modrinthHash": "ac255a120499f79f8deade474da09e3c00ff9bad"
   },
+  "aquamirae-forge-1.20.1-6.2.0.jar": {
+    "jarName": "aquamirae-forge-1.20.1-6.2.0.jar",
+    "modId": "aquamirae",
+    "version": "6.2.0",
+    "curseForgeHash": 3615878331,
+    "modrinthHash": "696977ebf6868113663fea7882862109e725a068"
+  },
   "architectury-9.2.14-forge.jar": {
     "jarName": "architectury-9.2.14-forge.jar",
     "modId": "architectury",
@@ -778,6 +785,13 @@
     "version": "2025.09.20a",
     "curseForgeHash": 3685155606,
     "modrinthHash": "ed76cfb172a370919ebfd0143369fdea37c6fc18"
+  },
+  "obscure_api-18.jar": {
+    "jarName": "obscure_api-18.jar",
+    "modId": "obscure_api",
+    "version": "18",
+    "curseForgeHash": 1237693652,
+    "modrinthHash": "d395153341a9a732fc80463c475b202d78675e28"
   },
   "oculus-mc1.20.1-1.8.0.jar": {
     "jarName": "oculus-mc1.20.1-1.8.0.jar",

@@ -1,0 +1,3 @@
+// Compost colors for obscure_api. You may add your own colors, change existing ones, or remove colors that aren't needed.
+astral_dust, #c389fa
+vial_of_knowledge, #738caf
