@@ -214,6 +214,13 @@
     "curseForgeHash": 2595079641,
     "modrinthHash": "c93eaf927fc3cc83e951712949ea97cd29a748f0"
   },
+  "citadel-2.6.3-1.20.1.jar": {
+    "jarName": "citadel-2.6.3-1.20.1.jar",
+    "modId": "citadel",
+    "version": "2.6.3",
+    "curseForgeHash": 1762571121,
+    "modrinthHash": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316"
+  },
   "citresewn-1.20.1-5.jar": {
     "jarName": "citresewn-1.20.1-5.jar",
     "modId": "citresewn",
