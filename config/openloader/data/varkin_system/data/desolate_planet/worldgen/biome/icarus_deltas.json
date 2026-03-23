@@ -32,13 +32,24 @@
   },
   "features": [
     [],
+    [
+      "desolate_planet:icarus_lake_lava_underground"
+    ],
     [],
     [],
+    [
+      "minecraft:delta"
+    ],
     [],
     [],
-    [],
-    [],
-    []
+    [
+      "desolate_planet:icarus_blob_basalt",
+      "desolate_planet:icarus_ore_andesite",
+      "desolate_planet:icarus_ore_diorite",
+      "desolate_planet:icarus_ore_gold",
+      "desolate_planet:icarus_ore_granite",
+      "desolate_planet:icarus_spring_lava_closed"
+    ]
   ],
   "has_precipitation": false,
   "spawn_costs": {},

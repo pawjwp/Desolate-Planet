@@ -32,13 +32,27 @@
   },
   "features": [
     [],
+    [
+      "desolate_planet:icarus_lake_lava_surface",
+      "desolate_planet:icarus_lake_lava_underground"
+    ],
     [],
     [],
     [],
     [],
     [],
+    [
+      "desolate_planet:icarus_ore_andesite",
+      "desolate_planet:icarus_ore_diorite",
+      "desolate_planet:icarus_ore_gold",
+      "desolate_planet:icarus_ore_granite",
+      "desolate_planet:icarus_ore_magma",
+      "desolate_planet:icarus_spring_lava_closed"
+    ],
     [],
-    []
+    [
+      "desolate_planet:icarus_spring_lava_open"
+    ]
   ],
   "has_precipitation": false,
   "spawn_costs": {},
