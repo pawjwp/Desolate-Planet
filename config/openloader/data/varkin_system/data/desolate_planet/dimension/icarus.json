@@ -7,48 +7,48 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "minecraft:basalt_deltas",
-          "parameters": {
-            "temperature": 0,
-            "humidity": -0.5,
-            "continentalness": -0.5,
-            "erosion": -0.5,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "minecraft:crimson_forest",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0.5,
-            "continentalness": 0.5,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "minecraft:nether_wastes",
+          "biome": "desolate_planet:icarus_fractured_wastes",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0.5,
+            "continentalness": [-1.0, -0.19],
+            "erosion": 0,
             "weirdness": 0,
             "depth": 0,
             "offset": 0
           }
         },
         {
-          "biome": "minecraft:warped_forest",
+          "biome": "desolate_planet:icarus_fractured_deltas",
           "parameters": {
             "temperature": 0,
-            "humidity": 0.5,
-            "continentalness": 0.75,
+            "humidity": 0,
+            "continentalness": [-1.0, -0.19],
             "erosion": 0,
+            "weirdness": 0.75,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "desolate_planet:icarus_wastes",
+          "parameters": {
+            "temperature": 0,
+            "humidity": [-1.0, 0.25],
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "desolate_planet:icarus_deltas",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.5,
+            "erosion": -0.5,
             "weirdness": 0,
             "depth": 0,
             "offset": 0
