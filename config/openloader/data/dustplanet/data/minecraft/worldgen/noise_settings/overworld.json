@@ -370,9 +370,6 @@
         },
         "then_run": {
           "type": "minecraft:block",
-          "if_true": {
-            "type": ""
-          },
           "result_state": {
             "Name": "minecraft:gravel"
           }
