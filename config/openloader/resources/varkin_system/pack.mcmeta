@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Datapack adding the Varkin System",
+    "pack_format": 15,
+    "supported_formats": [
+      15,
+      26
+    ]
+  }
+}
