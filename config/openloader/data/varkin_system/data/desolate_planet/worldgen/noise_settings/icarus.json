@@ -316,10 +316,7 @@
       {
         "type": "minecraft:condition",
         "if_true": {
-          "type": "minecraft:noise_threshold",
-          "noise": "minecraft:patch",
-          "min_threshold": 0.0,
-          "max_threshold": 0.5
+          "type": "minecraft:above_preliminary_surface"
         },
         "then_run": {
           "type": "minecraft:condition",
@@ -333,20 +330,21 @@
           "then_run": {
             "type": "minecraft:condition",
             "if_true": {
-              "type": "minecraft:y_above",
-              "add_stone_depth": false,
-              "anchor": {
-                "absolute": 55
-              },
-              "surface_depth_multiplier": 0
+              "type": "minecraft:not",
+              "invert": {
+                "type": "minecraft:water",
+                "offset": 0,
+                "surface_depth_multiplier": 0,
+                "add_stone_depth": false
+              }
             },
             "then_run": {
               "type": "minecraft:condition",
               "if_true": {
-                "type": "minecraft:water",
-                "add_stone_depth": false,
-                "offset": -1,
-                "surface_depth_multiplier": 0
+                "type": "minecraft:noise_threshold",
+                "noise": "minecraft:surface",
+                "min_threshold": 0.0,
+                "max_threshold": 1.0
               },
               "then_run": {
                 "type": "minecraft:block",
@@ -385,15 +383,15 @@
                   "offset": 5,
                   "surface_type": "floor",
                   "add_surface_depth": true,
-                  "secondary_depth_range": 4
+                  "secondary_depth_range": 15
                 },
                 "then_run": {
                   "type": "minecraft:condition",
                   "if_true": {
                     "type": "minecraft:noise_threshold",
                     "noise": "minecraft:continentalness",
-                    "min_threshold": -0.025,
-                    "max_threshold": 0.025
+                    "min_threshold": -0.0125,
+                    "max_threshold": 0.0125
                   },
                   "then_run": {
                     "type": "minecraft:condition",
@@ -466,8 +464,8 @@
                   "if_true": {
                     "type": "minecraft:noise_threshold",
                     "noise": "minecraft:continentalness_large",
-                    "min_threshold": -0.05,
-                    "max_threshold": 0.05
+                    "min_threshold": -0.0125,
+                    "max_threshold": 0.0125
                   },
                   "then_run": {
                     "type": "minecraft:sequence",
