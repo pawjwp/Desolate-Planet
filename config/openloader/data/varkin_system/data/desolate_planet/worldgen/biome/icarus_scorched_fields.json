@@ -55,7 +55,9 @@
       "desolate_planet:icarus_ore_gold",
       "desolate_planet:icarus_ore_granite",
       "desolate_planet:icarus_ore_magma",
-      "desolate_planet:icarus_spring_lava_closed"
+      "desolate_planet:icarus_spring_lava_closed",
+      "minecraft:ore_ancient_debris_large",
+      "minecraft:ore_debris_small"
     ],
     [],
     [
