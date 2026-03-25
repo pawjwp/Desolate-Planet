@@ -64,7 +64,7 @@
     {
       "type": "tconstruct:is_effective",
       "predicate_type": "mantle:tag",
-      "tag": "minecraft:mineable/pickaxe"
+      "tag": "desolate_planet:mineable/crushing_hammer"
     },
     {
       "type": "tconstruct:box_aoe",
