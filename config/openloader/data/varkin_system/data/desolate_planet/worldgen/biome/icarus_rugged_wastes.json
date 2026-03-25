@@ -38,7 +38,10 @@
     ],
     [],
     [],
-    [],
+    [
+      "minecraft:small_basalt_columns",
+      "minecraft:large_basalt_columns"
+    ],
     [],
     [],
     [
