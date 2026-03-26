@@ -8,24 +8,6 @@
   "render_in_rain": false,
   "sky_renderables": [
     {
-      "back_light_color": -750495,
-      "back_light_scale": 84.0,
-      "blend": true,
-      "global_rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "local_rotation": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "movement_type": "TIME_OF_DAY",
-      "scale": 28.0,
-      "texture": "desolate_planet:textures/environment/red_sun.png"
-    },
-    {
       "back_light_color": -801674,
       "back_light_scale": 1.5,
       "blend": true,
@@ -42,6 +24,24 @@
       "movement_type": "TIME_OF_DAY_REVERSED",
       "scale": 0.5,
       "texture": "desolate_planet:textures/environment/talos.png"
+    },
+    {
+      "back_light_color": -750495,
+      "back_light_scale": 84.0,
+      "blend": true,
+      "global_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 28.0,
+      "texture": "desolate_planet:textures/environment/red_sun.png"
     }
   ],
   "star_colors": [{ "data": -1, "weight": 1 }],

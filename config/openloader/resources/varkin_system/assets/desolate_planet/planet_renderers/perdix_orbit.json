@@ -22,8 +22,8 @@
         0.0
       ],
       "movement_type": "TIME_OF_DAY",
-      "scale": 16.0,
-      "texture": "desolate_planet:textures/environment/red_sun.png"
+      "scale": 32.0,
+      "texture": "desolate_planet:textures/environment/red_sun_sky_transparent.png"
     },
     {
       "back_light_color": -5261108,

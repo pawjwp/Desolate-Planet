@@ -9,7 +9,7 @@
   "sky_renderables": [
     {
       "back_light_color": -750495,
-      "back_light_scale": 48.0,
+      "back_light_scale": 0.0,
       "blend": true,
       "global_rotation": [
         0.0,
@@ -22,8 +22,8 @@
         0.0
       ],
       "movement_type": "TIME_OF_DAY",
-      "scale": 16.0,
-      "texture": "desolate_planet:textures/environment/red_sun.png"
+      "scale": 32.0,
+      "texture": "desolate_planet:textures/environment/red_sun_sky.png"
     },
     {
       "back_light_color": -5261108,
@@ -39,13 +39,13 @@
         0.0,
         0.0
       ],
-      "movement_type": "TIME_OF_DAY_REVERSED",
+      "movement_type": "TIME_OF_DAY",
       "scale": 3.5,
       "texture": "desolate_planet:textures/environment/perdix.png"
     },
     {
       "back_light_color": -4827861,
-      "back_light_scale": 1.8,
+      "back_light_scale": 1.2,
       "blend": true,
       "global_rotation": [
         -20.0,
