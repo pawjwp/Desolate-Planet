@@ -1,0 +1,11 @@
+ServerEvents.recipes(event => {
+    event.remove({ id: 'cgm:pistol' })
+    event.remove({ id: 'cgm:shotgun' })
+    event.remove({ id: 'cgm:rifle' })
+    event.remove({ id: 'cgm:machine_pistol' })
+    event.remove({ id: 'cgm:assault_rifle' })
+    event.remove({ id: 'cgm:heavy_rifle' })
+    event.remove({ id: 'cgm:grenade_launcher' })
+    event.remove({ id: 'cgm:bazooka' })
+    event.remove({ id: 'cgm:mini_gun' })
+})
