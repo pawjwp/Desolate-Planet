@@ -4,8 +4,45 @@
     "type": "minecraft:noise",
     "settings": "desolate_planet:perdix",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "ad_astra:lunar_wastelands"
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "desolate_planet:perdix_wastelands",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": -0.2,
+            "erosion": 0,
+            "weirdness": -0.25,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "desolate_planet:perdix_trashfields_edge",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.2,
+            "erosion": 0,
+            "weirdness": 0.2,
+            "depth": 0,
+            "offset": 0.25
+          }
+        },
+        {
+          "biome": "desolate_planet:perdix_trashfields",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.4,
+            "erosion": 0,
+            "weirdness": 0.4,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
     }
   }
 }

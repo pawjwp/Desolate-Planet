@@ -302,10 +302,7 @@
       {
         "type": "minecraft:condition",
         "if_true": {
-          "type": "minecraft:biome",
-          "biome_is": [
-            "ad_astra:lunar_wastelands"
-          ]
+          "type": "minecraft:above_preliminary_surface"
         },
         "then_run": {
           "type": "minecraft:condition",
