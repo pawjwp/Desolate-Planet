@@ -1,5 +1,5 @@
 {
-  "type": "varkin_system:earth",
+  "type": "ad_astra:earth",
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {
@@ -205024,6 +205024,6 @@
       ],
       "type": "minecraft:multi_noise"
     },
-    "settings": "varkin_system:earth"
+    "settings": "ad_astra:earth"
   }
 }

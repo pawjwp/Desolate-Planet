@@ -1,5 +1,5 @@
 {
-  "dimension": "varkin_system:earth",
+  "dimension": "ad_astra:earth",
   "gravity": 9.807,
   "orbit": "ad_astra:earth_orbit",
   "oxygen": true,
