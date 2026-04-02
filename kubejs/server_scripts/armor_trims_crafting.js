@@ -1,0 +1,18 @@
+ServerEvents.recipes(event => {
+    event.shaped('minecraft:sentry_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:white_banner', C: 'minecraft:cobblestone'})
+    event.shaped('minecraft:ward_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:echo_shard', C: 'minecraft:cobbled_deepslate'})
+    event.shaped('minecraft:wild_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:mossy_cobblestone', C: 'minecraft:mossy_cobblestone'})
+    event.shaped('minecraft:vex_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:book', C: 'minecraft:cobblestone'})
+    event.shaped('minecraft:coast_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:emerald', C: 'minecraft:cobblestone'})
+    event.shaped('minecraft:silence_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:sculk_sensor', C: 'minecraft:cobbled_deepslate'})
+    event.shaped('minecraft:snout_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:gold_ingot', C: 'minecraft:blackstone'})
+    event.shaped('minecraft:rib_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:blaze_rod', C: 'minecraft:netherrack'})
+    event.shaped('minecraft:tide_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:prismarine_shard', C: 'minecraft:prismarine'})
+    event.shaped('minecraft:spire_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:phantom_membrane', C: 'minecraft:purpur_block'})
+    event.shaped('minecraft:dune_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:bone', C: 'minecraft:sandstone'})
+    event.shaped('minecraft:eye_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:ender_eye', C: 'minecraft:end_stone'})
+    event.shaped('minecraft:wayfinder_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:compass', C: 'minecraft:terracotta'})
+    event.shaped('minecraft:shaper_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:quartz', C: 'minecraft:terracotta'})
+    event.shaped('minecraft:raiser_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:lapis_lazuli', C: 'minecraft:terracotta'})
+    event.shaped('minecraft:host_armor_trim_smithing_template', ['DTD', 'DCD', 'DDD'], {D: 'minecraft:diamond', T: 'minecraft:spider_eye', C: 'minecraft:terracotta'})
+});
