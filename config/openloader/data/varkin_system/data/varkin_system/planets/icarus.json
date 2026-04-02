@@ -1,0 +1,10 @@
+{
+  "dimension": "varkin_system:icarus",
+  "gravity": 8.4,
+  "orbit": "varkin_system:icarus_orbit",
+  "oxygen": false,
+  "solar_power": 24,
+  "solar_system": "varkin_system:varkin_system",
+  "temperature": 500,
+  "tier": 2
+}

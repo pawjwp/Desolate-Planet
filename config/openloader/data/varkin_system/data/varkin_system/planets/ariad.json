@@ -1,0 +1,10 @@
+{
+  "dimension": "varkin_system:ariad",
+  "gravity": 12.0,
+  "orbit": "varkin_system:ariad_orbit",
+  "oxygen": true,
+  "solar_power": 8,
+  "solar_system": "varkin_system:varkin_system",
+  "temperature": -40,
+  "tier": 4
+}

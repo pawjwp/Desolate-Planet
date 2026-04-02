@@ -1,0 +1,9 @@
+{
+  "dimension": "varkin_system:talos_orbit",
+  "gravity": 0.0,
+  "oxygen": false,
+  "solar_power": 32,
+  "solar_system": "varkin_system:varkin_system",
+  "temperature": -270,
+  "tier": 1
+}
