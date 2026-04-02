@@ -53,6 +53,14 @@
       "varkin_system:icarus_spring_lava_closed",
       "minecraft:ore_ancient_debris_large",
       "minecraft:ore_debris_small"
+    ],
+    [
+      "varkin_system:icarus_crystal_patch_chalcopyrite",
+      "varkin_system:icarus_crystal_patch_sphalerite",
+      "varkin_system:icarus_crystal_patch_pentlandite",
+      "varkin_system:icarus_crystal_patch_stannite",
+      "varkin_system:icarus_crystal_patch_galena",
+      "varkin_system:icarus_crystal_patch_electrum"
     ]
   ],
   "has_precipitation": false,
