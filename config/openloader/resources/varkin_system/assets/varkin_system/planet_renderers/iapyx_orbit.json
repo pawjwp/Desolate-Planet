@@ -1,15 +1,15 @@
 {
   "custom_clouds": true,
   "custom_sky": true,
-  "custom_weather": true,
-  "dimension": "desolate_planet:perdix",
-  "has_fog": true,
+  "custom_weather": false,
+  "dimension": "varkin_system:iapyx_orbit",
+  "has_fog": false,
   "has_thick_fog": false,
   "render_in_rain": true,
   "sky_renderables": [
     {
       "back_light_color": -750495,
-      "back_light_scale": 40.0,
+      "back_light_scale": 36.0,
       "blend": false,
       "global_rotation": [
         0.0,
@@ -22,62 +22,44 @@
         0.0
       ],
       "movement_type": "TIME_OF_DAY",
-      "scale": 32.0,
-      "texture": "desolate_planet:textures/environment/red_sun_sky_transparent.png"
-    },
-    {
-      "back_light_color": -801674,
-      "back_light_scale": 16.0,
-      "blend": true,
-      "global_rotation": [
-        80.0,
-        0.0,
-        30.0
-      ],
-      "local_rotation": [
-        0.0,
-        -5.0,
-        0.0
-      ],
-      "movement_type": "STATIC",
-      "scale": 14.0,
-      "texture": "desolate_planet:textures/environment/talos.png"
-    },
-    {
-      "back_light_color": -4827861,
-      "back_light_scale": 1.8,
-      "blend": true,
-      "global_rotation": [
-        -20.0,
-        0.0,
-        -160.0
-      ],
-      "local_rotation": [
-        0.0,
-        -100.0,
-        0.0
-      ],
-      "movement_type": "TIME_OF_DAY_REVERSED",
-      "scale": 0.6,
-      "texture": "desolate_planet:textures/environment/icarus.png"
+      "scale": 12.0,
+      "texture": "varkin_system:textures/environment/red_sun.png"
     },
     {
       "back_light_color": -12813094,
-      "back_light_scale": 1.2,
-      "blend": true,
+      "back_light_scale": 240.0,
+      "blend": false,
       "global_rotation": [
-        -40.0,
+        180.0,
         0.0,
-        -160.0
+        0.0
       ],
       "local_rotation": [
         0.0,
-        -100.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "STATIC",
+      "scale": 80.0,
+      "texture": "varkin_system:textures/environment/iapyx.png"
+    },
+    {
+      "back_light_color": -801674,
+      "back_light_scale": 1.2,
+      "blend": false,
+      "global_rotation": [
+        -40.0,
+        0.0,
+        160.0
+      ],
+      "local_rotation": [
+        0.0,
+        100.0,
         0.0
       ],
       "movement_type": "TIME_OF_DAY",
       "scale": 0.4,
-      "texture": "desolate_planet:textures/environment/iapyx.png"
+      "texture": "varkin_system:textures/environment/talos.png"
     }
   ],
   "star_brightness": 0.6,

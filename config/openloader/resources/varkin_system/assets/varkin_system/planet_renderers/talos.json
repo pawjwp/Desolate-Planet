@@ -23,7 +23,7 @@
       ],
       "movement_type": "TIME_OF_DAY",
       "scale": 32.0,
-      "texture": "desolate_planet:textures/environment/red_sun_sky.png"
+      "texture": "varkin_system:textures/environment/red_sun_sky.png"
     },
     {
       "back_light_color": -5261108,
@@ -41,7 +41,7 @@
       ],
       "movement_type": "TIME_OF_DAY",
       "scale": 3.5,
-      "texture": "desolate_planet:textures/environment/perdix.png"
+      "texture": "varkin_system:textures/environment/perdix.png"
     },
     {
       "back_light_color": -4827861,
@@ -59,7 +59,7 @@
       ],
       "movement_type": "TIME_OF_DAY_REVERSED",
       "scale": 0.6,
-      "texture": "desolate_planet:textures/environment/icarus.png"
+      "texture": "varkin_system:textures/environment/icarus.png"
     },
     {
       "back_light_color": -12813094,
@@ -77,7 +77,7 @@
       ],
       "movement_type": "TIME_OF_DAY",
       "scale": 0.4,
-      "texture": "desolate_planet:textures/environment/iapyx.png"
+      "texture": "varkin_system:textures/environment/iapyx.png"
     }
   ],
   "star_colors": [{ "data": -1, "weight": 1 }],

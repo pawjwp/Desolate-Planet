@@ -2,7 +2,7 @@
   "custom_clouds": true,
   "custom_sky": true,
   "custom_weather": false,
-  "dimension": "desolate_planet:ariad",
+  "dimension": "varkin_system:ariad",
   "has_fog": true,
   "has_thick_fog": false,
   "render_in_rain": false,
@@ -23,7 +23,7 @@
       ],
       "movement_type": "TIME_OF_DAY",
       "scale": 5.0,
-      "texture": "desolate_planet:textures/environment/red_sun.png"
+      "texture": "varkin_system:textures/environment/red_sun.png"
     },
     {
       "back_light_color": -6861640,
@@ -41,7 +41,7 @@
       ],
       "movement_type": "STATIC",
       "scale": 7.0,
-      "texture": "desolate_planet:textures/environment/gas_giant.png"
+      "texture": "varkin_system:textures/environment/gas_giant.png"
     }
   ],
   "star_brightness": 0.6,

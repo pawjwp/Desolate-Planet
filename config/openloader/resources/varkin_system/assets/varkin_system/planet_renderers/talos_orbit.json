@@ -2,7 +2,7 @@
   "custom_clouds": true,
   "custom_sky": true,
   "custom_weather": false,
-  "dimension": "desolate_planet:talos_orbit",
+  "dimension": "varkin_system:talos_orbit",
   "has_fog": false,
   "has_thick_fog": false,
   "render_in_rain": true,
@@ -23,7 +23,7 @@
       ],
       "movement_type": "TIME_OF_DAY",
       "scale": 32.0,
-      "texture": "desolate_planet:textures/environment/red_sun_sky_transparent.png"
+      "texture": "varkin_system:textures/environment/red_sun_sky_transparent.png"
     },
     {
       "back_light_color": -801674,
@@ -41,7 +41,7 @@
       ],
       "movement_type": "STATIC",
       "scale": 80.0,
-      "texture": "desolate_planet:textures/environment/talos.png"
+      "texture": "varkin_system:textures/environment/talos.png"
     },
     {
       "back_light_color": -5261108,
@@ -59,7 +59,7 @@
       ],
       "movement_type": "TIME_OF_DAY_REVERSED",
       "scale": 8.0,
-      "texture": "desolate_planet:textures/environment/perdix.png"
+      "texture": "varkin_system:textures/environment/perdix.png"
     },
     {
       "back_light_color": -4827861,
@@ -77,7 +77,7 @@
       ],
       "movement_type": "TIME_OF_DAY_REVERSED",
       "scale": 0.6,
-      "texture": "desolate_planet:textures/environment/icarus.png"
+      "texture": "varkin_system:textures/environment/icarus.png"
     },
     {
       "back_light_color": -12813094,
@@ -95,7 +95,7 @@
       ],
       "movement_type": "TIME_OF_DAY",
       "scale": 0.4,
-      "texture": "desolate_planet:textures/environment/iapyx.png"
+      "texture": "varkin_system:textures/environment/iapyx.png"
     }
   ],
   "star_brightness": 0.6,
