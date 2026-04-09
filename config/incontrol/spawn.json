@@ -23,10 +23,14 @@
     "result": "deny"
   },
   {
-    "mob": ["minecraft:zombified_piglin", "specialmobs:zombifiedpiglin", "specialmobs:hungryzombifiedpiglin"],
+    "mob": [
+      "minecraft:zombified_piglin",
+      "specialmobs:zombifiedpiglin",
+      "specialmobs:hungryzombifiedpiglin"
+    ],
     "result": "default",
     "nbt": {
       "AngerTime": 2147483647
-	}
+    }
   }
 ]
