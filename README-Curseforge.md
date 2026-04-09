@@ -4,7 +4,7 @@ _A hardcore survival modpack inspired by [Crash Landing](https://www.curseforge.
 
 ***
 
-You have survived a crash landing on Planet T4L0S, an uncharted planet in the Varkin system. Preliminary scans indicate an arid environment with pockets of elevated radiation, high mineral content, and subterranean hydrocarbon reservoirs.
+You have survived a crash landing on Planet Talos, an uncharted planet in the Varkin system. Preliminary scans indicate an arid environment with pockets of elevated radiation, high mineral content, and subterranean hydrocarbon reservoirs.
 
 You will need to brave the blazing heat, find sources of food and water, scour the planet for resources, build up technology, and search for a way to escape the planet.
 

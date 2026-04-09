@@ -215,7 +215,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "T4L0S seems to entirely lack plant life, which does not leave much to eat once your rations run out. As a temporary solution, you may have to sustain yourself with the flesh scavenged from the undead that emerge at night.",
+        "text": "Talos seems to entirely lack plant life, which does not leave much to eat once your rations run out. As a temporary solution, you may have to sustain yourself with the flesh scavenged from the undead that emerge at night.",
         "isTranslationKey": false
       },
       "x": 222,
@@ -233,7 +233,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "The dust on T4L0S has a high salt concentration. Salt can be used to cure and preserve food, rendering it safe for consumption. Sift some dust to collect salt.",
+            "text": "The dust on Talos has a high salt concentration. Salt can be used to cure and preserve food, rendering it safe for consumption. Sift some dust to collect salt.",
             "isTranslationKey": false
           },
           "items": [
