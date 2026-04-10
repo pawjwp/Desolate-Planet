@@ -1,14 +1,14 @@
 {
-    "structures": [
-        {
-            "structure": "desolate_planet:ship",
-            "weight": 1
-        }
-    ],
-    "placement": {
-        "type": "minecraft:random_spread",
-        "spacing": 10,
-        "separation": 5,
-        "salt": 327975833
+  "structures": [
+    {
+      "structure": "desolate_planet:ship",
+      "weight": 1
     }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10,
+    "separation": 5,
+    "salt": 327975833
+  }
 }
