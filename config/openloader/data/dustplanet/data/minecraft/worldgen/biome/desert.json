@@ -1,373 +1,116 @@
 {
-    "temperature": 2,
-    "downfall": 0,
-    "has_precipitation": false,
-    "effects": {
-        "sky_color": 13816319,
-        "fog_color": 16251866,
-        "water_color": 10008049,
-        "water_fog_color": 3223958,
-      "mood_sound": {
-        "sound": "minecraft:ambient.cave",
-        "tick_delay": 6000,
-        "block_search_extent": 8,
-        "offset": 2
-      },
-      "music": {
-        "sound": "minecraft:music.overworld.desert",
-        "min_delay": 12000,
-        "max_delay": 24000,
-        "replace_current_music": false
-      }
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false,
+  "carvers": {},
+  "effects": {
+    "sky_color": 13816319,
+    "fog_color": 16251866,
+    "water_color": 10008049,
+    "water_fog_color": 3223958,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
     },
-    "spawners": {
-        "monster": [
-          {
-            "type": "minecraft:spider",
-            "weight": 600,
-            "minCount": 4,
-            "maxCount": 4
-          },
-          {
-            "type": "minecraft:zombie",
-            "weight": 600,
-            "minCount": 4,
-            "maxCount": 4
-          },
-          {
-            "type": "minecraft:zombie_villager",
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1
-          },
-          {
-            "type": "minecraft:skeleton",
-            "weight": 600,
-            "minCount": 4,
-            "maxCount": 4
-          },
-          {
-            "type": "minecraft:creeper",
-            "weight": 600,
-            "minCount": 4,
-            "maxCount": 4
-          },
-          {
-            "type": "minecraft:slime",
-            "weight": 600,
-            "minCount": 4,
-            "maxCount": 4
-          },
-          {
-            "type": "minecraft:enderman",
-            "weight": 300,
-            "minCount": 1,
-            "maxCount": 4
-          },
-          {
-            "type": "minecraft:witch",
-            "weight": 5,
-            "minCount": 1,
-            "maxCount": 1
-          },
-          {
-            "type": "minecraft:husk",
-            "weight": 400,
-            "minCount": 4,
-            "maxCount": 4
-          },
-          {
-            "type": "specialmobs:darkcreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:deathcreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:dirtcreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:doomcreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:firecreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:endercreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:gravelcreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:jumpingcreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:lightningcreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:minicreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:sandcreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:scopecreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:skeletoncreeper",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:babyspider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:desertspider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:flyingspider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:giantspider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:hungryspider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:motherspider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:palespider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:poisonspider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:babycavespider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:desertcavespider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:flyingcavespider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:mothercavespider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:palecavespider",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:fireskeleton",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:bruteskeleton",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:gatlingskeleton",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:giantskeleton",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:knightskeleton",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:ninjaskeleton",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:pirateskeleton",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:poisonskeleton",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:sniperskeleton",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:spitfireskeleton",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:weatheredskeleton",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:brutezombie",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:firezombie",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:giantzombie",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:hungryzombie",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:madscientistzombie",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:plaguezombie",
-            "weight": 50,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:blindingenderman",
-            "weight": 30,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:flameenderman",
-            "weight": 30,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:minienderman",
-            "weight": 30,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:mirageenderman",
-            "weight": 30,
-            "minCount": 4,
-            "maxCount": 4
-          },
-{
-            "type": "specialmobs:thiefenderman",
-            "weight": 30,
-            "minCount": 4,
-            "maxCount": 4
-          }
-        ]
-      },
-      "spawn_costs": {},
-      "carvers": {},
-      "features": []
+    "music": {
+      "sound": "minecraft:music.overworld.desert",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
     }
-    
+  },
+  "features": [
+    []
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 14,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:brutezombie",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "specialmobs:hungryzombie",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:zombified_piglin",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:hungryzombifiedpiglin",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 6,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:bruteskeleton",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "specialmobs:weatheredskeleton",
+        "weight": 4,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:desertspider",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:weaverspider",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {}
+}
