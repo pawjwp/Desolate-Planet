@@ -1,0 +1,116 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false,
+  "carvers": {},
+  "effects": {
+    "sky_color": 13816319,
+    "fog_color": 16251866,
+    "water_color": 10008049,
+    "water_fog_color": 3223958,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "music": {
+      "sound": "minecraft:music.overworld.desert",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    }
+  },
+  "features": [
+    []
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 14,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:brutezombie",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "specialmobs:hungryzombie",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:zombified_piglin",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:hungryzombifiedpiglin",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 6,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:bruteskeleton",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "specialmobs:weatheredskeleton",
+        "weight": 4,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:desertspider",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:weaverspider",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {}
+}
