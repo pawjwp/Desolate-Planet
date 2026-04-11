@@ -227,12 +227,12 @@
   "spawn_target": [
     {
       "temperature": [
-        -1,
+        0.8,
         1
       ],
       "humidity": [
-        -1,
-        1
+        -0.1,
+        0.1
       ],
       "continentalness": [
         -0.11,
@@ -251,12 +251,12 @@
     },
     {
       "temperature": [
-        -1,
+        0.8,
         1
       ],
       "humidity": [
-        -1,
-        1
+        -0.1,
+        0.1
       ],
       "continentalness": [
         -0.11,
