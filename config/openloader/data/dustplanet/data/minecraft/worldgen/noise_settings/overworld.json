@@ -228,18 +228,18 @@
     {
       "temperature": [
         0.8,
-        1
+        1.2
       ],
       "humidity": [
-        -0.1,
-        0.1
+        -1,
+        1
       ],
       "continentalness": [
-        -0.11,
+        0.0,
         1
       ],
       "erosion": [
-        -1,
+        0.2,
         1
       ],
       "weirdness": [
@@ -252,18 +252,18 @@
     {
       "temperature": [
         0.8,
-        1
+        1.2
       ],
       "humidity": [
-        -0.1,
-        0.1
+        -1,
+        1
       ],
       "continentalness": [
-        -0.11,
+        0.0,
         1
       ],
       "erosion": [
-        -1,
+        0.2,
         1
       ],
       "weirdness": [

@@ -9,10 +9,10 @@
         {
           "biome": "varkin_system:talos_dust_desert",
           "parameters": {
-            "temperature": [-0.4, 1.0],
-            "humidity": [-0.2, 0.5],
-            "continentalness": 0,
-            "erosion": 0,
+            "temperature": [-0.3, 1.0],
+            "humidity": 0,
+            "continentalness": [-0.455, 1.0],
+            "erosion": [-0.225, 1.0],
             "weirdness": 0,
             "depth": 0,
             "offset": 0
@@ -21,10 +21,10 @@
         {
           "biome": "varkin_system:talos_dire_dunes",
           "parameters": {
-            "temperature": [-0.4, 1.0],
-            "humidity": [-1.0, -0.2],
-            "continentalness": 0,
-            "erosion": 0,
+            "temperature": [-0.3, 1.0],
+            "humidity": 0,
+            "continentalness": [-0.455, 1.0],
+            "erosion": [-1.0, -0.225],
             "weirdness": 0,
             "depth": 0,
             "offset": 0
@@ -33,10 +33,10 @@
         {
           "biome": "varkin_system:talos_searing_sands",
           "parameters": {
-            "temperature": [-0.4, 1.0],
-            "humidity": [0.5, 1.0],
-            "continentalness": 0,
-            "erosion": 0,
+            "temperature": [-0.3, 1.0],
+            "humidity": 0,
+            "continentalness": [-1.0, -0.455],
+            "erosion": [-1.0, 1.0],
             "weirdness": 0,
             "depth": 0,
             "offset": 0
@@ -45,10 +45,10 @@
         {
           "biome": "varkin_system:talos_irradiated_fields",
           "parameters": {
-            "temperature": [-1.0, -0.4],
-            "humidity": [-1.0, 1.0],
-            "continentalness": 0,
-            "erosion": 0,
+            "temperature": [-1.0, -0.3],
+            "humidity": 0,
+            "continentalness": [-1.0, 1.0],
+            "erosion": [-1.0, 1.0],
             "weirdness": 0,
             "depth": 0,
             "offset": 0
