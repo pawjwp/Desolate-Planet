@@ -22,7 +22,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A Plant Sower can plant crops or saplings in an area (the range is 3x3 by default, and can be expanded with range upgrades). A Plant Gatherer will collect those crops and saplings.\nAutomating crops should provide plenty of food to eat and composting food or saplings can generate large amounts of water.",
+            "text": "A Plant Sower can plant crops or saplings in a small area (the range can be expanded with range upgrades). A Plant Gatherer will collect those crops and saplings.\nAutomating crops should provide plenty of food to eat and composting food or saplings can generate large amounts of water.",
             "isTranslationKey": false
           },
           "items": [
