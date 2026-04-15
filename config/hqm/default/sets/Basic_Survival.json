@@ -4,12 +4,12 @@
     {
       "uuid": "799cc1e8-bdff-4470-b5e1-b983ebfd6624",
       "name": {
-        "text": "Sapping the Saplings",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.centrifuge_water.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.centrifuge_water.desc",
+        "isTranslationKey": true
       },
       "x": 78,
       "y": 75,
@@ -22,8 +22,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Make sure you don\u0027t use up all of your saplings, the only way to get more is from leaves or sifting dirt.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.centrifuge_water.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -53,12 +53,12 @@
     {
       "uuid": "89f755cb-748d-43d1-9430-0a3f3de8d907",
       "name": {
-        "text": "Live to Fight Another Day",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.sword.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The night is dark and full of terrors. Your chances of survival are low, but you can improve them with some sort of weapon to defend yourself.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.sword.desc",
+        "isTranslationKey": true
       },
       "x": 94,
       "y": 156,
@@ -72,8 +72,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Weapon blades can be made from a variety of materials, though bone blades are usually the strongest when starting out. Bone tool parts can be made from bones or bone meal in a part builder.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.sword.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -117,12 +117,12 @@
     {
       "uuid": "6f4c9614-c79e-4016-b153-290df8016c8b",
       "name": {
-        "text": "String Theory",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.string.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Silk worms can be found in tree leaves, and under certain conditions, they will spread through a tree, spinning cocoons of usable silk.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.string.desc",
+        "isTranslationKey": true
       },
       "x": 142,
       "y": 129,
@@ -135,8 +135,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Right-click some leaves with a silk worm to infest them. Infested leaf blocks will drop string and more silk worms, and the silk worms will spread to adjacent leaf blocks. This is useful for getting string. Break the infested leaves with a crook for higher yields.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.string.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -164,12 +164,12 @@
     {
       "uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc",
       "name": {
-        "text": "Alloying",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.alloying_trigger.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Invisible trigger quest for when the player unlocks an alloying method.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.alloying_trigger.desc",
+        "isTranslationKey": true
       },
       "x": 14,
       "y": 3,
@@ -191,12 +191,12 @@
     {
       "uuid": "b447d7bd-febd-458b-b0aa-43c1957e7d9e",
       "name": {
-        "text": "Clean Bill of Health",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.purified_water.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Purifying using with fire can provide a lot of clean water, but it works slowly. For a faster and more portable method, you can craft water filters.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.purified_water.desc",
+        "isTranslationKey": true
       },
       "x": 206,
       "y": 75,
@@ -210,8 +210,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Water filters can be crafted with water bottles or buckets to purify them by one level.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.purified_water.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -246,12 +246,12 @@
     {
       "uuid": "477e01c0-8641-4b6b-970f-7374b04f6a68",
       "name": {
-        "text": "The Hard Route ",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.hard_route.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "In case of crash landing, you were equipped with a basic survival package:\n- Saplings\n- Fertilizer\n- Water Bottles\n- Dried Nutrient Bricks\nNote: Choose this path if you want a challenge. Don\u0027t expect to live. Completing this quest disables the easy route quest.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.hard_route.desc",
+        "isTranslationKey": true
       },
       "x": 46,
       "y": 129,
@@ -264,8 +264,8 @@
         {
           "type": "hardcorequesting:checkbox",
           "longDescription": {
-            "text": "Check the box below to confirm you want to take the Hard Route with the basic survival package. There\u0027s no going back after you click it!",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.hard_route.task.0.long_desc",
+            "isTranslationKey": true
           }
         }
       ],
@@ -304,12 +304,12 @@
     {
       "uuid": "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
       "name": {
-        "text": "Pressed Metal",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.pressed_metal_trigger.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.pressed_metal_trigger.desc",
+        "isTranslationKey": true
       },
       "x": 30,
       "y": 12,
@@ -330,12 +330,12 @@
     {
       "uuid": "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
       "name": {
-        "text": "Melting Pot",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.crucible.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "With a furnace set up, you can take the next step. Check the port engine, where the water reclamation system has leaked and turned some of the dust to clay. Dig that up, make a crucible, and place it above a torch or some lava. In the crucible, not only can you melt cobblestone into lava, but you can melt down ore and ore chunks into molten metal. All you need is a casting table to cast the molten metal into ingots. If you ever need more clay, it can be made from water and dust in a barrel.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.crucible.desc",
+        "isTranslationKey": true
       },
       "x": 126,
       "y": 102,
@@ -348,8 +348,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can use the crucible as a mini-smeltery. Shift-right click to place a faucet. It can accept ore blocks or chunks. If you\u0027ve still have lava by the broken engine, you can use that to heat your crucible. Also, you can make casts by pouring gold over wood tool parts.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.crucible.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -399,12 +399,12 @@
     {
       "uuid": "bb5d7543-ddde-4734-8690-e2fa48963b5b",
       "name": {
-        "text": "Metal Detector",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.advanced_metals.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Uncommon metals and crystals can be found by sifting sand, gravel, and crushed deepslate.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.advanced_metals.desc",
+        "isTranslationKey": true
       },
       "x": 222,
       "y": 102,
@@ -416,8 +416,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Sifting dust drops iron, copper, gold, and redstone.\nSifting sand drops iron, tin, zinc, nickel, quartz, and certus quartz.\nSifting gravel drops iron, copper, gold, tin, zinc, nickel, lead, silver, coal, and redstone \nSifting crushed deepslate drops iron, copper, gold, silver, lead, redstone, lapis, diamonds, and emeralds.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.advanced_metals.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -473,12 +473,12 @@
     {
       "uuid": "804f4329-c6f5-4df8-915c-c590329cf26c",
       "name": {
-        "text": "By Hook or by Crook",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.crook.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Breaking leaves will give saplings, but the drop chance is low. By knocking them down with a crook, you can triple your chance of finding saplings. Perhaps you can find something else useful in the leaves as well.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.crook.desc",
+        "isTranslationKey": true
       },
       "x": 110,
       "y": 129,
@@ -492,8 +492,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A crook will increase the drop chance of saplings from leaves, and has a small chance of giving a silk worm. Crooks are crafted from sticks or in a tinker station.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.crook.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -523,12 +523,12 @@
     {
       "uuid": "5f020d6d-64a9-4119-807f-f9619fb4ceac",
       "name": {
-        "text": "Heat Shield",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.leather_insulation.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Desert clothing is useful for protection, but it\u0027s bulky and doesn\u0027t allow you to wear armor with it. One alternative is to put a thin layer of insulating material between you and your armor. This isn\u0027t usually as effective, but it allows for more protection from attack.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.leather_insulation.desc",
+        "isTranslationKey": true
       },
       "x": 206,
       "y": 129,
@@ -541,8 +541,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Insulation items can be placed in the curios Insulation slot, and provide smaller amounts of protection from the heat, but allowing armor to be worn at the same time.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.leather_insulation.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -570,12 +570,12 @@
     {
       "uuid": "6acadfe6-4853-4cf1-af89-d44bc0f42ce1",
       "name": {
-        "text": "Cut and Paste",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.paste.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out mixing water and flour makes a great adhesive.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.paste.desc",
+        "isTranslationKey": true
       },
       "x": 62,
       "y": 48,
@@ -588,8 +588,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Craft some water and wheat together to make paste, a sticky substance that can be used in many recipes instead of slimeballs.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.paste.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -618,12 +618,12 @@
     {
       "uuid": "485801ed-15cb-43f9-ac50-1e31cf9c97a0",
       "name": {
-        "text": "Hammer Time",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.hammer.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The surface of Talos is covered in siftable dust, and sand, gravel, and crushed deepslate can be found underground for sifting. These blocks can also be made by crushing other blocks with a hammer. Hammers can be used to crush cobblestone into gravel, gravel into sand, and sand into dust.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.hammer.desc",
+        "isTranslationKey": true
       },
       "x": 126,
       "y": 156,
@@ -637,12 +637,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Hammers",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.hammer.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "A hammer can crush stone into gravel and sand. It can be made as a tinker tool.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.hammer.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -658,12 +658,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Crushing",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.hammer.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Break cobblestone with a hammer to get gravel, and break gravel to get sand. You can generate cobblestone where flowing water and lava meet. The water and fuel leaks near the back of the ship could be connected for an early source of stone.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.hammer.task.1.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -701,12 +701,12 @@
     {
       "uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277",
       "name": {
-        "text": "The Easy Route",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.easy_route.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "In case of crash landing, you were equipped with a deluxe survival package:\n- Sync Shell Constructor\n- Spare Power Cell\n- Extra Shotgun Shells\n- Saplings\n- Fertilizer\n- Water Bottles\n- Dried Nutrient Bricks \n- Choice of Sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.easy_route.desc",
+        "isTranslationKey": true
       },
       "x": 46,
       "y": 75,
@@ -719,8 +719,8 @@
         {
           "type": "hardcorequesting:checkbox",
           "longDescription": {
-            "text": "Check the box below to confirm you want to take the Easy Route with the deluxe survival package. There\u0027s no going back after you click it!",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.easy_route.task.0.long_desc",
+            "isTranslationKey": true
           }
         }
       ],
@@ -764,12 +764,12 @@
         {
           "id": "legumedelight:peanut_butter_and_jam_sandwich",
           "Count": 8,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}\u0027]}}"
+          "tag": "{display:{Lore:['{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}']}}"
         },
         {
           "id": "legumedelight:bean_burger",
           "Count": 8,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}\u0027]}}"
+          "tag": "{display:{Lore:['{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}']}}"
         }
       ],
       "commandrewards": []
@@ -777,12 +777,12 @@
     {
       "uuid": "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
       "name": {
-        "text": "The Night Shift",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.mob_drops.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The \"life\" on Talos seems to mostly be made up of the animated bodies of its former inhabitants, all of which appear hostile. The optimal survival strategy is to avoid confrontation, but some of them leave behind useful items when killed.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.mob_drops.desc",
+        "isTranslationKey": true
       },
       "x": 110,
       "y": 183,
@@ -795,12 +795,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Holding out for a hero...",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.mob_drops.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Kill mobs to collect their drops. Rotten flesh can be used for zombie jerky or smelted into leather. Bones can be used as an early tool material or to make bonemeal for crops. Spider eyes can be used to make soup in a pinch, and gunpowder can make all sorts of explosives.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.mob_drops.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -834,12 +834,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "...till the end of the night",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.mob_drops.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "The most interesting mob drop is the ender pearl. Not only can it teleport the player when thrown, but its teleportation-related properties allow all sorts of interesting items to be crafted from it.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.mob_drops.task.1.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -875,12 +875,12 @@
     {
       "uuid": "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a",
       "name": {
-        "text": "Getting Your Hands Dirty",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.dirty_water.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Water is scarce on this planet. If you get desperate enough, you can squeeze the liquid out of some dirt for some very dirty water. Make sure not to use up all your dirt though, you\u0027ll need it for growing trees and crops.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.dirty_water.desc",
+        "isTranslationKey": true
       },
       "x": 142,
       "y": 75,
@@ -898,8 +898,8 @@
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Craft an empty bottle and dirt together to get dirty water.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.dirty_water.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -934,12 +934,12 @@
     {
       "uuid": "d4d8bba6-7b9e-417a-b543-90ffb032400b",
       "name": {
-        "text": "Bottom of the Barrel",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.barrel_dirt.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "For your continued survival, you\u0027ll need to start farming crops and trees on a larger scale. Neither of those are able to take root in the dust of this planet. However, you can compost organic material in a barrel to make some more dirt for yourself.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.barrel_dirt.desc",
+        "isTranslationKey": true
       },
       "x": 110,
       "y": 75,
@@ -952,8 +952,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Make a barrel with some planks and a slab, then drop some leaves or saplings into it to start composting it into dirt. You\u0027ll be farming in no time.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.barrel_dirt.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -982,12 +982,12 @@
     {
       "uuid": "0862574f-2caf-43d7-b79c-99ca3a5fe67c",
       "name": {
-        "text": "The Last Straw",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.camel_pack.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Desert survivors have long made use of portable water reservoirs for hydration. The most useful of which include a built in straw that connects to the wearer\u0027s mouth, allowing them to drink whenever they would like.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.camel_pack.desc",
+        "isTranslationKey": true
       },
       "x": 238,
       "y": 75,
@@ -1000,8 +1000,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Camel packs can be filled with liquid to passively provide hydration. The attached tank can be filled from most tank blocks, or by crafting together with bottles and buckets. The filter helps to automatically purify most water, but when crafting, you must use bottles with a purity of Acceptable or Purified. Camel packs can be upgraded to get higher capacity, and eventually to absorb water directly from the air.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.camel_pack.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1036,12 +1036,12 @@
     {
       "uuid": "c5d70928-cc40-46b5-bfb0-3f3b800a84ea",
       "name": {
-        "text": "Burning Both Ends",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.netherrack_end_stone.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "This world doesn\u0027t have any lava lakes or dragons, so you\u0027ll have to get some materials in other ways. A barrel full of lava can be turned into netherrack or end stone using redstone or glowstone respectively.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.netherrack_end_stone.desc",
+        "isTranslationKey": true
       },
       "x": 110,
       "y": 21,
@@ -1054,8 +1054,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Place a barrel down, fill it with lava, and click it with redstone or glowstone. Make sure to use a stone barrel, or you risk spreading lava everywhere. When you get access to advanced melting, you can make netherrack and end stone with an extruder and some liquid redstone or ender pearls.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.netherrack_end_stone.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1093,12 +1093,12 @@
     {
       "uuid": "496abe96-0a4d-47e9-9e30-e87ea63d3888",
       "name": {
-        "text": "Old Soul",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.soul_sand.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The harsh reality is that you\u0027re stuck on this planet. No amount of obsidian rectangles will let you escape. However, the situation means you can\u0027t get some resources (like soul sand) through normal methods.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.soul_sand.desc",
+        "isTranslationKey": true
       },
       "x": 126,
       "y": 48,
@@ -1111,12 +1111,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Spores",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.soul_sand.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "To start, you\u0027ll have to sift some dirt, probably a lot of it. Eventually you\u0027ll find some mycelium spores. Plant the spores on a piece of dirt and you\u0027ll get mycelium.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.soul_sand.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1130,12 +1130,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Witch Water Infusion",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.soul_sand.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Placing some mycelium under a barrel full of water will slowly convert it into Witch Water. Put some sand in a barrel of Witch Water and it will turn into soul sand.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.soul_sand.task.1.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1163,12 +1163,12 @@
     {
       "uuid": "15ad672b-7b9c-4115-a4b3-403c70654a40",
       "name": {
-        "text": "Pure and Simple",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.acceptable_water.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Dirty water may help you in a pinch, but for long term survival, you\u0027ll need to purify it.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.acceptable_water.desc",
+        "isTranslationKey": true
       },
       "x": 174,
       "y": 75,
@@ -1182,8 +1182,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The easiest way to purify water is with some fire. Put a dirty water bottle into a furnace, apply some heat, and you\u0027ll get clean, drinkable water. You can also make acceptable water directly by melting organic matter.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.acceptable_water.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1213,12 +1213,12 @@
     {
       "uuid": "8859440a-9852-445c-b1d6-15edc20c368c",
       "name": {
-        "text": "Fine-Toothed Comb",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.flint_mesh.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "String mesh can be upgraded to flint mesh to gain higher yields. It can be further upgraded later when you get the resources. Each mesh tier is better than the last.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.flint_mesh.desc",
+        "isTranslationKey": true
       },
       "x": 190,
       "y": 102,
@@ -1231,8 +1231,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can get flint from sifting gravel, which can be crushed from cobblestone with a hammer or found by digging underground.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.flint_mesh.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1264,12 +1264,12 @@
     {
       "uuid": "24dbbe58-7306-4f70-8034-6aa3f7ca548f",
       "name": {
-        "text": "Swimming in Strange Water",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.stillsuit.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The sun\u0027s scorching heat is often only bearable from within shelter. However, there are tales of survivors that can spend weeks on end in deathly heat using special suits. These stillsuits encase someone completely, recapturing lost water and using it to both regulate temperature and for drinking.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.stillsuit.desc",
+        "isTranslationKey": true
       },
       "x": 238,
       "y": 129,
@@ -1282,8 +1282,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The stillsuit provides more protection from the elements than any other type of insulation, and halves the wearer\u0027s water consumption rate.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.stillsuit.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1313,12 +1313,12 @@
     {
       "uuid": "0f7c28b0-3881-419c-9d4b-ca936ad109f3",
       "name": {
-        "text": "Tinker, Tailor",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.tinker_tables.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "A finely crafted weapon or tool isn\u0027t as easy as strapping some rocks to a stick. In fact, basic tools like that won\u0027t work for you at all. You\u0027ll have to tinker around a bit.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.tinker_tables.desc",
+        "isTranslationKey": true
       },
       "x": 78,
       "y": 129,
@@ -1331,12 +1331,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Worktables",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.tinker_tables.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "First, make a part builder and a tinker station. The part builder lets you make parts by combining a pattern and a material. The tinker station lets you assemble parts into tools.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.tinker_tables.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1358,12 +1358,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Handles",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.tinker_tables.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Every tool needs a handle, a wood handle should do the trick. You can make one by putting some wood in the part builder with a pattern.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.tinker_tables.task.1.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1393,12 +1393,12 @@
     {
       "uuid": "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8",
       "name": {
-        "text": "Gathering Supplies",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.gathering_supplies.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Emergency Survival Checklist:\n\n1. Perform self-diagnostics and administer emergency first aid to treat any injuries.\n2. Assess the environment for potential threats, resources, and shelter. Exercise caution around the detached reactor, containment has breached and high-temperature fuel is leaking.\n3. Ration available food and water. The water reclamation system is damaged and leaking, you will have to find an alternate source of drinking water.\n4. Recover supplies from the ship\u0027s emergency survival equipment storage, located in the black box above ship\u0027s power. Available supplies include:\n  a. Multipurpose wrench\n  b. Basic particulate sieve\n  c. Emergency firearm\n  d. Emergency battery pack\n  e. Portable assembly unit\n  f. MAT input interface\n5. Refer back to the MAT unit when complete. The replicator should be able to provide some bottles and some water. It has taken damage but appears to just barely be functional.\n6. Proceed to the next available survival task. Consult your MAT unit regularly for recommended tasks and adaptive advice for your continued survival.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.gathering_supplies.desc",
+        "isTranslationKey": true
       },
       "x": 30,
       "y": 102,
@@ -1410,8 +1410,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "If you are having issues surviving your first night, it may help you to make a trench around the ship. Use the dust you get to build a 2 block wall on the inside of the trench. That should keep you safe from everything but spiders. To deal with them, make a small overhang out of stone or wood when you can afford it.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.gathering_supplies.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1457,12 +1457,12 @@
     {
       "uuid": "9bcad1fa-e4c1-4745-9776-6df674846c9d",
       "name": {
-        "text": "Life Insurance",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.shell_storage.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Sometimes, one life just isn\u0027t enough. In those cases, you can use Shell Storage to keep extra shells around. When you die, you will be sent to a random shell.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.shell_storage.desc",
+        "isTranslationKey": true
       },
       "x": 286,
       "y": 102,
@@ -1475,12 +1475,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Shell Storage",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.shell_storage.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "If you have another shell available, you can put your current body into storage. Just walk into the shell storage chamber and it will let you transfer to any available Shell.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.shell_storage.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1494,12 +1494,12 @@
         {
           "type": "hardcorequesting:checkbox",
           "description": {
-            "text": "Terms and Conditions",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.shell_storage.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Some important warnings:\n\n1. When you enter storage to switch shells, your items stay in that body. Empty your inventory before syncing unless you have multiple Shell Storage chambers available.\n2. If a Shell Storage breaks, the Shell it is storing will be lost and its inventory will be scattered on the ground.\n\nCheck the box below to acknowledge the Sync™ terms and conditions.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.shell_storage.task.1.long_desc",
+            "isTranslationKey": true
           }
         }
       ],
@@ -1519,12 +1519,12 @@
     {
       "uuid": "a63b8539-ab2c-4741-a920-afc5081deb38",
       "name": {
-        "text": "Easy Route",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.easy_route_trigger.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Trigger quest to control quests unlocked by the easy route",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.easy_route_trigger.desc",
+        "isTranslationKey": true
       },
       "x": 270,
       "y": 75,
@@ -1540,12 +1540,12 @@
     {
       "uuid": "099d1358-0b11-49f0-aa78-43531cd739b7",
       "name": {
-        "text": "Fired Up",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.furnace.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Despite the planet\u0027s high temperature, it isn\u0027t nearly hot enough cook food or melt metals. For that, you will need a furnace.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.furnace.desc",
+        "isTranslationKey": true
       },
       "x": 94,
       "y": 102,
@@ -1558,8 +1558,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can get cobblestone by sieving dust or dirt for stone pebbles. Alternatively, with some careful planning, you may be able to generate cobblestone by connecting the water leak on the back of the ship to the fuel leak from the detached reactor. Once you have a source of stone, you can use it to craft your furnace and start smelting.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.furnace.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1588,12 +1588,12 @@
     {
       "uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
       "name": {
-        "text": "Bare Metal",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.basic_metals.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "What Talos lacks in water, it makes up for in metals. If you spend some time sifting, you should be able to get enough metal to set up some infrastructure.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.basic_metals.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 102,
@@ -1606,8 +1606,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Sifting dust and other blocks will drop metal ore chunks. Those can be crafted into ores and then smelted into ingots.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.basic_metals.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1649,12 +1649,12 @@
     {
       "uuid": "8339057e-e3f2-4846-9bd4-95c311dd654b",
       "name": {
-        "text": "Fertile Ground",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.rich_soil.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You should be able to make more fertile soil by mixing some compostable materials into dirt and letting it sit for a few days. When ready, it can be tilled and used like normal farmland, but anything planted in it will grow faster.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.rich_soil.desc",
+        "isTranslationKey": true
       },
       "x": 94,
       "y": 48,
@@ -1667,12 +1667,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Organic Compost",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.rich_soil.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Mixing some compostable materials into dirt will make organic compost.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.rich_soil.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1686,12 +1686,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Rich Soil",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.rich_soil.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Organic compost will turn into rich soil if left out for a while. If you place it in sunlight, near water, and/or near mushroom blocks, the process will speed up.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.rich_soil.task.1.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1719,12 +1719,12 @@
     {
       "uuid": "ae61c85d-2154-435e-91cc-78218ffe1dd6",
       "name": {
-        "text": "1-Up!",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.shell_constructor.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "This planet is full of hazards and hostiles. You will eventually need to venture out of the confines of your ship, but that poses a lot of risks. However, with a bit of effort, you may be able to give yourself a second chance if the worst happens. A Shell Constructor is the key to life after (first) death. Once you make one, you will need to provide energy and a blood sample and it will build you a new body.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.shell_constructor.desc",
+        "isTranslationKey": true
       },
       "x": 254,
       "y": 102,
@@ -1738,12 +1738,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Shell Construction",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.shell_constructor.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Place the constructor, give it a power source, and right click it to provide the DNA sample. Be careful, it will hurt a little.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.shell_constructor.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1774,12 +1774,12 @@
     {
       "uuid": "6cd42c29-0afd-49d5-b8ca-9c3c50a63970",
       "name": {
-        "text": "Back to Basics",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.basic_sifting.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The fertilizer in your survival package will not last long. Place the mesh in the sieve and sift some dust to get bonemeal.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.basic_sifting.desc",
+        "isTranslationKey": true
       },
       "x": 62,
       "y": 102,
@@ -1797,8 +1797,8 @@
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "If you want to sift faster, you can place sieves next to one another, allowing multiple to be sifted at once. Alternatively, a compressed sieve takes up just one block and can sift compressed dust.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.basic_sifting.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1827,12 +1827,12 @@
     {
       "uuid": "b910ad01-be2f-4928-b33d-6a38353b8b9f",
       "name": {
-        "text": "Breaking New Ground",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.mattock.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You\u0027ll need some tools to stay alive out here as well. Bone tools are likely the best starting material, but you can make a different type if you\u0027d like. Wood and stone tools are generally ineffective.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.mattock.desc",
+        "isTranslationKey": true
       },
       "x": 62,
       "y": 156,
@@ -1846,8 +1846,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can make a mattock with the axe and adze heads, it will be an essential tool for farming early on. Eventually you may want a pickaxe and some other tools, but farming food is vital for your survival, and the mattock can help mine logs and dust as well.",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.mattock.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1891,12 +1891,12 @@
     {
       "uuid": "3f4bca77-f975-4406-9e7b-1cbe559b3068",
       "name": {
-        "text": "Letting it Breathe",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.desert_clothes.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Desert planet inhabitants have developed effective clothes that can help you stay cool in the blazing heat. These clothes provide insulation from outside temperatures but can also allow enough airflow to let off body heat when it\u0027s cooler than you are. They also provide high coverage, protecting you from the sun\u0027s rays.",
-        "isTranslationKey": false
+        "text": "hqm.quest.basic_survival.desert_clothes.desc",
+        "isTranslationKey": true
       },
       "x": 174,
       "y": 129,
@@ -1910,8 +1910,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Desert Armor provides excellent heat protection properties. It is mostly made from leather and string. Leather can be gained by cooking rotten flesh and string can be gained from silkworm-infested leaves. ",
-            "isTranslationKey": false
+            "text": "hqm.quest.basic_survival.desert_clothes.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1969,7 +1969,7 @@
   ],
   "reputationBar": [],
   "description": {
-    "text": "Guide to the initial stages of surviving on an unknown world.",
-    "isTranslationKey": false
+    "text": "hqm.quest_set.basic_survival.desc",
+    "isTranslationKey": true
   }
 }

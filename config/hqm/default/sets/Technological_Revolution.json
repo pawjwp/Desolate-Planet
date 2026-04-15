@@ -4,12 +4,12 @@
     {
       "uuid": "4603a7e8-470b-4a64-a199-84aaf94e603d",
       "name": {
-        "text": "Green Thumb",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.plant_sower.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Planting and harvesting crops by hand is time consuming and labor-intensive. Now that you have industrialized somewhat, it should be possible to move beyond that and automate the process.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.plant_sower.desc",
+        "isTranslationKey": true
       },
       "x": 174,
       "y": 129,
@@ -22,8 +22,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A Plant Sower can plant crops or saplings in a small area (the range can be expanded with range upgrades). A Plant Gatherer will collect those crops and saplings.\nAutomating crops should provide plenty of food to eat and composting food or saplings can generate large amounts of water.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.plant_sower.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -59,12 +59,12 @@
     {
       "uuid": "2388c3de-f71c-4fd5-96af-b51214d1a277",
       "name": {
-        "text": "Waste Not, Want Not",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.sewage.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Animals are messy, and will produce waste if left to their own devices. However, this waste can be recycled into usable materials with the right equipment. The Sewer will collect sewage and essence from animals, and the Sewage Composter will produce fertilizer from sewage.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.sewage.desc",
+        "isTranslationKey": true
       },
       "x": 254,
       "y": 48,
@@ -77,8 +77,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Fertilizer can be used to grow crops just like bonemeal, or be used in a Plant Fertilizer to automatically apply to plants.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.sewage.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -114,12 +114,12 @@
     {
       "uuid": "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac",
       "name": {
-        "text": "Frame of Reference",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.machine_frame.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The machine frame is the key to all advanced machinery. You will need an invar frame for its construction and a PCB to act as a central control circuit.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.machine_frame.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 84,
@@ -132,8 +132,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The machine frame acts as a unified base material for multiple mods.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.machine_frame.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -163,12 +163,12 @@
     {
       "uuid": "b9ce598c-5692-4431-9ff9-5d140d928f96",
       "name": {
-        "text": "Hard Wired",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.internal_components_1.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Internal Component upgrades modify the statistics of a machine, scaling up its base attributes. Hardened Internal Components are the first tier of Component upgrades, doubling the base stats of the machine.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.internal_components_1.desc",
+        "isTranslationKey": true
       },
       "x": 142,
       "y": 129,
@@ -181,8 +181,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Component upgrades can be installed in a machine\u0027s augment slots.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.internal_components_1.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -214,12 +214,12 @@
     {
       "uuid": "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
       "name": {
-        "text": "Industrial Waste",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.industrial_foregoing_capstone.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "With many farms running, you will start collecting a lot of industrial byproducts.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.industrial_foregoing_capstone.desc",
+        "isTranslationKey": true
       },
       "x": 286,
       "y": 138,
@@ -232,8 +232,8 @@
         {
           "type": "hardcorequesting:consume",
           "longDescription": {
-            "text": "Use a sewer, mob slaughter factory, and mob crusher to produce industrial byproducts. Then, convert them into useful forms using a sewage composter and dissolution chamber, and submit them below.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.industrial_foregoing_capstone.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -286,12 +286,12 @@
     {
       "uuid": "be7af2e5-6165-45b2-b21c-8da41319c7e2",
       "name": {
-        "text": "Thermodynamics",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.thermal_capstone.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Master thermal technology and you can move to the next stages of escaping the planet.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.thermal_capstone.desc",
+        "isTranslationKey": true
       },
       "x": 30,
       "y": 138,
@@ -304,8 +304,8 @@
         {
           "type": "hardcorequesting:consume",
           "longDescription": {
-            "text": "Use an induction smelter to make the required alloys, and submit them below.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.thermal_capstone.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -363,12 +363,12 @@
     {
       "uuid": "6059686c-4441-4c43-b414-b7c4c8134cf9",
       "name": {
-        "text": "Structural Integrity",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.internal_components_2.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Internal Component upgrades modify the statistics of a machine, scaling up its base attributes. Reinforced Internal Components are the second tier of Component upgrades, tripling the base stats of the machine.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.internal_components_2.desc",
+        "isTranslationKey": true
       },
       "x": 110,
       "y": 129,
@@ -381,8 +381,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Component upgrades can be installed in a machine\u0027s augment slots.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.internal_components_2.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -414,12 +414,12 @@
     {
       "uuid": "b498eec9-851e-4d17-ab0d-b86eeb4a72be",
       "name": {
-        "text": "Making an Impression",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.multiservo_press.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Multiservo Press can press ingots into plates, gears, and coins, as well as pack or unpack bulk items and their compressed versions.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.multiservo_press.desc",
+        "isTranslationKey": true
       },
       "x": 94,
       "y": 48,
@@ -432,8 +432,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Multiservo Press performs different functions depending on the die used. With a packing die, it will pack items into compressed forms, equivelant to crafting recipes that fill all slots of a 2x2 or 3x3 grid. With an unpacking die, it does the reverse. Using a gearworking or nuismatic die, metals can be pressed into gears and coins. Using it without a die inserted will press ingots into plates.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.multiservo_press.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -474,12 +474,12 @@
     {
       "uuid": "b629759a-09fb-4397-9d88-7c23f11826f6",
       "name": {
-        "text": "Finely-Tuned",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.internal_components_3.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Internal Component upgrades modify the statistics of a machine, scaling up its base attributes. Resonant Internal Components are the third and final tier of Component upgrades, quadrupling the base stats of the machine.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.internal_components_3.desc",
+        "isTranslationKey": true
       },
       "x": 126,
       "y": 156,
@@ -492,8 +492,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Component upgrades can be installed in a machine\u0027s augment slots.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.internal_components_3.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -525,12 +525,12 @@
     {
       "uuid": "e56efbd0-d3ce-473b-a2d5-1de1a0bfa9a0",
       "name": {
-        "text": "Muck-Raking",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.sludge_refiner.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Gathering plants automatically produces a large amount of sludge as a byproduct. This sludge can be processed into some siftable blocks using a Sludge Refiner.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.sludge_refiner.desc",
+        "isTranslationKey": true
       },
       "x": 190,
       "y": 156,
@@ -543,8 +543,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Provide the Sludge Refiner with sludge and energy and it will slowly process it into dirt, clay, gravel, sand, red sand, and soul sand.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.sludge_refiner.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -573,12 +573,12 @@
     {
       "uuid": "191aad3c-56cb-4b54-89ee-7803f6952561",
       "name": {
-        "text": "Green Machine",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.phytogenic_insolator.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Phytogenic Insolator can grow crops without requiring them to be planted separately. It consumes a large amount of water per operation, as well as an optional catalyst. The most basic catalyst is bone meal, but with some effort, phyto-gro, an advanced fertilizer, can be crafted.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.phytogenic_insolator.desc",
+        "isTranslationKey": true
       },
       "x": 63,
       "y": 121,
@@ -591,8 +591,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Phytogenic Insolator takes a seed or sapling, some water, power, and an optional catalyst, and produces crops and another seed. This can be used for farming in a small space or for small-scale operations that won\u0027t need an entire farm.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.phytogenic_insolator.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -625,12 +625,12 @@
     {
       "uuid": "3ffa13cb-b198-4e83-bab7-676d08834311",
       "name": {
-        "text": "Power Struggle",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.pitiful_generator.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You\u0027ll need more power eventually, but making any kind of advanced machinery is difficult and often requires circuit boards. However, you can set up a basic source of power with the same fuel as a furnace.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.pitiful_generator.desc",
+        "isTranslationKey": true
       },
       "x": 142,
       "y": 21,
@@ -643,8 +643,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A pitiful generator can be powered with furnace fuel, charcoal or coal blocks are especially effective. However, the power generation is slow and generally inefficient.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.pitiful_generator.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -674,12 +674,12 @@
     {
       "uuid": "ef9a7c29-55ea-4296-a908-c350381b396a",
       "name": {
-        "text": "Hot Mess",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.magma_crucible.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Magma Crucible melts items into their liquid forms. It is the opposite of a Blast Chiller. It can be used to make large amounts of lava, melt plastic, and turn redstone, glowstone, and ender pearls into their liquid forms.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.magma_crucible.desc",
+        "isTranslationKey": true
       },
       "x": 94,
       "y": 102,
@@ -692,8 +692,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The magma crucible consumes items and converts them into liquids.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.magma_crucible.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -722,12 +722,12 @@
     {
       "uuid": "8a87f658-411b-4b9b-96ea-9d2c6df483c4",
       "name": {
-        "text": "Essential Oils",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.mob_crusher.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Monsters killed with the Slaughter Factory will produce meat and slime, but that\u0027s all. Sometimes it\u0027s better to collect the materials they typically drop. A Mob Crusher can kill mobs, collecting their loot as well as their distilled essence.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.mob_crusher.desc",
+        "isTranslationKey": true
       },
       "x": 222,
       "y": 102,
@@ -740,8 +740,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Mob Crusher will produce mob drops and essence, a type of liquid experience. Essence has a number of uses in enchantment and mob spawning. Large amounts of essence can be used to craft specific mob spawn eggs in the Dissolution Chamber.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.mob_crusher.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -775,12 +775,12 @@
     {
       "uuid": "7c13aa31-1923-443b-a81b-f8fb12449b30",
       "name": {
-        "text": "Monster Mash",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.mob_slaughter_factory.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The monsters on this planet seem to emerge from the ground whenever and wherever it is dark. It may be possible to use that to your advantage. If you can funnel them towards a Mob Slaughter Factory, it will automatically grind them up into usable liquids.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.mob_slaughter_factory.desc",
+        "isTranslationKey": true
       },
       "x": 190,
       "y": 102,
@@ -793,8 +793,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A Mob Slaughter Factory can grind mobs into liquid meat and pink slime.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.mob_slaughter_factory.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -823,12 +823,12 @@
     {
       "uuid": "8f3d2964-8123-446b-bdc8-116ad499c8da",
       "name": {
-        "text": "Clone Wars",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.mob_duplicator.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "A Mob Crusher will produce large amounts of essence. If you can capture some rarer monsters inside a Mob Imprisonment Tool, you can use that essence to duplicate that mob for future farming.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.mob_duplicator.desc",
+        "isTranslationKey": true
       },
       "x": 254,
       "y": 120,
@@ -841,8 +841,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Capture a mob in the Mob Imprisonment Tool by right-clicking it. Then, place the captured mob in the Mob Duplicator to spawn copies of it. This is especially useful when farming rare mobs like Wither Skeletons.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.mob_duplicator.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -897,12 +897,12 @@
     {
       "uuid": "9f19cf75-b748-43eb-8957-c5eb0a3eaffe",
       "name": {
-        "text": "Liquidating Assets",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.dissolution_chamber.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Dissolution Chamber allows for advanced crafting that can infuse crafted objects with liquid, sometimes producing a fluid as a byproduct.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.dissolution_chamber.desc",
+        "isTranslationKey": true
       },
       "x": 206,
       "y": 75,
@@ -915,8 +915,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Dissolution Chamber recipes are used to craft some advanced items with liquid meat, molten plastic, and liquid pink slime.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.dissolution_chamber.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -945,12 +945,12 @@
     {
       "uuid": "5f8ad93d-e76a-491b-930e-9258717b769f",
       "name": {
-        "text": "Creatures Great and Small",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.spawn_eggs.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "If you have the means, you may want to keep animals for resources.\nChickens produce eggs, \ncows produce milk, and sheep produce wool.\nThe Animal Feeder provides the animals with enough food to reproduce, and the Animal Rancher automates the collection of milk and wool from cows and sheep.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.spawn_eggs.desc",
+        "isTranslationKey": true
       },
       "x": 222,
       "y": 48,
@@ -963,8 +963,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can find chicken eggs naturally, and you can craft other animal eggs in a dissolution chamber when you have a stable supply of essence.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.spawn_eggs.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1004,12 +1004,12 @@
     {
       "uuid": "50c4ef23-b9c7-4b3f-ac88-3628c9fda777",
       "name": {
-        "text": "Crushing It",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.pulverizer.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Pulverizer crushes items into dusts. It can be used to efficiently process and double ores, producing ore dust as well as a byproduct. A catalyst can be used to modify outputs, with flint being the most basic catalyst.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.pulverizer.desc",
+        "isTranslationKey": true
       },
       "x": 126,
       "y": 102,
@@ -1022,8 +1022,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A Pulverizer crushes an item into dust.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.pulverizer.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1052,12 +1052,12 @@
     {
       "uuid": "336ad751-3c3d-457d-b85c-e6d0bbe7b125",
       "name": {
-        "text": "Pipe Dreams",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.conduits.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "For further industrialization, you\u0027ll need to move items, fluids, and energy around. Time to set up the plumbing.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.conduits.desc",
+        "isTranslationKey": true
       },
       "x": 174,
       "y": 21,
@@ -1070,7 +1070,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Conduits are made from conduit binder and their respective materials. You can change conduit settings by right clicking their I/O interface or right clicking with a wrench to make quick adjustments.\nWarning: Due to a bug with EnderIO and Thirst, most sources of water are unable to be transferred by fluid conduits. Other liquids will work, but we recommend using other modded transfer methods for moving water.",
+            "text": "hqm.quest.technological_revolution.conduits.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
@@ -1123,12 +1123,12 @@
     {
       "uuid": "eb909f46-772b-4fdf-8680-225dabb668ff",
       "name": {
-        "text": "Induction Smelter",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.induction_smelter.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Induction Smelter can be used to process ores, produce hardened glass, and make alloys. It is an especially efficient and compact way of producing large amounts of alloys compared to alternative methods.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.induction_smelter.desc",
+        "isTranslationKey": true
       },
       "x": 110,
       "y": 75,
@@ -1141,8 +1141,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The induction smelter smelts up to three items together wiith an optional catalyst.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.induction_smelter.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1171,12 +1171,12 @@
     {
       "uuid": "6f634898-e3df-42b8-9d1a-0c714b167356",
       "name": {
-        "text": "Hardware Upgrade",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.addons.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Speed, Efficiency, Processing, and Range Addons are useful upgrades to many of your machines.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.addons.desc",
+        "isTranslationKey": true
       },
       "x": 238,
       "y": 75,
@@ -1190,8 +1190,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Most Addons come in two tiers, made with either gold or diamond gears. Range upgrades have twelve types and are not included below, but are very useful for certain machines.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.addons.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1238,12 +1238,12 @@
     {
       "uuid": "71009be1-b6c5-4724-9ee6-d5a4591f0765",
       "name": {
-        "text": "Augmenting Reality",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.augments.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Augments are upgrades that can be installed in machines to improve their speed or efficiency, add abilities, or change the way the device functions.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.augments.desc",
+        "isTranslationKey": true
       },
       "x": 78,
       "y": 75,
@@ -1256,8 +1256,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Augments can be installed in a machine or dynamo\u0027s augment slots. The most useful ones typically increase a machine\u0027s speed or efficiency. These usually come with drawbacks, however, and reduce their inverse property.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.augments.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1317,12 +1317,12 @@
     {
       "uuid": "8559f15c-259a-4874-a753-adb36cf75447",
       "name": {
-        "text": "Chill Out",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.blast_chiller.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Blast Chiller cools liquids into their solid forms. It is the opposite of a Magma Crucible. It can be used to cast liquid metal into ingots, freeze water into ice or snow, and liquid redstone, glowstone, and ender pearls into their solid forms.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.blast_chiller.desc",
+        "isTranslationKey": true
       },
       "x": 62,
       "y": 48,
@@ -1335,8 +1335,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Blast Chiller converts liquids into items. Some recipes require a cast, which can be made from bronze plates.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.blast_chiller.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1365,12 +1365,12 @@
     {
       "uuid": "67994482-4981-4cfd-9ca6-afde4340fb62",
       "name": {
-        "text": "Stirring Up Trouble",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.manual_alloying.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Alloying is an essential part of the technological revolution. The standard method of alloying is by melting the metals into a liquid and mixing the liquids together. However, you need extreme heat for that. If you can crush metals into dust, you don\u0027t need to melt them all the way to a liquid. Instead, you can just mix the metals together by hand and smelt the resulting dust back into ingots.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.manual_alloying.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 48,
@@ -1383,8 +1383,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A mill can crush metal into dust, which can then be crafted together by hand.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.manual_alloying.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1423,12 +1423,12 @@
     {
       "uuid": "9aa4b681-79fd-4290-aff9-bcce87d38012",
       "name": {
-        "text": "Burning the Midnight Oil",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.compression_dynamo.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Compression Dynamo is the next advancement in energy generation. It generates energy in large amounts from various types of refined oils.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.compression_dynamo.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 174,
@@ -1440,8 +1440,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Diesel, Kerosene, Gasoline, LPG are some of the most practical fuels to use in the Compression Dynamo, perfect for using the oil you have refined.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.compression_dynamo.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1475,12 +1475,12 @@
     {
       "uuid": "f3c2913b-4e0b-4cf7-bda6-3a92bd7b4775",
       "name": {
-        "text": "Hunting Ground",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.mechanical_dirt.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The monsters on this planet seem to gather wherever it is dark and prey on the living. It may be possible to lure more of them some liquid meat on energized ground.",
-        "isTranslationKey": false
+        "text": "hqm.quest.technological_revolution.mechanical_dirt.desc",
+        "isTranslationKey": true
       },
       "x": 206,
       "y": 129,
@@ -1493,8 +1493,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Mechanical dirt will spawn mobs when provided with liquid meat, energy, and placed in natural spawn conditions. Fluids and energy will be carried between adjacent blocks.",
-            "isTranslationKey": false
+            "text": "hqm.quest.technological_revolution.mechanical_dirt.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1523,7 +1523,7 @@
   ],
   "reputationBar": [],
   "description": {
-    "text": "Guide to technological advancement, energy production, and machine-based automation.",
-    "isTranslationKey": false
+    "text": "hqm.quest_set.technological_revolution.desc",
+    "isTranslationKey": true
   }
 }
