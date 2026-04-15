@@ -4,12 +4,12 @@
     {
       "uuid": "0f176092-cf3c-4fe2-803c-885765840855",
       "name": {
-        "text": "Beyond The Stars",
-        "isTranslationKey": false
+        "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You should now have the tools to venture beyond the quest book and escape the planet. The Ad Astra mod in the game but has not yet been fully integrated. Until full integration and quests are built out, you\u0027re on your own. You\u0027re welcome to explore space now in its temporary state, or return to this modpack once the endgame is fully implemented. I hope you enjoyed, and feel free to stop by our discord if you have any suggestions.",
-        "isTranslationKey": false
+        "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 120,
@@ -23,8 +23,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Join our discord with invite code §94en3SpWtJg§r, or go to §9discord.gg/4en3SpWtJg§r\nI try to respond to everyone\u0027s questions and I would love suggestions on how to improve the modpack.",
-            "isTranslationKey": false
+            "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -72,12 +72,12 @@
     {
       "uuid": "e558fbac-929f-4b1b-bd10-c73e792ac69d",
       "name": {
-        "text": "Fuse Box",
-        "isTranslationKey": false
+        "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Alloying typically requires mixing melted metals, but some metals can be infused together to make certain types of alloys. With a metallurgic infuser, you can make some more advanced alloys like steel. It can also make advanced control circuits, useful for all kinds of interesting mechanisms.",
-        "isTranslationKey": false
+        "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 48,
@@ -90,12 +90,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Infuser",
-            "isTranslationKey": false
+            "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "You can eventually upgrade the basic Metallurgic infuser to be faster, more energy efficient, and have more processing slots.",
-            "isTranslationKey": false
+            "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -110,12 +110,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Infusing",
-            "isTranslationKey": false
+            "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "One of the most useful advanced alloys is steel. You can make steel with 2 coal and 1 iron ingot. Put the coal into the Metallurgic Infuser\u0027s infusion slot to liquefy it, then put an iron ingot into the main processing slot. This will create enriched iron, which can then be put back into the main processing slot to make steel blend. Finally, the steel blend can be smelted into a steel ingot. An enrichment chamber can be used to enrich the coal to get 8 times the resources for each piece of coal.",
-            "isTranslationKey": false
+            "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.1.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -147,15 +147,15 @@
     {
       "uuid": "5c3cf474-f649-4967-90a9-6d66263e75c9",
       "name": {
-        "text": "WIP Disclaimer",
-        "isTranslationKey": false
+        "text": "hqm.quest.to_infinity_and_beyond.wip_disclaimer.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Disclaimer: This modpack is still under development and the endgame has not yet been developed. Space exploration is possible with Ad Astra, but only with the default planets and very limited progression/integration.",
-        "isTranslationKey": false
+        "text": "hqm.quest.to_infinity_and_beyond.wip_disclaimer.desc",
+        "isTranslationKey": true
       },
-      "x": 158,
-      "y": 84,
+      "x": 344,
+      "y": 153,
       "icon": {
         "id": "ad_astra:tier_1_rover",
         "Count": 1,
@@ -166,8 +166,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "This quest line only has placeholder quests for now. The remaining placeholders will unlock when all other quests are complete.",
-            "isTranslationKey": false
+            "text": "hqm.quest.to_infinity_and_beyond.wip_disclaimer.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -197,7 +197,7 @@
   ],
   "reputationBar": [],
   "description": {
-    "text": "Guide to escaping the planet.",
-    "isTranslationKey": false
+    "text": "hqm.quest_set.to_infinity_and_beyond.desc",
+    "isTranslationKey": true
   }
 }

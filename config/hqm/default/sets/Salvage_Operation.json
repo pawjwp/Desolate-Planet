@@ -4,12 +4,12 @@
     {
       "uuid": "9c45c37d-c906-46f1-b3c0-eec774f4ccbe",
       "name": {
-        "text": "Getting Your Wires Crossed",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.me_processors.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Those broken parts won\u0027t be enough to start storing matter as energy. You\u0027ll need to make some more advanced processing circuits first.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.me_processors.desc",
+        "isTranslationKey": true
       },
       "x": 94,
       "y": 66,
@@ -22,12 +22,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Ingredients",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_processors.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "To make processing chips, you\u0027ll need to inscribe silicon and some other materials. Make an inscriber, get some silicon, and break a PCB down into segments you can use to stitch it all together.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_processors.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -55,12 +55,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Inscribing",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_processors.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Use the inscriber to make the three main circuit types; logic, calculation, and engineering. You\u0027ll also need some printed silicon to use as the base plate.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_processors.task.1.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -92,12 +92,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Putting it together",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_processors.task.2.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "When you have all the components, inscribe your circuits by putting the printed circuits on the top of the inscriber, the printed silicon on the bottom, and a pcb segment in the middle.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_processors.task.2.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -146,12 +146,12 @@
     {
       "uuid": "c477a1a1-782a-4fe8-9566-97dc4f9cff31",
       "name": {
-        "text": "Turning Up The Heat",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.foundry.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The foundry is an alternate version of the smeltery, it will roughly triple the number of ingots you get from ores. Ores melted in the foundry will produce an additional byproduct, providing even more resources per ore. You can even use it to get more seared stone as a byproduct of melting cobblestone. It also allows more much more liquid to be stored per block, but it can\u0027t make alloys, so you\u0027ll have to use an alloyer or the smeltery for that.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.foundry.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 138,
@@ -164,8 +164,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can find foundry components in the foundry city structure.\nThe foundry multiblock is built in a similar way to the smeltery, but made out of foundry blocks. Unlike the smeltery, you must fill the edges of a foundry with acceptable blocks, not just the inner faces. Consult the \"Fantastical Foundry\" guide for more information.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.foundry.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -212,12 +212,12 @@
     {
       "uuid": "9964c1f7-b9fa-4423-8266-c8f98b046455",
       "name": {
-        "text": "Computer Crash",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.structure_mer_lab.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of this tech seems suited to converting matter into energy, and vice versa.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.structure_mer_lab.desc",
+        "isTranslationKey": true
       },
       "x": 126,
       "y": 48,
@@ -229,8 +229,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can find a Matter-Energy Research Lab or meteorites by exploring the desert. A meteorite compass can help locate meteorites if you can\u0027t find the presses elsewhere.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.structure_mer_lab.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -301,12 +301,12 @@
     {
       "uuid": "7cd36511-ac8a-4a2a-89e6-9fa29cb33173",
       "name": {
-        "text": "Running on Fumes",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.turbine.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Need even more power? There is a solution to that. If you pipe water into a reactor it will output steam. That steam then can be used to turn a turbine, generating massive amounts of power. Of course, this isn\u0027t easy to set up. Even after you\u0027ve hunted down all the components, you will need a staggering amount of water to keep things running smoothly. Generating that water will take a significant amount of time and effort to set up, but it just might be worth it if you need power in vast amounts.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.turbine.desc",
+        "isTranslationKey": true
       },
       "x": 254,
       "y": 84,
@@ -319,8 +319,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Much like the reactor terminal, the turbine terminal must be made by repairing parts found in the ruins.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.turbine.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -388,12 +388,12 @@
     {
       "uuid": "2b994684-1263-4b2b-8567-57b696c8680a",
       "name": {
-        "text": "Meltdown",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.structure_nuclear_plant.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of this tech seems suitable for nuclear power generation.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.structure_nuclear_plant.desc",
+        "isTranslationKey": true
       },
       "x": 190,
       "y": 48,
@@ -405,8 +405,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can find the nuclear plant building by exploring the desert.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.structure_nuclear_plant.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -441,12 +441,12 @@
     {
       "uuid": "11e51c76-360f-4739-a90b-1fbdbc83e598",
       "name": {
-        "text": "Hellforged",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.manyullyn_hepatizon.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Once you have found cobalt and ancient debris in a Foundry city, you can start creating advanced Tinkers\u0027 Materials. These are the two main ingredients behind the best tool materials in the game.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.manyullyn_hepatizon.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 174,
@@ -458,8 +458,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Manyullyn and Hepatizon are the two best tier IV materials for weapons and tools, respectively. They have a very strong array of stats, and are made from rarer nether-based materials. You will need to use blazing blood as your smeltery\u0027s fuel to create these alloys, but the investment will pay off.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.manyullyn_hepatizon.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -512,12 +512,12 @@
     {
       "uuid": "26c1c152-15c4-476c-a27b-6f6caff2eff0",
       "name": {
-        "text": "Going Nuclear",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.nuclear_reactor.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "As you build your technological infrastructure you will probably find that you need more power than you can easily generate. However, now that you\u0027ve gotten ahold of some nuclear reactor parts, you can get to fixing that.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.nuclear_reactor.desc",
+        "isTranslationKey": true
       },
       "x": 222,
       "y": 66,
@@ -530,8 +530,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can craft the reactor terminal by repairing the parts you find in the ruins.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.nuclear_reactor.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -596,12 +596,12 @@
     {
       "uuid": "65efa12d-f687-4c3a-9077-b89b3d28fc95",
       "name": {
-        "text": "Tool Forging",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.tinkers_anvil.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The tinker\u0027s anvil is an upgrade to the tinker station that can be used to make more advanced tools, including tools that mine in an area of effect and the cleaver, great for beheading mobs.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.tinkers_anvil.desc",
+        "isTranslationKey": true
       },
       "x": 126,
       "y": 120,
@@ -614,8 +614,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The tinker\u0027s anvil is made from seared stone and alloyed metal blocks around a tinker station.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.tinkers_anvil.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -644,12 +644,12 @@
     {
       "uuid": "3739c921-2340-4675-9d47-c41dbb66aec3",
       "name": {
-        "text": "Searing Heat",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.structure_tinkers_smeltery.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of these ruins have bricks that seem strong enough to withstand the searing heat of a smeltery.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.structure_tinkers_smeltery.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 66,
@@ -661,8 +661,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can find smeltery buildings in cities. Break the crumbling seared bricks with a hammer or put them in some kind of crushing machine to get bricks.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.structure_tinkers_smeltery.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -695,12 +695,12 @@
     {
       "uuid": "48aa589e-ca93-4ee0-a841-57cb95c49dfb",
       "name": {
-        "text": "Bronze Age",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.bronze_constantan.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "With a smeltery set up, you can start making tools out of alloys instead of just basic metals or other materials.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.bronze_constantan.desc",
+        "isTranslationKey": true
       },
       "x": 126,
       "y": 156,
@@ -714,8 +714,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Bronze and Constantan are the two best tier III materials for weapons and tools, respectively. They have a balanced, but strong array of stats, and aren\u0027t too difficult to make with resources you likely have an abundance of. Untill you find a way to make and sift nether blocks, these will generally be the best tool heads available.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.bronze_constantan.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -763,12 +763,12 @@
     {
       "uuid": "059da201-0f0d-47ee-9bf0-416b63d26600",
       "name": {
-        "text": "Forging Ahead",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.smeltery.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You are going to need lots of metal to thrive on this planet. A smeltery will help you get a good start by almost doubling how much metal you get out of each piece of ore. You can also make more advanced equipment with cast metal and alloying,",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.smeltery.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 102,
@@ -781,8 +781,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "To construct the smeltery, make a floor out of seared bricks (3x3 is the standard), and fill every face with smeltery blocks, typically a mix of seared stone, seared drains, seared glass, and a seared tank. Place the smeltery controller in the front, and you should be able to interact with the structure. Consult the \"Mighty Smelting\" guide for more information.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.smeltery.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -837,12 +837,12 @@
     {
       "uuid": "4cc6ede3-b15f-4cae-ad96-9903227e5ae8",
       "name": {
-        "text": "Blaze of Glory",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.blazing_blood.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The toughest of metals require the hottest of fuels. Blazing blood is among the hottest, and is an essential ingredient for making advanced alloys.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.blazing_blood.desc",
+        "isTranslationKey": true
       },
       "x": 190,
       "y": 156,
@@ -855,8 +855,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can make blazing blood by melting blazes in a smeltery. Blazes can be found in the Foundry structure. Small amounts of blazing blood can also be gained by melting blaze rods or blaze powder.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.blazing_blood.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -884,12 +884,12 @@
     {
       "uuid": "cdac0984-204e-4fbc-b2cd-cea990ae0367",
       "name": {
-        "text": "Into The Unknown",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.exploration_supplies.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You may have noticed that you can\u0027t craft everything you need to survive. However, there seem to be some ruined cities scattered around. Maybe those contain resources you could use. One thing is certain, you\u0027ll need to prepare before venturing far from the shuttle.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.exploration_supplies.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 30,
@@ -903,8 +903,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Make sure to bring enough food and water and if you haven\u0027t set up sync shells yet, now is the time to do so. If you took the hard route, you can still craft them.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.exploration_supplies.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -964,7 +964,7 @@
         {
           "id": "legumedelight:peanut_butter_and_jam_sandwich",
           "Count": 8,
-          "tag": "{display:{Lore:[\u0027{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}\u0027]}}"
+          "tag": "{display:{Lore:['{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}']}}"
         },
         {
           "id": "cgm:shell",
@@ -976,12 +976,12 @@
     {
       "uuid": "e09bcc3e-e944-4e33-9e02-cdb9df6d7773",
       "name": {
-        "text": "Castaway",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.cast_chest.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "When you set up a smeltery, you\u0027ll need a good place to store all your casts.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.cast_chest.desc",
+        "isTranslationKey": true
       },
       "x": 190,
       "y": 119,
@@ -994,8 +994,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A Cast Chest can be made from seared stone, a chest, and a cast. It stores up to 4 of each cast type, so you can usually fit all the casts you will ever need inside.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.cast_chest.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1024,12 +1024,12 @@
     {
       "uuid": "6411096c-3d98-4e84-8599-9718d7ee18f6",
       "name": {
-        "text": "A Matter of Record",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.me_system.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "A Matter/Energy storage system needs a few key components to work. Gather these components, construct your storage system, give it power, and you\u0027ll be able to store massive amounts of items in a tiny space.",
-        "isTranslationKey": false
+        "text": "hqm.quest.salvage_operation.me_system.desc",
+        "isTranslationKey": true
       },
       "x": 62,
       "y": 84,
@@ -1042,12 +1042,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "ME Controller",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_system.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "A ME Controller is the core of a ME network. Each face of the block can accept power and provide channels to the network. There can only be one controller per network, but two controller blocks placed next to one another count as a single controller and can provide more channels than you would get from a single block. Read more in the Applied Energistics Guide.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_system.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1061,12 +1061,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "ME Drive",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_system.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "A ME Drive houses storage cells. It can store up to 10 storage cells per drive. Color indicators on the block indicate the status of each drive. Read more in the Applied Energistics Guide.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_system.task.1.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1080,12 +1080,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "ME Terminal",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_system.task.2.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "ME Terminals are how you access your network. The basic terminal lets you view your network\u0027s storage and add/remove items. You will likely want to upgrade to a crafting terminal very soon, and eventually a wireless terminal to access your network from anywhere. Read more in the Applied Energistics Guide.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_system.task.2.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1100,12 +1100,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "ME Storage Cell",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_system.task.3.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "ME Storage Cells are where items (or fluids) are stored in your network. Each item storage cell can store up to 63 types of items, with the total number of items determined by the cell\u0027s size. Generally, you should make some large storage cells to contain the items you have large amounts of, and then small storage cells to contain items you only have small amounts of. Read more in the Applied Energistics Guide.",
-            "isTranslationKey": false
+            "text": "hqm.quest.salvage_operation.me_system.task.3.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1141,7 +1141,7 @@
   ],
   "reputationBar": [],
   "description": {
-    "text": "Guide to scavenging resources from the ruins on the planet.",
-    "isTranslationKey": false
+    "text": "hqm.quest_set.salvage_operation.desc",
+    "isTranslationKey": true
   }
 }

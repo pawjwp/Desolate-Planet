@@ -4,12 +4,12 @@
     {
       "uuid": "52568165-b806-461d-9e85-031b089dbbef",
       "name": {
-        "text": "Power Play",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.electric_motor.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Electric Motor converts electricity to rotational force, and the Alternator converts rotational force into energy",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.electric_motor.desc",
+        "isTranslationKey": true
       },
       "x": 270,
       "y": 75,
@@ -22,8 +22,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The electric motor is useful compared to other sources of rotational force because of how compact and adjustable it is. Note that the higher the RPM is set, the more energy will be used to power it. Simply power the electric motor from the opposing side of its shaft to get instant rotational force.\n\nThe alternator requires a minimum of 32 RPM to operate. Energy production is linear with RPM: the higher the RPM, the more energy will be produced. Connect the opposing side to the shaft to any power source or cable to collect energy to be used or stored.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.electric_motor.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -69,12 +69,12 @@
     {
       "uuid": "f0dbdcd7-2e45-448d-aff1-a7b090a63a27",
       "name": {
-        "text": "Starting at Rock Bottom",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You\u0027ll need some basic building blocks before you can start setting up machinery.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.desc",
+        "isTranslationKey": true
       },
       "x": 142,
       "y": 21,
@@ -87,12 +87,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Andesite Alloy",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Andesite alloy is used for simple machines and serves as a building block for all sorts of moving parts. It is made from andesite and iron or zinc nuggets. Remember, andesite can be crafted from cobblestone and any type of quartz.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -106,12 +106,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Shafts and Casings",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Shafts are made from andesite alloy and serve as a simple rotating part that other machines can connect to.\n\nAndesite casing can be used to make basic machinery. It is made by right-clicking a stripped wood log with andesite alloy.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.1.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -145,12 +145,12 @@
     {
       "uuid": "68d15aff-b4ec-4d53-aa16-ff96ec851e11",
       "name": {
-        "text": "Top Brass",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.brass_sheet.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Brass plating is often used for advanced machinery, and electron tubing enables some \"smart\" features.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.brass_sheet.desc",
+        "isTranslationKey": true
       },
       "x": 271,
       "y": 39,
@@ -163,8 +163,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Brass plates are made from putting brass ingots into a mechanical press, and electron tubes are made from polished rose quartz. Rose quartz is crafted from quartz and redstone, which can be polished by using sandpaper while the rose quartz is in your offhand.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.brass_sheet.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -210,12 +210,12 @@
     {
       "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
       "name": {
-        "text": "Penny Lane",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.copper_sheet.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Copper plating is often used in fluid transportation.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.copper_sheet.desc",
+        "isTranslationKey": true
       },
       "x": 110,
       "y": 165,
@@ -228,8 +228,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Copper plates are made from putting copper ingots into a mechanical press.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.copper_sheet.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -258,12 +258,12 @@
     {
       "uuid": "84c2b599-5734-4f21-98a9-bb63cfced54d",
       "name": {
-        "text": "Biggest Fan",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.encased_fan.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The encased fan can blow air to push items on the ground, and it can blow water, fire, and lava to wash or cook things.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.encased_fan.desc",
+        "isTranslationKey": true
       },
       "x": 78,
       "y": 57,
@@ -276,12 +276,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Breaking Wind",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.encased_fan.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "The Encased Fan can create air streams to pull or push entities or items. This works vertically and horizontally and the strength is directly correlated to rotational speed. The Encased fan also has the abilitity to do Bulk Washing, Bulk Blasting, Bulk Haunting, and Bulk Smoking.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.encased_fan.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -295,12 +295,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Bulk Washing",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.encased_fan.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Bulk Washing requires water to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. Throw your items into the stream to start washing. Throw some sand into the stream and get yoruself some clay!",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.encased_fan.task.1.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -323,12 +323,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Bulk Blasting",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.encased_fan.task.2.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Bulk Blasting requires lava to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. This works like a blast furnace but can destroy items if they cant be blasted! Know that it cannot process Ore blocks and will destroy them. Try making some charcoal by throwing wood into the stream!  ",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.encased_fan.task.2.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -349,12 +349,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Bulk Smoking",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.encased_fan.task.3.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Bulk Smoking requires a campfire to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. Try making some leather by throwing rotten flesh into the stream!",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.encased_fan.task.3.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -374,12 +374,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Bulk Haunting",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.encased_fan.task.4.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Bulk Haunting requires a soul campfire or flame to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. This has a number of special uses including acquiring nether blocks.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.encased_fan.task.4.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -417,12 +417,12 @@
     {
       "uuid": "10a23876-3d34-40db-b3be-0f9569c5b459",
       "name": {
-        "text": "Calcifer\u0027s Eggshells",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.blaze_burner.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "A Blaze Burner can be used to provide heat for mixing items in the basin, or as a heat source for the crucible.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.blaze_burner.desc",
+        "isTranslationKey": true
       },
       "x": 46,
       "y": 111,
@@ -435,12 +435,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Empty Blaze Burner",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.blaze_burner.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "An Empty Blaze Burner is the unfilled version of a Blaze Burner and must be filled with a Blaze to function further. To capture a Blaze, simply right-click a Blaze or Blaze spawner while holding an Empty Blaze Burner. This will not damage the spawner.\n\nWithout the Blaze, it can be used as a Soul Fire Burner with Soul Sand or Soul Soil, serving as a passive boiler heat source and for Bulk Smoking or Bulk Haunting, but not for Mixing.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.blaze_burner.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -454,12 +454,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Filled Blaze Burner",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.blaze_burner.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "A filled Blaze Burner allows you to make brass, and provide heat for Steam Engines, contributing 1 heating level in the Heated phase and 2 in the Super-Heated phase. It is also used for Bulk Smoking and Bulk Smelting when fueled. Blaze Burners can be powered by burnable items, and Deployers or Mechanical Arms can automate fueling, ensuring efficient use of resources. For extra style, throw some engineer\u0027s goggles on the Blaze Burner.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.blaze_burner.task.1.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -491,12 +491,12 @@
     {
       "uuid": "32f538e8-7e3c-4d36-8b39-0cef101279dd",
       "name": {
-        "text": "Ebb and Flow",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.spout.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Spout is used to fill liquid containers or craft with liquids.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.spout.desc",
+        "isTranslationKey": true
       },
       "x": 94,
       "y": 192,
@@ -509,8 +509,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Spout dispenses fluid onto items passing below it on a Conveyor Belt or Depot. Each item takes 1 second to process, though refill time may cause slight delays. The Spout holds up to 1 bucket of a single liquid, which is supplied via Fluid Pipes.\n\nThe Depot serves as a machine interaction point, allowing items to be placed manually or inserted automatically. Machines like the Mechanical Arm or Mechanical Press can interact with items on the Depot, just as they would on a Mechanical Belt. Items on a Depot do not despawn and remain until removed by a player or another machine.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.spout.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -548,12 +548,12 @@
     {
       "uuid": "b0dcbccf-fc55-43e1-8782-9454d7fcca9c",
       "name": {
-        "text": "Down to Brass Tacks",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.simple_create.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The MAT unit is capable of providing a simple guide to creating mechanical contraptions using rotational force, but also has a more comprehensive guide that can be opted-into instead.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.simple_create.desc",
+        "isTranslationKey": true
       },
       "x": 174,
       "y": 21,
@@ -566,8 +566,8 @@
         {
           "type": "hardcorequesting:checkbox",
           "longDescription": {
-            "text": "Most of the Create mod is not required to complete this modpack. If you want to skip the guide to Create and just play with the 6 most relevant quests, click the checkbox below. If not, complete the \"Full Steam Ahead\" quest instead.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.simple_create.task.0.long_desc",
+            "isTranslationKey": true
           }
         }
       ],
@@ -589,12 +589,12 @@
     {
       "uuid": "a552a1cc-bdcd-45df-8fc7-11d3de4f3085",
       "name": {
-        "text": "Stir Crazy",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.mechanical_mixer.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "A mechanical mixer can be used to mix batches of items together, and it can be heated for melting, cooking, and alloying.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.mechanical_mixer.desc",
+        "isTranslationKey": true
       },
       "x": 46,
       "y": 75,
@@ -607,8 +607,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Mechanical Mixer is a mechanical component that processes Mixing recipes and shapeless crafting recipes in a Basin. It requires at least 30 RPM to function, with higher speeds improving efficiency. The Mixer must be placed above a Basin with a 1-block gap to work.\n\nAutomation: Can automate shapeless crafting by inserting ingredients into the Basin.\n\nBrewing: Can automate Brewing recipes when combined with a heated Blaze Burner.\n\nMixing: Some recipes (e.g., Brass) require a super-heated Blaze Burner.\n\nThe Mixer acts as a cogwheel, transmitting and reversing rotation to adjacent components.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.mechanical_mixer.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -651,12 +651,12 @@
     {
       "uuid": "e2098916-4ee1-4541-8f76-80e816740200",
       "name": {
-        "text": "Down the Drain",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.item_drain.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Item Drain extracts liquids from bottles, buckets, and other fluid containers.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.item_drain.desc",
+        "isTranslationKey": true
       },
       "x": 126,
       "y": 192,
@@ -669,8 +669,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Item Drain can hold up to 1500 mB of liquid and requires a Fluid Pump to extract fluids. Basins will automatically deposit output fluids into a nearby Item Drain.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.item_drain.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -703,12 +703,12 @@
     {
       "uuid": "b0be07b0-cb66-4c5a-8719-951652219fc6",
       "name": {
-        "text": "Rolling Stones",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.crushing_wheels.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Crushing Wheels are an advanced version of Millstones that are more powerful, and can crush a greater variety of items than the Millstone, and sometimes with higher yields.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.crushing_wheels.desc",
+        "isTranslationKey": true
       },
       "x": 238,
       "y": 93,
@@ -720,8 +720,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Crushing Wheels crush items inserted from the direction they are spinning away from. To function, two Crushing Wheels must be placed next to each other, either horizontally or vertically, one block apart, with opposite rotational forces. Items to be crushed should be inserted where the wheels rotate inwards. Automation is possible by placing a hopper between the wheels and connecting it to a depot or conveyor belt below.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.crushing_wheels.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -763,12 +763,12 @@
     {
       "uuid": "4e8ad6b7-41d0-4281-bbea-1e192a609e64",
       "name": {
-        "text": "Full Steam Ahead",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.detailed_create.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The MAT unit is capable of providing a comprehensive guide to creating mechanical contraptions using rotational force, but also has an abbreviated guide that can be opted-into instead.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.detailed_create.desc",
+        "isTranslationKey": true
       },
       "x": 142,
       "y": 21,
@@ -781,8 +781,8 @@
         {
           "type": "hardcorequesting:checkbox",
           "longDescription": {
-            "text": "Most of the Create mod is not required to complete this modpack. If you want the full guide to Create with 30+ quests, click the checkbox below. If not, complete the \"Down to Brass Tacks\" quest instead.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.detailed_create.task.0.long_desc",
+            "isTranslationKey": true
           }
         }
       ],
@@ -802,12 +802,12 @@
     {
       "uuid": "9be2b0f4-dd15-4899-8956-ee4a0f5e8403",
       "name": {
-        "text": "The Daily Grind",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.millstone.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The millstone can grind small items into dusts, useful for ore processing, making flour, and a variety of other applications where grinding something up is useful.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.millstone.desc",
+        "isTranslationKey": true
       },
       "x": 126,
       "y": 120,
@@ -819,8 +819,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The millstone is a processing machine and a simpler version of the more advanced crushing wheels. It performs milling recipes on valid items inserted from above. It can be powered either from below via a shaft or from the side using a cogwheel. Items can be fed into the Millstone either by dropping them directly on top or by using hoppers, funnels, chutes, or other item transport systems. However, it does not automatically output processed items; you must either right-click the machine with an empty hand or use an external extractor like a Hopper or Funnel to retrieve the output. To get a full list of all millstone recipes, consult the JEI.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.millstone.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -848,12 +848,12 @@
     {
       "uuid": "868e442b-fffd-4116-ab29-1a850d57d729",
       "name": {
-        "text": "Shifting Gears",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.gearbox.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Cogs take up a lot of space, and sometimes a simple change in direction is all you need. Gearboxes can provide that in a small space.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.gearbox.desc",
+        "isTranslationKey": true
       },
       "x": 190,
       "y": 84,
@@ -866,8 +866,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The gearbox distributes rotational power in multiple directions, either horizontally or vertically, depending on its orientation. When powered from any of its input sides, it relays rotation to the other three output sides. The key behavior of the gearbox is that it inverts the rotational direction: if the input rotation is clockwise, the outputs will rotate counterclockwise, and vice versa. This makes it particularly useful for splitting power between multiple machines or systems while maintaining synchronized but opposite motion across different components. The vertical variant functions the same way but distributes power along the vertical axis.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.gearbox.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -900,12 +900,12 @@
     {
       "uuid": "01675684-dd99-4447-b149-6e429d7ad611",
       "name": {
-        "text": "On the Cutting Edge",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "With moving parts, a variety of farming contraptions can be made to automatically harvest blocks. Harvesters can be used to harvest crops, saws can be used to chop trees, and drills can be used for any other block.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.desc",
+        "isTranslationKey": true
       },
       "x": 78,
       "y": 93,
@@ -918,12 +918,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Sawing",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "The Mechanical Saw cuts wood blocks in front of it and can automatically fell entire trees or giant mushrooms by breaking the bottom-most block. It can fully cut down 2x2 trees if at least one bottom block is mined. Saws damage entities and break blocks based on contraption speed. When placed facing upward, the saw applies stonecutting recipes, selecting a random output unless a filter is used. You can also use them to create more shafts per andesite alloy than standard crafting.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -937,8 +937,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Harvesting",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
             "text": "The mechanical harvester automates crop collection on moving contraptions. When the contraption moves forward, the harvester automatically collects any mature crops it contacts, as well as replanting them. Harvested items are either deposited into an onboard inventory or dropped on the ground if none is present. Note that cactuses must be harvested with mechanical saws instead.",
@@ -956,11 +956,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Drilling",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.2.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "The mechanical drill can operate either while stationary or as part of a moving contraption. When placed statically and supplied with rotational force, it breaks blocks directly in front of it. Additionally, it inflicts damage on nearby entities, also based on its speed. However, its true strength lies in its use on contraptions, where it doesn\u0027t require direct rotational input. When mounted on a moving contraption, the drill automatically breaks any blocks it collides with and damages entities in its path, with both block-breaking speed and entity damage scaling with the contraption\u0027s velocity. It can be removed cleanly by shift-right- clicking with a wrench, which will return it to your inventory.",
+            "text": "The mechanical drill can operate either while stationary or as part of a moving contraption. When placed statically and supplied with rotational force, it breaks blocks directly in front of it. Additionally, it inflicts damage on nearby entities, also based on its speed. However, its true strength lies in its use on contraptions, where it doesn't require direct rotational input. When mounted on a moving contraption, the drill automatically breaks any blocks it collides with and damages entities in its path, with both block-breaking speed and entity damage scaling with the contraption's velocity. It can be removed cleanly by shift-right- clicking with a wrench, which will return it to your inventory.",
             "isTranslationKey": true
           },
           "items": [
@@ -1002,12 +1002,12 @@
     {
       "uuid": "5d300aea-5826-4f79-b1d6-b08895059dbf",
       "name": {
-        "text": "Pumping Iron",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.iron_sheet.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Iron plating is typically used for moving parts and machines of intermediate complexity.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.iron_sheet.desc",
+        "isTranslationKey": true
       },
       "x": 46,
       "y": 39,
@@ -1020,8 +1020,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Iron plates are made from putting iron ingots into a mechanical press.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.iron_sheet.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1049,12 +1049,12 @@
     {
       "uuid": "fe6df2ff-5675-4285-a501-e6b0369c532e",
       "name": {
-        "text": "Eye for Detail",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.engineers_goggles.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Engineer\u0027s Goggles provide detailed analysis of a machine\u0027s rotational speed and stress level at a glance.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.engineers_goggles.desc",
+        "isTranslationKey": true
       },
       "x": 190,
       "y": 192,
@@ -1067,8 +1067,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A wearable item that displays machine details, including stress impact, rotation speed, and fluid levels in tanks. When worn, it provides enhanced visual feedback for Stressometers and Speedometers. Compatible with Curios/Trinkets mods for alternate head slot usage.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.engineers_goggles.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1105,12 +1105,12 @@
     {
       "uuid": "b8732aa6-7e38-4164-88e6-e4f5070dae35",
       "name": {
-        "text": "Helping Hand",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.deployer.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The deployer has a mechanical hand, designed to use items just like a person would. It can be set to use tools, interact with blocks, and even attack.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.deployer.desc",
+        "isTranslationKey": true
       },
       "x": 302,
       "y": 57,
@@ -1123,8 +1123,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Deployer is a machine that can be given items either directly or by right-clicking them into its hand. It can be stopped with a redstone signal and has a filter on its side to control which items it uses, which is especially important when using the Deployer in a Contraption. The Deployer has two inventory slots: one for the held item and another for extra items, such as those harvested by the Deployer. These harvested items are transferred to the extra slot and must be removed by machines, during which the Deployer will stall. Items in the extra slot cannot be extracted directly by the player. By default, the Deployer simulates right-clicks, but it can be switched to left-click mode by right-clicking the front with a Wrench. In left-click mode, the Deployer can use tools like pickaxes and swords, mimicking the player\u0027s actions, including causing mobs to drop rare items when slain.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.deployer.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1161,12 +1161,12 @@
     {
       "uuid": "e3932343-39ba-4385-86d3-a96c44345bcc",
       "name": {
-        "text": "Gearing Up",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.cogwheel.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Cogwheels can be used to extend rotational force perpendicular to a shaft, or to change the direction of rotation. Combining small and large cogwheels also allows rotation speed to be increased or decreased.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.cogwheel.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 102,
@@ -1180,8 +1180,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Cogwheels transmit and manipulate rotational force. The basic Cogwheel and its larger variant, the Large Cogwheel, allow for various interlocking configurations that control the direction, speed, and axis of rotational force. When two cogwheels are placed side-by-side and face the same direction, they rotate in opposite directions at equal speeds. Two large cogwheels interlock when placed perpendicularly, changing the rotational axis without affecting speed. A cogwheel and a large cogwheel interlock diagonally, with the cogwheel rotating at twice the speed of the larger one. Cogwheels can also act like shafts, transmitting rotation from both ends unless encased, and multiple cogwheels connected in a line function like a series of shafts. Cogwheels are also used to activate certain blocks; if a block features a cogwheel in its texture, it can be powered by placing a cogwheel directly next to it or a large cogwheel diagonally, provided they\u0027re aligned in the same direction.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.cogwheel.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1217,12 +1217,12 @@
     {
       "uuid": "54646046-e479-4bcb-941c-6713a659646f",
       "name": {
-        "text": "Detailed Create",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.detailed_create_trigger.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.detailed_create_trigger.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": -9,
@@ -1238,12 +1238,12 @@
     {
       "uuid": "f023ab57-9886-439c-a731-1c061bbdb348",
       "name": {
-        "text": "Notch in Your Belt",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.belts_funnels.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Item transporation is vital for automation, and conveyer belts are a simple way to use rotational force to move things from one point to another.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.belts_funnels.desc",
+        "isTranslationKey": true
       },
       "x": 126,
       "y": 84,
@@ -1256,12 +1256,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Belts",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.belts_funnels.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "To place a belt, you must have at least two shafts facing the same direction; simply right-click one shaft and then the other. A single Mechanical Belt item is used regardless of the distance, provided the length is under 20 blocks. Belts can be placed in straight lines or horizontally, vertically, or diagonally (at a 45° incline), so long as there are no obstructions.\nYou can extend or shorten belts by right-clicking with a belt or a wrench, which will also reposition the shaft. In addition to transmitting identical rotational force across all connected shafts (as long as the input force is consistent), the mechanical belt excels at moving items and entities. Items can be added by dropping them manually or through machines like funnels, chutes, and mechanical arms, and they can also be removed using similar methods. Belts cannot transport items vertically. If you are wearing diving boots or crouching, you will not be moved by belts. Belts also interact with a variety of machines: mechanical presses can press items passing underneath, deployers can interact with items on the belt, spouts can fill them with liquids, and encased fans can perform bulk processing like washing or smelting. Brass Tunnels help with item sorting and organization, while Depots can act as temporary stops for other machines to interact with items. For added customization, belts can be dyed with any dye, adding colored stripes, and the dye can be removed with a water bucket or bottle.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.belts_funnels.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1275,8 +1275,8 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Funnels",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.belts_funnels.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
             "text": "The Andesite Funnel is used for inserting or extracting items from inventories. Right-click on an inventory to race it in output mode; sneak-right-click for input mode. Or use a wrench to toggle it between input and output mode. The funnel can also be controlled with redstone signals, disabling its ability to transfer items when powered. When placed on a mechanical belt, the andesite funnel extends one block forward, allowing it to interact with items moving along the belt.",
@@ -1309,12 +1309,12 @@
     {
       "uuid": "c5147099-4542-4b20-9323-8286595ec338",
       "name": {
-        "text": "Glued Down",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.super_glue.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "To set up complicated contraptions full of moving parts, you\u0027ll need a way to make sure everything stays attached.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.super_glue.desc",
+        "isTranslationKey": true
       },
       "x": 14,
       "y": 57,
@@ -1328,8 +1328,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Super Glue binds blocks together in moving contraptions, ensuring they act as a single structure during motion. Each use reduces the glue\u0027s durability by one, although enchantments like Unbreaking and Mending can prolong its lifespan. In Block by Block Mode, glue is applied by right-clicking the face of a chassis or held in the off-hand to automatically apply glue while placing blocks. This method mimics the use of a Slimeball but allows for more flexible attachment, including placing blocks on chassis edges. Glue applied this way is permanent unless manually removed by sneak right-clicking with an empty hand. Area Mode allows you to glue multiple blocks after placement by selecting a 3D section. This is done by right-clicking one corner and then the opposite corner of a region, up to 24 blocks apart. Hold Super Glue in your main hand to visually identify glued blocks with green outlines, though glue applied directly to surfaces won’t show these outlines unless placed with the glue in the offhand. Left click with superglue on green areas to remove superglue.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.super_glue.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1364,12 +1364,12 @@
     {
       "uuid": "edaeafc2-43e6-4bad-bb87-b4f89f71e3c7",
       "name": {
-        "text": "Casting the First Stone",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.mechanical_extruder.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Cobblestone can be generated by casting water and lava together, but that takes up a lot of space and likely violates some industrial safety procedures. It\u0027s possible to fit the main press and mining equipment in a small space.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.mechanical_extruder.desc",
+        "isTranslationKey": true
       },
       "x": 190,
       "y": 120,
@@ -1381,8 +1381,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The mechanical extruder is used to automate the production of stone-type blocks. When powered with rotational force as well as having the necessary liquid source blocks adjacent to its sides, the mechanical extruder can create cobblestone, scoria, stone, basalt, or limestone. The block underneath the extruder does matter in some cases of production (see JEI for details). The blocks it produces can be extracted either with a right click or automatically pulled out with a combination of a funnel and moving belt.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.mechanical_extruder.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1410,12 +1410,12 @@
     {
       "uuid": "9da1a401-75bc-49ec-93c3-23e85fa0bb54",
       "name": {
-        "text": "Need for Speed",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.rotation_speed_controller.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Rotation Speed Controller is used to precisely control rotational speed instead of requiring a large gear shifting contraption.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.rotation_speed_controller.desc",
+        "isTranslationKey": true
       },
       "x": 270,
       "y": 111,
@@ -1428,8 +1428,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Rotation Speed Controller adjusts the speed of whatever source of rotational force is provided as input, and outputs through a cogwheel, which is placed on top. The rotation speed and direction can be adjusted in the Value Settings Screen located on the front or back of the controller. The speed can be set to a maximum of 256 RPM.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.rotation_speed_controller.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1457,12 +1457,12 @@
     {
       "uuid": "72283d63-3fcf-4034-ac4f-0ffa0697a722",
       "name": {
-        "text": "Gold Standard",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.golden_sheet.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Gold plating is often used in personal equipment.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.golden_sheet.desc",
+        "isTranslationKey": true
       },
       "x": 206,
       "y": 165,
@@ -1475,8 +1475,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Gold plates are made from putting gold ingots into a mechanical press.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.golden_sheet.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1505,12 +1505,12 @@
     {
       "uuid": "cc4f3469-cac0-4b77-a762-2832a9a36e91",
       "name": {
-        "text": "Like Clockwork",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.precision_mechanism.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Precision Mechanism is an intricate component for more complex devices.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.precision_mechanism.desc",
+        "isTranslationKey": true
       },
       "x": 302,
       "y": 93,
@@ -1522,8 +1522,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "To make a Precision Mechanism, send a golden sheet through a factory line and deploy a small cogwheel, large cogwheel, and then an iron nugget to the sheet. Repeat this process to create the mechanism. However, due to the complexity of the device, there is a 20% chance of failure, where all you get back is scrap.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.precision_mechanism.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1556,12 +1556,12 @@
     {
       "uuid": "f0cb3cdd-83b9-45e8-b32d-417cc3a30ac0",
       "name": {
-        "text": "A Wrench in the Works",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.wrench.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Wrench is a versatile tool for rotating, dismantling, and configuring components.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.wrench.desc",
+        "isTranslationKey": true
       },
       "x": 222,
       "y": 191,
@@ -1574,8 +1574,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Right-click rotates a component, while Shift + Right-click dismantles it. Scroll over certain components to configure them, and hold Ctrl to configure all connected components at once.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.wrench.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1607,12 +1607,12 @@
     {
       "uuid": "6241ed79-932a-4519-a294-9860a2063281",
       "name": {
-        "text": "Crafting Outside the Box",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.mechanical_crafter.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "The Mechanical Crafter is a machine that crafts items when powered by rotational force.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.mechanical_crafter.desc",
+        "isTranslationKey": true
       },
       "x": 238,
       "y": 57,
@@ -1625,8 +1625,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The connection between Mechanical Crafters is established through the path indicated by the block\u0027s design. To change the direction it sends items during crafting, simply right-click the front of the crafter with a Wrench. In a setup, the crafters can be automatically filled by Funnels or Hoppers, and they can share inventories without being part of the same crafting recipe. A Wrench can also be used on the back and sides of Mechanical Crafters to connect or disconnect adjacent crafters\u0027 inventories. Items can be manually inserted or removed as well.\n\nEach Mechanical Crafter requires rotational power from either adjacent crafters or any size Cogwheel. This means that only one crafter in a setup needs to be powered by a Cogwheel for the entire system to work. Once powered, and when all the crafting slots are filled or a redstone signal is received, the Mechanical Crafters will send their items to adjacent crafters. To successfully craft an item, the components must eventually meet in one crafter, where they will turn into the final product. Crafter Slot Covers can act as empty spaces in a recipe, allowing for the connection of separate crafters, but they do not move the items themselves.\n\nIf the items do not form a valid recipe, the crafters will eject the items instead of crafting the product. For automating crafting, directly adjacent slots can be merged to hold a single item type, like andesite alloy. This allows the material to be fed in from the side via a hopper, streamlining the crafting process. Powered Mechanical Crafters will start crafting once all slots are filled or when a redstone signal is applied.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.mechanical_crafter.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1656,12 +1656,12 @@
     {
       "uuid": "ca09254c-d0c3-4a59-a493-7e6273a468b2",
       "name": {
-        "text": "Wind in Your Sails",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.windmill.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Rotational force is a simple method of conveying energy for automation before electricity becomes a viable alternative. One of the most effective methods of harnessing natural rotational energy is harnessing the energy of the wind.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.windmill.desc",
+        "isTranslationKey": true
       },
       "x": 190,
       "y": 48,
@@ -1675,8 +1675,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A windmill is an automatic power generator that produces rotational force using a windmill bearing and at least eight sail-type blocks, such as windmill sails, sail frames, or wool blocks. To construct a windmill, attach any block to the Windmill Bearing’s sticky side, which comes pre-glued for convenience, and then connect sail-type blocks to the hub block you just placed. The windmill becomes functional once it has at least eight sail blocks, generating 1 RPM and 512 stress units (SU) for every increment of eight sails, up to a maximum of 8192 SU at 128 sails. The orientation of the sails doesn\u0027t affect performance; they can be placed in any shape or pattern. You can start or stop the windmill by right-clicking the bearing with an empty hand and can change its spin direction by interacting with the center of the bearing. By default, the windmill spins clockwise, but this can be reversed using a wrench.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.windmill.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1731,12 +1731,12 @@
     {
       "uuid": "e8790b01-88c8-4dbf-919f-f6123750576a",
       "name": {
-        "text": "Starting at Rock Bottom",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.andesite_alloy_detailed_create.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "You\u0027ll need some basic building blocks before you can start setting up machinery.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.andesite_alloy_detailed_create.desc",
+        "isTranslationKey": true
       },
       "x": 174,
       "y": 21,
@@ -1749,12 +1749,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Andesite Alloy",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.andesite_alloy_detailed_create.task.0.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Andesite alloy is used for simple machines and serves as a building block for all sorts of moving parts. It is made from andesite and iron or zinc nuggets. Remember, andesite can be crafted from cobblestone and any type of quartz.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.andesite_alloy_detailed_create.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1768,12 +1768,12 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Shafts and Casings",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.andesite_alloy_detailed_create.task.1.desc",
+            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Shafts are made from andesite alloy and serve as a simple rotating part that other machines can connect to.\n\nAndesite casing can be used to make basic machinery. It is made by right-clicking a stripped wood log with andesite alloy.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.andesite_alloy_detailed_create.task.1.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1807,12 +1807,12 @@
     {
       "uuid": "0d9c09c3-6583-431c-95d6-f6f4eacd3655",
       "name": {
-        "text": "Turn the Tides",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.water_wheel.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Rotational force is a simple method of conveying energy for automation before electricity becomes a viable alternative. One of the simplest methods of harnessing natural rotational energy is harnessing the energy of flowing water.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.water_wheel.desc",
+        "isTranslationKey": true
       },
       "x": 126,
       "y": 48,
@@ -1826,8 +1826,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The water wheel is a simple power generator that produces rotational force when water flows around it. Place the water wheel into flowing water and it will produce rotational force. Multiple water wheels can be lined up to increase load making it an easy way to generate larger amounts of power.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.water_wheel.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1876,12 +1876,12 @@
     {
       "uuid": "af8e7d74-9513-479c-b33d-ddcc1ba56e1a",
       "name": {
-        "text": "Getting a Handle on Things",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.hand_crank.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Rotational force is a simple method of conveying energy for automation before electricity becomes a viable alternative. One of the easiest methods of creating rotational energy is manually turning a crank.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.hand_crank.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 66,
@@ -1895,7 +1895,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The hand crank produces a small amount of rotational force when operated. By holding right-click, the crank rotates counter-clockwise, and using shift + right-click reverses the direction. Each use spins the crank at 32 RPM for approximately 0.5 seconds, delivering a 90° rotation to any directly connected mechanical bearing with a 1:1 ratio. However, using the crank will consume your hunger, making it a limited, albeit simple, power source. To make it, all you will need is three planks and an andesite alloy.",
+            "text": "hqm.quest.like_clockwork.hand_crank.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
@@ -1927,12 +1927,12 @@
     {
       "uuid": "13a983d5-2a40-4c74-91f0-9847656342e0",
       "name": {
-        "text": "Pressing Matters",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.mechanical_press.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Forming metal into thin sheets is vital for making more advanced contraptions. A mechanical press can can do just that.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.mechanical_press.desc",
+        "isTranslationKey": true
       },
       "x": 158,
       "y": 138,
@@ -1944,8 +1944,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The humble Mechanical Press can press and pack items below it. Simply place the press with one block of space between it and the ground and throw your items underneath and apply power! Note that it processes items faster when it receives faster rotational power.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.mechanical_press.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1980,12 +1980,12 @@
     {
       "uuid": "b1e38837-84ae-4edb-be65-a82c8a00c6d6",
       "name": {
-        "text": "Drop Zone",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.chute.name",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Where belts are used for horizontal item transportation, Chutes are design for vertical item transportation.",
-        "isTranslationKey": false
+        "text": "hqm.quest.like_clockwork.chute.desc",
+        "isTranslationKey": true
       },
       "x": 14,
       "y": 93,
@@ -1998,8 +1998,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Chutes function similarly to mechanical belts but are designed for moving items up or down directly. They can both insert into and extract from inventories positioned directly above or below, and when connected vertically or diagonally, they automatically pass items between each other. By default, items fall through chutes due to gravity, but upward movement is possible using encased fans positioned either above (to pull) or below (to push), with fan speed determining the rate of item transport. Chutes also support complex logistics through merging and splitting. Multiple chute lines can converge, though items won’t combine into single stacks. In fan-powered setups, item routing follows basic preferences: pushing fans prioritize straight paths, while pulling fans draw items toward themselves. Speed and airflow efficiency are affected by how chutes are connected. Aesthetically, chutes can be modified: right-clicking with a wrench adds windows, and non-diagonal chutes can be visually upgraded by encasing them with industrial iron blocks.",
-            "isTranslationKey": false
+            "text": "hqm.quest.like_clockwork.chute.task.0.long_desc",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -2032,7 +2032,7 @@
   ],
   "reputationBar": [],
   "description": {
-    "text": "Guide to setting up rotational force-based automation with minimal resources.",
-    "isTranslationKey": false
+    "text": "hqm.quest_set.like_clockwork.desc",
+    "isTranslationKey": true
   }
 }
