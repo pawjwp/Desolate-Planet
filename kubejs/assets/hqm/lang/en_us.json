@@ -9,15 +9,15 @@
   "hqm.quest.basic_survival.gathering_supplies.task.0.long_desc": "If you are having issues surviving your first night, it may help you to make a trench around the ship. Use the dust you get to build a 2 block wall on the inside of the trench. That should keep you safe from everything but spiders. To deal with them, make a small overhang out of stone or wood when you can afford it.",
 
   "hqm.quest.basic_survival.easy_route.name": "The Easy Route",
-  "hqm.quest.basic_survival.easy_route.desc": "In case of crash landing, you were equipped with a deluxe survival package:\n- Sync Shell Constructor\n- Spare Power Cell\n- Extra Shotgun Shells\n- Saplings\n- Fertilizer\n- Water Bottles\n- Dried Nutrient Bricks \n- Choice of Sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
-  "hqm.quest.basic_survival.easy_route.task.0.long_desc": "Check the box below to confirm you want to take the Easy Route with the deluxe survival package. There's no going back after you click it!",
+  "hqm.quest.basic_survival.easy_route.desc": "In case of crash landing, you were equipped with a deluxe survival package:\n- Sync Shell Constructor\n- Spare Power Cell\n- Extra Shotgun Shells\n- Saplings\n- Fertilizer\n- Water Bottles\n- Dried Nutrient Bricks\n- Choice of Sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
+  "hqm.quest.basic_survival.easy_route.task.0.long_desc": "Check the box below to confirm you want to take the Easy Route with the deluxe survival package. \u00A7oThis is irreversible!\u00A7r",
 
-  "hqm.quest.basic_survival.hard_route.name": "The Hard Route ",
+  "hqm.quest.basic_survival.hard_route.name": "The Hard Route",
   "hqm.quest.basic_survival.hard_route.desc": "In case of crash landing, you were equipped with a basic survival package:\n- Saplings\n- Fertilizer\n- Water Bottles\n- Dried Nutrient Bricks\nNote: Choose this path if you want a challenge. Don't expect to live. Completing this quest disables the easy route quest.",
-  "hqm.quest.basic_survival.hard_route.task.0.long_desc": "Check the box below to confirm you want to take the Hard Route with the basic survival package. There's no going back after you click it!",
+  "hqm.quest.basic_survival.hard_route.task.0.long_desc": "Check the box below to confirm you want to take the Hard Route with the basic survival package. \u00A7oThis is irreversible!\u00A7r",
 
   "hqm.quest.basic_survival.basic_sifting.name": "Back to Basics",
-  "hqm.quest.basic_survival.basic_sifting.desc": "The fertilizer in your survival package will not last long. Place the mesh in the sieve and sift some dust to get bonemeal.",
+  "hqm.quest.basic_survival.basic_sifting.desc": "The fertilizer in your survival package will not last long. Place the mesh in the sieve and sift some dust to get bone meal.",
   "hqm.quest.basic_survival.basic_sifting.task.0.long_desc": "If you want to sift faster, you can place sieves next to one another, allowing multiple to be sifted at once. Alternatively, a compressed sieve takes up just one block and can sift compressed dust.",
 
   "hqm.quest.basic_survival.furnace.name": "Fired Up",
@@ -30,7 +30,7 @@
 
   "hqm.quest.basic_survival.crucible.name": "Melting Pot",
   "hqm.quest.basic_survival.crucible.desc": "With a furnace set up, you can take the next step. Check the port engine, where the water reclamation system has leaked and turned some of the dust to clay. Dig that up, make a crucible, and place it above a torch or some lava. In the crucible, not only can you melt cobblestone into lava, but you can melt down ore and ore chunks into molten metal. All you need is a casting table to cast the molten metal into ingots. If you ever need more clay, it can be made from water and dust in a barrel.",
-  "hqm.quest.basic_survival.crucible.task.0.long_desc": "You can use the crucible as a mini-smeltery. Shift-right click to place a faucet. It can accept ore blocks or chunks. If you've still have lava by the broken engine, you can use that to heat your crucible. Also, you can make casts by pouring gold over wood tool parts.",
+  "hqm.quest.basic_survival.crucible.task.0.long_desc": "The crucible can be used to melt ores as well as stone, functioning as a mini-smeltery. Shift-right click to place a faucet. It can accept ore blocks or chunks. If you've still have lava by the broken engine, you can use that to heat your crucible. Also, you can make casts by pouring gold over wood tool parts.",
 
   "hqm.quest.basic_survival.flint_mesh.name": "Fine-Toothed Comb",
   "hqm.quest.basic_survival.flint_mesh.desc": "String mesh can be upgraded to flint mesh to gain higher yields. It can be further upgraded later when you get the resources. Each mesh tier is better than the last.",
@@ -38,7 +38,7 @@
 
   "hqm.quest.basic_survival.advanced_metals.name": "Metal Detector",
   "hqm.quest.basic_survival.advanced_metals.desc": "Uncommon metals and crystals can be found by sifting sand, gravel, and crushed deepslate.",
-  "hqm.quest.basic_survival.advanced_metals.task.0.long_desc": "Sifting dust drops iron, copper, gold, and redstone.\nSifting sand drops iron, tin, zinc, nickel, quartz, and certus quartz.\nSifting gravel drops iron, copper, gold, tin, zinc, nickel, lead, silver, coal, and redstone \nSifting crushed deepslate drops iron, copper, gold, silver, lead, redstone, lapis, diamonds, and emeralds.",
+  "hqm.quest.basic_survival.advanced_metals.task.0.long_desc": "Sifting dust drops iron, copper, gold, and redstone.\nSifting sand drops iron, tin, zinc, nickel, quartz, and certus quartz.\nSifting gravel drops iron, copper, gold, tin, zinc, nickel, lead, silver, coal, and redstone\nSifting crushed deepslate drops iron, copper, gold, silver, lead, redstone, lapis, diamonds, and emeralds.",
 
 
 
@@ -109,7 +109,7 @@
 
   "hqm.quest.basic_survival.desert_clothes.name": "Letting it Breathe",
   "hqm.quest.basic_survival.desert_clothes.desc": "Desert planet inhabitants have developed effective clothes that can help you stay cool in the blazing heat. These clothes provide insulation from outside temperatures but can also allow enough airflow to let off body heat when it's cooler than you are. They also provide high coverage, protecting you from the sun's rays.",
-  "hqm.quest.basic_survival.desert_clothes.task.0.long_desc": "Desert Armor provides excellent heat protection properties. It is mostly made from leather and string. Leather can be gained by cooking rotten flesh and string can be gained from silkworm-infested leaves. ",
+  "hqm.quest.basic_survival.desert_clothes.task.0.long_desc": "Desert Armor provides excellent heat protection properties. It is mostly made from leather and string. Leather can be gained by cooking rotten flesh and string can be gained from silkworm-infested leaves.",
 
   "hqm.quest.basic_survival.leather_insulation.name": "Heat Shield",
   "hqm.quest.basic_survival.leather_insulation.desc": "Desert clothing is useful for protection, but it's bulky and doesn't allow you to wear armor with it. One alternative is to put a thin layer of insulating material between you and your armor. This isn't usually as effective, but it allows for more protection from attack.",
@@ -139,7 +139,7 @@
   "hqm.quest.basic_survival.mob_drops.name": "The Night Shift",
   "hqm.quest.basic_survival.mob_drops.desc": "The \"life\" on Talos seems to mostly be made up of the animated bodies of its former inhabitants, all of which appear hostile. The optimal survival strategy is to avoid confrontation, but some of them leave behind useful items when killed.",
   "hqm.quest.basic_survival.mob_drops.task.0.desc": "Holding out for a hero...",
-  "hqm.quest.basic_survival.mob_drops.task.0.long_desc": "Kill mobs to collect their drops. Rotten flesh can be used for zombie jerky or smelted into leather. Bones can be used as an early tool material or to make bonemeal for crops. Spider eyes can be used to make soup in a pinch, and gunpowder can make all sorts of explosives.",
+  "hqm.quest.basic_survival.mob_drops.task.0.long_desc": "Kill mobs to collect their drops. Rotten flesh can be used for zombie jerky or smelted into leather. Bones can be used as an early tool material or to make bone meal for crops. Spider eyes can be used to make soup in a pinch, and gunpowder can make all sorts of explosives.",
   "hqm.quest.basic_survival.mob_drops.task.1.desc": "...till the end of the night",
   "hqm.quest.basic_survival.mob_drops.task.1.long_desc": "The most interesting mob drop is the ender pearl. Not only can it teleport the player when thrown, but its teleportation-related properties allow all sorts of interesting items to be crafted from it.",
 
@@ -181,23 +181,23 @@
 
 
   "hqm.quest.the_food_pyramid.grains.name": "Against the Grain",
-  "hqm.quest.the_food_pyramid.grains.desc": "You'll need to maintain a balanced diet to survive without negative effects. Finding a reliable source of grains is the most urgent part of that. Grains decay faster than most nutrients, and they affect your movement, mining, and attack speed.",
+  "hqm.quest.the_food_pyramid.grains.desc": "You'll need to maintain a balanced diet to survive without negative effects. Finding a reliable source of grains is the most urgent part of that since they decay faster than most nutrients. \u00A7lGrains affect your movement, mining, and attack speed\u00A7r.",
   "hqm.quest.the_food_pyramid.grains.task.0.long_desc": "Wheat and rice are the primary grains, used for bread, sandwiches, sweets, and a variety of meals. Wheat seeds and rice can be found by sifting dirt. Rice must be planted in a water source block to grow, making it more difficult to farm at scale.",
 
   "hqm.quest.the_food_pyramid.proteins.name": "Magic Beans",
-  "hqm.quest.the_food_pyramid.proteins.desc": "Proteins are the next most important part of a balanced diet. Proteins decay somewhat fast, and primarily affect your attack strength.",
+  "hqm.quest.the_food_pyramid.proteins.desc": "Proteins are the next most important part of a balanced diet since they decay moderately fast. \u00A7lProteins affect your attack strength\u00A7r.",
   "hqm.quest.the_food_pyramid.proteins.task.0.long_desc": "Beans and peanuts are the primary plant-based proteins. They can be used for soups, sandwiches, sweets, and more. Both have a chance of dropping from sifting dirt, or can be found in abandoned farm houses.",
 
   "hqm.quest.the_food_pyramid.vegetables.name": "Garden Variety",
-  "hqm.quest.the_food_pyramid.vegetables.desc": "Vegetables are another important part of your balanced diet. They affect your resistance to damage and decay fairly slowly.",
+  "hqm.quest.the_food_pyramid.vegetables.desc": "Vegetables are another important part of your balanced diet, though they decay fairly slowly. \u00A7lVegetables affect your resistance to damage\u00A7r.",
   "hqm.quest.the_food_pyramid.vegetables.task.0.long_desc": "There are a large variety of vegetables to choose from for your meals, and are essential for many dishes. Each vegetable seed has a small chance of dropping from sifting dirt, or can be found in abandoned farm houses.",
 
   "hqm.quest.the_food_pyramid.fruits.name": "Fruits of Your Labor",
-  "hqm.quest.the_food_pyramid.fruits.desc": "Fruits are another important part of your balanced diet. They affect your health regeneration.",
-  "hqm.quest.the_food_pyramid.fruits.task.0.long_desc": "There are three main fruits to farm; apples, sweet berries, and melons. Additionally, tomatoes are considered both a fruit and a vegetable.\nApples drop from oak leaves, while sweet berries and melon seeds have a small chance of dropping from sifting dirt, or can be found in abandoned farm houses.\n\nApples are easier to obtain in small quantities, but sweet berries are the easiest to farm when you need a more permanant source of fruits.",
+  "hqm.quest.the_food_pyramid.fruits.desc": "Fruits are another important part of your balanced diet. \u00A7lFruits affect your health regeneration speed\u00A7r.",
+  "hqm.quest.the_food_pyramid.fruits.task.0.long_desc": "There are three main fruits to farm; apples, sweet berries, and melons. Additionally, tomatoes are considered both a fruit and a vegetable.\nApples drop from oak leaves, while sweet berries and melon seeds have a small chance of dropping from sifting dirt, or can be found in abandoned farm houses.\nApples are easier to obtain in small quantities, but sweet berries are the easiest to farm when you need a more permanent source of fruits.",
 
   "hqm.quest.the_food_pyramid.sugars.name": "Sugarcoating It",
-  "hqm.quest.the_food_pyramid.sugars.desc": "Sugars aren't necessary for a balanced diet since you can get your energy from other sources. However, they can be useful for energy when you need it. Small amounts of sugar can speed you up, but if you have too much, you'll start experiencing negative effects as well.",
+  "hqm.quest.the_food_pyramid.sugars.desc": "Sugars aren't necessary for a balanced diet but they can be useful for energy when you need it. Small amounts can speed you up, but \u00A74too much sugar will give negative effects\u00A7r.",
   "hqm.quest.the_food_pyramid.sugars.task.0.long_desc": "Sugar can be made from sugarcane, which can be gained from sifting dirt.",
 
 
@@ -211,7 +211,7 @@
   "hqm.quest.the_food_pyramid.beans_and_rice.task.0.long_desc": "Beans and rice can be made from beans and rice (unsurprisingly), cooked together in a pot.",
 
   "hqm.quest.the_food_pyramid.peanut_butter_and_jam_sandwich.name": "Sandwiched",
-  "hqm.quest.the_food_pyramid.peanut_butter_and_jam_sandwich.desc": "PB&Js are easy to make and nutritious classic.",
+  "hqm.quest.the_food_pyramid.peanut_butter_and_jam_sandwich.desc": "PB&Js are an easy to make and nutritious classic.",
   "hqm.quest.the_food_pyramid.peanut_butter_and_jam_sandwich.task.0.long_desc": "Peanut butter is made from peanuts, bread from wheat, and your choice of fruit.",
 
   "hqm.quest.the_food_pyramid.pasta_and_tomato_sauce.name": "Mom's Spaghetti",
@@ -264,11 +264,11 @@
 
 
   "hqm.quest.like_clockwork.simple_create.name": "Down to Brass Tacks",
-  "hqm.quest.like_clockwork.simple_create.desc": "The MAT unit is capable of providing a simple guide to creating mechanical contraptions using rotational force, but also has a more comprehensive guide that can be opted-into instead.",
+  "hqm.quest.like_clockwork.simple_create.desc": "The MAT unit is capable of providing a simple guide to creating mechanical contraptions using rotational force, but also has a more comprehensive guide that can be opted-into instead. \u00A7lThis is irreversible!\u00A7r",
   "hqm.quest.like_clockwork.simple_create.task.0.long_desc": "Most of the Create mod is not required to complete this modpack. If you want to skip the guide to Create and just play with the 6 most relevant quests, click the checkbox below. If not, complete the \"Full Steam Ahead\" quest instead.",
 
   "hqm.quest.like_clockwork.detailed_create.name": "Full Steam Ahead",
-  "hqm.quest.like_clockwork.detailed_create.desc": "The MAT unit is capable of providing a comprehensive guide to creating mechanical contraptions using rotational force, but also has an abbreviated guide that can be opted-into instead.",
+  "hqm.quest.like_clockwork.detailed_create.desc": "The MAT unit is capable of providing a comprehensive guide to creating mechanical contraptions using rotational force, but also has an abbreviated guide that can be opted-into instead. \u00A7lThis is irreversible!\u00A7r",
   "hqm.quest.like_clockwork.detailed_create.task.0.long_desc": "Most of the Create mod is not required to complete this modpack. If you want the full guide to Create with 30+ quests, click the checkbox below. If not, complete the \"Down to Brass Tacks\" quest instead.",
 
   "hqm.quest.like_clockwork.andesite_alloy_simple_create.name": "Starting at Rock Bottom",
@@ -302,7 +302,7 @@
 
 
   "hqm.quest.like_clockwork.belts_funnels.name": "Notch in Your Belt",
-  "hqm.quest.like_clockwork.belts_funnels.desc": "Item transporation is vital for automation, and conveyer belts are a simple way to use rotational force to move things from one point to another.",
+  "hqm.quest.like_clockwork.belts_funnels.desc": "Item transportation is vital for automation, and conveyer belts are a simple way to use rotational force to move things from one point to another.",
   "hqm.quest.like_clockwork.belts_funnels.task.0.desc": "Belts",
   "hqm.quest.like_clockwork.belts_funnels.task.0.long_desc": "To place a belt, you must have at least two shafts facing the same direction; simply right-click one shaft and then the other. A single Mechanical Belt item is used regardless of the distance, provided the length is under 20 blocks. Belts can be placed in straight lines or horizontally, vertically, or diagonally (at a 45° incline), so long as there are no obstructions.\nYou can extend or shorten belts by right-clicking with a belt or a wrench, which will also reposition the shaft. In addition to transmitting identical rotational force across all connected shafts (as long as the input force is consistent), the mechanical belt excels at moving items and entities. Items can be added by dropping them manually or through machines like funnels, chutes, and mechanical arms, and they can also be removed using similar methods. Belts cannot transport items vertically. If you are wearing diving boots or crouching, you will not be moved by belts. Belts also interact with a variety of machines: mechanical presses can press items passing underneath, deployers can interact with items on the belt, spouts can fill them with liquids, and encased fans can perform bulk processing like washing or smelting. Brass Tunnels help with item sorting and organization, while Depots can act as temporary stops for other machines to interact with items. For added customization, belts can be dyed with any dye, adding colored stripes, and the dye can be removed with a water bucket or bottle.",
   "hqm.quest.like_clockwork.belts_funnels.task.1.desc": "Funnels",
@@ -335,7 +335,7 @@
   "hqm.quest.like_clockwork.iron_sheet.desc": "Iron plating is typically used for moving parts and machines of intermediate complexity.",
   "hqm.quest.like_clockwork.iron_sheet.task.0.long_desc": "Iron plates are made from putting iron ingots into a mechanical press.",
 
-  "hqm.quest.like_clockwork.super_glue.name": "Glued Down",
+  "hqm.quest.like_clockwork.super_glue.name": "Holding it Together",
   "hqm.quest.like_clockwork.super_glue.desc": "To set up complicated contraptions full of moving parts, you'll need a way to make sure everything stays attached.",
   "hqm.quest.like_clockwork.super_glue.task.0.long_desc": "Super Glue binds blocks together in moving contraptions, ensuring they act as a single structure during motion. Each use reduces the glue's durability by one, although enchantments like Unbreaking and Mending can prolong its lifespan. In Block by Block Mode, glue is applied by right-clicking the face of a chassis or held in the off-hand to automatically apply glue while placing blocks. This method mimics the use of a Slimeball but allows for more flexible attachment, including placing blocks on chassis edges. Glue applied this way is permanent unless manually removed by sneak right-clicking with an empty hand. Area Mode allows you to glue multiple blocks after placement by selecting a 3D section. This is done by right-clicking one corner and then the opposite corner of a region, up to 24 blocks apart. Hold Super Glue in your main hand to visually identify glued blocks with green outlines, though glue applied directly to surfaces won’t show these outlines unless placed with the glue in the offhand. Left click with superglue on green areas to remove superglue.",
 
@@ -357,11 +357,11 @@
   "hqm.quest.like_clockwork.encased_fan.name": "Biggest Fan",
   "hqm.quest.like_clockwork.encased_fan.desc": "The encased fan can blow air to push items on the ground, and it can blow water, fire, and lava to wash or cook things.",
   "hqm.quest.like_clockwork.encased_fan.task.0.desc": "Breaking Wind",
-  "hqm.quest.like_clockwork.encased_fan.task.0.long_desc": "The Encased Fan can create air streams to pull or push entities or items. This works vertically and horizontally and the strength is directly correlated to rotational speed. The Encased fan also has the abilitity to do Bulk Washing, Bulk Blasting, Bulk Haunting, and Bulk Smoking.",
+  "hqm.quest.like_clockwork.encased_fan.task.0.long_desc": "The Encased Fan can create air streams to pull or push entities or items. This works vertically and horizontally and the strength is directly correlated to rotational speed. The Encased fan also has the ability to do Bulk Washing, Bulk Blasting, Bulk Haunting, and Bulk Smoking.",
   "hqm.quest.like_clockwork.encased_fan.task.1.desc": "Bulk Washing",
-  "hqm.quest.like_clockwork.encased_fan.task.1.long_desc": "Bulk Washing requires water to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. Throw your items into the stream to start washing. Throw some sand into the stream and get yoruself some clay!",
+  "hqm.quest.like_clockwork.encased_fan.task.1.long_desc": "Bulk Washing requires water to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. Throw your items into the stream to start washing. Throw some sand into the stream and get yourself some clay!",
   "hqm.quest.like_clockwork.encased_fan.task.2.desc": "Bulk Blasting",
-  "hqm.quest.like_clockwork.encased_fan.task.2.long_desc": "Bulk Blasting requires lava to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. This works like a blast furnace but can destroy items if they cant be blasted! Know that it cannot process Ore blocks and will destroy them. Try making some charcoal by throwing wood into the stream!  ",
+  "hqm.quest.like_clockwork.encased_fan.task.2.long_desc": "Bulk Blasting requires lava to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. This works like a blast furnace but can destroy items if they cant be blasted! Know that it cannot process Ore blocks and will destroy them. Try making some charcoal by throwing wood into the stream!",
   "hqm.quest.like_clockwork.encased_fan.task.3.desc": "Bulk Smoking",
   "hqm.quest.like_clockwork.encased_fan.task.3.long_desc": "Bulk Smoking requires a campfire to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. Try making some leather by throwing rotten flesh into the stream!",
   "hqm.quest.like_clockwork.encased_fan.task.4.desc": "Bulk Haunting",
@@ -458,7 +458,7 @@
   "hqm.quest.under_pressure.compressed_iron.task.2.desc": "Step 3",
   "hqm.quest.under_pressure.compressed_iron.task.2.long_desc": "For the final step, you should move far away from your base. Drop some iron on the ground, place the TNT next to it, ignite the TNT, and then stand far away. When the dust settles, you should have some compressed iron.",
 
-  "hqm.quest.under_pressure.air_compressor.name": "Heating Up",
+  "hqm.quest.under_pressure.air_compressor.name": "Full of Hot Air",
   "hqm.quest.under_pressure.air_compressor.desc": "With compressed iron, you can start working with compressed air.",
   "hqm.quest.under_pressure.air_compressor.task.0.desc": "Pressure Tube",
   "hqm.quest.under_pressure.air_compressor.task.0.long_desc": "The pressure tube is the most basic component for using compressed air. You must use these tubes to transfer the air around. The longer the tubes extend, the more pressure will be lost. Try to keep things close to one another to avoid depressurizing. Make sure your pressure tubes don't have any open ends or you will leak a lot of pressure.",
@@ -476,7 +476,7 @@
   "hqm.quest.under_pressure.pcb_1_empty_pcb.task.0.desc": "Plastic",
   "hqm.quest.under_pressure.pcb_1_empty_pcb.task.0.long_desc": "To start making PCBs, you'll need some plastic. There are a few methods of acquiring it, but it typically involves refining oil or scavenging for plastic scrap in cities. Once you found or made some plastic, you can start making your first PCB.",
   "hqm.quest.under_pressure.pcb_1_empty_pcb.task.1.desc": "Circuit Basics",
-  "hqm.quest.under_pressure.pcb_1_empty_pcb.task.1.long_desc": "Once you have the resources, you can start making your first PCB. Use the pressure chamber to combine a peice of plastic with 2 redstone torches and 3 conductive nuggets to get the empty PCB. You will also need 2 capacitors and 2 transistors, which are made from plastic, 3 conductive nuggets, and either an adhesive to make capacitors or redstone dust to make transistors.\n\nTo craft using the pressure chamber, break one of the middle blocks, drop your ingredients in, and place the block back down. Once you reach the required pressure level again, your items will be crafted and you can break the block again to remove them from the chamber. You will lose some whenever the pressure chamber is opened, but you can improve upon the process with a pressure chamber interface, which can do the opening/closing for you.",
+  "hqm.quest.under_pressure.pcb_1_empty_pcb.task.1.long_desc": "Once you have the resources, you can start making your first PCB. Use the pressure chamber to combine a piece of plastic with 2 redstone torches and 3 conductive nuggets to get the empty PCB. You will also need 2 capacitors and 2 transistors, which are made from plastic, 3 conductive nuggets, and either an adhesive to make capacitors or redstone dust to make transistors.\n\nTo craft using the pressure chamber, break one of the middle blocks, drop your ingredients in, and place the block back down. Once you reach the required pressure level again, your items will be crafted and you can break the block again to remove them from the chamber. You will lose some whenever the pressure chamber is opened, but you can improve upon the process with a pressure chamber interface, which can do the opening/closing for you.",
 
   "hqm.quest.under_pressure.pcb_2_uv_light_box.name": "Blinded By The Light",
   "hqm.quest.under_pressure.pcb_2_uv_light_box.desc": "Once you have an empty PCB, the next step is to expose it to ultraviolet light.",
@@ -501,14 +501,14 @@
   "hqm.quest.under_pressure.gas_lift_oil.name": "Black Gold",
   "hqm.quest.under_pressure.gas_lift_oil.desc": "Subsurface scanning has detected an abundance of oil deep under the surface of the planet. With a bit of pressure, you should be able to pump oil from the depths.",
   "hqm.quest.under_pressure.gas_lift_oil.task.0.desc": "Gas Lift",
-  "hqm.quest.under_pressure.gas_lift_oil.task.0.long_desc": "You'll start with a gas lift and some drill pipes. Provide the gas lift with some pressure and insert the drill pipes, and it will start digging down, automatically placing the pipes as it mines. The deeper it drills, the more drill pipes and pressure it will need. You can reduce this cost by placing your pumps deeper underground.  ",
+  "hqm.quest.under_pressure.gas_lift_oil.task.0.long_desc": "You'll start with a gas lift and some drill pipes. Provide the gas lift with some pressure and insert the drill pipes, and it will start digging down, automatically placing the pipes as it mines. The deeper it drills, the more drill pipes and pressure it will need. You can reduce this cost by placing your pumps deeper underground.",
   "hqm.quest.under_pressure.gas_lift_oil.task.1.desc": "Crude Oil",
   "hqm.quest.under_pressure.gas_lift_oil.task.1.long_desc": "When your pump reaches the oil at the bottom of the world (roughly 120 meters down), it will start extracting.",
 
-  "hqm.quest.under_pressure.refining_oil.name": "Refining Oil",
+  "hqm.quest.under_pressure.refining_oil.name": "Refined Taste",
   "hqm.quest.under_pressure.refining_oil.desc": "Now that you can pump oil out of the depths, you can work on refining it to get plastic, an important resource for making circuits and machinery.",
   "hqm.quest.under_pressure.refining_oil.task.0.desc": "Refinery Equipment",
-  "hqm.quest.under_pressure.refining_oil.task.0.long_desc": "Put the 4 refinery outputs in a vertical stack above the refinery controler. Use a resistive heater or vortex tube next to the controller to keep it hot enough to run.",
+  "hqm.quest.under_pressure.refining_oil.task.0.long_desc": "Put the 4 refinery outputs in a vertical stack above the refinery controller. Use a resistive heater or vortex tube next to the controller to keep it hot enough to run.",
   "hqm.quest.under_pressure.refining_oil.task.1.desc": "Oil Production",
   "hqm.quest.under_pressure.refining_oil.task.1.long_desc": "When your refinery is running, it will slowly produce refined oils based on how hot the controller is kept.",
 
@@ -526,7 +526,7 @@
   "hqm.quest.under_pressure.pressure_gauge.task.0.long_desc": "When placed on a pressure tube, the pressure gauge emits a redstone signal equal to double the detected pressure. You can use that to disable compressors when the system gets close to overloading.",
 
   "hqm.quest.under_pressure.pressure_chamber_interface.name": "Blowing Off Steam",
-  "hqm.quest.under_pressure.pressure_chamber_interface.desc": "Breaking a block whenever you need to use the pressure chamber will waste a lot of air. The pressure chamber interface acts as an airlock, inserting or extracting items into the chamber.",
+  "hqm.quest.under_pressure.pressure_chamber_interface.desc": "Now that you have a pressure chamber, you'll need a way to put items into it. Technically, you can break one of the blocks and drop the items in manually, but that will vent all of the stored pressure. A better option is the pressure chamber interface, which acts as an airlock, allowing you to insert or extract from the chamber while barely losing any air.",
   "hqm.quest.under_pressure.pressure_chamber_interface.task.0.long_desc": "You will need at least two interfaces; one set to input and one set to output. Make sure both are exposed to the air inside the chamber. Once set up, you can use item conduits to move items in and out of the chamber.",
 
   "hqm.quest.under_pressure.upgrades.name": "Better, Faster, Stronger",
@@ -542,11 +542,11 @@
   "hqm.quest.under_pressure.misc_tools.name": "Tools of the Trade",
   "hqm.quest.under_pressure.misc_tools.desc": "There are many useful gadgets you can make using compressed air. You can consult the documentation for the full list, but these are some of the most useful tools.",
   "hqm.quest.under_pressure.misc_tools.task.0.desc": "Charging Station",
-  "hqm.quest.under_pressure.misc_tools.task.0.long_desc": "Many Pneumaticcraft gadgets will need to be charged with compressed air before they can be used. Be careful though, the charging station balances air pressure between the item being charged and the rest of the system. If the tool has more bars of pressure than the rest of the network it will actually discharge.",
+  "hqm.quest.under_pressure.misc_tools.task.0.long_desc": "Many PneumaticCraft gadgets will need to be charged with compressed air before they can be used. Be careful though, the charging station balances air pressure between the item being charged and the rest of the system. If the tool has more bars of pressure than the rest of the network it will actually discharge.",
   "hqm.quest.under_pressure.misc_tools.task.1.desc": "Pneumatic Wrench",
   "hqm.quest.under_pressure.misc_tools.task.1.long_desc": "The pneumatic wrench allows rotation of PneumaticCraft blocks and opening/closing pressure tubes by right clicking, and instant dismantling by shift+right clicking. It must be charged in a charging station.",
   "hqm.quest.under_pressure.misc_tools.task.2.desc": "GPS Tool",
-  "hqm.quest.under_pressure.misc_tools.task.2.long_desc": "Some of the PneumaticCraft gadgets require selecting specific coordinates to use them. For that, you will need a GPS tool. Right click on a block to set the tool to those coordinates. Right click in the air to modify the coodinates. Does not need charging.",
+  "hqm.quest.under_pressure.misc_tools.task.2.long_desc": "Some of the PneumaticCraft gadgets require selecting specific coordinates to use them. For that, you will need a GPS tool. Right click on a block to set the tool to those coordinates. Right click in the air to modify the coordinates. Does not need charging.",
   "hqm.quest.under_pressure.misc_tools.task.3.desc": "Air Cannon",
   "hqm.quest.under_pressure.misc_tools.task.3.long_desc": "The Air Cannon will shoot an item to a specific location. Use a GPS Tool with the coordinates selected to lock the cannon on target (the GPS Tool can then be removed). By default, a redstone signal will cause the cannon to fire. It could be useful for long range item transport or, with the right upgrade, as a weapon.",
 
@@ -623,7 +623,7 @@
 
   "hqm.quest.salvage_operation.bronze_constantan.name": "Bronze Age",
   "hqm.quest.salvage_operation.bronze_constantan.desc": "With a smeltery set up, you can start making tools out of alloys instead of just basic metals or other materials.",
-  "hqm.quest.salvage_operation.bronze_constantan.task.0.long_desc": "Bronze and Constantan are the two best tier III materials for weapons and tools, respectively. They have a balanced, but strong array of stats, and aren't too difficult to make with resources you likely have an abundance of. Untill you find a way to make and sift nether blocks, these will generally be the best tool heads available.",
+  "hqm.quest.salvage_operation.bronze_constantan.task.0.long_desc": "Bronze and Constantan are the two best tier III materials for weapons and tools, respectively. They have a balanced, but strong array of stats, and aren't too difficult to make with resources you likely have an abundance of. Until you find a way to make and sift nether blocks, these will generally be the best tool heads available.",
 
   "hqm.quest.salvage_operation.blazing_blood.name": "Blaze of Glory",
   "hqm.quest.salvage_operation.blazing_blood.desc": "The toughest of metals require the hottest of fuels. Blazing blood is among the hottest, and is an essential ingredient for making advanced alloys.",
@@ -685,11 +685,11 @@
 
   "hqm.quest.technological_revolution.multiservo_press.name": "Making an Impression",
   "hqm.quest.technological_revolution.multiservo_press.desc": "The Multiservo Press can press ingots into plates, gears, and coins, as well as pack or unpack bulk items and their compressed versions.",
-  "hqm.quest.technological_revolution.multiservo_press.task.0.long_desc": "The Multiservo Press performs different functions depending on the die used. With a packing die, it will pack items into compressed forms, equivelant to crafting recipes that fill all slots of a 2x2 or 3x3 grid. With an unpacking die, it does the reverse. Using a gearworking or nuismatic die, metals can be pressed into gears and coins. Using it without a die inserted will press ingots into plates.",
+  "hqm.quest.technological_revolution.multiservo_press.task.0.long_desc": "The Multiservo Press performs different functions depending on the die used. With a packing die, it will pack items into compressed forms, equivalent to crafting recipes that fill all slots of a 2x2 or 3x3 grid. With an unpacking die, it does the reverse. Using a gearworking or nuismatic die, metals can be pressed into gears and coins. Using it without a die inserted will press ingots into plates.",
 
-  "hqm.quest.technological_revolution.induction_smelter.name": "Induction Smelter",
+  "hqm.quest.technological_revolution.induction_smelter.name": "Forging Connections",
   "hqm.quest.technological_revolution.induction_smelter.desc": "The Induction Smelter can be used to process ores, produce hardened glass, and make alloys. It is an especially efficient and compact way of producing large amounts of alloys compared to alternative methods.",
-  "hqm.quest.technological_revolution.induction_smelter.task.0.long_desc": "The induction smelter smelts up to three items together wiith an optional catalyst.",
+  "hqm.quest.technological_revolution.induction_smelter.task.0.long_desc": "The induction smelter smelts up to three items together with an optional catalyst.",
 
   "hqm.quest.technological_revolution.pulverizer.name": "Crushing It",
   "hqm.quest.technological_revolution.pulverizer.desc": "The Pulverizer crushes items into dusts. It can be used to efficiently process and double ores, producing ore dust as well as a byproduct. A catalyst can be used to modify outputs, with flint being the most basic catalyst.",
@@ -755,7 +755,7 @@
 
   "hqm.quest.technological_revolution.sewage.name": "Waste Not, Want Not",
   "hqm.quest.technological_revolution.sewage.desc": "Animals are messy, and will produce waste if left to their own devices. However, this waste can be recycled into usable materials with the right equipment. The Sewer will collect sewage and essence from animals, and the Sewage Composter will produce fertilizer from sewage.",
-  "hqm.quest.technological_revolution.sewage.task.0.long_desc": "Fertilizer can be used to grow crops just like bonemeal, or be used in a Plant Fertilizer to automatically apply to plants.",
+  "hqm.quest.technological_revolution.sewage.task.0.long_desc": "Fertilizer can be used to grow crops just like bone meal, or be used in a Plant Fertilizer to automatically apply to plants.",
 
   "hqm.quest.technological_revolution.addons.name": "Hardware Upgrade",
   "hqm.quest.technological_revolution.addons.desc": "Speed, Efficiency, Processing, and Range Addons are useful upgrades to many of your machines.",
@@ -795,7 +795,7 @@
 
   "hqm.quest.to_infinity_and_beyond.beyond_the_stars.name": "Beyond The Stars",
   "hqm.quest.to_infinity_and_beyond.beyond_the_stars.desc": "You should now have the tools to venture beyond the quest book and escape the planet. The Ad Astra mod in the game but has not yet been fully integrated. Until full integration and quests are built out, you're on your own. You're welcome to explore space now in its temporary state, or return to this modpack once the endgame is fully implemented. I hope you enjoyed, and feel free to stop by our discord if you have any suggestions.",
-  "hqm.quest.to_infinity_and_beyond.beyond_the_stars.task.0.long_desc": "Join our discord with invite code §94en3SpWtJg§r, or go to §9discord.gg/4en3SpWtJg§r\nI try to respond to everyone's questions and I would love suggestions on how to improve the modpack.",
+  "hqm.quest.to_infinity_and_beyond.beyond_the_stars.task.0.long_desc": "Join our discord with invite code \u00A794en3SpWtJg\u00A7r, or go to \u00A79discord.gg/4en3SpWtJg\u00A7r\nI try to respond to everyone's questions and I would love suggestions on how to improve the modpack.",
 
   "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.name": "Fuse Box",
   "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.desc": "Alloying typically requires mixing melted metals, but some metals can be infused together to make certain types of alloys. With a metallurgic infuser, you can make some more advanced alloys like steel. It can also make advanced control circuits, useful for all kinds of interesting mechanisms.",
