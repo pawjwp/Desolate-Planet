@@ -578,7 +578,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "1. Place the machines in a square with the two IO units at the top right and top left.\n2. Place the laser on the bottom left and the platform to its right.\n3. Put a chest above either io unit and the assembly controller on any side of the square.\n4. Set the output of one of the IO units using a pneumatic wrench.\n5. Provide pressurized air for the controller and insert the Assembly Program: Laser.\n\nWhen the setup is complete, you can place empty PCBs in the chest to process. The input unit will move it to the platform, the laser will etch the PCB pattern onto it, and the output unit will return it to the chest. You can increase the processing speed with speed upgrades.",
+            "text": "1. Place the machines in a square with the two IO units at the top right and top left.\n2. Place the laser on the bottom left and the platform to its right.\n3. Put a chest adjacent to an IO unit and the assembly controller on any side of the square.\n4. Set the output of one of the IO units using a pneumatic wrench.\n5. Provide pressurized air for the controller and insert the Assembly Program: Laser.\n\nWhen the setup is complete, you can place empty PCBs in the chest to process. The input unit will move it to the platform, the laser will etch the PCB pattern onto it, and the output unit will return it to the chest. You can increase the processing speed with speed upgrades.",
             "isTranslationKey": false
           },
           "items": [
@@ -596,7 +596,7 @@
             },
             {
               "item": {
-                "id": "pneumaticcraft:assembly_io_unit_export",
+                "id": "pneumaticcraft:assembly_io_unit_import",
                 "Count": 1
               }
             },

@@ -1115,12 +1115,12 @@
     "curseForgeHash": 921711792,
     "modrinthHash": "4672c64a8019e81a4a6c8239f20661d5edbd5da1"
   },
-  "tleveling-1.0.0-1.20.1.jar": {
-    "jarName": "tleveling-1.0.0-1.20.1.jar",
+  "tleveling-1.0.2-1.20.1.jar": {
+    "jarName": "tleveling-1.0.2-1.20.1.jar",
     "modId": "tleveling",
-    "version": "1.0.0-1.20.1",
-    "curseForgeHash": 263407803,
-    "modrinthHash": "0e13aa046a41d0417b230c946b62a887cc618515"
+    "version": "1.0.2-1.20.1",
+    "curseForgeHash": 3335704795,
+    "modrinthHash": "64854570894cecd6f1d3af923322a653925f5837"
   },
   "torchmaster-20.1.9.jar": {
     "jarName": "torchmaster-20.1.9.jar",

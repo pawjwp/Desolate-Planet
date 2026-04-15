@@ -80,6 +80,19 @@ ServerEvents.recipes(event => {
         ]
     }).id('desolate_planet:crumbling_seared_bricks_milling');
 
+    event.custom({
+        type: 'tconstruct:melting',
+        ingredient: {
+            tag: 'desolate_planet:crumbling_seared_bricks'
+        },
+        result: {
+            amount: 750,
+            fluid: 'tconstruct:seared_stone'
+        },
+        temperature: 600,
+        time: 100
+    }).id('desolate_planet:crumbling_seared_bricks_melting');
+
 
     // Scorched recipes
     event.custom({
@@ -152,4 +165,17 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('desolate_planet:crumbling_scorched_bricks_milling');
+
+    event.custom({
+        type: 'tconstruct:melting',
+        ingredient: {
+            tag: 'desolate_planet:crumbling_scorched_bricks'
+        },
+        result: {
+            amount: 750,
+            fluid: 'tconstruct:scorched_stone'
+        },
+        temperature: 600,
+        time: 100
+    }).id('desolate_planet:crumbling_scorched_bricks_melting');
 })

@@ -77,4 +77,11 @@ ServerEvents.tags('block', event => {
     Ingredient.of(/^(cfm|nfm|refurbished_furniture):.*sink.*$/).itemIds.forEach(id => {
         event.add('desolate_planet:sinks', id);
     });
+
+    event.add('vs_eureka:assemble_blacklist',
+        'exdeorum:crushed_deepslate',
+        'exdeorum:dust',
+        'minecraft:gravel',
+        'minecraft:sand',
+    )
 });
