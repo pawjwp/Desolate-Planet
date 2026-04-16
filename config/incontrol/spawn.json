@@ -1,14 +1,129 @@
 [
   {
     "mob": [
-      "minecraft:witch",
-      "thermal:blitz"
+      "thermal:blitz",
+      "tconstruct:terracube"
     ],
     "result": "deny"
   },
   {
-    "mob": "minecraft:warden",
-    "mincount": 5,
+    "mob": [
+      "minecraft:blaze",
+      "minecraft:magma_cube",
+      "minecraft:zombified_piglin",
+      "specialmobs:armoredblaze",
+      "specialmobs:blaze",
+      "specialmobs:bouncingmagmacube",
+      "specialmobs:brutezombifiedpiglin",
+      "specialmobs:cinderblaze",
+      "specialmobs:conflagrationblaze",
+      "specialmobs:emberblaze",
+      "specialmobs:fishingzombifiedpiglin",
+      "specialmobs:giantzombifiedpiglin",
+      "specialmobs:hardenedmagmacube",
+      "specialmobs:hellfireblaze",
+      "specialmobs:hungryzombifiedpiglin",
+      "specialmobs:infernoblaze",
+      "specialmobs:joltblaze",
+      "specialmobs:knightzombifiedpiglin",
+      "specialmobs:magmacube",
+      "specialmobs:plaguedzombifiedpiglin",
+      "specialmobs:stickymagmacube",
+      "specialmobs:unholyghast",
+      "specialmobs:vampirezombifiedpiglin",
+      "specialmobs:volatilemagmacube",
+      "specialmobs:wildfireblaze",
+      "specialmobs:zombifiedpiglin",
+      "tconstruct:terracube"
+    ],
+    "dimension": [
+      "minecraft:overworld",
+      "varkin_system:talos"
+    ],
+    "structuretags": [
+      "desolate_planet:foundry_bastion",
+      "desolate_planet:oil_rig",
+      "desolate_planet:mer_lab"
+    ],
+    "minlight": 1,
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:blaze",
+      "minecraft:magma_cube",
+      "minecraft:zombified_piglin",
+      "specialmobs:armoredblaze",
+      "specialmobs:blaze",
+      "specialmobs:bouncingmagmacube",
+      "specialmobs:brutezombifiedpiglin",
+      "specialmobs:cinderblaze",
+      "specialmobs:conflagrationblaze",
+      "specialmobs:emberblaze",
+      "specialmobs:fishingzombifiedpiglin",
+      "specialmobs:giantzombifiedpiglin",
+      "specialmobs:hardenedmagmacube",
+      "specialmobs:hellfireblaze",
+      "specialmobs:hungryzombifiedpiglin",
+      "specialmobs:infernoblaze",
+      "specialmobs:joltblaze",
+      "specialmobs:knightzombifiedpiglin",
+      "specialmobs:magmacube",
+      "specialmobs:plaguedzombifiedpiglin",
+      "specialmobs:stickymagmacube",
+      "specialmobs:unholyghast",
+      "specialmobs:vampirezombifiedpiglin",
+      "specialmobs:volatilemagmacube",
+      "specialmobs:wildfireblaze",
+      "specialmobs:zombifiedpiglin",
+      "tconstruct:terracube"
+    ],
+    "dimension": [
+      "minecraft:overworld",
+      "varkin_system:talos"
+    ],
+    "structuretags": [
+      "desolate_planet:foundry_bastion",
+      "desolate_planet:oil_rig",
+      "desolate_planet:mer_lab"
+    ],
+    "result": "default"
+  },
+  {
+    "mob": [
+      "minecraft:blaze",
+      "minecraft:magma_cube",
+      "minecraft:zombified_piglin",
+      "specialmobs:armoredblaze",
+      "specialmobs:blaze",
+      "specialmobs:bouncingmagmacube",
+      "specialmobs:brutezombifiedpiglin",
+      "specialmobs:cinderblaze",
+      "specialmobs:conflagrationblaze",
+      "specialmobs:emberblaze",
+      "specialmobs:fishingzombifiedpiglin",
+      "specialmobs:giantzombifiedpiglin",
+      "specialmobs:hardenedmagmacube",
+      "specialmobs:hellfireblaze",
+      "specialmobs:hungryzombifiedpiglin",
+      "specialmobs:infernoblaze",
+      "specialmobs:joltblaze",
+      "specialmobs:knightzombifiedpiglin",
+      "specialmobs:magmacube",
+      "specialmobs:plaguedzombifiedpiglin",
+      "specialmobs:stickymagmacube",
+      "specialmobs:unholyghast",
+      "specialmobs:vampirezombifiedpiglin",
+      "specialmobs:volatilemagmacube",
+      "specialmobs:wildfireblaze",
+      "specialmobs:zombifiedpiglin",
+      "tconstruct:terracube"
+    ],
+    "dimension": [
+      "minecraft:overworld",
+      "varkin_system:talos"
+    ],
+    "minlight_full": 1,
     "result": "deny"
   },
   {
@@ -28,6 +143,7 @@
       "specialmobs:zombifiedpiglin",
       "specialmobs:hungryzombifiedpiglin"
     ],
+    "when": "finalize",
     "result": "default",
     "nbt": {
       "AngerTime": 2147483647
