@@ -1,5 +1,0 @@
-JEIEvents.removeRecipes(event => {
-  event.remove('minecraft:crafting_shapeless', Item.of('minecraft:potion', '{Potion:"minecraft:water",Purity:3}').strongNBT)
-  event.remove('minecraft:crafting_shapeless', Item.of('minecraft:potion', '{Potion:"minecraft:water",Purity:2}').strongNBT)
-  event.remove('minecraft:crafting_shapeless', Item.of('minecraft:potion', '{Potion:"minecraft:water",Purity:0}').strongNBT)
-})
