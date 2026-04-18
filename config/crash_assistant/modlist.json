@@ -11,6 +11,13 @@
     "curseForgeHash": 2713479490,
     "modrinthHash": "537ac3e358a97efd7b03648a9bfd7b11f1ae7ff7"
   },
+  "AdvancedBackups-forge-1.20-3.7.1.jar": {
+    "jarName": "AdvancedBackups-forge-1.20-3.7.1.jar",
+    "modId": "advancedbackups",
+    "version": "3.7.1",
+    "curseForgeHash": 3451060389,
+    "modrinthHash": "319af993d90dd5413ec7b75e859b1f0a0cf5377b"
+  },
   "AdvancedLootInfo-forge-1.20.1-1.7.3.jar": {
     "jarName": "AdvancedLootInfo-forge-1.20.1-1.7.3.jar",
     "modId": "ali",
