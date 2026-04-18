@@ -1045,6 +1045,13 @@
     "curseForgeHash": 190419489,
     "modrinthHash": "f09e7615e432dffafe73c610c2d462183a0e32df"
   },
+  "tconplanner-1.20.1-forge-1.7.1.jar": {
+    "jarName": "tconplanner-1.20.1-forge-1.7.1.jar",
+    "modId": "tconplanner",
+    "version": "1.2.0",
+    "curseForgeHash": 1690096984,
+    "modrinthHash": "9fc770653dcb2460897595f602bf08b64bff3b8c"
+  },
   "TConstruct-1.20.1-3.11.2.166.jar": {
     "jarName": "TConstruct-1.20.1-3.11.2.166.jar",
     "modId": "tconstruct",
