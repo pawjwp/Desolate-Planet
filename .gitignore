@@ -17,6 +17,7 @@
 /cosmetics
 /crash-reports
 /data
+/ESM/*/*.dat
 /essential
 /journeymap
 /local

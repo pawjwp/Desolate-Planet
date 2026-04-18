@@ -1,0 +1,9 @@
+{
+  "mekanism:tile.machine.crusher": 0.5,
+  "create:mechanical_press_activation_belt": 0.5,
+  "pneumaticcraft:minigun": 0.75,
+  "pneumaticcraft:leaking_gas_low": 0.75,
+  "create:mechanical_press_activation_belt_compounded_1": 0.5,
+  "pneumaticcraft:leaking_gas": 0.25,
+  "pneumaticcraft:short_hiss": 0.75
+}

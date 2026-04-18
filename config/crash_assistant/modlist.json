@@ -487,6 +487,13 @@
     "curseForgeHash": 3629377691,
     "modrinthHash": "f03a753b276bbb1f17bc7050566a1bf9dbb0a74a"
   },
+  "ExtremeSoundMuffler-3.51-forge-1.20.1.jar": {
+    "jarName": "ExtremeSoundMuffler-3.51-forge-1.20.1.jar",
+    "modId": "extremesoundmuffler",
+    "version": "3.51",
+    "curseForgeHash": 2384074866,
+    "modrinthHash": "025499c74e1e9305fa931b44c3832f43b1925ec7"
+  },
   "factory_blocks-forge-1.4.0+mc1.20.1.jar": {
     "jarName": "factory_blocks-forge-1.4.0+mc1.20.1.jar",
     "modId": "factory_blocks",
