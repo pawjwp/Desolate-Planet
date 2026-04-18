@@ -18,6 +18,13 @@
     "curseForgeHash": 3837691153,
     "modrinthHash": "7ac5564b0d14d0134fc214e29d23568da2860aee"
   },
+  "AE2NetworkAnalyzer-1.20-1.0.6-forge.jar": {
+    "jarName": "AE2NetworkAnalyzer-1.20-1.0.6-forge.jar",
+    "modId": "ae2netanalyser",
+    "version": "1.20-1.0.6-forge",
+    "curseForgeHash": 134614876,
+    "modrinthHash": "7616ab6cf999f1844edc87433f60dfe45d829ce8"
+  },
   "AI-Improvements-1.20-0.5.2.jar": {
     "jarName": "AI-Improvements-1.20-0.5.2.jar",
     "modId": "aiimprovements",
@@ -556,6 +563,13 @@
     "version": "8.1.0.12",
     "curseForgeHash": 608092796,
     "modrinthHash": "13a9e41740aa17a31f81beba233055bc84152eb0"
+  },
+  "Glodium-1.20-1.5-forge.jar": {
+    "jarName": "Glodium-1.20-1.5-forge.jar",
+    "modId": "glodium",
+    "version": "1.20-1.5-forge",
+    "curseForgeHash": 3834018600,
+    "modrinthHash": "c7534db3248adfcf39a6158b423dfc9bfc99a378"
   },
   "guideme-20.1.14.jar": {
     "jarName": "guideme-20.1.14.jar",
