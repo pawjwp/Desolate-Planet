@@ -2,7 +2,7 @@ StartupEvents.registry("block", (event) => {
 
   // Applied Blocks
   event.create('crashed_applied_controller') // Create a new block with ID "kubejs:example_block"
-    .displayName('Crashed Computer Controller') // Set a custom name
+    .displayName('Damaged ME Controller') // Set a custom name
     .mapColor('heavy_metal') // Set a material (affects the sounds and some properties)
     .soundType('metal')
     .hardness(4.0) // Set hardness (affects mining time)
@@ -13,12 +13,12 @@ StartupEvents.registry("block", (event) => {
     .textureAll('kubejs:block/ae2_controller_crash')
 
   event.create('crashed_me_drive')
-    .displayName('Crashed ME Drive')
+    .displayName('Damaged ME Drive')
     .mapColor('heavy_metal')
     .soundType('metal')
     .hardness(4.0)
     .resistance(6.0)
-	.property(BlockProperties.FACING)
+    .property(BlockProperties.FACING)
     .defaultState(state => state.setValue(BlockProperties.FACING, Direction.NORTH))
     .placementState(state => state.setValue(BlockProperties.FACING, state.horizontalDirection.opposite))
     .requiresTool(true)
@@ -26,7 +26,7 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool')
 
   event.create('crashed_crafting_unit')
-    .displayName('Crashed Crafting Unit')
+    .displayName('Damaged Crafting Unit')
     .mapColor('heavy_metal')
     .soundType('metal')
     .hardness(4.0)
@@ -36,7 +36,7 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool')
 
   event.create('crashed_me_interface')
-    .displayName('Crashed ME Interface')
+    .displayName('Damaged ME Interface')
     .mapColor('heavy_metal')
     .soundType('metal')
     .hardness(4.0)
@@ -47,7 +47,7 @@ StartupEvents.registry("block", (event) => {
 
   // Bigger Reactor Blocks
   event.create("crashed_reactor_controller")
-    .displayName("Crashed Reactor Controller")
+    .displayName("Damaged Reactor Controller")
     .mapColor("heavy_metal")
     .soundType("copper")
     .hardness(1.0)
@@ -58,7 +58,7 @@ StartupEvents.registry("block", (event) => {
     .textureAll('kubejs:block/reactor_controller_crash')
 
   event.create("crashed_turbine_controller")
-    .displayName("Crashed Turbine Controller")
+    .displayName("Damaged Turbine Controller")
     .mapColor("heavy_metal")
     .soundType("copper")
     .hardness(1.0)
@@ -69,7 +69,7 @@ StartupEvents.registry("block", (event) => {
     .textureAll('kubejs:block/turbine_controller_crash')
 
   event.create("crashed_turbine_wall")
-    .displayName("Crashed Turbine Casing")
+    .displayName("Damaged Turbine Casing")
     .mapColor("heavy_metal")
     .soundType("copper")
     .hardness(1.0)
@@ -80,7 +80,7 @@ StartupEvents.registry("block", (event) => {
     .textureAll('kubejs:block/turbine_wall_crash')
 
   event.create("crashed_reactor_frame")
-    .displayName("Crashed Reactor Frame")
+    .displayName("Damaged Reactor Frame")
     .mapColor("heavy_metal")
     .soundType("copper")
     .hardness(1.0)
@@ -113,12 +113,12 @@ StartupEvents.registry("block", (event) => {
 
   // Pneumatic Blocks
   event.create('crashed_refinery')
-    .displayName('Crashed Refinery')
+    .displayName('Damaged Refinery')
     .mapColor('heavy_metal')
     .soundType('metal')
     .hardness(4.0)
     .resistance(6.0)
-	.property(BlockProperties.FACING)
+    .property(BlockProperties.FACING)
     .defaultState(state => state.setValue(BlockProperties.FACING, Direction.NORTH))
     .placementState(state => state.setValue(BlockProperties.FACING, state.horizontalDirection))
     .requiresTool(true)
@@ -126,12 +126,12 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool')
 
   event.create('crashed_refinery_output')
-    .displayName('Crashed Refinery Output')
+    .displayName('Damaged Refinery Output')
     .mapColor('heavy_metal')
     .soundType('metal')
     .hardness(4.0)
     .resistance(6.0)
-	.property(BlockProperties.FACING)
+    .property(BlockProperties.FACING)
     .defaultState(state => state.setValue(BlockProperties.FACING, Direction.NORTH))
     .placementState(state => state.setValue(BlockProperties.FACING, state.horizontalDirection))
     .requiresTool(true)
@@ -139,7 +139,7 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool')
 
   event.create("crashed_pressure_chamber_wall")
-    .displayName("Crashed Pressure Chamber Wall")
+    .displayName("Damaged Pressure Chamber Wall")
     .mapColor("heavy_metal")
     .soundType("metal")
     .hardness(4.0)
