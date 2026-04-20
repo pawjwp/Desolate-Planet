@@ -15,6 +15,8 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("minecraft:end_stone", (item, advanced, text) => { text.add(1, Text.gray("Can be in made small quantities by placing glowstone dust in a barrel of lava."));});
     event.addAdvanced("minecraft:end_stone", (item, advanced, text) => { text.add(2, Text.gray("Can be automated with an extruder by casting liquid ender with lava."));});
     event.addAdvanced("biggerreactors:blutonium_ingot", (item, advanced, text) => { text.add(1, Text.gray("Processed from Cyanite in a Cyanite Reprocessor."));});
+    event.addAdvanced("kubejs:controller_frame", (item, advanced, text) => { text.add(1, Text.gray("Can be duplicated in an inscriber with a compressed iron block.")); });
+    event.addAdvanced("thermal:device_nullifier", (item, advanced, text) => { text.add(1, Text.gray("Functions like a trash can, voiding inserted items and liquids.")); });
     event.addAdvanced("sync:shell_constructor", (item, advanced, text) => { text.add(1, Text.gray("Place next to a power source and right-click to provide a DNA sample.")); });
     event.addAdvanced("tconstruct:dragon_scale", (item, advanced, text) => {
         text.remove(1);
@@ -62,9 +64,12 @@ ItemEvents.tooltip(event => {
         event.addAdvanced(tool, (item, advanced, text) => {
             text.add(1, Text.gray("Can be used to smash compressed stone into gravel, sand, and then dust."));});
     });
+    event.addAdvanced("exdeorum:mechanical_hammer", (item, advanced, text) => {
+        text.add(1, [Text.red("Warning: "), Text.gray("The mechanical hammer will damage and consume tinkers hammers like normal tools!")]);
+    });
 
     // Seeds
-    
+
     // From dirt or chest loot
     [
         "farmersdelight:cabbage_seeds",
@@ -106,7 +111,7 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("scarcity:bamboo_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into bamboo when planted on dirt or grass")); });
     event.addAdvanced("scarcity:cactus_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into cactus when planted on sand")); });
     event.addAdvanced("scarcity:sugar_cane_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into sugar cane when planted on dirt or sand")); });
-    
+
     // From dirt or podzol
     [
         "scarcity:oak_seed",
@@ -142,6 +147,8 @@ ItemEvents.tooltip(event => {
 
 
     // Sieving blocks
+    event.addAdvanced("exdeorum:sieve", (item, advanced, text) => { text.add(2, Text.gray("Sifts blocks into useful items. Up to 9 sieves can be sifted simultaneously.")); });
+
     event.addAdvanced("exdeorum:dust", (item, advanced, text) => {
         text.add(1, Text.gray("Found across the surface or made from crushing sand"));
         text.add(2, Text.gray("Sifts into common ore chunks, plus redstone, bone meal, and pebbles"));
@@ -158,7 +165,7 @@ ItemEvents.tooltip(event => {
         text.add(1, Text.gray("Found deep underground or made from crushing deepslate"));
         text.add(2, Text.gray("Sifts into common, rare, and very rare ore chunks, plus redstone, lapis, and gemstones"));
     });
-    
+
     event.addAdvanced("minecraft:red_sand", (item, advanced, text) => { text.add(1, Text.gray("Sifts into common ore chunks, plus redstone and quartz"));});
 
     event.addAdvanced("minecraft:dirt", (item, advanced, text) => { text.add(1, Text.gray("Sifts into pebbles and various seeds"));});
@@ -217,7 +224,7 @@ ItemEvents.tooltip(event => {
         event.addAdvanced(tool, (item, advanced, text) => {
             text.add(1, Text.gray("Debris and netherite can be found in the Foundry structure"));});
     });
-    
+
 
 
     // Crashed Blocks
