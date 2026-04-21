@@ -1,4 +1,5 @@
 {
+  "configVersion": 1,
   "blockCategories": [
     {
       "key": "ali:plant_loot",
@@ -72,6 +73,11 @@
       "type": "GAMEPLAY",
       "icon": "minecraft:fishing_rod",
       "hide": true,
+      "catalysts": [
+        {
+          "item": "minecraft:fishing_rod"
+        }
+      ],
       "pattern": [
         "^.*:gameplay/fishing.*$"
       ]
@@ -81,6 +87,17 @@
       "type": "GAMEPLAY",
       "icon": "minecraft:decorated_pot",
       "hide": true,
+      "catalysts": [
+        {
+          "item": "minecraft:brush"
+        },
+        {
+          "item": "minecraft:suspicious_sand"
+        },
+        {
+          "item": "minecraft:suspicious_gravel"
+        }
+      ],
       "pattern": [
         "^.*:archaeology/.*$"
       ]
@@ -101,6 +118,51 @@
       "hide": true,
       "pattern": [
         "^.*:blocks/.*$"
+      ]
+    },
+    {
+      "key": "ali:cat_morning_gift",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:phantom_membrane",
+      "hide": true,
+      "catalysts": [
+        {
+          "item": "minecraft:cat_spawn_egg"
+        }
+      ],
+      "pattern": [
+        "^.*:gameplay/cat_morning_gift.*$"
+      ]
+    },
+    {
+      "key": "ali:piglin_bartering",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:gold_ingot",
+      "hide": true,
+      "catalysts": [
+        {
+          "item": "minecraft:piglin_spawn_egg"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        }
+      ],
+      "pattern": [
+        "^.*:gameplay/piglin_bartering.*$"
+      ]
+    },
+    {
+      "key": "ali:sniffer_digging",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:sniffer_egg",
+      "hide": true,
+      "catalysts": [
+        {
+          "item": "minecraft:sniffer_spawn_egg"
+        }
+      ],
+      "pattern": [
+        "^.*:gameplay/sniffer_digging.*$"
       ]
     },
     {

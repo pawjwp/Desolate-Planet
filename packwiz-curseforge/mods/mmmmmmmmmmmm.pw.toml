@@ -1,13 +1,13 @@
 name = "MmmMmmMmmMmm (Target Dummy)"
-filename = "dummmmmmy-1.20-2.0.9.jar"
+filename = "dummmmmmy-1.20-2.0.11-forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "782d16edca6fa22fb72fa825cec39117bbb7e78a"
+hash = "003cde99214de635562c6df55b10f472bed1a971"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6860192
+file-id = 7942107
 project-id = 225738
