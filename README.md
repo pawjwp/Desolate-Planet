@@ -64,11 +64,11 @@ A: I strongly recommend learning to use the sync shells for extra lives, it’s 
 
 However, if you’ve tried that and still want to disable hardcore, you can edit the hardcore setting in `config/globalgamerules-common.toml`. On a server, the steps are slightly different. Download [this file](https://cdn.modrinth.com/data/Y5UhUxAD/versions/YopX3hzh/Non-Hardcore_Server_Files.zip) and replace the files on the server with the files in that zip. I recommend backing up the target files before replacing them.
 
-### Q:Why do I have debuffs like weakness, mining fatigue, or hunger?
+### Q: Why do I have debuffs like weakness, mining fatigue, or hunger?
 
-A: You are likely malnourished. Check your nutrition by clicking the Diet button in your inventory. Aim to get a balanced diet by keeping the four main food groups above 50%. Higher values will give buffs, lower ones will give debuffs. The one exception is the sugars group, which isn’t necessary to maintain. The sugars group will give speed buffs at moderate levels, but be careful because you will get debuffs if your meter goes over 80%.
+A: You are likely malnourished. Check your nutrition by clicking the Diet button in your inventory. Aim to get a balanced diet by keeping the four main food groups above 50%. Higher values will give buffs, lower ones will give debuffs. The one exception is the sugars group, which isn’t necessary to maintain. The sugars group will give speed buffs at moderate levels, but be careful because you will get debuffs if your meter goes over 80%. Read about the specific buffs and debuffs from the Diet mod on the wiki page [here](https://github.com/pawjwp/Desolate-Planet/wiki/Nutrition-and-Diet).
 
-### Q:How do I update the modpack?
+### Q: How do I update the modpack?
 
 A: In most launchers, open the modpack from your library and click the “Change Version” or “Update” button in the top-right.
 
@@ -80,7 +80,7 @@ A: Generally no, you won’t have any issues. Only major releases break anything
 
 A: The quests include 3 recommended energy sources. The first is the _Pitiful Generator_, which is powered by burnable fuel and very slow. Once you get oil refining set up, you can use the _Compression Dynamo_ to burn various types of oils. Finally, you can get a _Nuclear Reactor_ in the end-game, which is a highly effective generation method. The quests will guide you through these three recommended methods, but other generators can be built along the way.
 
-### Q:Why does the modpack use Hardcore Questing Mode (HQM) instead of FTB Quests?
+### Q: Why does the modpack use Hardcore Questing Mode (HQM) instead of FTB Quests?
 
 A: HQM was initially chosen because it was used in the original Crash Landing modpack. We’ve stuck with the mod both because of that and because FTB quests is licensed in a very restrictive way. Due to the FTB team’s exclusivity deal with Curseforge, modpacks using their mods are not allowed on Modrinth. There are a few other quest mods available (Better Questing and Odyssey Quests), but I find the gameplay experience to be lacking a bit compared to HQM and FTB Quests.
 
@@ -88,11 +88,11 @@ A: HQM was initially chosen because it was used in the original Crash Landing mo
 
 A: There is a Tinker’s Construct smeltery building in the cities, containing crumbling seared brick blocks. Break those with a hammer or pulverize them to get seared bricks.
 
-### Q:How can I change the thermometer to Celsius?
+### Q: How can I change the thermometer to Celsius?
 
 A: Go to the Options menu, click the Cold Sweat button on the left, and change the units option in the top-left.
 
-### Q:Why do structures generate in the same spot on every world?
+### Q: Why do structures generate in the same spot on every world?
 
 A: All worlds currently use the same seed, which allows gameplay to be balanced more tightly. This way, we can ensure players spawn in the right biome and that the late-game structures are further from spawn than the early-game ones. Someday we may switch to a different world generation system that would allow these things to be controlled individually instead of by seed, but that’s a long way away.
 
