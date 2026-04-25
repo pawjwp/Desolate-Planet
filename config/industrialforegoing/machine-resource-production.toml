@@ -169,3 +169,11 @@
 		#Max Amount of Stored Fluid [Output] - Default: [8000mB]
 		maxOutputTankSize = 32000
 
+	[MachineResourceProductionConfig.SimulatedHydroponicBedConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [200 (5s)]
+		maxProgress = 200
+		#Amount of Power Consumed per Operation - Default: [3000FE]
+		powerPerOperation = 3000
+		#Max Stored Power [FE] - Default: [20000 FE]
+		maxStoredPower = 20000
+

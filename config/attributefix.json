@@ -726,17 +726,6 @@
         "value": 100
       }
     },
-    "tconstruct:player.mining_speed_multiplier": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "cold_sweat:cold_resistance": {
       "enabled": false,
       "min": {
@@ -746,6 +735,17 @@
       "max": {
         "default": 1,
         "value": 10000000
+      }
+    },
+    "tconstruct:player.mining_speed_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "cold_sweat:freezing_point_offset": {

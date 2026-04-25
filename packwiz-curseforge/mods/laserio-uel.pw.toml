@@ -1,0 +1,13 @@
+name = "LaserIO Unofficial Extended Life"
+filename = "laserio-uel-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1bc52bd6a94164b2558f2017bd5b4a78cef1725e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6773950
+project-id = 1168178

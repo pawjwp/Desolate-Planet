@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
     )
 
     makeTrimRecipe('minecraft:sentry_armor_trim_smithing_template', 'minecraft:white_banner', 'minecraft:cobblestone')
-    makeTrimRecipe('minecraft:ward_armor_trim_smithing_template', 'minecraft:ec`ho_shard', 'minecraft:cobbled_deepslate')
+    makeTrimRecipe('minecraft:ward_armor_trim_smithing_template', 'minecraft:echo_shard', 'minecraft:cobbled_deepslate')
     makeTrimRecipe('minecraft:wild_armor_trim_smithing_template', 'minecraft:mossy_cobblestone', 'minecraft:mossy_cobblestone')
     makeTrimRecipe('minecraft:vex_armor_trim_smithing_template', 'minecraft:book', 'minecraft:cobblestone')
     makeTrimRecipe('minecraft:coast_armor_trim_smithing_template', 'minecraft:emerald', 'minecraft:cobblestone')

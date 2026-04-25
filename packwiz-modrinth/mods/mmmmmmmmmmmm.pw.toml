@@ -1,13 +1,13 @@
 name = "MmmMmmMmmMmm"
-filename = "dummmmmmy-1.20-2.0.9.jar"
+filename = "dummmmmmy-1.20-2.0.11-forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Adega8YN/versions/zAahRq2q/dummmmmmy-1.20-2.0.9.jar"
+url = "https://cdn.modrinth.com/data/Adega8YN/versions/MHozEq9h/dummmmmmy-1.20-2.0.11-forge.jar"
 hash-format = "sha512"
-hash = "43d86873c4463f483daaacba7c3d4df419c95c78327ad248ae0c18ff3439a6d07f0f6386421b043b231b4e57f52699ae56d95a7346ac174f98726ef690c5c48b"
+hash = "b2a6ee3bb3addc1e905aa1e0c51f398640d2e1226deb2159fab8f55ea851dd09c60ed018a8597b244aabd4de7b408aea27adeb996cb5f7cf061c5a8fd0241c0e"
 
 [update]
 [update.modrinth]
 mod-id = "Adega8YN"
-version = "zAahRq2q"
+version = "MHozEq9h"

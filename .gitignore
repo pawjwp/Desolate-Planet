@@ -5,6 +5,7 @@
 /.example_assets
 /.example_data
 /.vscode
+/backups
 /config/axiom
 /config/cubes_without_borders.json
 /config/fabric
@@ -16,6 +17,7 @@
 /cosmetics
 /crash-reports
 /data
+/ESM/*/*.dat
 /essential
 /journeymap
 /local
@@ -23,6 +25,7 @@
 /modernfix
 /mods/.connector
 /screenshots
+/tconplanner
 fabricloader.log
 hs_err_pid*.log
 knownkeys.txt

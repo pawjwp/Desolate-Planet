@@ -1,1 +1,1 @@
-{"type":"mekanism:crushing","input":{"ingredient":{"tag":"forge:deepslate"}},"output":{"item":"exdeorum:crushed_deepslate"}}
+{"type":"mekanism:crushing","input":{"ingredient":{"tag":"forge:cobblestone/deepslate"}},"output":{"item":"exdeorum:crushed_deepslate"}}

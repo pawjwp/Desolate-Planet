@@ -1,13 +1,13 @@
 name = "BetterBlockZ"
-filename = "betterblockz-0.2.6-1.20.1-forge.jar"
+filename = "betterblockz-0.2.8-1.20.1-forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7798015ccc49562944665f2e6a1ed352cca7bd3b"
+hash = "a378df73ec837391ca54b15bf837bcbe05d8fd28"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7545989
+file-id = 7829970
 project-id = 1361873

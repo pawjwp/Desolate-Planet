@@ -1,13 +1,13 @@
 name = "Special Mobs"
-filename = "specialmobs-1.20.1-4.1.21.jar"
+filename = "specialmobs-1.20.1-4.1.23.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "16090d4c1f6ace665904a185fa8ea3a31c8a2c3a"
+hash = "5949f9cef2dcd733eccd5b22a7f74741b75ad964"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7668984
+file-id = 7939431
 project-id = 59968

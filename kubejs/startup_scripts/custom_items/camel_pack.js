@@ -224,17 +224,21 @@ function registerCamelPack(event, config) {
                     if (fluidTag.contains('FluidName')) fluidType = fluidTag.getString('FluidName')
 
                     var amount = fluidTag.contains('Amount') ? fluidTag.getInt('Amount') : 0
-                    if (!fluidType || amount < sipSize) return
+                    if (!fluidType || amount <= 0) return
+
+                    // fluids consume remaining amounts even if under the sipSize
+                    var drinkAmount = Math.min(sipSize, amount)
+                    var sipRatio = drinkAmount / sipSize
 
                     switch (fluidType) {
                         case 'minecraft:water':
                             // if thirst is greater than 18, do not drink
                             if (thirstCap && thirstCap.getThirst() > 18) break
 
-                            fluidTag.putInt('Amount', amount - sipSize)
+                            fluidTag.putInt('Amount', amount - drinkAmount)
                             thirstCap.drink(player,
-                                Math.floor(sipThirst * config.thirstMult),
-                                Math.floor(sipQuenched * config.quenchMult)
+                                Math.floor(sipThirst * config.thirstMult * sipRatio),
+                                Math.floor(sipQuenched * config.quenchMult * sipRatio)
                             )
 
                             // set 20 tick cooldown
@@ -245,10 +249,10 @@ function registerCamelPack(event, config) {
                             // if thirst is greater than 18, do not drink
                             if (thirstCap && thirstCap.getThirst() > 18) break
 
-                            fluidTag.putInt('Amount', amount - sipSize)
+                            fluidTag.putInt('Amount', amount - drinkAmount)
                             thirstCap.drink(player,
-                                Math.floor(sipThirst * (2/3) * config.thirstMult),
-                                Math.floor(sipQuenched * (2/3) * config.quenchMult)
+                                Math.floor(sipThirst * (2/3) * config.thirstMult * sipRatio),
+                                Math.floor(sipQuenched * (2/3) * config.quenchMult * sipRatio)
                             )
 
                             // increase food by 1, saturation by 1
