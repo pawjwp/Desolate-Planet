@@ -1,0 +1,134 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false,
+  "carvers": {},
+  "effects": {
+    "sky_color": 13816319,
+    "fog_color": 16251866,
+    "water_color": 10008049,
+    "water_fog_color": 3223958,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "music": {
+      "sound": "minecraft:music.overworld.desert",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    }
+  },
+  "features": [
+    []
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:husk",
+        "weight": 6,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "specialmobs:firezombie",
+        "weight": 6,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "specialmobs:firecreeper",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombified_piglin",
+        "weight": 1,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:hungryzombifiedpiglin",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "specialmobs:fireskeleton",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:spitfireskeleton",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:weatheredskeleton",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:spitfirewitherskeleton",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:bouncymagmacube",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:stickymagmacube",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "specialmobs:desertspider",
+        "weight": 2,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:firefangspider",
+        "weight": 3,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "specialmobs:flameenderman",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "specialmobs:mirageenderman",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {}
+}

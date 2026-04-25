@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 64,
+    "xz_spread": 4,
+    "y_spread": 0,
+    "feature": {
+      "feature": {
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "kubejs:trash_pile",
+                  "Properties": {
+                    "layers": "4"
+                  }
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "kubejs:trash_pile",
+                  "Properties": {
+                    "layers": "3"
+                  }
+                }
+              },
+              {
+                "weight": 3,
+                "data": {
+                  "Name": "kubejs:trash_pile",
+                  "Properties": {
+                    "layers": "2"
+                  }
+                }
+              },
+              {
+                "weight": 4,
+                "data": {
+                  "Name": "kubejs:trash_pile",
+                  "Properties": {
+                    "layers": "1"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "type": "minecraft:simple_block"
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "offset": [ 0, -1 ,0 ],
+            "blocks": "ad_astra:moon_sand"
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}

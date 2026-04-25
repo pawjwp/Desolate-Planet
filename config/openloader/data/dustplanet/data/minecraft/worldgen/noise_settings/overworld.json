@@ -227,19 +227,19 @@
   "spawn_target": [
     {
       "temperature": [
-        -1,
-        1
+        0.8,
+        1.2
       ],
       "humidity": [
         -1,
         1
       ],
       "continentalness": [
-        -0.11,
+        0.0,
         1
       ],
       "erosion": [
-        -1,
+        0.2,
         1
       ],
       "weirdness": [
@@ -251,19 +251,19 @@
     },
     {
       "temperature": [
-        -1,
-        1
+        0.8,
+        1.2
       ],
       "humidity": [
         -1,
         1
       ],
       "continentalness": [
-        -0.11,
+        0.0,
         1
       ],
       "erosion": [
-        -1,
+        0.2,
         1
       ],
       "weirdness": [
@@ -370,9 +370,6 @@
         },
         "then_run": {
           "type": "minecraft:block",
-          "if_true": {
-            "type": ""
-          },
           "result_state": {
             "Name": "minecraft:gravel"
           }

@@ -1,0 +1,87 @@
+{
+  "custom_clouds": true,
+  "custom_sky": true,
+  "custom_weather": true,
+  "dimension": "minecraft:overworld",
+  "has_fog": true,
+  "has_thick_fog": false,
+  "render_in_rain": false,
+  "sky_renderables": [
+    {
+      "back_light_color": -750495,
+      "back_light_scale": 0.0,
+      "blend": true,
+      "global_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 32.0,
+      "texture": "varkin_system:textures/environment/red_sun_sky.png"
+    },
+    {
+      "back_light_color": -5261108,
+      "back_light_scale": 10.5,
+      "blend": true,
+      "global_rotation": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 3.5,
+      "texture": "varkin_system:textures/environment/perdix.png"
+    },
+    {
+      "back_light_color": -4827861,
+      "back_light_scale": 1.2,
+      "blend": true,
+      "global_rotation": [
+        -20.0,
+        0.0,
+        -160.0
+      ],
+      "local_rotation": [
+        0.0,
+        -100.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY_REVERSED",
+      "scale": 0.6,
+      "texture": "varkin_system:textures/environment/icarus.png"
+    },
+    {
+      "back_light_color": -12813094,
+      "back_light_scale": 1.2,
+      "blend": true,
+      "global_rotation": [
+        -40.0,
+        0.0,
+        -160.0
+      ],
+      "local_rotation": [
+        0.0,
+        -100.0,
+        0.0
+      ],
+      "movement_type": "TIME_OF_DAY",
+      "scale": 0.4,
+      "texture": "varkin_system:textures/environment/iapyx.png"
+    }
+  ],
+  "star_colors": [{ "data": -1, "weight": 1 }],
+  "stars": 1500,
+  "sunrise_angle": 0,
+  "sunrise_color": 16368154
+}

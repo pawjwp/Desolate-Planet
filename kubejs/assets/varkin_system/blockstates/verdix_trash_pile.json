@@ -1,0 +1,706 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "OR": [
+          {
+            "layers": "1"
+          },
+          {
+            "layers": "3"
+          }
+        ]
+      },
+      "apply": [
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2a",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2a",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2a",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2a",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2b",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2b",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2b",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2b",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2c",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2c",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2c",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/2c",
+          "y": 270,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "layers": "2"
+          },
+          {
+            "layers": "4"
+          }
+        ]
+      },
+      "apply": [
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4a",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4a",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4a",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4a",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4b",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4b",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4b",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4b",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4c",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4c",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4c",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/4c",
+          "y": 270,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "layers": "3"
+          }
+        ]
+      },
+      "apply": [
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6a",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6a",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6a",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6a",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6b",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6b",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6b",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6b",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6c",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6c",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6c",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/6c",
+          "y": 270,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "layers": "4"
+          }
+        ]
+      },
+      "apply": [
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8a",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8a",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8a",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8a",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8b",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8b",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8b",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8b",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8c",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8c",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8c",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/8c",
+          "y": 270,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "layers": "5"
+          }
+        ]
+      },
+      "apply": [
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10a",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10a",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10a",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10a",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10b",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10b",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10b",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10b",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10c",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10c",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10c",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/10c",
+          "y": 270,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "layers": "6"
+          }
+        ]
+      },
+      "apply": [
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12a",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12a",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12a",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12a",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12b",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12b",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12b",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12b",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12c",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12c",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12c",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/12c",
+          "y": 270,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "layers": "7"
+          }
+        ]
+      },
+      "apply": [
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14a",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14a",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14a",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14a",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14b",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14b",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14b",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14b",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14c",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14c",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14c",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/14c",
+          "y": 270,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "layers": "8"
+          }
+        ]
+      },
+      "apply": [
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16a",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16a",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16a",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16a",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16b",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16b",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16b",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16b",
+          "y": 270,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16c",
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16c",
+          "y": 90,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16c",
+          "y": 180,
+          "weight": 1
+        },
+        {
+          "model": "varkin_system:block/verdix_trash_pile/16c",
+          "y": 270,
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

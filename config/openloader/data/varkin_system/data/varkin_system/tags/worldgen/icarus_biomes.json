@@ -1,0 +1,13 @@
+{
+  "values": [
+    "varkin_system:icarus_deltas",
+    "varkin_system:icarus_fractured_deltas",
+    "varkin_system:icarus_fractured_scorched_fields",
+    "varkin_system:icarus_fractured_wastes",
+    "varkin_system:icarus_rugged_wastes",
+    "varkin_system:icarus_ruptured_deltas",
+    "varkin_system:icarus_scorched_fields",
+    "varkin_system:icarus_striated_wastes",
+    "varkin_system:icarus_wastes"
+  ]
+}

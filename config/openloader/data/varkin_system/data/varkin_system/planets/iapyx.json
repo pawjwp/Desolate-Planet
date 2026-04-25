@@ -1,0 +1,10 @@
+{
+  "dimension": "varkin_system:iapyx",
+  "gravity": 9.807,
+  "orbit": "varkin_system:iapyx_orbit",
+  "oxygen": false,
+  "solar_power": 16,
+  "solar_system": "varkin_system:varkin_system",
+  "temperature": 15,
+  "tier": 2
+}

@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "minecraft:desert",
+    "biomes": "#desolate_planet:has_structure/mer_lab",
     "max_distance_from_center": 116,
     "project_start_to_heightmap": "WORLD_SURFACE_WG",
     "size": 4,
@@ -36,7 +36,7 @@
                     "type": "specialmobs:plaguezombie",
                     "maxCount": 4,
                     "minCount": 2,
-                    "weight": 1
+                    "weight": 2
                 },
                 {
                     "type": "specialmobs:lightningcreeper",
@@ -76,9 +76,9 @@
                 },
                 {
                     "type": "specialmobs:joltblaze",
-                    "maxCount": 4,
+                    "maxCount": 3,
                     "minCount": 1,
-                    "weight": 2
+                    "weight": 1
                 },
                 {
                     "type": "ad_astra:corrupted_lunarian",

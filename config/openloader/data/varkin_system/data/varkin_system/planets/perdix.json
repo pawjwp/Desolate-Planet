@@ -1,0 +1,10 @@
+{
+  "dimension": "varkin_system:perdix",
+  "gravity": 1.622,
+  "orbit": "varkin_system:perdix_orbit",
+  "oxygen": false,
+  "solar_power": 32,
+  "solar_system": "varkin_system:varkin_system",
+  "temperature": -173,
+  "tier": 1
+}

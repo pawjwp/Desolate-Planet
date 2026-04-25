@@ -45,6 +45,13 @@
     "curseForgeHash": 2983526960,
     "modrinthHash": "11ad483d1fd1f7ebd84b4940b1dc0926b3e9daa8"
   },
+  "alexscaves-2.0.2.jar": {
+    "jarName": "alexscaves-2.0.2.jar",
+    "modId": "alexscaves",
+    "version": "2.0.2",
+    "curseForgeHash": 3087031510,
+    "modrinthHash": "a1e5c7b7c7eadda4c8e954acbcbaf75a7b500d53"
+  },
   "alltheleaks-1.1.1+1.20.1-forge.jar": {
     "jarName": "alltheleaks-1.1.1+1.20.1-forge.jar",
     "modId": "alltheleaks",
@@ -92,6 +99,13 @@
     "version": "15.4.10",
     "curseForgeHash": 3615341742,
     "modrinthHash": "ac255a120499f79f8deade474da09e3c00ff9bad"
+  },
+  "aquamirae-forge-1.20.1-6.2.0.jar": {
+    "jarName": "aquamirae-forge-1.20.1-6.2.0.jar",
+    "modId": "aquamirae",
+    "version": "6.2.0",
+    "curseForgeHash": 3615878331,
+    "modrinthHash": "696977ebf6868113663fea7882862109e725a068"
   },
   "architectury-9.2.14-forge.jar": {
     "jarName": "architectury-9.2.14-forge.jar",
@@ -276,6 +290,13 @@
     "version": "1.2.9",
     "curseForgeHash": 2595079641,
     "modrinthHash": "c93eaf927fc3cc83e951712949ea97cd29a748f0"
+  },
+  "citadel-2.6.3-1.20.1.jar": {
+    "jarName": "citadel-2.6.3-1.20.1.jar",
+    "modId": "citadel",
+    "version": "2.6.3",
+    "curseForgeHash": 1762571121,
+    "modrinthHash": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316"
   },
   "citresewn-1.20.1-5.jar": {
     "jarName": "citresewn-1.20.1-5.jar",
@@ -645,14 +666,6 @@
     "curseForgeHash": 174485922,
     "modrinthHash": "27347879f8760a7bc0b4bd71977abc50e498811c"
   },
-  "functionalstorage-1.20.1-1.2.13.jar": {
-    "jarName": "functionalstorage-1.20.1-1.2.13.jar",
-    "modId": "functionalstorage",
-    "name": "Functional Storage",
-    "version": "1.20.1-1.2.13",
-    "curseForgeHash": 3224411910,
-    "modrinthHash": "052a7a94e46dbad7955a316f496a187764ae46f0"
-  },
   "fusion-1.2.12-forge-mc1.20.1.jar": {
     "jarName": "fusion-1.2.12-forge-mc1.20.1.jar",
     "modId": "fusion",
@@ -953,6 +966,12 @@
     "version": "2.0.3",
     "curseForgeHash": 500463479,
     "modrinthHash": "a11227479ddcddcb0eed3f9c3717c53fd5a47222"
+  "obscure_api-18.jar": {
+    "jarName": "obscure_api-18.jar",
+    "modId": "obscure_api",
+    "version": "18",
+    "curseForgeHash": 1237693652,
+    "modrinthHash": "d395153341a9a732fc80463c475b202d78675e28"
   },
   "oculus-mc1.20.1-1.8.0.jar": {
     "jarName": "oculus-mc1.20.1-1.8.0.jar",
@@ -1353,6 +1372,13 @@
     "version": "20.1.9",
     "curseForgeHash": 1441746516,
     "modrinthHash": "9a7f4ffdfe0dfe0a8071ac6501e52b1b4e208758"
+  },
+  "varkin_system-1.0.0.jar": {
+    "jarName": "varkin_system-1.0.0.jar",
+    "modId": "varkin_system",
+    "version": "1.0.0",
+    "curseForgeHash": 46205423,
+    "modrinthHash": "d6b88d8491620c730222e2950b07c1b851f1443b"
   },
   "worldedit-mod-7.2.15.jar": {
     "jarName": "worldedit-mod-7.2.15.jar",

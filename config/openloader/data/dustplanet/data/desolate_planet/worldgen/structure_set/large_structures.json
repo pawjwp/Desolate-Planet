@@ -2,30 +2,30 @@
   "structures": [
     {
       "structure": "desolate_planet:city",
-      "weight": 18
+      "weight": 1
     },
     {
       "structure": "desolate_planet:oil_rig",
-      "weight": 5
+      "weight": 3
     },
     {
       "structure": "desolate_planet:foundry_bastion",
-      "weight": 5
+      "weight": 3
     },
     {
       "structure": "desolate_planet:mer_lab",
-      "weight": 4
+      "weight": 2
     },
     {
       "structure": "desolate_planet:nuclear_plant",
-      "weight": 3
+      "weight": 5
     }
   ],
   "placement": {
     "type": "minecraft:concentric_rings",
     "distance": 8,
     "spread": 3,
-    "count": 128,
+    "count": 285,
     "preferred_biomes": "minecraft:desert",
     "salt": 0,
     "frequency": 1

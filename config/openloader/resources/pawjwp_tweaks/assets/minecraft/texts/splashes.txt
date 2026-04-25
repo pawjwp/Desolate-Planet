@@ -32,7 +32,7 @@ Visit our Discord!
 Contains Plasteel!
 In case of implosion, look directly at implosion
 Containing 1000% more dust!
-Welcome to T4L0S...
+Welcome to Talos...
 Don't fly too close to the sun!
 Streamline 2400
 Remember to breathe at least twice a day!
@@ -54,7 +54,7 @@ You have suffered minor head trauma
 Make it so!
 Tea, earl grey, hot
 Approaching the Varkin system!
-Approaching T4L0S!
+Approaching Talos!
 Picking up a distress call!
 Opening a channel!
 We can't get a clear reading!
@@ -81,7 +81,7 @@ All hands, brace for impact!
 Abandon ship!
 Eject the warp core!
 Congratulations on remaining alive
-You have survived a crash landing on Planet T4L0S
+You have survived a crash landing on Planet Talos
 Equipped with Multipurpose Assistance Terminal technology!
 Emergency Survival Mode activated!
 Scans indicate an arid environment

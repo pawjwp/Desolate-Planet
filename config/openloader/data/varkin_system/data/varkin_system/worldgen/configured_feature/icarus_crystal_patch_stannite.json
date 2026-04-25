@@ -1,0 +1,24 @@
+{
+  "type": "varkin_system:crystal_patch",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:base_stone_nether"
+        },
+        "state": {
+          "Name": "varkin_system:stannite_crystal_budding"
+        }
+      }
+    ],
+    "crystal_size": 8,
+    "budding_size": 4,
+    "xz_spread": 4,
+    "y_spread": 2,
+    "small_crystal": "varkin_system:stannite_crystal_small",
+    "medium_crystal": "varkin_system:stannite_crystal_medium",
+    "large_crystal": "varkin_system:stannite_crystal_large",
+    "crystal_cluster": "varkin_system:stannite_crystal_cluster"
+  }
+}
