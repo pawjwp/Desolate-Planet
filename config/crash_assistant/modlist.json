@@ -48,6 +48,7 @@
   "alexscaves-2.0.2.jar": {
     "jarName": "alexscaves-2.0.2.jar",
     "modId": "alexscaves",
+    "name": "Alex\u0027s Caves",
     "version": "2.0.2",
     "curseForgeHash": 3087031510,
     "modrinthHash": "a1e5c7b7c7eadda4c8e954acbcbaf75a7b500d53"
@@ -103,6 +104,7 @@
   "aquamirae-forge-1.20.1-6.2.0.jar": {
     "jarName": "aquamirae-forge-1.20.1-6.2.0.jar",
     "modId": "aquamirae",
+    "name": "Aquamirae",
     "version": "6.2.0",
     "curseForgeHash": 3615878331,
     "modrinthHash": "696977ebf6868113663fea7882862109e725a068"
@@ -294,6 +296,7 @@
   "citadel-2.6.3-1.20.1.jar": {
     "jarName": "citadel-2.6.3-1.20.1.jar",
     "modId": "citadel",
+    "name": "Citadel",
     "version": "2.6.3",
     "curseForgeHash": 1762571121,
     "modrinthHash": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316"
@@ -927,12 +930,37 @@
     "curseForgeHash": 3685155606,
     "modrinthHash": "ed76cfb172a370919ebfd0143369fdea37c6fc18"
   },
+  "Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar": {
+    "jarName": "Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
+    "modId": "nerb",
+    "name": "Not Enough Recipe Book",
+    "version": "0.4.1",
+    "curseForgeHash": 1367373369,
+    "modrinthHash": "c0806369f4257149664904db44efc60bd1785c17"
+  },
   "obscure_api-18.jar": {
     "jarName": "obscure_api-18.jar",
     "modId": "obscure_api",
+    "name": "Obscure API",
     "version": "18",
     "curseForgeHash": 1237693652,
     "modrinthHash": "d395153341a9a732fc80463c475b202d78675e28"
+  },
+  "OctoLib-FORGE-0.5.0.1+1.20.1.jar": {
+    "jarName": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+    "modId": "octolib",
+    "name": "OctoLib",
+    "version": "0.5.0.1",
+    "curseForgeHash": 2265070471,
+    "modrinthHash": "9eab28baff36942e1c924489e34753df10f40208"
+  },
+  "oculus-flywheel-compat-Forge-2.0.3.jar": {
+    "jarName": "oculus-flywheel-compat-Forge-2.0.3.jar",
+    "modId": "irisflw",
+    "name": "Oculus Flywheel Compat",
+    "version": "2.0.3",
+    "curseForgeHash": 500463479,
+    "modrinthHash": "a11227479ddcddcb0eed3f9c3717c53fd5a47222"
   },
   "oculus-mc1.20.1-1.8.0.jar": {
     "jarName": "oculus-mc1.20.1-1.8.0.jar",
@@ -1337,9 +1365,10 @@
   "varkin_system-1.0.0.jar": {
     "jarName": "varkin_system-1.0.0.jar",
     "modId": "varkin_system",
+    "name": "Varkin System",
     "version": "1.0.0",
-    "curseForgeHash": 46205423,
-    "modrinthHash": "d6b88d8491620c730222e2950b07c1b851f1443b"
+    "curseForgeHash": 3475514529,
+    "modrinthHash": "833dabe407b8e3dc840ddc834cbb7369bbff69f4"
   },
   "worldedit-mod-7.2.15.jar": {
     "jarName": "worldedit-mod-7.2.15.jar",
