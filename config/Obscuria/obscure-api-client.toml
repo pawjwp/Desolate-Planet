@@ -3,13 +3,13 @@
 	#Allowed Values: DISPLAY_ALL, DISPLAY_MY, DISPLAY_OTHERS, HIDE
 	"Pet Mode" = "DISPLAY_ALL"
 	#Range: -1024 ~ 1024
-	"Mods Button Offset X" = 0
+	"Mods Button Offset X" = -1024
 	#Range: -1024 ~ 1024
 	"Mods Button Offset Y" = 0
 
 [Tooltips]
 	#Display food properties in tooltips
-	"Food Icons" = true
+	"Food Icons" = false
 	#Display equipment attributes in tooltips
-	"Equipment Icons" = true
+	"Equipment Icons" = false
 
