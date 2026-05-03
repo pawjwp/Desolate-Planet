@@ -125,6 +125,48 @@ ServerEvents.recipes(event => {
         }
     ).id('desolate_planet:pie_crust_from_water');
 
+    // Add sugar to cookies
+    event.remove({ output: 'minecraft:cookie' });
+    event.shapeless(
+        Item.of('minecraft:cookie', 8), [
+        'minecraft:cocoa_beans',
+        '#forge:dough_bases',
+        '#forge:dough_bases',
+        'minecraft:sugar'
+    ]
+    ).id('desolate_planet:cookie_with_sugar');
+
+    event.remove({ output: 'farmersdelight:sweet_berry_cookie' });
+    event.shapeless(
+        Item.of('farmersdelight:sweet_berry_cookie', 8), [
+        'minecraft:sweet_berries',
+        '#forge:dough_bases',
+        '#forge:dough_bases',
+        'minecraft:sugar'
+    ]
+    ).id('desolate_planet:sweet_berry_cookie_with_sugar');
+
+    event.remove({ output: 'farmersdelight:honey_cookie' });
+    event.shapeless(
+        Item.of('farmersdelight:honey_cookie', 8), [
+        'minecraft:honey_bottle',
+        '#forge:dough_bases',
+        '#forge:dough_bases',
+        'minecraft:sugar'
+    ]
+    ).id('desolate_planet:honey_cookie_with_sugar');
+
+    event.remove({ output: 'legumedelight:peanut_butter_cookie' });
+    event.shapeless(
+        Item.of('legumedelight:peanut_butter_cookie', 8), [
+        '#forge:peanut_butter',
+        '#forge:dough_bases',
+        '#forge:dough_bases',
+        'minecraft:sugar'
+    ]
+    ).id('desolate_planet:peanut_butter_cookie_with_sugar');
+
+
 
 
     // Straw-related items
