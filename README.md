@@ -82,7 +82,7 @@ A: The quests include 3 recommended energy sources. The first is the _Pitiful Ge
 
 ### Q: Why does the modpack use Hardcore Questing Mode (HQM) instead of FTB Quests?
 
-A: HQM was initially chosen because it was used in the original Crash Landing modpack. We’ve stuck with the mod both because of that and because FTB quests is licensed in a very restrictive way. Due to the FTB team’s exclusivity deal with Curseforge, modpacks using their mods are not allowed on Modrinth. There are a few other quest mods available (Better Questing and Odyssey Quests), but I find the gameplay experience to be lacking a bit compared to HQM and FTB Quests.
+A: HQM was initially chosen because it was used in the original Crash Landing modpack. We’ve stuck with the mod both because of that and because FTB quests is licensed in a restrictive way. Due to the FTB team’s exclusivity with Curseforge, modpacks using their mods are not allowed on Modrinth. There are a few other quest mods available (Better Questing and Odyssey Quests), but I find the gameplay experience to be lacking a bit compared to HQM and FTB Quests.
 
 ### Q: How do I get seared bricks/grout for a smeltery?
 
@@ -94,7 +94,7 @@ A: Go to the Options menu, click the Cold Sweat button on the left, and change t
 
 ### Q: Why do structures generate in the same spot on every world?
 
-A: All worlds currently use the same seed, which allows gameplay to be balanced more tightly. This way, we can ensure players spawn in the right biome and that the late-game structures are further from spawn than the early-game ones. Someday we may switch to a different world generation system that would allow these things to be controlled individually instead of by seed, but that’s a long way away.
+A: All worlds currently use the same seed, which allows gameplay to be balanced more tightly. This way, we can ensure players spawn in the right biome and that the late-game structures are further from spawn than the early-game ones. Soon we will switch to a different world generation system which allows greater control over biome and structure placement. After that update, a preset seed will still be used, but manually setting a custom seed will no longer completely break the balance of the world.
 
 ### Q: Can I help develop/contribute to the modpack?
 
@@ -115,7 +115,7 @@ Developed by:
 
 *   [Pawjwp](https://modrinth.com/user/pawjwp) (Current lead developer)
 *   [MarkSDR](https://modrinth.com/user/MarkSDR) (Former lead developer)
-*   [ULSTICK](https://linktr.ee/ULSTICK) (Structures and other immersive content)
+*   [ULSTICK](https://linktr.ee/ULSTICK) (Builder and developer)
 
 Other contributers:
 

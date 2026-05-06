@@ -28,11 +28,11 @@ Or through the Subreddit: [https://www.reddit.com/r/CrashLanding2Modpack](https:
 
 ### Q: How do I install the modpack?
 
-A: Download the Modrinth or Curseforge app, search for the name of the pack, and click install. Make sure you are using 6-8 GB of RAM in the modpack or launcher’s settings.
+A: Download the Curseforge or Modrinth app, search for the name of the pack, and click install. Make sure you are using 6-8 GB of RAM in the modpack or launcher’s settings.
 
 ### Q: How can I play multiplayer?
 
-A: The [e4mc](https://modrinth.com/mod/e4mc) mod is installed. To play multiplayer, simply open your world to LAN, and it will print an address in chat that other players can join with.
+A: The [e4mc](https://www.curseforge.com/minecraft/mc-mods/e4mc) mod is installed. To play multiplayer, simply open your world to LAN, and it will print an address in chat that other players can join with.
 
 ### Q: How do I set up a server? Do you have a server pack?
 
@@ -68,7 +68,7 @@ A: The quests include 3 recommended energy sources. The first is the _Pitiful Ge
 
 ### Q:Why does the modpack use Hardcore Questing Mode (HQM) instead of FTB Quests?
 
-A: HQM was initially chosen because it was used in the original Crash Landing modpack. We’ve stuck with the mod both because of that and because FTB quests is licensed in a very restrictive way. Due to the FTB team’s exclusivity deal with Curseforge, modpacks using their mods are not allowed on Modrinth. There are a few other quest mods available (Better Questing and Odyssey Quests), but I find the gameplay experience to be lacking a bit compared to HQM and FTB Quests.
+A: HQM was initially chosen because it was used in the original Crash Landing modpack. We’ve stuck with the mod both because of that and because FTB quests is licensed in a restrictive way. Due to the FTB team’s exclusivity with Curseforge, modpacks using their mods are not allowed on Modrinth. There are a few other quest mods available (Better Questing and Odyssey Quests), but I find the gameplay experience to be lacking a bit compared to HQM and FTB Quests.
 
 ### Q: How do I get seared bricks/grout for a smeltery?
 
@@ -80,7 +80,7 @@ A: Go to the Options menu, click the Cold Sweat button on the left, and change t
 
 ### Q:Why do structures generate in the same spot on every world?
 
-A: All worlds currently use the same seed, which allows gameplay to be balanced more tightly. This way, we can ensure players spawn in the right biome and that the late-game structures are further from spawn than the early-game ones. Someday we may switch to a different world generation system that would allow these things to be controlled individually instead of by seed, but that’s a long way away.
+A: All worlds currently use the same seed, which allows gameplay to be balanced more tightly. This way, we can ensure players spawn in the right biome and that the late-game structures are further from spawn than the early-game ones. Soon we will switch to a different world generation system which allows greater control over biome and structure placement. After that update, a preset seed will still be used, but manually setting a custom seed will no longer completely break the balance of the world.
 
 ### Q: Can I help develop/contribute to the modpack?
 
@@ -101,7 +101,7 @@ Developed by:
 
 *   [Pawjwp](https://www.curseforge.com/members/pawjwp/projects) (Current lead developer)
 *   [MarkSDR](https://www.curseforge.com/members/marksdr/projects) (Former lead developer)
-*   [ULSTICK](https://linktr.ee/ULSTICK) (Structures and other immersive content)
+*   [ULSTICK](https://linktr.ee/ULSTICK) (Builder and developer)
 
 Other contributers:
 
