@@ -930,14 +930,6 @@
     "curseForgeHash": 2265070471,
     "modrinthHash": "9eab28baff36942e1c924489e34753df10f40208"
   },
-  "oculus-flywheel-compat-Forge-2.0.3.jar": {
-    "jarName": "oculus-flywheel-compat-Forge-2.0.3.jar",
-    "modId": "irisflw",
-    "name": "Oculus Flywheel Compat",
-    "version": "2.0.3",
-    "curseForgeHash": 500463479,
-    "modrinthHash": "a11227479ddcddcb0eed3f9c3717c53fd5a47222"
-  },
   "oculus-mc1.20.1-1.8.0.jar": {
     "jarName": "oculus-mc1.20.1-1.8.0.jar",
     "modId": "oculus",
