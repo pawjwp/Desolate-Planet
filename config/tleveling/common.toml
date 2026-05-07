@@ -17,9 +17,16 @@
 	#The exponential increase between tool exp levels. Default is 2.0
 	#Range: 0.0 ~ 2.147483647E9
 	levelupExpIncrease = 2.0
-	#The randomness factor when gaining exp.
+	#The randomness factor when gaining exp. Default is 0.5
 	#A value of 1 means that the tool's exp gain will be randomized from +-100% of what it was
 	#For example, if a tool gains 5 exp with a randomness factor of 1, it can gain anywhere from 0 to 10 exp.
 	#Range: 0.0 ~ 1.0
 	randomnessFactor = 0.5
+	#The amount the current exp is divided by when a part of the tool is replaced. Default is 2.0
+	#A value of 0 means that it will be reset to 0
+	#A value of 1 means that the exp will not be affected
+	#A value of > 1 is what the exp will be divded by when a tool part is replaced
+	#For example, a value of 2 means that if a tool has 50 exp it will have 25 exp after a part is replaced
+	#Range: 0.0 ~ 2.147483647E9
+	expLossOnReplace = 1.0
 

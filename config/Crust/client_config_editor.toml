@@ -55,3 +55,15 @@
   # The searchbar will still auto-scroll to the first match even if this is disabled.
   # <Boolean> Valid Values: { true, false }, Default: true
   searchbar_properties.show_search_highlights = true
+  # If the above setting is enabled, this field determines the highlight color for search results.
+  # <Integer> Range: Any Value, Default: 0x45FFFF5D
+  searchbar_properties.highlight_color = 0x45FFFF5D
+
+
+# Category: misc
+# Contains settings that don't fit in other categories.
+
+  # If true, the "broken configs" screen will not open when trying to load a world if any Crust-based configs are
+  #   broken.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  misc.ignore_broken_configs = false

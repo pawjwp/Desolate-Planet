@@ -1,0 +1,11 @@
+# crust:utilities.toml
+# This config contains options related to verious tools and utilities provided by Crust.
+
+
+# Category: feature_generator
+# Options that apply to the 'feature generator' structure block.
+
+    # If enabled, the feature generator will print console warnings for debug when something might have gone wrong
+    #   during placement.
+    # <Boolean> Valid Values: { true, false }, Default: false
+    feature_generator.debug_mode = false
