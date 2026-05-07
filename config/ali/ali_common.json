@@ -1,5 +1,5 @@
 {
-  "configVersion": 1,
+  "configVersion": 2,
   "blockCategories": [
     {
       "key": "ali:plant_loot",
