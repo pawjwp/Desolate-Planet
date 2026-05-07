@@ -309,6 +309,14 @@
     "curseForgeHash": 1537661902,
     "modrinthHash": "14928c245ac6966bf9316be5233a8aead943e6d4"
   },
+  "colorwheel-forge-1.2.4+mc1.20.1.jar": {
+    "jarName": "colorwheel-forge-1.2.4+mc1.20.1.jar",
+    "modId": "colorwheel",
+    "name": "Colorwheel",
+    "version": "1.2.4+mc1.20.1",
+    "curseForgeHash": 3678749067,
+    "modrinthHash": "121decb79e1e171a7dcf2e4bcae3c77023a4426f"
+  },
   "comforts-forge-6.4.0+1.20.1.jar": {
     "jarName": "comforts-forge-6.4.0+1.20.1.jar",
     "modId": "comforts",
@@ -428,6 +436,14 @@
     "version": "1.20.1-1.3.3",
     "curseForgeHash": 3687173912,
     "modrinthHash": "c7d464c451fdc2979bc29a67d7eec2a30858af12"
+  },
+  "createbetterfps-1.20.1-1.1.2.jar": {
+    "jarName": "createbetterfps-1.20.1-1.1.2.jar",
+    "modId": "createbetterfps",
+    "name": "CreateBetterFps",
+    "version": "1.1.2",
+    "curseForgeHash": 2685494447,
+    "modrinthHash": "e3906e1b5cc33ad9ff930fc65b316564a3059fbf"
   },
   "createdeco-2.0.3-1.20.1-forge.jar": {
     "jarName": "createdeco-2.0.3-1.20.1-forge.jar",
@@ -700,6 +716,14 @@
     "version": "1.20-1.9",
     "curseForgeHash": 3605028204,
     "modrinthHash": "30b93c2a4050e2871a9e44ad4fc805079346c457"
+  },
+  "ImmediatelyFast-Forge-1.5.4+1.20.4.jar": {
+    "jarName": "ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+    "modId": "immediatelyfast",
+    "name": "ImmediatelyFast",
+    "version": "1.5.4+1.20.4",
+    "curseForgeHash": 4234781540,
+    "modrinthHash": "e2e60485a0c3efa72f1948c952b095150e3ba4fc"
   },
   "immersive_weathering-1.20.1-2.0.5-forge.jar": {
     "jarName": "immersive_weathering-1.20.1-2.0.5-forge.jar",
