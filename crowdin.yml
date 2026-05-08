@@ -1,0 +1,5 @@
+files:
+  - source: /kubejs/assets/desolate_planet/lang/en_us.json
+    translation: /kubejs/assets/desolate_planet/lang/%locale_with_underscore%.json
+  - source: /config/crash_assistant/crash_assistant_localization_overrides/en_us.json
+    translation: /config/crash_assistant/crash_assistant_localization_overrides/%locale_with_underscore%.json
