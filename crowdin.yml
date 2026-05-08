@@ -3,3 +3,7 @@ files:
     translation: /kubejs/assets/desolate_planet/lang/%locale_with_underscore%.json
   - source: /config/crash_assistant/crash_assistant_localization_overrides/en_us.json
     translation: /config/crash_assistant/crash_assistant_localization_overrides/%locale_with_underscore%.json
+  - source: /kubejs/assets/tips/lang/en_us.json
+    translation: /kubejs/assets/tips/lang/%locale_with_underscore%.json
+  - source: /kubejs/assets/hardcorequesting/lang/en_us.json
+    translation: /kubejs/assets/hardcorequesting/lang/%locale_with_underscore%.json
