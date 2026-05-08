@@ -22,18 +22,3 @@ StartupEvents.registry('item', event => {
 
     //event.createCustom('white_ship_chair', () => new $BlockItem(whiteShipChair.get(), new $IProperties()))
 })
-
-StartupEvents.registry("block", (event) => {
-	
-  event.create('controller_frame')
-    .displayName('Controller Frame')
-    .mapColor('heavy_metal')
-    .soundType('metal')
-    .hardness(4.0)
-    .resistance(6.0)
-    .requiresTool(true)
-    .tagBlock('mineable/pickaxe')
-    .textureAll('kubejs:block/controller_frame')
-	.defaultCutout()
-
-})

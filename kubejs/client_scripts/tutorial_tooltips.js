@@ -1,47 +1,47 @@
 ItemEvents.tooltip(event => {
     // Misc
-    event.addAdvanced("minecraft:oak_sapling", (item, advanced, text) => { text.add(1, Text.green("Oak trees have bonus drop chances when using a crook."));});
-    event.addAdvanced("exdeorum:crook", (item, advanced, text) => { text.add(1, Text.gray("Can be used to break leaves to increase sapling drops and get silk worms."));});
-    event.addAdvanced("exdeorum:bone_crook", (item, advanced, text) => { text.add(1, Text.gray("Can be used to break leaves to increase sapling drops and get silk worms."));});
+    event.addAdvanced("minecraft:oak_sapling", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.oak_tree_drop_chance_crook").green());});
+    event.addAdvanced("exdeorum:crook", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.crook_increases_drops").gray());});
+    event.addAdvanced("exdeorum:bone_crook", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.crook_increases_drops").gray());});
     event.addAdvanced("thermal:phytogro", (item, advanced, text) => {
         text.remove(1);
-        text.add(1, Text.gray("A potent fertilizer, used like bone meal"));
-        text.add(1, Text.gray("Will only be consumed 25% of the time"));
+        text.add(1, Text.translate("tooltip.desolate_planet.phyto_gro_description").gray());
+        text.add(1, Text.translate("tooltip.desolate_planet.phyto_gro_consumption_rate").gray());
     });
-    event.addAdvanced("kubejs:paste", (item, advanced, text) => { text.add(1, Text.gray("Usable as a slimeball substitute in many recipes."));});
-    event.addAdvanced(["minecraft:clay", "minecraft:clay_ball"], (item, advanced, text) => { text.add(1, Text.gray("Made by placing dust into a barrel of water"));});
-    event.addAdvanced("minecraft:netherrack", (item, advanced, text) => { text.add(1, Text.gray("Can be made in small quantities by placing redstone dust in a barrel of lava."));});
-    event.addAdvanced("minecraft:netherrack", (item, advanced, text) => { text.add(2, Text.gray("Can be automated with an extruder by casting liquid redstone with lava."));});
-    event.addAdvanced("minecraft:end_stone", (item, advanced, text) => { text.add(1, Text.gray("Can be in made small quantities by placing glowstone dust in a barrel of lava."));});
-    event.addAdvanced("minecraft:end_stone", (item, advanced, text) => { text.add(2, Text.gray("Can be automated with an extruder by casting liquid ender with lava."));});
-    event.addAdvanced("biggerreactors:blutonium_ingot", (item, advanced, text) => { text.add(1, Text.gray("Processed from Cyanite in a Cyanite Reprocessor."));});
-    event.addAdvanced("kubejs:controller_frame", (item, advanced, text) => { text.add(1, Text.gray("Can be duplicated in an inscriber with a compressed iron block.")); });
-    event.addAdvanced("thermal:device_nullifier", (item, advanced, text) => { text.add(1, Text.gray("Functions like a trash can, voiding inserted items and liquids.")); });
-    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => { text.add(1, Text.gray("Place next to a power source and right-click to provide a DNA sample.")); });
+    event.addAdvanced("kubejs:paste", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.paste_uses").gray());});
+    event.addAdvanced(["minecraft:clay", "minecraft:clay_ball"], (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.clay_crafting").gray());});
+    event.addAdvanced("minecraft:netherrack", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.netherrack_crafting").gray());});
+    event.addAdvanced("minecraft:netherrack", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.netherrack_automating").gray());});
+    event.addAdvanced("minecraft:end_stone", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.end_stone_crafting").gray());});
+    event.addAdvanced("minecraft:end_stone", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.end_stone_automating").gray());});
+    event.addAdvanced("biggerreactors:blutonium_ingot", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.blutonium_from_cyanite").gray());});
+    event.addAdvanced("kubejs:controller_frame", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.controller_frame_duplication").gray()); });
+    event.addAdvanced("thermal:device_nullifier", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.nullifier_trashing").gray()); });
+    event.addAdvanced("sync:shell_constructor", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.shell_constructor_usage").gray()); });
     event.addAdvanced("tconstruct:dragon_scale", (item, advanced, text) => {
         text.remove(1);
-        text.add(1, Text.gray("A remnant of a lost world... don't use up your last one!"));
-        text.add(2, Text.gray("Renewable by combining with phantom membrane."));
+        text.add(1, Text.translate("tooltip.desolate_planet.dragon_scale_warning").gray());
+        text.add(2, Text.translate("tooltip.desolate_planet.dragon_scale_crafting").gray());
     });
 
     // PCBs
-    event.addAdvanced("pneumaticcraft:plastic", (item, advanced, text) => { text.add(1, Text.gray("Made by refining oil or melting plastic scraps from cities."));});
-    event.addAdvanced("pneumaticcraft:plastic", (item, advanced, text) => { text.add(2, [Text.gray("Follow the quests in "), Text.white("Under Pressure"), Text.gray(" for plastic refining instructions.")]); });
-    event.addAdvanced("pneumaticcraft:printed_circuit_board", (item, advanced, text) => { text.add(1, [Text.gray("Follow the quests in "), Text.white("Under Pressure"), Text.gray(" for crafting instructions.")]); });
-    event.addAdvanced("kubejs:pcb_segment", (item, advanced, text) => { text.add(1, [Text.gray("Crafted from a PCB, follow the quests in "), Text.white("Under Pressure"), Text.gray(" for PCB crafting instructions.")]); });
-    event.addAdvanced("thermal:machine_frame", (item, advanced, text) => { text.add(1, Text.gray("A unified base material for machine crafting across multiple mods."));});
-    event.addAdvanced("thermal:machine_frame", (item, advanced, text) => { text.add(2, [Text.gray("Requires a PCB, follow the quests in "), Text.white("Under Pressure"), Text.gray(" for PCB crafting instructions.")]); });
+    event.addAdvanced("pneumaticcraft:plastic", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.plastic_sources").gray());});
+    event.addAdvanced("pneumaticcraft:plastic", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.plastic_refining_instructions", Text.translate("tooltip.desolate_planet.quest_book_under_pressure").white()).gray()); });
+    event.addAdvanced("pneumaticcraft:printed_circuit_board", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.pcb_crafting_instructions", Text.translate("tooltip.desolate_planet.quest_book_under_pressure").white()).gray()); });
+    event.addAdvanced("kubejs:pcb_segment", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.pcb_segment_instructions", Text.translate("tooltip.desolate_planet.quest_book_under_pressure").white()).gray()); });
+    event.addAdvanced("thermal:machine_frame", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.machine_frame_description").gray());});
+    event.addAdvanced("thermal:machine_frame", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.machine_frame_crafting_instructions", Text.translate("tooltip.desolate_planet.quest_book_under_pressure").white()).gray()); });
 
     // ExDeorum
-    event.addAdvanced("exdeorum:silk_worm", (item, advanced, text) => { text.add(1, Text.gray("Right-click leaves to infest. Fully infested leaf blocks drop string, more with a crook."));});
-    event.addAdvanced("exdeorum:porcelain_crucible", (item, advanced, text) => { text.add(1, Text.gray("Usable as a mini-smeltery. Can melt down ores."));});
+    event.addAdvanced("exdeorum:silk_worm", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.silk_worm_usage").gray());});
+    event.addAdvanced("exdeorum:porcelain_crucible", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.crucible_usage").gray());});
 
-    event.addAdvanced("exdeorum:string_mesh", (item, advanced, text) => { text.add(1, Text.gray("The most basic mesh type. Upgrade with flint for better yields."));});
-    event.addAdvanced("exdeorum:flint_mesh", (item, advanced, text) => { text.add(1, Text.gray("An upgrade to String Mesh. Provides higher yields and higher tier drops."));});
-    event.addAdvanced("exdeorum:iron_mesh", (item, advanced, text) => { text.add(1, Text.gray("An upgrade to Flint Mesh. Provides higher yields and higher tier drops."));});
-    event.addAdvanced("exdeorum:golden_mesh", (item, advanced, text) => { text.add(1, Text.gray("An upgrade to Iron Mesh. Provides higher yields and higher tier drops."));});
-    event.addAdvanced("exdeorum:diamond_mesh", (item, advanced, text) => { text.add(1, Text.gray("An upgrade to Golden Mesh. Provides higher yields and higher tier drops."));});
-    event.addAdvanced("exdeorum:netherite_mesh", (item, advanced, text) => { text.add(1, Text.gray("An upgrade to Diamond Mesh. Provides the highest yields."));});
+    event.addAdvanced("exdeorum:string_mesh", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.string_mesh_description").gray());});
+    event.addAdvanced("exdeorum:flint_mesh", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.flint_mesh_description").gray());});
+    event.addAdvanced("exdeorum:iron_mesh", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.iron_mesh_description").gray());});
+    event.addAdvanced("exdeorum:golden_mesh", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.golden_mesh_description").gray());});
+    event.addAdvanced("exdeorum:diamond_mesh", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.diamond_mesh_description").gray());});
+    event.addAdvanced("exdeorum:netherite_mesh", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.netherite_mesh_description").gray());});
     [
         "exdeorum:wooden_hammer",
         "exdeorum:stone_hammer",
@@ -51,7 +51,7 @@ ItemEvents.tooltip(event => {
         "exdeorum:netherite_hammer"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.gray("Can be used to smash stone into gravel, sand, and then dust."));});
+            text.add(1, Text.translate("tooltip.desolate_planet.hammer_usage").gray());});
     });
     [
         "exdeorum:compressed_wooden_hammer",
@@ -62,10 +62,10 @@ ItemEvents.tooltip(event => {
         "exdeorum:compressed_netherite_hammer"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.gray("Can be used to smash compressed stone into gravel, sand, and then dust."));});
+            text.add(1, Text.translate("tooltip.desolate_planet.compressed_hammer_usage").gray());});
     });
     event.addAdvanced("exdeorum:mechanical_hammer", (item, advanced, text) => {
-        text.add(1, [Text.red("Warning: "), Text.gray("The mechanical hammer will damage and consume tinkers hammers like normal tools!")]);
+        text.add(1, Text.translate("tooltip.desolate_planet.mechanical_hammer_warning", Text.translate("tooltip.desolate_planet.warning_prefix").red()).gray());
     });
 
     // Seeds
@@ -88,13 +88,13 @@ ItemEvents.tooltip(event => {
         "scarcity:sweet_berry_seeds"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.gray("From sifting dirt or from chests in the ruins"));
+            text.add(1, Text.translate("tooltip.desolate_planet.seeds_dirt_or_ruins").gray());
         });
     });
-    event.addAdvanced("scarcity:carrot_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into carrots when planted on farmland")); });
-    event.addAdvanced("scarcity:onion_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into onions when planted on farmland")); });
-    event.addAdvanced("scarcity:potato_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into potatoes when planted on farmland")); });
-    event.addAdvanced("scarcity:sweet_berry_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into sweet berries when planted on farmland")); });
+    event.addAdvanced("scarcity:carrot_seeds", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_carrots").gray()); });
+    event.addAdvanced("scarcity:onion_seeds", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_onions").gray()); });
+    event.addAdvanced("scarcity:potato_seeds", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_potatoes").gray()); });
+    event.addAdvanced("scarcity:sweet_berry_seeds", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_sweet_berries").gray()); });
 
     // From dirt
     [
@@ -105,12 +105,12 @@ ItemEvents.tooltip(event => {
         "scarcity:sugar_cane_seeds"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.gray("From sifting dirt"));
+            text.add(1, Text.translate("tooltip.desolate_planet.seeds_dirt").gray());
         });
     });
-    event.addAdvanced("scarcity:bamboo_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into bamboo when planted on dirt or grass")); });
-    event.addAdvanced("scarcity:cactus_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into cactus when planted on sand")); });
-    event.addAdvanced("scarcity:sugar_cane_seeds", (item, advanced, text) => { text.add(2, Text.gray("Turns into sugar cane when planted on dirt or sand")); });
+    event.addAdvanced("scarcity:bamboo_seeds", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_bamboo").gray()); });
+    event.addAdvanced("scarcity:cactus_seeds", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_cactus").gray()); });
+    event.addAdvanced("scarcity:sugar_cane_seeds", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_sugar_cane").gray()); });
 
     // From dirt or podzol
     [
@@ -120,13 +120,13 @@ ItemEvents.tooltip(event => {
         "scarcity:rubberwood_seed"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.gray("From sifting dirt or podzol"));
+            text.add(1, Text.translate("tooltip.desolate_planet.seeds_dirt_or_podzol").gray());
         });
     });
-    event.addAdvanced("scarcity:oak_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into an oak sapling when planted on dirt or grass")); });
-    event.addAdvanced("scarcity:spruce_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a spruce sapling when planted on dirt or grass")); });
-    event.addAdvanced("scarcity:birch_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a birch sapling when planted on dirt or grass")); });
-    event.addAdvanced("scarcity:rubberwood_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a rubberwood sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:oak_seed", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_oak").gray()); });
+    event.addAdvanced("scarcity:spruce_seed", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_spruce").gray()); });
+    event.addAdvanced("scarcity:birch_seed", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_birch").gray()); });
+    event.addAdvanced("scarcity:rubberwood_seed", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_rubberwood").gray()); });
 
     // From podzol
     [
@@ -137,83 +137,83 @@ ItemEvents.tooltip(event => {
         "minecraft:mangrove_propagule"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.gray("From sifting podzol"));
+            text.add(1, Text.translate("tooltip.desolate_planet.seeds_podzol").gray());
         });
     });
-    event.addAdvanced("scarcity:jungle_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a jungle sapling when planted on dirt or grass")); });
-    event.addAdvanced("scarcity:dark_oak_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a dark oak sapling when planted on dirt or grass")); });
-    event.addAdvanced("scarcity:acacia_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into an acacia sapling when planted on dirt or grass")); });
-    event.addAdvanced("scarcity:cherry_seed", (item, advanced, text) => { text.add(2, Text.gray("Turns into a cherry sapling when planted on dirt or grass")); });
+    event.addAdvanced("scarcity:jungle_seed", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_jungle").gray()); });
+    event.addAdvanced("scarcity:dark_oak_seed", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_dark_oak").gray()); });
+    event.addAdvanced("scarcity:acacia_seed", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_acacia").gray()); });
+    event.addAdvanced("scarcity:cherry_seed", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.seeds_cherry").gray()); });
 
 
     // Sieving blocks
-    event.addAdvanced("exdeorum:sieve", (item, advanced, text) => { text.add(2, Text.gray("Sifts blocks into useful items. Up to 9 sieves can be sifted simultaneously.")); });
+    event.addAdvanced("exdeorum:sieve", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.sieve_usage").gray()); });
 
     event.addAdvanced("exdeorum:dust", (item, advanced, text) => {
-        text.add(1, Text.gray("Found across the surface or made from crushing sand"));
-        text.add(2, Text.gray("Sifts into common ore chunks, plus redstone, bone meal, and pebbles"));
+        text.add(1, Text.translate("tooltip.desolate_planet.dust_sources").gray());
+        text.add(2, Text.translate("tooltip.desolate_planet.dust_sift_results").gray());
     });
     event.addAdvanced("minecraft:sand", (item, advanced, text) => {
-        text.add(1, Text.gray("Found underground or made from crushing gravel"));
-        text.add(2, Text.gray("Sifts into uncommon ore chunks, plus quartz and certus quartz"));
+        text.add(1, Text.translate("tooltip.desolate_planet.sand_sources").gray());
+        text.add(2, Text.translate("tooltip.desolate_planet.sand_sift_results").gray());
     });
     event.addAdvanced("minecraft:gravel", (item, advanced, text) => {
-        text.add(1, Text.gray("Found underground or made from crushing cobblestone"));
-        text.add(2, Text.gray("Sifts into common, uncommon, and rare ore chunks, plus flint, coal, redstone, and diamonds"));
+        text.add(1, Text.translate("tooltip.desolate_planet.gravel_sources").gray());
+        text.add(2, Text.translate("tooltip.desolate_planet.gravel_sift_results").gray());
     });
     event.addAdvanced("exdeorum:crushed_deepslate", (item, advanced, text) => {
-        text.add(1, Text.gray("Found deep underground or made from crushing deepslate"));
-        text.add(2, Text.gray("Sifts into common, rare, and very rare ore chunks, plus redstone, lapis, and gemstones"));
+        text.add(1, Text.translate("tooltip.desolate_planet.crushed_deepslate_sources").gray());
+        text.add(2, Text.translate("tooltip.desolate_planet.crushed_deepslate_sift_results").gray());
     });
 
-    event.addAdvanced("minecraft:red_sand", (item, advanced, text) => { text.add(1, Text.gray("Sifts into common ore chunks, plus redstone and quartz"));});
+    event.addAdvanced("minecraft:red_sand", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.red_sand_sift_results").gray());});
 
-    event.addAdvanced("minecraft:dirt", (item, advanced, text) => { text.add(1, Text.gray("Sifts into pebbles and various seeds"));});
-    event.addAdvanced("minecraft:moss_block", (item, advanced, text) => { text.add(1, Text.gray("Sifts into various flowers"));});
-    event.addAdvanced("minecraft:podzol", (item, advanced, text) => { text.add(1, Text.gray("Sifts into slime and various saplings"));});
+    event.addAdvanced("minecraft:dirt", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.dirt_sift_results").gray());});
+    event.addAdvanced("minecraft:moss_block", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.moss_sift_results").gray());});
+    event.addAdvanced("minecraft:podzol", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.podzol_sift_results").gray());});
 
-    event.addAdvanced("exdeorum:crushed_netherrack", (item, advanced, text) => { text.add(1, Text.gray("Sifts into nether ingredients, with higher chances of crimson/warped items"));});
-    event.addAdvanced("exdeorum:crushed_blackstone", (item, advanced, text) => { text.add(1, Text.gray("Sifts into nether ingredients, with higher chances of gold or cobalt"));});
-    event.addAdvanced("minecraft:soul_sand", (item, advanced, text) => { text.add(1, Text.gray("Sifts into nether ingredients, with higher chances of quartz"));});
-    event.addAdvanced("exdeorum:crushed_end_stone", (item, advanced, text) => { text.add(1, Text.gray("Sifts into end ingredients"));});
+    event.addAdvanced("exdeorum:crushed_netherrack", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.crushed_netherrack_sift_results").gray());});
+    event.addAdvanced("exdeorum:crushed_blackstone", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.crushed_blackstone_sift_results").gray());});
+    event.addAdvanced("minecraft:soul_sand", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.soul_sand_sift_results").gray());});
+    event.addAdvanced("exdeorum:crushed_end_stone", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.crushed_end_stone_sift_results").gray());});
 
     // Sieving drops
     // Very common metals
-    event.addAdvanced("exdeorum:iron_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting dust, sand, gravel, or crushed deepslate"));});
+    event.addAdvanced("exdeorum:iron_ore_chunk", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.iron_chunk_sources").gray());});
 
     // Common metals
-    event.addAdvanced("exdeorum:copper_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting dust, gravel, or crushed deepslate"));});
-    event.addAdvanced("exdeorum:gold_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting dust, gravel, or crushed deepslate"));});
+    event.addAdvanced("exdeorum:copper_ore_chunk", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.common_metal_chunk_sources").gray());});
+    event.addAdvanced("exdeorum:gold_ore_chunk", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.common_metal_chunk_sources").gray());});
 
     // Uncommon metals
-    event.addAdvanced("exdeorum:tin_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting sand or gravel"));});
-    event.addAdvanced("exdeorum:zinc_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting sand or gravel"));});
-    event.addAdvanced("exdeorum:nickel_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting sand or gravel"));});
+    event.addAdvanced("exdeorum:tin_ore_chunk", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.uncommon_metal_chunk_sources").gray());});
+    event.addAdvanced("exdeorum:zinc_ore_chunk", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.uncommon_metal_chunk_sources").gray());});
+    event.addAdvanced("exdeorum:nickel_ore_chunk", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.uncommon_metal_chunk_sources").gray());});
 
     // Rare metals
-    event.addAdvanced("exdeorum:silver_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting gravel or crushed deepslate"));});
-    event.addAdvanced("exdeorum:lead_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting gravel or crushed deepslate"));});
+    event.addAdvanced("exdeorum:silver_ore_chunk", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.rare_metal_chunk_sources").gray());});
+    event.addAdvanced("exdeorum:lead_ore_chunk", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.rare_metal_chunk_sources").gray());});
 
     // Very rare metals
-    event.addAdvanced("exdeorum:osmium_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
-    event.addAdvanced("exdeorum:uranium_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
+    event.addAdvanced("exdeorum:osmium_ore_chunk", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.very_rare_chunk_sources").gray());});
+    event.addAdvanced("exdeorum:uranium_ore_chunk", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.very_rare_chunk_sources").gray());});
 
-    event.addAdvanced("exdeorum:cobalt_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("Cobalt can be found plentifully in the Foundry structure"));});
-    event.addAdvanced("exdeorum:cobalt_ore_chunk", (item, advanced, text) => { text.add(1, Text.gray("Also found from sifting nether blocks, especially crushed blackstone"));});
+    event.addAdvanced("exdeorum:cobalt_ore_chunk", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.cobalt_sources_foundry").gray());});
+    event.addAdvanced("exdeorum:cobalt_ore_chunk", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.cobalt_sources_sifting").gray());});
 
 
     // Common other ores
-    event.addAdvanced("minecraft:redstone", (item, advanced, text) => { text.add(1, Text.gray("From sifting dust, gravel, or crushed deepslate"));});
+    event.addAdvanced("minecraft:redstone", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.common_metal_chunk_sources").gray());});
 
     // Uncommon other ores
-    event.addAdvanced("minecraft:coal", (item, advanced, text) => { text.add(1, Text.gray("From sifting gravel"));});
-    event.addAdvanced("ae2:certus_quartz_crystal", (item, advanced, text) => { text.add(1, Text.gray("From sifting sand"));});
-    event.addAdvanced("minecraft:quartz", (item, advanced, text) => { text.add(1, Text.gray("From sifting sand or nether blocks"));});
+    event.addAdvanced("minecraft:coal", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.coal_sources").gray());});
+    event.addAdvanced("ae2:certus_quartz_crystal", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.certus_quartz_sources").gray());});
+    event.addAdvanced("minecraft:quartz", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.nether_quartz_sources").gray());});
 
     // Rare other ores
-    event.addAdvanced("minecraft:lapis_lazuli", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
-    event.addAdvanced("minecraft:diamond", (item, advanced, text) => { text.add(1, Text.gray("From sifting gravel or crushed deepslate"));});
-    event.addAdvanced("minecraft:emerald", (item, advanced, text) => { text.add(1, Text.gray("From sifting crushed deepslate"));});
+    event.addAdvanced("minecraft:lapis_lazuli", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.very_rare_chunk_sources").gray());});
+    event.addAdvanced("minecraft:diamond", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.rare_metal_chunk_sources").gray());});
+    event.addAdvanced("minecraft:emerald", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.very_rare_chunk_sources").gray());});
 
     // Ingots
     [
@@ -222,7 +222,7 @@ ItemEvents.tooltip(event => {
         "minecraft:netherite_ingot",
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.gray("Debris and netherite can be found in the Foundry structure"));});
+            text.add(1, Text.translate("tooltip.desolate_planet.netherite_sources").gray());});
     });
 
 
@@ -233,7 +233,7 @@ ItemEvents.tooltip(event => {
         "kubejs:crashed_reactor_frame"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, [Text.gray("Found in the reactor room of a "), Text.white("Nuclear Plant")]);
+            text.add(1, Text.translate("tooltip.desolate_planet.crashed_reactor_location", Text.translate("tooltip.desolate_planet.nuclear_plant_name").white()).gray());
         });
     });
     [
@@ -241,7 +241,7 @@ ItemEvents.tooltip(event => {
         "kubejs:crashed_turbine_wall"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, [Text.gray("Found in the turbine room of a "), Text.white("Nuclear Plant")]);
+            text.add(1, Text.translate("tooltip.desolate_planet.crashed_turbine_location", Text.translate("tooltip.desolate_planet.nuclear_plant_name").white()).gray());
         });
     });
     [
@@ -250,29 +250,28 @@ ItemEvents.tooltip(event => {
 		'kubejs:crashed_refinery_output'
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, [Text.gray("Found inside of an "), Text.white("Oil Rig")]);
+            text.add(1, Text.translate("tooltip.desolate_planet.crashed_pneumatic_location", Text.translate("tooltip.desolate_planet.oil_rig_name").white()).gray());
         });
     });
 
 	// AE2
     event.addAdvanced('kubejs:crashed_applied_controller', (item, advanced, text) => {
-		text.add(1, Text.gray("Found inside a structure"))
-		text.add(2, Text.gray("Make a frame out of it using inscriber to make the controller."))
+		text.add(1, Text.translate("tooltip.desolate_planet.controller_location").gray())
+		text.add(2, Text.translate("tooltip.desolate_planet.controller_usage").gray())
 	});
     event.addAdvanced('kubejs:controller_frame', (item, advanced, text) => {
-		text.add(1, Text.gray("Find crashed Controller in a"))
-		text.add(2, Text.gray("structure to make this."))
+		text.add(1, Text.translate("tooltip.desolate_planet.controller_frame_location").gray())
 	});
-    event.addAdvanced('ae2:controller', (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crashed Controller in a structure."));});
+    event.addAdvanced('ae2:controller', (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.ae2_controller_disabled").gray());});
 
     // Tinkers' Construct
-    event.addAdvanced("tconstruct:grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling seared bricks in cities."));});
-    event.addAdvanced("tconstruct:nether_grout", (item, advanced, text) => { text.add(1, Text.gray("Crafting recipe disabled. Find crumbling scorched bricks the foundry structure."));});
-    event.addAdvanced("tconstruct:seared_brick", (item, advanced, text) => { text.add(1, Text.gray("Find crumbling seared bricks in cities."));});
-    event.addAdvanced("tconstruct:scorched_brick", (item, advanced, text) => { text.add(1, Text.gray("Find crumbling scorched bricks in the foundry structure."));});
-    event.addAdvanced("kubejs:crumbling_seared_bricks", (item, advanced, text) => { text.add(1, Text.gray("Can be crushed into seared bricks with a hammer."));});
-    event.addAdvanced("kubejs:crumbling_scorched_bricks", (item, advanced, text) => { text.add(1, Text.gray("Can be crushed into scorched bricks with a hammer."));});
-    event.addAdvanced("tconstruct:blazing_blood_bucket", (item, advanced, text) => { text.add(1, Text.gold("Craft by melting down blaze powder (or the blazes themselves)."));});
+    event.addAdvanced("tconstruct:grout", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.grout_disabled").gray());});
+    event.addAdvanced("tconstruct:nether_grout", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.nether_grout_disabled").gray());});
+    event.addAdvanced("tconstruct:seared_brick", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.seared_brick_sources").gray());});
+    event.addAdvanced("tconstruct:scorched_brick", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.scorched_brick_sources").gray());});
+    event.addAdvanced("kubejs:crumbling_seared_bricks", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.crumbling_seared_bricks_usage").gray());});
+    event.addAdvanced("kubejs:crumbling_scorched_bricks", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.crumbling_scorched_bricks_usage").gray());});
+    event.addAdvanced("tconstruct:blazing_blood_bucket", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.blazing_blood_crafting").gold());});
 
     // Food items
     [
@@ -294,52 +293,56 @@ ItemEvents.tooltip(event => {
         "thermal:syrup_bottle",
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, [Text.red("Warning: "), Text.gray("Eating too much sugar will give "), Text.darkGreen("weakness"), Text.gray(" and "), Text.darkGreen("hunger")]);
-            text.add(2, Text.gray("Moderate sugar levels will increase your speed"));
-            text.add(3, Text.gray("There are no debuffs for sugars being too low"));
+            text.add(1, Text.translate("tooltip.desolate_planet.sugar_warning",
+                Text.translate("tooltip.desolate_planet.warning_prefix").red(),
+                Text.translate("effect.minecraft.weakness").darkGreen(),
+                Text.translate("effect.minecraft.hunger").darkGreen()
+            ).gray());
+            text.add(2, Text.translate("tooltip.desolate_planet.sugar_moderate_effect").gray());
+            text.add(3, Text.translate("tooltip.desolate_planet.sugar_low_safe").gray());
         });
     });
 
     event.addAdvanced('kubejs:zombie_jerky', (item, advanced, text) => {
         if (!event.shift) {
-            text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
+            text.add(1, Text.red([Text.translate("tooltip.desolate_planet.monster_food_mostly").italic(true), Text.translate("tooltip.desolate_planet.monster_food_safe_to_eat")]));
         }
         else {
-            text.add(1, Text.red("Has a chance to deal slight damage upon eating.").italic());
+            text.add(1, Text.translate("tooltip.desolate_planet.zombie_jerky_warning").red().italic());
         }
     });
     event.addAdvanced('kubejs:monster_mash', (item, advanced, text) => {
         if (!event.shift) {
-            text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
+            text.add(1, Text.red([Text.translate("tooltip.desolate_planet.monster_food_mostly").italic(true), Text.translate("tooltip.desolate_planet.monster_food_safe_to_eat")]));
         }
         else {
-            text.add(1, Text.red("Has a small chance to deal slight damage upon eating.").italic());
+            text.add(1, Text.translate("tooltip.desolate_planet.monster_mash_warning").red().italic());
         }
     });
     event.addAdvanced('kubejs:bug_broth', (item, advanced, text) => {
         if (!event.shift) {
-            text.add(1, Text.red([Text.of("Mostly").italic(true), Text.of(" safe to eat.")]));
+            text.add(1, Text.red([Text.translate("tooltip.desolate_planet.monster_food_mostly").italic(true), Text.translate("tooltip.desolate_planet.monster_food_safe_to_eat")]));
         }
         else {
-            text.add(1, Text.red("Has a very small chance to deal slight damage upon eating.").italic());
+            text.add(1, Text.translate("tooltip.desolate_planet.bug_broth_warning").red().italic());
         }
     });
     event.addAdvanced('kubejs:enderios', (item, advanced, text) => {
-        text.add(1, Text.gray("May cause minor unpredictable effects when eaten."));
+        text.add(1, Text.translate("tooltip.desolate_planet.enderios_warning").gray());
     });
 
     // Power generation
-    event.addAdvanced("industrialforegoing:pitiful_generator", (item, advanced, text) => { text.add(1, Text.gray("A cheap but inefficient power generator."));});
-    event.addAdvanced("thermal:dynamo_compression", (item, advanced, text) => { text.add(1, Text.gray("A reliable and efficient power generator."));});
-    event.addAdvanced("thermal:dynamo_compression", (item, advanced, text) => { text.add(2, [Text.gray("Follow the quests in "), Text.white("Under Pressure"), Text.gray(" for oil refining instructions.")]); });
+    event.addAdvanced("industrialforegoing:pitiful_generator", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.pitiful_generator_description").gray());});
+    event.addAdvanced("thermal:dynamo_compression", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.compression_dynamo_description").gray());});
+    event.addAdvanced("thermal:dynamo_compression", (item, advanced, text) => { text.add(2, Text.translate("tooltip.desolate_planet.oil_refining_instructions", Text.translate("tooltip.desolate_planet.quest_book_under_pressure").white()).gray()); });
 
     // Zombie villager warning
-    event.addAdvanced('minecraft:golden_apple', (item,advanced,text) => {text.add(1, Text.darkRed("Warning: zombie villager conversion is disabled"))})
+    event.addAdvanced('minecraft:golden_apple', (item,advanced,text) => {text.add(1, Text.translate("tooltip.desolate_planet.zombie_villager_disabled").darkRed())})
     event.addAdvanced('minecraft:potion', (item,advanced,text) => {
-        if (item.nbt != null) if (item.nbt.Potion == "minecraft:weakness") text.add(1, Text.darkRed("Warning: zombie villager conversion is disabled"))
+        if (item.nbt != null) if (item.nbt.Potion == "minecraft:weakness") text.add(1, Text.translate("tooltip.desolate_planet.zombie_villager_disabled").darkRed())
     });
     event.addAdvanced('minecraft:splash_potion', (item,advanced,text) => {
-        if (item.nbt != null) if (item.nbt.Potion == "minecraft:weakness") text.add(1, Text.darkRed("Warning: zombie villager conversion is disabled"))
+        if (item.nbt != null) if (item.nbt.Potion == "minecraft:weakness") text.add(1, Text.translate("tooltip.desolate_planet.zombie_villager_disabled").darkRed())
     });
 
     // Insulation items
@@ -351,8 +354,8 @@ ItemEvents.tooltip(event => {
         "kubejs:snow_boots"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.gray("Warm clothing that provides protection from the freezing cold."));
-            text.add(2, Text.gray("Slows how fast you freeze."));
+            text.add(1, Text.translate("tooltip.desolate_planet.cold_armor_description").gray());
+            text.add(2, Text.translate("tooltip.desolate_planet.cold_armor_effect").gray());
         });
     });
     [
@@ -362,21 +365,21 @@ ItemEvents.tooltip(event => {
         "kubejs:desert_shoes"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.gray("Light and breathable clothing that provides protection from the blazing heat."));
-            text.add(2, Text.gray("Slows how fast you overheat."));
+            text.add(1, Text.translate("tooltip.desolate_planet.heat_armor_description").gray());
+            text.add(2, Text.translate("tooltip.desolate_planet.heat_armor_effect").gray());
         });
     });
     event.addAdvanced("kubejs:stillsuit", (item, advanced, text) => {
-        text.add(1, Text.gray("Significantly insulates you from extreme temperatures."));
-        text.add(2, Text.gray("Recycles moisture to reduce your water use."));
+        text.add(1, Text.translate("tooltip.desolate_planet.stillsuit_insulation").gray());
+        text.add(2, Text.translate("tooltip.desolate_planet.stillsuit_moisture").gray());
     });
 
     // Building Gadgets
-    event.addAdvanced("buildinggadgets2:gadget_building", (item, advanced, text) => { text.add(1, Text.gray("Used to place large amounts of blocks, like an advanced building wand.")); });
-    event.addAdvanced("buildinggadgets2:gadget_exchanging", (item, advanced, text) => { text.add(1, Text.gray("Used to exchange large amounts of placed blocks with other blocks.")); });
-    event.addAdvanced("buildinggadgets2:gadget_copy_paste", (item, advanced, text) => { text.add(1, Text.gray("Used to copy and paste large amounts of blocks.")); });
-    event.addAdvanced("buildinggadgets2:gadget_cut_paste", (item, advanced, text) => { text.add(1, Text.gray("Used to cut and paste large amounts of blocks.")); });
-    event.addAdvanced("buildinggadgets2:gadget_destruction", (item, advanced, text) => { text.add(1, Text.gray("Destroys large amounts of blocks.")); });
+    event.addAdvanced("buildinggadgets2:gadget_building", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.building_gadget_description").gray()); });
+    event.addAdvanced("buildinggadgets2:gadget_exchanging", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.exchanging_gadget_description").gray()); });
+    event.addAdvanced("buildinggadgets2:gadget_copy_paste", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.copy_paste_gadget_description").gray()); });
+    event.addAdvanced("buildinggadgets2:gadget_cut_paste", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.cut_paste_gadget_description").gray()); });
+    event.addAdvanced("buildinggadgets2:gadget_destruction", (item, advanced, text) => { text.add(1, Text.translate("tooltip.desolate_planet.destruction_gadget_description").gray()); });
 
     event.addAdvanced([
         "buildinggadgets2:gadget_building",
@@ -387,13 +390,10 @@ ItemEvents.tooltip(event => {
     ], (item, advanced, text) => {
         text.remove(2);
         if (!event.shift) {
-            text.add(2, [
-                Text.gray("Configure by holding the "),
+            text.add(2, Text.translate("tooltip.desolate_planet.gadget_config",
                 Text.keybind("key.buildinggadgets2.settings_menu").white(),
-                Text.gray(" key. Hold "),
-                Text.white("shift"),
-                Text.gray(" to view current settings.")
-            ]);
+                Text.translate("tooltip.desolate_planet.key_shift").white()
+            ).gray());
         }
     });
 
@@ -468,7 +468,7 @@ ItemEvents.tooltip(event => {
 
     tools.forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, Text.darkRed("This item is non-functional. Please use Tinkers Construct tools instead."));
+            text.add(1, Text.translate("tooltip.desolate_planet.vanilla_tool_disabled").darkRed());
         });
     });
 
@@ -480,8 +480,8 @@ ItemEvents.tooltip(event => {
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
             // Remove from quest info when fixed
-            text.add(1, [Text.red("Warning: "), Text.gray("Due to a bug with EnderIO and Thirst, most sources of water are unable to be transferred with fluid conduits.")]);
-            text.add(2, [Text.gray("Other liquids will work, but we recommend using other modded transfer methods for moving "), Text.gray("water").italic(true), Text.gray(".")]);
+            text.add(1, Text.translate("tooltip.desolate_planet.enderio_water_bug_part1", Text.translate("tooltip.desolate_planet.warning_prefix").red(), Text.translate("block.minecraft.water").gray().italic(true)).gray());
+            text.add(2, Text.translate("tooltip.desolate_planet.enderio_water_bug_part2", Text.translate("block.minecraft.water").gray().italic(true)).gray());
         });
     });
 });

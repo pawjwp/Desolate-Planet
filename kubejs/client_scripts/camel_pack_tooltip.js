@@ -18,7 +18,7 @@ function registerCamelPackTooltip(e, itemId, capacity, description, hasTank) {
 		}
 
 		if (!fluidType) {
-			text.add(1, Text.white('Empty'))
+			text.add(1, Text.translate("item.kubejs.camel_pack.empty").white())
 			text.add(2, Text.gray(description))
 			return
 		}
