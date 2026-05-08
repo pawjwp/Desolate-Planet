@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": {
+    "farmersdelight:honey_cookie": {
+      "grains": 0.015,
+      "sugars": 0.04
+    },
+    "farmersdelight:hot_cocoa": {
+      "proteins": 0.025,
+      "sugars": 0.18
+    },
+    "farmersdelight:sweet_berry_cookie": {
+      "fruits": 0.005,
+      "grains": 0.015,
+      "sugars": 0.02
+    },
+    "farmersdelight:pie_crust": {
+      "grains": 0.18,
+      "proteins": 0.01
+    },
+    "farmersdelight:pumpkin_soup": {
+      "vegetables": 0.12
+    }
+  }
+}

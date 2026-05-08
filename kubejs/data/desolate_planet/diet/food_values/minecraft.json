@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": {
+    "minecraft:cookie": {
+      "grains": 0.015,
+      "sugars": 0.03
+    }
+  }
+}

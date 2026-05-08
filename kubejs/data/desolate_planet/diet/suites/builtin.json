@@ -21,7 +21,14 @@
           "match": "all",
           "below": 0.0
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "all_0",
+        "notification_sets": ["all_negative", "negative"],
+        "message": "notification.diet.all_0",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      }
     },
     {
       "attributes": [
@@ -41,9 +48,17 @@
         {
           "groups": ["proteins", "fruits", "vegetables", "grains"],
           "match": "all",
+          "above": 0.001,
           "below": 0.1
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "all_0_10",
+        "notification_sets": ["all_negative", "negative"],
+        "message": "notification.diet.all_0_10",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      }
     },
     {
       "attributes": [
@@ -65,7 +80,14 @@
           "above": 0.8,
           "below": 0.9
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "all_80_90",
+        "notification_sets": ["all_positive", "positive"],
+        "message": "notification.diet.all_80_90",
+        "trigger": "rise_through",
+        "default_frequency": "once"
+      }
     },
     {
       "attributes": [
@@ -89,10 +111,17 @@
         {
           "groups": ["proteins", "fruits", "vegetables", "grains"],
           "match": "all",
-          "above": 0.9,
+          "above": 0.9001,
           "below": 1.0
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "all_90_100",
+        "notification_sets": ["all_positive", "positive"],
+        "message": "notification.diet.all_90_100",
+        "trigger": "rise_through",
+        "default_frequency": "never"
+      }
     },
 
 
@@ -111,7 +140,14 @@
           "match": "every",
           "below": 0.1
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "every_0_10",
+        "notification_sets": ["every_negative", "negative"],
+        "message": "notification.diet.every_0_10",
+        "trigger": "fall_into",
+        "default_frequency": "never"
+      }
     },
     {
       "attributes": [
@@ -133,7 +169,14 @@
           "above": 0.8,
           "below": 0.9
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "every_80_90",
+        "notification_sets": ["every_positive", "positive"],
+        "message": "notification.diet.every_80_90",
+        "trigger": "rise_through",
+        "default_frequency": "never"
+      }
     },
     {
       "attributes": [
@@ -152,10 +195,17 @@
         {
           "groups": ["proteins", "fruits", "vegetables", "grains"],
           "match": "every",
-          "above": 0.9,
+          "above": 0.9001,
           "below": 1.0
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "every_90_100",
+        "notification_sets": ["every_positive", "positive"],
+        "message": "notification.diet.every_90_100",
+        "trigger": "rise_through",
+        "default_frequency": "never"
+      }
     },
 
 
@@ -178,7 +228,15 @@
           "above": 0.0,
           "below": 0.1
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "grains_0_10",
+        "notification_sets": ["grains_negative", "negative"],
+        "message": "notification.diet.grains_0_10",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "status_effects": [
@@ -195,10 +253,18 @@
         {
           "groups": ["grains"],
           "match": "all",
-          "above": 0.1,
+          "above": 0.1001,
           "below": 0.2
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "grains_10_20",
+        "notification_sets": ["grains_negative", "negative"],
+        "message": "notification.diet.grains_10_20",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "status_effects": [
@@ -211,10 +277,18 @@
         {
           "groups": ["grains"],
           "match": "all",
-          "above": 0.2,
+          "above": 0.2001,
           "below": 0.3
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "grains_20_30",
+        "notification_sets": ["grains_negative", "negative"],
+        "message": "notification.diet.grains_20_30",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "attributes": [
@@ -241,7 +315,15 @@
           "above": 0.7,
           "below": 0.9
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "grains_70_90",
+        "notification_sets": ["grains_positive", "positive"],
+        "message": "notification.diet.grains_70_90",
+        "trigger": "rise_through",
+        "default_frequency": "once"
+      },
+      "quality": "#1ACF1A"
     },
     {
       "attributes": [
@@ -265,10 +347,18 @@
         {
           "groups": ["grains"],
           "match": "all",
-          "above": 0.9,
+          "above": 0.9001,
           "below": 1.0
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "grains_90_100",
+        "notification_sets": ["grains_positive", "positive"],
+        "message": "notification.diet.grains_90_100",
+        "trigger": "rise_through",
+        "default_frequency": "never"
+      },
+      "quality": "#1ACF1A"
     },
 
 
@@ -287,7 +377,15 @@
           "above": 0.0,
           "below": 0.1
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "proteins_0_10",
+        "notification_sets": ["proteins_negative", "negative"],
+        "message": "notification.diet.proteins_0_10",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "status_effects": [
@@ -300,10 +398,18 @@
         {
           "groups": ["proteins"],
           "match": "all",
-          "above": 0.1,
+          "above": 0.1001,
           "below": 0.2
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "proteins_10_20",
+        "notification_sets": ["proteins_negative", "negative"],
+        "message": "notification.diet.proteins_10_20",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "status_effects": [
@@ -316,10 +422,18 @@
         {
           "groups": ["proteins"],
           "match": "all",
-          "above": 0.2,
+          "above": 0.2001,
           "below": 0.3
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "proteins_20_30",
+        "notification_sets": ["proteins_negative", "negative"],
+        "message": "notification.diet.proteins_20_30",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "attributes": [
@@ -336,7 +450,15 @@
           "above": 0.6,
           "below": 0.8
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "proteins_60_80",
+        "notification_sets": ["proteins_positive", "positive"],
+        "message": "notification.diet.proteins_60_80",
+        "trigger": "rise_through",
+        "default_frequency": "once"
+      },
+      "quality": "#1ACF1A"
     },
     {
       "attributes": [
@@ -350,10 +472,18 @@
         {
           "groups": ["proteins"],
           "match": "all",
-          "above": 0.8,
+          "above": 0.8001,
           "below": 0.9
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "proteins_80_90",
+        "notification_sets": ["proteins_positive", "positive"],
+        "message": "notification.diet.proteins_80_90",
+        "trigger": "rise_through",
+        "default_frequency": "never"
+      },
+      "quality": "#1ACF1A"
     },
     {
       "attributes": [
@@ -367,10 +497,18 @@
         {
           "groups": ["proteins"],
           "match": "all",
-          "above": 0.9,
+          "above": 0.9001,
           "below": 1.0
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "proteins_90_100",
+        "notification_sets": ["proteins_positive", "positive"],
+        "message": "notification.diet.proteins_90_100",
+        "trigger": "rise_through",
+        "default_frequency": "never"
+      },
+      "quality": "#1ACF1A"
     },
 
 
@@ -396,7 +534,15 @@
           "match": "all",
           "below": 0.0
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "vegetables_below_0",
+        "notification_sets": ["vegetables_negative", "negative"],
+        "message": "notification.diet.vegetables_below_0",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "status_effects": [
@@ -412,7 +558,15 @@
           "above": 0.0,
           "below": 0.1
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "vegetables_0_10",
+        "notification_sets": ["vegetables_negative", "negative"],
+        "message": "notification.diet.vegetables_0_10",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "status_effects": [
@@ -425,10 +579,18 @@
         {
           "groups": ["vegetables"],
           "match": "all",
-          "above": 0.1,
+          "above": 0.1001,
           "below": 0.2
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "vegetables_10_20",
+        "notification_sets": ["vegetables_negative", "negative"],
+        "message": "notification.diet.vegetables_10_20",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "attributes": [
@@ -450,7 +612,15 @@
           "above": 0.7,
           "below": 0.9
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "vegetables_70_90",
+        "notification_sets": ["vegetables_positive", "positive"],
+        "message": "notification.diet.vegetables_70_90",
+        "trigger": "rise_through",
+        "default_frequency": "once"
+      },
+      "quality": "#1ACF1A"
     },
     {
       "attributes": [
@@ -469,10 +639,18 @@
         {
           "groups": ["vegetables"],
           "match": "all",
-          "above": 0.9,
+          "above": 0.9001,
           "below": 1.0
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "vegetables_90_100",
+        "notification_sets": ["vegetables_positive", "positive"],
+        "message": "notification.diet.vegetables_90_100",
+        "trigger": "rise_through",
+        "default_frequency": "never"
+      },
+      "quality": "#1ACF1A"
     },
 
 
@@ -492,7 +670,15 @@
           "above": 0.0,
           "below": 0.1
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "fruits_0_10",
+        "notification_sets": ["fruits_negative", "negative"],
+        "message": "notification.diet.fruits_0_10",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "attributes": [
@@ -506,10 +692,18 @@
         {
           "groups": ["fruits"],
           "match": "all",
-          "above": 0.1,
+          "above": 0.1001,
           "below": 0.2
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "fruits_10_20",
+        "notification_sets": ["fruits_negative", "negative"],
+        "message": "notification.diet.fruits_10_20",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "attributes": [
@@ -523,10 +717,18 @@
         {
           "groups": ["fruits"],
           "match": "all",
-          "above": 0.2,
+          "above": 0.2001,
           "below": 0.4
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "fruits_20_40",
+        "notification_sets": ["fruits_negative", "negative"],
+        "message": "notification.diet.fruits_20_40",
+        "trigger": "fall_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "attributes": [
@@ -543,7 +745,15 @@
           "above": 0.7,
           "below": 0.8
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "fruits_70_80",
+        "notification_sets": ["fruits_positive", "positive"],
+        "message": "notification.diet.fruits_70_80",
+        "trigger": "rise_through",
+        "default_frequency": "once"
+      },
+      "quality": "#1ACF1A"
     },
     {
       "attributes": [
@@ -557,10 +767,18 @@
         {
           "groups": ["fruits"],
           "match": "all",
-          "above": 0.8,
+          "above": 0.8001,
           "below": 0.9
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "fruits_80_90",
+        "notification_sets": ["fruits_positive", "positive"],
+        "message": "notification.diet.fruits_80_90",
+        "trigger": "rise_through",
+        "default_frequency": "never"
+      },
+      "quality": "#1ACF1A"
     },
     {
       "attributes": [
@@ -574,10 +792,18 @@
         {
           "groups": ["fruits"],
           "match": "all",
-          "above": 0.9,
-          "below": 1.0
+          "above": 0.9001,
+          "below": 0.9999
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "fruits_90_100",
+        "notification_sets": ["fruits_positive", "positive"],
+        "message": "notification.diet.fruits_90_100",
+        "trigger": "rise_through",
+        "default_frequency": "never"
+      },
+      "quality": "#1ACF1A"
     },
     {
       "attributes": [
@@ -593,7 +819,15 @@
           "match": "all",
           "above": 1.0
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "fruits_100",
+        "notification_sets": ["fruits_positive", "positive"],
+        "message": "notification.diet.fruits_100_plus",
+        "trigger": "rise_through",
+        "default_frequency": "never"
+      },
+      "quality": "#1ACF1A"
     },
 
 
@@ -613,7 +847,15 @@
           "above": 0.4,
           "below": 0.6
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "sugars_40_60",
+        "notification_sets": ["sugars_positive", "positive"],
+        "message": "notification.diet.sugars_40_60",
+        "trigger": "rise_through",
+        "default_frequency": "once"
+      },
+      "quality": "#1ACF1A"
     },
     {
       "attributes": [
@@ -632,10 +874,18 @@
         {
           "groups": ["sugars"],
           "match": "all",
-          "above": 0.6,
+          "above": 0.6001,
           "below": 0.8
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "sugars_60_80",
+        "notification_sets": ["sugars_positive", "positive"],
+        "message": "notification.diet.sugars_60_80",
+        "trigger": "rise_through",
+        "default_frequency": "never"
+      },
+      "quality": "#1ACF1A"
     },
     {
       "attributes": [
@@ -659,10 +909,18 @@
         {
           "groups": ["sugars"],
           "match": "all",
-          "above": 0.8,
+          "above": 0.8001,
           "below": 0.9
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "sugars_80_90",
+        "notification_sets": ["sugars_negative", "negative"],
+        "message": "notification.diet.sugars_80_90",
+        "trigger": "rise_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     },
     {
       "attributes": [
@@ -686,10 +944,18 @@
         {
           "groups": ["sugars"],
           "match": "all",
-          "above": 0.9,
+          "above": 0.9001,
           "below": 1.0
         }
-      ]
+      ],
+      "notification": {
+        "notification_id": "sugars_90_100",
+        "notification_sets": ["sugars_negative", "negative"],
+        "message": "notification.diet.sugars_90_100",
+        "trigger": "rise_into",
+        "default_frequency": "always"
+      },
+      "quality": "#CF1A1A"
     }
   ]
 }

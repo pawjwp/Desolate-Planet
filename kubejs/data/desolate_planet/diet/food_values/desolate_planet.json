@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": {
+    "kubejs:zombie_jerky": {
+      "proteins": 0.04
+    },
+    "kubejs:monster_mash": {
+      "proteins": 0.06
+    },
+    "kubejs:bug_broth": {
+      "proteins": 0.06,
+      "vegetables": 0.01
+    },
+    "kubejs:enderios": {
+      "fruits": 0.02,
+      "grains": 0.06,
+      "proteins": 0.02,
+      "vegetables": 0.02
+    },
+    "kubejs:nutrient_brick": {
+      "fruits": 0.14,
+      "grains": 0.16,
+      "proteins": 0.2,
+      "sugars": 0.1,
+      "vegetables": 0.1
+    }
+  }
+}

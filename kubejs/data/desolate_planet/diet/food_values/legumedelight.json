@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": {
+    "legumedelight:peanut_butter_cookie": {
+      "grains": 0.015,
+      "proteins": 0.01,
+      "sugars": 0.02
+    }
+  }
+}
