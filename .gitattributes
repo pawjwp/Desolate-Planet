@@ -23,3 +23,4 @@ config/phosphophyllite/*.json5 text eol=lf
 config/tips.json text eol=lf
 ESM/soundsMuffled.dat text eol=lf
 kubejs/config/probejs.json text eol=lf
+**/lang/*.json text eol=lf
