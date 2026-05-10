@@ -47,7 +47,7 @@ The root of this repository is intended to be used as a **live** game directory.
 3. [Install Forge 1.20.1](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html)**.**
 4. In the Minecraft Launcher, create a new installation.
     1. Set the version to the appropriate Forge version.
-    2. Set the game directory to your repository’s directory.
+    2. Set the game directory to your repository's directory.
     3. Under JVM arguments, increase your allocated RAM to 6-8GB (change `-Xmx2G` to `-Xmx6G` or `-Xmx8G`).
     4. Save the installation.
 5. Select the new installation and click **Play**.
@@ -123,7 +123,7 @@ All exported modpack files are saved to to `packwiz-builds/`.
 4. [Install Forge 1.20.1](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html).
 5. In the Minecraft Launcher, create a new installation.
     1. Set the version to the appropriate Forge version.
-    2. Set the game directory to your repository’s directory.
+    2. Set the game directory to your repository's directory.
     3. Under JVM arguments, increase your allocated RAM to 6-8GB (change `-Xmx2G` to `-Xmx6G` or `-Xmx8G`).
     4. Save the installation.
 6. Select the new installation and click **Play**.

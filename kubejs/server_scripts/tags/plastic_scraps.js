@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
       const clean = input.startsWith('#') ? input.slice(1) : input;
       const suffix = clean.split(':')[1];
   
-      // Tinkers’ Construct melting
+      // Tinkers' Construct melting
       event.custom({
         type: 'tconstruct:melting',
         ingredient: ingredient,
