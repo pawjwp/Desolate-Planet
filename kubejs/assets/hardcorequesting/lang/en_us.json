@@ -31,8 +31,7 @@
 
   "hqm.quest.basic_survival.crucible.name": "Melting Pot",
   "hqm.quest.basic_survival.crucible.desc": "With a furnace set up, you can take the next step. Check the port engine, where the water reclamation system has leaked and turned some of the dust to clay. Dig that up, make a crucible, and place it above a torch or some lava. In the crucible, not only can you melt cobblestone into lava, but you can melt down ore and ore chunks into molten metal. All you need is a casting table to cast the molten metal into ingots. If you ever need more clay, it can be made from water and dust in a barrel.",
-  "hqm.quest.basic_survival.crucible.task.0.long_desc": "The crucible can be used to melt ores as well as stone, functioning as a mini-smeltery. Shift-right click to place a faucet. It can accept ore blocks or chunks. If you've still have lava by the broken engine, you can use that to heat your crucible. Also, you can make casts by pouring gold over wood tool parts.",
-
+  "hqm.quest.basic_survival.crucible.task.0.long_desc": "The crucible can be used to melt ores as well as stone, functioning as a mini-smeltery. Shift-right-click to place a faucet. It can accept ore blocks or chunks. If you've still have lava by the broken engine, you can use that to heat your crucible. Also, you can make casts by pouring gold over wood tool parts.",
   "hqm.quest.basic_survival.flint_mesh.name": "Fine-Toothed Comb",
   "hqm.quest.basic_survival.flint_mesh.desc": "String mesh can be upgraded to flint mesh to gain higher yields. It can be further upgraded later when you get the resources. Each mesh tier is better than the last.",
   "hqm.quest.basic_survival.flint_mesh.task.0.long_desc": "You can get flint from sifting gravel, which can be crushed from cobblestone with a hammer or found by digging underground.",
@@ -64,7 +63,7 @@
   "hqm.quest.basic_survival.purified_water.task.0.long_desc": "Water filters can be crafted with water bottles or buckets to purify them by one level.",
 
   "hqm.quest.basic_survival.camel_pack.name": "The Last Straw",
-  "hqm.quest.basic_survival.camel_pack.desc": "Desert survivors have long made use of portable water reservoirs for hydration. The most useful of which include a built in straw that connects to the wearer's mouth, allowing them to drink whenever they would like.",
+  "hqm.quest.basic_survival.camel_pack.desc": "Desert survivors have long made use of portable water reservoirs for hydration. The most useful of which include a built-in straw that connects to the wearer's mouth, allowing them to drink whenever they would like.",
   "hqm.quest.basic_survival.camel_pack.task.0.long_desc": "Camel packs can be filled with liquid to passively provide hydration. The attached tank can be filled from most tank blocks, or by crafting together with bottles and buckets. The filter helps to automatically purify most water, but when crafting, you must use bottles with a purity of Acceptable or Purified. Camel packs can be upgraded to get higher capacity, and eventually to absorb water directly from the air.",
 
 
@@ -149,8 +148,7 @@
   "hqm.quest.basic_survival.shell_constructor.name": "1-Up!",
   "hqm.quest.basic_survival.shell_constructor.desc": "This planet is full of hazards and hostiles. You will eventually need to venture out of the confines of your ship, but that poses a lot of risks. However, with a bit of effort, you may be able to give yourself a second chance if the worst happens. A Shell Constructor is the key to life after (first) death. Once you make one, you will need to provide energy and a blood sample and it will build you a new body.",
   "hqm.quest.basic_survival.shell_constructor.task.0.desc": "Shell Construction",
-  "hqm.quest.basic_survival.shell_constructor.task.0.long_desc": "Place the constructor, give it a power source, and right click it to provide the DNA sample. Be careful, it will hurt a little.",
-
+  "hqm.quest.basic_survival.shell_constructor.task.0.long_desc": "Place the constructor, give it a power source, and right-click it to provide the DNA sample. Be careful, it will hurt a little.",
   "hqm.quest.basic_survival.shell_storage.name": "Life Insurance",
   "hqm.quest.basic_survival.shell_storage.desc": "Sometimes, one life just isn't enough. In those cases, you can use Shell Storage to keep extra shells around. When you die, you will be sent to a random shell.",
   "hqm.quest.basic_survival.shell_storage.task.0.desc": "Shell Storage",
@@ -212,11 +210,11 @@
   "hqm.quest.the_food_pyramid.beans_and_rice.task.0.long_desc": "Beans and rice can be made from beans and rice (unsurprisingly), cooked together in a pot.",
 
   "hqm.quest.the_food_pyramid.peanut_butter_and_jam_sandwich.name": "Sandwiched",
-  "hqm.quest.the_food_pyramid.peanut_butter_and_jam_sandwich.desc": "PB&Js are an easy to make and nutritious classic.",
+  "hqm.quest.the_food_pyramid.peanut_butter_and_jam_sandwich.desc": "PB&Js are an easy-to-make and nutritious classic.",
   "hqm.quest.the_food_pyramid.peanut_butter_and_jam_sandwich.task.0.long_desc": "Peanut butter is made from peanuts, bread from wheat, and your choice of fruit.",
 
   "hqm.quest.the_food_pyramid.pasta_and_tomato_sauce.name": "Mom's Spaghetti",
-  "hqm.quest.the_food_pyramid.pasta_and_tomato_sauce.desc": "Pasta and Tomato Sauce is an quick source of multiple food groups.",
+  "hqm.quest.the_food_pyramid.pasta_and_tomato_sauce.desc": "Pasta and Tomato Sauce is a quick source of multiple food groups.",
   "hqm.quest.the_food_pyramid.pasta_and_tomato_sauce.task.0.long_desc": "Pasta is made from dough, which is made from wheat and water. Tomato sauce is made from 2 tomatoes. This creates a simple, 2-ingredient dish.",
 
 
@@ -290,7 +288,7 @@
 
   "hqm.quest.like_clockwork.hand_crank.name": "Getting a Handle on Things",
   "hqm.quest.like_clockwork.hand_crank.desc": "Rotational force is a simple method of conveying energy for automation before electricity becomes a viable alternative. One of the easiest methods of creating rotational energy is manually turning a crank.",
-  "hqm.quest.like_clockwork.hand_crank.task.0.long_desc": "The hand crank produces a small amount of rotational force when operated. By holding right-click, the crank rotates counter-clockwise, and using shift + right-click reverses the direction. Each use spins the crank at 32 RPM for approximately 0.5 seconds, delivering a 90° rotation to any directly connected mechanical bearing with a 1:1 ratio. However, using the crank will consume your hunger, making it a limited, albeit simple, power source. To make it, all you will need is three planks and an andesite alloy.",
+  "hqm.quest.like_clockwork.hand_crank.task.0.long_desc": "The hand crank produces a small amount of rotational force when operated. By holding right-click, the crank rotates counterclockwise, and using shift + right-click reverses the direction. Each use spins the crank at 32 RPM for approximately 0.5 seconds, delivering a 90° rotation to any directly connected mechanical bearing with a 1:1 ratio. However, using the crank will consume your hunger, making it a limited, albeit simple, power source. To make it, all you will need is three planks and an andesite alloy.",
 
   "hqm.quest.like_clockwork.windmill.name": "Wind in Your Sails",
   "hqm.quest.like_clockwork.windmill.desc": "Rotational force is a simple method of conveying energy for automation before electricity becomes a viable alternative. One of the most effective methods of harnessing natural rotational energy is harnessing the energy of the wind.",
@@ -303,7 +301,7 @@
 
 
   "hqm.quest.like_clockwork.belts_funnels.name": "Notch in Your Belt",
-  "hqm.quest.like_clockwork.belts_funnels.desc": "Item transportation is vital for automation, and conveyer belts are a simple way to use rotational force to move things from one point to another.",
+  "hqm.quest.like_clockwork.belts_funnels.desc": "Item transportation is vital for automation, and conveyor belts are a simple way to use rotational force to move things from one point to another.",
   "hqm.quest.like_clockwork.belts_funnels.task.0.desc": "Belts",
   "hqm.quest.like_clockwork.belts_funnels.task.0.long_desc": "To place a belt, you must have at least two shafts facing the same direction; simply right-click one shaft and then the other. A single Mechanical Belt item is used regardless of the distance, provided the length is under 20 blocks. Belts can be placed in straight lines or horizontally, vertically, or diagonally (at a 45° incline), so long as there are no obstructions.\nYou can extend or shorten belts by right-clicking with a belt or a wrench, which will also reposition the shaft. In addition to transmitting identical rotational force across all connected shafts (as long as the input force is consistent), the mechanical belt excels at moving items and entities. Items can be added by dropping them manually or through machines like funnels, chutes, and mechanical arms, and they can also be removed using similar methods. Belts cannot transport items vertically. If you are wearing diving boots or crouching, you will not be moved by belts. Belts also interact with a variety of machines: mechanical presses can press items passing underneath, deployers can interact with items on the belt, spouts can fill them with liquids, and encased fans can perform bulk processing like washing or smelting. Brass Tunnels help with item sorting and organization, while Depots can act as temporary stops for other machines to interact with items. For added customization, belts can be dyed with any dye, adding colored stripes, and the dye can be removed with a water bucket or bottle.",
   "hqm.quest.like_clockwork.belts_funnels.task.1.desc": "Funnels",
@@ -323,12 +321,12 @@
   "hqm.quest.like_clockwork.millstone.task.0.long_desc": "The millstone is a processing machine and a simpler version of the more advanced crushing wheels. It performs milling recipes on valid items inserted from above. It can be powered either from below via a shaft or from the side using a cogwheel. Items can be fed into the Millstone either by dropping them directly on top or by using hoppers, funnels, chutes, or other item transport systems. However, it does not automatically output processed items; you must either right-click the machine with an empty hand or use an external extractor like a Hopper or Funnel to retrieve the output. To get a full list of all millstone recipes, consult the JEI.",
 
   "hqm.quest.like_clockwork.mechanical_press.name": "Pressing Matters",
-  "hqm.quest.like_clockwork.mechanical_press.desc": "Forming metal into thin sheets is vital for making more advanced contraptions. A mechanical press can can do just that.",
+  "hqm.quest.like_clockwork.mechanical_press.desc": "Forming metal into thin sheets is vital for making more advanced contraptions. A mechanical press can do just that.",
   "hqm.quest.like_clockwork.mechanical_press.task.0.long_desc": "The humble Mechanical Press can press and pack items below it. Simply place the press with one block of space between it and the ground and throw your items underneath and apply power! Note that it processes items faster when it receives faster rotational power.",
 
   "hqm.quest.like_clockwork.mechanical_extruder.name": "Casting the First Stone",
   "hqm.quest.like_clockwork.mechanical_extruder.desc": "Cobblestone can be generated by casting water and lava together, but that takes up a lot of space and likely violates some industrial safety procedures. It's possible to fit the main press and mining equipment in a small space.",
-  "hqm.quest.like_clockwork.mechanical_extruder.task.0.long_desc": "The mechanical extruder is used to automate the production of stone-type blocks. When powered with rotational force as well as having the necessary liquid source blocks adjacent to its sides, the mechanical extruder can create cobblestone, scoria, stone, basalt, or limestone. The block underneath the extruder does matter in some cases of production (see JEI for details). The blocks it produces can be extracted either with a right click or automatically pulled out with a combination of a funnel and moving belt.",
+  "hqm.quest.like_clockwork.mechanical_extruder.task.0.long_desc": "The mechanical extruder is used to automate the production of stone-type blocks. When powered with rotational force as well as having the necessary liquid source blocks adjacent to its sides, the mechanical extruder can create cobblestone, scoria, stone, basalt, or limestone. The block underneath the extruder does matter in some cases of production (see JEI for details). The blocks it produces can be extracted either with a right-click or automatically pulled out with a combination of a funnel and moving belt.",
 
 
 
@@ -338,7 +336,7 @@
 
   "hqm.quest.like_clockwork.super_glue.name": "Holding it Together",
   "hqm.quest.like_clockwork.super_glue.desc": "To set up complicated contraptions full of moving parts, you'll need a way to make sure everything stays attached.",
-  "hqm.quest.like_clockwork.super_glue.task.0.long_desc": "Super Glue binds blocks together in moving contraptions, ensuring they act as a single structure during motion. Each use reduces the glue's durability by one, although enchantments like Unbreaking and Mending can prolong its lifespan. In Block by Block Mode, glue is applied by right-clicking the face of a chassis or held in the off-hand to automatically apply glue while placing blocks. This method mimics the use of a Slimeball but allows for more flexible attachment, including placing blocks on chassis edges. Glue applied this way is permanent unless manually removed by sneak right-clicking with an empty hand. Area Mode allows you to glue multiple blocks after placement by selecting a 3D section. This is done by right-clicking one corner and then the opposite corner of a region, up to 24 blocks apart. Hold Super Glue in your main hand to visually identify glued blocks with green outlines, though glue applied directly to surfaces won’t show these outlines unless placed with the glue in the offhand. Left click with superglue on green areas to remove superglue.",
+  "hqm.quest.like_clockwork.super_glue.task.0.long_desc": "Super Glue binds blocks together in moving contraptions, ensuring they act as a single structure during motion. Each use reduces the glue's durability by one, although enchantments like Unbreaking and Mending can prolong its lifespan. In Block by Block Mode, glue is applied by right-clicking the face of a chassis or held in the off-hand to automatically apply glue while placing blocks. This method mimics the use of a Slimeball but allows for more flexible attachment, including placing blocks on chassis edges. Glue applied this way is permanent unless manually removed by sneak right-clicking with an empty hand. Area Mode allows you to glue multiple blocks after placement by selecting a 3D section. This is done by right-clicking one corner and then the opposite corner of a region, up to 24 blocks apart. Hold the super glue in your main hand to visually identify glued blocks with green outlines, though glue applied directly to surfaces won’t show these outlines unless placed with the glue in the offhand. Left-click with super glue on green areas to remove the glue.",
 
   "hqm.quest.like_clockwork.chute.name": "Drop Zone",
   "hqm.quest.like_clockwork.chute.desc": "Where belts are used for horizontal item transportation, Chutes are design for vertical item transportation.",
@@ -537,7 +535,7 @@
 
 
   "hqm.quest.under_pressure.assembly_line.name": "Assembly Line",
-  "hqm.quest.under_pressure.assembly_line.desc": "Assembling a PCB by hand is extremely time consuming. Luckily, the process can be simplified when you have the technology. With an assembly line set up, you can automatically handle the etching and exposing to skip right from an empty PCB to an unassembled one.",
+  "hqm.quest.under_pressure.assembly_line.desc": "Assembling a PCB by hand is extremely time-consuming. Luckily, the process can be simplified when you have the technology. With an assembly line set up, you can automatically handle the etching and exposing to skip right from an empty PCB to an unassembled one.",
   "hqm.quest.under_pressure.assembly_line.task.0.long_desc": "1. Place the machines in a square with the two IO units at the top right and top left.\n2. Place the laser on the bottom left and the platform to its right.\n3. Put a chest adjacent to an IO unit and the assembly controller on any side of the square.\n4. Set the output of one of the IO units using a pneumatic wrench.\n5. Provide pressurized air for the controller and insert the Assembly Program: Laser.\n\nWhen the setup is complete, you can place empty PCBs in the chest to process. The input unit will move it to the platform, the laser will etch the PCB pattern onto it, and the output unit will return it to the chest. You can increase the processing speed with speed upgrades.",
 
   "hqm.quest.under_pressure.misc_tools.name": "Tools of the Trade",
@@ -545,9 +543,9 @@
   "hqm.quest.under_pressure.misc_tools.task.0.desc": "Charging Station",
   "hqm.quest.under_pressure.misc_tools.task.0.long_desc": "Many PneumaticCraft gadgets will need to be charged with compressed air before they can be used. Be careful though, the charging station balances air pressure between the item being charged and the rest of the system. If the tool has more bars of pressure than the rest of the network it will actually discharge.",
   "hqm.quest.under_pressure.misc_tools.task.1.desc": "Pneumatic Wrench",
-  "hqm.quest.under_pressure.misc_tools.task.1.long_desc": "The pneumatic wrench allows rotation of PneumaticCraft blocks and opening/closing pressure tubes by right clicking, and instant dismantling by shift+right clicking. It must be charged in a charging station.",
+  "hqm.quest.under_pressure.misc_tools.task.1.long_desc": "The pneumatic wrench allows rotation of PneumaticCraft blocks and opening/closing pressure tubes by right-clicking, and instant dismantling by shift+right-clicking. It must be charged in a charging station.",
   "hqm.quest.under_pressure.misc_tools.task.2.desc": "GPS Tool",
-  "hqm.quest.under_pressure.misc_tools.task.2.long_desc": "Some of the PneumaticCraft gadgets require selecting specific coordinates to use them. For that, you will need a GPS tool. Right click on a block to set the tool to those coordinates. Right click in the air to modify the coordinates. Does not need charging.",
+  "hqm.quest.under_pressure.misc_tools.task.2.long_desc": "Some of the PneumaticCraft gadgets require selecting specific coordinates to use them. For that, you will need a GPS tool. right-click on a block to set the tool to those coordinates. right-click in the air to modify the coordinates. Does not need charging.",
   "hqm.quest.under_pressure.misc_tools.task.3.desc": "Air Cannon",
   "hqm.quest.under_pressure.misc_tools.task.3.long_desc": "The Air Cannon will shoot an item to a specific location. Use a GPS Tool with the coordinates selected to lock the cannon on target (the GPS Tool can then be removed). By default, a redstone signal will cause the cannon to fire. It could be useful for long range item transport or, with the right upgrade, as a weapon.",
 
@@ -587,7 +585,7 @@
   "hqm.quest.salvage_operation.me_processors.task.1.desc": "Inscribing",
   "hqm.quest.salvage_operation.me_processors.task.1.long_desc": "Use the inscriber to make the three main circuit types; logic, calculation, and engineering. You'll also need some printed silicon to use as the base plate.",
   "hqm.quest.salvage_operation.me_processors.task.2.desc": "Putting it together",
-  "hqm.quest.salvage_operation.me_processors.task.2.long_desc": "When you have all the components, inscribe your circuits by putting the printed circuits on the top of the inscriber, the printed silicon on the bottom, and a pcb segment in the middle.",
+  "hqm.quest.salvage_operation.me_processors.task.2.long_desc": "When you have all the components, inscribe your circuits by putting the printed circuits on the top of the inscriber, the printed silicon on the bottom, and a PCB segment in the middle.",
 
   "hqm.quest.salvage_operation.me_system.name": "A Matter of Record",
   "hqm.quest.salvage_operation.me_system.desc": "A Matter/Energy storage system needs a few key components to work. Gather these components, construct your storage system, give it power, and you'll be able to store massive amounts of items in a tiny space.",
@@ -666,7 +664,7 @@
 
   "hqm.quest.technological_revolution.conduits.name": "Pipe Dreams",
   "hqm.quest.technological_revolution.conduits.desc": "For further industrialization, you'll need to move items, fluids, and energy around. Time to set up the plumbing.",
-  "hqm.quest.technological_revolution.conduits.task.0.long_desc": "Conduits are made from conduit binder and their respective materials. You can change conduit settings by right clicking their I/O interface or right clicking with a wrench to make quick adjustments.\nWarning: Due to a bug with EnderIO and Thirst, most sources of water are unable to be transferred by fluid conduits. Other liquids will work, but we recommend using other modded transfer methods for moving water.",
+  "hqm.quest.technological_revolution.conduits.task.0.long_desc": "Conduits are made from conduit binder and their respective materials. You can change conduit settings by right-clicking their I/O interface or right-clicking with a wrench to make quick adjustments.\nWarning: Due to a bug with EnderIO and Thirst, most sources of water are unable to be transferred by fluid conduits. Other liquids will work, but we recommend using other modded transfer methods for moving water.",
 
   "hqm.quest.technological_revolution.manual_alloying.name": "Stirring Up Trouble",
   "hqm.quest.technological_revolution.manual_alloying.desc": "Alloying is an essential part of the technological revolution. The standard method of alloying is by melting the metals into a liquid and mixing the liquids together. However, you need extreme heat for that. If you can crush metals into dust, you don't need to melt them all the way to a liquid. Instead, you can just mix the metals together by hand and smelt the resulting dust back into ingots.",
@@ -680,7 +678,7 @@
 
   "hqm.quest.technological_revolution.compression_dynamo.name": "Burning the Midnight Oil",
   "hqm.quest.technological_revolution.compression_dynamo.desc": "The Compression Dynamo is the next advancement in energy generation. It generates energy in large amounts from various types of refined oils.",
-  "hqm.quest.technological_revolution.compression_dynamo.task.0.long_desc": "Diesel, Kerosene, Gasoline, LPG are some of the most practical fuels to use in the Compression Dynamo, perfect for using the oil you have refined.",
+  "hqm.quest.technological_revolution.compression_dynamo.task.0.long_desc": "Diesel, Kerosene, Gasoline, and LPG are some of the most practical fuels to use in the Compression Dynamo, perfect for using the oil you have refined.",
 
 
 
@@ -749,7 +747,7 @@
   "hqm.quest.technological_revolution.mob_slaughter_factory.task.0.long_desc": "A Mob Slaughter Factory can grind mobs into liquid meat and pink slime.",
 
   "hqm.quest.technological_revolution.plant_sower.name": "Green Thumb",
-  "hqm.quest.technological_revolution.plant_sower.desc": "Planting and harvesting crops by hand is time consuming and labor-intensive. Now that you have industrialized somewhat, it should be possible to move beyond that and automate the process.",
+  "hqm.quest.technological_revolution.plant_sower.desc": "Planting and harvesting crops by hand is time-consuming and labor-intensive. Now that you have industrialized somewhat, it should be possible to move beyond that and automate the process.",
   "hqm.quest.technological_revolution.plant_sower.task.0.long_desc": "A Plant Sower can plant crops or saplings in a small area (the range can be expanded with range upgrades). A Plant Gatherer will collect those crops and saplings.\nAutomating crops should provide plenty of food to eat and composting food or saplings can generate large amounts of water.",
 
 
