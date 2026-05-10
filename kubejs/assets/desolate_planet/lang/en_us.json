@@ -206,15 +206,5 @@
   "block.kubejs.metal_crate": "Metal Crate",
   "item.kubejs.camel_pack.fluid": "Fluid: ",
   "item.kubejs.camel_pack.amount": "Amount: ",
-  "item.kubejs.camel_pack.description": "A wearable liquid tank that keeps you hydrated.",
-  "item": {
-    "kubejs": {
-      "advanced_camel_pack": {
-        "description": "A large wearable liquid tank that keeps you hydrated."
-      },
-      "unlimited_camel_pack": {
-        "description": "A wearable liquid tank that collects water from the air to keep you hydrated."
-      }
-    }
-  }
+  "item.kubejs.camel_pack.description": "A wearable liquid tank that keeps you hydrated."
 }
