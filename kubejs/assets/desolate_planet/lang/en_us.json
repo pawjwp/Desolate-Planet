@@ -1,12 +1,10 @@
 {
   "curios.identifier.insulation": "Insulation",
-
   "emi.category.ali.block_loot_miscategorized": "Block Loot (Miscategorized)",
   "emi.category.ali.chest_loot": "Earth Chest Loot",
   "emi.category.ali.chest_loot_crash_landing": "T4L0S Chest Loot (Legacy)",
   "emi.category.ali.chest_loot_desolate_planet": "T4L0S Chest Loot",
   "emi.category.ali.chest_loot_injects": "Modded Chest Loot Injects",
-
   "item.kubejs.desert_cap": "Desert Cap",
   "item.kubejs.desert_tunic": "Desert Tunic",
   "item.kubejs.desert_pants": "Desert Pants",
@@ -18,58 +16,46 @@
   "item.kubejs.wool_insulation": "Wool Insulation",
   "item.kubejs.leather_insulation": "Leather Insulation",
   "item.kubejs.stillsuit": "Stillsuit",
-  
   "block.kubejs.crumbling_seared_bricks": "Crumbling Seared Bricks",
   "block.kubejs.crumbling_scorched_bricks": "Crumbling Scorched Bricks",
-
   "block.kubejs.crashed_applied_controller": "Damaged ME Controller",
   "block.kubejs.crashed_me_drive": "Damaged ME Drive",
   "block.kubejs.crashed_crafting_unit": "Damaged Crafting Unit",
   "block.kubejs.crashed_me_interface": "Damaged ME Interface",
   "block.kubejs.controller_frame": "Controller Frame",
-
   "block.kubejs.crashed_reactor_controller": "Damaged Reactor Controller",
   "block.kubejs.crashed_reactor_frame": "Damaged Reactor Frame",
   "block.kubejs.crashed_turbine_controller": "Damaged Turbine Controller",
   "block.kubejs.crashed_turbine_casing": "Damaged Turbine Casing",
-
   "block.kubejs.crashed_refinery": "Damaged Refinery",
   "block.kubejs.crashed_refinery_output": "Damaged Refinery Output",
   "block.kubejs.crashed_pressure_chamber_wall": "Damaged Pressure Chamber Wall",
-
   "block.kubejs.light_plasteel_block": "Light Plasteel Block",
   "block.kubejs.dark_plasteel_block": "Dark Plasteel Block",
   "block.kubejs.ostrum_door_block": "Ostrum Door Block",
-  
   "item.kubejs.water_filter": "Water Filter",
   "item.kubejs.camel_pack": "Camel Pack",
   "item.kubejs.advanced_camel_pack": "Advanced Camel Pack",
   "item.kubejs.unlimited_camel_pack": "Condensentrating Camel Pack",
   "item.kubejs.camel_pack.empty": "Empty",
-
   "item.kubejs.crook": "Crook",
   "item.kubejs.crook.description": "The Crook is a tool for harvesting leaves. It increases sapling drops and adds a chance to drop silkworms.",
   "item.kubejs.crushing_hammer": "Crushing Hammer",
   "item.kubejs.crushing_hammer.description": "The Crushing Hammer is used to smash blocks into other blocks and items. For example, it can crush cobblestone into gravel, gravel into sand, and sand into dust. It can also crush deepslate, netherrack, blackstone, and end stone into siftable versions.",
-
   "item.kubejs.zombie_jerky": "Zombie Jerky",
   "item.kubejs.mosnter_mash": "Monster Mash",
   "item.kubejs.bug_broth": "Bug Broth",
   "item.kubejs.enderios": "Enderios",
   "item.kubejs.nutrient_brick": "Nutrient Brick",
-  
   "item.kubejs.paste": "Paste",
   "item.kubejs.pcb_segment": "PCB Segment",
   "item.kubejs.plastic_scrap": "Plastic Scrap",
-
   "item.kubejs.staple_grains": "Staple Grains",
   "item.kubejs.staple_proteins": "Staple Proteins",
   "item.kubejs.staple_vegetables": "Staple Vegetables",
   "item.kubejs.staple_fruits": "Staple Fruits",
-
   "item.kubejs.insulated_hydraulic_fabric": "Insulated Hydraulic Fabric",
   "item.kubejs.filtration_pocket": "Filtration Pocket",
-
   "block.kubejs.white_ship_chair": "White Ship Chair",
   "block.kubejs.light_gray_ship_chair": "Light Gray Ship Chair",
   "block.kubejs.gray_ship_chair": "Gray Ship Chair",
@@ -86,11 +72,8 @@
   "block.kubejs.purple_ship_chair": "Purple Ship Chair",
   "block.kubejs.magenta_ship_chair": "Magenta Ship Chair",
   "block.kubejs.pink_ship_chair": "Pink Ship Chair",
-
   "item.mob_grinding_utils.rotten_egg": "Tainted Fertilizer",
   "item.mob_grinding_utils.golden_egg": "Mutagenic Fertilizer",
-
-
   "tooltip.desolate_planet.oak_tree_drop_chance_crook": "Oak trees have bonus drop chances when using a crook.",
   "tooltip.desolate_planet.crook_increases_drops": "Can be used to break leaves to increase sapling drops and get silk worms.",
   "tooltip.desolate_planet.phyto_gro_description": "A potent fertilizer, used like bone meal",
@@ -217,5 +200,21 @@
   "tooltip.desolate_planet.key_shift": "shift",
   "tooltip.desolate_planet.vanilla_tool_disabled": "This item is non-functional. Please use Tinkers Construct tools instead.",
   "tooltip.desolate_planet.enderio_water_bug_part1": "%sDue to a bug with EnderIO and Thirst, most sources of %s are unable to be transferred with fluid conduits.",
-  "tooltip.desolate_planet.enderio_water_bug_part2": "Other liquids will work, but we recommend using other modded transfer methods for moving %s."
+  "tooltip.desolate_planet.enderio_water_bug_part2": "Other liquids will work, but we recommend using other modded transfer methods for moving %s.",
+  "block.kubejs.dust_pile": "Dust Pile",
+  "block.kubejs.trash_pile": "Trash Pile",
+  "block.kubejs.metal_crate": "Metal Crate",
+  "item.kubejs.camel_pack.fluid": "Fluid: ",
+  "item.kubejs.camel_pack.amount": "Amount: ",
+  "item.kubejs.camel_pack.description": "A wearable liquid tank that keeps you hydrated.",
+  "item": {
+    "kubejs": {
+      "advanced_camel_pack": {
+        "description": "A large wearable liquid tank that keeps you hydrated."
+      },
+      "unlimited_camel_pack": {
+        "description": "A wearable liquid tank that collects water from the air to keep you hydrated."
+      }
+    }
+  }
 }
