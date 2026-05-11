@@ -493,6 +493,7 @@
   "hqm.quest.technological_revolution.dissolution_chamber.name": "Liquidando Ativos",
   "hqm.quest.technological_revolution.dissolution_chamber.desc": "A Câmara de Dissolução permite fabricação avançada que pode infundir objetos fabricados com líquido, às vezes produzindo um fluido como subproduto.",
   "hqm.quest.technological_revolution.dissolution_chamber.task.0.long_desc": "Receitas da Câmara de Dissolução são usadas para fabricar alguns itens avançados com carne líquida, plástico derretido e slime rosa líquido.",
+  "hqm.quest.technological_revolution.mob_slaughter_factory.name": "Mistura de Monstros",
   "hqm.quest.technological_revolution.mob_slaughter_factory.desc": "Os monstros neste planeta parecem emergir do chão sempre que e onde quer que seja escuro. Pode ser possível usar isso a seu favor. Se você conseguir canalizá-los para uma Fábrica de Abate de Monstros, ela os triturará automaticamente em líquidos úteis.",
   "hqm.quest.technological_revolution.mob_slaughter_factory.task.0.long_desc": "Uma Fábrica de Abate de Monstros pode triturar monstros em carne líquida e slime rosa.",
   "hqm.quest.technological_revolution.plant_sower.name": "Mão Verde",
