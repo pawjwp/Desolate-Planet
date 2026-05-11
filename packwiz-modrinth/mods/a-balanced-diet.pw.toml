@@ -3,11 +3,11 @@ filename = "diet-forge-3.0.1+1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b29300f3433322f7c9731d1301a370ba60b2af15"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/YNIk0lUj/versions/bb7S6Aox/diet-forge-3.0.1%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "8a7aa410212b640c7c09f7fcb881d0a0b1faac2579413e2f087aea9f94b497dd9fa7d694e9626ae1288fdc115624040861bb7a61a0750b13a377282d87801b59"
 
 [update]
-[update.curseforge]
-file-id = 8055494
-project-id = 1535862
+[update.modrinth]
+mod-id = "YNIk0lUj"
+version = "bb7S6Aox"
