@@ -1,0 +1,7 @@
+
+["Client Configs for AStages Mod"]
+	#Enable experimental settings for LevelChunk class, client side
+	"Enable Experiments for LevelChunk" = false
+	#Enable experimental settings for LevelChunkSection class, client side
+	"Enable Experiments for LevelChunkSection" = false
+

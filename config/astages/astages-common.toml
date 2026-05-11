@@ -1,0 +1,22 @@
+
+["Configs for AStages Mod"]
+	#Enable or disable if mod show a title for each stage add to a player
+	"Enable Titles" = false
+	#If previous setting is enabled, set the color of the title that appears
+	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+	"Title color" = "RED"
+	#Every how many ticks the updating of the structures in which the player is located is required
+	"Tick Structure Updating" = 5
+	#Show logs related to dev things!
+	"Enable Dev Logs" = false
+	#Show warning when a stage is not associated to any restriction
+	"Enable Warning" = true
+	#Choose if simple restrictions must be read in world/server folder or config folder
+	#Allowed Values: CONFIG_FOLDER, SERVER_FOLDER
+	"Read Simple Restrictions" = "CONFIG_FOLDER"
+	#Set how many times simple restrictions file is re-written
+	#Range: > 1
+	"Update file After X Additions" = 5
+	#Enable test-mode used by developers to check if all restrictions work as expected
+	"Enable Test Mode" = false
+
