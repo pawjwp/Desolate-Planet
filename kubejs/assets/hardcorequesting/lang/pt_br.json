@@ -183,12 +183,6 @@
   "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.0.long_desc": "A liga de andesito é usada para máquinas simples e serve como bloco de construção para todo tipo de peças móveis. É feita de andesito e pepitas de ferro ou zinco. Lembre-se, andesito pode ser fabricado a partir de pedregulho e qualquer tipo de quartzo.",
   "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.1.desc": "Eixos e Carcaças",
   "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.1.long_desc": "Eixos são feitos de liga de andesito e servem como uma peça rotativa simples à qual outras máquinas podem se conectar.\n\nA carcaça de andesito pode ser usada para fazer máquinas básicas. É feita clicando com o botão direito em um tronco de madeira descascado com liga de andesito.",
-  "hqm.quest.like_clockwork.andesite_alloy_detailed_create.name": "Começando do Zero",
-  "hqm.quest.like_clockwork.andesite_alloy_detailed_create.desc": "Você precisará de alguns blocos de construção básicos antes de começar a montar máquinas.",
-  "hqm.quest.like_clockwork.andesite_alloy_detailed_create.task.0.desc": "Liga de Andesito",
-  "hqm.quest.like_clockwork.andesite_alloy_detailed_create.task.0.long_desc": "A liga de andesito é usada para máquinas simples e serve como bloco de construção para todo tipo de peças móveis. É feita de andesito e pepitas de ferro ou zinco. Lembre-se, andesito pode ser fabricado a partir de pedregulho e qualquer tipo de quartzo.",
-  "hqm.quest.like_clockwork.andesite_alloy_detailed_create.task.1.desc": "Eixos e Carcaças",
-  "hqm.quest.like_clockwork.andesite_alloy_detailed_create.task.1.long_desc": "Eixos são feitos de liga de andesito e servem como uma peça rotativa simples à qual outras máquinas podem se conectar.\n\nA carcaça de andesito pode ser usada para fazer máquinas básicas. É feita clicando com o botão direito em um tronco de madeira descascado com liga de andesito.",
   "hqm.quest.like_clockwork.hand_crank.name": "Pegando o Jeito das Coisas",
   "hqm.quest.like_clockwork.hand_crank.desc": "A força rotacional é um método simples de transmitir energia para automação antes que a eletricidade se torne uma alternativa viável. Um dos métodos mais fáceis de criar energia rotacional é girar manualmente uma manivela.",
   "hqm.quest.like_clockwork.hand_crank.task.0.long_desc": "A Manivela produz uma pequena quantidade de força rotacional quando operada. Ao segurar o clique direito, ela gira no sentido anti-horário; usar Shift + clique direito inverte a direção. Cada uso gira a manivela a 32 RPM por aproximadamente 0,5 segundo, entregando uma rotação de 90° a qualquer mancal mecânico conectado diretamente, em uma proporção de 1:1. Porém, usar a manivela consome sua fome, tornando-a uma fonte de energia limitada, embora simples. Para fabricá-la, você só precisará de três tábuas e uma liga de andesito.",
@@ -480,10 +474,8 @@
   "hqm.quest.technological_revolution.internal_components_1.task.0.long_desc": "Melhorias de componentes podem ser instaladas nos slots de aumento de uma máquina.",
   "hqm.quest.technological_revolution.internal_components_2.name": "Integridade Estrutural",
   "hqm.quest.technological_revolution.internal_components_2.desc": "Melhorias de Componentes Internos modificam as estatísticas de uma máquina, escalando seus atributos base. Componentes Internos Reforçados são o segundo nível de melhorias de Componentes, triplicando as estatísticas base da máquina.",
-  "hqm.quest.technological_revolution.internal_components_2.task.0.long_desc": "Melhorias de componentes podem ser instaladas nos slots de aumento de uma máquina.",
   "hqm.quest.technological_revolution.internal_components_3.name": "Bem Afinado",
   "hqm.quest.technological_revolution.internal_components_3.desc": "Melhorias de Componentes Internos modificam as estatísticas de uma máquina, escalando seus atributos base. Componentes Internos Ressonantes são o terceiro e último nível de melhorias de Componentes, quadruplicando as estatísticas base da máquina.",
-  "hqm.quest.technological_revolution.internal_components_3.task.0.long_desc": "Melhorias de componentes podem ser instaladas nos slots de aumento de uma máquina.",
   "hqm.quest.technological_revolution.thermal_capstone.name": "Termodinâmica",
   "hqm.quest.technological_revolution.thermal_capstone.desc": "Domine a tecnologia térmica e você pode passar para as próximas etapas de escapar do planeta.",
   "hqm.quest.technological_revolution.thermal_capstone.task.0.long_desc": "Use uma fundição por indução para fazer as ligas necessárias, e entregue-as abaixo.",
@@ -533,6 +525,5 @@
   "hqm.quest.to_infinity_and_beyond.unnamed.desc": "Missão sem nome",
   "hqm.quest.to_infinity_and_beyond.wip_disclaimer.name": "Aviso de Trabalho em Progresso",
   "hqm.quest.to_infinity_and_beyond.wip_disclaimer.desc": "Aviso: Este modpack ainda está em desenvolvimento e o endgame ainda não foi desenvolvido. A exploração espacial é possível com o Ad Astra, mas apenas com os planetas padrão e progressão/integração muito limitados.",
-  "hqm.quest.to_infinity_and_beyond.wip_disclaimer.task.0.long_desc": "Esta linha de missões tem apenas missões temporárias por enquanto. Os placeholders restantes serão desbloqueados quando todas as outras missões estiverem completas.",
-  "example.example": "Exemplo"
+  "hqm.quest.to_infinity_and_beyond.wip_disclaimer.task.0.long_desc": "Esta linha de missões tem apenas missões temporárias por enquanto. Os placeholders restantes serão desbloqueados quando todas as outras missões estiverem completas."
 }
