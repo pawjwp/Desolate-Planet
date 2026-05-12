@@ -1,6 +1,6 @@
 name = "e4mc"
 filename = "e4mc-forge-6.1.0.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/qANg5Jrr/versions/jjcQdp8y/e4mc-forge-6.1.0.jar"
