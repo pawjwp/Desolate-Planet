@@ -1,0 +1,12 @@
+// Compost colors for compressedcreativity. You may add your own colors, change existing ones, or remove colors that aren't needed.
+brass_coated_upgrade_matrix, #f8bb6c
+brass_gilded_lapis_lazuli, #d99a61
+engine_rotor, #af6468
+incomplete_mesh_splashing, #89879a
+mechanical_visor_upgrade, #f8bb6c
+mesh_dense, #6b6564
+mesh_empty, #484140
+mesh_haunted, #66918d
+mesh_splashing, #5e5c9b
+mesh_splashing_frozen, #8c9ec5
+mesh_woven, #9e9d9b
