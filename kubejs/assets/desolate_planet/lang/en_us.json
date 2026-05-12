@@ -52,8 +52,8 @@
   "item.kubejs.unlimited_camel_pack": "Condensentrating Camel Pack",
   "item.kubejs.unlimited_camel_pack.description": "A wearable liquid tank that collects water from the air to keep you hydrated.",
   "item.kubejs.camel_pack.empty": "Empty",
-  "item.kubejs.camel_pack.fluid": "Fluid: ",
-  "item.kubejs.camel_pack.amount": "Amount: ",
+  "item.kubejs.camel_pack.fluid": "Fluid: %s",
+  "item.kubejs.camel_pack.amount": "Amount: %s / %s mB",
 
   "item.kubejs.crook": "Crook",
   "item.kubejs.crook.description": "The Crook is a tool for harvesting leaves. It increases sapling drops and adds a chance to drop silkworms.",

@@ -23,8 +23,8 @@ function registerCamelPackTooltip(e, itemId, capacity, description, hasTank) {
 			return
 		}
 
-		text.add(1, Text.white(Text.translate("item.kubejs.camel_pack.fluid") + String(fluidType.substring(fluidType.indexOf(':') + 1)).replace(/_/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase() })))
-		text.add(2, Text.white(Text.translate("item.kubejs.camel_pack.amount") + amount + ' / ' + capacity + ' mB'))
+		text.add(1, Text.translate("item.kubejs.camel_pack.fluid", String(fluidType.substring(fluidType.indexOf(':') + 1)).replace(/_/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase() })).white())
+		text.add(2, Text.translate("item.kubejs.camel_pack.amount", String(amount), String(capacity)).white())
 		text.add(3, Text.gray(description))
 	})
 }
