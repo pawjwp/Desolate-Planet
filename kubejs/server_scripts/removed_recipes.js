@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
     // Removal by ID
     [
+        'ad_astra:smelting/copper_ingot_from_smelting_glacio_copper_ore',
         'create:splashing/ice',
         'enderio:iron_gear',
         'industrialforegoing:diamond_gear',
