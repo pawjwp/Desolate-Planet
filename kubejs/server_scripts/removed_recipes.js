@@ -12,7 +12,6 @@ ServerEvents.recipes(event => {
         'tconstruct:smeltery/casting/scorched/polished_from_magma',
         'tconstruct:smeltery/casting/scorched/stone_from_magma',
         'tconstruct:smeltery/casting/seared/brick_composite',
-        'tconstruct:smeltery/casting/seared/stone/block_from_seared',
         'tconstruct:smeltery/melting/metal/iron/ore_sparse'
     ].forEach(id => {
         event.remove({ id: id });
