@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 45,
+      "rate": "metal",
+      "tag": "forge:molten_silver"
+    }
+  ],
+  "ingredient": {
+    "item": "exdeorum:lead_ore_chunk"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 45,
+    "tag": "forge:molten_lead"
+  },
+  "temperature": 330,
+  "time": 28
+}

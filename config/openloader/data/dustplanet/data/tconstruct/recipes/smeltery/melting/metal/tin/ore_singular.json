@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 45,
+      "rate": "metal",
+      "tag": "forge:molten_nickel"
+    }
+  ],
+  "ingredient": {
+    "item": "exdeorum:tin_ore_chunk"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 45,
+    "tag": "forge:molten_tin"
+  },
+  "temperature": 225,
+  "time": 25
+}
