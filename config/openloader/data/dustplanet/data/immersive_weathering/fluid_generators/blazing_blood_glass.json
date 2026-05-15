@@ -1,0 +1,11 @@
+{
+  "type": "target_other",
+  "fluid": "tconstruct:blazing_blood",
+  "generate": {
+    "Name": "minecraft:glass"
+  },
+  "target": {
+    "predicate_type": "minecraft:tag_match",
+    "tag": "desolate_planet:superheats_to_glass"
+  }
+}
