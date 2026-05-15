@@ -101,13 +101,13 @@
     "curseForgeHash": 98480002,
     "modrinthHash": "a52918a500ff421180a1cbd1a0cabee712134ec4"
   },
-  "astages-1.4.0-1.20.1-all.jar": {
-    "jarName": "astages-1.4.0-1.20.1-all.jar",
+  "astages-2.0.0-1.20.1-all.jar": {
+    "jarName": "astages-2.0.0-1.20.1-all.jar",
     "modId": "astages",
     "name": "AStages",
-    "version": "1.4.0-1.20.1",
-    "curseForgeHash": 1699752541,
-    "modrinthHash": "b9de438f327df50dbd985a9d193f6cea352e8b55"
+    "version": "2.0.0-1.20.1",
+    "curseForgeHash": 3630792584,
+    "modrinthHash": "10483a0e8eb0c7c962231f011b5616dc2de5d6bc"
   },
   "athena-forge-1.20.1-3.1.2.jar": {
     "jarName": "athena-forge-1.20.1-3.1.2.jar",
@@ -324,6 +324,14 @@
     "version": "6.4.0+1.20.1",
     "curseForgeHash": 940613798,
     "modrinthHash": "e7b9fe89566bb1ee013e33745f22f309f679536e"
+  },
+  "compressedcreativity-1.20.1-0.2.0-all.jar": {
+    "jarName": "compressedcreativity-1.20.1-0.2.0-all.jar",
+    "modId": "compressedcreativity",
+    "name": "Compressed Creativity",
+    "version": "1.20.1-0.2.0",
+    "curseForgeHash": 269814092,
+    "modrinthHash": "0a87cacce547e6d96364b5376e0b415c90f17b59"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -1122,13 +1130,13 @@
     "curseForgeHash": 1432081092,
     "modrinthHash": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1"
   },
-  "scarcity-1.1.3.jar": {
-    "jarName": "scarcity-1.1.3.jar",
+  "scarcity-1.1.4.jar": {
+    "jarName": "scarcity-1.1.4.jar",
     "modId": "scarcity",
     "name": "Scarcity",
-    "version": "1.1.3",
-    "curseForgeHash": 783917286,
-    "modrinthHash": "c6d6b00293ed92f35c84b5b70a365b5b6b8a4d49"
+    "version": "1.1.4",
+    "curseForgeHash": 3122659674,
+    "modrinthHash": "068c6a025b3047d0539ea7a1a9773a6ddfff25f2"
   },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",
@@ -1217,6 +1225,14 @@
     "version": "4.2",
     "curseForgeHash": 2736688392,
     "modrinthHash": "26683c2f96d6ff6cf8fbff1d720016d50a7434ae"
+  },
+  "Super Factory Manager (SFM)-MC1.20.1-4.32.0.jar": {
+    "jarName": "Super Factory Manager (SFM)-MC1.20.1-4.32.0.jar",
+    "modId": "sfm",
+    "name": "Super Factory Manager (SFM)",
+    "version": "4.32.0",
+    "curseForgeHash": 3726585444,
+    "modrinthHash": "b07d0746e2f3a90dec3a4d4e0a59d72ba28d14c1"
   },
   "supermartijn642configlib-1.1.8-forge-mc1.20.jar": {
     "jarName": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
