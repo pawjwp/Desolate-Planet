@@ -1,0 +1,19 @@
+{
+  "type": "target_self",
+  "fluid": "minecraft:lava",
+  "priority": 1,
+  "generate": {
+    "Name": "minecraft:netherrack"
+  },
+  "adjacent_blocks": {
+    "sides": [
+      {
+        "fluids": [
+          "thermal:redstone",
+          "thermal:redstone_flowing"
+        ],
+        "predicate_type": "immersive_weathering:fluid_match"
+      }
+    ]
+  }
+}

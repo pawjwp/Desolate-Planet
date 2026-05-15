@@ -1,0 +1,19 @@
+{
+  "type": "target_self",
+  "fluid": "minecraft:lava",
+  "priority": 1,
+  "generate": {
+    "Name": "minecraft:end_stone"
+  },
+  "adjacent_blocks": {
+    "sides": [
+      {
+        "fluids": [
+          "thermal:ender",
+          "thermal:ender_flowing"
+        ],
+        "predicate_type": "immersive_weathering:fluid_match"
+      }
+    ]
+  }
+}
