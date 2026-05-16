@@ -1,6 +1,7 @@
 {
   "type": "target_self",
   "fluid": "minecraft:lava",
+  "fluid_type": "flowing",
   "priority": 1,
   "generate": {
     "Name": "create:scoria"

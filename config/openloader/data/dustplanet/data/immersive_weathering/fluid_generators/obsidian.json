@@ -1,18 +1,14 @@
 {
   "type": "target_self",
   "fluid": "minecraft:lava",
-  "fluid_type": "flowing",
-  "priority": 1,
+  "fluid_type": "still",
   "generate": {
-    "Name": "minecraft:netherrack"
+    "Name": "minecraft:obsidian"
   },
   "adjacent_blocks": {
     "sides": [
       {
-        "fluids": [
-          "thermal:redstone",
-          "thermal:redstone_flowing"
-        ],
+        "fluids": "#desolate_planet:cools_molten_fluids",
         "predicate_type": "immersive_weathering:fluid_match"
       }
     ]

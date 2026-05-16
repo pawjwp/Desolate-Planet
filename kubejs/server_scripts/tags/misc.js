@@ -95,3 +95,20 @@ ServerEvents.tags('block', event => {
         'exdeorum:dust'
     )
 });
+
+ServerEvents.tags('fluid', event => {
+
+    event.add('forge:ender',
+        'thermal:ender_flowing'
+    )
+
+    event.add('forge:redstone',
+        'thermal:redstone_flowing'
+    )
+
+    event.add('desolate_planet:cools_molten_fluids',
+        '#minecraft:water',
+        '#forge:ender',
+        '#forge:redstone'
+    )
+});

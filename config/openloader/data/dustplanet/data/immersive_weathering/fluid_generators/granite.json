@@ -1,6 +1,7 @@
 {
   "type": "target_self",
   "fluid": "minecraft:lava",
+  "fluid_type": "flowing",
   "generate": { "Name": "minecraft:granite" },
   "adjacent_blocks": {
     "any": [
