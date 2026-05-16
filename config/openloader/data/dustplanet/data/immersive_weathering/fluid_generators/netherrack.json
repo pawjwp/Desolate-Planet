@@ -9,10 +9,7 @@
   "adjacent_blocks": {
     "sides": [
       {
-        "fluids": [
-          "thermal:redstone",
-          "thermal:redstone_flowing"
-        ],
+        "fluids": "#forge:redstone",
         "predicate_type": "immersive_weathering:fluid_match"
       }
     ]

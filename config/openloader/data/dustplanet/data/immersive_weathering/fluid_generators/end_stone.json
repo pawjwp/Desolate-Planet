@@ -9,10 +9,7 @@
   "adjacent_blocks": {
     "sides": [
       {
-        "fluids": [
-          "thermal:ender",
-          "thermal:ender_flowing"
-        ],
+        "fluids": "#forge:ender",
         "predicate_type": "immersive_weathering:fluid_match"
       }
     ]
