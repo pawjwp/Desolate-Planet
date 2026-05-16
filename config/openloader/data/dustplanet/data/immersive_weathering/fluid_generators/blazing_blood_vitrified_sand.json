@@ -1,0 +1,11 @@
+{
+  "type": "target_other",
+  "fluid": "tconstruct:blazing_blood",
+  "generate": {
+    "Name": "immersive_weathering:vitrified_sand"
+  },
+  "target": {
+    "predicate_type": "minecraft:tag_match",
+    "tag": "minecraft:sand"
+  }
+}
