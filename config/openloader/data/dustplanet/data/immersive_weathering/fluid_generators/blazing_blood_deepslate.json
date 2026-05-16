@@ -1,0 +1,25 @@
+{
+  "type": "target_self",
+  "fluid": "tconstruct:blazing_blood",
+  "fluid_type": "flowing",
+  "priority": 2,
+  "generate": {
+    "Name": "minecraft:deepslate"
+  },
+  "adjacent_blocks": {
+    "any": [
+      {
+        "block_state": {
+          "Name": "minecraft:magma_block"
+        },
+        "predicate_type": "minecraft:blockstate_match"
+      },
+      {
+        "block_state": {
+          "Name": "minecraft:packed_ice"
+        },
+        "predicate_type": "minecraft:blockstate_match"
+      }
+    ]
+  }
+}

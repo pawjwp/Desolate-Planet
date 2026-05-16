@@ -1,0 +1,19 @@
+{
+  "type": "target_self",
+  "fluid": "tconstruct:blazing_blood",
+  "fluid_type": "still",
+  "generate": {
+    "Name": "kubejs:blazing_block"
+  },
+  "adjacent_blocks": {
+    "sides": [
+      {
+        "blocks": [
+          "minecraft:blue_ice",
+          "minecraft:packed_ice"
+        ],
+        "predicate_type": "immersive_weathering:block_set_match"
+      }
+    ]
+  }
+}

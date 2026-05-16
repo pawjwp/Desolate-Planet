@@ -1,0 +1,30 @@
+{
+  "type": "target_self",
+  "fluid": "tconstruct:blazing_blood",
+  "fluid_type": "flowing",
+  "generate": {
+    "Name": "minecraft:smooth_basalt"
+  },
+  "adjacent_blocks": {
+    "sides": [
+      {
+        "fluids": "#minecraft:water",
+        "predicate_type": "immersive_weathering:fluid_match"
+      }
+    ],
+    "any": [
+      {
+        "block_state": {
+          "Name": "minecraft:blue_ice"
+        },
+        "predicate_type": "minecraft:blockstate_match"
+      }
+    ],
+    "down": {
+      "block_state": {
+        "Name": "minecraft:soul_soil"
+      },
+      "predicate_type": "minecraft:blockstate_match"
+    }
+  }
+}
