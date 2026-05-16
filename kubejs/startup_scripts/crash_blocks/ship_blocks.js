@@ -21,6 +21,16 @@ StartupEvents.registry("block", (event) => {
     .tag("forge:storage_blocks/plasteel")
     .textureAll('kubejs:block/dark_plasteel_block')
 
+  event.create("blazing_block")
+    .mapColor("color_orange")
+    .soundType("moss")
+    .hardness(1.8)
+    .resistance(1.0)
+    .requiresTool(false)
+    .tagBlock("mineable/pickaxe")
+    .tag("forge:storage_blocks/blaze_rod")
+    .model('kubejs:block/blazing_block')
+
   event.create("ostrum_door_block")
     .mapColor("color_purple")
     .soundType("metal")
