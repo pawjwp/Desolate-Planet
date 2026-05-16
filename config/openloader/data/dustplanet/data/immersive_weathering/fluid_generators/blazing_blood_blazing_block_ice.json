@@ -6,7 +6,7 @@
     "Name": "kubejs:blazing_block"
   },
   "adjacent_blocks": {
-    "sides": [
+    "any": [
       {
         "blocks": [
           "minecraft:blue_ice",

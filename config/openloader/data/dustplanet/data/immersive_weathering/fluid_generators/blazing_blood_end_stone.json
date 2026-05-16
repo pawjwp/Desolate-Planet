@@ -7,7 +7,7 @@
     "Name": "minecraft:end_stone"
   },
   "adjacent_blocks": {
-    "sides": [
+    "any": [
       {
         "fluids": "#forge:ender",
         "predicate_type": "immersive_weathering:fluid_match"

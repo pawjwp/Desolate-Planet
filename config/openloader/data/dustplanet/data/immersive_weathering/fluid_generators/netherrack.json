@@ -7,7 +7,7 @@
     "Name": "minecraft:netherrack"
   },
   "adjacent_blocks": {
-    "sides": [
+    "any": [
       {
         "fluids": "#forge:redstone",
         "predicate_type": "immersive_weathering:fluid_match"

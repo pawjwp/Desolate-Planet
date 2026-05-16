@@ -6,7 +6,7 @@
     "Name": "minecraft:obsidian"
   },
   "adjacent_blocks": {
-    "sides": [
+    "any": [
       {
         "blocks": [
           "minecraft:blue_ice",
