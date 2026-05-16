@@ -1,0 +1,16 @@
+{
+  "type": "target_self",
+  "fluid": "tconstruct:blazing_blood",
+  "fluid_type": "still",
+  "generate": {
+    "Name": "kubejs:blazing_block"
+  },
+  "adjacent_blocks": {
+    "any": [
+      {
+        "fluids": "#desolate_planet:cools_molten_fluids",
+        "predicate_type": "immersive_weathering:fluid_match"
+      }
+    ]
+  }
+}
