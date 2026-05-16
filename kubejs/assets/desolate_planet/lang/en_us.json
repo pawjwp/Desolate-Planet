@@ -226,5 +226,7 @@
   "tooltip.desolate_planet.key_shift": "shift",
   "tooltip.desolate_planet.vanilla_tool_disabled": "This item is non-functional. Please use Tinkers Construct tools instead.",
   "tooltip.desolate_planet.enderio_water_bug_part1": "%sDue to a bug with EnderIO and Thirst, most sources of %s are unable to be transferred with fluid conduits.",
-  "tooltip.desolate_planet.enderio_water_bug_part2": "Other liquids will work, but we recommend using other modded transfer methods for moving %s."
+  "tooltip.desolate_planet.enderio_water_bug_part2": "Other liquids will work, but we recommend using other modded transfer methods for moving %s.",
+
+  "info.exdeorum.witch_water": "Witch water is obtained by putting water in a barrel on top of mycelium. More mycelium speeds up the process. A barrel with witch water will grow mushrooms on nearby mycelium."
 }

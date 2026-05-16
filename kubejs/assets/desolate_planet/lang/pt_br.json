@@ -209,5 +209,7 @@
   "tooltip.desolate_planet.key_shift": "Shift",
   "tooltip.desolate_planet.vanilla_tool_disabled": "Este item não é funcional. Use ferramentas do Tinkers Construct em vez disso.",
   "tooltip.desolate_planet.enderio_water_bug_part1": "%sDevido a um bug com EnderIO e Sede, a maioria das fontes de %s não pode ser transferida com condutos de fluido.",
-  "tooltip.desolate_planet.enderio_water_bug_part2": "Outros líquidos funcionarão, mas recomendamos usar outros métodos de transferência de mods para mover %s."
+  "tooltip.desolate_planet.enderio_water_bug_part2": "Outros líquidos funcionarão, mas recomendamos usar outros métodos de transferência de mods para mover %s.",
+
+  "info.exdeorum.witch_water": "Água de bruxa é obtida colocando água em um barril sobre micélio. Mais micélio acelera o processo. Um barril com água de bruxa fará cogumelos crescerem no micélio próximo."
 }
