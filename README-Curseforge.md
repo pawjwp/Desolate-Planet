@@ -89,6 +89,21 @@ A: Absolutely!
 *   For simpler submissions like textures, models, buildings, or other small files, you can send those to us and we can do the implementation work for you (if approved).
 *   For anything more complicated like full game mechanics, complex scripts, or large-scale config adjustments, you can submit a [pull request](https://github.com/pawjwp/Desolate-Planet/pulls) on GitHub. See our [Contributing Guide](https://github.com/pawjwp/Desolate-Planet?tab=contributing-ov-file) for information about setting up the modpack dev environment on your computer.
 
+### Q: Can I help translate the modpack?
+
+A: Absolutely!
+*   I have done my best to make all text in the modpack translatable through Minecraft's localization files and the modpack was recently translated into Portuguese.
+*   If you want to translate anything into your language (or correct any existing translations), feel free to send me them via [Discord](https://discord.gg/4en3SpWtJg) or by submitting a [pull request](https://github.com/pawjwp/Desolate-Planet/pulls) on our [Github](https://github.com/pawjwp/Desolate-Planet).
+*   The following files are available to translate:
+    * [Custom Items and Tooltips](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/desolate_planet/lang/en_us.json)
+    * [Quests](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/hardcorequesting/lang/en_us.json)
+    * [Tips](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/tips/lang/en_us.json)
+    * [Diet Notifications](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/diet/lang/en_us.json)
+    * [Diet Mod Text](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/a_balanced_diet/en_us.json)
+    * [Legume Delight Items](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/legumedelight/en_us.json)
+    * [Scarcity Mod Items](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/scarcity/en_us.json)
+    * [RAM Allocation Warnings](https://github.com/pawjwp/Desolate-Planet/blob/main/config/crash_assistant/crash_assistant_localization_overrides/en_us.json)
+
 ### Q: Do you have a roadmap/list of planned updates?
 
 A: Yes, the most up-to-date roadmap is in [our discord](https://discord.gg/nP9jaNze8e). I have many plans for the future of this modpack and the roadmap details the next 6-8 major updates. Feel free to let me know what you think and what you think the future of this modpack should include.
