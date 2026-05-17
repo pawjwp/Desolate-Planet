@@ -1,0 +1,13 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "legumedelight:peanuts"
+  },
+  "result": [
+    {
+      "item": "legumedelight:peanuts",
+      "chance": 2.5
+    }
+  ],
+  "experience": 0.15
+}

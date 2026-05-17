@@ -57,6 +57,14 @@
   # <Boolean> Valid Values: { true, false }, Default: true
   general.fancy_fishing_mobs = true
 
+  # If vanilla replacements are enabled, some vanilla advancements usually either become unobtainable or just very
+  #   hard to get.
+  # If this is enabled, Special Mobs will tweak said advancements' criteria during server startup so it becomes
+  #   possible to obtain them.
+  #  * Requires a WORLD restart to take effect *
+  # <Boolean> Valid Values: { true, false }, Default: true
+  general.patch_advancements = true
+
 
 # Category: natural_spawning
 # Options to customize the additional natural monster spawning from this mod. Most changes to options in this category

@@ -2,7 +2,7 @@
 [general]
 	block_growths = true
 	#put here the name of a block growth json you want to disable i.e: [weeds, weeds_spread].Note that this is not the preferred way to do this as block growths are all data driven so it would be best to disable or tweak them by creating a datapack that overrides themCheck the mod data folder for the required names. Requires resource reload (/data reload)
-	block_growth_blacklist = []
+	block_growth_blacklist = ["rooted_dirt", "rooted_grass_block_birch_forest", "rooted_grass_block_cherry_grove", "rooted_grass_block_forest", "rooted_grass_block_jungle", "rooted_grass_block_mangrove_swamp", "rooted_grass_block_taiga", "rooted_grass_block_wooded_badlands", "rooted_grass", "sand_layer_seeping", "sandstone_erosion_red", "sandstone_erosion", "sapling", "weather_sandstorm", "weeds_spread", "weeds"]
 	creative_tab = false
 	#Drop stuff when in creative
 	drop_in_creative = false
@@ -61,7 +61,7 @@
 
 [food]
 	icicle_food = true
-	icicle_fire_resistance = true
+	icicle_fire_resistance = false
 
 [misc]
 	composter_dirt = true
@@ -79,7 +79,7 @@
 	#Range: 1 ~ 8
 	max_pile_height = 3
 	#leaves that wont spawn leaf piles
-	leaf_piles_blacklist = []
+	leaf_piles_blacklist = ["exdeorum:infested_leaves"]
 
 [thin_ice]
 	natural_melting = false

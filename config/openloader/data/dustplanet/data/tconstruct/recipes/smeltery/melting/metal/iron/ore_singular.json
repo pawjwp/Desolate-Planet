@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 45,
+      "rate": "metal",
+      "tag": "forge:molten_steel"
+    }
+  ],
+  "ingredient": {
+    "item": "exdeorum:iron_ore_chunk"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 45,
+    "tag": "forge:molten_iron"
+  },
+  "temperature": 800,
+  "time": 38
+}

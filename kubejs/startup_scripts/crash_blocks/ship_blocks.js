@@ -1,6 +1,5 @@
 StartupEvents.registry("block", (event) => {
   event.create("light_plasteel_block")
-    .displayName("Light Plasteel Block")
     .mapColor("snow")
     .soundType("metal")
     .hardness(1.8)
@@ -12,7 +11,6 @@ StartupEvents.registry("block", (event) => {
     .textureAll('kubejs:block/light_plasteel_block')
 
   event.create("dark_plasteel_block")
-    .displayName("Dark Plasteel Block")
     .mapColor("color_black")
     .soundType("metal")
     .hardness(1.8)
@@ -23,8 +21,17 @@ StartupEvents.registry("block", (event) => {
     .tag("forge:storage_blocks/plasteel")
     .textureAll('kubejs:block/dark_plasteel_block')
 
+  event.create("blazing_block")
+    .mapColor("color_orange")
+    .soundType("moss")
+    .hardness(1.8)
+    .resistance(1.0)
+    .requiresTool(false)
+    .tagBlock("mineable/pickaxe")
+    .tag("forge:storage_blocks/blaze_rod")
+    .model('kubejs:block/blazing_block')
+
   event.create("ostrum_door_block")
-    .displayName("Ostrum Door Block")
     .mapColor("color_purple")
     .soundType("metal")
     .hardness(5.0)

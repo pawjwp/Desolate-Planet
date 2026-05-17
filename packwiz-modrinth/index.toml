@@ -1,12 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/AdvancedBackups-client.properties"
+hash = "2ebc68846ce5dd86ca200e2e996337a7c4fa0cda38b779c98115f1b30def3d01"
+
+[[files]]
+file = "config/AdvancedBackups.properties"
+hash = "a109b86ea19c1f6fd2b5befb95f020fed58c4f0242afeb1c9ffb15ebe9bcd3af"
+
+[[files]]
 file = "config/CoroUtil/General.toml"
 hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
 [[files]]
 file = "config/Crust/client_config_editor.toml"
-hash = "e8ffe71cb0cb8035cbc91ed2b904141d9890db4c3a642bad9c143569d1c580af"
+hash = "0e8ee900134e2067506fad044570754b8e55253f684c823a494472c09f699953"
 
 [[files]]
 file = "config/Crust/client_extra_inv_buttons.toml"
@@ -27,6 +35,10 @@ hash = "1a1e4beb712c961f93397407174210de08d121e4a8515b4a72fa99220525dba7"
 [[files]]
 file = "config/Crust/render_settings.toml"
 hash = "c560162027facd82fa7d545853bea19c08c52c73a8e0b062141510e65ddd4925"
+
+[[files]]
+file = "config/Crust/utilities.toml"
+hash = "261ec0878c3fca127ccabb88c41a8578d9430cfc4aea8b52a825859e4a1d0432"
 
 [[files]]
 file = "config/EnderStorage.cfg"
@@ -406,7 +418,7 @@ hash = "5d4d1ca491df62eef32e9ec9ad016cfee27457f357166dc72a46bcc450ccbb90"
 
 [[files]]
 file = "config/SpecialMobs/main.toml"
-hash = "2bea9e29c8cb18eff54d83ec1acb163b1298ecea54137df009bff975cfb54637"
+hash = "59f1aa9fb73dd70760b8b3b08982d2a6b6f2289d27ab0f20f509d5465feb584e"
 
 [[files]]
 file = "config/SpecialMobs/silverfish/_family_of_silverfish.toml"
@@ -778,7 +790,7 @@ hash = "08a9f7c6f63bd35d49b15fa5bccd8cdf667f21af0c9a8cb2ab5998eb598ee7c3"
 
 [[files]]
 file = "config/ali/ali_common.json"
-hash = "a55ada17a46c8ae45f778365728f39bbfdc22df662c5479c0408b9e76f4e41bb"
+hash = "830953ace90ee48a670307ab5499007611ad0b439694159dbb5877c630709012"
 
 [[files]]
 file = "config/alltheleaks.json"
@@ -821,12 +833,16 @@ file = "config/astages-common.toml"
 hash = "f1a491e6b34ec239519d441cf4bb83372217dc3301e9ac7e9b3a1173ac7b52d0"
 
 [[files]]
-file = "config/astages/simple_restrictions.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+file = "config/astages/astages-client.toml"
+hash = "0c6e5b49f6d0b8a95189360af471f113a5cbf9aac42cd3ab91cbfacd162cf9e9"
+
+[[files]]
+file = "config/astages/astages-common.toml"
+hash = "e4af8c9ffb0c64ce7ebf302c595a889078a58a728b2c2678b8022aaa85b61d3d"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "58c72e274b578eb017d392e8ba4fee335d88cdf5673eb2938a3591b2d33d1aeb"
+hash = "91c20edad2fc62e0f68ae652caa52f0cf856b9b5671d15d70d5d2210559708d1"
 
 [[files]]
 file = "config/balm-client.toml"
@@ -930,7 +946,7 @@ hash = "6b4dd36a22a75bcb70e9bb4074bc7ccfb5ad3a20a952cb7293a4c892e852ae23"
 
 [[files]]
 file = "config/coldsweat/main.toml"
-hash = "e251b3dc24fe4266d4e74c1fea066105b27f89255c72fce0e6f57b517da12d43"
+hash = "7e3c6032865925cdc9ea15f47dff60d2d3691ae985d7101a21c677d343f9fb45"
 
 [[files]]
 file = "config/coldsweat/world.toml"
@@ -941,8 +957,16 @@ file = "config/collective.json5"
 hash = "9b774f59463076c315606cbc4717778f16ef8ef48a84b9c7fc4e0ae437cccc8d"
 
 [[files]]
+file = "config/colorwheel-client.toml"
+hash = "36b5d2eebd3ec8bcade14f6c0798453e3698677d25b3b6c231001579e8250113"
+
+[[files]]
 file = "config/comforts-server.toml"
 hash = "2520ce5d222288a8022f76bd54dfb605286a1c256fc7bfb3a1edf77179f76d3e"
+
+[[files]]
+file = "config/compressedcreativity-client.toml"
+hash = "170b5fa335241f2fef18f151d593ff70fd98ac8646a23c3c3763bb48b49824ed"
 
 [[files]]
 file = "config/configured-client.toml"
@@ -966,7 +990,7 @@ hash = "7ac94e5c0a1bfbe7611666c05491a2da0009940cfa6e7886d6a4f6051f672c09"
 
 [[files]]
 file = "config/crash_assistant/config.toml"
-hash = "a293ee4e05450ffe65d1c1159e7e18a001f716b57701559067ba23937976a2da"
+hash = "2cdc3f20b82320940b83c275cefcb0709e54ac4052285c96fd0aa4ab030bcb7d"
 
 [[files]]
 file = "config/crash_assistant/config.toml.bak"
@@ -974,15 +998,147 @@ hash = "739e60334b4eb8db0a009fed2d980328e4d6cbe0f32c8b269c5d842403ea11b3"
 
 [[files]]
 file = "config/crash_assistant/crash_assistant_localization_overrides/README.md"
-hash = "52f394cd3754a29a6f236b1fe622bb430fa7e4632bce262eeb0333d71842bb52"
+hash = "943e1c3672b8a03f27519b357091133205119c7b3db2fcc4c25b597cabf8926d"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/af_za.json"
+hash = "0af80b0e2b400f0c1b6e163e6cba79a1c316f4cfcda5fd2db14572a86db32b38"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/ar_sa.json"
+hash = "cd980b2a63c6177c67887701dd5e3d1fd93679613adb82625c17dc9314fe19eb"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/ca_es.json"
+hash = "2d1d066fec293a64d2f59d5b2727cc38759afa27db6b057cb6eda5e36adca2c8"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/cs_cz.json"
+hash = "fffeb6ed350343cd47f2d50bb69ab84efd57be8f5cef1f88ee5e2e3b7dc0c23a"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/da_dk.json"
+hash = "d1cea9772c1dc28fe32b5dff28c3cfea4971c72a5222d41653dfd372c8dcd793"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/de_de.json"
+hash = "5403b36a938298977904448f2e80dd9ba789240f8e0d384e1865afd3b6ff795a"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/el_gr.json"
+hash = "6ce15182e8d2d0aa9eff1222f1dc05a945c27833ff3f0242ad4f81488a25f57a"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/en_au.json"
+hash = "5ee2046e058feba80b9132fe83a76c9f4e3c9cdc507a68f09e6dbea5b70de226"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/en_gb.json"
+hash = "5ee2046e058feba80b9132fe83a76c9f4e3c9cdc507a68f09e6dbea5b70de226"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/en_pt.json"
+hash = "3201020e378c0172dfc144be5823f3b1e08dfa1e2bff9089ce5c322c895fadc5"
 
 [[files]]
 file = "config/crash_assistant/crash_assistant_localization_overrides/en_us.json"
 hash = "2210b80af84b5472b258aad55b67a2b657838b1a10ef8920f3d1cdb90f94bdad"
 
 [[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/es_es.json"
+hash = "fea03e56909d9365da1120d42897db0e29095cf5c036c61e59185c829db02b5e"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/fi_fi.json"
+hash = "568ce8667d54d62d660c37a922d8407120338838261a9d559e3568368d687028"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/fr_fr.json"
+hash = "2d1d066fec293a64d2f59d5b2727cc38759afa27db6b057cb6eda5e36adca2c8"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/he_il.json"
+hash = "76a6a49180e1bdf5ae85a293e967ad96a3577eb74d49cd663be2c99796402a88"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/hu_hu.json"
+hash = "9c8c4aee160988297901fe09198b4113e17a34a2b1ea4d86f8022bc322a08d72"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/id_id.json"
+hash = "a37ac8364cc560152e4d79e67e559cbba6857a1463f74cee0e9d52ac6c06b3a4"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/it_it.json"
+hash = "accfba6f17930a1c8e4e8839218175b7e244638430df57f952a09639e6c272e8"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/ja_jp.json"
+hash = "6f32ff5fe6a5e8d200537d6bfef60562dbd98a4f675a1a6e6e5b6f52a4075671"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/ko_kr.json"
+hash = "edecd3c237edb5fa68d7df29e09854bfbfbf505fbd74affde04b2a4f3a6324f3"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/nl_nl.json"
+hash = "0af80b0e2b400f0c1b6e163e6cba79a1c316f4cfcda5fd2db14572a86db32b38"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/no_no.json"
+hash = "d1cea9772c1dc28fe32b5dff28c3cfea4971c72a5222d41653dfd372c8dcd793"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/pl_pl.json"
+hash = "6f47ce1d0b9ba3cbc75f7e7fc7daa4ba239dedd4999ce54c5af9f39ddc4fcf32"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/pt_br.json"
+hash = "47ead4e34da812ca064fdbb4a957cd91942a18a9ee393b684208a859d53dad79"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/pt_pt.json"
+hash = "eedba8784afe80db550062863a1a401dab3bc35cabe4f27bb4b64d47b97a2480"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/ro_ro.json"
+hash = "67bee1923dc9af44580dbdc0772a9edec678d902b223268e7ed2ff945577e2d6"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/ru_ru.json"
+hash = "45af0e2e737557fb3b55944d250a3f939baa94d39d2b0e7d3c28321be3e859cc"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/sr_sp.json"
+hash = "45af0e2e737557fb3b55944d250a3f939baa94d39d2b0e7d3c28321be3e859cc"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/sv_se.json"
+hash = "abec89f922324dc71cd4c3eb9ee56e83ea1155a85459f51db7a19d7a5f0f8435"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/tr_tr.json"
+hash = "f95b66a003bd23798ba9c3b569147a6628d66df0849c77bdefc2cfb0a8efc550"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/uk_ua.json"
+hash = "f2a5df82eb44cb29fe06730e8618e3b032993e9cc6f2bb4cb70502fd68722a60"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/vi_vn.json"
+hash = "5a8c4bfa71e189367716a24ac445229843651ade3aca757b4cc4c8a4638de7f8"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/zh_cn.json"
+hash = "6be391fae447fdc1589f168e7d23a5012ea1ab5be346d6dea90f015e765fc4d9"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/zh_tw.json"
+hash = "dc19b9aed0ec576b1d962f51a4e6920e7354ae67a92899771cbcbb5ea0d0be59"
+
+[[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "23350dc87b94f8024c8ef2cd845435e316d5d6bdbce6761929637213e9408d72"
+hash = "56d5dd72cb3555ff1d93cf9253dd61749156f7dabcfbda4e1acd90c821837594"
 
 [[files]]
 file = "config/crash_assistant/scripts/log_analysis/example.jexl"
@@ -990,11 +1146,11 @@ hash = "798a496ac9989f59c3041147173d7f22719918d3a52f8dbddca318a33b730816"
 
 [[files]]
 file = "config/crash_assistant/scripts/startup/example.jexl"
-hash = "b88c79625765edae8a6c8642403ccc88afc940ae7eaf113766f896f98580ebd3"
+hash = "89ed8c7786645b9da00675ee7713546ff019f469bbf81ed95b8ef44fbf7db4af"
 
 [[files]]
 file = "config/crash_assistant/scripts/startup/memory_check.jexl"
-hash = "133d9ff98e81538d2c8826a5984bfbfccef88d0e383bd60e50e17c95be3930b1"
+hash = "d1d620a30e64e6293a6981d1084e33c2ed15b780ce5c0fab14bed1870a0cfb17"
 
 [[files]]
 file = "config/create-client.toml"
@@ -1030,11 +1186,11 @@ hash = "4d0caa199d91f8038c660f30e66dd92aafa353bb9d3693542ad5934254731a9d"
 
 [[files]]
 file = "config/diet-client.toml"
-hash = "aa0b175190d5197e6855c9470e2f24038dc3fc1334a46368647f7a7ec0ad2cef"
+hash = "1c0db23b773a86936f0c632b4a22400996bd5ca382c8ba9395776200dc434d20"
 
 [[files]]
 file = "config/diet-server.toml"
-hash = "b362fb6602b9496f0ccc7ea53142151b94fec4605b06885f8099349a53d7d2dc"
+hash = "4d8c08cd0792baa3b25e1b8239354cc06835b7e89b21de3e1b833c8ecc423e24"
 
 [[files]]
 file = "config/dummmmmmy-client.toml"
@@ -1129,6 +1285,10 @@ file = "config/exdeorum/compost_colors/ae2.txt"
 hash = "86e74eb5157d462464a8463b85306367a6baaf931f5efb2517c5b105d7cd6955"
 
 [[files]]
+file = "config/exdeorum/compost_colors/ae2netanalyser.txt"
+hash = "47c20175a693edfee502a45fc39dca9cf8e0e917c437fc6d2a0e1c5d67633fa3"
+
+[[files]]
 file = "config/exdeorum/compost_colors/another_furniture.txt"
 hash = "e4261eb5856c8b1348ecf454b5269164a6d2be861046d14f52d9dfcfd6a6459c"
 
@@ -1175,6 +1335,10 @@ hash = "649085a916e8f76f117a6656acb55a417250125ec7fe268c84804214544df954"
 [[files]]
 file = "config/exdeorum/compost_colors/comforts.txt"
 hash = "e1955b10f7a203b1650a8297fd3bf6533ca8307339d22fd64f9e567afcf9dd6f"
+
+[[files]]
+file = "config/exdeorum/compost_colors/compressedcreativity.txt"
+hash = "775f9892f60728eda1dec21ac71c39d90fab5b366974309066d51c6b816e081f"
 
 [[files]]
 file = "config/exdeorum/compost_colors/cookingforblockheads.txt"
@@ -1301,6 +1465,10 @@ file = "config/exdeorum/compost_colors/scarcity.txt"
 hash = "bd676035f4c9469cff6496f95c8f9c0f718ca491510923a138532613cd019125"
 
 [[files]]
+file = "config/exdeorum/compost_colors/sfm.txt"
+hash = "1c1ac3a7c22059ea90ba1723592519b3184f18a3230e1820214bbece316fe8d2"
+
+[[files]]
 file = "config/exdeorum/compost_colors/simplyjetpacks.txt"
 hash = "1072567899e0607120471ed3c13e8e40e1d97230083beee8ccadf3a85934210e"
 
@@ -1345,12 +1513,16 @@ file = "config/experimentalsettingsdisabler-client.toml"
 hash = "d280f5cfcfa2b576a7b9486775491cec6c5f80c85c6325e5f396c9d764b16ce3"
 
 [[files]]
+file = "config/extremesoundmuffler-client.toml"
+hash = "7334c48959af8e811f5fec897da7049574f458ce70893f535dbfb02eae9d8e01"
+
+[[files]]
 file = "config/farmersdelight-client.toml"
-hash = "e5f8f5743c23e6c1e569070d720f91e66495e8da03550a0d37d9a07c6d543014"
+hash = "940f68676859e852c600974c4776e986453ce7d3b2cf27ac156535e26c160e11"
 
 [[files]]
 file = "config/farmersdelight-common.toml"
-hash = "ab93780fbfe30774558ac2ea7cedbc367f08b4d3aae0c300e1931acfba7c00cf"
+hash = "dade7cee51de1c78f39419d797a6a0366fd348a2e8baeac849c27124f2ded6fc"
 
 [[files]]
 file = "config/fastleafdecay-server.toml"
@@ -1434,35 +1606,39 @@ hash = "3f344aa8bb2787457def07f2ea08780c742d68d5a76c3fa990f3d6c560820f42"
 
 [[files]]
 file = "config/hqm/default/sets/Basic_Survival.json"
-hash = "044b9f66ab8d478debbd464630b103d01ef8b0cfdf79e973c2060a89e4dbdb3e"
+hash = "0fac3b326224e8bc7666e121cec83808c32b9145c8b2ba2c594da3a76feb6c6d"
 
 [[files]]
 file = "config/hqm/default/sets/Like_Clockwork.json"
-hash = "ba999794661a3edd666dc087890c25734b76940780b8df7240243934b00319f3"
+hash = "bbce82227311304bb93e25580888aa107cba448dbb4193ded0a57043a6650239"
 
 [[files]]
 file = "config/hqm/default/sets/Salvage_Operation.json"
-hash = "e697b8400ae558bd6346c70dd38cf6da64a6416f44ba157d7a1c8fee7fdc30de"
+hash = "f012f0a774292f35715bd30e4435242dc1534bd9dc3db864add2579716b487a2"
 
 [[files]]
 file = "config/hqm/default/sets/Technological_Revolution.json"
-hash = "1a9360e3f2e1271c908690a5a099bc90283ee920ed2f030f36f32522ed5798d5"
+hash = "cc31bc77bceffbe256cf357cca420bfb255cdbaa3d626fac389bfacc4c54ba06"
 
 [[files]]
 file = "config/hqm/default/sets/The_Food_Pyramid.json"
-hash = "73d746d9937fa5debea5476e9ce9ba0cea5728ec63cb63d37f9b59eab5579537"
+hash = "a3c90546e7e083794bfa113bf2dc340f6ad86e69e315154b1c13f646c66bb9c3"
 
 [[files]]
 file = "config/hqm/default/sets/To_Infinity_and_Beyond.json"
-hash = "3aa078a84a0fd1f1ff441212a1b88e8249d5245e674d2d1f913c09663b019991"
+hash = "e416801ce9f96d0c47207f50f6633d4747aeeb1749f6d68bf9b663588ae23f3e"
 
 [[files]]
 file = "config/hqm/default/sets/Under_Pressure.json"
-hash = "36ce57e6241b20c97769bfc10f91fed6870878c8763ada2253087a57f53ff241"
+hash = "451644417c6f2bbeea03a7db2673c31534f0b945c1addd66720c83fb375ba1a6"
 
 [[files]]
 file = "config/hqm/front.png"
 hash = "7fd9d0d43fd7f140025258117ecfaa968a99204694ca834741b0431745a2a9c7"
+
+[[files]]
+file = "config/immediatelyfast.json"
+hash = "f2b7f219198f0a911d04b09f545f2c1256e8d114951443924878dc10963e16aa"
 
 [[files]]
 file = "config/immersive_weathering-client.toml"
@@ -1470,7 +1646,7 @@ hash = "f36bb759ebb4493cd78a3f06dd47368d82effc78cbf3113b5dfe4d9093243cd9"
 
 [[files]]
 file = "config/immersive_weathering-common.toml"
-hash = "6badc55c92c51f7c648cb4d3de6d97ffdc43423f61f4705b459c17851febab22"
+hash = "20f9dc0c0872fee713ef349544a0e381def93332dd6ac983f2ca4b051ea73f25"
 
 [[files]]
 file = "config/incontrol/areas.json"
@@ -1514,7 +1690,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "e6d769dd3e175ae5f6c9c162b4308666fe634bf7885d0d54e11137e0cbb8c6bc"
+hash = "6992a6ca5aa433332b5d0d99d00f884b634acdf3fdba87a561641a5e7f88a94b"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -1530,7 +1706,7 @@ hash = "f4a1b4e10651ca708b93c12b30d6a39ad832b6e43711d61f6df4213ec08c3b6f"
 
 [[files]]
 file = "config/industrialforegoing/machine-core.toml"
-hash = "8434c76a374e637de5eba590ce86cf5d32397b03a50bc15364ac5357707e0ad9"
+hash = "9fb270fd2abd8ab9efb584a9543372110f810d4d61094ea1bb897b622ba94e8c"
 
 [[files]]
 file = "config/industrialforegoing/machine-generator.toml"
@@ -1542,7 +1718,7 @@ hash = "f8eea38c711cc41f1abd74a549e644eff84369e94423cfa4c731cdd12c33d1c3"
 
 [[files]]
 file = "config/industrialforegoing/machine-resource-production.toml"
-hash = "22bdee0a102d3f8acee4dd9a0bea40e5dadabbc11793c02a545d4f5722153469"
+hash = "163c33566149494c6a939b0fd9327c813da4642c41b81ab8da6b3d260b24991f"
 
 [[files]]
 file = "config/insanelib-common.toml"
@@ -1578,7 +1754,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "9b49c9ef876116f1293e66acd62de52c10a1661c3bd56665b26016a906acc16f"
+hash = "571db5639c886147acbd3c25ba2431e63fd24803580a4572e9fa18855ca8a0fe"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1602,15 +1778,19 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "65b8e7538fbc7d62d6bfc7506fa0779563a721f29fe0c76b2c365321828d7563"
+hash = "7fa015b3021623fdc68672510b8559b3ba0b6307272efa43c77922f44b28ed95"
 
 [[files]]
 file = "config/jeiintegration-client.toml"
 hash = "c6cf2a1f253bff9c24251312b981d31869b2dcb676f399a7ca2a7756cfb8f76d"
 
 [[files]]
+file = "config/laserio-common.toml"
+hash = "1dfdb9fceb4c59f18063629049f550a642a45a743e22ac83901e6b013192b651"
+
+[[files]]
 file = "config/lighty.config"
-hash = "40fcd6c2a45c785e9d4ccf229cae72ae21c2c264d5acbc16f623f595676e3409"
+hash = "1235cb75fb249e422f8803501e84529ec51de888ede69aacf131ab5c48c7e2d6"
 
 [[files]]
 file = "config/lmft.json"
@@ -1618,7 +1798,7 @@ hash = "d761a8913e8c0f05581903ff981e5a5215770988aef8eb5d6799a9eee5fac1f8"
 
 [[files]]
 file = "config/mantle-client.toml"
-hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
+hash = "c390daa14dea3ec18a1b2a0c15de43d4a3c249f8359aaa32bd6d482bc4aaafea"
 
 [[files]]
 file = "config/mantle-server.toml"
@@ -1638,7 +1818,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "3720deebb7e923b97f1c60b910d3590f41fdc80792b18f20b75ba0cd90ec6ebd"
+hash = "a98afb4f389eb14bf8ce5d295492d9a0d548ec1b537c84d020b5bfdf5e7a2c8f"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -1653,8 +1833,12 @@ file = "config/nbttooltip.json"
 hash = "1f22d8e270c33d9dbe3f4a7b076d98cd86efb7141c273caa60d8298040c1adc3"
 
 [[files]]
+file = "config/nerb.yaml"
+hash = "297c899fead9c3e358d9fc45edcc241f4ffbc25b71a8c1c2c84609d8110b8eca"
+
+[[files]]
 file = "config/oculus.properties"
-hash = "2a24d79d4f28af97478dadaf735943e8235ac37cb223f273c6534e770bfdf339"
+hash = "4f14814bfef96e1d0b9985c74e579019d53e2ad0f7911f5da00fbe17021bd039"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -2267,6 +2451,14 @@ hash = "68664e846af72d6a3a8d69206cde88cb991dbca0b5394f9d68b2301f0f614e8f"
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/food/zombie_jerky.json"
 hash = "574272c9e5b57915d369d123399ea20eb428d2459bc33ca2d9809beaad66ec64"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/mekanism/crushing/niter_dust.json"
+hash = "b9227fbd98778796e1fc708c5c188c2ed88c2901b1b9418c1b7a762ada94c97c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/mekanism/crushing/sulfur_dust.json"
+hash = "392aae1f0308c5ef9f218fff44fd3cf6c8e84dee6e8ce395ce38cac2756b9225"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/recipes/milling/bronze_dust_mill.json"
@@ -3741,6 +3933,10 @@ file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structur
 hash = "38a6ee995c9382fae697fe0303f79748a9748dff90e7691cdc148a6b8f4ce38a"
 
 [[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure_set/test.zip"
+hash = "edb927c350186701c923e3e1078556bdd2cb6c3e992e7a378b5ca8672db39439"
+
+[[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/city/building.json"
 hash = "fa24e116972bc014652a5402d1cc74a9df5780866edeb871e2b0e8c61e4bd11b"
 
@@ -4145,8 +4341,124 @@ file = "config/openloader/data/dustplanet/data/hqm/recipes/book.json"
 hash = "855d1bde14f5f7636a5c9f4d64753e1a3fb46d79a2c4b997c2a1c8e0eb8e8bb6"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/immersive_weathering/block_growths/sand_layer_seeping.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blackstone.json"
+hash = "8bf66d6a03ed67331bb91a3c6b3c370dd5d603e03b6f0b6283c6c9dbc20a2617"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_basalt.json"
+hash = "f5b71bc14bda8cbf40cab87da4326102b17b0803d0ecc2e426c47c241b2c6151"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_basalt_column.json"
+hash = "6a17b3f53de64757c7e63223049219bd72d79c357937b13dd116efa472e96ba9"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_blackstone.json"
+hash = "66fb1cb157751efcc604ba4ec00e43f1f80cad3719fc5824c3a1865ef3882b88"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_blazing_block.json"
+hash = "83f52870739609d1d39029d66fe2001aa2f7c766fb86e622a67b4c72fc5a88f9"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_blazing_block_ice.json"
+hash = "bc4a56ecfbed18e0a9620fd376dad0ac347161e3f23d985c59a51afdbd8fe1b2"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_cobbled_deepslate.json"
+hash = "bac81fe424322d218f85fd6c0fdd2b833c62fc62504f9f8e9a5d3fa1532b3fad"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_cobblestone.json"
+hash = "edbfc718322a2a76cd6cfb42b022c4dd8c7f40ff2e8b681994d2fc45b55b7c04"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_deepslate.json"
+hash = "fcfe52f1857a3bd8a9af6008bfaa04d46cf54de03b0776161d98509f0a6f434d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_end_stone.json"
+hash = "2f5fe4be9db194c144aacbd320eef39235e99e5b73a8f83378f5602c27430849"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_glass.json"
+hash = "6741bceb2adbdcbb910e26c26023b029e1fe9533742675ff1dd60f5b292d00d1"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_netherrack.json"
+hash = "ca68940354be6badbf1d56690950ed4c22efe19a9d2f50322169e12cadba2c1a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_scoria.json"
+hash = "580508bf25bc2d40b497e1dc71c9a8fbe67462ba75cf3a4c12503032f532cd8e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_smooth_basalt.json"
+hash = "35ed601b9369408a926f815c0b6ca8e67be9b19a2d46c3aadfdda254cf8f62ee"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_stone.json"
+hash = "1755f3bce7d823cc51f1ae2e97e78fa44c44226c4e7359a0feffe1470958b0d7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_terracotta.json"
+hash = "538baed49e7c25ff3eed557614a08b1214e14761994d8e942edc6b94e4390a84"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blazing_blood_vitrified_sand.json"
+hash = "ae5438e9fed0d1709e7cc71c5d6e003611445b6d1e93a3e7ddbf10ca9b46035a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/calcite.json"
+hash = "d6f2301235403ccaa951cd50e4453ac5fed29e249ff26bab57abd7b1b1433526"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/cobbled_deepslate.json"
+hash = "4345051e060d43f7feafa90bff9c64cf2373c1b4122339a061f6ad62687da1fc"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/crying_obsidian.json"
+hash = "3295aea6f39d8b8ab5b6421546945e1663d3a4fbc60c2c64980c7d03eafc8ec2"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/crying_obsidian_ice.json"
+hash = "94f7f80adfc74aaa970f832a86471a76e8ee9ba93ad83781af22b4694612cbbf"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/deepslate.json"
+hash = "f2c7d978a81a4b3f47438ec9484af86cad3ed2065fe3c64c29277486facde5da"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/diorite.json"
+hash = "ec44057009544feba5a420e8484ac9fbed2f45040f8e1fb146b329c923d635a0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/end_stone.json"
+hash = "fac2781bb9ce6b8f3dcec422f8ecad58dfa599f02e3522d7ae3c377b0db2c176"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/granite.json"
+hash = "587e37a76e2cb172edc43fb1c1d8d5d85e7362467c00af6cbf781611c40afe31"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/netherrack.json"
+hash = "4395eed1acfb83632927dfae72848dbc894d25b37ce84bca3b1d047b92a48979"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/obsidian.json"
+hash = "11f4ee39dc4c37edb103306f50d96d0cd8e3398bc49d214e4b6db51f2690e0a8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/obsidian_ice.json"
+hash = "1165cebae5475d20dc111378ff5db0644c0bd5c00132d0f56f6815ec1530d9f0"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/scoria.json"
+hash = "13dc99d0ddc0f3e1d103d2a271813445972270a026e8bc5b39b496bc0f226b90"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/tuff.json"
+hash = "80a7d09d6e98212eda43ff68e3a81fd60ad08454f6edf4d440ca2be2ff8acf84"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/immersive_weathering/recipes/blackstone_brick_from_stonecutting.json"
@@ -4221,6 +4533,14 @@ file = "config/openloader/data/dustplanet/data/industrialforegoing/recipes/water
 hash = "708fea7b312a2ba0e86bc085160419350101eb35f73748ee06b24bda52ef701b"
 
 [[files]]
+file = "config/openloader/data/dustplanet/data/legumedelight/recipes/compat/thermal/machines/insolator/insolator_beans.json"
+hash = "0206a0ac21269b616b47733145c87a54e74689608330adb37796e8e1a7a9fa93"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/legumedelight/recipes/compat/thermal/machines/insolator/insolator_peanuts.json"
+hash = "c9aacb47dbae726663940868026a3a5ded9ce8645672bc645411268fdbd1883f"
+
+[[files]]
 file = "config/openloader/data/dustplanet/data/mantle/mantle/fluid_transfer/potion/fill_water.json"
 hash = "d4f00098cc4ff4c4434b04e4aac68f86c6eb96adcbda9b6cd5ed12681db9c4f2"
 
@@ -4258,7 +4578,7 @@ hash = "1164fa3220ad818b94c0f0fb0ba6951bd85f7b4d1dd04701fb10d3f8bf945848"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/mekanism/recipes/crushing/deepslate_to_crushed_deepslate.json"
-hash = "2d4045a2675eeac7a3313f61b321df7e5e61352323521abc5a8f42aa8cc23cc1"
+hash = "fd350034d197c30847440078371ccb86c5fd1014edd3d1f38e8797037a09e2b0"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/mekanism/recipes/crushing/end_stone_to_crushed_end_stone.json"
@@ -4333,6 +4653,22 @@ file = "config/openloader/data/dustplanet/data/minecraft/recipes/cauldron.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
+file = "config/openloader/data/dustplanet/data/minecraft/recipes/copper_ingot_from_blasting_copper_ore.json"
+hash = "47e0f4dfaedda85f4b94926525859f65a909d3938d6a97e19a3f5a2ef6b2a0bb"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/minecraft/recipes/copper_ingot_from_blasting_deepslate_copper_ore.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/minecraft/recipes/copper_ingot_from_smelting_copper_ore.json"
+hash = "af55e4e9af1c73f27704dca191cfc6ab8938c502098e3fa335f304cc9eddeadb"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/minecraft/recipes/copper_ingot_from_smelting_deepslate_copper_ore.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/recipes/daylight_detector.json"
 hash = "1db0a84f6576abcc612e5bdd73beba42cc28703da3b7e04719d12264fd0531f2"
 
@@ -4343,6 +4679,10 @@ hash = "0dc4b42036a9911f6292370a4a617ce960a73b596206f8b03dc4a7e524872531"
 [[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/recipes/granite.json"
 hash = "d46030af07bc8311cc069658091869b574c55b3cac437ef152120073f2491f24"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/minecraft/recipes/tinted_glass.json"
+hash = "01afc1a0002058f3484bbdeff4a0ccd675dc90eae71d8adb22b274ea21113a15"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/recipes/writable_book.json"
@@ -4665,6 +5005,10 @@ file = "config/openloader/data/dustplanet/data/pneumaticcraft/recipes/vortex_can
 hash = "b753a7a263d5662ca76e5e80150696d13b19ed30154b9d7db64eafc44a15d1bd"
 
 [[files]]
+file = "config/openloader/data/dustplanet/data/sfm/recipes/water_tank.json"
+hash = "21a97338b56577122873b9ddfda95ceb716e2882f763d4d73c9cf163b6b7bd45"
+
+[[files]]
 file = "config/openloader/data/dustplanet/data/specialmobs/loot_tables/entities/babycavespider.json"
 hash = "42d4c5ae3ce5a2bfeaa90797758b5606c65ef8ff463f29e3dd88b1811d3df412"
 
@@ -4805,6 +5149,10 @@ file = "config/openloader/data/dustplanet/data/tconstruct/recipes/common/puny_sm
 hash = "65ea4c89cd1d03b63fe2cc1ffac8cfd816e4bc816eb5488ce79a06eceadc01e6"
 
 [[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/casting/amethyst/glass.json"
+hash = "0ec858c7cf8e10b36e83bac3e03d9e8b1ade7b27a34e06c76d47139b327133c3"
+
+[[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/casting/plastic_gold_cast.json"
 hash = "ff23090c0398ca8ab76f004c6399b0cd7c6d202a1874713d694293da8e779de7"
 
@@ -4885,12 +5233,20 @@ file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/casti
 hash = "f18f0fab9b44ff649d5bc7e625b727d2c0f01254604707564f5a16cdde6b9847"
 
 [[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/amethyst/tinted_glass.json"
+hash = "deffc797eb92f23cd1ff7a2bb21f8e31d90b05863801edd258594d40ff7e8475"
+
+[[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/blaze_powder.json"
 hash = "d00119352af4ccba3d03d0cfd966a2db86d840ad6109c93ac31c53a885d9a77e"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/blaze_rod.json"
 hash = "8fc253c4da34baa75823846f3cb75492b3cd398efe1aca70d20087ac35ab8de6"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/blazing_block.json"
+hash = "c70f9e1f395319110dcc187a218f2a9fb84570cb232dc059df97ba730d63aab0"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/blood_slime_leaves.json"
@@ -4901,8 +5257,52 @@ file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melti
 hash = "f4f4d752275a9946c8df614390e3130700a1f3a1e801731b0a97df5b6149606e"
 
 [[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/cobalt/ore_singular.json"
+hash = "754fdf686e5f8fd61faf956c6125ae8b416ac0d8b951b28846d704e663f03f5d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/copper/ore_singular.json"
+hash = "152d29a9f43b08477e7a1bc762871038823769f3cb577819edc434cbf2f44780"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/gold/ore_singular.json"
+hash = "d4f63b36a43de08d65c6397f191ba85f5d612263fe56cb3fd5fa2d163eab3bd5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/iron/ore_singular.json"
+hash = "15dd41ee3285e8f3eed8f729bc37afb424b8a73aed31e6db7da07445fe631044"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/lead/ore_singular.json"
+hash = "7508510932e923d5e75d8d1086f657b12deed58476427e2eadd0e2e9338e85e4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/nickel/ore_singular.json"
+hash = "96993fe99aecd4c16f4756224a0f16c8c5e23abda0d3678d882cac0f5e1d13f5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/osmium/ore_singular.json"
+hash = "0310b9cc121f4298b593172b0c0100675919527fe526b8de22d816b7ff35e1a7"
+
+[[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/rose_gold/silky_cloth.json"
 hash = "f74705f40918f3220e8b7bb577994a5f8903a364022750a1359fc96eb6b4addc"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/silver/ore_singular.json"
+hash = "a4843f69ce518dcd1bd759c2627c94201b49416caa0ed91fe832f68583862be7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/tin/ore_singular.json"
+hash = "1952891e510b171631df2a7ceb9cf34c5f0141310887710cecfda0ddfaf0b128"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/uranium/ore_singular.json"
+hash = "1ceab309dd399cacd11cbf136d836d50e84097263abcb7fc5f152849f97455fa"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/zinc/ore_singular.json"
+hash = "7fffc010f4cb446206d82b23df46741f6d99a5638ea3a24227369d94663b22b0"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/seared/stone.json"
@@ -5294,7 +5694,7 @@ hash = "38ee64ae2791b44851436ecb5217fb2f23348f46801d302fcfda11db2187cff8"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/diet/textures/gui/icons.png"
-hash = "55de9636ecc165a733672cd23630783f6d309052847ff16b24f9b5bab1982e1b"
+hash = "712da5388f309230f28055aa14d5aa2365d0ed25fd5d76cccc29c0fa0e316855"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/minecraft/texts/splashes.txt"
@@ -5405,20 +5805,12 @@ file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/televi
 hash = "3901c63bcb189ca39086369244325a0e324fe5fd9f2460dee2fdaedc05cf926a"
 
 [[files]]
-file = "config/openloader/resources/pawjwp_tweaks/assets/survive/lang/en_us.json"
-hash = "3f4255963f71140ae18d40227e1300d37dbdfe46e93311c4c4a3c1cde344039d"
-
-[[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/tconstruct/models/item/plate_shield.json"
 hash = "4e7e46e895303c9b8866faa90e553ebe9eca1b4c423223afa4d2d598f7d25495"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/pack.mcmeta"
 hash = "dcbdb85039b102de1ea9340350936cae86f63e34645b5a544a36925eb62c2325"
-
-[[files]]
-file = "config/openloader/resources/scifi_hqm/assets/hardcorequesting/lang/en_us.json"
-hash = "5ae9e4f0c5e6a92daa73c1fdb6b7adfc4bc03e11e9655d6a2491a6079af929ad"
 
 [[files]]
 file = "config/openloader/resources/scifi_hqm/assets/hardcorequesting/textures/block/hqm_item_barrel.png"
@@ -6486,7 +6878,7 @@ hash = "967dde55d1c549f1324f6c641194f222d27b153644d0a2292b7a01bcc34acb10"
 
 [[files]]
 file = "config/pneumaticcraft/ArmorFeatureStatus.cfg"
-hash = "3260c358de448f81835cefd85f2da6a53e4bdcd2be2451c04c0a163e2c0e20be"
+hash = "f979a9cee58136bfcdd950e8f83356fa14880f841de405838e87e3c9a63e291e"
 
 [[files]]
 file = "config/pneumaticcraft/MicromissileDefaults.cfg"
@@ -6534,7 +6926,15 @@ hash = "38ae1ed6caca08047f7b7ec62bfbd99962a64d9c1aa8ede41969eaa139e04f20"
 
 [[files]]
 file = "config/scarcity-common.toml"
-hash = "d90dcd38ea223e7152574d790648f35548cc62e14672350a34bff279c083f8f1"
+hash = "010680d762a106907b469c3a8731f74cca43bcbeaf345a09ef2efc4b64fcdf71"
+
+[[files]]
+file = "config/sfm-client-program-editor.toml"
+hash = "6fb3a3375aafe612d965c16f453e5a757f5feba459d88ab8ef59afe084cf07cb"
+
+[[files]]
+file = "config/sfm-client.toml"
+hash = "32311440b83fc4a649aabe30c1556a01ed221bac1808f28c7dbc651bd08084df"
 
 [[files]]
 file = "config/simplyjetpacks-client.toml"
@@ -6591,6 +6991,10 @@ hash = "3c06caf50d71da6c1fca3ebe263a85ee680be12399234e68b4b9a005125ffd77"
 [[files]]
 file = "config/sync-common.toml"
 hash = "0b2ecae4e3860576406f0d06a7cc2afa541131e2b1c4d84228d9cb6fabd41001"
+
+[[files]]
+file = "config/tconplanner-client.toml"
+hash = "e1943ac427bd208e595d72ac5d069058cd040e5b1f1cc9a0784d5ad28bfb9456"
 
 [[files]]
 file = "config/tconstruct-client.toml"
@@ -6658,7 +7062,7 @@ hash = "565e7782790d656fd31350ef9d90cb8ff8b4f38d1fb2418072829fb404195e58"
 
 [[files]]
 file = "config/tleveling/common.toml"
-hash = "84625bb11bc83a12cba104bbc85e4bccdcc44db31c5100eb26917418799aaca0"
+hash = "0f80bdfb4ca46594bdef2bd1da0da4a295539d4033fc6599fc7a2e3cb7cf7393"
 
 [[files]]
 file = "config/tleveling/modifiers.json"
@@ -6705,12 +7109,280 @@ file = "kubejs/README.txt"
 hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
 
 [[files]]
+file = "kubejs/assets/a_balanced_diet/af_za.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/ar_sa.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/ca_es.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/cs_cz.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/da_dk.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/de_de.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/el_gr.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/en_au.json"
+hash = "9c025d0bc64f14aa9fb8ee3f3c593f9c222ae33bbf2add7d941c4a4b0d5dc9cd"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/en_gb.json"
+hash = "21175bb6d8f2df54ad59cc6c2b540fd7fe574cab797edef4638dfa6eeb599641"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/en_pt.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/en_us.json"
+hash = "c9d4aa493be6ae7b106172beca9c4adee0b96111db73ca50912fcba387fde8d6"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/es_es.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/fi_fi.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/fr_fr.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/he_il.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/hu_hu.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/id_id.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/it_it.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/ja_jp.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/ko_kr.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/nl_nl.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/no_no.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/pl_pl.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/pt_br.json"
+hash = "5047528fc277a03a9f629b81170b4bc4a9988c3f2b7383e56bee83ff255f5a60"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/pt_pt.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/ro_ro.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/ru_ru.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/sr_sp.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/sv_se.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/tr_tr.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/uk_ua.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/vi_vn.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/zh_cn.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/a_balanced_diet/zh_tw.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
 file = "kubejs/assets/curios/textures/slot/empty_insulation_slot.png"
 hash = "c72b62ecff281c1ccaee78722d0b581f9a1ef661e56678210402b8f1df762f3e"
 
 [[files]]
+file = "kubejs/assets/desolate_planet/lang/af_za.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/ar_sa.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/ca_es.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/cs_cz.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/da_dk.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/de_de.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/el_gr.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/en_au.json"
+hash = "84caf7a5c7f8a6d7276f547b70eab26eaa3da954efdb3329249c76330c49bcb0"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/en_gb.json"
+hash = "aa0e67a028a6d3143120a3702d63722903460f3000097fecdf981f4fe531bc9c"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/en_pt.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
 file = "kubejs/assets/desolate_planet/lang/en_us.json"
-hash = "aac5ad1f24a18e9a180c00abd18104d652c87f4b0282ea8d1b3a8e9750f2d8d5"
+hash = "cb2941882ced8a98a9cc9427b3f6480eccde0504d05ad93f5d302f843154e1d8"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/es_es.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/fi_fi.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/fr_fr.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/he_il.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/hu_hu.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/id_id.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/it_it.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/ja_jp.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/ko_kr.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/nl_nl.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/no_no.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/pl_pl.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/pt_br.json"
+hash = "1a32a4dee45c24e11991066b59da8e27ab2261174c1f81b3aef8812d38a36b6d"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/pt_pt.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/ro_ro.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/ru_ru.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/sr_sp.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/sv_se.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/tr_tr.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/uk_ua.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/vi_vn.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/zh_cn.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
+file = "kubejs/assets/desolate_planet/lang/zh_tw.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/desolate_planet/tips/basic_build_perimeter.json"
@@ -6973,6 +7645,142 @@ file = "kubejs/assets/desolate_planet/tips/tinkering_part_swapping.json"
 hash = "e17abd6d4c86ba42454f31cfe1e0b2455e7e6d265d2ca9217923fb193e1a7e00"
 
 [[files]]
+file = "kubejs/assets/diet/lang/af_za.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/ar_sa.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/ca_es.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/cs_cz.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/da_dk.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/de_de.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/el_gr.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/en_au.json"
+hash = "b0dc5a3b7fc15bfe7bea7f4bd0f44a508930eb272189e969d3115365ae72e6a7"
+
+[[files]]
+file = "kubejs/assets/diet/lang/en_gb.json"
+hash = "b0dc5a3b7fc15bfe7bea7f4bd0f44a508930eb272189e969d3115365ae72e6a7"
+
+[[files]]
+file = "kubejs/assets/diet/lang/en_pt.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/en_us.json"
+hash = "c9a5da4cd9dad6241d05cb3df5dd77350e0f36a4fa49751762e031e84f1c4165"
+
+[[files]]
+file = "kubejs/assets/diet/lang/es_es.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/fi_fi.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/fr_fr.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/he_il.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/hu_hu.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/id_id.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/it_it.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/ja_jp.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/ko_kr.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/nl_nl.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/no_no.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/pl_pl.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/pt_br.json"
+hash = "dbee46d332f10f000800521ec98838ff3f9354e5b47cc982e7937b1e9c1d8db8"
+
+[[files]]
+file = "kubejs/assets/diet/lang/pt_pt.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/ro_ro.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/ru_ru.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/sr_sp.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/sv_se.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/tr_tr.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/uk_ua.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/vi_vn.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/zh_cn.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/diet/lang/zh_tw.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
 file = "kubejs/assets/exdeorum/models/block/dust.json"
 hash = "949d332b0585eef9c48e6a77b4db72da4757648f15d198d64c7b30c569d170a3"
 
@@ -6985,12 +7793,148 @@ file = "kubejs/assets/exdeorum/textures/block/dust.png.mcmeta"
 hash = "eb0d3ceb5d7fe07ac85b4307de24af9690a3309428011070b8d843de28b805fa"
 
 [[files]]
+file = "kubejs/assets/hardcorequesting/lang/af_za.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/ar_sa.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/ca_es.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/cs_cz.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/da_dk.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/de_de.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/el_gr.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/en_au.json"
+hash = "1f87e06381b70f08c5a81439154dcfe78b9aad821be7fd7e560943dd2923928c"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/en_gb.json"
+hash = "938ce17aebd60515a9d90a52fb47c788048eaddb514f491f7955025fe071ab57"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/en_pt.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
 file = "kubejs/assets/hardcorequesting/lang/en_us.json"
-hash = "027176d48311ccd2882c836d7d315a943bd2fa43bfe30b6001ba286db6b10e62"
+hash = "d4350e20a57dcc505e44c21002a6e9a8e3e94ac44268a060ca642acc797af085"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/es_es.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/fi_fi.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/fr_fr.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/he_il.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/hu_hu.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/id_id.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/it_it.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/ja_jp.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/ko_kr.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/nl_nl.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/no_no.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/pl_pl.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/pt_br.json"
+hash = "74e249dede6fa904e7c65421250ec66142e5426feaba049f78665645588ffb3f"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/pt_pt.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/ro_ro.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/ru_ru.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/sr_sp.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/sv_se.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/tr_tr.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/uk_ua.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/vi_vn.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/zh_cn.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/hardcorequesting/lang/zh_tw.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
 
 [[files]]
 file = "kubejs/assets/kubejs/blockstates/black_ship_chair.json"
 hash = "5f5b961095f2c1cec3fb34372c739056a0e63a50e6c74af4033b3e3d184b38a8"
+
+[[files]]
+file = "kubejs/assets/kubejs/blockstates/blazing_block.json"
+hash = "f9d40112f82f2b1b9d0fae61894bcc9b2d5b43816e16e14fd85389f139685ae5"
 
 [[files]]
 file = "kubejs/assets/kubejs/blockstates/blue_ship_chair.json"
@@ -7077,8 +8021,8 @@ file = "kubejs/assets/kubejs/blockstates/yellow_ship_chair.json"
 hash = "be70bc2f57e038011b3d82aaafb4f931b265c8e6032adf2cfc03183048375308"
 
 [[files]]
-file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "e6c3fa2043baad394ccad11f5a203dc36ff3cf1b8a975be17858885d94ece477"
+file = "kubejs/assets/kubejs/models/block/blazing_block.json"
+hash = "78c35225a3b6b07086f7f1fd65f32f5b9ae62df661402811099f9bb37ffac1d6"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/crashed_crafting_unit.json"
@@ -8007,6 +8951,14 @@ hash = "e82afac56f75da27645582fe16152ab163112f8fe9f12a4f0c1ed49ce389aeb4"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/ae2_controller_crash.png"
 hash = "c6229d15b2dd2f7feedc767d9eacbf957966b30b5191297f535708ca0f4963f9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/blazing_block.png"
+hash = "4cf6476c0ea2adbef0387c1e2a98b63aba66a8248709be2e0a15589792de7a72"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/blazing_block_top.png"
+hash = "d4a4397a4e8dc748005792710eae484fa264efa65f6c3f901c5829a574c26ebf"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/chamber_wall_crash.png"
@@ -9085,12 +10037,144 @@ file = "kubejs/assets/kubejs/textures/models/armor/string_layer_2.png"
 hash = "ba63c48fdabb6bea4619eb401f8a0707348893d4a48f92cca5119b4fe95d98c9"
 
 [[files]]
-file = "kubejs/assets/minecraft/textures/entity/piglin/zombified_piglin.png"
-hash = "3d2c79c6a5876f6d0ff1b9be071974a99f77d2cc7291ca0cbbab8e67ccf05ba3"
+file = "kubejs/assets/legumedelight/af_za.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
-file = "kubejs/assets/mob_grinding_utils/lang/en_us.json"
-hash = "949a2a1e77a824389fb7f581ed8cf9180a6c1254abb110af573d217755c85188"
+file = "kubejs/assets/legumedelight/ar_sa.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/ca_es.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/cs_cz.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/da_dk.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/de_de.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/el_gr.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/en_au.json"
+hash = "2e294c4d4b8d790e35c30abcf27329ecc1048cc4ac8b2526b90311aafa244d93"
+
+[[files]]
+file = "kubejs/assets/legumedelight/en_gb.json"
+hash = "2e294c4d4b8d790e35c30abcf27329ecc1048cc4ac8b2526b90311aafa244d93"
+
+[[files]]
+file = "kubejs/assets/legumedelight/en_pt.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/en_us.json"
+hash = "66593c7896b385714cfc43ed398da8409bb25520ff66c44c81e32daed790a21a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/es_es.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/fi_fi.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/fr_fr.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/he_il.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/hu_hu.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/id_id.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/it_it.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/ja_jp.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/ko_kr.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/nl_nl.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/no_no.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/pl_pl.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/pt_br.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/pt_pt.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/ro_ro.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/ru_ru.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/sr_sp.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/sv_se.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/tr_tr.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/uk_ua.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/vi_vn.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/legumedelight/zh_cn.json"
+hash = "7aaef0aa1e81a66c82b3009c81951da424f4bb64d5c3849a58e4c75864695b92"
+
+[[files]]
+file = "kubejs/assets/legumedelight/zh_tw.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/piglin/zombified_piglin.png"
+hash = "3d2c79c6a5876f6d0ff1b9be071974a99f77d2cc7291ca0cbbab8e67ccf05ba3"
 
 [[files]]
 file = "kubejs/assets/mob_grinding_utils/models/block/delightful_dirt.json"
@@ -9155,6 +10239,142 @@ hash = "4cb3975715cbd8ce9ced8d78d4d2e4f599d0e62c7e0bb51e563fc11040c2ea40"
 [[files]]
 file = "kubejs/assets/mob_grinding_utils/textures/item/fertilizer_old/tainted_fertilizer.png"
 hash = "aeba6b37c34d610ab9ae7bd46dbb89d2356ebf5923d9db94410aee4cc494a9b8"
+
+[[files]]
+file = "kubejs/assets/scarcity/af_za.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/ar_sa.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/ca_es.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/cs_cz.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/da_dk.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/de_de.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/el_gr.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/en_au.json"
+hash = "9ddede3fe40583f7f3debc6c0b625e0bd1e0fe7bd68eb6f329a440994fe6fb8d"
+
+[[files]]
+file = "kubejs/assets/scarcity/en_gb.json"
+hash = "9ddede3fe40583f7f3debc6c0b625e0bd1e0fe7bd68eb6f329a440994fe6fb8d"
+
+[[files]]
+file = "kubejs/assets/scarcity/en_pt.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/en_us.json"
+hash = "bb1db29fd57865474d2db1f03df7e72d953c18efa223551cd4bd3ecca06d71d6"
+
+[[files]]
+file = "kubejs/assets/scarcity/es_es.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/fi_fi.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/fr_fr.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/he_il.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/hu_hu.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/id_id.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/it_it.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/ja_jp.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/ko_kr.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/nl_nl.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/no_no.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/pl_pl.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/pt_br.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/pt_pt.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/ro_ro.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/ru_ru.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/sr_sp.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/sv_se.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/tr_tr.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/uk_ua.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/vi_vn.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/zh_cn.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/assets/scarcity/zh_tw.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/assets/specialmobs/textures/entity/zombie/base_zombie.png"
@@ -9241,8 +10461,148 @@ file = "kubejs/assets/sync/textures/item/sync_core.png.mcmeta"
 hash = "5af2b7d16f0c37f320f3a1f60fbc76a1900eead187c29893b7464bfc0a2adf74"
 
 [[files]]
+file = "kubejs/assets/tips/lang/af_za.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/ar_sa.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/ca_es.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/cs_cz.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/da_dk.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/de_de.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/el_gr.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/en_au.json"
+hash = "fb30724ad75e8e50d2490874c262ba35df7facd830754eb8e1c8e0ed056e204a"
+
+[[files]]
+file = "kubejs/assets/tips/lang/en_gb.json"
+hash = "fb30724ad75e8e50d2490874c262ba35df7facd830754eb8e1c8e0ed056e204a"
+
+[[files]]
+file = "kubejs/assets/tips/lang/en_pt.json"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+
+[[files]]
 file = "kubejs/assets/tips/lang/en_us.json"
-hash = "37474f6f7009b3d14d7d3a688618bd616ed5b22579b3f34c321486c9ed2b6982"
+hash = "376202518c24497577d914d7ed51f510912d0c850077c69a76f0ef957a0872fe"
+
+[[files]]
+file = "kubejs/assets/tips/lang/es_es.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/fi_fi.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/fr_fr.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/he_il.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/hu_hu.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/id_id.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/it_it.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/ja_jp.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/ko_kr.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/nl_nl.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/no_no.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/pirates/new.json"
+hash = "82ec9c6ec974581562304f593b965d0c19cb514c6e8a2a9ac80006efcd495237"
+
+[[files]]
+file = "kubejs/assets/tips/lang/pirates/old.json"
+hash = "e24416a32bd7db2f306af81d57f56afb87039e458f671d95264cc12d3bb35ede"
+
+[[files]]
+file = "kubejs/assets/tips/lang/pl_pl.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/pt_br.json"
+hash = "423f262edbc17e439fa959d5b66b309e4a32a29993f6520fcd194c5b77d6fac8"
+
+[[files]]
+file = "kubejs/assets/tips/lang/pt_pt.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/ro_ro.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/ru_ru.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/sr_sp.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/sv_se.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/tr_tr.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/uk_ua.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/vi_vn.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/zh_cn.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "kubejs/assets/tips/lang/zh_tw.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
 
 [[files]]
 file = "kubejs/assets/zombieawareness/sounds/investigate/zombie_investigate_1.ogg"
@@ -9261,24 +10621,12 @@ file = "kubejs/assets/zombieawareness/sounds/target/zombie_target_1.ogg"
 hash = "119d409510db8ddfa7b7b976eef439d71aa4367a6162ac52fa6e62ea7c9e23be"
 
 [[files]]
-file = "kubejs/client_scripts/JEI_messing/drying_recipe_type.disabled"
-hash = "83dcc7e6444c9fa008c7abc18c6cd912d3e46c45eb3dbb910ac74a1a54c04bff"
-
-[[files]]
-file = "kubejs/client_scripts/JEI_messing/remove_bottles_canteen_shapeless.js.disabled"
-hash = "280fb976c569778953a720dd62eb0117229b389ceb2f2ebe25521b8168909757"
-
-[[files]]
 file = "kubejs/client_scripts/ad_astra_hide_jei.js"
 hash = "6748baf7ae2779f95083fa0d42aa9b01cfb14950a5b007fd696a71d6df425ddc"
 
 [[files]]
 file = "kubejs/client_scripts/camel_pack_tooltip.js"
-hash = "bf71dbeb0cbb71418914207ddd65a4244411dfc8bccc539bd9bdcde53076df5e"
-
-[[files]]
-file = "kubejs/client_scripts/disabled_tool_tooltips.js"
-hash = "9cc467dbb8b1fada8513970cbf416f7010ebb91798ccc02627376a8f1729395a"
+hash = "ddd879eb9d91688e94bd20c97da2e2e3ce811208217b3162e6b3ac18ce1ba2a9"
 
 [[files]]
 file = "kubejs/client_scripts/enderio_hide_jei.js"
@@ -9314,11 +10662,7 @@ hash = "e7f3296eabb666c6fb115aae97b2f0c12f1cda4ade8d726548899933f8ae7b29"
 
 [[files]]
 file = "kubejs/client_scripts/tutorial_tooltips.js"
-hash = "b7a99db752e4a6f1dd2bad595813b537797af31e54ba88bad9487a263cac07bd"
-
-[[files]]
-file = "kubejs/client_scripts/water_tanks_bottle.disabled"
-hash = "7bd3bbae51a0ab2b22acad3068966f219d940ffff872443635ea08fd36920dd2"
+hash = "17730bfc6470d8c5b8c3deede97cfdebb81a93cb5c78ee87416ffeadf008a51d"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -9357,6 +10701,22 @@ file = "kubejs/data/desolate_planet/curios/slots/insulation.json"
 hash = "75d3740f8290412776ff2018b93aff3f37d58632a42713d41bcd330fff77565f"
 
 [[files]]
+file = "kubejs/data/desolate_planet/diet/food_values/desolate_planet.json"
+hash = "02de2bf938536e72a85ad034516bb1116826cffdd8e95d6b300e1523f06e8cd0"
+
+[[files]]
+file = "kubejs/data/desolate_planet/diet/food_values/farmersdelight.json"
+hash = "26b73708ad7e8b671432f30b6f148fc700cb03edf0eea73eed603de2d55ebec6"
+
+[[files]]
+file = "kubejs/data/desolate_planet/diet/food_values/legumedelight.json"
+hash = "590cae93387ac5ba2401a8f1dae1ea66cd9a20c519976c02caf4c077dd30a7ea"
+
+[[files]]
+file = "kubejs/data/desolate_planet/diet/food_values/minecraft.json"
+hash = "437e9bbd017e5b607e2674cd6ddeed37a5ad6dd81b53962c345365e88dffc374"
+
+[[files]]
 file = "kubejs/data/desolate_planet/diet/groups/fruits.json"
 hash = "64bbe1d82caded5410d2314b73902af0b9953050c47aec129b0104390fd6ea14"
 
@@ -9378,7 +10738,7 @@ hash = "ce090fb244827b8cfc22f3c74997c3218566324619b1421ecd80e316147d2119"
 
 [[files]]
 file = "kubejs/data/desolate_planet/diet/suites/builtin.json"
-hash = "eac242f9cbc6ec13ea804310bc2aa2390aa57a5be307e36063e9b9c6841cd854"
+hash = "7dd661360c583edbd1c2b1ad91941aa2c2fbfa6faa2d54a6ff0ee17861fe62cf"
 
 [[files]]
 file = "kubejs/data/kubejs/loot_tables/blocks/black_ship_chair.json"
@@ -9505,6 +10865,10 @@ file = "kubejs/server_scripts/ae2.js"
 hash = "9268b633cc02311367be1dbeef23e83f3d8e969d37321b1e6839fff999849241"
 
 [[files]]
+file = "kubejs/server_scripts/armor_trims_crafting.js"
+hash = "91d39f104c04d1d0d9458faaaca3f4415a651ba806a96e480edfd7809adf1933"
+
+[[files]]
 file = "kubejs/server_scripts/barrel_compost.js"
 hash = "58c6879dbe71f214c3c2c4b30f2f162aae97da1aaa4c00d0611abf1541e2ce55"
 
@@ -9558,7 +10922,7 @@ hash = "4c0b46ee78f6b88198c08ca25b2af6b26d6875b1fc629bf90752a02c1120c713"
 
 [[files]]
 file = "kubejs/server_scripts/crumbling_bricks.js"
-hash = "e7177c6fbff13bd064df6f17ffec0bab968a64d6753860ce8d2cf6d29ba34a06"
+hash = "fa2bee61a76fab9413aeb04831fd9481b8e1b47256a5fa9851e5ec1db6c880f2"
 
 [[files]]
 file = "kubejs/server_scripts/enchantments.js"
@@ -9578,7 +10942,7 @@ hash = "90d70d689887af82715eb223250acf61226de91f10273e33eebcb39432454e46"
 
 [[files]]
 file = "kubejs/server_scripts/farmers_delight_removal.js"
-hash = "2df375a6e87cd7e7eab0185c6483155044b9d864f5647e62b5f42c3f1ffdd570"
+hash = "bb63e9e63bfeb375d54c4367bbab4517180085d8802f036d5506899e4f2adb0c"
 
 [[files]]
 file = "kubejs/server_scripts/force_purity_nbt.js"
@@ -9650,7 +11014,7 @@ hash = "8cf3dd4ded7c26e0c97a8408202cda1ab2a719e4df4325d25a5c80cc038e4d32"
 
 [[files]]
 file = "kubejs/server_scripts/removed_recipes.js"
-hash = "13e760d9350f420b4a04aea0ac57fab4b387c66dc42996aaa5a9f92a3f82a3dd"
+hash = "e524ed8fd5d3e277cfb05d2123110242f0ce56b60e88f93be8cd16bcd0a9a0e2"
 
 [[files]]
 file = "kubejs/server_scripts/replace_vanilla_tool_recipes.js"
@@ -9658,7 +11022,7 @@ hash = "f85baad05c906e7b4ff11e550a78a4abb9a11b424bf4474ce4b9cb535e9daad1"
 
 [[files]]
 file = "kubejs/server_scripts/replacements/general_replacements.js"
-hash = "412cf8fd643ce5e0dfcc35f2c580c5b43c549edcd8a3088e7be578e0f1732fa0"
+hash = "5019e35e5a743c923f0f6cd2b6c117b4b4a5598efb8e000abcd61ccf9addcef4"
 
 [[files]]
 file = "kubejs/server_scripts/replacements/latex.js"
@@ -9694,7 +11058,7 @@ hash = "1014877f1cff1e7a1bf0e05a033f6dc36d7387d42cae884e080f322a19205a0b"
 
 [[files]]
 file = "kubejs/server_scripts/sunlight_detection.js"
-hash = "c9a6dc5c54412efe8a20635a999b4195ca1eef56e867fb9334ca62cdb73e7481"
+hash = "1d95ef502b3dcdd4780096e4e9bd5cb7ed2b608275f9a634f64cf9c48c393350"
 
 [[files]]
 file = "kubejs/server_scripts/tags/bookshelf_books.js"
@@ -9714,11 +11078,11 @@ hash = "a8bf5c7a304aeb9dc0654b33e1fb9da29e2fab2d7657aec8a9034ab082c85ca0"
 
 [[files]]
 file = "kubejs/server_scripts/tags/misc.js"
-hash = "948a040768dda6ea47e4a843c4b5a53d5ffb7779f93591c043a2e5d2af6d528e"
+hash = "1da4ff7595e93dea76bbf6adb84e612d8f95de998da58f7c81c186d4ed93d2ba"
 
 [[files]]
 file = "kubejs/server_scripts/tags/plastic_scraps.js"
-hash = "e43f1f9886c7fe63c321b0b6893023bf982c4adbe6c420097c187e294e7ffe9f"
+hash = "c445af7d22cef053b6247154a6f6733e985930b3fdabd65b587f50b96d4d6d5d"
 
 [[files]]
 file = "kubejs/server_scripts/tags/porcelain_bucket.js"
@@ -9777,6 +11141,10 @@ file = "kubejs/server_scripts/world/spawn_ship.disabled"
 hash = "65bffa61e2d5cdb306ae4f452f67e79ca4f08a48e0e8fde4107fe0a162794003"
 
 [[files]]
+file = "kubejs/startup_scripts/blast_resistant_blocks.js"
+hash = "47c3bed46976d2721f10b9ea670aba5503cd613ad83777fb1daac1ce54ce4996"
+
+[[files]]
 file = "kubejs/startup_scripts/client/camel_pack_render_startup.js"
 hash = "e3bb88904fa9180af654cc35b82a495994e3cf94b5ea28ce74d60bd38743b83c"
 
@@ -9786,15 +11154,15 @@ hash = "730ff20e69b9f29b17f33e9cfbaf8baaf39a6206355a1f0bf7b6a66e3c830470"
 
 [[files]]
 file = "kubejs/startup_scripts/crash_blocks/crash_blocks.js"
-hash = "7772c2371d583f355622d4a18ed0639c8dae47497b4f1b373188b5f81d377a69"
+hash = "653baaa40a01d605caf3f6b3594e6559394e3fc0919411dc1940dc26b69e257a"
 
 [[files]]
 file = "kubejs/startup_scripts/crash_blocks/custom_blocks.js"
-hash = "1219032364b2c78aed3c6b7f4dd67daf0bbad39313ab807fb730b7147ae54d25"
+hash = "b4081d8184635c2688566091eff640ee3575336aafcce9f6eedd1e43eb6a1e81"
 
 [[files]]
 file = "kubejs/startup_scripts/crash_blocks/ship_blocks.js"
-hash = "627218c6088744dfef7423b8e65d8786e80a8bbc8ef8549fa8964d48b4301aca"
+hash = "473abcf512e38b8acddf1c61d9322326e3393ede4a4aa15aa826462dc9b90625"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_armor.js"
@@ -9802,7 +11170,7 @@ hash = "286c8c11e38b5d1f4fa09bf545d357063c4e74e1fe556e4cd09a09020aa5950a"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_items/camel_pack.js"
-hash = "3faf79847c614e3449d8068844ff502bc7a02965a06af8059ae6f68a93b21b41"
+hash = "5ce3b705d41f28606142c0ee1069430e004985b34a0d540aa7234e38ecc2baed"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_items/custom_tinker_tools.js"
@@ -9810,7 +11178,7 @@ hash = "f34db5c87eaabe39713a59b2f33d0f577f9ddfe40cbb9e6f4e8e871efeaa8edd"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_items/insulation_items.js"
-hash = "83ccb904578e36696a1a53139fb795940ed75d8061012e565add48e76af3c5dd"
+hash = "6b8c9d713cd5f6dd61f674e94a8e22c6e738a9cac406caa03db348d60454b15a"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_items/monster_foods.js"
@@ -9818,27 +11186,27 @@ hash = "d5f5eefd0a9e4a2adc230335868da2725b997ec65a4da7be4f27ad3092ffdc2a"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_items/paste.js"
-hash = "1cc8ad8b9fe38dbaac62b1ee5f434d9d3ebb262f42065c94ed7d9c026db771f6"
+hash = "29e628fafff4e2bd9da5b572a7680fb2396c005c51e9e55ef496260930d24f32"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_items/pcb_segment.js"
-hash = "56f85d490c494f870077606a369094a45ea1e6a23acc0248187505198757e17b"
+hash = "f95daa7390f8aa52ced3019dac1359205e9c7f0b57e0c89227526a1881f8eff3"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_items/plastic_scrap.js"
-hash = "741b3bda8f6bdaf13cc1cc9055d9af93c24879df8b0008798844ae03ce7869aa"
+hash = "211087acfecf678bbb4cc9895d87cd16f367a63c0f6de1b0c8129a9157ce6ef0"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_items/staple_foods.js"
-hash = "03a88b8a62f0aba080f408122f8f01b006a1f9aebdb5ca151acc07dbb358f4d2"
+hash = "12cbff943358c62ed41e5826558ef80d49f63e9ed14650804bf08ca4428649c4"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_items/stillsuit.js"
-hash = "9f14981d5aa8f12e9efadff302c7f540740336a10f972a4bfc7045d3dad04b49"
+hash = "f266dc58e72861e740712614e673630065d7ccbc168ee28892bede2ab3bedf8f"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_items/test_item.js"
-hash = "12781ab01de6fadf2619865744f6e24501cc631fd9da5987eab30bac386ac84a"
+hash = "d633530f410e52f579f1fa2edce8aa7a4302c6c1598859f03c1c8d931c386f81"
 
 [[files]]
 file = "kubejs/startup_scripts/food/halved_food.js"
@@ -9861,14 +11229,6 @@ file = "kubejs/startup_scripts/mod_name.js"
 hash = "e03bea22919089eb5c554ffbd0f29880bcf876fc235b5ca8826dc1edb78ca153"
 
 [[files]]
-file = "kubejs/startup_scripts/salty_water/salt.disabled"
-hash = "6dafbab4b2916d1323a5e75344c3a04be4a45ad0252bb0588572c3dfa078f1e5"
-
-[[files]]
-file = "kubejs/startup_scripts/salty_water/salty_water_bottle.disabled"
-hash = "2d3f011b7a18a6ce7f10a37eb17a6ca6524b8106bebd34191362f41b900176a5"
-
-[[files]]
 file = "kubejs/startup_scripts/tools/durability_1.js"
 hash = "fcf86994f596c55c3230de13fc7b12aff75868de4f1ac915cee469c4220940d7"
 
@@ -9881,13 +11241,28 @@ file = "mods/!README for multiplayer instructions!.txt"
 hash = "e7f1703b00997f5d5ed64748a5222aa9519391e52727b14a755d982dcc26e6f3"
 
 [[files]]
+file = "mods/a-balanced-diet.pw.toml"
+hash = "e9c5519eed6a8afad5e25df3df8f98d90d8cb8d72674a216c6acfdac6cfac484"
+metafile = true
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "edb123325d870f3bd5e931f30f4dc1bf89d1b9be87f3aaf1b50f08f6f7d8e2db"
 metafile = true
 
 [[files]]
+file = "mods/advanced-backups.pw.toml"
+hash = "38f91fa6694df13349360800289c5ea5255c376f3bce7f08800c13b224354ed2"
+metafile = true
+
+[[files]]
 file = "mods/advanced-loot-info.pw.toml"
-hash = "abab58cb5ec0da191cff7a1254c4f77d0cb16698a51319d889bc54c6de0b11d1"
+hash = "b9b2e61d78c019099cc4470a5eca56d7473f037e26e7f52d8c6d2ab495b4dea2"
+metafile = true
+
+[[files]]
+file = "mods/ae2-network-analyser.pw.toml"
+hash = "9c4277e428bbef681d3b0e28008b07a52235c4a54138d1961fac4e8d0f058cbc"
 metafile = true
 
 [[files]]
@@ -9932,7 +11307,7 @@ metafile = true
 
 [[files]]
 file = "mods/astages.pw.toml"
-hash = "70e379e8420a02f60b18104a8a40ee7b27ba710948fa28041e62e6c3f6c1354d"
+hash = "a49e303d626daed9d70caf9706e1ade4c6b56ee1e83edfe6c3b72136030bc478"
 metafile = true
 
 [[files]]
@@ -9962,7 +11337,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterblockz.pw.toml"
-hash = "e92ce8ae7ea61e7cb02327ca8e589c337202158d3a592862bebc7aca8a68001d"
+hash = "15e74da31338a361fc4b3671693403a9fbb178ccb0823e42d6aa6dffe90b8276"
 metafile = true
 
 [[files]]
@@ -9992,7 +11367,7 @@ metafile = true
 
 [[files]]
 file = "mods/cb-multipart.pw.toml"
-hash = "cc8ab15af622d842f760b6a6bc44283fffe5baa5c25979f14377a3e8639b5ba6"
+hash = "64a67c60727c30f229617aa5aad5988f63f93becfaf67397d6f18d32ef5f43d7"
 metafile = true
 
 [[files]]
@@ -10032,17 +11407,27 @@ metafile = true
 
 [[files]]
 file = "mods/cold-sweat.pw.toml"
-hash = "c353392fb52bd934759cda6da659c36135ff27f6d106020a9ef9f8ead04343bb"
+hash = "ff117359c2c08ae3cf9446d8e367a3be70054a9326286cf329686092ed184e99"
 metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "5c9d9862528553c8f029b4f300c02606d90292d7196d83427206309e42b19bf6"
+hash = "90fb855c193aaa2b11387535ff6c7d446a849d5cfd78520b477cb9b6768f2d1a"
+metafile = true
+
+[[files]]
+file = "mods/colorwheel.pw.toml"
+hash = "3851e99d3e3eeeef8f0f7f7a55fe9772453f6c761eef13c52c9090b667ac21a4"
 metafile = true
 
 [[files]]
 file = "mods/comforts.pw.toml"
 hash = "e0c90098adfccae9f58ff1c4f51366536f701deb93ce87208c3caab559ff51d0"
+metafile = true
+
+[[files]]
+file = "mods/compressedcreativity.pw.toml"
+hash = "e216e45a1f24636d2a2e2efbb17f0afa73752315965a705503cbccac85665c54"
 metafile = true
 
 [[files]]
@@ -10067,7 +11452,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "bb55fbc938dce8d8f58236ada8bcec07705218db5d00c78ec12851267805d327"
+hash = "a042eed2f9a1c1b1584c08349f180c4fb0d16b9d8297ac728c409a7cc30051a9"
 metafile = true
 
 [[files]]
@@ -10082,12 +11467,12 @@ metafile = true
 
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
-hash = "93ca9e806ea069f38896c248f3d05ba7f2a8ef32ff379c159a5d787908ec9804"
+hash = "f95dbe64b112fb0ab098c6a9d9e6b7ecb76c0ab40c380506aa33ef2e30d7470d"
 metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "65f6e720d97e91816438dc8114ffd2b3ebcb05a6a2d9e4f883eaa69373e29118"
+hash = "f61f1aa66e6f1f89c91aaed9d775d591f20a80106a103dffade4a65202fab66f"
 metafile = true
 
 [[files]]
@@ -10121,8 +11506,13 @@ hash = "6a0ab2c1ced16243dc8a724cc5d86c48ce0cba1a2b4f30e4c4b4e6b60793f9da"
 metafile = true
 
 [[files]]
+file = "mods/createbetterfps.pw.toml"
+hash = "f54ff443e8b460c15c32ec45b84d49a62a33a4f652f2eaa613d3bc9c2a67f469"
+metafile = true
+
+[[files]]
 file = "mods/crust.pw.toml"
-hash = "be4e969fa04eff36b49ec0717f8045fbaf0641c6a13bb62d7ee73c89d47f27d1"
+hash = "7cf07e5fd85a463e7492b1981f7a7a3a60a20d938020cb36c5c3546c7baa3e16"
 metafile = true
 
 [[files]]
@@ -10136,13 +11526,8 @@ hash = "0c36aaee77acc61474ca5b509e18c09dae3a6a28766134d8b7ac6150dc3bb9e8"
 metafile = true
 
 [[files]]
-file = "mods/diet.pw.toml"
-hash = "5bfdc87806b9b9c37b1ea6cc5ac241faa836b823958af7a5c63e02ffee7ac99c"
-metafile = true
-
-[[files]]
 file = "mods/e4mc.pw.toml"
-hash = "33b833a6f84a18dc9f6d5e0910919266465b773a33adf44f249a282d80a87964"
+hash = "7bfbf95a6b9e79e111b22f4ce852be3bea35629ff7f9f7d9a89264fc5e928a22"
 metafile = true
 
 [[files]]
@@ -10177,7 +11562,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "fa4efa6ad10f58813530a319b3b227b8dabfcd312c2c9250ccc4ce5de0bd02dc"
+hash = "5cae672153d1a10e30e29d76601b5ce28bfde873942909428f86993c48e1d02a"
 metafile = true
 
 [[files]]
@@ -10191,13 +11576,18 @@ hash = "55a878480f2a201671c406adbd4d8865d26506eda4e5aa032b420f1896ba2c64"
 metafile = true
 
 [[files]]
+file = "mods/extreme_sound_muffler.pw.toml"
+hash = "44daaa9cd47566cd4021f70de68e50d3e5dec4cc53e3f8916b22ed5d18163661"
+metafile = true
+
+[[files]]
 file = "mods/factory-blocks.pw.toml"
 hash = "18b660fd503ce88cba936c9f597100f6c8a991d36fbb50da85e0d90040093c56"
 metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "06de51e5a2e92c78fc5fde530046191f8dbdef7a472973a5704c159f44f18526"
+hash = "5ce67dfe2e335b674e2c7e0207ab652e20a68d953c49bcf0a9509d4083a13cac"
 metafile = true
 
 [[files]]
@@ -10256,6 +11646,11 @@ hash = "14fc8cf7361e7e67697f24c9e3b1dba582565b8121f7676b3aea1e9be5303e4d"
 metafile = true
 
 [[files]]
+file = "mods/glodium.pw.toml"
+hash = "710eb65a6262ea6950f2ae2a0ffdb0b8b324fce61c6406b01899b78d6abab6a2"
+metafile = true
+
+[[files]]
 file = "mods/guideme.pw.toml"
 hash = "f2b3ab36b8c74cd6a0085061a37df99b32a77e4781f87dba58e0e954098db63d"
 metafile = true
@@ -10276,6 +11671,11 @@ hash = "4dbdcd8f167dd7fcf9e2a5d8620fddc551b1019b3d98e404cc8fc4b35e416933"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "4827e5588f4f3478605956696bc890c2cf1ac92f44108873aa27f33adefcfb4f"
+metafile = true
+
+[[files]]
 file = "mods/immersive-weathering.pw.toml"
 hash = "262d6099f734e3168d08df48db74c286b31ed5475499de7f731267d838194d21"
 metafile = true
@@ -10287,7 +11687,7 @@ metafile = true
 
 [[files]]
 file = "mods/industrial-foregoing.pw.toml"
-hash = "41ebbcf3a6aeab05c3e1a93f677ce194eaa94a9a57883b4885311e0a57d565cd"
+hash = "8823cb7e16f7cc0ebc06107145aa07acaeddbe8045af876628dd566fbb4e37c9"
 metafile = true
 
 [[files]]
@@ -10307,7 +11707,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "9bb7329f7f3050afc2e23318c3eff6cb129fd4251cebffd6698542af80ca0a38"
+hash = "bc797d6ad8d6dec3b460aadf55263dbfedc201f431ec2ba85193c0f32e5d3b15"
 metafile = true
 
 [[files]]
@@ -10342,22 +11742,22 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-thermal.pw.toml"
-hash = "496fbc0c665fbd530f0aa87c9348d708fc9e772e847cfb4ad77b8f37ca633562"
+hash = "5a60bcf24d669be14a91238e3c6a5c456ee7e0fc1036a2cebddc6794ffe5e4ec"
 metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "c029203eb50554be89525f7923a744b8a4395255e556059603db65a42778ec2d"
+hash = "645ac59bea5dbfa39e5c34c1e278d4e10b6bb08f3fc90b0572c5c08cc193495c"
 metafile = true
 
 [[files]]
-file = "mods/laserio.pw.toml"
-hash = "fadc07b40f8f4c69283764335b8c40353cb7b9b917a41f358f8711af1509b072"
+file = "mods/laserio-uel.pw.toml"
+hash = "4e96f0d79f89e68d2372fcca3c5621ac55dc364c878c29d631665e0ae335c978"
 metafile = true
 
 [[files]]
 file = "mods/legume-delight.pw.toml"
-hash = "cc18d637cb465382aea6421cf1273a229885068495b51a23ba7db35ac152f029"
+hash = "b29e05f78d272f61730c6cfb9b5eb6553f87a5cad74bcf2d46cdd8a03387f552"
 metafile = true
 
 [[files]]
@@ -10387,7 +11787,7 @@ metafile = true
 
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "7a0f0771bb20a9709c3696000c1387823cf9cfb4ccd62597237ac507b92c1911"
+hash = "579fbc2e0e54d2fa59a74d3418bd9915cb042f1e623fde7b8dfcdf832bf213d9"
 metafile = true
 
 [[files]]
@@ -10397,12 +11797,12 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "c73f3d6fbca15571238df36d5a41ed3887fd7ada988a9f83f349f6abcd634497"
+hash = "39420b9ae06fc1f15e7ad31411c11c7cc95d98e92170900f023b2b074fb7095c"
 metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "740522fba5dfc58ac83473b7db3b091854c7d05691b44367d10f08bab5ac1fd4"
+hash = "c232c6a7fc31cfb962ad08ad36fdd09a4034fdd21408d78c5c3c54ba9364f24c"
 metafile = true
 
 [[files]]
@@ -10426,6 +11826,16 @@ hash = "4e3709489c693b31d783f22be60d59a1d991e008e32d784dfce4490d20031725"
 metafile = true
 
 [[files]]
+file = "mods/notenoughrecipebook.pw.toml"
+hash = "b3c3c0da3d7c5da11b28369ec68de8c75832708f0fdbcd20f891c7bad48e640e"
+metafile = true
+
+[[files]]
+file = "mods/octo-lib.pw.toml"
+hash = "fba1c362177fbaf9ce18ff9377f6b7c0e21868084afd82b4446ea72b31bb67c0"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
 hash = "ea0949d24e6f1861d818def09246e20302a2ac2fa6038aa2089eea3567588956"
 metafile = true
@@ -10442,7 +11852,7 @@ metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
-hash = "c4a0a7ae55e19d724c0df33fd790d913408250436ce6dfa9512a65854e4bc5ba"
+hash = "408bf5ebc6210026d0bc3ae6606d497b0ba635d8c1c37becbd4fffce51cea304"
 metafile = true
 
 [[files]]
@@ -10537,7 +11947,7 @@ metafile = true
 
 [[files]]
 file = "mods/scarcity.pw.toml"
-hash = "2775390d6ee03da25911a646e8dd5ac29ef9cdfe9cbe5d648fa6f30e4d4273d5"
+hash = "43a5cd02525ecb6fcfc853781ae9ac058263a33daf8af47831740a67270ffc58"
 metafile = true
 
 [[files]]
@@ -10567,32 +11977,37 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "0e391ad246cc329380c4ff4fa8ddd614482ceba5a51400291b98b882f0c089a3"
+hash = "a750baf868c5263bc9e8caa39d56c2f107054cd6534d4079aecb164249aab313"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "ed280b90741ac82dcf179730f3adf07b5db101b7162f656a0f870572c11d2f0e"
+hash = "2366e36a252c3319e270531f9cabecb86737fb326f86df40bc88207f886a8058"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "6def5fa1f71dd23fc304dbf2723c7c1dd51e15c4ce5ca17a8e3672f18f55f974"
+hash = "b2e77152dd913e0cd870b0663c717c07522db59459f34989c7d4e79d1a188851"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "8aaaed446452027aeac3d260dea9db844d004ec58696f2c8a96b23eb6ddf7ef1"
+hash = "dc620669dd8401e7cc42c16cfcd74f6b2321c510e27dc65b1a4133237ec0e971"
 metafile = true
 
 [[files]]
 file = "mods/special-mobs.pw.toml"
-hash = "2cd93924daf913a70a9aa90d74da2a39479a318db699c6349c7c04279b3983f2"
+hash = "5671de9740ece522f7f5a3efcdf763d725535c3f7819ed4ed4264b528938757a"
 metafile = true
 
 [[files]]
 file = "mods/starter-structure.pw.toml"
 hash = "e86cc60e6bb3f90aae34d5f13763e56081ac1ed6b7b883f9d7f59b1db08216d7"
+metafile = true
+
+[[files]]
+file = "mods/super-factory-manager.pw.toml"
+hash = "bf55351fbad8c363788675d548b81967af7031e5758812393302708da55eba6c"
 metafile = true
 
 [[files]]
@@ -10602,7 +12017,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "fda66af649c66a214f06ed0cca9d86b0cb6dc9b3efb5e7c2a6c52e9f3cdf5109"
+hash = "34f889c36a5b3803a8fdc583f7fbb7415edf087584fdcc13719d8ef79d6d3657"
 metafile = true
 
 [[files]]
@@ -10656,8 +12071,13 @@ hash = "7c8d34a1bb955ef2507dc69340c53f559d3868952eb73c9a2c329a968a64ed84"
 metafile = true
 
 [[files]]
+file = "mods/tinkers-planner-reborn.pw.toml"
+hash = "beac15c6a2f36841ef8fc1f6e6100cd9f662d9e941b479a9645f38de5260e6c8"
+metafile = true
+
+[[files]]
 file = "mods/tinkers-tool-leveling-2.pw.toml"
-hash = "8a0598c09aecd1c45339faf2e964c1fe05ff0e9a5be3d864cbff100e808aa8be"
+hash = "795a9c515d9f9459e996a78ced38b97a02c609313c739e7619ba1005ad92eccb"
 metafile = true
 
 [[files]]
@@ -10667,7 +12087,7 @@ metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"
-hash = "b4039f2d87c450eda39899c9a8b1bd588b2019cf6e98dd3c6c9d008b3e610067"
+hash = "8853acfc6932dd3488fb8cbbd080a1c70de50cbaef8481f9c1144b4b51a04d0a"
 metafile = true
 
 [[files]]

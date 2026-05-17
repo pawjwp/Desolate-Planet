@@ -1,0 +1,13 @@
+{
+  "type": "target_other",
+  "fluid": "tconstruct:blazing_blood",
+  "generate": {
+    "Name": "minecraft:terracotta"
+  },
+  "target": {
+    "block_state": {
+      "Name": "minecraft:clay"
+    },
+    "predicate_type": "minecraft:blockstate_match"
+  }
+}

@@ -1,8 +1,26 @@
 StartupEvents.registry("block", (event) => {
 
+  // Tinker Blocks
+  event.create("crumbling_seared_bricks")
+    .soundType("stone")
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
+    .textureAll('kubejs:block/crumbling_seared_bricks')
+
+  event.create("crumbling_scorched_bricks")
+    .soundType("tuff")
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
+    .textureAll('kubejs:block/crumbling_scorched_bricks')
+
   // Applied Blocks
   event.create('crashed_applied_controller') // Create a new block with ID "kubejs:example_block"
-    .displayName('Damaged ME Controller') // Set a custom name
     .mapColor('heavy_metal') // Set a material (affects the sounds and some properties)
     .soundType('metal')
     .hardness(4.0) // Set hardness (affects mining time)
@@ -13,7 +31,6 @@ StartupEvents.registry("block", (event) => {
     .textureAll('kubejs:block/ae2_controller_crash')
 
   event.create('crashed_me_drive')
-    .displayName('Damaged ME Drive')
     .mapColor('heavy_metal')
     .soundType('metal')
     .hardness(4.0)
@@ -26,7 +43,6 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool')
 
   event.create('crashed_crafting_unit')
-    .displayName('Damaged Crafting Unit')
     .mapColor('heavy_metal')
     .soundType('metal')
     .hardness(4.0)
@@ -36,7 +52,6 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool')
 
   event.create('crashed_me_interface')
-    .displayName('Damaged ME Interface')
     .mapColor('heavy_metal')
     .soundType('metal')
     .hardness(4.0)
@@ -45,9 +60,18 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('mineable/pickaxe')
     .tagBlock('minecraft:needs_iron_tool')
 
+  event.create('controller_frame')
+    .mapColor('heavy_metal')
+    .soundType('metal')
+    .hardness(4.0)
+    .resistance(6.0)
+    .requiresTool(true)
+    .tagBlock('mineable/pickaxe')
+    .textureAll('kubejs:block/controller_frame')
+	.defaultCutout()
+
   // Bigger Reactor Blocks
   event.create("crashed_reactor_controller")
-    .displayName("Damaged Reactor Controller")
     .mapColor("heavy_metal")
     .soundType("copper")
     .hardness(1.0)
@@ -57,8 +81,17 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/reactor_controller_crash')
 
+  event.create("crashed_reactor_frame")
+    .mapColor("heavy_metal")
+    .soundType("copper")
+    .hardness(1.0)
+    .resistance(1.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
+    .textureAll('kubejs:block/reactor_frame_crash')
+
   event.create("crashed_turbine_controller")
-    .displayName("Damaged Turbine Controller")
     .mapColor("heavy_metal")
     .soundType("copper")
     .hardness(1.0)
@@ -69,7 +102,6 @@ StartupEvents.registry("block", (event) => {
     .textureAll('kubejs:block/turbine_controller_crash')
 
   event.create("crashed_turbine_wall")
-    .displayName("Damaged Turbine Casing")
     .mapColor("heavy_metal")
     .soundType("copper")
     .hardness(1.0)
@@ -79,41 +111,8 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/turbine_wall_crash')
 
-  event.create("crashed_reactor_frame")
-    .displayName("Damaged Reactor Frame")
-    .mapColor("heavy_metal")
-    .soundType("copper")
-    .hardness(1.0)
-    .resistance(1.0)
-    .requiresTool(true)
-    .tagBlock("mineable/pickaxe")
-    .tagBlock('minecraft:needs_iron_tool')
-    .textureAll('kubejs:block/reactor_frame_crash')
-
-  // Tinker Blocks
-  event.create("crumbling_seared_bricks")
-    .displayName("Crumbling Seared Bricks")
-    .soundType("stone")
-    .hardness(1.0)
-    .resistance(1.0)
-    .requiresTool(true)
-    .tagBlock("mineable/pickaxe")
-    .tagBlock('minecraft:needs_iron_tool')
-    .textureAll('kubejs:block/crumbling_seared_bricks')
-
-  event.create("crumbling_scorched_bricks")
-    .displayName("Crumbling Scorched Bricks")
-    .soundType("tuff")
-    .hardness(1.0)
-    .resistance(1.0)
-    .requiresTool(true)
-    .tagBlock("mineable/pickaxe")
-    .tagBlock('minecraft:needs_iron_tool')
-    .textureAll('kubejs:block/crumbling_scorched_bricks')
-
   // Pneumatic Blocks
   event.create('crashed_refinery')
-    .displayName('Damaged Refinery')
     .mapColor('heavy_metal')
     .soundType('metal')
     .hardness(4.0)
@@ -126,7 +125,6 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool')
 
   event.create('crashed_refinery_output')
-    .displayName('Damaged Refinery Output')
     .mapColor('heavy_metal')
     .soundType('metal')
     .hardness(4.0)
@@ -139,7 +137,6 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool')
 
   event.create("crashed_pressure_chamber_wall")
-    .displayName("Damaged Pressure Chamber Wall")
     .mapColor("heavy_metal")
     .soundType("metal")
     .hardness(4.0)

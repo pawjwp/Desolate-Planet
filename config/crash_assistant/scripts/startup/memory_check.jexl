@@ -12,7 +12,7 @@ var xmxGB = MemoryUtils.bytesToGigabytes(xmxBytes);
 var formattedXmx = MemoryUtils.formatMemorySize(xmxBytes);
 
 // 1. Critical Minimum Check
-if (xmxGB < MINIMUM_GB) {
+if (xmxGB < (MINIMUM_GB * 0.95)) {
     var msg = LanguageProvider.get("custom.memory_below_minimum");
     msg = msg.replace("$XMX$", formattedXmx);
     msg = msg.replace("$MINIMUM$", MINIMUM_GB.toString());
@@ -22,7 +22,7 @@ if (xmxGB < MINIMUM_GB) {
 }
 
 // 2. Minimum Recommended Check
-else if (xmxGB < RECOMMENDED_GB) {
+else if (xmxGB < (RECOMMENDED_GB * 0.95)) {
     var msg = LanguageProvider.get("custom.memory_below_recommended");
     msg = msg.replace("$XMX$", formattedXmx);
     msg = msg.replace("$RECOMMENDED$", RECOMMENDED_GB.toString());
@@ -33,7 +33,7 @@ else if (xmxGB < RECOMMENDED_GB) {
 
 // 3. Excessive Allocation Check
 // Warning starts exactly when Xmx exceeds MAXIMUM_GB.
-if (xmxGB > MAXIMUM_GB) {
+if (xmxGB > (MAXIMUM_GB * 1.05)) {
     var msg = LanguageProvider.get("custom.memory_above_maximum");
     msg = msg.replace("$XMX$", formattedXmx);
     msg = msg.replace("$RECOMMENDED$", RECOMMENDED_GB.toString());

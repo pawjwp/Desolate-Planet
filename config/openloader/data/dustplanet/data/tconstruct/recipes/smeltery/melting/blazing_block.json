@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "kubejs:blazing_block"
+  },
+  "result": {
+    "amount": 1000,
+    "fluid": "tconstruct:blazing_blood"
+  },
+  "temperature": 1000,
+  "time": 100
+}

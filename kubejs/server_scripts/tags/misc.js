@@ -42,6 +42,11 @@ ServerEvents.tags('item', event => {
         'pneumaticcraft:failed_pcb',
     )
 
+    event.add('desolate_planet:superheats_to_glass',
+        '#minecraft:sand',
+        'exdeorum:dust'
+    )
+
     event.add('desolate_planet:lootable_crop_seeds',
         '#forge:seeds',
         'scarcity:bamboo_seeds',
@@ -83,5 +88,27 @@ ServerEvents.tags('block', event => {
         'exdeorum:dust',
         'minecraft:gravel',
         'minecraft:sand',
+    )
+
+    event.add('desolate_planet:superheats_to_glass',
+        '#minecraft:sand',
+        'exdeorum:dust'
+    )
+});
+
+ServerEvents.tags('fluid', event => {
+
+    event.add('forge:ender',
+        'thermal:ender_flowing'
+    )
+
+    event.add('forge:redstone',
+        'thermal:redstone_flowing'
+    )
+
+    event.add('desolate_planet:cools_molten_fluids',
+        '#minecraft:water',
+        '#forge:ender',
+        '#forge:redstone'
     )
 });

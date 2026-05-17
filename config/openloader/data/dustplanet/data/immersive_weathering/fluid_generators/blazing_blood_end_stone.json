@@ -1,0 +1,17 @@
+{
+  "type": "target_self",
+  "fluid": "tconstruct:blazing_blood",
+  "fluid_type": "flowing",
+  "priority": 1,
+  "generate": {
+    "Name": "minecraft:end_stone"
+  },
+  "adjacent_blocks": {
+    "any": [
+      {
+        "fluids": "#forge:ender",
+        "predicate_type": "immersive_weathering:fluid_match"
+      }
+    ]
+  }
+}

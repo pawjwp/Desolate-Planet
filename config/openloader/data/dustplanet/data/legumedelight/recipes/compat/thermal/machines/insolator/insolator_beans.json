@@ -1,0 +1,13 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "legumedelight:beans"
+  },
+  "result": [
+    {
+      "item": "legumedelight:beans",
+      "chance": 2.5
+    }
+  ],
+  "experience": 0.15
+}

@@ -174,7 +174,6 @@ const sipQuenched = 8.0 * (sipSize / 250) // base quenchness restored per sip, c
 // hasTank: false — no tank, provides infinite water-equivalent hydration
 function registerCamelPack(event, config) {
     var builder = event.create(config.id)
-        .displayName(config.displayName)
         .maxStackSize(1)
 
     if (config.hasTank) {
@@ -326,15 +325,14 @@ function registerCamelPackModelProperties(e, itemId, capacity) {
 
 // Register camel pack tiers
 const CAMEL_PACK_CONFIGS = [
-    { id: 'camel_pack',           displayName: 'Camel Pack',                  capacity: 4000,  thirstMult: 1.0, quenchMult: 1.0,  hasTank: true  },
-    { id: 'advanced_camel_pack',  displayName: 'Advanced Camel Pack',         capacity: 20000, thirstMult: 1.0, quenchMult: 1.25, hasTank: true  },
-    { id: 'unlimited_camel_pack', displayName: 'Condensentrating Camel Pack',                  thirstMult: 1.5, quenchMult: 1.5,  hasTank: false },
+    { id: 'camel_pack',           capacity: 4000,  thirstMult: 1.0, quenchMult: 1.0,  hasTank: true  },
+    { id: 'advanced_camel_pack',  capacity: 20000, thirstMult: 1.0, quenchMult: 1.25, hasTank: true  },
+    { id: 'unlimited_camel_pack',                  thirstMult: 1.5, quenchMult: 1.5,  hasTank: false },
 ]
 
 StartupEvents.registry('item', (event) => {
 
     event.create('filter')
-        .displayName('Water Filter')
         .maxDamage(16)
 
     CAMEL_PACK_CONFIGS.forEach(config => registerCamelPack(event, config))

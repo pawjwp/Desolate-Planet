@@ -63,5 +63,7 @@
   "desolate_planet.tip.tinkering_bone_meal_parts": "Bone tool parts can be made from bone meal",
   "desolate_planet.tip.tinkering_crafting_seared_stone": "Once you have a foundry, more seared stone can be made by melting cobblestone (does not work in a Smeltery)",
   "desolate_planet.tip.tinkering_ore_doubling": "Ores give higher yields in a smeltery, and even higher yields in a Foundry",
-  "desolate_planet.tip.tinkering_part_swapping": "You can swap the parts of a tool using a tinker station or tinker's anvil"
+  "desolate_planet.tip.tinkering_part_swapping": "You can swap the parts of a tool using a tinker station or tinker's anvil",
+
+  "desolate_planet.tip.example": "Example"
 }

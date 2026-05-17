@@ -1,0 +1,10 @@
+{
+  "type": "target_self",
+  "fluid": "minecraft:lava",
+  "generate": { "Name": "minecraft:diorite" },
+  "adjacent_blocks": {
+    "any": [
+      { "predicate_type": "minecraft:tag_match", "tag": "immersive_weathering:disabled_generator" }
+    ]
+  }
+}

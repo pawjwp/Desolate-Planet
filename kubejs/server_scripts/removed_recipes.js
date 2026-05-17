@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
     // Removal by ID
     [
+        'ad_astra:smelting/copper_ingot_from_smelting_glacio_copper_ore',
         'create:splashing/ice',
         'enderio:iron_gear',
         'industrialforegoing:diamond_gear',
@@ -12,7 +13,6 @@ ServerEvents.recipes(event => {
         'tconstruct:smeltery/casting/scorched/polished_from_magma',
         'tconstruct:smeltery/casting/scorched/stone_from_magma',
         'tconstruct:smeltery/casting/seared/brick_composite',
-        'tconstruct:smeltery/casting/seared/stone/block_from_seared',
         'tconstruct:smeltery/melting/metal/iron/ore_sparse'
     ].forEach(id => {
         event.remove({ id: id });

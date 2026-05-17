@@ -1,0 +1,17 @@
+{
+  "type": "target_self",
+  "fluid": "minecraft:lava",
+  "fluid_type": "flowing",
+  "priority": 1,
+  "generate": {
+    "Name": "minecraft:netherrack"
+  },
+  "adjacent_blocks": {
+    "any": [
+      {
+        "fluids": "#forge:redstone",
+        "predicate_type": "immersive_weathering:fluid_match"
+      }
+    ]
+  }
+}

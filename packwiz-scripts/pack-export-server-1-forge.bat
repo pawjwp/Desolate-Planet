@@ -2,7 +2,7 @@
 setlocal
 
 rem ====== SETTINGS ======
-set "FORGE_VERSION=1.20.1-47.4.0"
+set "FORGE_VERSION=1.20.1-47.4.20"
 set "FORGE_JAR=forge-%FORGE_VERSION%-installer.jar"
 
 rem ====== Paths ======

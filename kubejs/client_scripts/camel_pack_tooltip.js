@@ -18,19 +18,19 @@ function registerCamelPackTooltip(e, itemId, capacity, description, hasTank) {
 		}
 
 		if (!fluidType) {
-			text.add(1, Text.white('Empty'))
+			text.add(1, Text.translate("item.kubejs.camel_pack.empty").white())
 			text.add(2, Text.gray(description))
 			return
 		}
 
-		text.add(1, Text.white('Fluid: ' + String(fluidType.substring(fluidType.indexOf(':') + 1)).replace(/_/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase() })))
-		text.add(2, Text.white('Amount: ' + amount + ' / ' + capacity + ' mB'))
+		text.add(1, Text.translate("item.kubejs.camel_pack.fluid", String(fluidType.substring(fluidType.indexOf(':') + 1)).replace(/_/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase() })).white())
+		text.add(2, Text.translate("item.kubejs.camel_pack.amount", String(amount), String(capacity)).white())
 		text.add(3, Text.gray(description))
 	})
 }
 
 ItemEvents.tooltip(function (e) {
-	registerCamelPackTooltip(e, 'kubejs:camel_pack',           4000,  'A wearable liquid tank that keeps you hydrated.')
-	registerCamelPackTooltip(e, 'kubejs:advanced_camel_pack',  20000, 'A large wearable liquid tank that keeps you hydrated.')
-	registerCamelPackTooltip(e, 'kubejs:unlimited_camel_pack', 0,     'A wearable liquid tank that collects water from the air to keep you hydrated.', false)
+	registerCamelPackTooltip(e, 'kubejs:camel_pack',           4000,  Text.translate("item.kubejs.camel_pack.description"))
+	registerCamelPackTooltip(e, 'kubejs:advanced_camel_pack',  20000, Text.translate("item.kubejs.advanced_camel_pack.description"))
+	registerCamelPackTooltip(e, 'kubejs:unlimited_camel_pack', 0,     Text.translate("item.kubejs.unlimited_camel_pack.description"), false)
 })

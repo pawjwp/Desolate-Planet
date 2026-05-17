@@ -1,14 +1,13 @@
 name = "AStages"
-filename = "astages-1.4.0-1.20.1-all.jar"
+filename = "astages-2.0.0-1.20.1-all.jar"
 side = "both"
-pin = true
 
 [download]
-hash-format = "sha1"
-hash = "b9de438f327df50dbd985a9d193f6cea352e8b55"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/6wy8fmIk/versions/JLsgPBWv/astages-2.0.0-1.20.1-all.jar"
+hash-format = "sha512"
+hash = "d04f4347c7c8fbc9a7e53b963d7c1e1af7b402bab276adc13eea40d79b65b67ad2bbc6b2e38e15848b2a8aead38588e7334e72af694d8831034182e28f05fe0a"
 
 [update]
-[update.curseforge]
-file-id = 6892926
-project-id = 1120180
+[update.modrinth]
+mod-id = "6wy8fmIk"
+version = "JLsgPBWv"

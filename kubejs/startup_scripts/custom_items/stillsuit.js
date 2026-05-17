@@ -3,13 +3,10 @@
 
 StartupEvents.registry('item', function (event) {
     event.create('insulated_hydraulic_fabric')
-        .displayName('Insulated Hydraulic Fabric')
 
     event.create('filtration_pocket')
-        .displayName('Filtration Pocket')
 
     event.create('stillsuit')
-        .displayName('Stillsuit')
         .maxStackSize(1)
         .tag('curios:insulation')
         .attachCapability(

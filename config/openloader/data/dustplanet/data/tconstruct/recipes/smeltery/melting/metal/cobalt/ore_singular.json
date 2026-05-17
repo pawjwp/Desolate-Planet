@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 10,
+      "fluid": "tconstruct:molten_diamond",
+      "rate": "gem"
+    }
+  ],
+  "ingredient": {
+    "item": "exdeorum:cobalt_ore_chunk"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 45,
+    "tag": "forge:molten_cobalt"
+  },
+  "temperature": 950,
+  "time": 41
+}

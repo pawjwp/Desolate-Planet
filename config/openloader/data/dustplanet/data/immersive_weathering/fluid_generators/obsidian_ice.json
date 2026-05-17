@@ -1,0 +1,19 @@
+{
+  "type": "target_self",
+  "fluid": "minecraft:lava",
+  "fluid_type": "still",
+  "generate": {
+    "Name": "minecraft:obsidian"
+  },
+  "adjacent_blocks": {
+    "any": [
+      {
+        "blocks": [
+          "minecraft:blue_ice",
+          "minecraft:packed_ice"
+        ],
+        "predicate_type": "immersive_weathering:block_set_match"
+      }
+    ]
+  }
+}

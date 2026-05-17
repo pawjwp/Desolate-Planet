@@ -28,11 +28,11 @@ Or through the Subreddit: [https://www.reddit.com/r/CrashLanding2Modpack](https:
 
 ### Q: How do I install the modpack?
 
-A: Download the Modrinth or Curseforge app, search for the name of the pack, and click install. Make sure you are using 6-8 GB of RAM in the modpack or launcher’s settings.
+A: Download the Curseforge or Modrinth app, search for the name of the pack, and click install. Make sure you are using 6-8 GB of RAM in the modpack or launcher's settings.
 
 ### Q: How can I play multiplayer?
 
-A: The [e4mc](https://modrinth.com/mod/e4mc) mod is installed. To play multiplayer, simply open your world to LAN, and it will print an address in chat that other players can join with.
+A: The [e4mc](https://www.curseforge.com/minecraft/mc-mods/e4mc) mod is installed. To play multiplayer, simply open your world to LAN, and it will print an address in chat that other players can join with.
 
 ### Q: How do I set up a server? Do you have a server pack?
 
@@ -46,13 +46,13 @@ A: Make sure you have allocated at least 6 GB of RAM to the modpack. I usually r
 
 ### Q: How can I disable hardcore?
 
-A: I strongly recommend learning to use the sync shells for extra lives, it’s what the game was balanced around. If you select the easy route, you’ll start with enough power for 3 shells. Follow the steps in the Sync quest for a detailed guide.
+A: I strongly recommend learning to use the sync shells for extra lives, it's what the game was balanced around. If you select the easy route, you'll start with enough power for 3 shells. Follow the steps in the Sync quest for a detailed guide.
 
-However, if you’ve tried that and still want to disable hardcore, you can edit the hardcore setting in `config/globalgamerules-common.toml`. On a server, the steps are slightly different. Download [this file](https://cdn.modrinth.com/data/Y5UhUxAD/versions/YopX3hzh/Non-Hardcore_Server_Files.zip) and replace the files on the server with the files in that zip. I recommend backing up the target files before replacing them.
+However, if you've tried that and still want to disable hardcore, you can edit the hardcore setting in `config/globalgamerules-common.toml`. On a server, the steps are slightly different. Download [this file](https://cdn.modrinth.com/data/Y5UhUxAD/versions/YopX3hzh/Non-Hardcore_Server_Files.zip) and replace the files on the server with the files in that zip. I recommend backing up the target files before replacing them.
 
 ### Q:Why do I have debuffs like weakness, mining fatigue, or hunger?
 
-A: You are likely malnourished. Check your nutrition by clicking the Diet button in your inventory. Aim to get a balanced diet by keeping the four main food groups above 50%. Higher values will give buffs, lower ones will give debuffs. The one exception is the sugars group, which isn’t necessary to maintain. The sugars group will give speed buffs at moderate levels, but be careful because you will get debuffs if your meter goes over 80%.
+A: You are likely malnourished. Check your nutrition by clicking the Diet button in your inventory. Aim to get a balanced diet by keeping the four main food groups above 50%. Higher values will give buffs, lower ones will give debuffs. The one exception is the sugars group, which isn't necessary to maintain. The sugars group will give speed buffs at moderate levels, but be careful because you will get debuffs if your meter goes over 80%.
 
 ### Q:How do I update the modpack?
 
@@ -60,7 +60,7 @@ A: In most launchers, open the modpack from your library and click the “Change
 
 ### Q: Will updating to a new version break my world?
 
-A: Generally no, you won’t have any issues. Only major releases break anything and there will be a description of exactly what they break near the start of the changelog. However, it is always a good idea to frequently back up your world.
+A: Generally no, you won't have any issues. Only major releases break anything and there will be a description of exactly what they break near the start of the changelog. However, it is always a good idea to frequently back up your world.
 
 ### Q: What is the best power source?
 
@@ -68,11 +68,11 @@ A: The quests include 3 recommended energy sources. The first is the _Pitiful Ge
 
 ### Q:Why does the modpack use Hardcore Questing Mode (HQM) instead of FTB Quests?
 
-A: HQM was initially chosen because it was used in the original Crash Landing modpack. We’ve stuck with the mod both because of that and because FTB quests is licensed in a very restrictive way. Due to the FTB team’s exclusivity deal with Curseforge, modpacks using their mods are not allowed on Modrinth. There are a few other quest mods available (Better Questing and Odyssey Quests), but I find the gameplay experience to be lacking a bit compared to HQM and FTB Quests.
+A: HQM was initially chosen because it was used in the original Crash Landing modpack. We've stuck with the mod both because of that and because FTB quests is licensed in a restrictive way. Due to the FTB team's exclusivity with Curseforge, modpacks using their mods are not allowed on Modrinth. There are a few other quest mods available (Better Questing and Odyssey Quests), but I find the gameplay experience to be lacking a bit compared to HQM and FTB Quests.
 
 ### Q: How do I get seared bricks/grout for a smeltery?
 
-A: There is a Tinker’s Construct smeltery building in the cities, containing crumbling seared brick blocks. Break those with a hammer or pulverize them to get seared bricks.
+A: There is a Tinker's Construct smeltery building in the cities, containing crumbling seared brick blocks. Break those with a hammer or pulverize them to get seared bricks.
 
 ### Q:How can I change the thermometer to Celsius?
 
@@ -80,7 +80,7 @@ A: Go to the Options menu, click the Cold Sweat button on the left, and change t
 
 ### Q:Why do structures generate in the same spot on every world?
 
-A: All worlds currently use the same seed, which allows gameplay to be balanced more tightly. This way, we can ensure players spawn in the right biome and that the late-game structures are further from spawn than the early-game ones. Someday we may switch to a different world generation system that would allow these things to be controlled individually instead of by seed, but that’s a long way away.
+A: All worlds currently use the same seed, which allows gameplay to be balanced more tightly. This way, we can ensure players spawn in the right biome and that the late-game structures are further from spawn than the early-game ones. Soon we will switch to a different world generation system which allows greater control over biome and structure placement. After that update, a preset seed will still be used, but manually setting a custom seed will no longer completely break the balance of the world.
 
 ### Q: Can I help develop/contribute to the modpack?
 
@@ -88,6 +88,21 @@ A: Absolutely!
 *   For simple suggestions, create an [issue](https://github.com/pawjwp/Desolate-Planet/issues) or let us know on the [Discord](https://discord.gg/4en3SpWtJg).
 *   For simpler submissions like textures, models, buildings, or other small files, you can send those to us and we can do the implementation work for you (if approved).
 *   For anything more complicated like full game mechanics, complex scripts, or large-scale config adjustments, you can submit a [pull request](https://github.com/pawjwp/Desolate-Planet/pulls) on GitHub. See our [Contributing Guide](https://github.com/pawjwp/Desolate-Planet?tab=contributing-ov-file) for information about setting up the modpack dev environment on your computer.
+
+### Q: Can I help translate the modpack?
+
+A: Absolutely!
+*   I have done my best to make all text in the modpack translatable through Minecraft's localization files and the modpack was recently translated into Portuguese.
+*   If you want to translate anything into your language (or correct any existing translations), feel free to send me them via [Discord](https://discord.gg/4en3SpWtJg) or by submitting a [pull request](https://github.com/pawjwp/Desolate-Planet/pulls) on our [Github](https://github.com/pawjwp/Desolate-Planet).
+*   The following files are available to translate:
+    * [Custom Items and Tooltips](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/desolate_planet/lang/en_us.json)
+    * [Quests](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/hardcorequesting/lang/en_us.json)
+    * [Tips](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/tips/lang/en_us.json)
+    * [Diet Notifications](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/diet/lang/en_us.json)
+    * [Diet Mod Text](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/a_balanced_diet/en_us.json)
+    * [Legume Delight Items](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/legumedelight/en_us.json)
+    * [Scarcity Mod Items](https://github.com/pawjwp/Desolate-Planet/blob/main/kubejs/assets/scarcity/en_us.json)
+    * [RAM Allocation Warnings](https://github.com/pawjwp/Desolate-Planet/blob/main/config/crash_assistant/crash_assistant_localization_overrides/en_us.json)
 
 ### Q: Do you have a roadmap/list of planned updates?
 
@@ -101,7 +116,7 @@ Developed by:
 
 *   [Pawjwp](https://www.curseforge.com/members/pawjwp/projects) (Current lead developer)
 *   [MarkSDR](https://www.curseforge.com/members/marksdr/projects) (Former lead developer)
-*   [ULSTICK](https://linktr.ee/ULSTICK) (Structures and other immersive content)
+*   [ULSTICK](https://linktr.ee/ULSTICK) (Builder and developer)
 
 Other contributers:
 

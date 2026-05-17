@@ -1,0 +1,16 @@
+{
+  "type": "target_self",
+  "fluid": "minecraft:lava",
+  "fluid_type": "still",
+  "generate": {
+    "Name": "minecraft:obsidian"
+  },
+  "adjacent_blocks": {
+    "any": [
+      {
+        "fluids": "#desolate_planet:cools_molten_fluids",
+        "predicate_type": "immersive_weathering:fluid_match"
+      }
+    ]
+  }
+}

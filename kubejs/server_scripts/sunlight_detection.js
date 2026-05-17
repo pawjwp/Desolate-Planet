@@ -7,11 +7,27 @@ const Order = Java.loadClass('com.momosoftworks.coldsweat.api.util.placement.Ord
 const TempModifierRegistry = Java.loadClass('com.momosoftworks.coldsweat.api.registry.TempModifierRegistry');
 const ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation');
 
+
+// Run every 5 ticks (4 times per second)
+const TICK_INTERVAL = 5;
+
+const THIRST_DRAIN_BASE = 0.0; // baseline thirst drain per second (4 exhaustion per thirst point)
+const THIRST_DRAIN_MAX = 0.32; // peak thirst drain per second (4 exhaustion per thirst point)
+
 PlayerEvents.tick(event => {
+    // RUN AT GIVEN INTERVAL
+
     const player = event.player;
-    if (player.age % 5 !== 0) return;
+    if (player.age % TICK_INTERVAL !== 0) return;
+
+
+
+    // FIX MISSING WORLD MODIFIERS
 
     // If cold_sweat:biomes modifier is missing, add all world modifiers back
+    // This bug appears to have been fixed in the latest versions, but
+    // since it is nearly impossible to test, I am leaving this in place
+
     const worldModifiers = Temperature.getModifiers(player, coldsweat.getTrait('world'));
     let hasBiomes = false;
     for (let i = 0; i < worldModifiers.size(); i++) {
@@ -40,6 +56,10 @@ PlayerEvents.tick(event => {
         });
     }
 
+
+
+    // SHADE MODIFIER
+
     const level = player.level;
     const dimensionHasSky = level.dimensionType().hasSkyLight();
     const posAbove = new BlockPos(player.blockX, player.blockY + 1, player.blockZ);
@@ -57,17 +77,37 @@ PlayerEvents.tick(event => {
                 return modifier.getNBT().getString('desolate_planet') === 'shade';
             }
         );
-        return;
-    }
-    // add the temp modifier back when in shade
-    if (!inSun && dimensionHasSky) {
+    } else if (!inSun && dimensionHasSky) {
+        // add the temp modifier back when in shade
         var modifier = coldsweat.createModifier('cold_sweat:simple');
         var nbtTag = new CompoundTag();
+        // in Minecraft Units, divided by 45 to get 3 degrees F (divide by 25 to get C)
         nbtTag.putDouble('Temperature', -(3 / 45));
         nbtTag.putString('Operation', 'add');
         nbtTag.putString('desolate_planet', 'shade');
         modifier.setNBT(nbtTag);
         modifier.markDirty();
         Temperature.replaceOrAddModifier(player, modifier, coldsweat.getTrait('world'), Matcher.SAME_CLASS);
+    }
+
+
+
+    // PASSIVE THIRST DRAIN
+
+    var thirstCap = player.getCapability(ThirstCapabilities.
+    PLAYER_THIRST, null).orElse(null);
+    if (thirstCap) {
+        // body temp is 0-100 scale
+        var bodyTemp = coldsweat.getTemperature(player, 'body');
+        var ratePerSec;
+        if (bodyTemp <= 0) {
+            // if not hot, set to base thirst drain
+            ratePerSec = THIRST_DRAIN_BASE;
+        } else {
+            // scale THIRST_DRAIN_MAX by body temperature and add THIRST_DRAIN_BASE
+            ratePerSec = THIRST_DRAIN_BASE + (bodyTemp * (THIRST_DRAIN_MAX - THIRST_DRAIN_BASE))/100;
+        }
+
+        thirstCap.addExhaustion(player, ratePerSec * (TICK_INTERVAL / 20));
     }
 });

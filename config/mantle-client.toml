@@ -7,5 +7,5 @@ heartRenderer = "WITH_MAX"
 #If true, fluids properly have their lighting adjusted under vanilla fog effects such as blindness. If false, they render as nearly fullbright ignoring fog.
 #This config option is provided as the fix breaks shaders, and slightly broken is better than fully broken.
 #Best fix is to fix your shaders though, so you can have no broken visuals.
-enableFluidFogFix = true
+enableFluidFogFix = false
 

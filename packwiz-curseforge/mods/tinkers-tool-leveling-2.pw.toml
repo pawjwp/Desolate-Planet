@@ -1,13 +1,13 @@
 name = "Tinkers Tool Leveling 2"
-filename = "tleveling-1.0.3-1.20.1.jar"
+filename = "tleveling-1.1.0-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "819680a65df93af082273158895ecca5ce6640d8"
+hash = "309a5897be64a192693bea0d1d21296d8978276a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7862287
+file-id = 8040933
 project-id = 1088354

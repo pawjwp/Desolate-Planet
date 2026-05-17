@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 45,
+      "rate": "metal",
+      "tag": "forge:molten_lead"
+    }
+  ],
+  "ingredient": {
+    "item": "exdeorum:uranium_ore_chunk"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 45,
+    "tag": "forge:molten_uranium"
+  },
+  "temperature": 830,
+  "time": 39
+}

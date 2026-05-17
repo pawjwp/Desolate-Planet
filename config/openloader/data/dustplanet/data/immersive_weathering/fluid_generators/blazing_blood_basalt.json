@@ -1,0 +1,28 @@
+{
+  "type": "target_self",
+  "fluid": "tconstruct:blazing_blood",
+  "fluid_type": "flowing",
+  "priority": 1,
+  "generate": {
+    "Name": "minecraft:basalt",
+    "Properties": {
+      "axis": "y"
+    }
+  },
+  "adjacent_blocks": {
+    "any": [
+      {
+        "block_state": {
+          "Name": "minecraft:blue_ice"
+        },
+        "predicate_type": "minecraft:blockstate_match"
+      }
+    ],
+    "down": {
+      "block_state": {
+        "Name": "minecraft:soul_soil"
+      },
+      "predicate_type": "minecraft:blockstate_match"
+    }
+  }
+}
