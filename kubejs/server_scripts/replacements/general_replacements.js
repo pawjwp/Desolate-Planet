@@ -22,13 +22,13 @@ ServerEvents.recipes(event => {
 */
 
   event.replaceInput(
-    { input: 'minecraft:dried_kelp', mod: [ "create", "trackwork" ] },
+    { input: 'minecraft:dried_kelp', or: [{ mod: 'create' }, { mod: 'trackwork' }] },
     'minecraft:dried_kelp',
     'thermal:cured_rubber'
   )
 
   event.replaceInput(
-    { input: 'minecraft:dried_kelp_block', mod: [ "create", "trackwork" ] },
+    { input: 'minecraft:dried_kelp_block', or: [{ mod: 'create' }, { mod: 'trackwork' }] },
     'minecraft:dried_kelp_block',
     'thermal:cured_rubber_block'
   )
