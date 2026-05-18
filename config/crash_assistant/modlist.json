@@ -21,13 +21,13 @@
     "curseForgeHash": 3451060389,
     "modrinthHash": "319af993d90dd5413ec7b75e859b1f0a0cf5377b"
   },
-  "AdvancedLootInfo-forge-1.20.1-1.7.3.jar": {
-    "jarName": "AdvancedLootInfo-forge-1.20.1-1.7.3.jar",
+  "AdvancedLootInfo-forge-1.20.1-1.10.0.jar": {
+    "jarName": "AdvancedLootInfo-forge-1.20.1-1.10.0.jar",
     "modId": "ali",
     "name": "AdvancedLootInfo",
-    "version": "1.7.3",
-    "curseForgeHash": 3837691153,
-    "modrinthHash": "7ac5564b0d14d0134fc214e29d23568da2860aee"
+    "version": "1.9.1",
+    "curseForgeHash": 3948948188,
+    "modrinthHash": "3f24e8ef618847743c8933aae9141202b1cded0a"
   },
   "AE2NetworkAnalyzer-1.20-1.0.6-forge.jar": {
     "jarName": "AE2NetworkAnalyzer-1.20-1.0.6-forge.jar",
