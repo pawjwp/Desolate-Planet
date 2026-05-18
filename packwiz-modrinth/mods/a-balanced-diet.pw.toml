@@ -1,13 +1,13 @@
 name = "A Balanced Diet"
-filename = "diet-forge-3.0.1+1.20.1.jar"
+filename = "diet-forge-3.0.2+1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/YNIk0lUj/versions/bb7S6Aox/diet-forge-3.0.1%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/YNIk0lUj/versions/QNYPKWEx/diet-forge-3.0.2%2B1.20.1.jar"
 hash-format = "sha512"
-hash = "8a7aa410212b640c7c09f7fcb881d0a0b1faac2579413e2f087aea9f94b497dd9fa7d694e9626ae1288fdc115624040861bb7a61a0750b13a377282d87801b59"
+hash = "c4d4b5bcc814bf904f6bc3a63462306944da1d0aabf2519d864eda4892308287a213863c639dfa8a87e030db7f4b5aac85d995addb2cb574c88e8d0fe21699a7"
 
 [update]
 [update.modrinth]
 mod-id = "YNIk0lUj"
-version = "bb7S6Aox"
+version = "QNYPKWEx"
