@@ -1,13 +1,13 @@
 name = "A Balanced Diet"
-filename = "diet-forge-3.0.1+1.20.1.jar"
+filename = "diet-forge-3.0.2+1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b29300f3433322f7c9731d1301a370ba60b2af15"
+hash = "17afa91c64b634c852af4c7be1418b81d83122f6"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8055494
+file-id = 8107461
 project-id = 1535862

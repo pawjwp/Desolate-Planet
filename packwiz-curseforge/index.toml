@@ -1148,7 +1148,7 @@ hash = "dc19b9aed0ec576b1d962f51a4e6920e7354ae67a92899771cbcbb5ea0d0be59"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "56d5dd72cb3555ff1d93cf9253dd61749156f7dabcfbda4e1acd90c821837594"
+hash = "568a6be4f1d5d9e59fa6f2261f2f3d6032d180ae844bb162b0e396314a7b7cb9"
 
 [[files]]
 file = "config/crash_assistant/scripts/log_analysis/example.jexl"
@@ -1648,7 +1648,7 @@ hash = "7fd9d0d43fd7f140025258117ecfaa968a99204694ca834741b0431745a2a9c7"
 
 [[files]]
 file = "config/immediatelyfast.json"
-hash = "f2b7f219198f0a911d04b09f545f2c1256e8d114951443924878dc10963e16aa"
+hash = "3152244144f830eeec003b007bc0045297ff5336ffc81550dab87552aad497ac"
 
 [[files]]
 file = "config/immersive_weathering-client.toml"
@@ -1800,7 +1800,7 @@ hash = "1dfdb9fceb4c59f18063629049f550a642a45a743e22ac83901e6b013192b651"
 
 [[files]]
 file = "config/lighty.config"
-hash = "1235cb75fb249e422f8803501e84529ec51de888ede69aacf131ab5c48c7e2d6"
+hash = "5bf4fa100efb6f33299458eb3a69034d9dbfa61ca3fe496335d96210987f8e02"
 
 [[files]]
 file = "config/lmft.json"
@@ -1848,7 +1848,7 @@ hash = "297c899fead9c3e358d9fc45edcc241f4ffbc25b71a8c1c2c84609d8110b8eca"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "4f14814bfef96e1d0b9985c74e579019d53e2ad0f7911f5da00fbe17021bd039"
+hash = "dff4320cd6b0bd4ab6bae1238d532b8e1e7ac6e24be66e347aee154f4b6b6866"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -1896,15 +1896,15 @@ hash = "54139382583426ab16a0a1136f1eb2c49a006d454a9ffde35d2545afd96c36f0"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/ae2/recipes/network/cells/item_storage_components_cell_16k_part.json"
-hash = "b38b400c79cc96b0094c80448e094e00180995c335db2e5baa311832cefe5ce2"
+hash = "0ed49768f05577013f63660dcaf5990cfb040d81333c2edb8712b9ff4346622d"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/ae2/recipes/network/cells/item_storage_components_cell_64k_part.json"
-hash = "396af788089ccc38bc759fe7a95555392019ec5bd86107f216eb7936f2c491a8"
+hash = "de0090053ab69a5ccb9abf4c8a26f5e762642305869b3d988fadc46bf5128cb2"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/ae2/recipes/network/crafting/patterns_blank.json"
-hash = "0b8ebfce2df5f58d5670ad9145d13101b5658b8304bf100bd0fb280687343a42"
+hash = "e3cf80e4656b43d74ce3728e98aa314de5c2f1c1c065737234d02f41fc9096a0"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/ae2/tags/items/all_quartz_and_quartz_dust.json"
@@ -1944,27 +1944,27 @@ hash = "3765bb29b22168570c0c2470f13538b5899e6bdc7a28656fb950a4b1610cd678"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/buildinggadgets2/recipes/gadget_building.json"
-hash = "a984f40d5f1edd638ad25df482f4bcabf161752884209368e90c84e3934b8af7"
+hash = "5cfd2a6c2be812d72d99c81951c00ceb844e93fa4f57a6d318abd5482d57cb91"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/buildinggadgets2/recipes/gadget_copy_paste.json"
-hash = "cf65eb42b8077275aea1bc9cc750949083bd7b83da58458eb91138a364d8a715"
+hash = "fdf3c38bc7dd84c3cac823bb45cd94271f527b58f311d5b6be00acd5c19768f1"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/buildinggadgets2/recipes/gadget_cut_paste.json"
-hash = "bc2379f9f01aa33e94dbdda1eb69c72e332c406bef31c84f59e77ff29169f903"
+hash = "36f67548bacd8b507c4ffaa6e9a6f54f865a8a982d9db8e77dd597453b36863f"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/buildinggadgets2/recipes/gadget_destruction.json"
-hash = "b49c1517b58f11f5f25f1cc48566002e5882b57a505540f4b453efaf4e696ef4"
+hash = "bd9431feef36cf66f152fbe3f8a426fb34b6d79f5c12129a38615ec269d88be9"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/buildinggadgets2/recipes/gadget_exchanging.json"
-hash = "d653550d49d6ce2dfd44075c771c3e909f8dc6fabc8795edb3f03c221ff362aa"
+hash = "8c593184eecfc784785b08dd959a68947c71ccde19cdf56d0aac6acf64ad5e5c"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/buildinggadgets2/recipes/template_manager.json"
-hash = "5da572c0aca04ef6984eaf5415e12b5c8c5d90a54e2b9ef05ed723756f0c54fd"
+hash = "46fbd7d9d041c01febf8113a491a7a824a5ab8d0c54f330ed2abc4e3712d4bd2"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/cable_facades/recipes/facade_item.json"
@@ -3943,10 +3943,6 @@ file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structur
 hash = "38a6ee995c9382fae697fe0303f79748a9748dff90e7691cdc148a6b8f4ce38a"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/structure_set/test.zip"
-hash = "edb927c350186701c923e3e1078556bdd2cb6c3e992e7a378b5ca8672db39439"
-
-[[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/city/building.json"
 hash = "fa24e116972bc014652a5402d1cc74a9df5780866edeb871e2b0e8c61e4bd11b"
 
@@ -4524,7 +4520,7 @@ hash = "c048afe8ed783f41dfd2baf3257a697a45ec1c967313e36c138404374a533187"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/industrialforegoing/recipes/mob_imprisonment_tool.json"
-hash = "c11893d7c3a807bc1225750e430f6677f8cfedc6a151535ba939d5116a3a9903"
+hash = "6a5c8671608bdee27f7edf29b3ce2a463791dda67d22fc822fc0d6fe3a6430ad"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/industrialforegoing/recipes/mycelial_ender.json"
@@ -4544,11 +4540,11 @@ hash = "708fea7b312a2ba0e86bc085160419350101eb35f73748ee06b24bda52ef701b"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/legumedelight/recipes/compat/thermal/machines/insolator/insolator_beans.json"
-hash = "0206a0ac21269b616b47733145c87a54e74689608330adb37796e8e1a7a9fa93"
+hash = "db0a3f043d1b4004956a81881b307f450e8f25fec32fb0ab3d13e46d6d3a9228"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/legumedelight/recipes/compat/thermal/machines/insolator/insolator_peanuts.json"
-hash = "c9aacb47dbae726663940868026a3a5ded9ce8645672bc645411268fdbd1883f"
+hash = "99bec68cb0bebb569a88090c2c9293042ba6ba153422839e2cf75591a56ed87a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/mantle/mantle/fluid_transfer/potion/fill_water.json"
@@ -4664,7 +4660,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/recipes/copper_ingot_from_blasting_copper_ore.json"
-hash = "47e0f4dfaedda85f4b94926525859f65a909d3938d6a97e19a3f5a2ef6b2a0bb"
+hash = "50ad4c16ecc29b2e355efa7f7ab8eac278b081cdc110733b0d20715d402acb91"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/recipes/copper_ingot_from_blasting_deepslate_copper_ore.json"
@@ -4672,7 +4668,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/recipes/copper_ingot_from_smelting_copper_ore.json"
-hash = "af55e4e9af1c73f27704dca191cfc6ab8938c502098e3fa335f304cc9eddeadb"
+hash = "f6961924771c6ea7474aae2e702c4da7b0bdb7da158afbdfad9709bccbb9a4ec"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/recipes/copper_ingot_from_smelting_deepslate_copper_ore.json"
@@ -4692,7 +4688,7 @@ hash = "d46030af07bc8311cc069658091869b574c55b3cac437ef152120073f2491f24"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/recipes/tinted_glass.json"
-hash = "01afc1a0002058f3484bbdeff4a0ccd675dc90eae71d8adb22b274ea21113a15"
+hash = "fe4daaa9f9fae30cebb3ed6867fc2779ec7e2ce0b3d4416031a06c24ab7c8c4b"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/minecraft/recipes/writable_book.json"
@@ -5016,7 +5012,7 @@ hash = "b753a7a263d5662ca76e5e80150696d13b19ed30154b9d7db64eafc44a15d1bd"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/sfm/recipes/water_tank.json"
-hash = "21a97338b56577122873b9ddfda95ceb716e2882f763d4d73c9cf163b6b7bd45"
+hash = "81b2ff7e95a44c926c39e474e7a8ab3b37ff128061f0dbc30ff9686226f85d07"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/specialmobs/loot_tables/entities/babycavespider.json"
@@ -5160,7 +5156,7 @@ hash = "65ea4c89cd1d03b63fe2cc1ffac8cfd816e4bc816eb5488ce79a06eceadc01e6"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/casting/amethyst/glass.json"
-hash = "0ec858c7cf8e10b36e83bac3e03d9e8b1ade7b27a34e06c76d47139b327133c3"
+hash = "60e46ff4ac6c7048e766f614fe65b6e01353b3fafb28e0a3a11ab161ec32c5fa"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/casting/plastic_gold_cast.json"
@@ -5244,7 +5240,7 @@ hash = "f18f0fab9b44ff649d5bc7e625b727d2c0f01254604707564f5a16cdde6b9847"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/amethyst/tinted_glass.json"
-hash = "deffc797eb92f23cd1ff7a2bb21f8e31d90b05863801edd258594d40ff7e8475"
+hash = "698d21ca8c2ace9b0f791fc3539bedd08237fe64fdba3da8b3ef2ad72888bdd1"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/blaze_powder.json"
@@ -5267,52 +5263,52 @@ file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melti
 hash = "f4f4d752275a9946c8df614390e3130700a1f3a1e801731b0a97df5b6149606e"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/cobalt/ore_singular.json"
-hash = "754fdf686e5f8fd61faf956c6125ae8b416ac0d8b951b28846d704e663f03f5d"
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/cobalt/ore_chunk.json"
+hash = "72708e45a364bec129c7b317e30794671c972dcdbb1bfead83049910b5f10a6c"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/copper/ore_singular.json"
-hash = "152d29a9f43b08477e7a1bc762871038823769f3cb577819edc434cbf2f44780"
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/copper/ore_chunk.json"
+hash = "4cffa6de0431e5dbf853ceb99ef34574b891754e880933082a2f873daf6e7ec7"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/gold/ore_singular.json"
-hash = "d4f63b36a43de08d65c6397f191ba85f5d612263fe56cb3fd5fa2d163eab3bd5"
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/gold/ore_chunk.json"
+hash = "0a04235970e8999cad94cb6da76a930820f241be3a8f39a2fd6da1ce42fc1f56"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/iron/ore_singular.json"
-hash = "15dd41ee3285e8f3eed8f729bc37afb424b8a73aed31e6db7da07445fe631044"
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/iron/ore_chunk.json"
+hash = "669bc6291bf20601aefcd45e2dc38a2112a7fe3ed402397c3d83e7741bf959f3"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/lead/ore_singular.json"
-hash = "7508510932e923d5e75d8d1086f657b12deed58476427e2eadd0e2e9338e85e4"
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/lead/ore_chunk.json"
+hash = "5069c4e13c18a6c233d6f7b34557c0272bf8e783949f20cd18622a70d16a1c4b"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/nickel/ore_singular.json"
-hash = "96993fe99aecd4c16f4756224a0f16c8c5e23abda0d3678d882cac0f5e1d13f5"
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/nickel/ore_chunk.json"
+hash = "4247785d0309dd5f92b03c6a3c22ccc01fb93ebff7ddc9df1085dd584e8a1844"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/osmium/ore_singular.json"
-hash = "0310b9cc121f4298b593172b0c0100675919527fe526b8de22d816b7ff35e1a7"
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/osmium/ore_chunk.json"
+hash = "9fc23e97a0facd6710ab94df47a8aa90dab329f7577af666088c3254dd81af21"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/rose_gold/silky_cloth.json"
 hash = "f74705f40918f3220e8b7bb577994a5f8903a364022750a1359fc96eb6b4addc"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/silver/ore_singular.json"
-hash = "a4843f69ce518dcd1bd759c2627c94201b49416caa0ed91fe832f68583862be7"
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/silver/ore_chunk.json"
+hash = "d189e9fad5301695a00af4bbb538a33868e845ce5ce1325b373684e2985343f4"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/tin/ore_singular.json"
-hash = "1952891e510b171631df2a7ceb9cf34c5f0141310887710cecfda0ddfaf0b128"
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/tin/ore_chunk.json"
+hash = "c2bb35a0107be4089a534b0662d03a1fa762636c61c1b33b4ed6d52f9d4b0498"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/uranium/ore_singular.json"
-hash = "1ceab309dd399cacd11cbf136d836d50e84097263abcb7fc5f152849f97455fa"
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/uranium/ore_chunk.json"
+hash = "216cc6ea2feae2ac7d4723e99113eb935a8840d80fab007cd210b59a22af1855"
 
 [[files]]
-file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/zinc/ore_singular.json"
-hash = "7fffc010f4cb446206d82b23df46741f6d99a5638ea3a24227369d94663b22b0"
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/zinc/ore_chunk.json"
+hash = "12313a0779e000ecc983f3cfab99060b1e4a368fb7fc5e0c68ac36fb5bba9a1b"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/seared/stone.json"
@@ -7656,43 +7652,43 @@ hash = "e17abd6d4c86ba42454f31cfe1e0b2455e7e6d265d2ca9217923fb193e1a7e00"
 
 [[files]]
 file = "kubejs/assets/diet/lang/af_za.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/ar_sa.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/ca_es.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/cs_cz.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/da_dk.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/de_de.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/el_gr.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/en_au.json"
-hash = "b0dc5a3b7fc15bfe7bea7f4bd0f44a508930eb272189e969d3115365ae72e6a7"
+hash = "a7948df7ee592147c53d8fce973b4eb9e9fdc432be82ad8c42a59aba30cffea9"
 
 [[files]]
 file = "kubejs/assets/diet/lang/en_gb.json"
-hash = "b0dc5a3b7fc15bfe7bea7f4bd0f44a508930eb272189e969d3115365ae72e6a7"
+hash = "a7948df7ee592147c53d8fce973b4eb9e9fdc432be82ad8c42a59aba30cffea9"
 
 [[files]]
 file = "kubejs/assets/diet/lang/en_pt.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/en_us.json"
@@ -7700,51 +7696,51 @@ hash = "c9a5da4cd9dad6241d05cb3df5dd77350e0f36a4fa49751762e031e84f1c4165"
 
 [[files]]
 file = "kubejs/assets/diet/lang/es_es.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/fi_fi.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/fr_fr.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/he_il.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/hu_hu.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/id_id.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/it_it.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/ja_jp.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/ko_kr.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/nl_nl.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/no_no.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/pl_pl.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/pt_br.json"
@@ -7752,43 +7748,43 @@ hash = "dbee46d332f10f000800521ec98838ff3f9354e5b47cc982e7937b1e9c1d8db8"
 
 [[files]]
 file = "kubejs/assets/diet/lang/pt_pt.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/ro_ro.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/ru_ru.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/sr_sp.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/sv_se.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/tr_tr.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/uk_ua.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/vi_vn.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/zh_cn.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/diet/lang/zh_tw.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/exdeorum/models/block/dust.json"
@@ -7804,39 +7800,39 @@ hash = "eb0d3ceb5d7fe07ac85b4307de24af9690a3309428011070b8d843de28b805fa"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/af_za.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/ar_sa.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/ca_es.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/cs_cz.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/da_dk.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/de_de.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/el_gr.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/en_au.json"
-hash = "1f87e06381b70f08c5a81439154dcfe78b9aad821be7fd7e560943dd2923928c"
+hash = "52b808022875e36a0c47640f1f919aa9d4208c8ec2e7099333fa8b3827c2dea0"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/en_gb.json"
-hash = "938ce17aebd60515a9d90a52fb47c788048eaddb514f491f7955025fe071ab57"
+hash = "3c6df764a8b421dca5bc23eabe8f7c03cc57acadcaa476ed6821e3583590bed7"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/en_pt.json"
@@ -7848,95 +7844,95 @@ hash = "d4350e20a57dcc505e44c21002a6e9a8e3e94ac44268a060ca642acc797af085"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/es_es.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/fi_fi.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/fr_fr.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/he_il.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/hu_hu.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/id_id.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/it_it.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/ja_jp.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/ko_kr.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/nl_nl.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/no_no.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/pl_pl.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/pt_br.json"
-hash = "74e249dede6fa904e7c65421250ec66142e5426feaba049f78665645588ffb3f"
+hash = "a287f8960ab7f0f6fbcdfb55d45d8550502f072de03e00abccf0f92d5b2f6590"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/pt_pt.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/ro_ro.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/ru_ru.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/sr_sp.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/sv_se.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/tr_tr.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/uk_ua.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/vi_vn.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/zh_cn.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/zh_tw.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/kubejs/blockstates/black_ship_chair.json"
@@ -10472,39 +10468,39 @@ hash = "5af2b7d16f0c37f320f3a1f60fbc76a1900eead187c29893b7464bfc0a2adf74"
 
 [[files]]
 file = "kubejs/assets/tips/lang/af_za.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/ar_sa.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/ca_es.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/cs_cz.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/da_dk.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/de_de.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/el_gr.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/en_au.json"
-hash = "fb30724ad75e8e50d2490874c262ba35df7facd830754eb8e1c8e0ed056e204a"
+hash = "0484947e4fdf42a8cf1fb39159ef6637ba4238b604cbf6d597b6607ddc266b4f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/en_gb.json"
-hash = "fb30724ad75e8e50d2490874c262ba35df7facd830754eb8e1c8e0ed056e204a"
+hash = "0484947e4fdf42a8cf1fb39159ef6637ba4238b604cbf6d597b6607ddc266b4f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/en_pt.json"
@@ -10516,103 +10512,95 @@ hash = "376202518c24497577d914d7ed51f510912d0c850077c69a76f0ef957a0872fe"
 
 [[files]]
 file = "kubejs/assets/tips/lang/es_es.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/fi_fi.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/fr_fr.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/he_il.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/hu_hu.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/id_id.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/it_it.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/ja_jp.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/ko_kr.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/nl_nl.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/no_no.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
-file = "kubejs/assets/tips/lang/pirates/new.json"
-hash = "82ec9c6ec974581562304f593b965d0c19cb514c6e8a2a9ac80006efcd495237"
-
-[[files]]
-file = "kubejs/assets/tips/lang/pirates/old.json"
-hash = "e24416a32bd7db2f306af81d57f56afb87039e458f671d95264cc12d3bb35ede"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/pl_pl.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/pt_br.json"
-hash = "423f262edbc17e439fa959d5b66b309e4a32a29993f6520fcd194c5b77d6fac8"
+hash = "422431328f25b123b590a84632ae33d9a460663e04ea1938c0177c416027b16b"
 
 [[files]]
 file = "kubejs/assets/tips/lang/pt_pt.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/ro_ro.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/ru_ru.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/sr_sp.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/sv_se.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/tr_tr.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/uk_ua.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/vi_vn.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/zh_cn.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/tips/lang/zh_tw.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/zombieawareness/sounds/investigate/zombie_investigate_1.ogg"
@@ -11032,7 +11020,7 @@ hash = "f85baad05c906e7b4ff11e550a78a4abb9a11b424bf4474ce4b9cb535e9daad1"
 
 [[files]]
 file = "kubejs/server_scripts/replacements/general_replacements.js"
-hash = "5019e35e5a743c923f0f6cd2b6c117b4b4a5598efb8e000abcd61ccf9addcef4"
+hash = "14a1fd6ae4d20d478d7a1d6a5a579e5566ce88ea250238c2b40b634619c00dea"
 
 [[files]]
 file = "kubejs/server_scripts/replacements/latex.js"
@@ -11252,7 +11240,7 @@ hash = "e7f1703b00997f5d5ed64748a5222aa9519391e52727b14a755d982dcc26e6f3"
 
 [[files]]
 file = "mods/a-balanced-diet.pw.toml"
-hash = "902f6298667603299aea7cce88a8e5490c3301fac7d5d14a4a66f37cc9ac1e05"
+hash = "fecbd4e86a92bb861862a7d5cb11df59a833a8778c4832f98b241d0b99f86e88"
 metafile = true
 
 [[files]]
@@ -11317,7 +11305,7 @@ metafile = true
 
 [[files]]
 file = "mods/astages.pw.toml"
-hash = "bfd84983b2d43caf2cbcfbb5dc330036a8cb5e13a43ce3c041779be85ec4b58f"
+hash = "cf63b9b53bdbbcc43b842eebede2ca086178a476863d2bafb77cc25966f43b93"
 metafile = true
 
 [[files]]
@@ -11427,7 +11415,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorwheel.pw.toml"
-hash = "8273fb8d3bbae1eef1d27bf310e724dc7ecb3d097c2d85bc8daddd047168a466"
+hash = "158d733846379f3e9f84bf24ab2b1227d8668cf669b25bdf72480a7579650c42"
 metafile = true
 
 [[files]]
@@ -11487,7 +11475,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-better-fps.pw.toml"
-hash = "fba320345a6d599233184fe87d6a6cb8c2afb5fd8899d765b124f93067a68980"
+hash = "07dc18b4a28311eaa4782d86579d7a5fd875dbc9d0ecd3f102ad7649661dd283"
 metafile = true
 
 [[files]]
@@ -11677,7 +11665,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "a5320178c1cc118331b309b2e5cc902375163992d2427e1563a692930106e3ee"
+hash = "02d18cc968f1a0a7aa132c4012b0f527ed9922c5e59a0c0f5d142d91dcf03484"
 metafile = true
 
 [[files]]
