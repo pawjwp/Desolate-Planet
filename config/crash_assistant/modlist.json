@@ -485,13 +485,13 @@
     "curseForgeHash": 924259263,
     "modrinthHash": "f13cdf747b7f97a27f0a365f8390a72e3ea5fe99"
   },
-  "diet-forge-3.0.1+1.20.1.jar": {
-    "jarName": "diet-forge-3.0.1+1.20.1.jar",
+  "diet-forge-3.0.2+1.20.1.jar": {
+    "jarName": "diet-forge-3.0.2+1.20.1.jar",
     "modId": "diet",
     "name": "Diet",
-    "version": "3.0.1+1.20.1",
-    "curseForgeHash": 3462992482,
-    "modrinthHash": "b29300f3433322f7c9731d1301a370ba60b2af15"
+    "version": "3.0.2+1.20.1",
+    "curseForgeHash": 3712361104,
+    "modrinthHash": "17afa91c64b634c852af4c7be1418b81d83122f6"
   },
   "dummmmmmy-1.20-2.0.12-forge.jar": {
     "jarName": "dummmmmmy-1.20-2.0.12-forge.jar",
