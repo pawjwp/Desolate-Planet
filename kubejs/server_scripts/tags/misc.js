@@ -3,6 +3,14 @@ ServerEvents.tags('item', event => {
         'createaddition:electrum_block'
     )
 
+    event.add('forge:tools/knives',
+        'tconstruct:dagger'
+    )
+
+    event.add('farmersdelight:tools/knives',
+        'tconstruct:dagger'
+    )
+
     event.add('desolate_planet:reactor_terminals',
         'biggerreactors:reactor_terminal',
         'kubejs:crashed_reactor_controller'
