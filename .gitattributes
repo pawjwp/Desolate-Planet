@@ -17,6 +17,7 @@ config/crash_assistant/lang/*.json text eol=lf
 config/crash_assistant/lang/** text eol=lf
 config/embeddium-options.json text eol=lf
 config/enchdesc.json text eol=lf
+config/immediatelyfast.json text eol=lf
 config/lostcities/profiles/** text eol=lf
 config/nerb.yaml text eol=lf
 config/phosphophyllite/*.json5 text eol=lf
