@@ -12,7 +12,7 @@
   },
   "rate": "metal",
   "result": {
-    "amount": 45,
+    "amount": 135,
     "tag": "forge:molten_copper"
   },
   "temperature": 500,
