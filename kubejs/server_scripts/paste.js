@@ -162,7 +162,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'create:paste',
+                item: 'kubejs:paste',
                 count: 3
             }
         ]
@@ -182,7 +182,7 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'create:paste',
+                item: 'kubejs:paste',
                 count: 2
             }
         ]
