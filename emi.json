@@ -1,0 +1,14 @@
+{
+  "favorites": [],
+  "lookup_history": [],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": [
+    "item:cb_microblock:microblock"
+  ]
+}
