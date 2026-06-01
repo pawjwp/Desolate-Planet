@@ -10,6 +10,7 @@
     "mob": [
       "minecraft:blaze",
       "minecraft:magma_cube",
+      "minecraft:slime",
       "minecraft:zombified_piglin",
       "specialmobs:armoredblaze",
       "specialmobs:blaze",
@@ -39,11 +40,6 @@
     "dimension": [
       "minecraft:overworld",
       "varkin_system:talos"
-    ],
-    "structuretags": [
-      "desolate_planet:foundry_bastion",
-      "desolate_planet:oil_rig",
-      "desolate_planet:mer_lab"
     ],
     "minlight": 1,
     "result": "deny"
@@ -87,12 +83,13 @@
       "desolate_planet:oil_rig",
       "desolate_planet:mer_lab"
     ],
-    "result": "default"
+    "result": "allow"
   },
   {
     "mob": [
       "minecraft:blaze",
       "minecraft:magma_cube",
+      "minecraft:slime",
       "minecraft:zombified_piglin",
       "specialmobs:armoredblaze",
       "specialmobs:blaze",
@@ -123,18 +120,7 @@
       "minecraft:overworld",
       "varkin_system:talos"
     ],
-    "minlight_full": 1,
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:slime",
-    "slime": true,
-    "maxlight": 7,
-    "result": "default"
-  },
-  {
-    "mob": "minecraft:slime",
-    "slime": true,
+    "minlight_full": 8,
     "result": "deny"
   },
   {
