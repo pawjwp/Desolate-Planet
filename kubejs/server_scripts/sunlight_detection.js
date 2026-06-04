@@ -100,11 +100,13 @@ PlayerEvents.tick(event => {
         // body temp is 0-100 scale
         var bodyTemp = coldsweat.getTemperature(player, 'body');
         var ratePerSec;
-        if (bodyTemp <= 0) {
-            // if not hot, set to base thirst drain
+
+        // if temperature isn't a number >= 1, use default rate
+        if (!isFinite(bodyTemp) || bodyTemp < 1) {
             ratePerSec = THIRST_DRAIN_BASE;
-        } else {
-            // scale THIRST_DRAIN_MAX by body temperature and add THIRST_DRAIN_BASE
+        }
+        // scale THIRST_DRAIN_MAX by body temperature and add THIRST_DRAIN_BASE
+        else {
             ratePerSec = THIRST_DRAIN_BASE + (bodyTemp * (THIRST_DRAIN_MAX - THIRST_DRAIN_BASE))/100;
         }
 
