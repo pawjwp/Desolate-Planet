@@ -91,7 +91,7 @@ PlayerEvents.tick(event => {
     }
 
 
-
+/*
     // PASSIVE THIRST DRAIN
 
     var thirstCap = player.getCapability(ThirstCapabilities.
@@ -112,4 +112,5 @@ PlayerEvents.tick(event => {
 
         thirstCap.addExhaustion(player, ratePerSec * (TICK_INTERVAL / 20));
     }
+*/
 });
