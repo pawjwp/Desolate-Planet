@@ -197,7 +197,7 @@
       "x": 30,
       "y": 102,
       "icon": {
-        "id": "minecraft:iron_ingot",
+        "id": "pneumaticcraft:ingot_iron_compressed",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
