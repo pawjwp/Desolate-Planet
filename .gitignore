@@ -1,6 +1,9 @@
 *.gz
+*.json_old
+*.json5_old
 *.lnk
 *.mrpack
+*.txt_old
 *.zip
 /.example_assets
 /.example_data
