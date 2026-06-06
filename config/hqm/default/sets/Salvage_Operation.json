@@ -17,7 +17,7 @@
         "id": "kubejs:crashed_applied_controller",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -107,7 +107,7 @@
         "id": "ae2:calculation_processor",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -316,7 +316,7 @@
         "Count": 1,
         "tag": "{Damage:0}"
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -456,7 +456,7 @@
         "id": "tconstruct:smeltery_controller",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -530,7 +530,7 @@
         "id": "tconstruct:manyullyn_ingot",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -602,7 +602,7 @@
         "id": "biggerreactors:reactor_casing",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -686,7 +686,7 @@
         "id": "kubejs:crashed_reactor_frame",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -740,7 +740,7 @@
         "id": "tconstruct:seared_bricks",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -793,7 +793,6 @@
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
-      "parentrequirement": 1,
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -907,7 +906,7 @@
         "id": "ae2:controller",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1072,7 +1071,7 @@
         "id": "biggerreactors:turbine_casing",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

@@ -18,7 +18,6 @@
         "Count": 1,
         "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:2,name:\"tconstruct:padded\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.75f,\"tconstruct:durability\":122.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
-      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -137,7 +136,7 @@
         "id": "exdeorum:flint_mesh",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -391,7 +390,7 @@
         "Count": 1,
         "tag": "{Potion:\"minecraft:water\",Purity:3}"
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -509,7 +508,7 @@
         "id": "thermal:silver_ingot",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -584,7 +583,7 @@
         "id": "minecraft:iron_ingot",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -702,7 +701,7 @@
         "id": "minecraft:dirt",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -841,7 +840,7 @@
         "id": "kubejs:camel_pack",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -895,7 +894,7 @@
         "id": "minecraft:furnace",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1041,7 +1040,7 @@
         "id": "tconstruct:tinker_station",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1122,7 +1121,7 @@
         "Count": 1,
         "tag": "{Potion:\"minecraft:water\",Purity:2}"
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1197,7 +1196,7 @@
         "id": "exdeorum:porcelain_crucible",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1266,7 +1265,7 @@
         "id": "kubejs:stillsuit",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1316,7 +1315,7 @@
         "Count": 1,
         "tag": "{Damage:0,insulation:[]}"
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1394,7 +1393,7 @@
         "Count": 1,
         "tag": "{Potion:\"minecraft:water\",Purity:0}"
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume",
@@ -1511,7 +1510,7 @@
         "Count": 1,
         "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.25f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":0.8f,\"tconstruct:durability\":75.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1663,7 +1662,7 @@
         "id": "kubejs:leather_insulation",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1811,7 +1810,7 @@
         "id": "exdeorum:silk_worm",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1858,7 +1857,7 @@
         "id": "minecraft:oak_sapling",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

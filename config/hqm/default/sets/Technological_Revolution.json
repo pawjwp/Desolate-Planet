@@ -532,6 +532,7 @@
         "id": "thermal:machine_frame",
         "Count": 1
       },
+      "trigger": "PREVIEW_TRIGGER",
       "parentrequirement": 2,
       "tasks": [
         {

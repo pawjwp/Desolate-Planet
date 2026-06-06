@@ -17,7 +17,7 @@
         "id": "pneumaticcraft:advanced_air_compressor",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -89,7 +89,7 @@
         "id": "pneumaticcraft:speed_upgrade",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -153,7 +153,7 @@
         "id": "pneumaticcraft:pressure_chamber_interface",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -291,7 +291,7 @@
         "id": "pneumaticcraft:gas_lift",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -370,7 +370,7 @@
         "id": "pneumaticcraft:pressure_gauge_module",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -418,7 +418,7 @@
         "Count": 1,
         "tag": "{\"pneumaticcraft:uv_exposure\":100}"
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -490,7 +490,7 @@
         "id": "pneumaticcraft:refinery",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -591,7 +591,7 @@
         "id": "pneumaticcraft:pneumatic_wrench",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -708,7 +708,7 @@
         "id": "pneumaticcraft:thermopneumatic_processing_plant",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -779,7 +779,7 @@
         "id": "pneumaticcraft:unassembled_pcb",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -856,7 +856,7 @@
         "id": "pneumaticcraft:pressure_chamber_wall",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -915,7 +915,7 @@
         "id": "pneumaticcraft:printed_circuit_board",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -970,7 +970,7 @@
         "id": "pneumaticcraft:empty_pcb",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1060,7 +1060,7 @@
         "id": "pneumaticcraft:pressure_tube",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1130,7 +1130,7 @@
         "id": "pneumaticcraft:assembly_controller",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

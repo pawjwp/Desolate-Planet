@@ -485,7 +485,7 @@
         "id": "mekanism:metallurgic_infuser",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -703,7 +703,7 @@
         "Count": 1,
         "tag": "{}"
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1165,7 +1165,7 @@
         "Count": 1,
         "tag": "{}"
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

@@ -69,7 +69,7 @@
         "id": "minecraft:sugar",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -168,7 +168,7 @@
         "id": "legumedelight:beans",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -327,7 +327,7 @@
         "id": "exdeorum:wooden_watering_can",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume",
@@ -428,7 +428,7 @@
         "id": "minecraft:sweet_berries",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -638,7 +638,7 @@
         "id": "kubejs:zombie_jerky",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -733,7 +733,7 @@
         "id": "farmersdelight:cabbage",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -798,7 +798,7 @@
         "id": "minecraft:wheat",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "PREVIEW_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
