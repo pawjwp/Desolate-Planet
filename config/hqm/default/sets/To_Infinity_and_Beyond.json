@@ -1082,12 +1082,8 @@
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.name",
         "isTranslationKey": true
-        "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.name",
-        "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.desc",
-        "isTranslationKey": true
         "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.desc",
         "isTranslationKey": true
       },
@@ -1103,8 +1099,6 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.task.0.long_desc",
-            "isTranslationKey": true
             "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.task.0.long_desc",
             "isTranslationKey": true
           },
@@ -1174,12 +1168,8 @@
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.name",
         "isTranslationKey": true
-        "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.name",
-        "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.desc",
-        "isTranslationKey": true
         "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.desc",
         "isTranslationKey": true
       },
@@ -1196,12 +1186,8 @@
           "description": {
             "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.0.desc",
             "isTranslationKey": true
-            "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.0.desc",
-            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.0.long_desc",
-            "isTranslationKey": true
             "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.0.long_desc",
             "isTranslationKey": true
           },
@@ -1220,12 +1206,8 @@
           "description": {
             "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.1.desc",
             "isTranslationKey": true
-            "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.1.desc",
-            "isTranslationKey": true
           },
           "longDescription": {
-            "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.1.long_desc",
-            "isTranslationKey": true
             "text": "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.1.long_desc",
             "isTranslationKey": true
           },
@@ -1401,8 +1383,6 @@
   ],
   "reputationBar": [],
   "description": {
-    "text": "hqm.quest_set.to_infinity_and_beyond.desc",
-    "isTranslationKey": true
     "text": "hqm.quest_set.to_infinity_and_beyond.desc",
     "isTranslationKey": true
   }
