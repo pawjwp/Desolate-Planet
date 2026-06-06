@@ -358,18 +358,19 @@
             },
             {
               "item": {
-                "id": "minecraft:potion",
-                "Count": 1,
-                "tag": "{Potion:\"minecraft:water\",Purity:3}"
+                "id": "kubejs:camel_pack",
+                "Count": 1
               },
-              "required": 8,
-              "precision": "FUZZY"
+              "precision": "TAG_FUZZY"
             }
           ]
         }
       ],
       "prerequisites": [
-        "099d1358-0b11-49f0-aa78-43531cd739b7"
+        "099d1358-0b11-49f0-aa78-43531cd739b7",
+        "0862574f-2caf-43d7-b79c-99ca3a5fe67c",
+        "3f4bca77-f975-4406-9e7b-1cbe559b3068",
+        "485801ed-15cb-43f9-ac50-1e31cf9c97a0"
       ],
       "optionlinks": [],
       "reward": [],
