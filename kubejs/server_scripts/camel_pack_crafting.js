@@ -237,3 +237,11 @@ ServerEvents.recipes(event => {
         })
     })
 });
+
+ServerEvents.tags('item', event => {
+    event.add('desolate_planet:camel_packs',
+        'kubejs:camel_pack',
+        'kubejs:advanced_camel_pack',
+        'kubejs:unlimited_camel_pack'
+    )
+});
