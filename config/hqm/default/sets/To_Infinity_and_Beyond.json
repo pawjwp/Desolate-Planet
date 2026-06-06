@@ -2,7 +2,61 @@
   "name": "To Infinity and Beyond",
   "quests": [
     {
-      "uuid": "724aefe8-8ad3-499e-82d7-2d3ed1457843",
+      "uuid": "80442f59-b87f-4b04-91ec-2b09ccf69f58",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 142,
+      "y": 75,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "84b5ca92-e2c8-474d-ac46-ea042f75dd88",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 302,
+      "y": 183,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8644041f-58dc-4c3f-8dcd-c69cbc8ba04e",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 30,
+      "y": 156,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "86785215-945d-41a4-9739-da9b1e9db474",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
         "isTranslationKey": true
@@ -12,7 +66,169 @@
         "isTranslationKey": true
       },
       "x": 110,
+      "y": 75,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8c905b56-66eb-4961-af5e-7e1a1f5bb580",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 78,
+      "y": 75,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9b6c8418-caed-44d2-93fc-191e9980b381",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 286,
+      "y": 102,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9dc98601-ea23-4f6f-ba06-267450e36bca",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 78,
       "y": 129,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ab247e8e-4fe8-46ec-bd53-20db6800c8e2",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 142,
+      "y": 129,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ad6c16a7-8a09-43f3-b220-cb1b474b840c",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 190,
+      "y": 156,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ad77367a-c718-4b8f-a135-e8dbbbd4fe66",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 94,
+      "y": 156,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b02c0da7-b39d-46fd-863f-ac6589c2ebb3",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 126,
+      "y": 48,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b879bbad-7a13-4e57-9ff9-c07ae187f22d",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 286,
+      "y": 48,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b9bb61be-44eb-4822-8590-a1f47933aca8",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 14,
+      "y": 183,
       "prerequisites": [],
       "optionlinks": [],
       "reward": [],
@@ -56,61 +272,7 @@
       "commandrewards": []
     },
     {
-      "uuid": "e4842e0e-5838-4205-b439-61fb031b40eb",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 190,
-      "y": 48,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "7f5fc064-9ec8-4315-872f-7021c5fc6211",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 14,
-      "y": 75,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "749a6ced-2d61-4dc3-b2c1-2540e117cfcb",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 30,
-      "y": 48,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "78066664-5ce1-450e-a52f-2076b193dbce",
+      "uuid": "bcf6799c-5736-433e-8a01-2f2c5551d38d",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
         "isTranslationKey": true
@@ -120,7 +282,7 @@
         "isTranslationKey": true
       },
       "x": 254,
-      "y": 102,
+      "y": 156,
       "prerequisites": [],
       "optionlinks": [],
       "reward": [],
@@ -128,7 +290,7 @@
       "commandrewards": []
     },
     {
-      "uuid": "133db3bf-641f-422a-8505-d583ada12c99",
+      "uuid": "c22fdc21-271b-4488-bce8-06fea865a082",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
         "isTranslationKey": true
@@ -137,44 +299,8 @@
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
         "isTranslationKey": true
       },
-      "x": 238,
-      "y": 21,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "56547c1e-4a5f-4a5a-b7cf-f77e99744580",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 270,
-      "y": 75,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "2e63fc4c-a83e-4026-b9ea-d1a366a1cf54",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 269,
-      "y": 21,
+      "x": 302,
+      "y": 129,
       "prerequisites": [],
       "optionlinks": [],
       "reward": [],
@@ -200,187 +326,7 @@
       "commandrewards": []
     },
     {
-      "uuid": "3f5e8f13-7edd-4a0c-8665-cac7becb9579",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 46,
-      "y": 129,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e309b2c1-1269-42df-99ac-787fc5ee00cd",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 206,
-      "y": 129,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d7d3f5c7-d336-430f-a21f-b01b3e683dd0",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 14,
-      "y": 129,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f6c5ea48-e044-4117-9a09-e65863b65128",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 46,
-      "y": 183,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "fd03fc99-5084-4704-ad86-91966955f4cc",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 270,
-      "y": 129,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "bcf6799c-5736-433e-8a01-2f2c5551d38d",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 254,
-      "y": 156,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "486809ee-53cc-4928-bd49-a4941a1936b1",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 238,
-      "y": 75,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e0b609bc-e4fe-4d75-9545-15ee814595f8",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 190,
-      "y": 102,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "782da72f-b5f4-41a8-b9a6-6c7291782ceb",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 222,
-      "y": 156,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "12ab9ec2-3fd9-40f8-bc47-f57acef36f1d",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 142,
-      "y": 183,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5ca4a4d0-390d-430e-8e81-c12b7abb77fa",
+      "uuid": "d49c8a79-8b0d-439d-b14b-34056cd032b3",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
         "isTranslationKey": true
@@ -390,223 +336,7 @@
         "isTranslationKey": true
       },
       "x": 174,
-      "y": 183,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "84b5ca92-e2c8-474d-ac46-ea042f75dd88",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 302,
-      "y": 183,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e9ae7d0b-8dc2-4156-a2cb-051928c9058b",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 46,
-      "y": 75,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "3b2f4012-9dc1-4048-aeca-8520e3c653bb",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 174,
-      "y": 129,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "30b01adb-4433-4471-b8da-f847b0c5d0d5",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 78,
-      "y": 183,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e74bd6eb-329d-498c-934e-057cdeaf718a",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 126,
-      "y": 102,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "9b6c8418-caed-44d2-93fc-191e9980b381",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 286,
-      "y": 102,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8644041f-58dc-4c3f-8dcd-c69cbc8ba04e",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 30,
-      "y": 156,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "80442f59-b87f-4b04-91ec-2b09ccf69f58",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 142,
-      "y": 75,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5255991c-9d8a-4c0a-bdd6-8fcb63bf9344",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 110,
-      "y": 183,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "b9bb61be-44eb-4822-8590-a1f47933aca8",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 14,
-      "y": 183,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "623914d6-99e1-402f-a2b4-ae81c2b78916",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": 156,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "196b306d-a905-4b1c-a9a8-6053e71d9d4f",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 238,
-      "y": 183,
+      "y": 21,
       "prerequisites": [],
       "optionlinks": [],
       "reward": [],
@@ -632,43 +362,7 @@
       "commandrewards": []
     },
     {
-      "uuid": "b879bbad-7a13-4e57-9ff9-c07ae187f22d",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 286,
-      "y": 48,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "0db337db-dc3e-452c-b0a6-3c93034f643f",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 62,
-      "y": 102,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "b02c0da7-b39d-46fd-863f-ac6589c2ebb3",
+      "uuid": "d616c4f4-8f33-4c58-b2a8-629b81147ec0",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
         "isTranslationKey": true
@@ -678,7 +372,7 @@
         "isTranslationKey": true
       },
       "x": 126,
-      "y": 48,
+      "y": 156,
       "prerequisites": [],
       "optionlinks": [],
       "reward": [],
@@ -686,7 +380,7 @@
       "commandrewards": []
     },
     {
-      "uuid": "11aef9ed-ef62-4bfa-8d02-26d034904b5a",
+      "uuid": "d7d3f5c7-d336-430f-a21f-b01b3e683dd0",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
         "isTranslationKey": true
@@ -695,242 +389,8 @@
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
         "isTranslationKey": true
       },
-      "x": 302,
-      "y": 75,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ff4d2ba6-73c2-4119-8467-d75799edc529",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 110,
-      "y": 21,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ab247e8e-4fe8-46ec-bd53-20db6800c8e2",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 142,
+      "x": 14,
       "y": 129,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ad77367a-c718-4b8f-a135-e8dbbbd4fe66",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 94,
-      "y": 156,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "56ec23d1-3c66-4fab-a312-56cdb9ab83cd",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 238,
-      "y": 129,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ad6c16a7-8a09-43f3-b220-cb1b474b840c",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 190,
-      "y": 156,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "2853c3a1-5f1b-4f46-b33f-6c5135cc0bdf",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 30,
-      "y": 102,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "48552d78-17df-4b80-8742-16d18ecfe27d",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 94,
-      "y": 102,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8c905b56-66eb-4961-af5e-7e1a1f5bb580",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 78,
-      "y": 75,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "46d04af5-2c3f-426b-aed8-8f9ffdfbbd98",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": 102,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d49c8a79-8b0d-439d-b14b-34056cd032b3",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 174,
-      "y": 21,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "31f3673f-c545-491e-821b-08eda1313d88",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 46,
-      "y": 21,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "50d1155f-10d5-4bdd-bfd5-257eabb559c0",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 222,
-      "y": 48,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "65cd4a78-3e92-4dbf-af79-c0aa993c552f",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 62,
-      "y": 156,
       "prerequisites": [],
       "optionlinks": [],
       "reward": [],
@@ -956,7 +416,7 @@
       "commandrewards": []
     },
     {
-      "uuid": "f03bc145-cf99-4989-b990-277c1acde613",
+      "uuid": "e0b609bc-e4fe-4d75-9545-15ee814595f8",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
         "isTranslationKey": true
@@ -965,8 +425,8 @@
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
         "isTranslationKey": true
       },
-      "x": 286,
-      "y": 156,
+      "x": 190,
+      "y": 102,
       "prerequisites": [],
       "optionlinks": [],
       "reward": [],
@@ -974,7 +434,7 @@
       "commandrewards": []
     },
     {
-      "uuid": "1958d3a0-2c8c-488e-a748-b8f6fb8fbb96",
+      "uuid": "e309b2c1-1269-42df-99ac-787fc5ee00cd",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
         "isTranslationKey": true
@@ -984,92 +444,6 @@
         "isTranslationKey": true
       },
       "x": 206,
-      "y": 183,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5c3cf474-f649-4967-90a9-6d66263e75c9",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.wip_disclaimer.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.wip_disclaimer.desc",
-        "isTranslationKey": true
-      },
-      "x": 344,
-      "y": 153,
-      "icon": {
-        "id": "ad_astra:tier_1_rover",
-        "Count": 1,
-        "tag": "{}"
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.to_infinity_and_beyond.wip_disclaimer.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "ad_astra:tier_1_rover",
-                "Count": 1,
-                "tag": "{}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "pneumaticcraft:gasoline_bucket",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "86785215-945d-41a4-9739-da9b1e9db474",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 110,
-      "y": 75,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "9dc98601-ea23-4f6f-ba06-267450e36bca",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 78,
       "y": 129,
       "prerequisites": [],
       "optionlinks": [],
@@ -1078,75 +452,7 @@
       "commandrewards": []
     },
     {
-      "uuid": "0f176092-cf3c-4fe2-803c-885765840855",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.desc",
-        "isTranslationKey": true
-      },
-      "x": 344,
-      "y": 184,
-      "icon": {
-        "id": "ad_astra:tier_1_rocket",
-        "Count": 1,
-        "tag": "{}"
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "ad_astra:launch_pad",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "be7af2e5-6165-45b2-b21c-8da41319c7e2",
-        "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
-        "9aa4b681-79fd-4290-aff9-bcce87d38012",
-        "6411096c-3d98-4e84-8599-9718d7ee18f6",
-        "7cd36511-ac8a-4a2a-89e6-9fa29cb33173",
-        "11e51c76-360f-4739-a90b-1fbdbc83e598",
-        "65efa12d-f687-4c3a-9077-b89b3d28fc95",
-        "e09bcc3e-e944-4e33-9e02-cdb9df6d7773",
-        "9b956bee-4f0e-4a17-8e06-d895c78c171c",
-        "06e0f31e-c084-4157-9890-0989c2908b66",
-        "e8919b5b-fd58-4907-bcde-3d9e39bba7b7",
-        "8fc9c1ac-631c-4c2c-aabc-bb7eeb415c76",
-        "76cfa1f2-c3a7-4369-bc3c-2838db6384ef",
-        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
-        "b910ad01-be2f-4928-b33d-6a38353b8b9f",
-        "3f4bca77-f975-4406-9e7b-1cbe559b3068",
-        "9bcad1fa-e4c1-4745-9776-6df674846c9d",
-        "496abe96-0a4d-47e9-9e30-e87ea63d3888",
-        "15ad672b-7b9c-4115-a4b3-403c70654a40",
-        "5c3cf474-f649-4967-90a9-6d66263e75c9"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "thermal:steel_ingot",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f9c39de9-32c6-464d-b579-694c7a07ddf6",
+      "uuid": "e4842e0e-5838-4205-b439-61fb031b40eb",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
         "isTranslationKey": true
@@ -1155,7 +461,7 @@
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
         "isTranslationKey": true
       },
-      "x": 94,
+      "x": 190,
       "y": 48,
       "prerequisites": [],
       "optionlinks": [],
@@ -1237,25 +543,7 @@
       "commandrewards": []
     },
     {
-      "uuid": "c22fdc21-271b-4488-bce8-06fea865a082",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 302,
-      "y": 129,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d616c4f4-8f33-4c58-b2a8-629b81147ec0",
+      "uuid": "e74bd6eb-329d-498c-934e-057cdeaf718a",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
         "isTranslationKey": true
@@ -1265,6 +553,42 @@
         "isTranslationKey": true
       },
       "x": 126,
+      "y": 102,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e9ae7d0b-8dc2-4156-a2cb-051928c9058b",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 46,
+      "y": 75,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f03bc145-cf99-4989-b990-277c1acde613",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 286,
       "y": 156,
       "prerequisites": [],
       "optionlinks": [],
@@ -1273,7 +597,79 @@
       "commandrewards": []
     },
     {
-      "uuid": "59951c58-d790-43f3-b2ec-716866112c49",
+      "uuid": "f6c5ea48-e044-4117-9a09-e65863b65128",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 46,
+      "y": 183,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f9c39de9-32c6-464d-b579-694c7a07ddf6",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 94,
+      "y": 48,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fd03fc99-5084-4704-ad86-91966955f4cc",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 270,
+      "y": 129,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ff4d2ba6-73c2-4119-8467-d75799edc529",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 110,
+      "y": 21,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0db337db-dc3e-452c-b0a6-3c93034f643f",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
         "isTranslationKey": true
@@ -1283,7 +679,183 @@
         "isTranslationKey": true
       },
       "x": 62,
-      "y": 48,
+      "y": 102,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0f176092-cf3c-4fe2-803c-885765840855",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.desc",
+        "isTranslationKey": true
+      },
+      "x": 344,
+      "y": 184,
+      "icon": {
+        "id": "ad_astra:tier_1_rocket",
+        "Count": 1,
+        "tag": "{}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.to_infinity_and_beyond.beyond_the_stars.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ad_astra:launch_pad",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "be7af2e5-6165-45b2-b21c-8da41319c7e2",
+        "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
+        "9aa4b681-79fd-4290-aff9-bcce87d38012",
+        "6411096c-3d98-4e84-8599-9718d7ee18f6",
+        "7cd36511-ac8a-4a2a-89e6-9fa29cb33173",
+        "11e51c76-360f-4739-a90b-1fbdbc83e598",
+        "65efa12d-f687-4c3a-9077-b89b3d28fc95",
+        "e09bcc3e-e944-4e33-9e02-cdb9df6d7773",
+        "9b956bee-4f0e-4a17-8e06-d895c78c171c",
+        "06e0f31e-c084-4157-9890-0989c2908b66",
+        "e8919b5b-fd58-4907-bcde-3d9e39bba7b7",
+        "8fc9c1ac-631c-4c2c-aabc-bb7eeb415c76",
+        "76cfa1f2-c3a7-4369-bc3c-2838db6384ef",
+        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
+        "b910ad01-be2f-4928-b33d-6a38353b8b9f",
+        "3f4bca77-f975-4406-9e7b-1cbe559b3068",
+        "9bcad1fa-e4c1-4745-9776-6df674846c9d",
+        "496abe96-0a4d-47e9-9e30-e87ea63d3888",
+        "15ad672b-7b9c-4115-a4b3-403c70654a40",
+        "5c3cf474-f649-4967-90a9-6d66263e75c9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:steel_ingot",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "11aef9ed-ef62-4bfa-8d02-26d034904b5a",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 302,
+      "y": 75,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "12ab9ec2-3fd9-40f8-bc47-f57acef36f1d",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 142,
+      "y": 183,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "133db3bf-641f-422a-8505-d583ada12c99",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 238,
+      "y": 21,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "16a52995-eaeb-41c9-9154-f72f4e57b745",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 174,
+      "y": 75,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1958d3a0-2c8c-488e-a748-b8f6fb8fbb96",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 206,
+      "y": 183,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "196b306d-a905-4b1c-a9a8-6053e71d9d4f",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 238,
+      "y": 183,
       "prerequisites": [],
       "optionlinks": [],
       "reward": [],
@@ -1309,6 +881,344 @@
       "commandrewards": []
     },
     {
+      "uuid": "1f05d739-1f09-4e4f-abc3-eb55b188181f",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 206,
+      "y": 75,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2853c3a1-5f1b-4f46-b33f-6c5135cc0bdf",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 30,
+      "y": 102,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2e63fc4c-a83e-4026-b9ea-d1a366a1cf54",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 269,
+      "y": 21,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "30b01adb-4433-4471-b8da-f847b0c5d0d5",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 78,
+      "y": 183,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "31f3673f-c545-491e-821b-08eda1313d88",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 46,
+      "y": 21,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3b2f4012-9dc1-4048-aeca-8520e3c653bb",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 174,
+      "y": 129,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3f5e8f13-7edd-4a0c-8665-cac7becb9579",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 46,
+      "y": 129,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "46d04af5-2c3f-426b-aed8-8f9ffdfbbd98",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 158,
+      "y": 102,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "48552d78-17df-4b80-8742-16d18ecfe27d",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 94,
+      "y": 102,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "486809ee-53cc-4928-bd49-a4941a1936b1",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 238,
+      "y": 75,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "50d1155f-10d5-4bdd-bfd5-257eabb559c0",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 222,
+      "y": 48,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5255991c-9d8a-4c0a-bdd6-8fcb63bf9344",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 110,
+      "y": 183,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "56547c1e-4a5f-4a5a-b7cf-f77e99744580",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 270,
+      "y": 75,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "56ec23d1-3c66-4fab-a312-56cdb9ab83cd",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 238,
+      "y": 129,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "59951c58-d790-43f3-b2ec-716866112c49",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 62,
+      "y": 48,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5c3cf474-f649-4967-90a9-6d66263e75c9",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.wip_disclaimer.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.wip_disclaimer.desc",
+        "isTranslationKey": true
+      },
+      "x": 344,
+      "y": 153,
+      "icon": {
+        "id": "ad_astra:tier_1_rover",
+        "Count": 1,
+        "tag": "{}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.to_infinity_and_beyond.wip_disclaimer.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ad_astra:tier_1_rover",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:gasoline_bucket",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5ca4a4d0-390d-430e-8e81-c12b7abb77fa",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 174,
+      "y": 183,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "5dd7a14f-d4bb-40d8-b257-a01e06099142",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
@@ -1320,6 +1230,114 @@
       },
       "x": 270,
       "y": 183,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "623914d6-99e1-402f-a2b4-ae81c2b78916",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 158,
+      "y": 156,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "65cd4a78-3e92-4dbf-af79-c0aa993c552f",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 62,
+      "y": 156,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "724aefe8-8ad3-499e-82d7-2d3ed1457843",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 110,
+      "y": 129,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "749a6ced-2d61-4dc3-b2c1-2540e117cfcb",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 30,
+      "y": 48,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "78066664-5ce1-450e-a52f-2076b193dbce",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 254,
+      "y": 102,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "782da72f-b5f4-41a8-b9a6-6c7291782ceb",
+      "name": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
+        "isTranslationKey": true
+      },
+      "x": 222,
+      "y": 156,
       "prerequisites": [],
       "optionlinks": [],
       "reward": [],
@@ -1345,7 +1363,7 @@
       "commandrewards": []
     },
     {
-      "uuid": "1f05d739-1f09-4e4f-abc3-eb55b188181f",
+      "uuid": "7f5fc064-9ec8-4315-872f-7021c5fc6211",
       "name": {
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
         "isTranslationKey": true
@@ -1354,25 +1372,7 @@
         "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
         "isTranslationKey": true
       },
-      "x": 206,
-      "y": 75,
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "16a52995-eaeb-41c9-9154-f72f4e57b745",
-      "name": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.to_infinity_and_beyond.unnamed.desc",
-        "isTranslationKey": true
-      },
-      "x": 174,
+      "x": 14,
       "y": 75,
       "prerequisites": [],
       "optionlinks": [],

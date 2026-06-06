@@ -2,123 +2,6 @@
   "name": "Under Pressure",
   "quests": [
     {
-      "uuid": "0426c2a9-95cc-49a7-a6c6-742dad08b167",
-      "name": {
-        "text": "hqm.quest.under_pressure.misc_tools.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.under_pressure.misc_tools.desc",
-        "isTranslationKey": true
-      },
-      "x": 254,
-      "y": 120,
-      "icon": {
-        "id": "pneumaticcraft:pneumatic_wrench",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.under_pressure.misc_tools.task.0.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.misc_tools.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:charging_station",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.under_pressure.misc_tools.task.1.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.misc_tools.task.1.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:pneumatic_wrench",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.under_pressure.misc_tools.task.2.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.misc_tools.task.2.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:gps_tool",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.under_pressure.misc_tools.task.3.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.misc_tools.task.3.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:air_cannon",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3f8636bd-b018-4fb3-a0d9-19800abb507f"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "pneumaticcraft:dispenser_upgrade",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:item_life_upgrade",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:printed_circuit_board",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "8fc9c1ac-631c-4c2c-aabc-bb7eeb415c76",
       "name": {
         "text": "hqm.quest.under_pressure.advanced_air_compressor.name",
@@ -255,19 +138,66 @@
       "commandrewards": []
     },
     {
-      "uuid": "06e0f31e-c084-4157-9890-0989c2908b66",
+      "uuid": "c86b6b2b-d725-4e92-8635-06b915d4f234",
       "name": {
-        "text": "hqm.quest.under_pressure.plastic_processing.name",
+        "text": "hqm.quest.under_pressure.pressure_chamber_interface.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.under_pressure.plastic_processing.desc",
+        "text": "hqm.quest.under_pressure.pressure_chamber_interface.desc",
         "isTranslationKey": true
       },
-      "x": 142,
-      "y": 75,
+      "x": 110,
+      "y": 129,
       "icon": {
-        "id": "pneumaticcraft:thermopneumatic_processing_plant",
+        "id": "pneumaticcraft:pressure_chamber_interface",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.pressure_chamber_interface.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_interface",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e4732d9-29f9-493b-83fb-96af85b5390d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:hopper",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d7f59dff-62b2-426b-a5eb-a27f6bd4a4cb",
+      "name": {
+        "text": "hqm.quest.under_pressure.compressed_iron.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.under_pressure.compressed_iron.desc",
+        "isTranslationKey": true
+      },
+      "x": 30,
+      "y": 102,
+      "icon": {
+        "id": "minecraft:iron_ingot",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -275,17 +205,235 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "hqm.quest.under_pressure.plastic_processing.task.0.desc",
+            "text": "hqm.quest.under_pressure.compressed_iron.task.0.desc",
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "hqm.quest.under_pressure.plastic_processing.task.0.long_desc",
+            "text": "hqm.quest.under_pressure.compressed_iron.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "pneumaticcraft:thermopneumatic_processing_plant",
+                "id": "minecraft:iron_ingot",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.under_pressure.compressed_iron.task.1.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.compressed_iron.task.1.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:tnt",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.under_pressure.compressed_iron.task.2.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.compressed_iron.task.2.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:ingot_iron_compressed",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d870404e-3382-4dc8-91ea-4db728f38060",
+      "name": {
+        "text": "hqm.quest.under_pressure.gas_lift_oil.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.under_pressure.gas_lift_oil.desc",
+        "isTranslationKey": true
+      },
+      "x": 78,
+      "y": 75,
+      "icon": {
+        "id": "pneumaticcraft:gas_lift",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.under_pressure.gas_lift_oil.task.0.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.gas_lift_oil.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:gas_lift",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:drill_pipe",
+                "Count": 1
+              },
+              "required": 16,
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.under_pressure.gas_lift_oil.task.1.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.gas_lift_oil.task.1.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:oil_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "794f0a0c-359a-442f-87a2-217b2aeae130"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:drill_pipe",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e8919b5b-fd58-4907-bcde-3d9e39bba7b7",
+      "name": {
+        "text": "hqm.quest.under_pressure.pressure_gauge.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.under_pressure.pressure_gauge.desc",
+        "isTranslationKey": true
+      },
+      "x": 78,
+      "y": 129,
+      "icon": {
+        "id": "pneumaticcraft:pressure_gauge_module",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.pressure_gauge.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_gauge_module",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "794f0a0c-359a-442f-87a2-217b2aeae130"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:repeater",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f240d7c3-3352-4648-9fd2-d545cb85aef8",
+      "name": {
+        "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.desc",
+        "isTranslationKey": true
+      },
+      "x": 158,
+      "y": 102,
+      "icon": {
+        "id": "pneumaticcraft:empty_pcb",
+        "Count": 1,
+        "tag": "{\"pneumaticcraft:uv_exposure\":100}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.task.0.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:uv_light_box",
                 "Count": 1
               },
               "precision": "FUZZY"
@@ -295,31 +443,32 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "hqm.quest.under_pressure.plastic_processing.task.1.desc",
+            "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.task.1.desc",
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "hqm.quest.under_pressure.plastic_processing.task.1.long_desc",
+            "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.task.1.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "pneumaticcraft:plastic_bucket",
-                "Count": 1
+                "id": "pneumaticcraft:empty_pcb",
+                "Count": 1,
+                "tag": "{\"pneumaticcraft:uv_exposure\":100}"
               }
             }
           ]
         }
       ],
       "prerequisites": [
-        "ff99b94a-a12d-4b8f-9ea2-22dc262d4de1"
+        "48b64a83-4801-48b2-a4f3-c61106fc344b"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:coal",
-          "Count": 32
+          "id": "pneumaticcraft:empty_pcb",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -427,6 +576,194 @@
       "commandrewards": []
     },
     {
+      "uuid": "0426c2a9-95cc-49a7-a6c6-742dad08b167",
+      "name": {
+        "text": "hqm.quest.under_pressure.misc_tools.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.under_pressure.misc_tools.desc",
+        "isTranslationKey": true
+      },
+      "x": 254,
+      "y": 120,
+      "icon": {
+        "id": "pneumaticcraft:pneumatic_wrench",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.under_pressure.misc_tools.task.0.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.misc_tools.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:charging_station",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.under_pressure.misc_tools.task.1.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.misc_tools.task.1.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pneumatic_wrench",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.under_pressure.misc_tools.task.2.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.misc_tools.task.2.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:gps_tool",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.under_pressure.misc_tools.task.3.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.misc_tools.task.3.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:air_cannon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3f8636bd-b018-4fb3-a0d9-19800abb507f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:dispenser_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:item_life_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:printed_circuit_board",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "06e0f31e-c084-4157-9890-0989c2908b66",
+      "name": {
+        "text": "hqm.quest.under_pressure.plastic_processing.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.under_pressure.plastic_processing.desc",
+        "isTranslationKey": true
+      },
+      "x": 142,
+      "y": 75,
+      "icon": {
+        "id": "pneumaticcraft:thermopneumatic_processing_plant",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.under_pressure.plastic_processing.task.0.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.plastic_processing.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:thermopneumatic_processing_plant",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.under_pressure.plastic_processing.task.1.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.under_pressure.plastic_processing.task.1.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:plastic_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ff99b94a-a12d-4b8f-9ea2-22dc262d4de1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "0d52820c-7a62-4947-b742-2253063f2b13",
       "name": {
         "text": "hqm.quest.under_pressure.pcb_3_etching_tank.name",
@@ -504,139 +841,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "3f8636bd-b018-4fb3-a0d9-19800abb507f",
-      "name": {
-        "text": "hqm.quest.under_pressure.pcb_4_assembly.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.under_pressure.pcb_4_assembly.desc",
-        "isTranslationKey": true
-      },
-      "x": 222,
-      "y": 102,
-      "icon": {
-        "id": "pneumaticcraft:printed_circuit_board",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.pcb_4_assembly.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:printed_circuit_board",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "0d52820c-7a62-4947-b742-2253063f2b13"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "pneumaticcraft:unassembled_pcb",
-          "Count": 2
-        },
-        {
-          "id": "pneumaticcraft:capacitor",
-          "Count": 8
-        },
-        {
-          "id": "pneumaticcraft:transistor",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "7ddff832-1aee-4299-bb6e-570e437fc74a",
-      "name": {
-        "text": "hqm.quest.under_pressure.assembly_line.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.under_pressure.assembly_line.desc",
-        "isTranslationKey": true
-      },
-      "x": 254,
-      "y": 84,
-      "icon": {
-        "id": "pneumaticcraft:assembly_controller",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.assembly_line.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:assembly_controller",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:assembly_io_unit_export",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:assembly_io_unit_import",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:assembly_laser",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:assembly_platform",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3f8636bd-b018-4fb3-a0d9-19800abb507f"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "pneumaticcraft:assembly_program_laser",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:ingot_iron_compressed",
-          "Count": 16
-        },
-        {
-          "id": "minecraft:redstone",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "3e4732d9-29f9-493b-83fb-96af85b5390d",
       "name": {
         "text": "hqm.quest.under_pressure.pressure_chamber.name",
@@ -696,73 +900,54 @@
       "commandrewards": []
     },
     {
-      "uuid": "f240d7c3-3352-4648-9fd2-d545cb85aef8",
+      "uuid": "3f8636bd-b018-4fb3-a0d9-19800abb507f",
       "name": {
-        "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.name",
+        "text": "hqm.quest.under_pressure.pcb_4_assembly.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.desc",
+        "text": "hqm.quest.under_pressure.pcb_4_assembly.desc",
         "isTranslationKey": true
       },
-      "x": 158,
+      "x": 222,
       "y": 102,
       "icon": {
-        "id": "pneumaticcraft:empty_pcb",
-        "Count": 1,
-        "tag": "{\"pneumaticcraft:uv_exposure\":100}"
+        "id": "pneumaticcraft:printed_circuit_board",
+        "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.task.0.desc",
-            "isTranslationKey": true
-          },
           "longDescription": {
-            "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.task.0.long_desc",
+            "text": "hqm.quest.under_pressure.pcb_4_assembly.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "pneumaticcraft:uv_light_box",
+                "id": "pneumaticcraft:printed_circuit_board",
                 "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.task.1.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.task.1.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:empty_pcb",
-                "Count": 1,
-                "tag": "{\"pneumaticcraft:uv_exposure\":100}"
               }
             }
           ]
         }
       ],
       "prerequisites": [
-        "48b64a83-4801-48b2-a4f3-c61106fc344b"
+        "0d52820c-7a62-4947-b742-2253063f2b13"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "pneumaticcraft:empty_pcb",
-          "Count": 1
+          "id": "pneumaticcraft:unassembled_pcb",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:capacitor",
+          "Count": 8
+        },
+        {
+          "id": "pneumaticcraft:transistor",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -929,264 +1114,79 @@
       "commandrewards": []
     },
     {
-      "uuid": "d7f59dff-62b2-426b-a5eb-a27f6bd4a4cb",
+      "uuid": "7ddff832-1aee-4299-bb6e-570e437fc74a",
       "name": {
-        "text": "hqm.quest.under_pressure.compressed_iron.name",
+        "text": "hqm.quest.under_pressure.assembly_line.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.under_pressure.compressed_iron.desc",
+        "text": "hqm.quest.under_pressure.assembly_line.desc",
         "isTranslationKey": true
       },
-      "x": 30,
-      "y": 102,
+      "x": 254,
+      "y": 84,
       "icon": {
-        "id": "minecraft:iron_ingot",
+        "id": "pneumaticcraft:assembly_controller",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.under_pressure.compressed_iron.task.0.desc",
-            "isTranslationKey": true
-          },
           "longDescription": {
-            "text": "hqm.quest.under_pressure.compressed_iron.task.0.long_desc",
+            "text": "hqm.quest.under_pressure.assembly_line.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "minecraft:iron_ingot",
-                "Count": 1
-              },
-              "required": 8
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.under_pressure.compressed_iron.task.1.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.compressed_iron.task.1.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:tnt",
-                "Count": 1
-              },
-              "precision": "TAG_FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.under_pressure.compressed_iron.task.2.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.compressed_iron.task.2.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:ingot_iron_compressed",
+                "id": "pneumaticcraft:assembly_controller",
                 "Count": 1
               }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:iron_ingot",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e8919b5b-fd58-4907-bcde-3d9e39bba7b7",
-      "name": {
-        "text": "hqm.quest.under_pressure.pressure_gauge.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.under_pressure.pressure_gauge.desc",
-        "isTranslationKey": true
-      },
-      "x": 78,
-      "y": 129,
-      "icon": {
-        "id": "pneumaticcraft:pressure_gauge_module",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.pressure_gauge.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:pressure_gauge_module",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "794f0a0c-359a-442f-87a2-217b2aeae130"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:repeater",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d870404e-3382-4dc8-91ea-4db728f38060",
-      "name": {
-        "text": "hqm.quest.under_pressure.gas_lift_oil.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.under_pressure.gas_lift_oil.desc",
-        "isTranslationKey": true
-      },
-      "x": 78,
-      "y": 75,
-      "icon": {
-        "id": "pneumaticcraft:gas_lift",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.under_pressure.gas_lift_oil.task.0.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.gas_lift_oil.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:gas_lift",
-                "Count": 1
-              },
-              "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "pneumaticcraft:drill_pipe",
+                "id": "pneumaticcraft:assembly_io_unit_export",
                 "Count": 1
-              },
-              "required": 16,
-              "precision": "FUZZY"
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_io_unit_import",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_laser",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_platform",
+                "Count": 1
+              }
             }
           ]
+        }
+      ],
+      "prerequisites": [
+        "3f8636bd-b018-4fb3-a0d9-19800abb507f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:assembly_program_laser",
+          "Count": 1
         },
         {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.under_pressure.gas_lift_oil.task.1.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.gas_lift_oil.task.1.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:oil_bucket",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "794f0a0c-359a-442f-87a2-217b2aeae130"
-      ],
-      "optionlinks": [],
-      "reward": [
+          "id": "pneumaticcraft:ingot_iron_compressed",
+          "Count": 16
+        },
         {
-          "id": "pneumaticcraft:drill_pipe",
-          "Count": 64
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "c86b6b2b-d725-4e92-8635-06b915d4f234",
-      "name": {
-        "text": "hqm.quest.under_pressure.pressure_chamber_interface.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.under_pressure.pressure_chamber_interface.desc",
-        "isTranslationKey": true
-      },
-      "x": 110,
-      "y": 129,
-      "icon": {
-        "id": "pneumaticcraft:pressure_chamber_interface",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.under_pressure.pressure_chamber_interface.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:pressure_chamber_interface",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3e4732d9-29f9-493b-83fb-96af85b5390d"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:hopper",
-          "Count": 1
+          "id": "minecraft:redstone",
+          "Count": 16
         }
       ],
       "rewardchoice": [],

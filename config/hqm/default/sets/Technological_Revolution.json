@@ -2,19 +2,19 @@
   "name": "Technological Revolution",
   "quests": [
     {
-      "uuid": "4603a7e8-470b-4a64-a199-84aaf94e603d",
+      "uuid": "8559f15c-259a-4874-a753-adb36cf75447",
       "name": {
-        "text": "hqm.quest.technological_revolution.plant_sower.name",
+        "text": "hqm.quest.technological_revolution.blast_chiller.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.technological_revolution.plant_sower.desc",
+        "text": "hqm.quest.technological_revolution.blast_chiller.desc",
         "isTranslationKey": true
       },
-      "x": 174,
-      "y": 129,
+      "x": 62,
+      "y": 48,
       "icon": {
-        "id": "industrialforegoing:plant_sower",
+        "id": "thermal:machine_chiller",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -22,20 +22,13 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.technological_revolution.plant_sower.task.0.long_desc",
+            "text": "hqm.quest.technological_revolution.blast_chiller.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "industrialforegoing:plant_sower",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "industrialforegoing:plant_gatherer",
+                "id": "thermal:machine_chiller",
                 "Count": 1
               },
               "precision": "FUZZY"
@@ -44,32 +37,85 @@
         }
       ],
       "prerequisites": [
-        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+        "b498eec9-851e-4d17-ab0d-b86eeb4a72be"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "industrialforegoing:hydroponic_bed",
-          "Count": 4
+          "id": "thermal:blizz_rod",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
-      "uuid": "2388c3de-f71c-4fd5-96af-b51214d1a277",
+      "uuid": "8a87f658-411b-4b9b-96ea-9d2c6df483c4",
       "name": {
-        "text": "hqm.quest.technological_revolution.sewage.name",
+        "text": "hqm.quest.technological_revolution.mob_crusher.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.technological_revolution.sewage.desc",
+        "text": "hqm.quest.technological_revolution.mob_crusher.desc",
+        "isTranslationKey": true
+      },
+      "x": 222,
+      "y": 102,
+      "icon": {
+        "id": "industrialforegoing:mob_crusher",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.mob_crusher.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:mob_crusher",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7c13aa31-1923-443b-a81b-f8fb12449b30",
+        "9f19cf75-b748-43eb-8957-c5eb0a3eaffe"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:dye_mixer",
+          "Count": 1
+        },
+        {
+          "id": "industrialforegoing:machine_frame_advanced",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8f3d2964-8123-446b-bdc8-116ad499c8da",
+      "name": {
+        "text": "hqm.quest.technological_revolution.mob_duplicator.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.mob_duplicator.desc",
         "isTranslationKey": true
       },
       "x": 254,
-      "y": 48,
+      "y": 120,
       "icon": {
-        "id": "industrialforegoing:sewer",
+        "id": "industrialforegoing:mob_duplicator",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -77,20 +123,19 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.technological_revolution.sewage.task.0.long_desc",
+            "text": "hqm.quest.technological_revolution.mob_duplicator.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "industrialforegoing:sewer",
+                "id": "industrialforegoing:mob_duplicator",
                 "Count": 1
-              },
-              "precision": "FUZZY"
+              }
             },
             {
               "item": {
-                "id": "industrialforegoing:sewage_composter",
+                "id": "industrialforegoing:mob_imprisonment_tool",
                 "Count": 1
               },
               "precision": "FUZZY"
@@ -99,12 +144,84 @@
         }
       ],
       "prerequisites": [
-        "5f8ad93d-e76a-491b-930e-9258717b769f"
+        "8a87f658-411b-4b9b-96ea-9d2c6df483c4"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "industrialforegoing:simple_black_hole_unit",
+          "id": "minecraft:experience_bottle",
+          "Count": 16
+        },
+        {
+          "id": "industrialforegoing:machine_frame_supreme",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "industrialforegoing:mob_imprisonment_tool",
+          "Count": 1,
+          "tag": "{entity:\"minecraft:snow_golem\"}"
+        },
+        {
+          "id": "industrialforegoing:mob_imprisonment_tool",
+          "Count": 1,
+          "tag": "{entity:\"minecraft:blaze\"}"
+        },
+        {
+          "id": "industrialforegoing:mob_imprisonment_tool",
+          "Count": 1,
+          "tag": "{entity:\"minecraft:enderman\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9aa4b681-79fd-4290-aff9-bcce87d38012",
+      "name": {
+        "text": "hqm.quest.technological_revolution.compression_dynamo.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.compression_dynamo.desc",
+        "isTranslationKey": true
+      },
+      "x": 158,
+      "y": 174,
+      "icon": {
+        "id": "thermal:dynamo_compression",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.compression_dynamo.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:dynamo_compression",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ff99b94a-a12d-4b8f-9ea2-22dc262d4de1",
+        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:lpg_bucket",
+          "Count": 1
+        },
+        {
+          "id": "thermal:dynamo_throttle_augment",
           "Count": 1
         }
       ],
@@ -112,68 +229,19 @@
       "commandrewards": []
     },
     {
-      "uuid": "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac",
+      "uuid": "9f19cf75-b748-43eb-8957-c5eb0a3eaffe",
       "name": {
-        "text": "hqm.quest.technological_revolution.machine_frame.name",
+        "text": "hqm.quest.technological_revolution.dissolution_chamber.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.technological_revolution.machine_frame.desc",
+        "text": "hqm.quest.technological_revolution.dissolution_chamber.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 84,
+      "x": 206,
+      "y": 75,
       "icon": {
-        "id": "thermal:machine_frame",
-        "Count": 1
-      },
-      "parentrequirement": 2,
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.machine_frame.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "thermal:machine_frame",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3f8636bd-b018-4fb3-a0d9-19800abb507f",
-        "eddaaad6-761a-458a-8e0f-ff4297889adc",
-        "67994482-4981-4cfd-9ca6-afde4340fb62"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "pneumaticcraft:printed_circuit_board",
-          "Count": 3
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "b9ce598c-5692-4431-9ff9-5d140d928f96",
-      "name": {
-        "text": "hqm.quest.technological_revolution.internal_components_1.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.internal_components_1.desc",
-        "isTranslationKey": true
-      },
-      "x": 142,
-      "y": 129,
-      "icon": {
-        "id": "thermal:upgrade_augment_1",
+        "id": "industrialforegoing:dissolution_chamber",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -181,15 +249,16 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.technological_revolution.internal_components_1.task.0.long_desc",
+            "text": "hqm.quest.technological_revolution.dissolution_chamber.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "thermal:upgrade_augment_1",
+                "id": "industrialforegoing:dissolution_chamber",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -198,217 +267,13 @@
         "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "thermal:invar_ingot",
-          "Count": 8
-        },
-        {
-          "id": "minecraft:gold_ingot",
-          "Count": 8
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
-      "name": {
-        "text": "hqm.quest.technological_revolution.industrial_foregoing_capstone.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.industrial_foregoing_capstone.desc",
-        "isTranslationKey": true
-      },
-      "x": 286,
-      "y": 138,
-      "icon": {
-        "id": "industrialforegoing:fertilizer",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.industrial_foregoing_capstone.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "industrialforegoing:fertilizer",
-                "Count": 1
-              },
-              "required": 1024
-            },
-            {
-              "item": {
-                "id": "industrialforegoing:pink_slime",
-                "Count": 1
-              },
-              "required": 1024
-            },
-            {
-              "item": {
-                "id": "minecraft:experience_bottle",
-                "Count": 1
-              },
-              "required": 1024
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "2388c3de-f71c-4fd5-96af-b51214d1a277",
-        "8f3d2964-8123-446b-bdc8-116ad499c8da",
-        "e56efbd0-d3ce-473b-a2d5-1de1a0bfa9a0"
-      ],
-      "optionlinks": [],
       "reward": [
         {
-          "id": "industrialforegoing:mycelial_netherstar",
+          "id": "industrialforegoing:machine_frame_advanced",
           "Count": 1
-        },
-        {
-          "id": "industrialforegoing:infinity_charger",
-          "Count": 1
-        },
-        {
-          "id": "industrialforegoing:ether_gas_bucket",
-          "Count": 2
         }
       ],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "be7af2e5-6165-45b2-b21c-8da41319c7e2",
-      "name": {
-        "text": "hqm.quest.technological_revolution.thermal_capstone.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.thermal_capstone.desc",
-        "isTranslationKey": true
-      },
-      "x": 30,
-      "y": 138,
-      "icon": {
-        "id": "thermal:enderium_ingot",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.thermal_capstone.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "thermal:signalum_ingot",
-                "Count": 1
-              },
-              "required": 64
-            },
-            {
-              "item": {
-                "id": "thermal:lumium_ingot",
-                "Count": 1
-              },
-              "required": 48
-            },
-            {
-              "item": {
-                "id": "thermal:enderium_ingot",
-                "Count": 1
-              },
-              "required": 32
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "191aad3c-56cb-4b54-89ee-7803f6952561",
-        "8559f15c-259a-4874-a753-adb36cf75447",
-        "b629759a-09fb-4397-9d88-7c23f11826f6"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "ad_astra:ti_69",
-          "Count": 1
-        },
-        {
-          "id": "ad_astra:etrionic_core",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "mekanism:quantum_entangloporter",
-          "Count": 2
-        },
-        {
-          "id": "mekanism:elite_energy_cube",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6059686c-4441-4c43-b414-b7c4c8134cf9",
-      "name": {
-        "text": "hqm.quest.technological_revolution.internal_components_2.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.internal_components_2.desc",
-        "isTranslationKey": true
-      },
-      "x": 110,
-      "y": 129,
-      "icon": {
-        "id": "thermal:upgrade_augment_2",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.internal_components_2.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "thermal:upgrade_augment_2",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "b9ce598c-5692-4431-9ff9-5d140d928f96"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "thermal:electrum_ingot",
-          "Count": 8
-        },
-        {
-          "id": "thermal:signalum_ingot",
-          "Count": 8
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -523,6 +388,183 @@
       "commandrewards": []
     },
     {
+      "uuid": "b9ce598c-5692-4431-9ff9-5d140d928f96",
+      "name": {
+        "text": "hqm.quest.technological_revolution.internal_components_1.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.internal_components_1.desc",
+        "isTranslationKey": true
+      },
+      "x": 142,
+      "y": 129,
+      "icon": {
+        "id": "thermal:upgrade_augment_1",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.internal_components_1.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:upgrade_augment_1",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "thermal:invar_ingot",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "be7af2e5-6165-45b2-b21c-8da41319c7e2",
+      "name": {
+        "text": "hqm.quest.technological_revolution.thermal_capstone.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.thermal_capstone.desc",
+        "isTranslationKey": true
+      },
+      "x": 30,
+      "y": 138,
+      "icon": {
+        "id": "thermal:enderium_ingot",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.thermal_capstone.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:signalum_ingot",
+                "Count": 1
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "thermal:lumium_ingot",
+                "Count": 1
+              },
+              "required": 48
+            },
+            {
+              "item": {
+                "id": "thermal:enderium_ingot",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "191aad3c-56cb-4b54-89ee-7803f6952561",
+        "8559f15c-259a-4874-a753-adb36cf75447",
+        "b629759a-09fb-4397-9d88-7c23f11826f6"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ad_astra:ti_69",
+          "Count": 1
+        },
+        {
+          "id": "ad_astra:etrionic_core",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mekanism:quantum_entangloporter",
+          "Count": 2
+        },
+        {
+          "id": "mekanism:elite_energy_cube",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac",
+      "name": {
+        "text": "hqm.quest.technological_revolution.machine_frame.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.machine_frame.desc",
+        "isTranslationKey": true
+      },
+      "x": 158,
+      "y": 84,
+      "icon": {
+        "id": "thermal:machine_frame",
+        "Count": 1
+      },
+      "parentrequirement": 2,
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.machine_frame.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:machine_frame",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3f8636bd-b018-4fb3-a0d9-19800abb507f",
+        "eddaaad6-761a-458a-8e0f-ff4297889adc",
+        "67994482-4981-4cfd-9ca6-afde4340fb62"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:printed_circuit_board",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "e56efbd0-d3ce-473b-a2d5-1de1a0bfa9a0",
       "name": {
         "text": "hqm.quest.technological_revolution.sludge_refiner.name",
@@ -565,6 +607,222 @@
         {
           "id": "industrialforegoing:simple_black_hole_tank",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eb909f46-772b-4fdf-8680-225dabb668ff",
+      "name": {
+        "text": "hqm.quest.technological_revolution.induction_smelter.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.induction_smelter.desc",
+        "isTranslationKey": true
+      },
+      "x": 110,
+      "y": 75,
+      "icon": {
+        "id": "thermal:machine_smelter",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.induction_smelter.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:machine_smelter",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:cinnabar",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ef9a7c29-55ea-4296-a908-c350381b396a",
+      "name": {
+        "text": "hqm.quest.technological_revolution.magma_crucible.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.magma_crucible.desc",
+        "isTranslationKey": true
+      },
+      "x": 94,
+      "y": 102,
+      "icon": {
+        "id": "thermal:machine_crucible",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.magma_crucible.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:machine_crucible",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "eb909f46-772b-4fdf-8680-225dabb668ff"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:blaze_rod",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
+      "name": {
+        "text": "hqm.quest.technological_revolution.industrial_foregoing_capstone.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.industrial_foregoing_capstone.desc",
+        "isTranslationKey": true
+      },
+      "x": 286,
+      "y": 138,
+      "icon": {
+        "id": "industrialforegoing:fertilizer",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.industrial_foregoing_capstone.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:fertilizer",
+                "Count": 1
+              },
+              "required": 1024
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:pink_slime",
+                "Count": 1
+              },
+              "required": 1024
+            },
+            {
+              "item": {
+                "id": "minecraft:experience_bottle",
+                "Count": 1
+              },
+              "required": 1024
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2388c3de-f71c-4fd5-96af-b51214d1a277",
+        "8f3d2964-8123-446b-bdc8-116ad499c8da",
+        "e56efbd0-d3ce-473b-a2d5-1de1a0bfa9a0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:mycelial_netherstar",
+          "Count": 1
+        },
+        {
+          "id": "industrialforegoing:infinity_charger",
+          "Count": 1
+        },
+        {
+          "id": "industrialforegoing:ether_gas_bucket",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f3c2913b-4e0b-4cf7-bda6-3a92bd7b4775",
+      "name": {
+        "text": "hqm.quest.technological_revolution.mechanical_dirt.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.mechanical_dirt.desc",
+        "isTranslationKey": true
+      },
+      "x": 206,
+      "y": 129,
+      "icon": {
+        "id": "industrialforegoing:mechanical_dirt",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.mechanical_dirt.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:mechanical_dirt",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7c13aa31-1923-443b-a81b-f8fb12449b30"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:mechanical_dirt",
+          "Count": 24
         }
       ],
       "rewardchoice": [],
@@ -623,339 +881,19 @@
       "commandrewards": []
     },
     {
-      "uuid": "3ffa13cb-b198-4e83-bab7-676d08834311",
+      "uuid": "2388c3de-f71c-4fd5-96af-b51214d1a277",
       "name": {
-        "text": "hqm.quest.technological_revolution.pitiful_generator.name",
+        "text": "hqm.quest.technological_revolution.sewage.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.technological_revolution.pitiful_generator.desc",
-        "isTranslationKey": true
-      },
-      "x": 142,
-      "y": 21,
-      "icon": {
-        "id": "industrialforegoing:pitiful_generator",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.pitiful_generator.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "industrialforegoing:pitiful_generator",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "thermal:flux_capacitor",
-          "Count": 1,
-          "tag": "{Energy:500000}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ef9a7c29-55ea-4296-a908-c350381b396a",
-      "name": {
-        "text": "hqm.quest.technological_revolution.magma_crucible.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.magma_crucible.desc",
-        "isTranslationKey": true
-      },
-      "x": 94,
-      "y": 102,
-      "icon": {
-        "id": "thermal:machine_crucible",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.magma_crucible.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "thermal:machine_crucible",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "eb909f46-772b-4fdf-8680-225dabb668ff"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:blaze_rod",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8a87f658-411b-4b9b-96ea-9d2c6df483c4",
-      "name": {
-        "text": "hqm.quest.technological_revolution.mob_crusher.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.mob_crusher.desc",
-        "isTranslationKey": true
-      },
-      "x": 222,
-      "y": 102,
-      "icon": {
-        "id": "industrialforegoing:mob_crusher",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.mob_crusher.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "industrialforegoing:mob_crusher",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "7c13aa31-1923-443b-a81b-f8fb12449b30",
-        "9f19cf75-b748-43eb-8957-c5eb0a3eaffe"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "industrialforegoing:dye_mixer",
-          "Count": 1
-        },
-        {
-          "id": "industrialforegoing:machine_frame_advanced",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "7c13aa31-1923-443b-a81b-f8fb12449b30",
-      "name": {
-        "text": "hqm.quest.technological_revolution.mob_slaughter_factory.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.mob_slaughter_factory.desc",
-        "isTranslationKey": true
-      },
-      "x": 190,
-      "y": 102,
-      "icon": {
-        "id": "industrialforegoing:mob_slaughter_factory",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.mob_slaughter_factory.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "industrialforegoing:mob_slaughter_factory",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "thermal:device_nullifier",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8f3d2964-8123-446b-bdc8-116ad499c8da",
-      "name": {
-        "text": "hqm.quest.technological_revolution.mob_duplicator.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.mob_duplicator.desc",
+        "text": "hqm.quest.technological_revolution.sewage.desc",
         "isTranslationKey": true
       },
       "x": 254,
-      "y": 120,
-      "icon": {
-        "id": "industrialforegoing:mob_duplicator",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.mob_duplicator.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "industrialforegoing:mob_duplicator",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "industrialforegoing:mob_imprisonment_tool",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "8a87f658-411b-4b9b-96ea-9d2c6df483c4"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:experience_bottle",
-          "Count": 16
-        },
-        {
-          "id": "industrialforegoing:machine_frame_supreme",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "industrialforegoing:mob_imprisonment_tool",
-          "Count": 1,
-          "tag": "{entity:\"minecraft:snow_golem\"}"
-        },
-        {
-          "id": "industrialforegoing:mob_imprisonment_tool",
-          "Count": 1,
-          "tag": "{entity:\"minecraft:blaze\"}"
-        },
-        {
-          "id": "industrialforegoing:mob_imprisonment_tool",
-          "Count": 1,
-          "tag": "{entity:\"minecraft:enderman\"}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "9f19cf75-b748-43eb-8957-c5eb0a3eaffe",
-      "name": {
-        "text": "hqm.quest.technological_revolution.dissolution_chamber.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.dissolution_chamber.desc",
-        "isTranslationKey": true
-      },
-      "x": 206,
-      "y": 75,
-      "icon": {
-        "id": "industrialforegoing:dissolution_chamber",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.dissolution_chamber.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "industrialforegoing:dissolution_chamber",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "industrialforegoing:machine_frame_advanced",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5f8ad93d-e76a-491b-930e-9258717b769f",
-      "name": {
-        "text": "hqm.quest.technological_revolution.spawn_eggs.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.spawn_eggs.desc",
-        "isTranslationKey": true
-      },
-      "x": 222,
       "y": 48,
       "icon": {
-        "id": "industrialforegoing:animal_feeder",
+        "id": "industrialforegoing:sewer",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -963,20 +901,20 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.technological_revolution.spawn_eggs.task.0.long_desc",
+            "text": "hqm.quest.technological_revolution.sewage.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "industrialforegoing:animal_feeder",
+                "id": "industrialforegoing:sewer",
                 "Count": 1
               },
               "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "industrialforegoing:animal_rancher",
+                "id": "industrialforegoing:sewage_composter",
                 "Count": 1
               },
               "precision": "FUZZY"
@@ -985,65 +923,13 @@
         }
       ],
       "prerequisites": [
-        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "minecraft:cow_spawn_egg",
-          "Count": 2
-        },
-        {
-          "id": "minecraft:sheep_spawn_egg",
-          "Count": 2
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "50c4ef23-b9c7-4b3f-ac88-3628c9fda777",
-      "name": {
-        "text": "hqm.quest.technological_revolution.pulverizer.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.pulverizer.desc",
-        "isTranslationKey": true
-      },
-      "x": 126,
-      "y": 102,
-      "icon": {
-        "id": "thermal:machine_pulverizer",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.pulverizer.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "thermal:machine_pulverizer",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+        "5f8ad93d-e76a-491b-930e-9258717b769f"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "thermal:basalz_rod",
-          "Count": 8
+          "id": "industrialforegoing:simple_black_hole_unit",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -1121,19 +1007,19 @@
       "commandrewards": []
     },
     {
-      "uuid": "eb909f46-772b-4fdf-8680-225dabb668ff",
+      "uuid": "3ffa13cb-b198-4e83-bab7-676d08834311",
       "name": {
-        "text": "hqm.quest.technological_revolution.induction_smelter.name",
+        "text": "hqm.quest.technological_revolution.pitiful_generator.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.technological_revolution.induction_smelter.desc",
+        "text": "hqm.quest.technological_revolution.pitiful_generator.desc",
         "isTranslationKey": true
       },
-      "x": 110,
-      "y": 75,
+      "x": 142,
+      "y": 21,
       "icon": {
-        "id": "thermal:machine_smelter",
+        "id": "industrialforegoing:pitiful_generator",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -1141,13 +1027,69 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.technological_revolution.induction_smelter.task.0.long_desc",
+            "text": "hqm.quest.technological_revolution.pitiful_generator.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "thermal:machine_smelter",
+                "id": "industrialforegoing:pitiful_generator",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:flux_capacitor",
+          "Count": 1,
+          "tag": "{Energy:500000}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4603a7e8-470b-4a64-a199-84aaf94e603d",
+      "name": {
+        "text": "hqm.quest.technological_revolution.plant_sower.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.plant_sower.desc",
+        "isTranslationKey": true
+      },
+      "x": 174,
+      "y": 129,
+      "icon": {
+        "id": "industrialforegoing:plant_sower",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.plant_sower.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:plant_sower",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:plant_gatherer",
                 "Count": 1
               },
               "precision": "FUZZY"
@@ -1161,11 +1103,227 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "thermal:cinnabar",
-          "Count": 16
+          "id": "industrialforegoing:hydroponic_bed",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "50c4ef23-b9c7-4b3f-ac88-3628c9fda777",
+      "name": {
+        "text": "hqm.quest.technological_revolution.pulverizer.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.pulverizer.desc",
+        "isTranslationKey": true
+      },
+      "x": 126,
+      "y": 102,
+      "icon": {
+        "id": "thermal:machine_pulverizer",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.pulverizer.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:machine_pulverizer",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:basalz_rod",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5f8ad93d-e76a-491b-930e-9258717b769f",
+      "name": {
+        "text": "hqm.quest.technological_revolution.spawn_eggs.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.spawn_eggs.desc",
+        "isTranslationKey": true
+      },
+      "x": 222,
+      "y": 48,
+      "icon": {
+        "id": "industrialforegoing:animal_feeder",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.spawn_eggs.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:animal_feeder",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:animal_rancher",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:cow_spawn_egg",
+          "Count": 2
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6059686c-4441-4c43-b414-b7c4c8134cf9",
+      "name": {
+        "text": "hqm.quest.technological_revolution.internal_components_2.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.internal_components_2.desc",
+        "isTranslationKey": true
+      },
+      "x": 110,
+      "y": 129,
+      "icon": {
+        "id": "thermal:upgrade_augment_2",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.internal_components_2.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:upgrade_augment_2",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b9ce598c-5692-4431-9ff9-5d140d928f96"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "thermal:electrum_ingot",
+          "Count": 8
+        },
+        {
+          "id": "thermal:signalum_ingot",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "67994482-4981-4cfd-9ca6-afde4340fb62",
+      "name": {
+        "text": "hqm.quest.technological_revolution.manual_alloying.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.technological_revolution.manual_alloying.desc",
+        "isTranslationKey": true
+      },
+      "x": 158,
+      "y": 48,
+      "icon": {
+        "id": "thermal:invar_dust",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.technological_revolution.manual_alloying.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:invar_dust",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:electrum_dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bb5d7543-ddde-4734-8690-e2fa48963b5b",
+        "9be2b0f4-dd15-4899-8956-ee4a0f5e8403"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "thermal:invar_dust",
+          "Count": 4
+        },
+        {
+          "id": "thermal:electrum_dust",
+          "Count": 4
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -1315,19 +1473,19 @@
       "commandrewards": []
     },
     {
-      "uuid": "8559f15c-259a-4874-a753-adb36cf75447",
+      "uuid": "7c13aa31-1923-443b-a81b-f8fb12449b30",
       "name": {
-        "text": "hqm.quest.technological_revolution.blast_chiller.name",
+        "text": "hqm.quest.technological_revolution.mob_slaughter_factory.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.technological_revolution.blast_chiller.desc",
+        "text": "hqm.quest.technological_revolution.mob_slaughter_factory.desc",
         "isTranslationKey": true
       },
-      "x": 62,
-      "y": 48,
+      "x": 190,
+      "y": 102,
       "icon": {
-        "id": "thermal:machine_chiller",
+        "id": "industrialforegoing:mob_slaughter_factory",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -1335,13 +1493,13 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.technological_revolution.blast_chiller.task.0.long_desc",
+            "text": "hqm.quest.technological_revolution.mob_slaughter_factory.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "thermal:machine_chiller",
+                "id": "industrialforegoing:mob_slaughter_factory",
                 "Count": 1
               },
               "precision": "FUZZY"
@@ -1350,171 +1508,13 @@
         }
       ],
       "prerequisites": [
-        "b498eec9-851e-4d17-ab0d-b86eeb4a72be"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "thermal:blizz_rod",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "67994482-4981-4cfd-9ca6-afde4340fb62",
-      "name": {
-        "text": "hqm.quest.technological_revolution.manual_alloying.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.manual_alloying.desc",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": 48,
-      "icon": {
-        "id": "thermal:invar_dust",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.manual_alloying.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "thermal:invar_dust",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "thermal:electrum_dust",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "bb5d7543-ddde-4734-8690-e2fa48963b5b",
-        "9be2b0f4-dd15-4899-8956-ee4a0f5e8403"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "thermal:invar_dust",
-          "Count": 4
-        },
-        {
-          "id": "thermal:electrum_dust",
-          "Count": 4
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "9aa4b681-79fd-4290-aff9-bcce87d38012",
-      "name": {
-        "text": "hqm.quest.technological_revolution.compression_dynamo.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.compression_dynamo.desc",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": 174,
-      "icon": {
-        "id": "thermal:dynamo_compression",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.compression_dynamo.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "thermal:dynamo_compression",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "ff99b94a-a12d-4b8f-9ea2-22dc262d4de1",
         "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "pneumaticcraft:lpg_bucket",
+          "id": "thermal:device_nullifier",
           "Count": 1
-        },
-        {
-          "id": "thermal:dynamo_throttle_augment",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f3c2913b-4e0b-4cf7-bda6-3a92bd7b4775",
-      "name": {
-        "text": "hqm.quest.technological_revolution.mechanical_dirt.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.technological_revolution.mechanical_dirt.desc",
-        "isTranslationKey": true
-      },
-      "x": 206,
-      "y": 129,
-      "icon": {
-        "id": "industrialforegoing:mechanical_dirt",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.technological_revolution.mechanical_dirt.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "industrialforegoing:mechanical_dirt",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "7c13aa31-1923-443b-a81b-f8fb12449b30"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "industrialforegoing:mechanical_dirt",
-          "Count": 24
         }
       ],
       "rewardchoice": [],

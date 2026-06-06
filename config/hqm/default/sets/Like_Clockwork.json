@@ -2,260 +2,6 @@
   "name": "Like Clockwork",
   "quests": [
     {
-      "uuid": "52568165-b806-461d-9e85-031b089dbbef",
-      "name": {
-        "text": "hqm.quest.like_clockwork.electric_motor.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.electric_motor.desc",
-        "isTranslationKey": true
-      },
-      "x": 270,
-      "y": 75,
-      "icon": {
-        "id": "createaddition:electric_motor",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.electric_motor.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "createaddition:electric_motor",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "createaddition:alternator",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6241ed79-932a-4519-a294-9860a2063281"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "createaddition:modular_accumulator",
-          "Count": 2
-        },
-        {
-          "id": "createaddition:portable_energy_interface",
-          "Count": 2
-        },
-        {
-          "id": "createaddition:electrum_spool",
-          "Count": 4
-        },
-        {
-          "id": "createaddition:copper_spool",
-          "Count": 4
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f0dbdcd7-2e45-448d-aff1-a7b090a63a27",
-      "name": {
-        "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.desc",
-        "isTranslationKey": true
-      },
-      "x": 142,
-      "y": 21,
-      "icon": {
-        "id": "create:andesite_alloy",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.0.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:andesite_alloy",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.1.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.1.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:shaft",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "create:andesite_casing",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "b0dcbccf-fc55-43e1-8782-9454d7fcca9c"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:quartz",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "68d15aff-b4ec-4d53-aa16-ff96ec851e11",
-      "name": {
-        "text": "hqm.quest.like_clockwork.brass_sheet.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.brass_sheet.desc",
-        "isTranslationKey": true
-      },
-      "x": 271,
-      "y": 39,
-      "icon": {
-        "id": "create:brass_sheet",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.brass_sheet.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:brass_sheet",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "create:electron_tube",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "54646046-e479-4bcb-941c-6713a659646f",
-        "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
-        "eddaaad6-761a-458a-8e0f-ff4297889adc"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "createaddition:diamond_grit_sandpaper",
-          "Count": 1,
-          "tag": "{Damage:0}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "create:brass_ingot",
-          "Count": 4
-        },
-        {
-          "id": "minecraft:redstone",
-          "Count": 32
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
-      "name": {
-        "text": "hqm.quest.like_clockwork.copper_sheet.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.copper_sheet.desc",
-        "isTranslationKey": true
-      },
-      "x": 110,
-      "y": 165,
-      "icon": {
-        "id": "create:copper_sheet",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.copper_sheet.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:copper_sheet",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
-        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:copper_ingot",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "84c2b599-5734-4f21-98a9-bb63cfced54d",
       "name": {
         "text": "hqm.quest.like_clockwork.encased_fan.name",
@@ -415,56 +161,131 @@
       "commandrewards": []
     },
     {
-      "uuid": "10a23876-3d34-40db-b3be-0f9569c5b459",
+      "uuid": "868e442b-fffd-4116-ab29-1a850d57d729",
       "name": {
-        "text": "hqm.quest.like_clockwork.blaze_burner.name",
+        "text": "hqm.quest.like_clockwork.gearbox.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.like_clockwork.blaze_burner.desc",
+        "text": "hqm.quest.like_clockwork.gearbox.desc",
         "isTranslationKey": true
       },
-      "x": 46,
+      "x": 190,
+      "y": 84,
+      "icon": {
+        "id": "create:gearbox",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.gearbox.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:gearbox",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "54646046-e479-4bcb-941c-6713a659646f",
+        "e3932343-39ba-4385-86d3-a96c44345bcc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:speedometer",
+          "Count": 1
+        },
+        {
+          "id": "create:stressometer",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9be2b0f4-dd15-4899-8956-ee4a0f5e8403",
+      "name": {
+        "text": "hqm.quest.like_clockwork.millstone.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.millstone.desc",
+        "isTranslationKey": true
+      },
+      "x": 126,
+      "y": 120,
+      "icon": {
+        "id": "create:millstone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.millstone.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:millstone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e3932343-39ba-4385-86d3-a96c44345bcc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:wheat",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9da1a401-75bc-49ec-93c3-23e85fa0bb54",
+      "name": {
+        "text": "hqm.quest.like_clockwork.rotation_speed_controller.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.rotation_speed_controller.desc",
+        "isTranslationKey": true
+      },
+      "x": 270,
       "y": 111,
       "icon": {
-        "id": "create:blaze_burner",
+        "id": "create:rotation_speed_controller",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.like_clockwork.blaze_burner.task.0.desc",
-            "isTranslationKey": true
-          },
           "longDescription": {
-            "text": "hqm.quest.like_clockwork.blaze_burner.task.0.long_desc",
+            "text": "hqm.quest.like_clockwork.rotation_speed_controller.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "create:empty_blaze_burner",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.like_clockwork.blaze_burner.task.1.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.blaze_burner.task.1.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:blaze_burner",
+                "id": "create:rotation_speed_controller",
                 "Count": 1
               }
             }
@@ -472,115 +293,13 @@
         }
       ],
       "prerequisites": [
-        "a552a1cc-bdcd-45df-8fc7-11d3de4f3085"
+        "cc4f3469-cac0-4b77-a762-2832a9a36e91"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "create:blaze_cake_base",
-          "Count": 4
-        },
-        {
-          "id": "createaddition:straw",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "32f538e8-7e3c-4d36-8b39-0cef101279dd",
-      "name": {
-        "text": "hqm.quest.like_clockwork.spout.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.spout.desc",
-        "isTranslationKey": true
-      },
-      "x": 94,
-      "y": 192,
-      "icon": {
-        "id": "create:spout",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.spout.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:spout",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "create:depot",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "e6d0efde-1f09-434e-9f80-a45f09d37ec0"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "create:fluid_pipe",
-          "Count": 16
-        },
-        {
-          "id": "create:mechanical_pump",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "b0dcbccf-fc55-43e1-8782-9454d7fcca9c",
-      "name": {
-        "text": "hqm.quest.like_clockwork.simple_create.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.simple_create.desc",
-        "isTranslationKey": true
-      },
-      "x": 174,
-      "y": 21,
-      "icon": {
-        "id": "create:clipboard",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:checkbox",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.simple_create.task.0.long_desc",
-            "isTranslationKey": true
-          }
-        }
-      ],
-      "prerequisites": [
-        "099d1358-0b11-49f0-aa78-43531cd739b7"
-      ],
-      "optionlinks": [
-        "4e8ad6b7-41d0-4281-bbea-1e192a609e64"
-      ],
-      "reward": [
-        {
-          "id": "create:builders_tea",
-          "Count": 1
+          "id": "create:precision_mechanism",
+          "Count": 3
         }
       ],
       "rewardchoice": [],
@@ -649,55 +368,54 @@
       "commandrewards": []
     },
     {
-      "uuid": "e2098916-4ee1-4541-8f76-80e816740200",
+      "uuid": "af8e7d74-9513-479c-b33d-ddcc1ba56e1a",
       "name": {
-        "text": "hqm.quest.like_clockwork.item_drain.name",
+        "text": "hqm.quest.like_clockwork.hand_crank.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.like_clockwork.item_drain.desc",
+        "text": "hqm.quest.like_clockwork.hand_crank.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 192,
+      "x": 158,
+      "y": 66,
       "icon": {
-        "id": "create:item_drain",
+        "id": "create:hand_crank",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
+      "parentrequirement": 2,
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.like_clockwork.item_drain.task.0.long_desc",
+            "text": "hqm.quest.like_clockwork.hand_crank.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "create:item_drain",
+                "id": "create:hand_crank",
                 "Count": 1
-              },
-              "precision": "FUZZY"
+              }
             }
           ]
         }
       ],
       "prerequisites": [
-        "e6d0efde-1f09-434e-9f80-a45f09d37ec0"
+        "b0dcbccf-fc55-43e1-8782-9454d7fcca9c",
+        "4e8ad6b7-41d0-4281-bbea-1e192a609e64",
+        "f0dbdcd7-2e45-448d-aff1-a7b090a63a27",
+        "e8790b01-88c8-4dbf-919f-f6123750576a"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
+      "reward": [
         {
-          "id": "create:fluid_tank",
-          "Count": 4
-        },
-        {
-          "id": "create:portable_fluid_interface",
-          "Count": 2
+          "id": "create:turntable",
+          "Count": 1
         }
       ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -761,19 +479,19 @@
       "commandrewards": []
     },
     {
-      "uuid": "4e8ad6b7-41d0-4281-bbea-1e192a609e64",
+      "uuid": "b0dcbccf-fc55-43e1-8782-9454d7fcca9c",
       "name": {
-        "text": "hqm.quest.like_clockwork.detailed_create.name",
+        "text": "hqm.quest.like_clockwork.simple_create.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.like_clockwork.detailed_create.desc",
+        "text": "hqm.quest.like_clockwork.simple_create.desc",
         "isTranslationKey": true
       },
-      "x": 142,
+      "x": 174,
       "y": 21,
       "icon": {
-        "id": "create:precision_mechanism",
+        "id": "create:clipboard",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -781,7 +499,7 @@
         {
           "type": "hardcorequesting:checkbox",
           "longDescription": {
-            "text": "hqm.quest.like_clockwork.detailed_create.task.0.long_desc",
+            "text": "hqm.quest.like_clockwork.simple_create.task.0.long_desc",
             "isTranslationKey": true
           }
         }
@@ -789,7 +507,9 @@
       "prerequisites": [
         "099d1358-0b11-49f0-aa78-43531cd739b7"
       ],
-      "optionlinks": [],
+      "optionlinks": [
+        "4e8ad6b7-41d0-4281-bbea-1e192a609e64"
+      ],
       "reward": [
         {
           "id": "create:builders_tea",
@@ -800,173 +520,33 @@
       "commandrewards": []
     },
     {
-      "uuid": "9be2b0f4-dd15-4899-8956-ee4a0f5e8403",
+      "uuid": "b1e38837-84ae-4edb-be65-a82c8a00c6d6",
       "name": {
-        "text": "hqm.quest.like_clockwork.millstone.name",
+        "text": "hqm.quest.like_clockwork.chute.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.like_clockwork.millstone.desc",
+        "text": "hqm.quest.like_clockwork.chute.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 120,
-      "icon": {
-        "id": "create:millstone",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.millstone.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:millstone",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "e3932343-39ba-4385-86d3-a96c44345bcc"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:wheat",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "868e442b-fffd-4116-ab29-1a850d57d729",
-      "name": {
-        "text": "hqm.quest.like_clockwork.gearbox.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.gearbox.desc",
-        "isTranslationKey": true
-      },
-      "x": 190,
-      "y": 84,
-      "icon": {
-        "id": "create:gearbox",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.gearbox.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:gearbox",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "54646046-e479-4bcb-941c-6713a659646f",
-        "e3932343-39ba-4385-86d3-a96c44345bcc"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "create:speedometer",
-          "Count": 1
-        },
-        {
-          "id": "create:stressometer",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "01675684-dd99-4447-b149-6e429d7ad611",
-      "name": {
-        "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.desc",
-        "isTranslationKey": true
-      },
-      "x": 78,
+      "x": 14,
       "y": 93,
       "icon": {
-        "id": "create:mechanical_saw",
+        "id": "create:chute",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.0.desc",
-            "isTranslationKey": true
-          },
           "longDescription": {
-            "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.0.long_desc",
+            "text": "hqm.quest.like_clockwork.chute.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "create:mechanical_saw",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.1.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "The mechanical harvester automates crop collection on moving contraptions. When the contraption moves forward, the harvester automatically collects any mature crops it contacts, as well as replanting them. Harvested items are either deposited into an onboard inventory or dropped on the ground if none is present. Note that cactuses must be harvested with mechanical saws instead.",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:mechanical_harvester",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.2.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "The mechanical drill can operate either while stationary or as part of a moving contraption. When placed statically and supplied with rotational force, it breaks blocks directly in front of it. Additionally, it inflicts damage on nearby entities, also based on its speed. However, its true strength lies in its use on contraptions, where it doesn't require direct rotational input. When mounted on a moving contraption, the drill automatically breaks any blocks it collides with and damages entities in its path, with both block-breaking speed and entity damage scaling with the contraption's velocity. It can be removed cleanly by shift-right- clicking with a wrench, which will return it to your inventory.",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:mechanical_drill",
+                "id": "create:chute",
                 "Count": 1
               }
             }
@@ -979,127 +559,16 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "create:portable_storage_interface",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "create:mechanical_saw",
-          "Count": 4
+          "id": "sophisticatedstorage:limited_barrel_4",
+          "Count": 1,
+          "tag": "{woodType:\"spruce\"}"
         },
         {
-          "id": "create:mechanical_harvester",
-          "Count": 4
-        },
-        {
-          "id": "create:mechanical_drill",
-          "Count": 4
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5d300aea-5826-4f79-b1d6-b08895059dbf",
-      "name": {
-        "text": "hqm.quest.like_clockwork.iron_sheet.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.iron_sheet.desc",
-        "isTranslationKey": true
-      },
-      "x": 46,
-      "y": 39,
-      "icon": {
-        "id": "create:iron_sheet",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.iron_sheet.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:iron_sheet",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:iron_ingot",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "fe6df2ff-5675-4285-a501-e6b0369c532e",
-      "name": {
-        "text": "hqm.quest.like_clockwork.engineers_goggles.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.engineers_goggles.desc",
-        "isTranslationKey": true
-      },
-      "x": 190,
-      "y": 192,
-      "icon": {
-        "id": "create:goggles",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.engineers_goggles.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:goggles",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "72283d63-3fcf-4034-ac4f-0ffa0697a722"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "create:copper_scaffolding",
-          "Count": 64
-        },
-        {
-          "id": "create:metal_bracket",
-          "Count": 8
-        },
-        {
-          "id": "create:flywheel",
+          "id": "sophisticatedstorage:basic_to_iron_tier_upgrade",
           "Count": 1
         }
       ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1159,154 +628,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "e3932343-39ba-4385-86d3-a96c44345bcc",
-      "name": {
-        "text": "hqm.quest.like_clockwork.cogwheel.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.cogwheel.desc",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": 102,
-      "icon": {
-        "id": "create:cogwheel",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "parentrequirement": 1,
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.cogwheel.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:cogwheel",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "create:large_cogwheel",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "0d9c09c3-6583-431c-95d6-f6f4eacd3655",
-        "af8e7d74-9513-479c-b33d-ddcc1ba56e1a",
-        "ca09254c-d0c3-4a59-a493-7e6273a468b2"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "create:shaft",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "54646046-e479-4bcb-941c-6713a659646f",
-      "name": {
-        "text": "hqm.quest.like_clockwork.detailed_create_trigger.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.detailed_create_trigger.desc",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": -9,
-      "trigger": "QUEST_TRIGGER",
-      "prerequisites": [
-        "4e8ad6b7-41d0-4281-bbea-1e192a609e64"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f023ab57-9886-439c-a731-1c061bbdb348",
-      "name": {
-        "text": "hqm.quest.like_clockwork.belts_funnels.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.belts_funnels.desc",
-        "isTranslationKey": true
-      },
-      "x": 126,
-      "y": 84,
-      "icon": {
-        "id": "create:belt_connector",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.like_clockwork.belts_funnels.task.0.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.belts_funnels.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:belt_connector",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.like_clockwork.belts_funnels.task.1.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "The Andesite Funnel is used for inserting or extracting items from inventories. Right-click on an inventory to race it in output mode; sneak-right-click for input mode. Or use a wrench to toggle it between input and output mode. The funnel can also be controlled with redstone signals, disabling its ability to transfer items when powered. When placed on a mechanical belt, the andesite funnel extends one block forward, allowing it to interact with items moving along the belt.",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:andesite_funnel",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "54646046-e479-4bcb-941c-6713a659646f",
-        "e3932343-39ba-4385-86d3-a96c44345bcc"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "thermal:cured_rubber",
-          "Count": 12
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "c5147099-4542-4b20-9323-8286595ec338",
       "name": {
         "text": "hqm.quest.like_clockwork.super_glue.name",
@@ -1356,298 +677,6 @@
         {
           "id": "create:contraption_controls",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "edaeafc2-43e6-4bad-bb87-b4f89f71e3c7",
-      "name": {
-        "text": "hqm.quest.like_clockwork.mechanical_extruder.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.mechanical_extruder.desc",
-        "isTranslationKey": true
-      },
-      "x": 190,
-      "y": 120,
-      "icon": {
-        "id": "create_mechanical_extruder:mechanical_extruder",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.mechanical_extruder.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create_mechanical_extruder:mechanical_extruder",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "e3932343-39ba-4385-86d3-a96c44345bcc"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:magma_block",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "9da1a401-75bc-49ec-93c3-23e85fa0bb54",
-      "name": {
-        "text": "hqm.quest.like_clockwork.rotation_speed_controller.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.rotation_speed_controller.desc",
-        "isTranslationKey": true
-      },
-      "x": 270,
-      "y": 111,
-      "icon": {
-        "id": "create:rotation_speed_controller",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.rotation_speed_controller.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:rotation_speed_controller",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "cc4f3469-cac0-4b77-a762-2832a9a36e91"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "create:precision_mechanism",
-          "Count": 3
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "72283d63-3fcf-4034-ac4f-0ffa0697a722",
-      "name": {
-        "text": "hqm.quest.like_clockwork.golden_sheet.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.golden_sheet.desc",
-        "isTranslationKey": true
-      },
-      "x": 206,
-      "y": 165,
-      "icon": {
-        "id": "create:golden_sheet",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.golden_sheet.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:golden_sheet",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
-        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:gold_ingot",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "cc4f3469-cac0-4b77-a762-2832a9a36e91",
-      "name": {
-        "text": "hqm.quest.like_clockwork.precision_mechanism.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.precision_mechanism.desc",
-        "isTranslationKey": true
-      },
-      "x": 302,
-      "y": 93,
-      "icon": {
-        "id": "create:precision_mechanism",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.precision_mechanism.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:precision_mechanism",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "b8732aa6-7e38-4164-88e6-e4f5070dae35"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "create:mechanical_arm",
-          "Count": 1
-        },
-        {
-          "id": "create:extendo_grip",
-          "Count": 1,
-          "tag": "{Damage:0}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f0cb3cdd-83b9-45e8-b32d-417cc3a30ac0",
-      "name": {
-        "text": "hqm.quest.like_clockwork.wrench.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.wrench.desc",
-        "isTranslationKey": true
-      },
-      "x": 222,
-      "y": 191,
-      "icon": {
-        "id": "create:wrench",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.wrench.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:wrench",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "72283d63-3fcf-4034-ac4f-0ffa0697a722"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "create:brown_toolbox",
-          "Count": 1
-        },
-        {
-          "id": "create:builders_tea",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6241ed79-932a-4519-a294-9860a2063281",
-      "name": {
-        "text": "hqm.quest.like_clockwork.mechanical_crafter.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.like_clockwork.mechanical_crafter.desc",
-        "isTranslationKey": true
-      },
-      "x": 238,
-      "y": 57,
-      "icon": {
-        "id": "create:mechanical_crafter",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.like_clockwork.mechanical_crafter.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:mechanical_crafter",
-                "Count": 1
-              },
-              "required": 21,
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "68d15aff-b4ec-4d53-aa16-ff96ec851e11"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "create:builders_tea",
-          "Count": 12
         }
       ],
       "rewardchoice": [],
@@ -1729,6 +758,213 @@
       "commandrewards": []
     },
     {
+      "uuid": "cc4f3469-cac0-4b77-a762-2832a9a36e91",
+      "name": {
+        "text": "hqm.quest.like_clockwork.precision_mechanism.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.precision_mechanism.desc",
+        "isTranslationKey": true
+      },
+      "x": 302,
+      "y": 93,
+      "icon": {
+        "id": "create:precision_mechanism",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.precision_mechanism.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:precision_mechanism",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b8732aa6-7e38-4164-88e6-e4f5070dae35"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "create:mechanical_arm",
+          "Count": 1
+        },
+        {
+          "id": "create:extendo_grip",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e2098916-4ee1-4541-8f76-80e816740200",
+      "name": {
+        "text": "hqm.quest.like_clockwork.item_drain.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.item_drain.desc",
+        "isTranslationKey": true
+      },
+      "x": 126,
+      "y": 192,
+      "icon": {
+        "id": "create:item_drain",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.item_drain.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:item_drain",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e6d0efde-1f09-434e-9f80-a45f09d37ec0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "create:fluid_tank",
+          "Count": 4
+        },
+        {
+          "id": "create:portable_fluid_interface",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e3932343-39ba-4385-86d3-a96c44345bcc",
+      "name": {
+        "text": "hqm.quest.like_clockwork.cogwheel.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.cogwheel.desc",
+        "isTranslationKey": true
+      },
+      "x": 158,
+      "y": 102,
+      "icon": {
+        "id": "create:cogwheel",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.cogwheel.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:cogwheel",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:large_cogwheel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0d9c09c3-6583-431c-95d6-f6f4eacd3655",
+        "af8e7d74-9513-479c-b33d-ddcc1ba56e1a",
+        "ca09254c-d0c3-4a59-a493-7e6273a468b2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:shaft",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
+      "name": {
+        "text": "hqm.quest.like_clockwork.copper_sheet.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.copper_sheet.desc",
+        "isTranslationKey": true
+      },
+      "x": 110,
+      "y": 165,
+      "icon": {
+        "id": "create:copper_sheet",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.copper_sheet.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:copper_sheet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:copper_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "e8790b01-88c8-4dbf-919f-f6123750576a",
       "name": {
         "text": "hqm.quest.like_clockwork.andesite_alloy_detailed_create.name",
@@ -1805,6 +1041,408 @@
       "commandrewards": []
     },
     {
+      "uuid": "edaeafc2-43e6-4bad-bb87-b4f89f71e3c7",
+      "name": {
+        "text": "hqm.quest.like_clockwork.mechanical_extruder.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.mechanical_extruder.desc",
+        "isTranslationKey": true
+      },
+      "x": 190,
+      "y": 120,
+      "icon": {
+        "id": "create_mechanical_extruder:mechanical_extruder",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.mechanical_extruder.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create_mechanical_extruder:mechanical_extruder",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e3932343-39ba-4385-86d3-a96c44345bcc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:magma_block",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f023ab57-9886-439c-a731-1c061bbdb348",
+      "name": {
+        "text": "hqm.quest.like_clockwork.belts_funnels.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.belts_funnels.desc",
+        "isTranslationKey": true
+      },
+      "x": 126,
+      "y": 84,
+      "icon": {
+        "id": "create:belt_connector",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.like_clockwork.belts_funnels.task.0.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.belts_funnels.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:belt_connector",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.like_clockwork.belts_funnels.task.1.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "The Andesite Funnel is used for inserting or extracting items from inventories. Right-click on an inventory to race it in output mode; sneak-right-click for input mode. Or use a wrench to toggle it between input and output mode. The funnel can also be controlled with redstone signals, disabling its ability to transfer items when powered. When placed on a mechanical belt, the andesite funnel extends one block forward, allowing it to interact with items moving along the belt.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:andesite_funnel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "54646046-e479-4bcb-941c-6713a659646f",
+        "e3932343-39ba-4385-86d3-a96c44345bcc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:cured_rubber",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f0cb3cdd-83b9-45e8-b32d-417cc3a30ac0",
+      "name": {
+        "text": "hqm.quest.like_clockwork.wrench.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.wrench.desc",
+        "isTranslationKey": true
+      },
+      "x": 222,
+      "y": 191,
+      "icon": {
+        "id": "create:wrench",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.wrench.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:wrench",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "72283d63-3fcf-4034-ac4f-0ffa0697a722"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:brown_toolbox",
+          "Count": 1
+        },
+        {
+          "id": "create:builders_tea",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f0dbdcd7-2e45-448d-aff1-a7b090a63a27",
+      "name": {
+        "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.desc",
+        "isTranslationKey": true
+      },
+      "x": 142,
+      "y": 21,
+      "icon": {
+        "id": "create:andesite_alloy",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.0.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:andesite_alloy",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.1.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.1.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:shaft",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:andesite_casing",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b0dcbccf-fc55-43e1-8782-9454d7fcca9c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:quartz",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fe6df2ff-5675-4285-a501-e6b0369c532e",
+      "name": {
+        "text": "hqm.quest.like_clockwork.engineers_goggles.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.engineers_goggles.desc",
+        "isTranslationKey": true
+      },
+      "x": 190,
+      "y": 192,
+      "icon": {
+        "id": "create:goggles",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.engineers_goggles.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:goggles",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "72283d63-3fcf-4034-ac4f-0ffa0697a722"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "create:copper_scaffolding",
+          "Count": 64
+        },
+        {
+          "id": "create:metal_bracket",
+          "Count": 8
+        },
+        {
+          "id": "create:flywheel",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "01675684-dd99-4447-b149-6e429d7ad611",
+      "name": {
+        "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.desc",
+        "isTranslationKey": true
+      },
+      "x": 78,
+      "y": 93,
+      "icon": {
+        "id": "create:mechanical_saw",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.0.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_saw",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.1.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "The mechanical harvester automates crop collection on moving contraptions. When the contraption moves forward, the harvester automatically collects any mature crops it contacts, as well as replanting them. Harvested items are either deposited into an onboard inventory or dropped on the ground if none is present. Note that cactuses must be harvested with mechanical saws instead.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_harvester",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.2.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "The mechanical drill can operate either while stationary or as part of a moving contraption. When placed statically and supplied with rotational force, it breaks blocks directly in front of it. Additionally, it inflicts damage on nearby entities, also based on its speed. However, its true strength lies in its use on contraptions, where it doesn\u0027t require direct rotational input. When mounted on a moving contraption, the drill automatically breaks any blocks it collides with and damages entities in its path, with both block-breaking speed and entity damage scaling with the contraption\u0027s velocity. It can be removed cleanly by shift-right- clicking with a wrench, which will return it to your inventory.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_drill",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d300aea-5826-4f79-b1d6-b08895059dbf"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:portable_storage_interface",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "create:mechanical_saw",
+          "Count": 4
+        },
+        {
+          "id": "create:mechanical_harvester",
+          "Count": 4
+        },
+        {
+          "id": "create:mechanical_drill",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "0d9c09c3-6583-431c-95d6-f6f4eacd3655",
       "name": {
         "text": "hqm.quest.like_clockwork.water_wheel.name",
@@ -1874,34 +1512,56 @@
       "commandrewards": []
     },
     {
-      "uuid": "af8e7d74-9513-479c-b33d-ddcc1ba56e1a",
+      "uuid": "10a23876-3d34-40db-b3be-0f9569c5b459",
       "name": {
-        "text": "hqm.quest.like_clockwork.hand_crank.name",
+        "text": "hqm.quest.like_clockwork.blaze_burner.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.like_clockwork.hand_crank.desc",
+        "text": "hqm.quest.like_clockwork.blaze_burner.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 66,
+      "x": 46,
+      "y": 111,
       "icon": {
-        "id": "create:hand_crank",
+        "id": "create:blaze_burner",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
-      "parentrequirement": 2,
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.like_clockwork.blaze_burner.task.0.desc",
+            "isTranslationKey": true
+          },
           "longDescription": {
-            "text": "hqm.quest.like_clockwork.hand_crank.task.0.long_desc",
+            "text": "hqm.quest.like_clockwork.blaze_burner.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "create:hand_crank",
+                "id": "create:empty_blaze_burner",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.like_clockwork.blaze_burner.task.1.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.blaze_burner.task.1.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:blaze_burner",
                 "Count": 1
               }
             }
@@ -1909,15 +1569,16 @@
         }
       ],
       "prerequisites": [
-        "b0dcbccf-fc55-43e1-8782-9454d7fcca9c",
-        "4e8ad6b7-41d0-4281-bbea-1e192a609e64",
-        "f0dbdcd7-2e45-448d-aff1-a7b090a63a27",
-        "e8790b01-88c8-4dbf-919f-f6123750576a"
+        "a552a1cc-bdcd-45df-8fc7-11d3de4f3085"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "create:turntable",
+          "id": "create:blaze_cake_base",
+          "Count": 4
+        },
+        {
+          "id": "createaddition:straw",
           "Count": 1
         }
       ],
@@ -1978,19 +1639,19 @@
       "commandrewards": []
     },
     {
-      "uuid": "b1e38837-84ae-4edb-be65-a82c8a00c6d6",
+      "uuid": "32f538e8-7e3c-4d36-8b39-0cef101279dd",
       "name": {
-        "text": "hqm.quest.like_clockwork.chute.name",
+        "text": "hqm.quest.like_clockwork.spout.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.like_clockwork.chute.desc",
+        "text": "hqm.quest.like_clockwork.spout.desc",
         "isTranslationKey": true
       },
-      "x": 14,
-      "y": 93,
+      "x": 94,
+      "y": 192,
       "icon": {
-        "id": "create:chute",
+        "id": "create:spout",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -1998,13 +1659,19 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.like_clockwork.chute.task.0.long_desc",
+            "text": "hqm.quest.like_clockwork.spout.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "create:chute",
+                "id": "create:spout",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:depot",
                 "Count": 1
               }
             }
@@ -2012,18 +1679,351 @@
         }
       ],
       "prerequisites": [
-        "5d300aea-5826-4f79-b1d6-b08895059dbf"
+        "e6d0efde-1f09-434e-9f80-a45f09d37ec0"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "sophisticatedstorage:limited_barrel_4",
-          "Count": 1,
-          "tag": "{woodType:\"spruce\"}"
+          "id": "create:fluid_pipe",
+          "Count": 16
         },
         {
-          "id": "sophisticatedstorage:basic_to_iron_tier_upgrade",
+          "id": "create:mechanical_pump",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4e8ad6b7-41d0-4281-bbea-1e192a609e64",
+      "name": {
+        "text": "hqm.quest.like_clockwork.detailed_create.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.detailed_create.desc",
+        "isTranslationKey": true
+      },
+      "x": 142,
+      "y": 21,
+      "icon": {
+        "id": "create:precision_mechanism",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.detailed_create.task.0.long_desc",
+            "isTranslationKey": true
+          }
+        }
+      ],
+      "prerequisites": [
+        "099d1358-0b11-49f0-aa78-43531cd739b7"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:builders_tea",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "52568165-b806-461d-9e85-031b089dbbef",
+      "name": {
+        "text": "hqm.quest.like_clockwork.electric_motor.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.electric_motor.desc",
+        "isTranslationKey": true
+      },
+      "x": 270,
+      "y": 75,
+      "icon": {
+        "id": "createaddition:electric_motor",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.electric_motor.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "createaddition:electric_motor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "createaddition:alternator",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6241ed79-932a-4519-a294-9860a2063281"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "createaddition:modular_accumulator",
+          "Count": 2
+        },
+        {
+          "id": "createaddition:portable_energy_interface",
+          "Count": 2
+        },
+        {
+          "id": "createaddition:electrum_spool",
+          "Count": 4
+        },
+        {
+          "id": "createaddition:copper_spool",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "54646046-e479-4bcb-941c-6713a659646f",
+      "name": {
+        "text": "hqm.quest.like_clockwork.detailed_create_trigger.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.detailed_create_trigger.desc",
+        "isTranslationKey": true
+      },
+      "x": 158,
+      "y": -9,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "4e8ad6b7-41d0-4281-bbea-1e192a609e64"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5d300aea-5826-4f79-b1d6-b08895059dbf",
+      "name": {
+        "text": "hqm.quest.like_clockwork.iron_sheet.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.iron_sheet.desc",
+        "isTranslationKey": true
+      },
+      "x": 46,
+      "y": 39,
+      "icon": {
+        "id": "create:iron_sheet",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.iron_sheet.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:iron_sheet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6241ed79-932a-4519-a294-9860a2063281",
+      "name": {
+        "text": "hqm.quest.like_clockwork.mechanical_crafter.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.mechanical_crafter.desc",
+        "isTranslationKey": true
+      },
+      "x": 238,
+      "y": 57,
+      "icon": {
+        "id": "create:mechanical_crafter",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.mechanical_crafter.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_crafter",
+                "Count": 1
+              },
+              "required": 21,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "68d15aff-b4ec-4d53-aa16-ff96ec851e11"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "create:builders_tea",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "68d15aff-b4ec-4d53-aa16-ff96ec851e11",
+      "name": {
+        "text": "hqm.quest.like_clockwork.brass_sheet.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.brass_sheet.desc",
+        "isTranslationKey": true
+      },
+      "x": 271,
+      "y": 39,
+      "icon": {
+        "id": "create:brass_sheet",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.brass_sheet.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:brass_sheet",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:electron_tube",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "54646046-e479-4bcb-941c-6713a659646f",
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
+        "eddaaad6-761a-458a-8e0f-ff4297889adc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "createaddition:diamond_grit_sandpaper",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "create:brass_ingot",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:redstone",
+          "Count": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "72283d63-3fcf-4034-ac4f-0ffa0697a722",
+      "name": {
+        "text": "hqm.quest.like_clockwork.golden_sheet.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.like_clockwork.golden_sheet.desc",
+        "isTranslationKey": true
+      },
+      "x": 206,
+      "y": 165,
+      "icon": {
+        "id": "create:golden_sheet",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.like_clockwork.golden_sheet.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:golden_sheet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_ingot",
+          "Count": 4
         }
       ],
       "rewardchoice": [],

@@ -2,6 +2,95 @@
   "name": "Salvage Operation",
   "quests": [
     {
+      "uuid": "9964c1f7-b9fa-4423-8266-c8f98b046455",
+      "name": {
+        "text": "hqm.quest.salvage_operation.structure_mer_lab.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.salvage_operation.structure_mer_lab.desc",
+        "isTranslationKey": true
+      },
+      "x": 126,
+      "y": 48,
+      "icon": {
+        "id": "kubejs:crashed_applied_controller",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.salvage_operation.structure_mer_lab.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:crashed_applied_controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:smooth_sky_stone_block",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:logic_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:calculation_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:engineering_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:silicon_press",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ae2:guide",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:quartz",
+          "Count": 16
+        },
+        {
+          "id": "ae2:certus_quartz_crystal",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "9c45c37d-c906-46f1-b3c0-eec774f4ccbe",
       "name": {
         "text": "hqm.quest.salvage_operation.me_processors.name",
@@ -210,108 +299,111 @@
       "commandrewards": []
     },
     {
-      "uuid": "9964c1f7-b9fa-4423-8266-c8f98b046455",
+      "uuid": "cdac0984-204e-4fbc-b2cd-cea990ae0367",
       "name": {
-        "text": "hqm.quest.salvage_operation.structure_mer_lab.name",
+        "text": "hqm.quest.salvage_operation.exploration_supplies.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.salvage_operation.structure_mer_lab.desc",
+        "text": "hqm.quest.salvage_operation.exploration_supplies.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 48,
+      "x": 158,
+      "y": 30,
       "icon": {
-        "id": "kubejs:crashed_applied_controller",
-        "Count": 1
+        "id": "hangglider:hang_glider",
+        "Count": 1,
+        "tag": "{Damage:0}"
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.salvage_operation.structure_mer_lab.task.0.long_desc",
+            "text": "hqm.quest.salvage_operation.exploration_supplies.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "kubejs:crashed_applied_controller",
-                "Count": 1
+                "id": "thermal:wrench",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "kubejs:crushing_hammer",
+                "Count": 1,
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:1,name:\"tconstruct:magnetic\"},{level:2,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.25f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":3.0f,\"tconstruct:attack_speed\":0.8f,\"tconstruct:durability\":312.5f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":6.0f},tic_volatile_data:{abilities:1,upgrades:3}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "hangglider:hang_glider",
+                "Count": 1,
+                "tag": "{Damage:0}"
               }
             },
             {
               "item": {
-                "id": "ae2:smooth_sky_stone_block",
-                "Count": 1
-              }
+                "id": "sophisticatedbackpacks:backpack",
+                "Count": 1,
+                "tag": "{contentsUuid:[I;921025965,1498695982,-1244308803,1251248921],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{Count:1,Materials:[{ID:\"silentgear:iron\"}]}}]},upgradeSlots:1}"
+              },
+              "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "ae2:logic_processor_press",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "ae2:calculation_processor_press",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "ae2:engineering_processor_press",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "ae2:silicon_press",
-                "Count": 1
-              }
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": "{Potion:\"minecraft:water\",Purity:3}"
+              },
+              "required": 8,
+              "precision": "FUZZY"
             }
           ]
         }
       ],
       "prerequisites": [
-        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+        "099d1358-0b11-49f0-aa78-43531cd739b7"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "ae2:guide",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:glowstone_dust",
-          "Count": 4
-        }
-      ],
+      "reward": [],
       "rewardchoice": [
         {
-          "id": "minecraft:quartz",
-          "Count": 16
+          "id": "minecraft:potion",
+          "Count": 16,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
         },
         {
-          "id": "ae2:certus_quartz_crystal",
-          "Count": 16
+          "id": "legumedelight:peanut_butter_and_jam_sandwich",
+          "Count": 8,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}\u0027]}}"
+        },
+        {
+          "id": "cgm:shell",
+          "Count": 64
         }
       ],
       "commandrewards": []
     },
     {
-      "uuid": "7cd36511-ac8a-4a2a-89e6-9fa29cb33173",
+      "uuid": "e09bcc3e-e944-4e33-9e02-cdb9df6d7773",
       "name": {
-        "text": "hqm.quest.salvage_operation.turbine.name",
+        "text": "hqm.quest.salvage_operation.cast_chest.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.salvage_operation.turbine.desc",
+        "text": "hqm.quest.salvage_operation.cast_chest.desc",
         "isTranslationKey": true
       },
-      "x": 254,
-      "y": 84,
+      "x": 190,
+      "y": 119,
       "icon": {
-        "id": "biggerreactors:turbine_casing",
+        "id": "tconstruct:cast_chest",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -319,106 +411,79 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.salvage_operation.turbine.task.0.long_desc",
+            "text": "hqm.quest.salvage_operation.cast_chest.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "biggerreactors:turbine_terminal",
+                "id": "tconstruct:cast_chest",
                 "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "biggerreactors:turbine_casing",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "biggerreactors:turbine_power_tap",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "biggerreactors:turbine_fluid_port",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "biggerreactors:turbine_rotor_bearing",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "biggerreactors:turbine_rotor_shaft",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "biggerreactors:turbine_rotor_blade",
-                "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
       ],
       "prerequisites": [
-        "26c1c152-15c4-476c-a27b-6f6caff2eff0"
+        "059da201-0f0d-47ee-9bf0-416b63d26600"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "biggerreactors:cyanite_ingot",
-          "Count": 8
-        },
-        {
-          "id": "thermal:electrum_block",
-          "Count": 8
+          "id": "minecraft:writable_book",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
-      "uuid": "2b994684-1263-4b2b-8567-57b696c8680a",
+      "uuid": "059da201-0f0d-47ee-9bf0-416b63d26600",
       "name": {
-        "text": "hqm.quest.salvage_operation.structure_nuclear_plant.name",
+        "text": "hqm.quest.salvage_operation.smeltery.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.salvage_operation.structure_nuclear_plant.desc",
+        "text": "hqm.quest.salvage_operation.smeltery.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 48,
+      "x": 158,
+      "y": 102,
       "icon": {
-        "id": "kubejs:crashed_reactor_frame",
+        "id": "tconstruct:smeltery_controller",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.salvage_operation.structure_nuclear_plant.task.0.long_desc",
+            "text": "hqm.quest.salvage_operation.smeltery.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "kubejs:crashed_reactor_controller",
+                "id": "tconstruct:smeltery_controller",
                 "Count": 1
-              },
-              "precision": "TAG_FUZZY"
+              }
             },
             {
               "item": {
-                "id": "kubejs:crashed_reactor_frame",
+                "id": "tconstruct:seared_drain",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_bricks",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_fuel_tank",
                 "Count": 1
               }
             }
@@ -426,16 +491,25 @@
         }
       ],
       "prerequisites": [
-        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+        "3739c921-2340-4675-9d47-c41dbb66aec3"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "biggerreactors:graphite_ingot",
+          "id": "tconstruct:fantastic_foundry",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:polished_basalt",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:magma_cream",
           "Count": 16
         }
       ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -594,47 +668,52 @@
       "commandrewards": []
     },
     {
-      "uuid": "65efa12d-f687-4c3a-9077-b89b3d28fc95",
+      "uuid": "2b994684-1263-4b2b-8567-57b696c8680a",
       "name": {
-        "text": "hqm.quest.salvage_operation.tinkers_anvil.name",
+        "text": "hqm.quest.salvage_operation.structure_nuclear_plant.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.salvage_operation.tinkers_anvil.desc",
+        "text": "hqm.quest.salvage_operation.structure_nuclear_plant.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 120,
+      "x": 190,
+      "y": 48,
       "icon": {
-        "id": "tconstruct:tinkers_anvil",
+        "id": "kubejs:crashed_reactor_frame",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.salvage_operation.tinkers_anvil.task.0.long_desc",
+            "text": "hqm.quest.salvage_operation.structure_nuclear_plant.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "tconstruct:tinkers_anvil",
+                "id": "kubejs:crashed_reactor_controller",
                 "Count": 1
               },
-              "precision": "FUZZY"
+              "precision": "TAG_FUZZY"
+            },
+            {
+              "item": {
+                "id": "kubejs:crashed_reactor_frame",
+                "Count": 1
+              }
             }
           ]
         }
       ],
       "prerequisites": [
-        "059da201-0f0d-47ee-9bf0-416b63d26600"
+        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "tconstruct:seared_brick",
+          "id": "biggerreactors:graphite_ingot",
           "Count": 16
         }
       ],
@@ -761,80 +840,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "059da201-0f0d-47ee-9bf0-416b63d26600",
-      "name": {
-        "text": "hqm.quest.salvage_operation.smeltery.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.salvage_operation.smeltery.desc",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": 102,
-      "icon": {
-        "id": "tconstruct:smeltery_controller",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.salvage_operation.smeltery.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "tconstruct:smeltery_controller",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "tconstruct:seared_drain",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "tconstruct:seared_bricks",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "tconstruct:seared_fuel_tank",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3739c921-2340-4675-9d47-c41dbb66aec3"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:fantastic_foundry",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "minecraft:polished_basalt",
-          "Count": 4
-        },
-        {
-          "id": "minecraft:magma_cream",
-          "Count": 16
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "4cc6ede3-b15f-4cae-ad96-9903227e5ae8",
       "name": {
         "text": "hqm.quest.salvage_operation.blazing_blood.name",
@@ -876,146 +881,6 @@
         {
           "id": "tconstruct:dragon_scale",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "cdac0984-204e-4fbc-b2cd-cea990ae0367",
-      "name": {
-        "text": "hqm.quest.salvage_operation.exploration_supplies.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.salvage_operation.exploration_supplies.desc",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": 30,
-      "icon": {
-        "id": "hangglider:hang_glider",
-        "Count": 1,
-        "tag": "{Damage:0}"
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.salvage_operation.exploration_supplies.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "thermal:wrench",
-                "Count": 1,
-                "tag": "{}"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "kubejs:crushing_hammer",
-                "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:1,name:\"tconstruct:magnetic\"},{level:2,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.25f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":3.0f,\"tconstruct:attack_speed\":0.8f,\"tconstruct:durability\":312.5f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":6.0f},tic_volatile_data:{abilities:1,upgrades:3}}"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "hangglider:hang_glider",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              }
-            },
-            {
-              "item": {
-                "id": "sophisticatedbackpacks:backpack",
-                "Count": 1,
-                "tag": "{contentsUuid:[I;921025965,1498695982,-1244308803,1251248921],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{Count:1,Materials:[{ID:\"silentgear:iron\"}]}}]},upgradeSlots:1}"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:potion",
-                "Count": 1,
-                "tag": "{Potion:\"minecraft:water\",Purity:3}"
-              },
-              "required": 8,
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "099d1358-0b11-49f0-aa78-43531cd739b7"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "minecraft:potion",
-          "Count": 16,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
-        },
-        {
-          "id": "legumedelight:peanut_butter_and_jam_sandwich",
-          "Count": 8,
-          "tag": "{display:{Lore:['{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}']}}"
-        },
-        {
-          "id": "cgm:shell",
-          "Count": 64
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e09bcc3e-e944-4e33-9e02-cdb9df6d7773",
-      "name": {
-        "text": "hqm.quest.salvage_operation.cast_chest.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.salvage_operation.cast_chest.desc",
-        "isTranslationKey": true
-      },
-      "x": 190,
-      "y": 119,
-      "icon": {
-        "id": "tconstruct:cast_chest",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.salvage_operation.cast_chest.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "tconstruct:cast_chest",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "059da201-0f0d-47ee-9bf0-416b63d26600"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:writable_book",
-          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -1136,6 +1001,141 @@
           "tag": "{}"
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "65efa12d-f687-4c3a-9077-b89b3d28fc95",
+      "name": {
+        "text": "hqm.quest.salvage_operation.tinkers_anvil.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.salvage_operation.tinkers_anvil.desc",
+        "isTranslationKey": true
+      },
+      "x": 126,
+      "y": 120,
+      "icon": {
+        "id": "tconstruct:tinkers_anvil",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.salvage_operation.tinkers_anvil.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:tinkers_anvil",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "059da201-0f0d-47ee-9bf0-416b63d26600"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:seared_brick",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7cd36511-ac8a-4a2a-89e6-9fa29cb33173",
+      "name": {
+        "text": "hqm.quest.salvage_operation.turbine.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.salvage_operation.turbine.desc",
+        "isTranslationKey": true
+      },
+      "x": 254,
+      "y": 84,
+      "icon": {
+        "id": "biggerreactors:turbine_casing",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.salvage_operation.turbine.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "biggerreactors:turbine_terminal",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:turbine_casing",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:turbine_power_tap",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:turbine_fluid_port",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:turbine_rotor_bearing",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:turbine_rotor_shaft",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:turbine_rotor_blade",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "26c1c152-15c4-476c-a27b-6f6caff2eff0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "biggerreactors:cyanite_ingot",
+          "Count": 8
+        },
+        {
+          "id": "thermal:electrum_block",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     }
   ],

@@ -2,19 +2,139 @@
   "name": "Basic Survival",
   "quests": [
     {
-      "uuid": "799cc1e8-bdff-4470-b5e1-b983ebfd6624",
+      "uuid": "804f4329-c6f5-4df8-915c-c590329cf26c",
       "name": {
-        "text": "hqm.quest.basic_survival.centrifuge_water.name",
+        "text": "hqm.quest.basic_survival.crook.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.basic_survival.centrifuge_water.desc",
+        "text": "hqm.quest.basic_survival.crook.desc",
         "isTranslationKey": true
       },
-      "x": 78,
-      "y": 75,
+      "x": 110,
+      "y": 129,
       "icon": {
-        "id": "minecraft:oak_sapling",
+        "id": "kubejs:crook",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:2,name:\"tconstruct:padded\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.75f,\"tconstruct:durability\":122.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.crook.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:crook",
+                "Count": 1,
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:2,name:\"tconstruct:padded\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.75f,\"tconstruct:durability\":122.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0f7c28b0-3881-419c-9d4b-ca936ad109f3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:rubberwood_sapling",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8339057e-e3f2-4846-9bd4-95c311dd654b",
+      "name": {
+        "text": "hqm.quest.basic_survival.rich_soil.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.rich_soil.desc",
+        "isTranslationKey": true
+      },
+      "x": 94,
+      "y": 48,
+      "icon": {
+        "id": "farmersdelight:rich_soil",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.basic_survival.rich_soil.task.0.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.rich_soil.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:organic_compost",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.basic_survival.rich_soil.task.1.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.rich_soil.task.1.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:rich_soil",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "farmersdelight:rich_soil",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8859440a-9852-445c-b1d6-15edc20c368c",
+      "name": {
+        "text": "hqm.quest.basic_survival.flint_mesh.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.flint_mesh.desc",
+        "isTranslationKey": true
+      },
+      "x": 190,
+      "y": 102,
+      "icon": {
+        "id": "exdeorum:flint_mesh",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -22,32 +142,34 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.basic_survival.centrifuge_water.task.0.long_desc",
+            "text": "hqm.quest.basic_survival.flint_mesh.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "minecraft:potion",
-                "Count": 1,
-                "tag": "{Potion:\"minecraft:water\",Purity:2}"
+                "id": "exdeorum:flint_mesh",
+                "Count": 1
               }
             }
           ]
         }
       ],
       "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
       ],
       "optionlinks": [],
-      "reward": [
+      "reward": [],
+      "rewardchoice": [
         {
-          "id": "minecraft:potion",
-          "Count": 2,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+          "id": "minecraft:iron_ore",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:gold_ore",
+          "Count": 4
         }
       ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -115,76 +237,140 @@
       "commandrewards": []
     },
     {
-      "uuid": "6f4c9614-c79e-4016-b153-290df8016c8b",
+      "uuid": "9bcad1fa-e4c1-4745-9776-6df674846c9d",
       "name": {
-        "text": "hqm.quest.basic_survival.string.name",
+        "text": "hqm.quest.basic_survival.shell_storage.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.basic_survival.string.desc",
+        "text": "hqm.quest.basic_survival.shell_storage.desc",
         "isTranslationKey": true
       },
-      "x": 142,
-      "y": 129,
+      "x": 286,
+      "y": 102,
       "icon": {
-        "id": "exdeorum:silk_worm",
+        "id": "sync:shell_storage",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.basic_survival.shell_storage.task.0.desc",
+            "isTranslationKey": true
+          },
           "longDescription": {
-            "text": "hqm.quest.basic_survival.string.task.0.long_desc",
+            "text": "hqm.quest.basic_survival.shell_storage.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "exdeorum:silk_worm",
+                "id": "sync:shell_storage",
                 "Count": 1
               }
             }
           ]
+        },
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "hqm.quest.basic_survival.shell_storage.task.1.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.shell_storage.task.1.long_desc",
+            "isTranslationKey": true
+          }
         }
       ],
       "prerequisites": [
-        "804f4329-c6f5-4df8-915c-c590329cf26c"
+        "ae61c85d-2154-435e-91cc-78218ffe1dd6"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:string",
-          "Count": 8
+          "id": "sync:treadmill",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
-      "uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc",
+      "uuid": "a63b8539-ab2c-4741-a920-afc5081deb38",
       "name": {
-        "text": "hqm.quest.basic_survival.alloying_trigger.name",
+        "text": "hqm.quest.basic_survival.easy_route_trigger.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.basic_survival.alloying_trigger.desc",
+        "text": "hqm.quest.basic_survival.easy_route_trigger.desc",
         "isTranslationKey": true
       },
-      "x": 14,
-      "y": 3,
-      "icon": {
-        "id": "create:brass_ingot",
-        "Count": 1
-      },
+      "x": 270,
+      "y": 75,
       "trigger": "QUEST_TRIGGER",
-      "parentrequirement": 1,
       "prerequisites": [
-        "10a23876-3d34-40db-b3be-0f9569c5b459",
-        "059da201-0f0d-47ee-9bf0-416b63d26600"
+        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
       ],
       "optionlinks": [],
       "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ae61c85d-2154-435e-91cc-78218ffe1dd6",
+      "name": {
+        "text": "hqm.quest.basic_survival.shell_constructor.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.shell_constructor.desc",
+        "isTranslationKey": true
+      },
+      "x": 254,
+      "y": 102,
+      "icon": {
+        "id": "sync:sync_core",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.basic_survival.shell_constructor.task.0.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.shell_constructor.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "sync:shell_constructor",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a63b8539-ab2c-4741-a920-afc5081deb38",
+        "3ffa13cb-b198-4e83-bab7-676d08834311",
+        "bb5d7543-ddde-4734-8690-e2fa48963b5b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "chunkloaders:single_chunk_loader",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -244,154 +430,65 @@
       "commandrewards": []
     },
     {
-      "uuid": "477e01c0-8641-4b6b-970f-7374b04f6a68",
+      "uuid": "b910ad01-be2f-4928-b33d-6a38353b8b9f",
       "name": {
-        "text": "hqm.quest.basic_survival.hard_route.name",
+        "text": "hqm.quest.basic_survival.mattock.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.basic_survival.hard_route.desc",
+        "text": "hqm.quest.basic_survival.mattock.desc",
         "isTranslationKey": true
       },
-      "x": 46,
-      "y": 129,
+      "x": 62,
+      "y": 156,
       "icon": {
-        "id": "minecraft:skeleton_skull",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:checkbox",
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.hard_route.task.0.long_desc",
-            "isTranslationKey": true
-          }
-        }
-      ],
-      "prerequisites": [
-        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
-      ],
-      "optionlinks": [
-        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
-      ],
-      "reward": [
-        {
-          "id": "minecraft:birch_sapling",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:spruce_sapling",
-          "Count": 1
-        },
-        {
-          "id": "thermal:phytogro",
-          "Count": 4
-        },
-        {
-          "id": "minecraft:potion",
-          "Count": 4,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
-        },
-        {
-          "id": "kubejs:nutrient_brick",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
-      "name": {
-        "text": "hqm.quest.basic_survival.pressed_metal_trigger.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.pressed_metal_trigger.desc",
-        "isTranslationKey": true
-      },
-      "x": 30,
-      "y": 12,
-      "icon": {
-        "id": "create:mechanical_press",
-        "Count": 1
-      },
-      "trigger": "QUEST_TRIGGER",
-      "parentrequirement": 1,
-      "prerequisites": [
-        "13a983d5-2a40-4c74-91f0-9847656342e0"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
-      "name": {
-        "text": "hqm.quest.basic_survival.crucible.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.crucible.desc",
-        "isTranslationKey": true
-      },
-      "x": 126,
-      "y": 102,
-      "icon": {
-        "id": "exdeorum:porcelain_crucible",
-        "Count": 1
+        "id": "tconstruct:mattock",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:wood#oak\",\"tconstruct:bone\"],tic_modifiers:[{level:2,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:tilling\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":4.125f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":125.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":3.8500001f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.basic_survival.crucible.task.0.long_desc",
+            "text": "hqm.quest.basic_survival.mattock.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "exdeorum:porcelain_crucible",
-                "Count": 1
-              }
+                "id": "tconstruct:small_axe_head",
+                "Count": 1,
+                "tag": "{Material:\"tconstruct:bone\"}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:adze_head",
+                "Count": 1,
+                "tag": "{Material:\"tconstruct:bone\"}"
+              },
+              "precision": "FUZZY"
             }
           ]
         }
       ],
       "prerequisites": [
-        "099d1358-0b11-49f0-aa78-43531cd739b7"
+        "0f7c28b0-3881-419c-9d4b-ca936ad109f3"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "tconstruct:seared_faucet",
-          "Count": 1
-        },
-        {
-          "id": "tconstruct:seared_table",
-          "Count": 1
-        },
-        {
-          "id": "tconstruct:puny_smelting",
-          "Count": 1,
-          "tag": "{mantle:{book:{current_page:\"\"}}}"
-        }
-      ],
+      "reward": [],
       "rewardchoice": [
         {
-          "id": "tconstruct:small_blade_cast",
-          "Count": 1
+          "id": "tconstruct:small_axe_head",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:iron\"}"
         },
         {
-          "id": "tconstruct:ingot_cast",
-          "Count": 1
-        },
-        {
-          "id": "tconstruct:pick_head_cast",
-          "Count": 1
+          "id": "tconstruct:tool_handle",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:rose_gold\"}"
         }
       ],
       "commandrewards": []
@@ -471,69 +568,80 @@
       "commandrewards": []
     },
     {
-      "uuid": "804f4329-c6f5-4df8-915c-c590329cf26c",
+      "uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
       "name": {
-        "text": "hqm.quest.basic_survival.crook.name",
+        "text": "hqm.quest.basic_survival.basic_metals.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.basic_survival.crook.desc",
+        "text": "hqm.quest.basic_survival.basic_metals.desc",
+        "isTranslationKey": true
+      },
+      "x": 158,
+      "y": 102,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.basic_metals.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:copper_ingot",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:hopper",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c5d70928-cc40-46b5-bfb0-3f3b800a84ea",
+      "name": {
+        "text": "hqm.quest.basic_survival.netherrack_end_stone.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.netherrack_end_stone.desc",
         "isTranslationKey": true
       },
       "x": 110,
-      "y": 129,
+      "y": 21,
       "icon": {
-        "id": "kubejs:crook",
-        "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:2,name:\"tconstruct:padded\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.75f,\"tconstruct:durability\":122.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.crook.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "kubejs:crook",
-                "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:2,name:\"tconstruct:padded\"}],tic_multipliers:{\"tconstruct:durability\":2.0f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":0.75f,\"tconstruct:durability\":122.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "0f7c28b0-3881-419c-9d4b-ca936ad109f3"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "thermal:rubberwood_sapling",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5f020d6d-64a9-4119-807f-f9619fb4ceac",
-      "name": {
-        "text": "hqm.quest.basic_survival.leather_insulation.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.leather_insulation.desc",
-        "isTranslationKey": true
-      },
-      "x": 206,
-      "y": 129,
-      "icon": {
-        "id": "kubejs:leather_insulation",
+        "id": "minecraft:netherrack",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -541,140 +649,19 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.basic_survival.leather_insulation.task.0.long_desc",
+            "text": "hqm.quest.basic_survival.netherrack_end_stone.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "kubejs:leather_insulation",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3f4bca77-f975-4406-9e7b-1cbe559b3068"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:leather",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6acadfe6-4853-4cf1-af89-d44bc0f42ce1",
-      "name": {
-        "text": "hqm.quest.basic_survival.paste.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.paste.desc",
-        "isTranslationKey": true
-      },
-      "x": 62,
-      "y": 48,
-      "icon": {
-        "id": "kubejs:paste",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.paste.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "kubejs:paste",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "76cfa1f2-c3a7-4369-bc3c-2838db6384ef",
-        "799cc1e8-bdff-4470-b5e1-b983ebfd6624"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:wheat",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "485801ed-15cb-43f9-ac50-1e31cf9c97a0",
-      "name": {
-        "text": "hqm.quest.basic_survival.hammer.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.hammer.desc",
-        "isTranslationKey": true
-      },
-      "x": 126,
-      "y": 156,
-      "icon": {
-        "id": "kubejs:crushing_hammer",
-        "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.25f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":0.8f,\"tconstruct:durability\":75.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.basic_survival.hammer.task.0.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.hammer.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "kubejs:crushing_hammer",
-                "Count": 1,
-                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.25f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":0.8f,\"tconstruct:durability\":75.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.basic_survival.hammer.task.1.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.hammer.task.1.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:gravel",
+                "id": "minecraft:netherrack",
                 "Count": 1
               }
             },
             {
               "item": {
-                "id": "minecraft:sand",
+                "id": "minecraft:end_stone",
                 "Count": 1
               }
             }
@@ -682,96 +669,261 @@
         }
       ],
       "prerequisites": [
-        "804f4329-c6f5-4df8-915c-c590329cf26c"
+        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
       ],
       "optionlinks": [],
       "reward": [],
       "rewardchoice": [
         {
-          "id": "minecraft:gravel",
+          "id": "exdeorum:crushed_netherrack",
           "Count": 16
         },
         {
-          "id": "minecraft:sand",
+          "id": "exdeorum:crushed_end_stone",
           "Count": 16
         }
       ],
       "commandrewards": []
     },
     {
-      "uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277",
+      "uuid": "d4d8bba6-7b9e-417a-b543-90ffb032400b",
       "name": {
-        "text": "hqm.quest.basic_survival.easy_route.name",
+        "text": "hqm.quest.basic_survival.barrel_dirt.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.basic_survival.easy_route.desc",
+        "text": "hqm.quest.basic_survival.barrel_dirt.desc",
         "isTranslationKey": true
       },
-      "x": 46,
+      "x": 110,
       "y": 75,
       "icon": {
-        "id": "legumedelight:peanut_butter_and_jam_sandwich",
+        "id": "minecraft:dirt",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
-          "type": "hardcorequesting:checkbox",
+          "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.basic_survival.easy_route.task.0.long_desc",
+            "text": "hqm.quest.basic_survival.barrel_dirt.task.0.long_desc",
             "isTranslationKey": true
-          }
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dirt",
+                "Count": 1
+              },
+              "required": 3
+            }
+          ]
         }
       ],
       "prerequisites": [
-        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "sync:shell_constructor",
+          "id": "minecraft:wheat_seeds",
           "Count": 1
-        },
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc",
+      "name": {
+        "text": "hqm.quest.basic_survival.alloying_trigger.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.alloying_trigger.desc",
+        "isTranslationKey": true
+      },
+      "x": 14,
+      "y": 3,
+      "icon": {
+        "id": "create:brass_ingot",
+        "Count": 1
+      },
+      "trigger": "QUEST_TRIGGER",
+      "parentrequirement": 1,
+      "prerequisites": [
+        "10a23876-3d34-40db-b3be-0f9569c5b459",
+        "059da201-0f0d-47ee-9bf0-416b63d26600"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8",
+      "name": {
+        "text": "hqm.quest.basic_survival.gathering_supplies.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.gathering_supplies.desc",
+        "isTranslationKey": true
+      },
+      "x": 30,
+      "y": 102,
+      "icon": {
+        "id": "hardcorequesting:quest_book",
+        "Count": 1
+      },
+      "tasks": [
         {
-          "id": "thermal:energy_cell",
-          "Count": 1,
-          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;2B,2B,2B,2B,2B,2B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
-        },
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.gathering_supplies.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:wrench",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "exdeorum:oak_sieve",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "exdeorum:string_mesh",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
         {
-          "id": "cgm:shell",
-          "Count": 32
-        },
-        {
-          "id": "minecraft:oak_sapling",
+          "id": "minecraft:glass_bottle",
           "Count": 4
         },
         {
-          "id": "thermal:phytogro",
-          "Count": 16
+          "id": "minecraft:potion",
+          "Count": 6,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0862574f-2caf-43d7-b79c-99ca3a5fe67c",
+      "name": {
+        "text": "hqm.quest.basic_survival.camel_pack.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.camel_pack.desc",
+        "isTranslationKey": true
+      },
+      "x": 238,
+      "y": 75,
+      "icon": {
+        "id": "kubejs:camel_pack",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.camel_pack.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:camel_pack",
+                "Count": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b447d7bd-febd-458b-b0aa-43c1957e7d9e"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "thermal:fluid_reservoir",
+          "Count": 1,
+          "tag": "{}"
         },
         {
           "id": "minecraft:potion",
           "Count": 8,
           "tag": "{Potion:\"minecraft:water\",Purity:3}"
-        },
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "099d1358-0b11-49f0-aa78-43531cd739b7",
+      "name": {
+        "text": "hqm.quest.basic_survival.furnace.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.furnace.desc",
+        "isTranslationKey": true
+      },
+      "x": 94,
+      "y": 102,
+      "icon": {
+        "id": "minecraft:furnace",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
         {
-          "id": "kubejs:nutrient_brick",
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.furnace.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:furnace",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:charcoal",
           "Count": 8
         }
       ],
-      "rewardchoice": [
-        {
-          "id": "legumedelight:peanut_butter_and_jam_sandwich",
-          "Count": 8,
-          "tag": "{display:{Lore:['{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}']}}"
-        },
-        {
-          "id": "legumedelight:bean_burger",
-          "Count": 8,
-          "tag": "{display:{Lore:['{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}']}}"
-        }
-      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -873,444 +1025,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a",
-      "name": {
-        "text": "hqm.quest.basic_survival.dirty_water.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.dirty_water.desc",
-        "isTranslationKey": true
-      },
-      "x": 142,
-      "y": 75,
-      "icon": {
-        "id": "minecraft:potion",
-        "Count": 1,
-        "tag": "{Potion:\"minecraft:water\",Purity:0}"
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "description": {
-            "text": "hqm.taskType.detect.title",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.dirty_water.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:potion",
-                "Count": 1,
-                "tag": "{Potion:\"minecraft:water\",Purity:0}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:dirt",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:potion",
-          "Count": 2,
-          "tag": "{Potion:\"minecraft:water\",Purity:0}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d4d8bba6-7b9e-417a-b543-90ffb032400b",
-      "name": {
-        "text": "hqm.quest.basic_survival.barrel_dirt.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.barrel_dirt.desc",
-        "isTranslationKey": true
-      },
-      "x": 110,
-      "y": 75,
-      "icon": {
-        "id": "minecraft:dirt",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.barrel_dirt.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:dirt",
-                "Count": 1
-              },
-              "required": 3
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:wheat_seeds",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "0862574f-2caf-43d7-b79c-99ca3a5fe67c",
-      "name": {
-        "text": "hqm.quest.basic_survival.camel_pack.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.camel_pack.desc",
-        "isTranslationKey": true
-      },
-      "x": 238,
-      "y": 75,
-      "icon": {
-        "id": "kubejs:camel_pack",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.camel_pack.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "kubejs:camel_pack",
-                "Count": 1
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "b447d7bd-febd-458b-b0aa-43c1957e7d9e"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "thermal:fluid_reservoir",
-          "Count": 1,
-          "tag": "{}"
-        },
-        {
-          "id": "minecraft:potion",
-          "Count": 8,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "c5d70928-cc40-46b5-bfb0-3f3b800a84ea",
-      "name": {
-        "text": "hqm.quest.basic_survival.netherrack_end_stone.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.netherrack_end_stone.desc",
-        "isTranslationKey": true
-      },
-      "x": 110,
-      "y": 21,
-      "icon": {
-        "id": "minecraft:netherrack",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.netherrack_end_stone.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:netherrack",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:end_stone",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "exdeorum:crushed_netherrack",
-          "Count": 16
-        },
-        {
-          "id": "exdeorum:crushed_end_stone",
-          "Count": 16
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "496abe96-0a4d-47e9-9e30-e87ea63d3888",
-      "name": {
-        "text": "hqm.quest.basic_survival.soul_sand.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.soul_sand.desc",
-        "isTranslationKey": true
-      },
-      "x": 126,
-      "y": 48,
-      "icon": {
-        "id": "minecraft:soul_sand",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.basic_survival.soul_sand.task.0.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.soul_sand.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:mycelium_spores",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.basic_survival.soul_sand.task.1.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.soul_sand.task.1.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:soul_sand",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:soul_sand",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "15ad672b-7b9c-4115-a4b3-403c70654a40",
-      "name": {
-        "text": "hqm.quest.basic_survival.acceptable_water.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.acceptable_water.desc",
-        "isTranslationKey": true
-      },
-      "x": 174,
-      "y": 75,
-      "icon": {
-        "id": "minecraft:potion",
-        "Count": 1,
-        "tag": "{Potion:\"minecraft:water\",Purity:2}"
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.acceptable_water.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:potion",
-                "Count": 1,
-                "tag": "{Potion:\"minecraft:water\",Purity:2}"
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:potion",
-          "Count": 2,
-          "tag": "{Potion:\"minecraft:water\",Purity:2}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8859440a-9852-445c-b1d6-15edc20c368c",
-      "name": {
-        "text": "hqm.quest.basic_survival.flint_mesh.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.flint_mesh.desc",
-        "isTranslationKey": true
-      },
-      "x": 190,
-      "y": 102,
-      "icon": {
-        "id": "exdeorum:flint_mesh",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.flint_mesh.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:flint_mesh",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "minecraft:iron_ore",
-          "Count": 16
-        },
-        {
-          "id": "minecraft:gold_ore",
-          "Count": 4
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "24dbbe58-7306-4f70-8034-6aa3f7ca548f",
-      "name": {
-        "text": "hqm.quest.basic_survival.stillsuit.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.stillsuit.desc",
-        "isTranslationKey": true
-      },
-      "x": 238,
-      "y": 129,
-      "icon": {
-        "id": "kubejs:stillsuit",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.stillsuit.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "kubejs:stillsuit",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "5f020d6d-64a9-4119-807f-f9619fb4ceac",
-        "0862574f-2caf-43d7-b79c-99ca3a5fe67c",
-        "06e0f31e-c084-4157-9890-0989c2908b66"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "thermal:cured_rubber",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "0f7c28b0-3881-419c-9d4b-ca936ad109f3",
       "name": {
         "text": "hqm.quest.basic_survival.tinker_tables.name",
@@ -1391,146 +1105,75 @@
       "commandrewards": []
     },
     {
-      "uuid": "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8",
+      "uuid": "15ad672b-7b9c-4115-a4b3-403c70654a40",
       "name": {
-        "text": "hqm.quest.basic_survival.gathering_supplies.name",
+        "text": "hqm.quest.basic_survival.acceptable_water.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.basic_survival.gathering_supplies.desc",
+        "text": "hqm.quest.basic_survival.acceptable_water.desc",
         "isTranslationKey": true
       },
-      "x": 30,
-      "y": 102,
+      "x": 174,
+      "y": 75,
       "icon": {
-        "id": "hardcorequesting:quest_book",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.gathering_supplies.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "thermal:wrench",
-                "Count": 1,
-                "tag": "{}"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "exdeorum:oak_sieve",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "exdeorum:string_mesh",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:glass_bottle",
-          "Count": 4
-        },
-        {
-          "id": "minecraft:potion",
-          "Count": 6,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "9bcad1fa-e4c1-4745-9776-6df674846c9d",
-      "name": {
-        "text": "hqm.quest.basic_survival.shell_storage.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.shell_storage.desc",
-        "isTranslationKey": true
-      },
-      "x": 286,
-      "y": 102,
-      "icon": {
-        "id": "sync:shell_storage",
-        "Count": 1
+        "id": "minecraft:potion",
+        "Count": 1,
+        "tag": "{Potion:\"minecraft:water\",Purity:2}"
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.basic_survival.shell_storage.task.0.desc",
-            "isTranslationKey": true
-          },
           "longDescription": {
-            "text": "hqm.quest.basic_survival.shell_storage.task.0.long_desc",
+            "text": "hqm.quest.basic_survival.acceptable_water.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "sync:shell_storage",
-                "Count": 1
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": "{Potion:\"minecraft:water\",Purity:2}"
               }
             }
           ]
-        },
-        {
-          "type": "hardcorequesting:checkbox",
-          "description": {
-            "text": "hqm.quest.basic_survival.shell_storage.task.1.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.shell_storage.task.1.long_desc",
-            "isTranslationKey": true
-          }
         }
       ],
       "prerequisites": [
-        "ae61c85d-2154-435e-91cc-78218ffe1dd6"
+        "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "sync:treadmill",
-          "Count": 1
+          "id": "minecraft:potion",
+          "Count": 2,
+          "tag": "{Potion:\"minecraft:water\",Purity:2}"
         }
       ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
-      "uuid": "a63b8539-ab2c-4741-a920-afc5081deb38",
+      "uuid": "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
       "name": {
-        "text": "hqm.quest.basic_survival.easy_route_trigger.name",
+        "text": "hqm.quest.basic_survival.pressed_metal_trigger.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.basic_survival.easy_route_trigger.desc",
+        "text": "hqm.quest.basic_survival.pressed_metal_trigger.desc",
         "isTranslationKey": true
       },
-      "x": 270,
-      "y": 75,
+      "x": 30,
+      "y": 12,
+      "icon": {
+        "id": "create:mechanical_press",
+        "Count": 1
+      },
       "trigger": "QUEST_TRIGGER",
+      "parentrequirement": 1,
       "prerequisites": [
-        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
+        "13a983d5-2a40-4c74-91f0-9847656342e0"
       ],
       "optionlinks": [],
       "reward": [],
@@ -1538,19 +1181,19 @@
       "commandrewards": []
     },
     {
-      "uuid": "099d1358-0b11-49f0-aa78-43531cd739b7",
+      "uuid": "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
       "name": {
-        "text": "hqm.quest.basic_survival.furnace.name",
+        "text": "hqm.quest.basic_survival.crucible.name",
         "isTranslationKey": true
       },
       "description": {
-        "text": "hqm.quest.basic_survival.furnace.desc",
+        "text": "hqm.quest.basic_survival.crucible.desc",
         "isTranslationKey": true
       },
-      "x": 94,
+      "x": 126,
       "y": 102,
       "icon": {
-        "id": "minecraft:furnace",
+        "id": "exdeorum:porcelain_crucible",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -1558,334 +1201,101 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "hqm.quest.basic_survival.furnace.task.0.long_desc",
+            "text": "hqm.quest.basic_survival.crucible.task.0.long_desc",
             "isTranslationKey": true
           },
           "items": [
             {
               "item": {
-                "id": "minecraft:furnace",
+                "id": "exdeorum:porcelain_crucible",
                 "Count": 1
-              },
-              "precision": "FUZZY"
+              }
             }
           ]
         }
       ],
       "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+        "099d1358-0b11-49f0-aa78-43531cd739b7"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:charcoal",
+          "id": "tconstruct:seared_faucet",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:seared_table",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:puny_smelting",
+          "Count": 1,
+          "tag": "{mantle:{book:{current_page:\"\"}}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:small_blade_cast",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:ingot_cast",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:pick_head_cast",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "24dbbe58-7306-4f70-8034-6aa3f7ca548f",
+      "name": {
+        "text": "hqm.quest.basic_survival.stillsuit.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.stillsuit.desc",
+        "isTranslationKey": true
+      },
+      "x": 238,
+      "y": 129,
+      "icon": {
+        "id": "kubejs:stillsuit",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.stillsuit.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:stillsuit",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5f020d6d-64a9-4119-807f-f9619fb4ceac",
+        "0862574f-2caf-43d7-b79c-99ca3a5fe67c",
+        "06e0f31e-c084-4157-9890-0989c2908b66"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:cured_rubber",
           "Count": 8
         }
       ],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
-      "name": {
-        "text": "hqm.quest.basic_survival.basic_metals.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.basic_metals.desc",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": 102,
-      "icon": {
-        "id": "minecraft:iron_ingot",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.basic_metals.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:iron_ingot",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:copper_ingot",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:gold_ingot",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:hopper",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8339057e-e3f2-4846-9bd4-95c311dd654b",
-      "name": {
-        "text": "hqm.quest.basic_survival.rich_soil.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.rich_soil.desc",
-        "isTranslationKey": true
-      },
-      "x": 94,
-      "y": 48,
-      "icon": {
-        "id": "farmersdelight:rich_soil",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.basic_survival.rich_soil.task.0.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.rich_soil.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "farmersdelight:organic_compost",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.basic_survival.rich_soil.task.1.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.rich_soil.task.1.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "farmersdelight:rich_soil",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "farmersdelight:rich_soil",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ae61c85d-2154-435e-91cc-78218ffe1dd6",
-      "name": {
-        "text": "hqm.quest.basic_survival.shell_constructor.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.shell_constructor.desc",
-        "isTranslationKey": true
-      },
-      "x": 254,
-      "y": 102,
-      "icon": {
-        "id": "sync:sync_core",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "parentrequirement": 1,
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "hqm.quest.basic_survival.shell_constructor.task.0.desc",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.shell_constructor.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "sync:shell_constructor",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a63b8539-ab2c-4741-a920-afc5081deb38",
-        "3ffa13cb-b198-4e83-bab7-676d08834311",
-        "bb5d7543-ddde-4734-8690-e2fa48963b5b"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "chunkloaders:single_chunk_loader",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6cd42c29-0afd-49d5-b8ca-9c3c50a63970",
-      "name": {
-        "text": "hqm.quest.basic_survival.basic_sifting.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.basic_sifting.desc",
-        "isTranslationKey": true
-      },
-      "x": 62,
-      "y": 102,
-      "icon": {
-        "id": "exdeorum:oak_sieve",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "parentrequirement": 1,
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "description": {
-            "text": "hqm.taskType.detect.title",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.basic_sifting.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:bone_meal",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "7ee731c2-da61-4aab-a5fa-864fc4b62277",
-        "477e01c0-8641-4b6b-970f-7374b04f6a68"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:dirt",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "b910ad01-be2f-4928-b33d-6a38353b8b9f",
-      "name": {
-        "text": "hqm.quest.basic_survival.mattock.name",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "hqm.quest.basic_survival.mattock.desc",
-        "isTranslationKey": true
-      },
-      "x": 62,
-      "y": 156,
-      "icon": {
-        "id": "tconstruct:mattock",
-        "Count": 1,
-        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:wood#oak\",\"tconstruct:bone\"],tic_modifiers:[{level:2,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:tilling\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":4.125f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":125.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":3.8500001f},tic_volatile_data:{abilities:1,upgrades:3}}"
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "hqm.quest.basic_survival.mattock.task.0.long_desc",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "tconstruct:small_axe_head",
-                "Count": 1,
-                "tag": "{Material:\"tconstruct:bone\"}"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "tconstruct:adze_head",
-                "Count": 1,
-                "tag": "{Material:\"tconstruct:bone\"}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "0f7c28b0-3881-419c-9d4b-ca936ad109f3"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "tconstruct:small_axe_head",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:iron\"}"
-        },
-        {
-          "id": "tconstruct:tool_handle",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:rose_gold\"}"
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -1962,6 +1372,596 @@
         {
           "id": "minecraft:string",
           "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a",
+      "name": {
+        "text": "hqm.quest.basic_survival.dirty_water.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.dirty_water.desc",
+        "isTranslationKey": true
+      },
+      "x": 142,
+      "y": 75,
+      "icon": {
+        "id": "minecraft:potion",
+        "Count": 1,
+        "tag": "{Potion:\"minecraft:water\",Purity:0}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "description": {
+            "text": "hqm.taskType.detect.title",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.dirty_water.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": "{Potion:\"minecraft:water\",Purity:0}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:dirt",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 2,
+          "tag": "{Potion:\"minecraft:water\",Purity:0}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "477e01c0-8641-4b6b-970f-7374b04f6a68",
+      "name": {
+        "text": "hqm.quest.basic_survival.hard_route.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.hard_route.desc",
+        "isTranslationKey": true
+      },
+      "x": 46,
+      "y": 129,
+      "icon": {
+        "id": "minecraft:skeleton_skull",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.hard_route.task.0.long_desc",
+            "isTranslationKey": true
+          }
+        }
+      ],
+      "prerequisites": [
+        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
+      ],
+      "optionlinks": [
+        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
+      ],
+      "reward": [
+        {
+          "id": "minecraft:birch_sapling",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:spruce_sapling",
+          "Count": 1
+        },
+        {
+          "id": "thermal:phytogro",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 4,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+        },
+        {
+          "id": "kubejs:nutrient_brick",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "485801ed-15cb-43f9-ac50-1e31cf9c97a0",
+      "name": {
+        "text": "hqm.quest.basic_survival.hammer.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.hammer.desc",
+        "isTranslationKey": true
+      },
+      "x": 126,
+      "y": 156,
+      "icon": {
+        "id": "kubejs:crushing_hammer",
+        "Count": 1,
+        "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.25f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":0.8f,\"tconstruct:durability\":75.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.basic_survival.hammer.task.0.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.hammer.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:crushing_hammer",
+                "Count": 1,
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.25f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":0.8f,\"tconstruct:durability\":75.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,upgrades:3}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.basic_survival.hammer.task.1.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.hammer.task.1.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gravel",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sand",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "804f4329-c6f5-4df8-915c-c590329cf26c"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:gravel",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:sand",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "496abe96-0a4d-47e9-9e30-e87ea63d3888",
+      "name": {
+        "text": "hqm.quest.basic_survival.soul_sand.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.soul_sand.desc",
+        "isTranslationKey": true
+      },
+      "x": 126,
+      "y": 48,
+      "icon": {
+        "id": "minecraft:soul_sand",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.basic_survival.soul_sand.task.0.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.soul_sand.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:mycelium_spores",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "hqm.quest.basic_survival.soul_sand.task.1.desc",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.soul_sand.task.1.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:soul_sand",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:soul_sand",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5f020d6d-64a9-4119-807f-f9619fb4ceac",
+      "name": {
+        "text": "hqm.quest.basic_survival.leather_insulation.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.leather_insulation.desc",
+        "isTranslationKey": true
+      },
+      "x": 206,
+      "y": 129,
+      "icon": {
+        "id": "kubejs:leather_insulation",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.leather_insulation.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:leather_insulation",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3f4bca77-f975-4406-9e7b-1cbe559b3068"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:leather",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6acadfe6-4853-4cf1-af89-d44bc0f42ce1",
+      "name": {
+        "text": "hqm.quest.basic_survival.paste.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.paste.desc",
+        "isTranslationKey": true
+      },
+      "x": 62,
+      "y": 48,
+      "icon": {
+        "id": "kubejs:paste",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.paste.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:paste",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "76cfa1f2-c3a7-4369-bc3c-2838db6384ef",
+        "799cc1e8-bdff-4470-b5e1-b983ebfd6624"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:wheat",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6cd42c29-0afd-49d5-b8ca-9c3c50a63970",
+      "name": {
+        "text": "hqm.quest.basic_survival.basic_sifting.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.basic_sifting.desc",
+        "isTranslationKey": true
+      },
+      "x": 62,
+      "y": 102,
+      "icon": {
+        "id": "exdeorum:oak_sieve",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "description": {
+            "text": "hqm.taskType.detect.title",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.basic_sifting.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bone_meal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7ee731c2-da61-4aab-a5fa-864fc4b62277",
+        "477e01c0-8641-4b6b-970f-7374b04f6a68"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:dirt",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6f4c9614-c79e-4016-b153-290df8016c8b",
+      "name": {
+        "text": "hqm.quest.basic_survival.string.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.string.desc",
+        "isTranslationKey": true
+      },
+      "x": 142,
+      "y": 129,
+      "icon": {
+        "id": "exdeorum:silk_worm",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.string.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:silk_worm",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "804f4329-c6f5-4df8-915c-c590329cf26c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:string",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "799cc1e8-bdff-4470-b5e1-b983ebfd6624",
+      "name": {
+        "text": "hqm.quest.basic_survival.centrifuge_water.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.centrifuge_water.desc",
+        "isTranslationKey": true
+      },
+      "x": 78,
+      "y": 75,
+      "icon": {
+        "id": "minecraft:oak_sapling",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.centrifuge_water.task.0.long_desc",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": "{Potion:\"minecraft:water\",Purity:2}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "Count": 2,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277",
+      "name": {
+        "text": "hqm.quest.basic_survival.easy_route.name",
+        "isTranslationKey": true
+      },
+      "description": {
+        "text": "hqm.quest.basic_survival.easy_route.desc",
+        "isTranslationKey": true
+      },
+      "x": 46,
+      "y": 75,
+      "icon": {
+        "id": "legumedelight:peanut_butter_and_jam_sandwich",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "longDescription": {
+            "text": "hqm.quest.basic_survival.easy_route.task.0.long_desc",
+            "isTranslationKey": true
+          }
+        }
+      ],
+      "prerequisites": [
+        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "sync:shell_constructor",
+          "Count": 1
+        },
+        {
+          "id": "thermal:energy_cell",
+          "Count": 1,
+          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;2B,2B,2B,2B,2B,2B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
+        },
+        {
+          "id": "cgm:shell",
+          "Count": 32
+        },
+        {
+          "id": "minecraft:oak_sapling",
+          "Count": 4
+        },
+        {
+          "id": "thermal:phytogro",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 8,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+        },
+        {
+          "id": "kubejs:nutrient_brick",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "legumedelight:peanut_butter_and_jam_sandwich",
+          "Count": 8,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}\u0027]}}"
+        },
+        {
+          "id": "legumedelight:bean_burger",
+          "Count": 8,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}\u0027]}}"
         }
       ],
       "commandrewards": []
