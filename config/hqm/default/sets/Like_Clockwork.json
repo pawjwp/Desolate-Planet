@@ -228,6 +228,7 @@
         "id": "create:millstone",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -434,6 +435,7 @@
         "id": "create:crushing_wheel",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -773,6 +775,7 @@
         "id": "create:precision_mechanism",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1056,6 +1059,7 @@
         "id": "create_mechanical_extruder:mechanical_extruder",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1601,6 +1605,7 @@
         "id": "create:mechanical_press",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

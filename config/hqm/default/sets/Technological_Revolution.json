@@ -192,6 +192,7 @@
         "id": "thermal:dynamo_compression",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

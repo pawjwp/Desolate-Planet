@@ -509,6 +509,7 @@
         "id": "thermal:silver_ingot",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

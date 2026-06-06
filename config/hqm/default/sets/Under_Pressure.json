@@ -915,6 +915,7 @@
         "id": "pneumaticcraft:printed_circuit_board",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

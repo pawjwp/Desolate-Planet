@@ -17,6 +17,7 @@
         "id": "kubejs:crashed_applied_controller",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -528,6 +529,7 @@
         "id": "tconstruct:manyullyn_ingot",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -683,6 +685,7 @@
         "id": "kubejs:crashed_reactor_frame",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -736,6 +739,7 @@
         "id": "tconstruct:seared_bricks",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
