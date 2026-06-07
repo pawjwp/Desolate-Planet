@@ -101,4 +101,7 @@
 	#- Disable crafting remainders in machines
 	#- Make Chiller, Refinery, and single-fluid Dynamos ignore fluid NBT for recipe/fuel matching
 	enable_thermal_patches = true
+	#Hide the Obscure API title-screen button.
+	#The button is added by Obscure API and cannot normally be hidden, only repositioned.
+	hide_obscure_api_menu_button = true
 

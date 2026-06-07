@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": {
+    "farmersdelight:cabbage": {
+      "vegetables": 0.04
+    },
     "farmersdelight:honey_cookie": {
       "grains": 0.015,
       "sugars": 0.04
@@ -8,6 +11,9 @@
     "farmersdelight:hot_cocoa": {
       "proteins": 0.025,
       "sugars": 0.18
+    },
+    "farmersdelight:minced_beef": {
+      "proteins": 0.03
     },
     "farmersdelight:sweet_berry_cookie": {
       "fruits": 0.005,

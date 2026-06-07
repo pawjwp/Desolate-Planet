@@ -8,7 +8,7 @@ You have survived a crash landing on Planet Talos, an uncharted planet in the Va
 
 You will need to brave the blazing heat, find sources of food and water, scour the planet for resources, build up technology, and search for a way to escape the planet.
 
-Desolate Planet is a challenging, quest-based modpack where you must struggle for survival on a dust planet with limited resources. The map is set to hardcore, you must use the [Sync](https://www.curseforge.com/minecraft/mc-mods/sync-fabric-rereported) mod to build yourself more lives.
+Desolate Planet is a challenging, quest-based modpack where you must struggle for survival on a dust planet with limited resources. The map is set to hardcore, you must use the [Sync](https://www.curseforge.com/minecraft/mc-mods/sync-rereported) mod to build yourself more lives.
 
 ![The Nuclear Plant](https://media.forgecdn.net/attachments/1294/505/1-copy-webp.webp)
 

@@ -1,1 +1,21 @@
-{}
+{
+  "creativetab.scarcity_tab": "Escasez",
+  "item.scarcity.oak_seed": "Bellota de roble",
+  "item.scarcity.spruce_seed": "Semilla de abeto",
+  "item.scarcity.birch_seed": "Semilla de abedul",
+  "item.scarcity.jungle_seed": "Semilla de la jungla",
+  "item.scarcity.acacia_seed": "Semilla de acacia",
+  "item.scarcity.dark_oak_seed": "Bellota de roble oscuro",
+  "item.scarcity.cherry_seed": "Hueso de cereza",
+  "item.scarcity.bamboo_seeds": "Semillas de bambú",
+  "item.scarcity.cactus_seeds": "Semillas de cactus",
+  "item.scarcity.sugar_cane_seeds": "Semillas de caña de azúcar ",
+  "item.scarcity.sweet_berry_seeds": "Semillas de bayas dulces",
+  "item.scarcity.potato_seeds": "Semillas de patata",
+  "item.scarcity.carrot_seeds": "Semillas de zanahoria",
+  "item.scarcity.rubberwood_seed": "Semilla de árbol de caucho",
+  "item.scarcity.onion_seeds": "Semillas de cebolla",
+  "attribute.scarcity.regen_speed": "Velocidad de regeneración",
+  "attribute.scarcity.fast_regen_speed": "Velocidad de regeneración lenta",
+  "attribute.scarcity.slow_regen_speed": "Velocidad de regeneración normal"
+}

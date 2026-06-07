@@ -1,1 +1,816 @@
-{}
+{
+  "hqm.questBook.infiniteLives": "Vidas extras a través de HQM están deshabilitadas, debes usar Sync para obtener más vidas.",
+
+  "hqm.quest_set.basic_survival.desc": "Guía para las etapas iniciales de supervivencia en un mundo desconocido.",
+
+
+
+  "hqm.quest.basic_survival.gathering_supplies.name": "Reuniendo suministros",
+  "hqm.quest.basic_survival.gathering_supplies.desc": "Lista de verificación de emergencia de supervivencia:\n\n1. Realiza auto-diagnósticos y administra primeros auxilios de emergencia para tratar cualquier lesión.\n2. Evalúa el entorno en busca de amenazas potenciales, recursos y refugio. Ejerce precaución alrededor del reactor desprendido, la contención se ha violado y se está filtrando combustible a alta temperatura.\n3. Raciona la comida y el agua disponibles. El sistema de reclamación de agua está dañado y filtrando, tendrás que encontrar una fuente alternativa de agua potable.\n4. Recupera suministros del almacenamiento de equipo de supervivencia de emergencia de la nave, ubicado en la caja negra arriba del poder de la nave. Los suministros disponibles incluyen:\n  a. Llave multipropósito\n  b. Tamiz de partículas básico\n  c. Arma de emergencia\n  d. Paquete de batería de emergencia\n  e. Unidad de ensamblaje portátil\n  f. Interfaz de entrada MAT\n5. Vuelve a consultar la unidad MAT cuando termines. El replicador debería poder proporcionar algunas botellas y algo de agua. Ha sufrido daños pero parece estar apenas funcional.\n6. Procedi al siguiente task de supervivencia disponible. Consulta tu unidad MAT regularmente para tasks recomendadas y consejos adaptativos para tu supervivencia continua.",
+  "hqm.quest.basic_survival.gathering_supplies.task.0.long_desc": "Si tienes problemas para sobrevivir tu primera noche, puede ayudarte hacer una trinchera alrededor de la nave. Usa el polvo que obtienes para construir un muro de 2 bloques en el interior de la trinchera. Eso debería mantenerte seguro de todo menos de arañas. Para lidiar con ellas, haz un pequeño alero de piedra o madera cuando puedas permitirte.",
+
+  "hqm.quest.basic_survival.easy_route.name": "La Ruta Fácil",
+  "hqm.quest.basic_survival.easy_route.desc": "En caso de aterrizaje de emergencia, estuviste equipado con un paquete de supervivencia de lujo:\n- Constructor de cáscara Sync\n- Celda de energía de repuesto\n- Cartuchos de escopeta extra\n- Saplings\n- Fertilizante\n- Botellas de agua\n- Ladrillos de nutrientes secos\n- Un sándwich a elección\nNota: Elige esto para una experiencia más fácil. Completar esta quest deshabilita la quest de ruta difícil.",
+  "hqm.quest.basic_survival.easy_route.task.0.long_desc": "Marca la casilla abajo para confirmar que quieres tomar la Ruta Fácil con el paquete de supervivencia de lujo. ¡Esto es irreversible!",
+
+  "hqm.quest.basic_survival.hard_route.name": "La Ruta Difícil",
+  "hqm.quest.basic_survival.hard_route.desc": "En caso de aterrizaje de emergencia, estuviste equipado con un paquete de supervivencia básico:\n- Saplings\n- Fertilizante\n- Botellas de agua\n- Ladrillos de nutrientes secos\nNota: Elige esta ruta si quieres un desafío. No esperes vivir. Completar esta quest deshabilita la quest de ruta fácil.",
+  "hqm.quest.basic_survival.hard_route.task.0.long_desc": "Marca la casilla abajo para confirmar que quieres tomar la Ruta Difícil con el paquete de supervivencia básico. ¡Esto es irreversible!",
+
+  "hqm.quest.basic_survival.basic_sifting.name": "De Vuelta a lo Básico",
+  "hqm.quest.basic_survival.basic_sifting.desc": "El fertilizante en tu paquete de supervivencia no durará mucho. Coloca la malla en el tamiz y tamiza algo de polvo para obtener polvo de hueso.",
+  "hqm.quest.basic_survival.basic_sifting.task.0.long_desc": "Si quieres tamizar más rápido, puedes colocar tamices uno al lado del otro, permitiendo que varios sean tamizados a la vez. Alternativamente, un tamiz comprimido ocupa solo un bloque y puede tamizar polvo comprimido.",
+
+  "hqm.quest.basic_survival.furnace.name": "Encendido",
+  "hqm.quest.basic_survival.furnace.desc": "A pesar de la alta temperatura del planeta, no está ni cerca de lo suficientemente caliente para cocinar comida o fundir metales. Para eso, necesitarás un horno.",
+  "hqm.quest.basic_survival.furnace.task.0.long_desc": "Puedes obtener piedra tamizando polvo o tierra para obtener guijarros de piedra. Alternativamente, con algo de planificación cuidadosa, podrías ser capaz de generar piedra conectando la fuga de agua en la parte trasera de la nave con la fuga de combustible del reactor desprendido. Una vez que tengas una fuente de piedra, puedes usarla para fabricar tu horno y comenzar a fundir.",
+
+  "hqm.quest.basic_survival.basic_metals.name": "Metal Desnudo",
+  "hqm.quest.basic_survival.basic_metals.desc": "Lo que Talos carece en agua, lo compensa en metales. Si pasas algo de tiempo tamizando, deberías ser capaz de obtener suficiente metal para establecer algo de infraestructura.",
+  "hqm.quest.basic_survival.basic_metals.task.0.long_desc": "Tamizar polvo y otros bloques soltará trozos de mineral de metal. Esos pueden ser fabricados en minerales y luego fundidos en lingotes.",
+
+  "hqm.quest.basic_survival.crucible.name": "Olla Fundidora",
+  "hqm.quest.basic_survival.crucible.desc": "Con un horno establecido, puedes dar el siguiente paso. Revisa el motor de proa, donde el sistema de reclamación de agua ha filtrado y convertido algo del polvo en arcilla. Cava eso, haz un crisol, y colócalo encima de una antorcha o algo de lava. En el crisol, no solo puedes fundir piedra en lava, sino que puedes fundir mineral y trozos de mineral en metal fundido. Todo lo que necesitas es una mesa de colado para colar el metal fundido en lingotes. Si alguna vez necesitas más arcilla, se puede hacer con agua y polvo en un barril.",
+  "hqm.quest.basic_survival.crucible.task.0.long_desc": "El crisol se puede usar para fundir minerales así como piedra, funcionando como un mini-fundidor. Shift-click derecho para colocar un grifo. Puede aceptar bloques de mineral o trozos. Si aún tienes lava junto al motor roto, puedes usar eso para calentar tu crisol. También, puedes hacer moldes vertiendo oro sobre partes de herramientas de madera.",
+  "hqm.quest.basic_survival.flint_mesh.name": "Analizar a fondo",
+  "hqm.quest.basic_survival.flint_mesh.desc": "La malla de cuerda puede ser mejorada a malla de pedernal para obtener mayores rendimientos. Puede ser mejorada más adelante cuando obtengas los recursos. Cada nivel de malla es mejor que el anterior.",
+  "hqm.quest.basic_survival.flint_mesh.task.0.long_desc": "Puedes obtener pedernal tamizando grava, que puede ser triturada de piedra con un martillo o encontrada cavando bajo tierra.",
+
+  "hqm.quest.basic_survival.advanced_metals.name": "Detector de Metales",
+  "hqm.quest.basic_survival.advanced_metals.desc": "Metales y cristales poco comunes se pueden encontrar tamizando arena, grava y pizarra profunda triturada.",
+  "hqm.quest.basic_survival.advanced_metals.task.0.long_desc": "Tamizar polvo suelta hierro, cobre, oro y redstone.\nTamizar arena suelta hierro, estaño, zinc, níquel, cuarzo y cuarzo certus.\nTamizar grava suelta hierro, cobre, oro, estaño, zinc, níquel, plomo, plata, carbón y redstone.\nTamizar pizarra profunda triturada suelta hierro, cobre, oro, plata, plomo, redstone, lapis, diamantes y esmeraldas.",
+
+
+
+  "hqm.quest.basic_survival.centrifuge_water.name": "Deshojando los brotes",
+  "hqm.quest.basic_survival.centrifuge_water.desc": "Otra forma de obtener agua es dejar caer algunos brotes o hojas en el Separador Centrifugo. Te dará un poco de agua. Recuerda, puedes alimentar tus máquinas con el capacitor de flujo de tu cofre de suministro de emergencia.",
+  "hqm.quest.basic_survival.centrifuge_water.task.0.long_desc": "Asegúrate de no usar todos tus brotes, la única forma de obtener más es de hojas o tamizando tierra.",
+
+  "hqm.quest.basic_survival.barrel_dirt.name": "Fondo del Barril",
+  "hqm.quest.basic_survival.barrel_dirt.desc": "Para tu supervivencia continua, necesitarás comenzar a cultivar plantas y árboles a mayor escala. Ninguno de ellos puede echar raíces en el polvo de este planeta. Sin embargo, puedes compostar material orgánico en un barril para hacer algo de tierra más para ti.",
+  "hqm.quest.basic_survival.barrel_dirt.task.0.long_desc": "Haz un barril con algunas tablas y losa, luego deja caer algunas hojas o plantones en él para comenzar a compostarlo en tierra. Estarás cultivando en poco tiempo.",
+
+  "hqm.quest.basic_survival.dirty_water.name": "Ensuciarse las manos",
+  "hqm.quest.basic_survival.dirty_water.desc": "El agua es escasa en este planeta. Si te deseperas lo suficiente, puedes exprimir el líquido de algo de tierra para obtener agua muy sucia. Asegúrate de no usar toda tu tierra, la necesitarás para cultivar árboles y plantas.",
+  "hqm.quest.basic_survival.dirty_water.task.0.long_desc": "Con una botella vacía y tierra juntas puedes obtener agua sucia.",
+
+  "hqm.quest.basic_survival.acceptable_water.name": "Puro y Simple",
+  "hqm.quest.basic_survival.acceptable_water.desc": "El agua sucia puede ayudarte en un apuro, pero para supervivencia a largo plazo, necesitarás purificarla.",
+  "hqm.quest.basic_survival.acceptable_water.task.0.long_desc": "La forma más fácil de purificar agua es con fuego. Pon una botella de agua sucia en un horno, aplica algo de calor, y obtendrás agua limpia y potable. También puedes hacer agua aceptable directamente fundiendo materia orgánica.",
+
+  "hqm.quest.basic_survival.purified_water.name": "Certificado de buena salud",
+  "hqm.quest.basic_survival.purified_water.desc": "Purificar usando fuego puede proporcionar mucha agua limpia, pero funciona lentamente. Para un método más rápido y portátil, puedes fabricar filtros de agua.",
+  "hqm.quest.basic_survival.purified_water.task.0.long_desc": "Los filtros de agua se pueden usar con botellas de agua o cubos para purificarlos en un nivel.",
+
+  "hqm.quest.basic_survival.camel_pack.name": "The Last Straw",
+  "hqm.quest.basic_survival.camel_pack.desc": "Los supervivientes del desierto han hecho uso mucho tiempo de reservorios de agua portátiles para la hidratación. El más útil de los cuales incluye un popote incorporado que se conecta a la boca del usuario, permitiéndoles beber cuando quieran.",
+  "hqm.quest.basic_survival.camel_pack.task.0.long_desc": "Las mochilas de hidratación se pueden llenar con líquido para proporcionar hidratación pasivamente. El tanque adjunto se puede llenar desde la mayoría de los bloques de tanque, o fabricando junto con botellas y cubos. El filtro ayuda a purificar automáticamente la mayoría del agua, pero al fabricar, debes usar botellas con una pureza de Aceptable o Purificada. Los morrales de camello se pueden mejorar para obtener mayor capacidad, y eventualmente para absorber agua directamente del aire.",
+
+
+
+  "hqm.quest.basic_survival.paste.name": "Cortar y Pegar",
+  "hqm.quest.basic_survival.paste.desc": "Si necesitas pegar algo en un apuro, no necesitas encontrar slime para hacerlo. Resulta que mezclar agua y harina hace un gran adhesivo.",
+  "hqm.quest.basic_survival.paste.task.0.long_desc": "Combina algo de agua y trigo juntos para hacer pasta, una sustancia pegajosa que se puede usar en muchas recetas en lugar de slimeballs.",
+
+  "hqm.quest.basic_survival.rich_soil.name": "Suelo Fértil",
+  "hqm.quest.basic_survival.rich_soil.desc": "Deberías ser capaz de hacer suelo más fértil mezclando algunos materiales compostables en tierra y dejándolo reposar por unos días. Cuando esté listo, se puede arar y usar como tierra de cultivo normal, pero cualquier cosa plantada en ella crecerá más rápido.",
+  "hqm.quest.basic_survival.rich_soil.task.0.desc": "Compost Orgánico",
+  "hqm.quest.basic_survival.rich_soil.task.0.long_desc": "Mezclar algunos materiales compostables en tierra hará compost orgánico.",
+  "hqm.quest.basic_survival.rich_soil.task.1.desc": "Suelo Rico",
+  "hqm.quest.basic_survival.rich_soil.task.1.long_desc": "El compost orgánico se convertirá en suelo rico si se deja afuera por un tiempo. Si lo colocas en luz solar, cerca de agua y/o cerca de bloques de hongo, el proceso se acelerará.",
+
+  "hqm.quest.basic_survival.soul_sand.name": "Alma Vieja",
+  "hqm.quest.basic_survival.soul_sand.desc": "La dura realidad es que estás atrapado en este planeta. Ninguna cantidad de rectángulos de obsidiana te permitirá escapar. Sin embargo, la situación significa que no puedes obtener algunos recursos (como arena de almas) por métodos normales.",
+  "hqm.quest.basic_survival.soul_sand.task.0.desc": "Esporas",
+  "hqm.quest.basic_survival.soul_sand.task.0.long_desc": "Para empezar, tendrás que tamizar algo de tierra, probablemente mucho. Eventualmente encontrarás algunas esporas de micelio. Planta las esporas en un pedazo de tierra y obtendrás micelio.",
+  "hqm.quest.basic_survival.soul_sand.task.1.desc": "Infusión de Agua de Bruja",
+  "hqm.quest.basic_survival.soul_sand.task.1.long_desc": "Colocar algo de micelio debajo de un barril lleno de agua lo convertirá lentamente en Agua de Bruja. Pon algo de arena en un barril de Agua de Bruja y se convertirá en arena de almas.",
+
+  "hqm.quest.basic_survival.netherrack_end_stone.name": "Quemar Ambos Extremos",
+  "hqm.quest.basic_survival.netherrack_end_stone.desc": "Este mundo no tiene lagos de lava ni dragones, así que tendrás que conseguir algunos materiales de otras formas. Un barril lleno de lava puede convertirse en netherrack o piedra del ender usando redstone o piedra luminosa respectivamente.",
+  "hqm.quest.basic_survival.netherrack_end_stone.task.0.long_desc": "Coloca un barril, llénalo con lava, y hazle clic con redstone o piedra luminosa. Asegúrate de usar un barril de piedra, o arriesgas extender lava por todas partes. Cuando tengas acceso a fundición avanzada, puedes hacer netherrack y piedra del ender con una extrusora y algo de redstone líquida o perlas de ender.",
+
+
+
+  "hqm.quest.basic_survival.tinker_tables.name": "Tinker, Tailor",
+  "hqm.quest.basic_survival.tinker_tables.desc": "Un arma o herramienta finamente fabricada no es tan fácil como atar algunas piedras a un palo. De hecho, herramientas básicas como esa no funcionarán para ti en absoluto. Tendrás que hacer uso del mod Tinkers.",
+  "hqm.quest.basic_survival.tinker_tables.task.0.desc": "Mesas de Trabajo",
+  "hqm.quest.basic_survival.tinker_tables.task.0.long_desc": "Primero, haz una part builder y una tinker station. La part builder te permite hacer partes combinando un patrón y un material. La tinker station te permite ensamblar partes en herramientas.",
+  "hqm.quest.basic_survival.tinker_tables.task.1.desc": "Mangos",
+  "hqm.quest.basic_survival.tinker_tables.task.1.long_desc": "Cada herramienta necesita un mango, un mango de madera debería funcionar. Puedes hacer uno poniendo algo de madera en el part builder con un patrón.",
+
+  "hqm.quest.basic_survival.crook.name": "Por Un Medio o Por Otro",
+  "hqm.quest.basic_survival.crook.desc": "Romper hojas dará brotes, pero la probabilidad de caída es baja. Al derribarlas con un gancho, puedes triplicar tu probabilidad de encontrar brotes. Tal vez puedas encontrar algo más útil en las hojas también.",
+  "hqm.quest.basic_survival.crook.task.0.long_desc": "Un gancho aumentará la probabilidad de caída de brotes de hojas, y tiene una pequeña probabilidad de dar un gusano de seda. Los ganchos se fabrican con palos o en una estación de artesano.",
+
+  "hqm.quest.basic_survival.string.name": "Teoría de Cuerdas",
+  "hqm.quest.basic_survival.string.desc": "Los gusanos de seda se pueden encontrar en hojas de árboles, y bajo ciertas condiciones, se propagarán a través de un árbol, tejiendo capullos de seda utilizable.",
+  "hqm.quest.basic_survival.string.task.0.long_desc": "Haz clic derecho con un gusano de seda en algunas hojas para infestarlas. Los bloques de hojas infestadas soltarán cuerda y más gusanos de seda, y los gusanos de seda se propagarán a bloques de hojas adyacentes. Esto es útil para obtener cuerda. Rompe las hojas infestadas con un gancho para mayores rendimientos.",
+
+  "hqm.quest.basic_survival.desert_clothes.name": "Dejándolo Respirar",
+  "hqm.quest.basic_survival.desert_clothes.desc": "Los habitantes del planeta desierto han desarrollado ropa efectiva que puede ayudarte a mantenerte fresco en el calor abrasador. Esta ropa proporciona aislamiento de las temperaturas externas pero también permite suficiente flujo de aire para liberar calor corporal cuando está más frío que tú. También proporcionan alta cobertura, protegiéndote de los rayos del sol.",
+  "hqm.quest.basic_survival.desert_clothes.task.0.long_desc": "La Armadura del Desierto proporciona excelentes propiedades de protección contra el calor. Está hecha principalmente de cuero y cuerda. El cuero se puede obtener cocinando carne podrida y la cuerda se puede obtener de hojas infestadas con gusanos de seda.",
+
+  "hqm.quest.basic_survival.leather_insulation.name": "Escudo Térmico",
+  "hqm.quest.basic_survival.leather_insulation.desc": "La ropa del desierto es útil para protección, pero es voluminosa y no te permite usar armadura con ella. Una alternativa es poner una capa delgada de material aislante entre tú y tu armadura. Esto generalmente no es tan efectivo, pero permite más protección contra ataques.",
+  "hqm.quest.basic_survival.leather_insulation.task.0.long_desc": "Los artículos de aislamiento se pueden colocar en la ranura de aislamiento de curios, y proporcionan cantidades más pequeñas de protección contra el calor, pero permitiendo que se use armadura al mismo tiempo.",
+
+  "hqm.quest.basic_survival.stillsuit.name": "Nadando en Agua Extraña",
+  "hqm.quest.basic_survival.stillsuit.desc": "El calor abrasador del sol a menudo solo es soportable desde dentro de un refugio. Sin embargo, hay historias de supervivientes que pueden pasar semanas seguidas en calor mortal usando trajes especiales. Estos trajes de destilación envuelven completamente a alguien, recuperando el agua perdida y usándola tanto para regular la temperatura como para beber.",
+  "hqm.quest.basic_survival.stillsuit.task.0.long_desc": "El traje de destilación proporciona más protección contra los elementos que cualquier otro tipo de aislamiento, y reduce a la mitad la tasa de consumo de agua del usuario.",
+
+
+
+  "hqm.quest.basic_survival.mattock.name": "Rompiendo Nuevo Suelo",
+  "hqm.quest.basic_survival.mattock.desc": "También necesitarás algunas herramientas para mantenerte vivo aquí afuera. Las herramientas de hueso son probablemente el mejor material de inicio, pero puedes hacer un tipo diferente si lo prefieres. Las herramientas de madera y piedra son generalmente inefectivas.",
+  "hqm.quest.basic_survival.mattock.task.0.long_desc": "Puedes hacer un mattock con las cabezas de hacha y adze, será una herramienta esencial para la agricultura al principio. Eventualmente podrías querer una pico y algunas otras herramientas, pero cultivar comida es vital para tu supervivencia, y el mattock puede ayudar a minar troncos y polvo también.",
+
+  "hqm.quest.basic_survival.sword.name": "Vivir para Luchar Otro Día",
+  "hqm.quest.basic_survival.sword.desc": "La noche es oscura y llena de terrores. Tus probabilidades de supervivencia son bajas, pero puedes mejorarlas con algún tipo de arma para defenderte.",
+  "hqm.quest.basic_survival.sword.task.0.long_desc": "Las hojas de arma se pueden hacer de una variedad de materiales, aunque las hojas de hueso suelen ser las más fuertes al comenzar. Las partes de herramientas de hueso se pueden hacer de huesos o polvo de hueso en una part builder.",
+
+  "hqm.quest.basic_survival.hammer.name": "Hora del Martillo",
+  "hqm.quest.basic_survival.hammer.desc": "La superficie de Talos está cubierta de materiales tamizables como el polvo, arena, grava y pizarra profunda triturada se pueden encontrar al excavar. Estos bloques también se pueden hacer triturando otros bloques con un martillo. Los martillos se pueden usar para triturar piedra en grava, grava en arena, y arena en polvo.",
+  "hqm.quest.basic_survival.hammer.task.0.desc": "Martillos",
+  "hqm.quest.basic_survival.hammer.task.0.long_desc": "Un martillo puede triturar piedra en grava y arena. Se puede hacer como una herramienta del mod tinker.",
+  "hqm.quest.basic_survival.hammer.task.1.desc": "Triturando",
+  "hqm.quest.basic_survival.hammer.task.1.long_desc": "Rompe piedra con un martillo para obtener grava, y rompe grava para obtener arena. Puedes generar piedra donde el agua en flujo y la lava se encuentran. Las fugas de agua y combustible cerca de la parte trasera de la nave podrían conectarse para una fuente temprana de piedra.",
+
+  "hqm.quest.basic_survival.mob_drops.name": "El Turno de Noche",
+  "hqm.quest.basic_survival.mob_drops.desc": "La \"vida\" en Talos parece estar compuesta principalmente de los cuerpos animados de sus antiguos habitantes, todos los cuales parecen hostiles. La estrategia óptima de supervivencia es evitar la confrontación, pero algunos de ellos dejan atrás objetos útiles cuando son asesinados.",
+  "hqm.quest.basic_survival.mob_drops.task.0.desc": "Esperando a un héroe...",
+  "hqm.quest.basic_survival.mob_drops.task.0.long_desc": "mata mobs para recolectar su botín. La carne podrida se puede usar para zombie jerky o fundirse en cuero. Los huesos se pueden usar como material de herramienta temprano o para hacer polvo de hueso para cultivos. Los ojos de araña se pueden usar para hacer sopa, y la pólvora puede hacer todo tipo de explosivos.",
+  "hqm.quest.basic_survival.mob_drops.task.1.desc": "...hasta el final de la noche.",
+  "hqm.quest.basic_survival.mob_drops.task.1.long_desc": "El botín de mob más interesante es la perla de ender. No solo puede teletransportar al jugador cuando se lanza, pero sus propiedades relacionadas con la teletransportación permiten hacer todo tipo de objetos interesantes con ella.",
+
+
+
+  "hqm.quest.basic_survival.shell_constructor.name": "1-Vida extra!!",
+  "hqm.quest.basic_survival.shell_constructor.desc": "Este planeta está lleno de peligros y hostiles. Eventualmente necesitarás aventurarte fuera de los confines de tu nave, pero eso plantea muchos riesgos. Sin embargo, con un poco de esfuerzo, podrías ser capaz de darte una segunda oportunidad si lo peor sucede. Un Shell Constructor es la clave para la vida después de la (primera) muerte. Una vez que hagas uno, necesitarás proporcionar energía y una muestra de sangre y te construirá un nuevo cuerpo.",
+  "hqm.quest.basic_survival.shell_constructor.task.0.desc": "Shell Construction",
+  "hqm.quest.basic_survival.shell_constructor.task.0.long_desc": "Coloca el Shell Construction, dale una fuente de energía, y hazle clic derecho para proporcionar la muestra de ADN. Ten cuidado, dolerá un poco.",
+  "hqm.quest.basic_survival.shell_storage.name": "Seguro de Vida",
+  "hqm.quest.basic_survival.shell_storage.desc": "A veces, una vida simplemente no es suficiente. En esos casos, puedes usar un Shell Storage para mantener un Shell extra. Cuando mueras, serás enviado a un Shell aleatorio.",
+  "hqm.quest.basic_survival.shell_storage.task.0.desc": "Shell Storage",
+  "hqm.quest.basic_survival.shell_storage.task.0.long_desc": "Si tienes otro Shell disponible, puedes poner tu cuerpo actual en almacenamiento. Simplemente camina hacia la cámara del shell storage y te permitirá transferirte a cualquier Cáscara disponible.",
+  "hqm.quest.basic_survival.shell_storage.task.1.desc": "Términos y Condiciones",
+  "hqm.quest.basic_survival.shell_storage.task.1.long_desc": "Algunas advertencias importantes:\n\n1. Cuando entras en almacenamiento para cambiar Shell, tus objetos se quedan en ese cuerpo. Vacía tu inventario antes de sincronizar a menos que tengas múltiples cámaras de Almacenamiento de Cáscaras disponibles.\n2. Si un shell storage se rompe, el Shell que está almacenando se perderá y su inventario se dispersará en el suelo.\n\nMarca la casilla abajo para reconocer los términos y condiciones de Sync™.",
+
+
+
+  "hqm.quest.basic_survival.easy_route_trigger.name": "Easy Route Trigger",
+  "hqm.quest.basic_survival.easy_route_trigger.desc": "Invisible trigger quest to control quests unlocked by the easy route",
+
+  "hqm.quest.basic_survival.pressed_metal_trigger.name": "Pressed Metal",
+  "hqm.quest.basic_survival.pressed_metal_trigger.desc": "Invisible trigger quest for when the player unlocks an the press.",
+
+  "hqm.quest.basic_survival.alloying_trigger.name": "Alloying",
+  "hqm.quest.basic_survival.alloying_trigger.desc": "Invisible trigger quest for when the player unlocks an alloying method.",
+
+
+
+
+
+
+
+
+
+  "hqm.quest_set.the_food_pyramid.desc": "Guía para adquirir y cocinar comida de los recursos disponibles en el planeta.",
+
+
+
+  "hqm.quest.the_food_pyramid.grains.name": "Against the Grain",
+  "hqm.quest.the_food_pyramid.grains.desc": "Necesitarás mantener una dieta equilibrada para sobrevivir sin efectos negativos. Encontrar una fuente confiable de granos es la parte más urgente eso debido a tus inmensas necesidades nutricionales. Los granos afectan tu movimiento, minería y velocidad de ataque.",
+  "hqm.quest.the_food_pyramid.grains.task.0.long_desc": "El trigo y el arroz son los granos principales, usados para pan, sándwiches, dulces, y una variedad de comidas. Las semillas de trigo y el arroz se pueden encontrar tamizando tierra. El arroz debe plantarse en un bloque de fuente de agua para crecer, haciendo más difícil cultivarlo a escala.",
+
+  "hqm.quest.the_food_pyramid.proteins.name": "Frijoles Mágicos",
+  "hqm.quest.the_food_pyramid.proteins.desc": "Las proteínas son la siguiente parte más importante de una dieta equilibrada, Su necesidad aunque inferior a los granos requiere igualmente mucha Atencion . Las proteínas afectan tu fuerza de ataque.",
+  "hqm.quest.the_food_pyramid.proteins.task.0.long_desc": "Los frijoles y los maníes son las proteínas basadas en plantas principales. Se pueden usar para sopas, sándwiches, dulces, y más. Ambos tienen una probabilidad de caer de tamizar tierra, o se pueden encontrar en casas de granjas abandonadas.",
+
+  "hqm.quest.the_food_pyramid.vegetables.name": "Un jardín variado ",
+  "hqm.quest.the_food_pyramid.vegetables.desc": "Las verduras son otra parte importante de tu dieta equilibrada, no las ignores sin importar que tanto te disgusten. Las verduras afectan tu resistencia al daño.",
+  "hqm.quest.the_food_pyramid.vegetables.task.0.long_desc": "Hay una gran variedad de verduras para elegir para tus comidas, y son esenciales para muchos platos. Cada semilla de verdura tiene una pequeña probabilidad de caer de tamizar tierra, o se puede encontrar en casas de granjas abandonadas.",
+
+  "hqm.quest.the_food_pyramid.fruits.name": "Los frutos de tu trabajo",
+  "hqm.quest.the_food_pyramid.fruits.desc": "Las frutas son otra parte importante de tu dieta equilibrada. Las frutas afectan tu velocidad de regeneración de salud.",
+  "hqm.quest.the_food_pyramid.fruits.task.0.long_desc": "Hay tres frutas principales para cultivar; manzanas, bayas dulces y Sandias. Además, los tomates se consideran tanto fruta como verdura.\nLas manzanas caen de hojas de roble, mientras que las bayas dulces y las semillas de melón tienen una pequeña probabilidad de caer de tamizar tierra, o se pueden encontrar en casas de granjas abandonadas.\nLas manzanas son más fáciles de obtener en pequeñas cantidades, pero las bayas dulces son las más fáciles de cultivar cuando necesitas una fuente más permanente de frutas.",
+
+  "hqm.quest.the_food_pyramid.sugars.name": "Endulzándolo",
+  "hqm.quest.the_food_pyramid.sugars.desc": "Los azúcares no son necesarios para una dieta equilibrada pero pueden ser útiles para energía cuando los necesitas. Pequeñas cantidades pueden acelerarte, pero demasiado azúcar dará efectos negativos.",
+  "hqm.quest.the_food_pyramid.sugars.task.0.long_desc": "El azúcar se puede hacer de caña de azúcar, que se puede obtener de tamizar tierra.",
+
+
+
+  "hqm.quest.the_food_pyramid.bread.name": "Breaking Bread",
+  "hqm.quest.the_food_pyramid.bread.desc": "No solo el pan es un alimento básico dietético increíblemente simple, sino que se puede procesarse en una variedad de otras comidas útiles.",
+  "hqm.quest.the_food_pyramid.bread.task.0.long_desc": "El pan se puede hacer de tres trigos. Una vez que tengas acceso a herramientas de trituración, puedes hacer pan más eficientemente de harina de trigo.",
+
+  "hqm.quest.the_food_pyramid.beans_and_rice.name": "Necesidades Básicas",
+  "hqm.quest.the_food_pyramid.beans_and_rice.desc": "Los frijoles y el arroz son un plato muy simple de hacer pero muy nutritivo.",
+  "hqm.quest.the_food_pyramid.beans_and_rice.task.0.long_desc": "Los frijoles y el arroz se pueden hacer de frijoles y arroz, sin cosas raras de por medio, cocinados juntos en una olla.",
+
+  "hqm.quest.the_food_pyramid.peanut_butter_and_jam_sandwich.name": "Todo puede ser un Sándwich",
+  "hqm.quest.the_food_pyramid.peanut_butter_and_jam_sandwich.desc": "Los sandwiches de mantequilla de maní y mermelada o para abreviar PB&Js son un clásico fácil de hacer y nutritivo.",
+  "hqm.quest.the_food_pyramid.peanut_butter_and_jam_sandwich.task.0.long_desc": "La mantequilla de maní se hace de maníes, el pan de trigo, y tu elección de fruta.",
+
+  "hqm.quest.the_food_pyramid.pasta_and_tomato_sauce.name": "Espagueti de Mamá",
+  "hqm.quest.the_food_pyramid.pasta_and_tomato_sauce.desc": "Los espaguetis y salsa de tomate son una fuente rápida de múltiples grupos de alimentos.",
+  "hqm.quest.the_food_pyramid.pasta_and_tomato_sauce.task.0.long_desc": "Los espaguetis se hacen de masa, que se hace de trigo y agua. La salsa de tomate se hace de 2 tomates. Esto crea un plato simple de 2 ingredientes.",
+
+
+
+  "hqm.quest.the_food_pyramid.zombie_jerky.name": "Tiempos Desesperados...",
+  "hqm.quest.the_food_pyramid.zombie_jerky.desc": "Talos parece carecer completamente de vida vegetal, lo que no deja mucho que comer una vez que se agotan tus raciones. Como solución temporal, puedes tener que sostenerte con la carne recolectada de los no muertos que emergen de noche.",
+  "hqm.quest.the_food_pyramid.zombie_jerky.task.0.desc": "Sal",
+  "hqm.quest.the_food_pyramid.zombie_jerky.task.0.long_desc": "El polvo en Talos tiene una alta concentración de sal. La sal se puede usar para curar y conservar comida, haciendo que sea segura para consumo. Tamiza algo de polvo para recolectar sal.",
+  "hqm.quest.the_food_pyramid.zombie_jerky.task.1.desc": "Carne Podrida",
+  "hqm.quest.the_food_pyramid.zombie_jerky.task.1.long_desc": "Los zombies que cazan de noche parecen quemarse cada mañana, dejando su carne atrás. Si tienes cuidado, podrías recolectar algo de ella, pero ten cuidado con cualquier criatura que no se quemó.",
+  "hqm.quest.the_food_pyramid.zombie_jerky.task.2.desc": "...Medidas Desesperadas",
+  "hqm.quest.the_food_pyramid.zombie_jerky.task.2.long_desc": "Combinar un pedazo de carne podrida con algo de sal hará algo comestible. No es una fuente fuerte de nutrición, pero es mucho menos venenosa que la carne podrida normal y debería ser adecuada hasta que se pueda encontrar mejor comida.",
+
+  "hqm.quest.the_food_pyramid.monster_mash.name": "It Was a Graveyard Smash",
+  "hqm.quest.the_food_pyramid.monster_mash.desc": "El Zombie jerky es una fuente de comida pobre a largo plazo. Sin embargo, no tienes muchas opciones en este momento. Para agregar un poco de variedad a tu dieta, puedes fabricar algo de comida del botín de mobs.",
+  "hqm.quest.the_food_pyramid.monster_mash.task.0.long_desc": "El monster mash se hace mezclando carne podrida, huesos y sal juntos.",
+
+  "hqm.quest.the_food_pyramid.bug_broth.name": "Bugging Out",
+  "hqm.quest.the_food_pyramid.bug_broth.desc": "El monster mash deja mucho que desear. Tal vez cocinar algunas partes de monstros en una sopa los hará saber un poco mejor, si puedes ignorar de qué está hecho.",
+  "hqm.quest.the_food_pyramid.bug_broth.task.0.long_desc": "El caldo de bichos se hace mezclando algo de sal y partes de bichos en una olla de cocina.",
+
+  "hqm.quest.the_food_pyramid.enderios.name": "Pearl Jam",
+  "hqm.quest.the_food_pyramid.enderios.desc": "La perla de ender es un material fascinante con propiedades interesantes. Parece que podría convertirse en una fuente de comida viable si se neutraliza con algo de pólvora. Ten cuidado igualmente, ya que puede haber algunos efectos secundarios extraños de comerla.",
+  "hqm.quest.the_food_pyramid.enderios.task.0.long_desc": "Los enderios se hacen mezclando polvo de perla de ender, trigo y pólvora en una olla de cocina.",
+
+
+
+  "hqm.quest.the_food_pyramid.cooking_pot.name": "La olla de la suerte",
+  "hqm.quest.the_food_pyramid.cooking_pot.desc": "Tu comida de inicio solo durará unos pocos días, así que estás en necesidad urgente de una fuente de comida. Si haces una olla de cocina, podrás preparar una variedad más amplia de comidas nutritivas.",
+  "hqm.quest.the_food_pyramid.cooking_pot.task.0.long_desc": "Una olla de cocina debe colocarse encima de una fuente de fuego para cocinar. La fuente de fuego más fácil de manejar es una fogata. Coloca una fogata en el suelo con la olla de cocina encima y estarás haciendo comidas en poco tiempo!, ¡Ten cuidado de no acercarte demasiado a la llama o arriesgas quemarte!",
+
+  "hqm.quest.the_food_pyramid.watering_can.name": "Haciendo Llover",
+  "hqm.quest.the_food_pyramid.watering_can.desc": "Obtener una fuente de comida es urgente, pero los cultivos crecen lentamente. El fertilizante en tu paquete de supervivencia no durará muy largo, así que invertir en otra forma de acelerar el crecimiento de cultivos es una buena idea.",
+  "hqm.quest.the_food_pyramid.watering_can.task.0.long_desc": "La regadera acelera el crecimiento de plantas cuando se usa en cultivos. Se puede mejorar para aumentar su capacidad y rango. Las regaderas avanzadas ya no consumirán agua una vez que hayan sido llenadas completamente por primera vez.",
+
+
+
+
+
+
+
+
+
+  "hqm.quest_set.like_clockwork.desc": "Guía para configurar automatización basada en fuerza rotacional con recursos mínimos.",
+
+
+
+  "hqm.quest.like_clockwork.simple_create.name": "Ir a lo esencial",
+  "hqm.quest.like_clockwork.simple_create.desc": "La unidad MAT es capaz de proporcionar una guía simple para crear dispositivos mecánicos usando fuerza rotacional, pero también tiene una guía más completa a la que se puede optar en su lugar. \u00A7l¡Esto es irreversible!\u00A7r",
+  "hqm.quest.like_clockwork.simple_create.task.0.long_desc": "La mayoría del mod Create no es necesario para completar este modpack. Si quieres saltar la guía de Create y solo jugar con las 6 misiones más relevantes, marca la casilla abajo. Si no, completa la misión \"A toda máquina\" en su lugar.",
+
+  "hqm.quest.like_clockwork.detailed_create.name": "A toda máquina",
+  "hqm.quest.like_clockwork.detailed_create.desc": "La unidad MAT es capaz de proporcionar una guía completa para crear dispositivos mecánicos usando fuerza rotacional, pero también tiene una guía abreviada a la que se puede optar en su lugar. \u00A7l¡Esto es irreversible!\u00A7r",
+  "hqm.quest.like_clockwork.detailed_create.task.0.long_desc": "La mayoría del mod Create no es necesario para completar este modpack. Si quieres la guía completa de Create con 30+ misiones, marca la casilla abajo. Si no, completa la misión \"Ir a lo esencial\" en su lugar.",
+
+  "hqm.quest.like_clockwork.andesite_alloy_simple_create.name": "Comenzando desde el Fondo",
+  "hqm.quest.like_clockwork.andesite_alloy_simple_create.desc": "Necesitarás algunos bloques de construcción básicos antes de poder comenzar a configurar maquinaria.",
+  "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.0.desc": "Aleación de Andesita",
+  "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.0.long_desc": "La aleación de andesita se usa para máquinas simples y sirve como bloque de construcción para todo tipo de partes móviles. Se hace de andesita y virutas de hierro o zinc. Recuerda, la andesita se puede fabricar de piedra y cualquier tipo de cuarzo.",
+  "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.1.desc": "Ejes y Carcasas",
+  "hqm.quest.like_clockwork.andesite_alloy_simple_create.task.1.long_desc": "Los ejes se hacen de aleación de andesita y sirven como una parte giratoria simple a la que otras máquinas pueden conectarse.\n\nLa carcasa de andesita se puede usar para hacer maquinaria básica. Se fabrica haciendo clic derecho en un tronco de madera sin corteza con aleación de andesita.",
+
+  "hqm.quest.like_clockwork.andesite_alloy_detailed_create.name": "Comenzando desde el Fondo",
+  "hqm.quest.like_clockwork.andesite_alloy_detailed_create.desc": "Necesitarás algunos bloques de construcción básicos antes de poder comenzar a configurar maquinaria.",
+  "hqm.quest.like_clockwork.andesite_alloy_detailed_create.task.0.desc": "Aleación de Andesita",
+  "hqm.quest.like_clockwork.andesite_alloy_detailed_create.task.0.long_desc": "La aleación de andesita se usa para máquinas simples y sirve como bloque de construcción para todo tipo de partes móviles. Se hace de andesita y virutas de hierro o zinc. Recuerda, la andesita se puede fabricar de piedra y cualquier tipo de cuarzo.",
+  "hqm.quest.like_clockwork.andesite_alloy_detailed_create.task.1.desc": "Ejes y Carcasas",
+  "hqm.quest.like_clockwork.andesite_alloy_detailed_create.task.1.long_desc": "Los ejes se hacen de aleación de andesita y sirven como una parte giratoria simple a la que otras máquinas pueden conectarse.\n\nLa carcasa de andesita se puede usar para hacer maquinaria básica. Se fabrica haciendo clic derecho en un tronco de madera sin corteza con aleación de andesita.",
+
+
+
+  "hqm.quest.like_clockwork.hand_crank.name": "Tomando el Control de las Cosas",
+  "hqm.quest.like_clockwork.hand_crank.desc": "La fuerza rotacional es un método simple de transmitir energía para automatización antes de que la electricidad se convierta en una alternativa viable. Uno de los métodos más fáciles de crear energía rotacional es girar manualmente una manivela.",
+  "hqm.quest.like_clockwork.hand_crank.task.0.long_desc": "La manivela manual produce una pequeña cantidad de fuerza rotacional cuando se opera. Al mantener clic derecho, la manivela gira en sentido antihorario, y usando shift + clic derecho invierte la dirección. Cada uso gira la manivela a 32 RPM durante aproximadamente 0.5 segundos, entregando una rotación de 90° a cualquier rodamiento mecánico directamente conectado con una relación 1:1. Sin embargo, usar la manivela consumirá tu hambre, haciéndola una fuente de energía limitada, aunque simple. Para hacerla, todo lo que necesitarás es tres tablas y una aleación de andesita.",
+
+  "hqm.quest.like_clockwork.windmill.name": "Viento en tus Velas",
+  "hqm.quest.like_clockwork.windmill.desc": "La fuerza rotacional es un método simple de transmitir energía para automatización antes de que la electricidad se convierta en una alternativa viable. Uno de los métodos más efectivos de aprovechar la energía rotacional natural es aprovechar la energía del viento.",
+  "hqm.quest.like_clockwork.windmill.task.0.long_desc": "Un molino de viento es un generador de energía automático que produce fuerza rotacional usando un rodamiento de molino de viento y al menos ocho bloques de tipo vela, como velas de molino de viento, marcos de vela, o bloques de lana. Para construir un molino de viento, adjunta cualquier bloque al lado pegajoso del Rodamiento de Molino de Viento, que viene pre-pegado por conveniencia, y luego conecta bloques de tipo vela al bloque central que acabas de colocar. El molino de viento se vuelve funcional una vez que tiene al menos ocho bloques de vela, generando 1 RPM y 512 unidades de estrés (SU) por cada incremento de ocho velas, hasta un máximo de 8192 SU en 128 velas. La orientación de las velas no afecta el rendimiento; pueden colocarse en cualquier forma o patrón. Puedes comenzar o detener el molino de viento haciendo clic derecho en el rodamiento con una mano vacía y puedes cambiar su dirección de giro interactuando con el centro del rodamiento. Por defecto, el molino de viento gira en sentido horario, pero esto puede invertirse usando una llave.",
+
+  "hqm.quest.like_clockwork.water_wheel.name": "Cambiando las Mareas",
+  "hqm.quest.like_clockwork.water_wheel.desc": "La fuerza rotacional es un método simple de transmitir energía para automatización antes de que la electricidad se convierta en una alternativa viable. Uno de los métodos más simples de aprovechar la energía rotacional natural es aprovechar la energía del agua en flujo.",
+  "hqm.quest.like_clockwork.water_wheel.task.0.long_desc": "La rueda hidráulica es un generador de energía simple que produce fuerza rotacional cuando el agua fluye alrededor de ella. Coloca la rueda hidráulica en agua en flujo y producirá fuerza rotacional. Múltiples ruedas hidráulicas pueden alinearse para aumentar la carga haciéndola una forma fácil de generar cantidades más grandes de energía.",
+
+
+
+  "hqm.quest.like_clockwork.belts_funnels.name": "una muesca en tu cinturón",
+  "hqm.quest.like_clockwork.belts_funnels.desc": "El transporte de objetos es vital para la automatización, y las cintas transportadoras son una forma simple de usar fuerza rotacional para mover cosas de un punto a otro.",
+  "hqm.quest.like_clockwork.belts_funnels.task.0.desc": "Cintas",
+  "hqm.quest.like_clockwork.belts_funnels.task.0.long_desc": "Para colocar una cinta, debes tener al menos dos ejes mirando en la misma dirección; simplemente haz clic derecho en un eje y luego en el otro. Un solo item de Cinta Mecánica se usa independientemente de la distancia, siempre que la longitud esta cinta se encuentre por debajo de 20 bloques. Las cintas pueden colocarse en líneas rectas u horizontalmente, verticalmente, o diagonalmente (a una inclinación de 45°), siempre que no haya obstrucciones.\nPuedes extender o acortar las cintas haciendo clic derecho con una cinta o una llave, lo que también re-posicionará el eje. Además de transmitir fuerza rotacional idéntica a través de todos los ejes conectados (siempre que la fuerza de entrada sea consistente), la cinta mecánica sobresale en mover items y entidades. Los items pueden agregarse dejándolos caer manualmente o a través de máquinas como embudos, bajantes y brazos mecánicos, y también pueden removerse usando métodos similares. Las cintas no pueden transportar items verticalmente. Si estás usando botas de buceo o agachado, no serás movido por las cintas. Las cintas también interactúan con una variedad de máquinas: las prensas mecánicas pueden presar items pasando debajo, los deployers pueden interactuar con items en la cinta, los surtidores pueden llenarlos con líquidos, y los ventiladores encasados pueden realizar procesamiento masivo como lavado o fundición. Los Túneles de Latón ayudan con la clasificación y organización de items, mientras que los Depósitos pueden actuar como paradas temporales para que otras máquinas interactúen con items. Para mayor personalización, las cintas pueden teñirse con cualquier tinte, agregando rayas de color, y el tinte puede removerse con un cubo de agua o botella.",
+  "hqm.quest.like_clockwork.belts_funnels.task.1.desc": "Embudos",
+
+  "hqm.quest.like_clockwork.cogwheel.name": "Preparándose",
+  "hqm.quest.like_clockwork.cogwheel.desc": "Las engranajes pueden usarse para extender la fuerza rotacional perpendicular a un eje, o para cambiar la dirección de rotación. Combinando engranajes pequeños y grandes también permite que la velocidad de rotación sea aumentada o disminuida.",
+  "hqm.quest.like_clockwork.cogwheel.task.0.long_desc": "Los engranajes transmiten y manipulan la fuerza rotacional. El Engranaje básico y su variante más grande, el Engranaje Grande, permiten varias configuraciones de encaje que controlan la dirección, velocidad, y eje de la fuerza rotacional. Cuando dos engranajes se colocan lado a lado y mirando en la misma dirección, giran en direcciones opuestas a velocidades iguales. Dos engranajes grandes se encajan cuando se colocan perpendicularmente, cambiando el eje de rotación sin afectar la velocidad. Un engranaje y un engranaje grande se encajan diagonalmente, con el engranaje girando al doble de velocidad que el más grande. Los engranajes también pueden actuar como ejes, transmitiendo rotación desde ambos extremos a menos que estén encasados, y múltiples engranajes conectados en una línea funcionan como una serie de ejes. Los engranajes también se usan para activar ciertos bloques; si un bloque tiene un engranaje en su textura, puede ser alimentado colocando un engranaje directamente al lado o un engranaje grande diagonalmente, siempre que estén alineados en la misma dirección.",
+
+  "hqm.quest.like_clockwork.gearbox.name": "Cambiando Marchas",
+  "hqm.quest.like_clockwork.gearbox.desc": "Los engranajes ocupan mucho espacio, y a veces un cambio simple en dirección es todo lo que necesitas. Las cajas de engranajes pueden proporcionar eso en un espacio pequeño.",
+  "hqm.quest.like_clockwork.gearbox.task.0.long_desc": "La caja de engranajes distribuye energía rotacional en múltiples direcciones, ya sea horizontal o verticalmente, dependiendo de su orientación. Cuando es alimentada desde cualquiera de sus lados de entrada, retransmite rotación a los otros tres lados de salida. El comportamiento clave de la caja de engranajes es que invierte la dirección de rotación: si la rotación de entrada es horario, las salidas girarán en sentido antihorario, y viceversa. Esto la hace particularmente útil para dividir energía entre múltiples máquinas o sistemas mientras mantiene movimiento sincronizado pero opuesto a través de diferentes componentes. La variante vertical funciona de la misma manera pero distribuye energía a lo largo del eje vertical.",
+
+
+
+  "hqm.quest.like_clockwork.millstone.name": "La Rutina Diaria",
+  "hqm.quest.like_clockwork.millstone.desc": "La piedra de moler puede Triturar items pequeños en polvos, útil para procesamiento de minerales, hacer harina, y una variedad de otras aplicaciones donde moler algo es útil.",
+  "hqm.quest.like_clockwork.millstone.task.0.long_desc": "La piedra de moler es una máquina de procesamiento y una versión más simple de las ruedas de trituración más avanzadas. Realiza recetas de molienda en items válidos insertados desde arriba. Puede ser alimentada ya sea desde abajo mediante un eje o desde el lado usando un engranaje. Los items pueden ser introducidos a la Piedra de Moler ya sea dejándolos caer directamente arriba o usando tolvas, embudos, ductos, u otros sistemas de transporte de items. Sin embargo, no exporta automáticamente los items procesados; debes hacer clic derecho en la máquina con una mano vacía o usar un extractor externo como una Tolva o Embudo para extraer el objeto procesado. Para obtener una lista completa de todas las recetas de piedra de moler, consulta el JEI.",
+
+  "hqm.quest.like_clockwork.mechanical_press.name": "Cuestiones de Prensado",
+  "hqm.quest.like_clockwork.mechanical_press.desc": "Formar metal en hojas delgadas es vital para hacer dispositivos más avanzados. Una prensa mecánica puede hacer exactamente eso.",
+  "hqm.quest.like_clockwork.mechanical_press.task.0.long_desc": "La humilde Prensa Mecánica puede presar y empacar items debajo de ella. Simplemente coloca la prensa con un bloque de espacio entre ella y el suelo y lanza tus items debajo y aplica energía! Nota que procesa items más rápido cuando recibe energía rotacional más rápida.",
+
+  "hqm.quest.like_clockwork.mechanical_extruder.name": "Lanzando la primera piedra",
+  "hqm.quest.like_clockwork.mechanical_extruder.desc": "La piedra puede generarse vertiendo agua y lava juntos, pero eso ocupa mucho espacio y probablemente viola algunos procedimientos de seguridad industrial. Es posible ajustar la prensa principal y el equipo de minería en un espacio pequeño.",
+  "hqm.quest.like_clockwork.mechanical_extruder.task.0.long_desc": "La extrusora mecánica se usa para automatizar la producción de bloques de tipo piedra. Cuando es alimentada con fuerza rotacional así como tener los bloques de fuente de líquido necesarios adyacentes a sus lados, la extrusora mecánica puede crear piedra, scoria, piedra, basalto, o piedra caliza. El bloque debajo de la extrusora importa en algunos casos de producción (ver JEI para detalles). Los bloques que produce pueden extraerse con un clic derecho o jalados automáticamente fuera con una combinación de embudo y cinta en movimiento.",
+
+
+
+  "hqm.quest.like_clockwork.iron_sheet.name": "Bombeando Hierro",
+  "hqm.quest.like_clockwork.iron_sheet.desc": "La placa de hierro se usa típicamente para partes móviles y máquinas de complejidad intermedia.",
+  "hqm.quest.like_clockwork.iron_sheet.task.0.long_desc": "Las placas de hierro se hacen poniendo lingotes de hierro en una prensa mecánica.",
+
+  "hqm.quest.like_clockwork.super_glue.name": "Manteniéndolo Junto",
+  "hqm.quest.like_clockwork.super_glue.desc": "Para configurar dispositivos complicados llenos de partes móviles, necesitarás una forma de asegurarte de que todo se mantenga adjunto.",
+  "hqm.quest.like_clockwork.super_glue.task.0.long_desc": "El Super Pegamento une bloques juntos en dispositivos en movimiento, asegurando que actúen como una estructura única durante el movimiento. Cada uso reduce la durabilidad del pegamento en uno, aunque hechizos como Durabilidad y Reparación pueden prolongar su vida útil. En el Modo Bloque por Bloque, el pegamento se aplica haciendo clic derecho en la cara de un chasis o se mantiene en la mano secundaria para aplicar pegamento automáticamente mientras colocas bloques. Este método imita el uso de una Bola de Slime pero permite una unión más flexible, incluyendo colocar bloques en los bordes del chasis. El pegamento aplicado de esta manera es permanente a menos que se remueva manualmente agachado y haciendo clic derecho con una mano vacía. El Modo Área te permite pegar múltiples bloques después de la colocación seleccionando una sección 3D. Esto se hace haciendo clic derecho en una esquina y luego en la esquina opuesta de una región, hasta 24 bloques de distancia. Mantén el super pegamento en tu mano principal para identificar visualmente los bloques pegados con contornos verdes, aunque el pegamento aplicado directamente a las superficies no mostrará estos contornos a menos que se coloque con el pegamento en la mano secundaria. Haz clic izquierdo con super pegamento en áreas verdes para remover el pegamento.",
+
+  "hqm.quest.like_clockwork.chute.name": "Zona de caída",
+  "hqm.quest.like_clockwork.chute.desc": "Donde las cintas se usan para transporte horizontal de items, los ductos están diseñadas para transporte vertical de items.",
+  "hqm.quest.like_clockwork.chute.task.0.long_desc": "Los ductos funcionan de manera similar a las cintas mecánicas pero están diseñadas para mover items hacia arriba o hacia abajo directamente. Pueden tanto insertar como extraer de inventarios posicionados directamente arriba o abajo, y cuando se conectan vertical o diagonalmente, pasan items automáticamente entre sí. Por defecto, los items caen a través de las bajantes debido a la gravedad, pero el movimiento hacia arriba es posible usando ventiladores posicionados ya sea arriba (para jalar) o abajo (para empujar), con la velocidad del ventilador determinando la tasa de transporte de items. Los ductos también soportan logística compleja a través de unión y división. Múltiples líneas de ductos pueden converger, aunque los items no se combinarán en pilas únicas. En configuraciones impulsadas por ventiladores, el enrutamiento de items sigue preferencias básicas: los ventiladores de empuje priorizan caminos rectos, mientras que los ventiladores de jalar atraen items hacia ellos mismos. La velocidad y eficiencia del flujo de aire se ven afectadas por cómo se conectan los ductos. Estéticamente, los ductos pueden modificarse: haciendo clic derecho con una llave agrega ventanas, y las bajantes no diagonales pueden ser mejoradas visualmente con bloques de hierro industrial.",
+
+  "hqm.quest.like_clockwork.mechanical_mixer.name": "Stir Crazy",
+  "hqm.quest.like_clockwork.mechanical_mixer.desc": "Una mezcladora mecánica puede usarse para mezclar lotes de items juntos, y puede ser calentada para fundir, cocinar y para la producción de aleaciones.",
+  "hqm.quest.like_clockwork.mechanical_mixer.task.0.long_desc": "La Mezcladora Mecánica es un componente mecánico que procesa recetas de Mezcla y recetas de crafteo en una Cuenca. Requiere al menos 30 RPM para funcionar, con velocidades más altas mejorando la eficiencia. La Mezlcladora debe colocarse encima de una Cuenca con un espacio de 1 bloque para trabajar.\n\nAutomatización: Puede automatizar crafteos sin forma insertando ingredientes en la Cuenca.\n\nDestilación: Puede automatizar recetas de destilación cuando se combina con un Quemador de Blaze calentado.\n\nMezcla: Algunas recetas (ej. Latón) requieren un Quemador de Blaze sobrecalentado.\n\nLa Mezlcladora actúa como un engranaje, transmitiendo e invirtiendo rotación a componentes adyacentes.",
+
+  "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.name": "De punta",
+  "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.desc": "Con partes móviles, una variedad de dispositivos de agricultura pueden ser hechos para recolectar bloques automáticamente. Las cosechadoras pueden usarse para recolectar cultivos, las sierras pueden usarse para cortar árboles, y las taladros pueden usarse para cualquier otro bloque.",
+  "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.0.desc": "Aserrando",
+  "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.0.long_desc": "La Sierra Mecánica corta bloques de madera delante de ella y puede talar automáticamente árboles enteros o hongos gigantes rompiendo el bloque más bajo. Puede cortar completamente árboles 2x2 si al menos un bloque inferior es minado. Las sierras dañan entidades y rompen bloques basados en la velocidad del dispositivo. Cuando se colocan hacia arriba, la sierra aplica recetas de cortapiedras, seleccionando una salida aleatoria a menos que se use un filtro. También puedes usarlas para crear más ejes por aleación de andesita que el crafteo estándar.",
+  "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.1.desc": "Cosechando",
+  "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.task.2.desc": "Taladrando",
+
+  "hqm.quest.like_clockwork.encased_fan.name": "El ventilador más Grande",
+  "hqm.quest.like_clockwork.encased_fan.desc": "El ventilador revestido puede soplar aire para empujar objetos en el suelo, y puede soplar agua, fuego y lava para lavar o cocinar cosas.",
+  "hqm.quest.like_clockwork.encased_fan.task.0.desc": "Rompiendo el viento",
+  "hqm.quest.like_clockwork.encased_fan.task.0.long_desc": "El Ventilador revestido puede crear corrientes de aire para jalar o empujar entidades u objetos. Esto funciona vertical y horizontalmente y la fuerza está directamente correlacionada con la velocidad de rotación. El Ventilador revestido también tiene la capacidad de hacer Lavado Masivo, Explosión Masiva, Atormentar Masivo, y Ahumado Masivo.",
+  "hqm.quest.like_clockwork.encased_fan.task.1.desc": "Lavado Masivo",
+  "hqm.quest.like_clockwork.encased_fan.task.1.long_desc": "El Lavado Masivo requiere que agua sea colocada directamente frente a la corriente de aire del ventilador o al final si el ventilador está jalando aire. Lanza tus objetos a la corriente para comenzar a lavar. Lanza algo de arena a la corriente y ¡consíguete algo de arcilla!",
+  "hqm.quest.like_clockwork.encased_fan.task.2.desc": "Explosión Masiva",
+  "hqm.quest.like_clockwork.encased_fan.task.2.long_desc": "La Explosión Masiva requiere que lava sea colocada directamente frente a la corriente de aire del ventilador o al final si el ventilador está jalando aire. Esto funciona como un horno de fundición pero puede destruir objetos si no pueden ser fundidos! Ten en cuenta que no puede procesar bloques de Mineral y los destruirá. ¡Intenta hacer algo de carbón vegetal lanzando madera a la corriente!",
+  "hqm.quest.like_clockwork.encased_fan.task.3.desc": "Ahumado Masivo",
+  "hqm.quest.like_clockwork.encased_fan.task.3.long_desc": "El Ahumado Masivo requiere que una fogata sea colocada directamente frente a la corriente de aire del ventilador o al final si el ventilador está jalando aire. ¡Intenta hacer algo de cuero lanzando carne podrida a la corriente!",
+  "hqm.quest.like_clockwork.encased_fan.task.4.desc": "Atormentar Masivo",
+  "hqm.quest.like_clockwork.encased_fan.task.4.long_desc": "La Persecución Masiva requiere que una fogata de almas o llama sea colocada directamente frente a la corriente de aire del ventilador o al final si el ventilador está jalando aire. Esto tiene una serie de usos especiales incluyendo la adquisición de bloques del Nether.",
+
+  "hqm.quest.like_clockwork.blaze_burner.name": "Calcifer's Eggshells",
+  "hqm.quest.like_clockwork.blaze_burner.desc": "Un Quemador de Blaze puede usarse para proporcionar calor para mezclar objetos en la cubeta, o como fuente de calor para el crisol.",
+  "hqm.quest.like_clockwork.blaze_burner.task.0.desc": "Quemador de Blaze Vacío",
+  "hqm.quest.like_clockwork.blaze_burner.task.0.long_desc": "Un Quemador de Blaze Vacío es la versión sin llenar de un Quemador de Blaze y debe ser llenado con un Blaze para funcionar. Para capturar un Blaze, simplemente haz clic derecho en un Blaze o spawner de Blaze mientras sostienes un Quemador de Blaze Vacío. Esto no dañará el spawner.\n\nSin el Blaze, puede usarse como un Quemador de Fuego de Almas con Arena de Almas o Suelo de Almas, sirviendo como una fuente de calor de caldera pasiva y para Ahumado Masivo o Persecución Masiva, pero no para Mezcla.",
+  "hqm.quest.like_clockwork.blaze_burner.task.1.desc": "Quemador de Blaze Lleno",
+  "hqm.quest.like_clockwork.blaze_burner.task.1.long_desc": "Un Quemador de Blaze lleno te permite hacer latón, y proporcionar calor para Motores de Vapor, contribuyendo 1 nivel de calentamiento en la fase Calentado y 2 en la fase Sobrecalentado. También se usa para Ahumado Masivo y Fundición Masiva cuando está alimentado. Los Quemadores de Blaze pueden ser alimentados por items combustibles, y los Colocadores o Brazos Mecánicos pueden automatizar el suministro de combustible, asegurando un uso eficiente de recursos. Para mejorar la apariencia de los quemadores de blaze, lanza algunas gafas de ingeniero en el Quemador de Blaze.",
+
+
+
+  "hqm.quest.like_clockwork.copper_sheet.name": "Penny Lane",
+  "hqm.quest.like_clockwork.copper_sheet.desc": "Las placas de cobre se usa a menudo en transporte de fluidos.",
+  "hqm.quest.like_clockwork.copper_sheet.task.0.long_desc": "Las placas de cobre se hacen poniendo lingotes de cobre en una prensa mecánica.",
+
+  "hqm.quest.like_clockwork.spout.name": "Ebb and Flow",
+  "hqm.quest.like_clockwork.spout.desc": "El Surtidor se usa para llenar contenedores de líquido o fabricar con líquidos.",
+  "hqm.quest.like_clockwork.spout.task.0.long_desc": "El Surtidor dispensa fluido sobre objetos pasando debajo de él en una Correa Transportadora o Depósito. Cada objeto toma 1 segundo para procesarse, aunque el tiempo de recarga puede causar pequeños retrasos. El Surtidor sostiene hasta 1 cubo de un solo líquido, que es suministrado mediante Tuberías de Fluido.\n\nEl Depósito sirve como un punto de interacción de máquina, permitiendo que los objetos sean colocados manualmente o insertados automáticamente. Máquinas como el Brazo Mecánico o la Prensa Mecánica pueden interactuar con objetos en el Depósito, igual que lo harían en una Correa Mecánica. Los objetos en un Depósito no desaparecen y permanecen hasta ser removidos por un jugador u otra máquina.",
+
+  "hqm.quest.like_clockwork.item_drain.name": "Hacia el Drenaje",
+  "hqm.quest.like_clockwork.item_drain.desc": "El Escurridor de Objetos extrae líquidos de botellas, cubos, y otros contenedores de fluido.",
+  "hqm.quest.like_clockwork.item_drain.task.0.long_desc": "El Drenaje de Objetos puede sostener hasta 1500 mB de líquido y requiere una Bomba de Fluido para extraer fluidos. Las cubetas depositarán automáticamente los fluidos de salida en un Drenaje de Objetos cercano.",
+
+
+
+  "hqm.quest.like_clockwork.golden_sheet.name": "Estandares dorados",
+  "hqm.quest.like_clockwork.golden_sheet.desc": "La placa de oro se usa a menudo en equipo personal.",
+  "hqm.quest.like_clockwork.golden_sheet.task.0.long_desc": "Las placas de oro se hacen poniendo lingotes de oro en una prensa mecánica.",
+
+  "hqm.quest.like_clockwork.engineers_goggles.name": "Ojo por el Detalle",
+  "hqm.quest.like_clockwork.engineers_goggles.desc": "Las Gafas de Ingeniero proporcionan análisis detallado de la velocidad de rotación de una máquina y nivel de estrés de un vistazo.",
+  "hqm.quest.like_clockwork.engineers_goggles.task.0.long_desc": "Un item equipable que muestra detalles de máquina, incluyendo impacto de estrés, velocidad de rotación, y niveles de fluido en tanques. Cuando se usa, proporciona retroalimentación visual mejorada para Estrésómetros y Velocímetros. Compatible con mods Curios/Trinkets para uso de ranura de cabeza alternativa.",
+
+  "hqm.quest.like_clockwork.wrench.name": "A Wrench in the Works",
+  "hqm.quest.like_clockwork.wrench.desc": "La Llave Inglesa es una herramienta versátil para rotar, desmantelar, y configurar componentes.",
+  "hqm.quest.like_clockwork.wrench.task.0.long_desc": "Hacer clic derecho rota un componente, mientras que Shift + Clic derecho lo desmantela. Desliza sobre ciertos componentes para configurarlos, y mantén Ctrl para configurar todos los componentes conectados a la vez.",
+
+
+
+  "hqm.quest.like_clockwork.brass_sheet.name": "Top Brass",
+  "hqm.quest.like_clockwork.brass_sheet.desc": "La placa de latón se usa a menudo para maquinaria avanzada, y los tubos de electrones habilitan algunas características \"inteligentes\".",
+  "hqm.quest.like_clockwork.brass_sheet.task.0.long_desc": "Las placas de latón se hacen poniendo lingotes de latón en una prensa mecánica, y los tubos de electrones se hacen de cuarzo rosa pulido. El cuarzo rosa se fabrica de cuarzo y redstone, que puede ser pulido usando lija mientras el cuarzo rosa está en tu mano secundaria.",
+
+  "hqm.quest.like_clockwork.mechanical_crafter.name": "Crafteando Fuera de la Caja",
+  "hqm.quest.like_clockwork.mechanical_crafter.desc": "El ensamblador Mecánico es una máquina que craftea items cuando es alimentada por fuerza rotacional.",
+  "hqm.quest.like_clockwork.mechanical_crafter.task.0.long_desc": "La conexión entre ensambladores Mecánicos se establece a través del camino indicado por el diseño del bloque. Para cambiar la dirección en la que envía items durante la fabricación, simplemente haz clic derecho en la parte frontal del crafteador con una Llave Inglesa. En una configuración, los crafteadores pueden ser llenados automáticamente por Embudos o Tolvas, y pueden compartir inventarios sin ser parte de la misma receta de fabricación. Una Llave Inglesa también puede usarse en la parte trasera y lados de los Crafteadores Mecánicos para conectar o desconectar los inventarios de crafteadores adyacentes. Los items pueden ser insertados o removidos manualmente también.\n\nCada ensamblador Mecánico requiere energía rotacional de ya sea crafteadores adyacentes o un Engranaje de cualquier tamaño. Esto significa que solo un crafteador en una configuración necesita ser alimentado por un Engranaje para que todo el sistema funcione. Una vez alimentado, y cuando todos los espacios de fabricación estén llenos o se reciba una señal de redstone, los ensambladores Mecánico enviarán sus items a ensambladores adyacentes. Para fabricar un item exitosamente, los componentes eventualmente deben encontrarse en un crafteador, donde se convertirán en el producto final. Las tapas de ranura del Crafteador pueden actuar como espacios vacíos en una receta, permitiendo la conexión de crafteadores separados, pero no mueven los items mismos.\n\nSi los items no forman una receta válida, los crafteadores expulsarán los items en lugar de fabricar el producto. Para automatizar la fabricación, los espacios directamente adyacentes pueden ser combinados para sostener un solo tipo de item, como aleación de andesita. Esto permite que el material sea alimentado desde el lado mediante una tolva, simplificando el proceso de fabricación. Los Crafteadores Mecánicos alimentados comenzarán a fabricar una vez que todos los espacios estén llenos o cuando se aplique una señal de redstone.",
+
+  "hqm.quest.like_clockwork.crushing_wheels.name": "Piedras Rodantes",
+  "hqm.quest.like_clockwork.crushing_wheels.desc": "Las Ruedas de Trituración son una versión avanzada de los Molinos de Piedra que son más poderosas, y pueden triturar una mayor variedad de items que el Molino de Piedra, y a veces con mayores rendimientos.",
+  "hqm.quest.like_clockwork.crushing_wheels.task.0.long_desc": "Las Ruedas de Trituración trituran items insertados desde la dirección desde la que están girando hacia afuera. Para funcionar, dos Ruedas de Trituración deben colocarse una al lado de la otra, ya sea horizontal o verticalmente, a un bloque de distancia, con fuerzas rotacionales opuestas. Los items a triturar deben insertarse donde las ruedas giran hacia adentro. La automatización es posible colocando una tolva entre las ruedas y conectándola a un depóstio o correa transportadora debajo.",
+
+  "hqm.quest.like_clockwork.electric_motor.name": "Power Play",
+  "hqm.quest.like_clockwork.electric_motor.desc": "El Motor Eléctrico convierte electricidad en fuerza rotacional, y el Alternador convierte fuerza rotacional en energía.",
+  "hqm.quest.like_clockwork.electric_motor.task.0.long_desc": "El motor eléctrico es útil comparado con otras fuentes de fuerza rotacional debido a lo compacto y adjustable que es. Ten en cuenta que cuanto más alto esté configurado el RPM, más energía se usará para alimentarlo. Simplemente alimenta el motor eléctrico desde el lado opuesto de su eje para obtener fuerza rotacional instantánea.\n\nEl alternador requiere un mínimo de 32 RPM para operar. La producción de energía es lineal con el RPM: cuanto más alto el RPM, más energía se producirá. Conecta el lado opuesto del eje a cualquier fuente de energía o cable para recolectar energía para ser usada o almacenada.",
+
+  "hqm.quest.like_clockwork.deployer.name": "Mano amiga",
+  "hqm.quest.like_clockwork.deployer.desc": "El desplegador tiene una mano mecánica, diseñada para usar items igual que una persona lo haría. Puede ser configurado para usar herramientas, interactuar con bloques, e incluso atacar.",
+  "hqm.quest.like_clockwork.deployer.task.0.long_desc": "El desplegador es una máquina que puede recibir items ya sea directamente o haciendo clic derecho en su mano. Puede ser detenido con una señal de redstone y tiene un filtro en su lado para controlar qué items usa, lo cual es especialmente importante al usar el desplegador en una Contraptión. El desplegador tiene dos espacios de inventario: uno para el item sostenido y otro para items extra, como los cosechados por el desplegador. Estos items cosechados son transferidos al espacio extra y deben ser removidos por máquinas, durante lo cual el Colocador se detendrá. Los items en el espacio extra no pueden ser extraídos directamente por el jugador. Por defecto, el desplegador simula clics derechos, pero puede ser cambiado a modo clic izquierdo haciendo clic derecho en la parte frontal con una Llave Inglesa. En modo clic izquierdo, el desplegador puede usar herramientas como picos y espadas, imitando las acciones del jugador, incluyendo causar que mobs suelten items raros cuando son asesinados.",
+
+  "hqm.quest.like_clockwork.precision_mechanism.name": "Como un Reloj",
+  "hqm.quest.like_clockwork.precision_mechanism.desc": "El Mecanismo de Precisión es un componente intrincado para dispositivos más complejos.",
+  "hqm.quest.like_clockwork.precision_mechanism.task.0.long_desc": "Para hacer un Mecanismo de Precisión, envía una hoja de oro a través de una línea de fábrica y despliega un engranaje pequeño, engranaje grande, y luego una viruta de hierro a la hoja. Repite este proceso para crear el mecanismo. Sin embargo, debido a la complejidad del dispositivo, hay un 20% de probabilidad de fallo, donde todo lo que obtienes de vuelta es chatarra.",
+
+  "hqm.quest.like_clockwork.rotation_speed_controller.name": "Necesidad de Velocidad",
+  "hqm.quest.like_clockwork.rotation_speed_controller.desc": "El Controlador de Velocidad de Rotación se usa para controlar precisamente la velocidad de rotación en lugar de requerir varios engranajes en linea",
+  "hqm.quest.like_clockwork.rotation_speed_controller.task.0.long_desc": "El Controlador de Velocidad de Rotación ajusta la velocidad de cualquier fuente de fuerza rotacional proporcionada como entrada, y exporta a través de un engranaje, que se coloca arriba. La velocidad y dirección de rotación pueden ajustarse en la Pantalla de Configuración de Valores ubicada en la parte frontal o trasera del controlador. La velocidad puede configurarse hasta un máximo de 256 RPM.",
+
+
+
+  "hqm.quest.like_clockwork.detailed_create_trigger.name": "Detailed Create",
+  "hqm.quest.like_clockwork.detailed_create_trigger.desc": "Invisible trigger quest for the player selecting the more detailed Create path.",
+
+
+
+
+
+
+
+
+
+  "hqm.quest_set.under_pressure.desc": "Guía de tecnologías neumáticas para manipular y utilizar aire comprimido.",
+
+
+
+  "hqm.quest.under_pressure.compressed_iron.name": "Jugando con Fuego",
+  "hqm.quest.under_pressure.compressed_iron.desc": "Cuando tienes tu supervivencia básica resuelta, puedes comenzar a desarrollar tecnología más avanzada. El primer paso de ese proceso será crear un nuevo tipo de metal.",
+  "hqm.quest.under_pressure.compressed_iron.task.0.desc": "Paso 1",
+  "hqm.quest.under_pressure.compressed_iron.task.0.long_desc": "Comienza recolectando algunos lingotes de hierro.",
+  "hqm.quest.under_pressure.compressed_iron.task.1.desc": "Paso 2",
+  "hqm.quest.under_pressure.compressed_iron.task.1.long_desc": "Ahora, necesitarás algo de TNT. Deberías tener la pólvora para ahora (ya sea de tamizar o de creepers si eres valiente). Para obtener arena, rompe piedra con un martillo para hacer grava, luego rompe eso para hacer arena.",
+  "hqm.quest.under_pressure.compressed_iron.task.2.desc": "Paso 3",
+  "hqm.quest.under_pressure.compressed_iron.task.2.long_desc": "Para el paso final, deberías moverte lejos de tu base. Deja caer algo de hierro en el suelo, coloca la TNT junto a él, enciende la TNT, y luego párate lejos. Cuando el polvo se asiente, deberías tener algo de hierro comprimido.",
+
+  "hqm.quest.under_pressure.air_compressor.name": "Lleno de Aire Caliente",
+  "hqm.quest.under_pressure.air_compressor.desc": "Con hierro comprimido, puedes comenzar a trabajar con aire comprimido.",
+  "hqm.quest.under_pressure.air_compressor.task.0.desc": "Tubo de Presión",
+  "hqm.quest.under_pressure.air_compressor.task.0.long_desc": "El tubo de presión es el componente más básico para usar aire comprimido. Debes usar estos tubos para transferir el aire alrededor. Cuanto más largo sean los tubos se extiendan, más presión se perderá. Intenta mantener las cosas cerca una de la otra para evitar despresurización. Asegúrate de que tus tubos de presión no tengan extremos abiertos o perderás mucha presión.",
+  "hqm.quest.under_pressure.air_compressor.task.1.desc": "Compresión de Aire",
+  "hqm.quest.under_pressure.air_compressor.task.1.long_desc": "El compresor de aire generará aire comprimido cuando se le proporcione combustible sólido. El carbón vegetal es un buen combustible de inicio. Ten cuidado de no generar demasiada presión aunque. Cualquier cosa por encima de 5 bares de presión arriesga una explosión. Puedes activar y desactivar el compresor con una señal de redstone si quieres, lo cual puede ser automatizado más adelante para apagarlo automáticamente cuando esté cerca de una sobrecargar.",
+
+  "hqm.quest.under_pressure.pressure_chamber.name": "Olla a Presión",
+  "hqm.quest.under_pressure.pressure_chamber.desc": "Ahora que puedes generar aire presurizado, puedes comenzar a ponerlo en uso. Construye una cámara de presión para comenzar a fabricar con aire comprimido.",
+  "hqm.quest.under_pressure.pressure_chamber.task.0.long_desc": "Puedes construir una cámara de presión 3x3x3 con 1 válvula de cámara de presión y 25 bloques de cámara de presión (ya sea paredes o ventanas). Construye un cubo 3x3x3 con el bloque central faltante. Uno de los bloques adyacentes al centro será la válvula de cámara de presión.",
+
+
+
+  "hqm.quest.under_pressure.pcb_1_empty_pcb.name": "Recién Salido de las Prensas",
+  "hqm.quest.under_pressure.pcb_1_empty_pcb.desc": "Ahora que tienes una cámara de presión, puedes hacer todo tipo de materiales avanzados. El más importante de estas recetas avanzadas es la Placa de Circuito Impreso, que es un componente esencial para fabricación de alta tecnología. Para empezar, necesitarás algo de plástico, ya sea refinado de petróleo o fundido de chatarra encontrada en las ruinas.",
+  "hqm.quest.under_pressure.pcb_1_empty_pcb.task.0.desc": "Plástico",
+  "hqm.quest.under_pressure.pcb_1_empty_pcb.task.0.long_desc": "Para comenzar a hacer PCBs, necesitarás algo de plástico. Hay algunos métodos de adquirirlo, pero típicamente involucra refinar petróleo o recolectar chatarra de plástico en ciudades. Una vez que encuentres o hagas algo de plástico, puedes comenzar a hacer tu primera PCB.",
+  "hqm.quest.under_pressure.pcb_1_empty_pcb.task.1.desc": "Circuito básico ",
+  "hqm.quest.under_pressure.pcb_1_empty_pcb.task.1.long_desc": "Una vez que tengas los recursos, puedes comenzar a hacer tu primera PCB. Usa la cámara de presión para combinar un pedazo de plástico con 2 antorchas de redstone y 3 pepitas conductoras para obtener la PCB vacía. También necesitarás 2 capacitores y 2 transistores, que se hacen de plástico, 3 pepitas conductoras, y ya sea un adhesivo para hacer capacitores o polvo de redstone para hacer transistores.\n\nPara fabricar usando la cámara de presión, rompe uno de los bloques del medio, deja caer tus ingredientes adentro, y coloca el bloque de vuelta. Una vez que alcances el nivel de presión requerido nuevamente, tus items serán fabricados y puedes romper el bloque nuevamente para removerlos de la cámara. Perderás algo cada vez que la cámara de presión sea abierta, pero puedes mejorar el proceso con una interfaz de cámara de presión, que puede hacer la apertura/cierre por ti.",
+
+  "hqm.quest.under_pressure.pcb_2_uv_light_box.name": "Cegado Por La Luz",
+  "hqm.quest.under_pressure.pcb_2_uv_light_box.desc": "Una vez que tengas una PCB vacía, el siguiente paso es exponerla a luz ultravioleta.",
+  "hqm.quest.under_pressure.pcb_2_uv_light_box.task.0.desc": "Caja de Luz",
+  "hqm.quest.under_pressure.pcb_2_uv_light_box.task.0.long_desc": "La caja de luz UV está codificada con el plano para una PCB. Cuando una PCB vacía es colocada adentro y es alimentada por aire comprimido, la PCB será expuesta a luz ultravioleta.",
+  "hqm.quest.under_pressure.pcb_2_uv_light_box.task.1.desc": "Exponiendo",
+  "hqm.quest.under_pressure.pcb_2_uv_light_box.task.1.long_desc": "El proceso de exposición tomará mucho tiempo. Técnicamente puedes remover la PCB vacía de la caja de luz antes de que sea completada, pero entonces tendrá probabilidad de fallo durante el paso final. Puedes instalar mejoras de velocidad para reducir el tiempo de espera o hacer más máquinas para acelerar el procesamiento masivo.",
+
+  "hqm.quest.under_pressure.pcb_3_etching_tank.name": "Etch-A-Sketch",
+  "hqm.quest.under_pressure.pcb_3_etching_tank.desc": "Después de exponer la PCB vacía, tendrás que grabar las placas de circuito con ácido de grabado.",
+  "hqm.quest.under_pressure.pcb_3_etching_tank.task.0.desc": "Tanque de Grabado",
+  "hqm.quest.under_pressure.pcb_3_etching_tank.task.0.long_desc": "Un tanque de grabado se usa para grabar la PCB con ácido de grabado. El ácido de grabado se hace combinando varios materiales cáusticos en una cámara de presión.",
+  "hqm.quest.under_pressure.pcb_3_etching_tank.task.1.desc": "Grabado",
+  "hqm.quest.under_pressure.pcb_3_etching_tank.task.1.long_desc": "Coloca PCBs expuestas en un tanque de grabado para grabarlas. Si una PCB no está completamente expuesta, tiene probabilidad de fallo, pero las PCBs fallidas pueden ser fundidas y expuestas nuevamente.",
+
+  "hqm.quest.under_pressure.pcb_4_assembly.name": "Conectar y Jugar",
+  "hqm.quest.under_pressure.pcb_4_assembly.desc": "El paso final de crear una PCB es ensamblarla.",
+  "hqm.quest.under_pressure.pcb_4_assembly.task.0.long_desc": "Simplemente combina tu PCB no ensamblada juntos con 2 capacitores y 2 transistores para terminar el proceso.",
+
+
+
+  "hqm.quest.under_pressure.gas_lift_oil.name": "Oro Negro",
+  "hqm.quest.under_pressure.gas_lift_oil.desc": "El escaneo subsuperficial ha detectado una abundancia de petróleo bajo la superficie del planeta. Con un poco de presión, deberías ser capaz de bombear petróleo desde las profundidades.",
+  "hqm.quest.under_pressure.gas_lift_oil.task.0.desc": "Gas Lift",
+  "hqm.quest.under_pressure.gas_lift_oil.task.0.long_desc": "Comenzarás con un gas lift y algunos tubos de perforación. Proporciona al gas lift algo de presión e inserta los tubos de perforación, y comenzará a cavar hacia abajo, colocando automáticamente los tubos mientras mina. Cuanto más profundo perfora, más tubos de perforación y presión necesitará. Puedes reducir este costo colocando tus bombas más profundamente bajo tierra.",
+  "hqm.quest.under_pressure.gas_lift_oil.task.1.desc": "Petróleo Crudo",
+  "hqm.quest.under_pressure.gas_lift_oil.task.1.long_desc": "Cuando tu bomba alcance el petróleo en el fondo del mundo (aproximadamente 120 metros abajo), comenzará a extraer.",
+
+  "hqm.quest.under_pressure.refining_oil.name": "Gusto Refinado",
+  "hqm.quest.under_pressure.refining_oil.desc": "Ahora que puedes bombear petróleo desde las profundidades, puedes trabajar en refinarlo para obtener plástico, un recurso importante para hacer circuitos y maquinaria.",
+  "hqm.quest.under_pressure.refining_oil.task.0.desc": "Equipo de Refinería",
+  "hqm.quest.under_pressure.refining_oil.task.0.long_desc": "Pon las 4 salidas de refinería (refinery outputs) en una pila vertical arriba del controlador de refinería (refinery controller). Usa un calentador resistivo (resistive heater) o tubo de vórtice (vortex tube) junto al controlador para mantenerlo lo suficientemente caliente para funcionar.",
+  "hqm.quest.under_pressure.refining_oil.task.1.desc": "Producción de Petróleo",
+  "hqm.quest.under_pressure.refining_oil.task.1.long_desc": "Cuando tu refinería esté funcionando, producirá lentamente aceites refinados basados en qué tan caliente se mantiene el controlador.",
+
+  "hqm.quest.under_pressure.plastic_processing.name": "Una Palabra... Plásticos",
+  "hqm.quest.under_pressure.plastic_processing.desc": "Una vez que tengas producción de petróleo refinado, puedes comenzar a hacer plástico, un ingrediente vital para fabricación más avanzada.",
+  "hqm.quest.under_pressure.plastic_processing.task.0.desc": "Planta Termopneumática",
+  "hqm.quest.under_pressure.plastic_processing.task.0.long_desc": "El plástico se hace en una Planta de Procesamiento Termopneumático (Thermopneumatic Processing Plant), combinando LPG y carbón usando presión y calor.",
+  "hqm.quest.under_pressure.plastic_processing.task.1.desc": "Procesamiento de Plástico",
+  "hqm.quest.under_pressure.plastic_processing.task.1.long_desc": "La planta de procesamiento produce plástico líquido, que puede ser enfriado rápidamente en hojas de plástico vertiendo el cubo en el suelo. Para automatización simple de este proceso, puedes usar una mesa de fundición o un enfriador rápido (blast chiller).",
+
+
+
+  "hqm.quest.under_pressure.pressure_gauge.name": "Medir Dos Veces, Cortar Una",
+  "hqm.quest.under_pressure.pressure_gauge.desc": "Un manómetro puede medir la cantidad de presión en un sistema neumático. Con alguna conexión hábil, puedes apagar automáticamente tus compresores de aire cuando el sistema tiene demasiada presión.",
+  "hqm.quest.under_pressure.pressure_gauge.task.0.long_desc": "Cuando se coloca en un tubo de presión, el manómetro emite una señal de redstone igual al doble de la presión detectada. Puedes usar eso para desactivar compresores cuando el sistema se acerca a sobrecargar.",
+
+  "hqm.quest.under_pressure.pressure_chamber_interface.name": "Desahogarse",
+  "hqm.quest.under_pressure.pressure_chamber_interface.desc": "Ahora que tienes una cámara de presión, necesitarás una forma de poner items adentro. Técnicamente, puedes romper uno de los bloques y dejar caer los items manualmente, pero eso liberará toda la presión almacenada. Una mejor opción es la interfaz de cámara de presión, que actúa como una esclusa de aire, permitiéndote insertar o extraer de la cámara perdiendo apenas algo de aire.",
+  "hqm.quest.under_pressure.pressure_chamber_interface.task.0.long_desc": "Necesitarás al menos dos interfaces; una configurada para entrada y una configurada para salida. Asegúrate de que ambas estén expuestas al aire dentro de la cámara. Una vez configurado, puedes usar conductos de items para mover items adentro y afuera de la cámara.",
+
+  "hqm.quest.under_pressure.upgrades.name": "Mejor, Más Rápido, Más Fuerte",
+  "hqm.quest.under_pressure.upgrades.desc": "Máquinas neumáticas pueden tener mejoras instaladas. La más ampliamente útil es la mejora de velocidad, que puede aumentar la velocidad de procesamiento en la mayoría de máquinas.",
+  "hqm.quest.under_pressure.upgrades.task.0.long_desc": "Las mejoras de velocidad necesitan lubricante, que se hace de diésel y redstone. Probablemente querrás mucho de ello.",
+
+
+
+  "hqm.quest.under_pressure.assembly_line.name": "Línea de Ensamblaje",
+  "hqm.quest.under_pressure.assembly_line.desc": "Ensamblar una PCB a mano es extremadamente laborioso. Por suerte, el proceso puede simplificarse cuando tienes la tecnología. Con una línea de ensamblaje configurada, puedes manejar automáticamente el grabado y la exposición para saltar directamente de una PCB vacía a una no ensamblada.",
+  "hqm.quest.under_pressure.assembly_line.task.0.long_desc": "1. Coloca las máquinas en un cuadrado con las dos unidades de IO en la parte superior derecha y superior izquierda.\n2. Coloca el láser en la parte inferior izquierda y la plataforma a su derecha.\n3. Pon un cofre adyacente a una unidad de IO y el controlador de ensamblaje en cualquier lado del cuadrado.\n4. Configura la salida de una de las unidades de IO usando una llave neumática.\n5. Proporciona aire presurizado para el controlador e inserta el Programa de Ensamblaje: Láser.\n\nCuando la configuración esté completa, puedes colocar PCBs vacías en el cofre para procesar. La unidad de entrada lo moverá a la plataforma, el láser grabará el patrón de PCB en él, y la unidad de salida lo devolverá al cofre. Puedes aumentar la velocidad de procesamiento con mejoras de velocidad.",
+
+  "hqm.quest.under_pressure.misc_tools.name": "Herramientas del Oficio",
+  "hqm.quest.under_pressure.misc_tools.desc": "Hay muchos gadgets útiles que puedes hacer usando aire comprimido. Puedes consultar la documentación para la lista completa, pero estas son algunas de las herramientas más útiles.",
+  "hqm.quest.under_pressure.misc_tools.task.0.desc": "Estación de Carga",
+  "hqm.quest.under_pressure.misc_tools.task.0.long_desc": "Muchos gadgets de PneumaticCraft necesitarán ser cargados con aire comprimido antes de que puedan ser usados. Ten cuidado aunque, la estación de carga equilibra la presión de aire entre el item siendo cargado y el resto del sistema. Si la herramienta tiene más bares de presión que el resto de la red, en realidad se descargará.",
+  "hqm.quest.under_pressure.misc_tools.task.1.desc": "Llave Neumática",
+  "hqm.quest.under_pressure.misc_tools.task.1.long_desc": "La llave neumática permite rotación de bloques de PneumaticCraft y abrir/cerrar tubos de presión haciendo clic derecho, y desmantelamiento instantáneo con shift+clic derecho. Debe ser cargada en una estación de carga.",
+  "hqm.quest.under_pressure.misc_tools.task.2.desc": "Herramienta GPS",
+  "hqm.quest.under_pressure.misc_tools.task.2.long_desc": "Algunos de los gadgets de PneumaticCraft requieren seleccionar coordenadas específicas para usarlos. Para eso, necesitarás una herramienta GPS. Haz clic derecho en un bloque para configurar la herramienta a esas coordenadas. Haz clic derecho en el aire para modificar las coordenadas. No necesita carga.",
+  "hqm.quest.under_pressure.misc_tools.task.3.desc": "Cañón de Aire",
+  "hqm.quest.under_pressure.misc_tools.task.3.long_desc": "El Cañón de Aire disparará un item a una ubicación específica. Usa una Herramienta GPS con las coordenadas seleccionadas para bloquear el cañón en el objetivo (la Herramienta GPS puede luego ser removida). Por defecto, una señal de redstone causará que el cañón dispare. Podría ser útil para transporte de items de largo alcance o, con la mejora correcta, como arma.",
+
+  "hqm.quest.under_pressure.advanced_air_compressor.name": "Subiendo la Barra",
+  "hqm.quest.under_pressure.advanced_air_compressor.desc": "Puede que hayas notado que algunas máquinas requieren más presión de la que un compresor de aire puede proporcionar. Para superar eso, tendrás que hacer una mejorar.",
+  "hqm.quest.under_pressure.advanced_air_compressor.task.0.desc": "Tubos de Presión Avanzados",
+  "hqm.quest.under_pressure.advanced_air_compressor.task.0.long_desc": "Los tubos de presión avanzados tienen una capacidad de 20 bar, es una mejora muy significativa viniendo de los 5 bar de los tubos de presión normales. También pueden ser mejorados para funcionalidad adicional.",
+  "hqm.quest.under_pressure.advanced_air_compressor.task.1.desc": "Compresor de Aire Avanzado",
+  "hqm.quest.under_pressure.advanced_air_compressor.task.1.long_desc": "El compresor de aire avanzado puede generar presión a una tasa más rápida y hasta una capacidad más grande que el compresor de aire estándar.",
+
+
+
+
+
+
+
+
+
+  "hqm.quest_set.salvage_operation.desc": "Guía para recolectar recursos de las ruinas en el planeta.",
+
+
+
+  "hqm.quest.salvage_operation.exploration_supplies.name": "Hacia lo Desconocido",
+  "hqm.quest.salvage_operation.exploration_supplies.desc": "Puede que hayas notado que no puedes fabricar todo lo que necesitas para sobrevivir. Sin embargo, parece que hay algunas ciudades abandonadas dispersas alrededor. Tal vez esas contengan recursos que podrías usar. Una cosa es cierta, necesitarás prepararte antes de aventurarte lejos de la seguridad de tu nave.",
+  "hqm.quest.salvage_operation.exploration_supplies.task.0.long_desc": "Un arma cuerpo a cuerpo de algún tipo sería una idea sabia y quizás algo de armadura también. Asegúrate de traer suficiente comida y agua y si aún no has configurado tu sync shells, ahora es el momento de hacerlo. Si tomaste la ruta difícil, aún puedes fabricarlas.",
+
+
+
+  "hqm.quest.salvage_operation.structure_mer_lab.name": "caída del sistema",
+  "hqm.quest.salvage_operation.structure_mer_lab.desc": "Las ruinas en este planeta parecen contener restos de todo tipo de tecnología interesante. Algo de esta tecnología parece adecuada para convertir materia en energía, y viceversa.",
+  "hqm.quest.salvage_operation.structure_mer_lab.task.0.long_desc": "Puedes encontrar un Laboratorio de Investigación de Materia-Energía o meteoritos explorando el desierto. Una brújula de meteoritos puede ayudar a localizar meteoritos si no puedes encontrarlos.",
+
+  "hqm.quest.salvage_operation.me_processors.name": "Conectando tus Cables",
+  "hqm.quest.salvage_operation.me_processors.desc": "Esas partes rotas no serán suficientes para comenzar a almacenar materia como energía. Necesitarás hacer algunos circuitos de procesamiento más avanzados primero.",
+  "hqm.quest.salvage_operation.me_processors.task.0.desc": "Ingredientes",
+  "hqm.quest.salvage_operation.me_processors.task.0.long_desc": "Para hacer chips de procesamiento, necesitarás inscribir silicona y algunos otros materiales. Haz una prensa (inscriptor), obtén algo de silicona, y rompe una PCB en segmentos que puedas usar para coserla toda junta.",
+  "hqm.quest.salvage_operation.me_processors.task.1.desc": "Inscribiendo",
+  "hqm.quest.salvage_operation.me_processors.task.1.long_desc": "Usa el inscriptor para hacer los tres tipos principales de circuitos; lógico, cálculo, e ingeniería. También necesitarás algo de silicona impresa para usar como placa base.",
+  "hqm.quest.salvage_operation.me_processors.task.2.desc": "Poniéndolo Juntos",
+  "hqm.quest.salvage_operation.me_processors.task.2.long_desc": "Cuando tengas todos los componentes, inscribe tus circuitos poniendo los circuitos impresos en la parte superior de la prensa (inscriptor), el silicio impreso en la parte inferior, y un segmento de PCB en el medio.",
+
+  "hqm.quest.salvage_operation.me_system.name": "Quedar registrado",
+  "hqm.quest.salvage_operation.me_system.desc": "Un sistema de almacenamiento de Materia/Energía necesita algunos componentes clave para funcionar. Reúne estos componentes, construye tu sistema de almacenamiento, dale energía, y podrás almacenar cantidades masivas de items en un espacio pequeño.",
+  "hqm.quest.salvage_operation.me_system.task.0.desc": "ME Controlador",
+  "hqm.quest.salvage_operation.me_system.task.0.long_desc": "Un ME Controlador es el núcleo de una red ME. Cada cara del bloque puede aceptar energía y proporcionar canales a la red. Solo puede haber un controlador por red, pero dos bloques de controlador colocados uno al lado del otro cuentan como un solo controlador y pueden proporcionar más canales de los que obtendrías de un solo bloque. Lee más en la Guía de Applied Energistics.",
+  "hqm.quest.salvage_operation.me_system.task.1.desc": "ME Drive",
+  "hqm.quest.salvage_operation.me_system.task.1.long_desc": "Una Rack discos alberga celdas de almacenamiento. Puede almacenar hasta 10 celdas de almacenamiento por unidad. Los indicadores de color en el bloque indican el estado de cada unidad. Lee más en la Guía de Applied Energistics.",
+  "hqm.quest.salvage_operation.me_system.task.2.desc": "ME Terminal",
+  "hqm.quest.salvage_operation.me_system.task.2.long_desc": "Las ME Terminals son el punto de acceso a tu red. La terminal básica te permite ver el almacenamiento de tu red y agregar/remover items. Probablemente querrás mejorar a una terminal de fabricación muy pronto, y eventualmente una terminal inalámbrica para acceder a tu red desde cualquier lugar. Lee más en la Guía de Applied Energistics.",
+  "hqm.quest.salvage_operation.me_system.task.3.desc": "ME Storage Cell",
+  "hqm.quest.salvage_operation.me_system.task.3.long_desc": "Las ME Unidad de Almacenamiento son donde los items (o fluidos) se almacenan en tu red. Cada celda de almacenamiento de items puede almacenar hasta 63 tipos de items, con el número total de items determinado por el tamaño de la celda. Generalmente, deberías hacer algunas celdas de almacenamiento grandes para contener los items que tienes en grandes cantidades, y luego celdas de almacenamiento pequeñas para contener items que solo tienes en pequeñas cantidades. Lee más en la Guía de Applied Energistics.",
+
+
+
+  "hqm.quest.salvage_operation.structure_tinkers_smeltery.name": "Calor Abrasador",
+  "hqm.quest.salvage_operation.structure_tinkers_smeltery.desc": "Las ruinas en este planeta parecen contener restos de todo tipo de tecnología interesante. Algunas de estas ruinas tienen ladrillos que parecen lo suficientemente fuertes para resistir el calor abrasador de una fundición.",
+  "hqm.quest.salvage_operation.structure_tinkers_smeltery.task.0.long_desc": "Puedes encontrar edificios de fundición en ciudades. Rompe los ladrillos de fundición con un martillo o ponlos en algún tipo de máquina de trituración para obtener ladrillos.",
+
+  "hqm.quest.salvage_operation.smeltery.name": "progresión del forjado",
+  "hqm.quest.salvage_operation.smeltery.desc": "Vas a necesitar mucho metal para prosperar en este planeta. Una fundición te ayudará a obtener un buen comienzo aumentando casi al doble la cantidad de metal que obtienes de cada pieza de mineral. También puedes hacer equipo más avanzado con metal fundido y aleación.",
+  "hqm.quest.salvage_operation.smeltery.task.0.long_desc": "Para construir la fundición, haz un piso de ladrillos de fundición (3x3 es el estándar), y llena cada cara con bloques de fundición, típicamente una mezcla de ladrillos de fundición, drenajes de fundición, vidrio de fundición, y un tanque de fundición. Coloca el controlador de fundición en la parte frontal, y deberías ser capaz de interactuar con la estructura. Consulta la guía \"Gran Fundición \" para más información.",
+
+  "hqm.quest.salvage_operation.tinkers_anvil.name": "Forja de Herramientas",
+  "hqm.quest.salvage_operation.tinkers_anvil.desc": "El yunque del Tinkers es una mejora a la estación del Tinkers que puede usarse para hacer herramientas más avanzadas, incluyendo herramientas que minan en un área de efecto y el cleaver, excelente para decapitar mobs.",
+  "hqm.quest.salvage_operation.tinkers_anvil.task.0.long_desc": "El yunque del tinkers se hace de piedra de fundición y bloques de metal aleado alrededor de una estación del tinkers.",
+
+  "hqm.quest.salvage_operation.cast_chest.name": "El molde Náufrago",
+  "hqm.quest.salvage_operation.cast_chest.desc": "Cuando configures una fundición, necesitarás un buen lugar para almacenar todos tus moldes.",
+  "hqm.quest.salvage_operation.cast_chest.task.0.long_desc": "Un Cofre de Moldes puede ser hecho de ladrillo de fundición, un cofre, y un molde. Almacena hasta 4 de cada tipo de molde, así que usualmente puedes meter todos los moldes que alguna vez necesitarás adentro.",
+
+  "hqm.quest.salvage_operation.foundry.name": "Aumentando el Calor",
+  "hqm.quest.salvage_operation.foundry.desc": "El Gran horno (foundry) es una versión alternativa de la fundición, aproximadamente triplicará el número de lingotes que obtienes de los minerales. Los minerales fundidos en el Gran horno producirán un subproducto adicional, proporcionando aún más recursos por mineral. Incluso puedes usarlo para obtener más piedra de fundición como subproducto de fundir piedra. También permite mucho más líquido ser almacenado por bloque, pero no puede hacer aleaciones, así que tendrás que usar un alloyer o la fundición para eso.",
+  "hqm.quest.salvage_operation.foundry.task.0.long_desc": "Puedes encontrar componentes de Gran horno en la estructura de ciudad de foundry.\nEl multiblock de fundición se construye de manera similar a la fundición, pero hecho de ladrillos chamuscados. A diferencia de la fundición, debes llenar los bordes de un Gran horno con bloques aceptables, no solo las caras internas. Consulta la guía \"Fundición Fantástica\" para más información.",
+
+  "hqm.quest.salvage_operation.bronze_constantan.name": "Edad de Bronce",
+  "hqm.quest.salvage_operation.bronze_constantan.desc": "Con un gran horno configurado, puedes comenzar a hacer herramientas de aleaciones en lugar de solo metales básicos u otros materiales.",
+  "hqm.quest.salvage_operation.bronze_constantan.task.0.long_desc": "Bronce y Constantan son los dos mejores materiales de nivel III para armas y herramientas, respectivamente. Sus estadísticas son equilibradas pero potentes, y no son demasiado difíciles de hacer con recursos que probablemente tienes en abundancia. Hasta que encuentres una forma de hacer y tamizar bloques del Nether, estos generalmente serán las mejores cabezas de herramienta disponibles.",
+
+  "hqm.quest.salvage_operation.blazing_blood.name": "Blaze of Glory",
+  "hqm.quest.salvage_operation.blazing_blood.desc": "Los metales más duros requieren los combustibles más calientes. La sangre ardiente está entre los más calientes, y es un ingrediente esencial para hacer aleaciones avanzadas.",
+  "hqm.quest.salvage_operation.blazing_blood.task.0.long_desc": "Puedes hacer sangre ardiente fundiendo blazes en una fundición. Los blazes se pueden encontrar en la estructura de Fundición. Cantidades pequeñas de sangre ardiente también se pueden obtener fundiendo varas de blaze o polvere de blaze.",
+
+  "hqm.quest.salvage_operation.manyullyn_hepatizon.name": "Forjado en el Infierno",
+  "hqm.quest.salvage_operation.manyullyn_hepatizon.desc": "Una vez que hayas encontrado cobalto y escombros ancestrales en una ciudad de foundry, puedes comenzar a crear Materiales de tinkers avanzados. Estos son los dos ingredientes principales detrás de los mejores materiales de herramienta en el juego.",
+  "hqm.quest.salvage_operation.manyullyn_hepatizon.task.0.long_desc": "Manyullyn y Hepatazón son los dos mejores materiales de nivel IV para armas y herramientas, respectivamente. Sus estadísticas son muy potentes, y se hacen de materiales más raros basados en el Nether. Necesitarás usar sangre ardiente como combustible de tu fundición para crear estas aleaciones, pero la inversión valdrá la pena.",
+
+
+
+  "hqm.quest.salvage_operation.structure_nuclear_plant.name": "Fusión Nuclear",
+  "hqm.quest.salvage_operation.structure_nuclear_plant.desc": "Las ruinas en este planeta parecen contener restos de todo tipo de tecnología interesante. Algo de esta tecnología parece adecuada para generación de energía nuclear.",
+  "hqm.quest.salvage_operation.structure_nuclear_plant.task.0.long_desc": "Puedes encontrar el edificio de planta nuclear explorando el desierto.",
+
+  "hqm.quest.salvage_operation.nuclear_reactor.name": "Ir a lo Nuclear",
+  "hqm.quest.salvage_operation.nuclear_reactor.desc": "Mientras construyes tu infraestructura tecnológica probablemente encontrarás que necesitas más energía de la que puedes generar fácilmente. Sin embargo, ahora que has conseguido algunas partes de reactor nuclear, puedes empezar a arreglar eso.",
+  "hqm.quest.salvage_operation.nuclear_reactor.task.0.long_desc": "Puedes fabricar el reactor terminal reparando las partes que encuentras en las ruinas.",
+
+  "hqm.quest.salvage_operation.turbine.name": "Funcionando con Vapores",
+  "hqm.quest.salvage_operation.turbine.desc": "¿Necesitas aún más energía? Hay una solución para eso. Si ingresas agua en un reactor, emitirá vapor. Ese vapor luego puede usarse para girar una turbina, generando cantidades masivas de energía. Por supuesto, esto no es fácil de configurar. Incluso después de haber rastreado todos los componentes, necesitarás una cantidad asombrosa de agua para mantener las cosas funcionando suavemente. Generar esa agua tomará una cantidad significativa de tiempo y esfuerzo para configurar, pero podría valer la pena si necesitas energía en grandes cantidades.",
+  "hqm.quest.salvage_operation.turbine.task.0.long_desc": "Muy al igual que el reactor terminal, la turbine terminal debe ser hecha reparando partes encontradas en las ruinas.",
+
+
+
+
+
+
+
+
+
+  "hqm.quest_set.technological_revolution.desc": "Guía para el avance tecnológico, producción de energía, y automatización basada en máquinas.",
+
+
+
+  "hqm.quest.technological_revolution.pitiful_generator.name": "Lucha de Poder",
+  "hqm.quest.technological_revolution.pitiful_generator.desc": "Necesitarás más energía eventualmente, pero hacer cualquier tipo de maquinaria avanzada es difícil y a menudo requiere placas de circuito. Sin embargo, puedes configurar una fuente básica de energía con el mismo combustible que un horno.",
+  "hqm.quest.technological_revolution.pitiful_generator.task.0.long_desc": "Un pitiful generator puede ser alimentado con combustible de horno, carbón vegetal o bloques de carbón son especialmente efectivos. Sin embargo, la generación de energía es lenta y generalmente ineficiente.",
+
+  "hqm.quest.technological_revolution.conduits.name": "Sueños de Tuberías",
+  "hqm.quest.technological_revolution.conduits.desc": "Para mayor industrialización, necesitarás mover items, fluidos, y energía alrededor. Es hora de configurar las tuberías.",
+  "hqm.quest.technological_revolution.conduits.task.0.long_desc": "Los conductos se hacen de conduit binder y sus respectivos materiales. Puedes cambiar las configuraciones de conducto haciendo clic derecho en su interfaz I/O o haciendo clic derecho con una llave inglesa para hacer ajustes rápidos.\nAdvertencia: Debido a un bug con EnderIO y Thirst, la mayoría de las fuentes de agua no pueden ser transferidas por conductos de fluido. Otros líquidos funcionarán, pero recomendamos usar otros métodos de transferencia mods para mover agua.",
+
+  "hqm.quest.technological_revolution.manual_alloying.name": "Stirring Up Trouble",
+  "hqm.quest.technological_revolution.manual_alloying.desc": "La aleación es una parte esencial de la revolución tecnológica. El método estándar de aleación es fundiendo los metales en un líquido y mezclando los líquidos juntos. Sin embargo, necesitas calor extremo para eso. Si puedes triturar metales en polvo no necesitas fundirlos completamente a un líquido. En su lugar, puedes simplemente mezclar los metales juntos a mano y fundir el polvo resultante de vuelta en lingotes.",
+  "hqm.quest.technological_revolution.manual_alloying.task.0.long_desc": "Un molino puede triturar metal en polvo, que luego puede ser fabricado juntos a mano.",
+
+  "hqm.quest.technological_revolution.machine_frame.name": "Marco de Referencia",
+  "hqm.quest.technological_revolution.machine_frame.desc": "El machine frame es la clave de toda maquinaria avanzada. Necesitarás un marco de invar para su construcción y una PCB para actuar como un circuito de control central.",
+  "hqm.quest.technological_revolution.machine_frame.task.0.long_desc": "El machine frame actúa como un material base unificado para múltiples mods.",
+
+
+
+  "hqm.quest.technological_revolution.compression_dynamo.name": "Quemando el Aceite de Medianoche",
+  "hqm.quest.technological_revolution.compression_dynamo.desc": "El Compression Dynamo es el siguiente avance en generación de energía. Genera energía en grandes cantidades de varios tipos de aceites refinados.",
+  "hqm.quest.technological_revolution.compression_dynamo.task.0.long_desc": "Diésel, Queroseno, Gasolina, y LPG son algunos de los combustibles más prácticos para usar en el Dinamo de Compresión, perfectos para usar el petróleo que has refinado.",
+
+
+
+  "hqm.quest.technological_revolution.multiservo_press.name": "Causar una buena impresión",
+  "hqm.quest.technological_revolution.multiservo_press.desc": "La Multiservo Press puede prensar lingotes en placas, engranajes y monedas, así como empacar o desempacar montones de items y sus versiones comprimidas.",
+  "hqm.quest.technological_revolution.multiservo_press.task.0.long_desc": "La Multiservo Press realiza diferentes funciones dependiendo del troquel (die) usado. Con un troquel de empacado (packing die), empacará items en formas comprimidas, equivalente a recetas de fabricación que llenan todos los espacios de una cuadrícula 2x2 o 3x3. Con un troquel de desempacado (unpacking die), hace lo contrario. Usando un troquel de trabajo de engranajes o numismático (gerworking o numismatic die) los metales pueden ser prensados en engranajes y monedas. Usándola sin un troquel insertado prensará lingotes en placas.",
+
+  "hqm.quest.technological_revolution.induction_smelter.name": "Forjando Conexiones",
+  "hqm.quest.technological_revolution.induction_smelter.desc": "La Induction Smelter puede usarse para procesar minerales, producir vidrio endurecido, y hacer aleaciones. Es una forma especialmente eficiente y compacta de producir grandes cantidades de aleaciones comparado con métodos alternativos.",
+  "hqm.quest.technological_revolution.induction_smelter.task.0.long_desc": "La Induction Smelter funde hasta tres items juntos con un catalizador opcional.",
+
+  "hqm.quest.technological_revolution.pulverizer.name": "Aplastándolo",
+  "hqm.quest.technological_revolution.pulverizer.desc": "El Pulverizer tritura items en polvos. Puede usarse para agilizar procesos y duplicar minerales, produciendo polvo de mineral así como un subproducto. Un catalizador puede usarse para modificar salidas, con pedernal siendo el catalizador más básico.",
+  "hqm.quest.technological_revolution.pulverizer.task.0.long_desc": "Un Pulverizador tritura un item en polvo.",
+
+
+
+  "hqm.quest.technological_revolution.blast_chiller.name": "Relájate",
+  "hqm.quest.technological_revolution.blast_chiller.desc": "El Blast Chiller enfría líquidos en sus formas sólidas. Es lo opuesto a un Magma Crucible. Puede usarse para convertir metal líquido en lingotes, congelar agua en hielo o nieve, y convertir redstone, piedra luminosa, y perlas de ender en sus formas sólidas.",
+  "hqm.quest.technological_revolution.blast_chiller.task.0.long_desc": "El Blast Chiller convierte líquidos en items. Algunas recetas requieren un molde, el cual puede ser hecho de placas de bronce.",
+
+  "hqm.quest.technological_revolution.magma_crucible.name": "Desastre Caliente",
+  "hqm.quest.technological_revolution.magma_crucible.desc": "El Magma Crucible funde items en sus formas líquidas. Es lo opuesto a un Blast Chiller. Puede usarse para hacer grandes cantidades de lava, fundir plástico, y convertir redstone, piedra luminosa, y perlas de ender en sus formas líquidas.",
+  "hqm.quest.technological_revolution.magma_crucible.task.0.long_desc": "El crisol de magma consume items y los convierte en líquidos.",
+
+  "hqm.quest.technological_revolution.phytogenic_insolator.name": "Máquina Verde",
+  "hqm.quest.technological_revolution.phytogenic_insolator.desc": "El Phytogenic Insolator puede cultivar cultivos sin requerir que sean plantados separadamente. Consume una gran cantidad de agua por operación, así como un catalizador opcional. El catalizador más básico es polvo de hueso, pero con algo de esfuerzo, phyto-gro, un fertilizante avanzado, puede ser fabricado.",
+  "hqm.quest.technological_revolution.phytogenic_insolator.task.0.long_desc": "El Insolador Fitogénico toma una semilla o plantón, algo de agua, energía, y un catalizador opcional, y produce cultivos y otra semilla. Esto puede usarse para agricultura en un espacio pequeño o para operaciones a pequeña escala que no necesitarán una granja completa.",
+
+
+
+  "hqm.quest.technological_revolution.augments.name": "Realidad Aumentada",
+  "hqm.quest.technological_revolution.augments.desc": "Los Augments son mejoras que pueden ser instaladas en máquinas para mejorar su velocidad o eficiencia, agregar habilidades, o cambiar la forma en que el dispositivo funciona.",
+  "hqm.quest.technological_revolution.augments.task.0.long_desc": "Los Augments pueden ser instalados en las ranuras de augment de una máquina o dinamo. Los más útiles típicamente aumentan la velocidad o eficiencia de una máquina. Estos usualmente vienen con desventajas, sin embargo, vale la pena utilizarlo en ciertos casos.",
+
+  "hqm.quest.technological_revolution.internal_components_1.name": "Conexion innata",
+  "hqm.quest.technological_revolution.internal_components_1.desc": "Las mejoras de Componente Interno modifican las estadísticas de una máquina, escalando sus atributos base. El Hardened Internal Components es el primer nivel de mejoras de Componente, duplicando las estadísticas base de la máquina.",
+  "hqm.quest.technological_revolution.internal_components_1.task.0.long_desc": "Las mejoras de componente pueden ser instaladas en las ranuras de augment de una máquina.",
+
+  "hqm.quest.technological_revolution.internal_components_2.name": "Integridad Estructural",
+  "hqm.quest.technological_revolution.internal_components_2.desc": "Las mejoras de Componente Interno modifican las estadísticas de una máquina, escalando sus atributos base. Los Reinforced Internal Components son el segundo nivel de mejoras de Componente, triplicando las estadísticas base de la máquina.",
+  "hqm.quest.technological_revolution.internal_components_2.task.0.long_desc": "Las mejoras de componente pueden ser instaladas en las ranuras de augment de una máquina.",
+
+  "hqm.quest.technological_revolution.internal_components_3.name": "Afinado Finamente",
+  "hqm.quest.technological_revolution.internal_components_3.desc": "Las mejoras de Componente Interno modifican las estadísticas de una máquina, escalando sus atributos base. Los Resonant Internal Components son el tercer y ultima mejora de Componente, cuadruplicando las estadísticas base de la máquina.",
+  "hqm.quest.technological_revolution.internal_components_3.task.0.long_desc": "Las mejoras de componente pueden ser instaladas en las ranuras de augment de una máquina.",
+
+
+
+  "hqm.quest.technological_revolution.thermal_capstone.name": "Termodinámica",
+  "hqm.quest.technological_revolution.thermal_capstone.desc": "Domina la tecnología térmica y puedes avanzar a las siguientes etapas de escapar del planeta.",
+  "hqm.quest.technological_revolution.thermal_capstone.task.0.long_desc": "Usa una induction smelter para hacer las aleaciones requeridas, y completa esta tarea para continuar.",
+
+
+
+  "hqm.quest.technological_revolution.spawn_eggs.name": "Criaturas Grandes y Pequeñas",
+  "hqm.quest.technological_revolution.spawn_eggs.desc": "Si tienes los medios, puedes querer mantener animales para recursos.\nLas gallinas producen huevos,\nlas vacas producen leche, y las ovejas producen lana.\nEl Animal Feeder proporciona a los animales suficiente comida para reproducirse, y el Animal Rancher automatiza la recolección de leche y lana de vacas y ovejas.",
+  "hqm.quest.technological_revolution.spawn_eggs.task.0.long_desc": "Puedes encontrar huevos de gallina naturalmente, y puedes fabricar otros huevos de animales en una dissolution chamber cuando tienes un suministro estable de esencia.",
+
+  "hqm.quest.technological_revolution.dissolution_chamber.name": "Liquidando Activos",
+  "hqm.quest.technological_revolution.dissolution_chamber.desc": "La Dissolution Chamber permite fabricación avanzada que puede infundir objetos con líquido, a veces produciendo un fluido como subproducto.",
+  "hqm.quest.technological_revolution.dissolution_chamber.task.0.long_desc": "Las recetas de la Dissolution Chamber se usan para fabricar algunos items avanzados con carne líquida, plástico fundido, y slime rosa líquido.",
+
+  "hqm.quest.technological_revolution.mob_slaughter_factory.name": "Pasta de Monstruo",
+  "hqm.quest.technological_revolution.mob_slaughter_factory.desc": "Los monstruos en este planeta parecen emerger del suelo cuando y donde sea que esté oscuro. Puede ser posible usar eso a tu ventaja. Si puedes empujarlos hacia una Mob Slaughter Factory, los molerá automáticamente en líquidos utilizables.",
+  "hqm.quest.technological_revolution.mob_slaughter_factory.task.0.long_desc": "Una Mob Slaughter Factory puede moler mobs en carne líquida y slime rosa.",
+
+  "hqm.quest.technological_revolution.plant_sower.name": "Mano Verde",
+  "hqm.quest.technological_revolution.plant_sower.desc": "Plantar y cosechar cultivos a mano es laborioso y consume mucho tiempo. Ahora que te has industrializado algo, debería ser posible ir más allá de eso y automatizar el proceso.",
+  "hqm.quest.technological_revolution.plant_sower.task.0.long_desc": "Un Plant Sower puede plantar cultivos o brotes en un área pequeña (el rango puede ser expandido con mejoras de rango). Un Plant Gatherer recolectará esos cultivos y brotes.\nAutomatizar cultivos debería proporcionar mucha comida para comer y compostar comida o brotes puede generar grandes cantidades de agua.",
+
+
+
+  "hqm.quest.technological_revolution.sewage.name": "Quien no malgasta, no pasa necesidades",
+  "hqm.quest.technological_revolution.sewage.desc": "Los animales son desordenados, y producirán desechos si se los deja a su propia suerte. Sin embargo, este desecho puede ser reciclado en materiales utilizables con el equipo correcto. El Sewer recolectará desechos y esencia de animales, y el Sewage Composter producirá fertilizante de alcantarilla.",
+  "hqm.quest.technological_revolution.sewage.task.0.long_desc": "El fertilizante puede usarse para hacer crecer cultivos igual que polvo de hueso, o ser usado en un Plant Fertilizer para aplicarlo automáticamente a las plantas.",
+
+  "hqm.quest.technological_revolution.addons.name": "Actualización de Hardware",
+  "hqm.quest.technological_revolution.addons.desc": "Velocidad, Eficiencia, Procesamiento, y Complementos de Rango son mejoras útiles para muchas de tus máquinas.",
+  "hqm.quest.technological_revolution.addons.task.0.long_desc": "La mayoría de Complementos vienen en dos niveles, hechos con ya sea engranajes de oro o diamante. Las mejoras de rango tienen doce tipos y no están incluidas abajo, pero son muy útiles para ciertas máquinas.",
+
+  "hqm.quest.technological_revolution.mob_crusher.name": "Aceites Esenciales",
+  "hqm.quest.technological_revolution.mob_crusher.desc": "Los monstruos muertos con la Slaughter Factory producirán carne y slime, pero eso es todo. A veces es mejor recolectar los materiales que típicamente sueltan. Un Mob Crusher puede matar mobs, recolectando su botín así como su esencia destilada.",
+  "hqm.quest.technological_revolution.mob_crusher.task.0.long_desc": "El Mob Crusher producirá botín de mobs y esencia, un tipo de experiencia líquida. La esencia tiene una serie de usos en encantamiento y aparición de mobs. Grandes cantidades de esencia pueden usarse para fabricar huevos de aparición de mobs específicos en la Dissolution Chamber.",
+
+  "hqm.quest.technological_revolution.mechanical_dirt.name": "Terreno de caza",
+  "hqm.quest.technological_revolution.mechanical_dirt.desc": "Los monstruos en este planeta parecen reunirse donde sea que esté oscuro y atacar a los vivos. Puede ser posible atraer más de ellos con algo de carne líquida en suelo energizado.",
+  "hqm.quest.technological_revolution.mechanical_dirt.task.0.long_desc": "El Mechanical dirt generará mobs cuando se le proporcione carne líquida, energía, y sea colocada en condiciones de aparición naturales. Los fluidos y energía serán transportados entre bloques adyacentes.",
+
+  "hqm.quest.technological_revolution.sludge_refiner.name": "Removiendo Lodo",
+  "hqm.quest.technological_revolution.sludge_refiner.desc": "Recolectar plantas automáticamente produce una gran cantidad de lodo como subproducto. Este lodo puede ser procesado en algunos bloques tamizables usando un Sludge Refiner.",
+  "hqm.quest.technological_revolution.sludge_refiner.task.0.long_desc": "Proporciona lodo (sludge) y energía al Sludge Refiner y lo procesará lentamente en tierra, arcilla, grava, arena, arena roja, y arena de almas.",
+
+  "hqm.quest.technological_revolution.mob_duplicator.name": "La guerra de los Clones",
+  "hqm.quest.technological_revolution.mob_duplicator.desc": "Un Mob Crusher producirá grandes cantidades de esencia. Si puedes capturar algunos monstruos más raros dentro de una Mob Imprisonment Tool, puedes usar esa esencia para duplicar ese mob para futuras granjas.",
+  "hqm.quest.technological_revolution.mob_duplicator.task.0.long_desc": "Captura un mob en la Mob Imprisonment Tool haciendo clic derecho en él. Luego, coloca el mob capturado en el Mob Duplicator para generar copias de él. Esto es especialmente útil cuando consigues mobs raros como Esqueletos del Wither.",
+
+
+
+  "hqm.quest.technological_revolution.industrial_foregoing_capstone.name": "Desecho Industrial",
+  "hqm.quest.technological_revolution.industrial_foregoing_capstone.desc": "Con muchas granjas funcionando, comenzarás a recolectar muchos subproductos industriales.",
+  "hqm.quest.technological_revolution.industrial_foregoing_capstone.task.0.long_desc": "Usa un sewer, mob slaughter factory, y mob crusher para producir subproductos industriales. Luego, conviértelos en formas útiles usando un sewage composter y una dissolution chamber, y completa esta misión.",
+
+
+
+
+
+
+
+
+
+  "hqm.quest_set.to_infinity_and_beyond.desc": "Guía para escapar del planeta.",
+
+  "hqm.quest.to_infinity_and_beyond.beyond_the_stars.name": "Más Allá de las Estrellas",
+  "hqm.quest.to_infinity_and_beyond.beyond_the_stars.desc": "Ahora deberías tener las herramientas para aventurarte más allá del libro de misiones y escapar del planeta. El mod Ad Astra está en el juego pero aún no ha sido totalmente integrado. Hasta la integración completa y las misiones sean construidas, estás por tu cuenta. Eres bienvenida a explorar el espacio ahora en su estado temporal, o regresar a este modpack una vez que el endgame sea totalmente implementado. Espero que hayas disfrutado, y siéntete libre de pasar por nuestro discord si tienes alguna sugerencia.",
+  "hqm.quest.to_infinity_and_beyond.beyond_the_stars.task.0.long_desc": "Únete a nuestro discord con código de invitación \u00A794en3SpWtJg\u00A7r, o ve a \u00A79discord.gg/4en3SpWtJg\u00A7r\nIntento responder a las preguntas de todos y me encantarían sugerencias sobre cómo mejorar el modpack.",
+
+  "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.name": "Caja de Fusibles",
+  "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.desc": "La aleación típicamente requiere mezclar metales fundidos, pero algunos metales pueden ser infundidos juntos para hacer ciertos tipos de aleaciones. Con un Infusor metalúgico, puedes hacer algunas aleaciones más avanzadas como acero. También puede hacer circuitos de control avanzados, útiles para todo tipo de mecanismos interesantes.",
+  "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.0.desc": "Infusor",
+  "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.0.long_desc": "Eventualmente puedes mejorar el infusor metalúrgico básico para ser más rápido, más eficiente energéticamente, y tener más ranuras de procesamiento.",
+  "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.1.desc": "Infusionando",
+  "hqm.quest.to_infinity_and_beyond.metallurgic_infuser.task.1.long_desc": "Una de las aleaciones avanzadas más útiles es el acero. Puedes hacer acero con 2 carbón y 1 lingote de hierro. Pon el carbón en la ranura de infusión del Infusor metalúgico para licuarlo, luego pon un lingote de hierro en la ranura de procesamiento principal. Esto creará hierro enriquecido, que luego puede ser puesto de vuelta en la ranura de procesamiento principal para hacer mezcla de acero (steel blend). Finalmente, la mezcla de acero puede ser fundida en un lingote de acero. Una Cámara de enriquecimiento puede usarse para enriquecer el carbón para obtener 8 veces los recursos por cada pieza de carbón.",
+
+  "hqm.quest.to_infinity_and_beyond.unnamed.name": "Unnamed",
+  "hqm.quest.to_infinity_and_beyond.unnamed.desc": "Unnamed quest",
+
+  "hqm.quest.to_infinity_and_beyond.wip_disclaimer.name": "WIP Disclaimer",
+  "hqm.quest.to_infinity_and_beyond.wip_disclaimer.desc": "Aviso: Este modpack está aún bajo desarrollo y el endgame aún no ha sido desarrollado. La exploración espacial es posible con Ad Astra, pero solo con los planetas por defecto y progresión/integración muy limitada.",
+  "hqm.quest.to_infinity_and_beyond.wip_disclaimer.task.0.long_desc": "Esta línea de misiones solo tiene misiones placeholder por ahora. Los placeholders restantes se desbloquearán cuando todas las otras misiones estén completas.",
+
+
+
+  "example.example": "Example"
+}
