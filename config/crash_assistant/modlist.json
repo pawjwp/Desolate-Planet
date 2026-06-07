@@ -717,6 +717,14 @@
     "curseForgeHash": 3456884889,
     "modrinthHash": "94139aeac141ea41804e760c4b956943ff88f434"
   },
+  "huge-structure-blocks-1.0.9-forge.jar": {
+    "jarName": "huge-structure-blocks-1.0.9-forge.jar",
+    "modId": "hugestructureblocks",
+    "name": "Huge Structure Blocks",
+    "version": "1.0.9",
+    "curseForgeHash": 2134247833,
+    "modrinthHash": "8dc220c1fb37bcbc8910faa595862aa449e3a397"
+  },
   "idontwantportalyet-1.20-1.9.jar": {
     "jarName": "idontwantportalyet-1.20-1.9.jar",
     "modId": "idontwantportalyet",

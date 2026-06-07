@@ -1,0 +1,13 @@
+name = "Huge Structure Blocks [Fabric & Forge]"
+filename = "huge-structure-blocks-1.0.9-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8dc220c1fb37bcbc8910faa595862aa449e3a397"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4803547
+project-id = 474114
