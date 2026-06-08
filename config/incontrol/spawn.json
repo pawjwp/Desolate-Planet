@@ -204,7 +204,9 @@
       "specialmobs:zombifiedpiglin"
     ],
     "structuretags": [
-      "desolate_planet:foundry_bastion"
+      "desolate_planet:foundry_bastion",
+      "desolate_planet:oil_rig",
+      "desolate_planet:mer_lab"
     ],
     "when": "finalize",
     "result": "default",
