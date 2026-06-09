@@ -3,7 +3,7 @@
 	"textures": {
 		"1": "minecraft:block/white_concrete",
 		"2": "minecraft:block/gray_concrete",
-		"3": "kubejs:block/light_plasteel_block"
+		"3": "varkin_system:block/white_plasteel_block"
 	},
 	"display": {
         "gui": {

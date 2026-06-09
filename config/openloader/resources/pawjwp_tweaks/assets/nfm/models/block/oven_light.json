@@ -6,7 +6,7 @@
         "0": "minecraft:block/white_concrete",
         "1": "minecraft:block/gray_concrete",
         "2": "minecraft:block/red_concrete",
-        "3": "kubejs:block/light_plasteel_block",
+        "3": "varkin_system:block/white_plasteel_block",
         "4": "minecraft:block/white_stained_glass",
         "5": "cfm:block/mesh",
         "6": "minecraft:block/anvil"

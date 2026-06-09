@@ -76,6 +76,12 @@ ServerEvents.tags('item', event => {
         'scarcity:cherry_seed',
         'scarcity:rubberwood_seed'
     )
+    
+    event.add('desolate_planet:sync_block_ingredients',
+        'varkin_system:black_plasteel_block',
+        'varkin_system:gray_plasteel_block',
+        'minecraft:gray_concrete'
+    )
 
     Ingredient.of(/^(cfm|nfm|refurbished_furniture):.*sink.*$/).itemIds.forEach(id => {
         event.add('desolate_planet:sinks', id);
