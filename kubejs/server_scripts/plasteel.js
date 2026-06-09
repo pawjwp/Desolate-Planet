@@ -1,40 +1,4 @@
 ServerEvents.recipes(event => {
-  event.custom({
-    type: 'pneumaticcraft:thermo_plant',
-    exothermic: false,
-    fluid_input: {
-      type: 'pneumaticcraft:fluid',
-      amount: 1000,
-      tag: 'pneumaticcraft:plastic'
-    },
-    item_input: {
-      tag: 'forge:dusts/iron'
-    },
-    item_output: {
-      count: 4,
-      item: 'kubejs:light_plasteel_block'
-    },
-    pressure: 1.5
-  }).id('desolate_planet:light_plasteel_block');
-  
-  event.custom({
-    type: 'pneumaticcraft:thermo_plant',
-    exothermic: false,
-    fluid_input: {
-      type: 'pneumaticcraft:fluid',
-      amount: 1000,
-      tag: 'pneumaticcraft:plastic'
-    },
-    item_input: {
-      tag: 'forge:dusts/steel'
-    },
-    item_output: {
-      count: 4,
-      item: 'kubejs:dark_plasteel_block'
-    },
-    pressure: 1.5
-  }).id('desolate_planet:dark_plasteel_block');
-
   event.replaceInput(
     {
       input: 'minecraft:stone', output:
@@ -141,6 +105,6 @@ ServerEvents.recipes(event => {
         ]
     },
     'minecraft:stone',
-    'kubejs:light_plasteel_block'
+    'varkin_system:white_plasteel_block'
   )
 });
