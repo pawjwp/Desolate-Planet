@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "varkin_system:perdix/trash/large",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 8,
+    "separation": 4,
+    "spread_type": "linear",
+    "salt": 215727990
+  }
+}
