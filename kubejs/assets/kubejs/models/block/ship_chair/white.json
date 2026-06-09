@@ -3,10 +3,10 @@
 	"credit": "Made with Blockbench",
 	"render_type": "cutout",
 	"textures": {
-		"0": "kubejs:block/light_plasteel_block",
-		"1": "kubejs:block/dark_plasteel_block",
+		"0": "varkin_system:block/white_plasteel_block",
+		"1": "varkin_system:block/black_plasteel_block",
 		"2": "kubejs:block/ship_chair/white",
-		"particle": "kubejs:block/light_plasteel_block"
+		"particle": "varkin_system:block/white_plasteel_block"
 	},
 	"elements": [
 		{

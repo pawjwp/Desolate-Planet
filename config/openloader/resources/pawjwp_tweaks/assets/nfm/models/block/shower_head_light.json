@@ -1,7 +1,7 @@
 {
 	"parent": "nfm:block/shower_head",
 	"textures": {
-		"1": "kubejs:block/light_plasteel_block",
+		"1": "varkin_system:block/white_plasteel_block",
 		"2": "minecraft:block/white_concrete"
 	},
 	"display": {

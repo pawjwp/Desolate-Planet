@@ -1,6 +1,6 @@
 {
     "textures": {
-		"legs": "kubejs:block/light_plasteel_block",
+		"legs": "varkin_system:block/white_plasteel_block",
 		"particle": "#table_top"
 	},
     "display": {

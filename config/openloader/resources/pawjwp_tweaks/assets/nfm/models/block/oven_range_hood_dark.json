@@ -2,7 +2,7 @@
 	"parent": "nfm:block/oven_range_hood",
 	"textures": {
 		"1": "minecraft:block/gray_concrete",
-		"2": "kubejs:block/light_plasteel_block",
+		"2": "varkin_system:block/white_plasteel_block",
 		"3": "minecraft:block/sea_lantern"
 	},
 	"display": {

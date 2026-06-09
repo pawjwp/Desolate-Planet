@@ -4,8 +4,8 @@
         "particle": "minecraft:block/white_concrete",
         "sink": "minecraft:block/white_concrete",
         "taps": "minecraft:block/polished_andesite",
-        "sink_inside": "kubejs:block/light_plasteel_block",
-        "base": "kubejs:block/light_plasteel_block"
+        "sink_inside": "varkin_system:block/white_plasteel_block",
+        "base": "varkin_system:block/white_plasteel_block"
     },
     "display": {
         "gui": {
