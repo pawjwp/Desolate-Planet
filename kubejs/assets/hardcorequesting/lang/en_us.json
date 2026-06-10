@@ -1,6 +1,14 @@
 {
   "hqm.questBook.infiniteLives": "Extra lives through HQM are disabled, you must use Sync to get more lives.",
 
+
+
+  "hqm.description": "------MAT STATUS REPORT------\n\nWelcome, and congratulations on remaining alive. You have survived a crash landing on Planet Talos, an uncharted planet in the Varkin system. Your shuttle was equipped with Multipurpose Assistance Terminal (MAT) technology. This MAT unit has now activated Emergency Survival Mode, designed to maximize your chances of survival in hostile or unknown environments. This terminal will provide situation-specific survival guidelines, continually monitor your vital signs, and record your progress for potential recovery operations.\n\nTalos preliminary surface scans indicate an arid environment with pockets of elevated radiation and highly localized metal deposits. Surface coverage consists of dust with high mineral concentration. Subsurface scanning indicates abundant subterranean hydrocarbon reservoirs. Weak, intermittent life-sign readings are detected, but reliability is uncertain due to radiation interference.\n\nYour embedded Heads-Up Display provides real-time monitoring of the following:\n- Vital signs\n  - Body temperature\n  - Hydration\n  - Sustenance\n  - Injury severity\n- Nearby terrain mapping\n- Object identification\n\nFamiliarize yourself with your environment, orient yourself, and begin to follow the tasks in the MAT \"Basic Survival\" guide.\n\n----------------------------\n\nThis modpack is not yet finished, and I would love to hear feedback about how we can improve it. You can reach the developers on our discord, invite code 4en3SpWtJg, or go to discord.gg/4en3SpWtJg.\n\nDevelopers:\n- Pawjwp\n- ULSTICK\n- MarkSDR\n\nOther contributors:\n- Nagasakii\n- QinlingP\n- herobrian903\n- Kilometers\n- Mei-Nanita\n- Pand1024\n- Lobo_um_louco\n\nOriginal developer:\n- Iskandar",
+
+
+
+
+
   "hqm.quest_set.basic_survival.desc": "Guide to the initial stages of surviving on an unknown world.",
 
 
