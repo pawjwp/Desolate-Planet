@@ -1,5 +1,8 @@
 {
-  "name": "To Infinity and Beyond",
+  "name": {
+    "text": "hqm.chapter.space",
+    "isTranslationKey": true
+  },
   "quests": [
     {
       "uuid": "80442f59-b87f-4b04-91ec-2b09ccf69f58",

@@ -1,5 +1,8 @@
 {
-  "name": "Under Pressure",
+  "name": {
+    "text": "hqm.chapter.pneumatics",
+    "isTranslationKey": true
+  },
   "quests": [
     {
       "uuid": "8fc9c1ac-631c-4c2c-aabc-bb7eeb415c76",

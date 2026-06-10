@@ -7,6 +7,16 @@
 
 
 
+  "hqm.chapter.basic_survival": "Sobrevivência Básica",
+  "hqm.chapter.food": "A Pirâmide Alimentar",
+  "hqm.chapter.contraptions": "Como um Relógio",
+  "hqm.chapter.pneumatics": "Sob Pressão",
+  "hqm.chapter.exploration": "Operação de Recuperação",
+  "hqm.chapter.technology": "Revolução Tecnológica",
+  "hqm.chapter.space": "Ao Infinito e Além",
+
+
+
 
   "hqm.quest_set.basic_survival.desc": "Guia para as etapas iniciais de sobreviver em um mundo desconhecido.",
   "hqm.quest.basic_survival.gathering_supplies.name": "Reunindo Suprimentos",

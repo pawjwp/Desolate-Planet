@@ -1,5 +1,8 @@
 {
-  "name": "The Food Pyramid",
+  "name": {
+    "text": "hqm.chapter.food",
+    "isTranslationKey": true
+  },
   "quests": [
     {
       "uuid": "854006f9-805c-48d5-926a-6e2f8eee1354",

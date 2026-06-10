@@ -1,5 +1,8 @@
 {
-  "name": "Salvage Operation",
+  "name": {
+    "text": "hqm.chapter.exploration",
+    "isTranslationKey": true
+  },
   "quests": [
     {
       "uuid": "9964c1f7-b9fa-4423-8266-c8f98b046455",

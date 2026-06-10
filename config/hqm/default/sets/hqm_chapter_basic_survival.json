@@ -1,5 +1,8 @@
 {
-  "name": "Basic Survival",
+  "name": {
+    "text": "hqm.chapter.basic_survival",
+    "isTranslationKey": true
+  },
   "quests": [
     {
       "uuid": "804f4329-c6f5-4df8-915c-c590329cf26c",

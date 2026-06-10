@@ -7,6 +7,16 @@
 
 
 
+  "hqm.chapter.basic_survival": "Basic Survival",
+  "hqm.chapter.food": "The Food Pyramid",
+  "hqm.chapter.contraptions": "Like Clockwork",
+  "hqm.chapter.pneumatics": "Under Pressure",
+  "hqm.chapter.exploration": "Salvage Operation",
+  "hqm.chapter.technology": "Technological Revolution",
+  "hqm.chapter.space": "To Infinity and Beyond",
+
+
+
 
 
   "hqm.quest_set.basic_survival.desc": "Guide to the initial stages of surviving on an unknown world.",

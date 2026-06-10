@@ -1,5 +1,8 @@
 {
-  "name": "Like Clockwork",
+  "name": {
+    "text": "hqm.chapter.contraptions",
+    "isTranslationKey": true
+  },
   "quests": [
     {
       "uuid": "84c2b599-5734-4f21-98a9-bb63cfced54d",
