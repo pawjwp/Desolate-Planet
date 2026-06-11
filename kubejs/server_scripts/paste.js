@@ -76,10 +76,10 @@ ServerEvents.recipes(event => {
 
 
     
-    // Dough from bases and water bucket
+    // Dough from bases and pneumaticcraft water tanks
     event.shapeless(
         Item.of('create:dough', 12), [
-        'minecraft:water_bucket',
+        {"type": "pneumaticcraft:fluid", "amount": 1000, "fluid": "minecraft:water"},
         '#forge:dough_bases',
         '#forge:dough_bases',
         '#forge:dough_bases',
@@ -89,27 +89,27 @@ ServerEvents.recipes(event => {
         '#forge:dough_bases',
         '#forge:dough_bases'
     ]
-    ).id('desolate_planet:dough_base_shapeless_bucket');
+    ).id('desolate_planet:dough_base_shapeless_tank');
 
-    // Paste from base and water bucket
+    // Paste from base and pneumaticcraft water tanks
     event.shapeless(
         Item.of('kubejs:paste', 6), [
-        'minecraft:water_bucket',
+        {"type": "pneumaticcraft:fluid", "amount": 1000, "fluid": "minecraft:water"},
         '#forge:dough_bases',
         '#forge:dough_bases'
     ]
-    ).id('desolate_planet:paste_base_shapeless_bucket');
+    ).id('desolate_planet:paste_base_shapeless_tank');
 
-    // Paste from dough and water bucket
+    // Paste from dough and pneumaticcraft water tanks
     event.shapeless(
         Item.of('kubejs:paste', 8), [
-        'minecraft:water_bucket',
+        {"type": "pneumaticcraft:fluid", "amount": 1000, "fluid": "minecraft:water"},
         '#forge:dough',
         '#forge:dough',
         '#forge:dough',
         '#forge:dough'
     ]
-    ).id('desolate_planet:paste_from_dough_shapeless_bucket');
+    ).id('desolate_planet:paste_from_dough_shapeless_tank');
 
     event.custom({
         type: 'create:splashing',
