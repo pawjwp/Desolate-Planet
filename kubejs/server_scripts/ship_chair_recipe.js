@@ -21,22 +21,18 @@ ServerEvents.recipes(event => {
 		event.custom({
 			type: 'refurbished_furniture:workbench_constructing',
 			materials: [
-			{
-				count: 3,
-				tag: 'forge:plastic'
-			},
-			{
-				count: 4,
-				tag: 'forge:nuggets/iron'
-			},
-			{
-				count: 1,
-				tag: 'forge:wool/'+color
-			}
+				{
+					count: 4,
+					item: 'varkin_system:white_plasteel_block'
+				},
+				{
+					count: 2,
+					tag: 'forge:wool/' + color
+				}
 			],
-			result: 'kubejs:'+color+'_ship_chair',
+			result: 'kubejs:' + color + '_ship_chair',
 			show_notification: false
-		})
+		}).id('desolate_planet:' + color + '_ship_chair_workbench_constructing')
 	})
 
 })
