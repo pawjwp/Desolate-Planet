@@ -1,6 +1,0 @@
-{
-  "parent": "kubejs:block/ship_chair/white",
-  "textures": {
-	"2": "kubejs:block/ship_chair/purple"
-  }
-}
