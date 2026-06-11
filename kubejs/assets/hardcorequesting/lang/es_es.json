@@ -602,11 +602,11 @@
 
   "hqm.quest.salvage_operation.structure_tinkers_smeltery.name": "Calor Abrasador",
   "hqm.quest.salvage_operation.structure_tinkers_smeltery.desc": "Las ruinas en este planeta parecen contener restos de todo tipo de tecnología interesante. Algunas de estas ruinas tienen ladrillos que parecen lo suficientemente fuertes para resistir el calor abrasador de una fundición.",
-  "hqm.quest.salvage_operation.structure_tinkers_smeltery.task.0.long_desc": "Puedes encontrar edificios de fundición en ciudades. Rompe los ladrillos de fundición con un martillo o ponlos en algún tipo de máquina de trituración para obtener ladrillos.",
+  "hqm.quest.salvage_operation.structure_tinkers_smeltery.task.0.long_desc": "Puedes encontrar edificios de fundición en ciudades. Rompe los Ladrillos refractarios agrietados con un martillo o ponlos en algún tipo de máquina de trituración para obtener Ladrillos refractarios.",
 
   "hqm.quest.salvage_operation.smeltery.name": "progresión del forjado",
   "hqm.quest.salvage_operation.smeltery.desc": "Vas a necesitar mucho metal para prosperar en este planeta. Una fundición te ayudará a obtener un buen comienzo aumentando casi al doble la cantidad de metal que obtienes de cada pieza de mineral. También puedes hacer equipo más avanzado con metal fundido y aleación.",
-  "hqm.quest.salvage_operation.smeltery.task.0.long_desc": "Para construir la fundición, haz un piso de ladrillos de fundición (3x3 es el estándar), y llena cada cara con bloques de fundición, típicamente una mezcla de ladrillos de fundición, drenajes de fundición, vidrio de fundición, y un tanque de fundición. Coloca el controlador de fundición en la parte frontal, y deberías ser capaz de interactuar con la estructura. Consulta la guía \"Gran Fundición \" para más información.",
+  "hqm.quest.salvage_operation.smeltery.task.0.long_desc": "Para construir la fundición, haz un piso de ladrillos refractarios (3x3 es el estándar), y llena cada cara con bloques de ladrillos refractarios, típicamente una mezcla de ladrillos de refractarios, drenajes de piedra refractaria, vidrio de piedra fundición, y un tanque de combustible refractario. Coloca el controlador de fundición en la parte frontal, y deberías ser capaz de interactuar con la estructura. Consulta la guía \"Gran Fundición \" para más información.",
 
   "hqm.quest.salvage_operation.tinkers_anvil.name": "Forja de Herramientas",
   "hqm.quest.salvage_operation.tinkers_anvil.desc": "El yunque del Tinkers es una mejora a la estación del Tinkers que puede usarse para hacer herramientas más avanzadas, incluyendo herramientas que minan en un área de efecto y el cleaver, excelente para decapitar mobs.",
