@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "desolate_planet:plasteel_block"
+      "tag": "varkin_system:plasteel_blocks"
     },
     {
       "tag": "forge:dusts/redstone"
