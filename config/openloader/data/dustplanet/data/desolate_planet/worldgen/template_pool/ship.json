@@ -7,7 +7,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "desolate_planet:ship_crash/ship5"
+                "location": "desolate_planet:ship_crash/ship6"
             },
             "weight": 1
         }
