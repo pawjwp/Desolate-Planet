@@ -1,6 +1,24 @@
 {
   "hqm.questBook.infiniteLives": "Vidas extras a través de HQM están deshabilitadas, debes usar Sync para obtener más vidas.",
 
+
+
+  "hqm.description": "------REPORTE DE ESTADO DEL MAT------\n\nBienvenido, y felicitaciones por permanecer vivo. Has sobrevivido a un aterrizaje de emergencia en el Planeta Talos, un planeta no explorado en el sistema Varkin. Tu transbordador estaba equipado con un Terminal de Asistencia Multipropósito (MAT). Esta unidad MAT ha activado ahora el Modo de Supervivencia de Emergencia, diseñado para maximizar tus chances de supervivencia en ambientes hostiles o desconocidos. Esta terminal proporcionará guías de supervivencia específicas para la situación, monitoreará continuamente tus signos vitales y registrará tu progreso para operaciones de recuperación potenciales.\n\nLos escaneos preliminares de la superficie de Talos indican un ambiente árido con Zonas de radiación elevada y Depósitos metálicos altamente concentrados. La superficie consiste en polvo con alta concentración mineral. El escaneo del terreno subterráneo indica abundantes reservas de hidrocarburos. Se detectan lecturas de señales de vida débiles e intermitentes, pero la confiabilidad es incierta debido a la interferencia de radiación.\n\nTu pantalla de visualización frontal (La interfaz de usuario del minecraft) incorporado proporciona monitoreo en tiempo real de lo siguiente:\n- Signos vitales\n  - Temperatura corporal\n  - Hidratación\n  - Nutrición\n  - Severidad de lesiones\n- Mapa de terreno cercano\n- Identificación de objetos\n\nFamiliarízate con tu ambiente, orienta tu posición y comienza a seguir las tareas en la guía MAT \"Supervivencia Básica\".\n\n----------------------------\n\nEste modpack aún no está terminado, y me encantaría recibir feedback sobre cómo podemos mejorarlo. Puedes contactar a los desarrolladores en nuestro discord, código de invitación 4en3SpWtJg, o ir a discord.gg/4en3SpWtJg.\n\nDesarrolladores:\n- Pawjwp\n- ULSTICK\n- MarkSDR\n\nOther colaboradores:\n- Nagasakii\n- QinlingP\n- herobrian903\n- Kilometers\n- Mei-Nanita\n- Pand1024\n- Lobo_um_louco\n\nOriginal developer:\n- Iskandar.",
+
+
+
+  "hqm.chapter.basic_survival": "Supervivencia Básica",
+  "hqm.chapter.food": "La Pirámide Alimenticia",
+  "hqm.chapter.contraptions": "Ingeniería sobre ruedas",
+  "hqm.chapter.pneumatics": "Bajo Presión",
+  "hqm.chapter.exploration": "Operación de Rescate",
+  "hqm.chapter.technology": "Revolución Tecnológica",
+  "hqm.chapter.space": "Al Infinito y Más Allá",
+
+
+
+
+
   "hqm.quest_set.basic_survival.desc": "Guía para las etapas iniciales de supervivencia en un mundo desconocido.",
 
 
