@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
 					tag: 'forge:wool/' + color
 				}
 			],
-			result: 'kubejs:' + color + '_ship_chair',
+			result: 'varkin_system:' + color + '_ship_chair',
 			show_notification: false
 		}).id('desolate_planet:' + color + '_ship_chair_workbench_constructing')
 	})
