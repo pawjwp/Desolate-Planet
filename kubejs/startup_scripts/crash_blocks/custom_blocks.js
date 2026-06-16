@@ -10,15 +10,10 @@ StartupEvents.registry('block', event => {
         .destroyTime(0.1)
     ))
     metalCrate = event.createCustom('metal_crate', () => new $BarrelBlock($Properties.copy(Blocks.IRON_BLOCK)))
-
-    //whiteShipChair = event.createCustom('white_ship_chair', () => new $ChairBlock($WoodType.OAK, $Properties.copy(Blocks.IRON_BLOCK)))
-    //whiteShipChair = event.createCustom('white_ship_chair', () => new $SofaBlock($DyeColor.WHITE, $Properties.copy(Blocks.IRON_BLOCK)))
 })
 
 StartupEvents.registry('item', event => {
     event.createCustom('dust_pile', () => new $BlockItem(dustLayer.get(), new $IProperties()))
     event.createCustom('trash_pile', () => new $BlockItem(trashLayer.get(), new $IProperties()))
     event.createCustom('metal_crate', () => new $BlockItem(metalCrate.get(), new $IProperties()))
-
-    //event.createCustom('white_ship_chair', () => new $BlockItem(whiteShipChair.get(), new $IProperties()))
 })
