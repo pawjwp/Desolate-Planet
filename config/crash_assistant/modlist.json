@@ -1370,6 +1370,14 @@
     "curseForgeHash": 1441746516,
     "modrinthHash": "9a7f4ffdfe0dfe0a8071ac6501e52b1b4e208758"
   },
+  "varkin_system-0.1.0.jar": {
+    "jarName": "varkin_system-0.1.0.jar",
+    "modId": "varkin_system",
+    "name": "Varkin System",
+    "version": "0.1.0",
+    "curseForgeHash": 3384103000,
+    "modrinthHash": "516b956bf3cae67e112b7ddf12280e83925bba87"
+  },
   "worldedit-mod-7.2.15.jar": {
     "jarName": "worldedit-mod-7.2.15.jar",
     "modId": "worldedit",

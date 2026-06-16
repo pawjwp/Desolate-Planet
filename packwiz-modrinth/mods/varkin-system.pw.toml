@@ -1,0 +1,13 @@
+name = "The Varkin System"
+filename = "varkin_system-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4KfOCyaT/versions/GC3c73M7/varkin_system-0.1.0.jar"
+hash-format = "sha512"
+hash = "ed31466824f868f6e9490bfe31b407f131fd0895aa6b5af61cbb2ccdfcaf68f7d5b43b4b2cb93b336e1c253e247f9eddd681a8bf97dff96950487cfe0646e6e4"
+
+[update]
+[update.modrinth]
+mod-id = "4KfOCyaT"
+version = "GC3c73M7"

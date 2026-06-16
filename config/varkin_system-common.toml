@@ -1,0 +1,15 @@
+
+[blocks]
+	#Number of item slots in each plasteel cabinet.
+	#Range: 1 ~ 256
+	cabinet_inventory_size = 27
+	#Number of upgrade slots in each plasteel cabinet.
+	#Range: 1 ~ 9
+	cabinet_upgrade_slots = 3
+
+[ad_astra]
+	#Enable the custom Varkin solar system renderer on the planet selection screen.
+	enable_solar_system_renderer = true
+	#Fix entities without gravity floating away on low-gravity planets.
+	enable_no_gravity_fix = true
+
