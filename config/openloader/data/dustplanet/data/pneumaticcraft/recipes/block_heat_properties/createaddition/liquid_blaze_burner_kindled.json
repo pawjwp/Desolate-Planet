@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "description": "pneumaticcraft.gui.jei.description.create_blaze_burner.kindled",
+  "block": "createaddition:liquid_blaze_burner",
+  "statePredicate": {
+    "blaze": "kindled"
+  },
+  "temperature": 1700,
+  "thermalResistance": 500
+}
