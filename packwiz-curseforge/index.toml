@@ -2,12 +2,12 @@ hash-format = "sha256"
 
 [[files]]
 file = "complementary-reimagined.pw.toml"
-hash = "5bd1c638fb241f66903210d608063d0fe597b44eaa64f6bf71e487bb9981df18"
+hash = "15291bd65f191bd9d354dc6769ba46ce360077c34db0b39f1edfa6437d036f08"
 metafile = true
 
 [[files]]
 file = "complementary-unbound.pw.toml"
-hash = "9056d7c6470f5fc8e66da6d58951fa9bb522c27b6f25477e1dc8d9d115392baf"
+hash = "f33cfb3a57ab776ed127b946283f589ed5373afa754794cf0a8e3a3afb638657"
 metafile = true
 
 [[files]]
@@ -292,39 +292,39 @@ hash = "32287770ca778b041872f78360803fedabc59ce7ccf441e0c132c47d75cf225a"
 
 [[files]]
 file = "config/SpecialMobs/drowned/abyssal_drowned.toml"
-hash = "2c65adb5e986eacd82982ac6a847b89e245090096053877b808235faf94f66ac"
+hash = "fcc06fd1f62026a8c07d56de0022e2f693a2804d26d45aeb1f94ad9b687049f9"
 
 [[files]]
 file = "config/SpecialMobs/drowned/brute_drowned.toml"
-hash = "79ef51400920b945a44601c62a97ed6cbc3d1453788708c6bab8bd0785ef0397"
+hash = "d8a81b29924f4e63ed19df4ec3977a75489cf947bcdd7b83fe7b2369fea02efe"
 
 [[files]]
 file = "config/SpecialMobs/drowned/fishing_drowned.toml"
-hash = "311df8d587fe7b64bb14a0084a422b4526f752564be140e12fe172fa4f064324"
+hash = "eca6d32a30dbcacc43810e0411b57d38ea91e6eb5b75d55a1ff1cf6b57452f60"
 
 [[files]]
 file = "config/SpecialMobs/drowned/frozen_drowned.toml"
-hash = "5b136c20ecd26c099e16820fb86f957f30751b4032bc692e85760fb53fded5c4"
+hash = "15d72778332c86666479418e1a9e9d0d87869ac4c2bd23d35bd4c3bcd596c32e"
 
 [[files]]
 file = "config/SpecialMobs/drowned/giant_drowned.toml"
-hash = "ecd21636fc58694fd5577d3c3d672322f9f31f8c57fb5716ec34352222f2629e"
+hash = "c8c1f0d66a9057a2b0ca823ff099565fd104e0f7d2bd9cf5dec9779c10655eb0"
 
 [[files]]
 file = "config/SpecialMobs/drowned/hungry_drowned.toml"
-hash = "1fbf8c87ea5456757ad55af080c5fbb45d5ef47338d2d0c0fa2ce12b42da40c6"
+hash = "1ac2824b684d3381a6199c7b6eec98fc2fd6e257fef0276f53c3e3c1420c5ec7"
 
 [[files]]
 file = "config/SpecialMobs/drowned/knight_drowned.toml"
-hash = "7ade704a2decf9267e28633f128755376b84e6d85b97230cb0f996c7bd692b8d"
+hash = "041d5dc69a04492fa1754dbc036c77e9813576267169db57aee86b34d6e6fd1a"
 
 [[files]]
 file = "config/SpecialMobs/drowned/plague_drowned.toml"
-hash = "1ed3d28abad7640ce16892e8e568ace9c9d536fdb095d7c0c91f4530b1bb0c3c"
+hash = "86c842a3f447db9398f0ef842a687ba67cc03f0452e8b98d155f34d073918e4e"
 
 [[files]]
 file = "config/SpecialMobs/drowned/tropical_drowned.toml"
-hash = "8d0b176c4cd4e79b18eac59f7d976325612e8550ca2f4fb87d11137202ef4a8f"
+hash = "5eafc23943f7d68ebf4109d8e34c97f5fc859ecf13268bb660dd94f90a182e8b"
 
 [[files]]
 file = "config/SpecialMobs/endermen/_family_of_endermen.toml"
@@ -484,51 +484,51 @@ hash = "e99b8732980744a51faefab432519de86cbdc694be3dde1921bac82abea42455"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/brute_skeletons.toml"
-hash = "563d79c573630b44cd73aa31285e6dae87b3fdaac0b908529769edc8de6e0726"
+hash = "495353c88033a02d645a93e1eadbb2ce470e32b2969417b6b4b92d2fe3ca7831"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/fire_skeletons.toml"
-hash = "034b3beafba6a702c9f7671fd66e795b690b92f26ea91d404d48beabb3c06905"
+hash = "b0250060058ff3d9841ee4c1160b00f92f8dd2ac4229d981599ef496a7ae9ee2"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/gatling_skeletons.toml"
-hash = "e4c834e33bb46331e5e247b1085bd5b578adfb7290b7b24a8c9dda6367fce36d"
+hash = "04370995278789558418a151d248315397b9f3a85e523eef67736af1faf0e4d0"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/giant_skeletons.toml"
-hash = "6291c13ed24f49e9d7bad5312d032197d3fe42323b15f534c73504390a654d9d"
+hash = "3ae9f19886de25e9c34028efc90754a9237af888307ddbd288c7b0bba028b859"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/knight_skeletons.toml"
-hash = "8f2b27bea02b804077a624f79f0426ae39a72c409de83c5ac64f0b6fd0320064"
+hash = "61248e23f2ce9c055275c1602c7fad2db0b5165a4646fa54b79a8f38eef32b75"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/ninja_skeletons.toml"
-hash = "27a390e424e51d7d88e8910e16d4bf39003e3bb68b2b9374657ac29f4efdcc00"
+hash = "00d4acd3b8aa8d9ca066a56e88449182bc11bbcc042d28c2032e7fa717122324"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/pirate_skeletons.toml"
-hash = "0430a2ccea85a020b3ea519f53ca5376d8f7cbdcc92b0fd29443b493c8dd5d3e"
+hash = "70310a10877c68aedf8b10710fef31307a2a122937b8da5224f66adcc86f2bb9"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/poison_skeletons.toml"
-hash = "c0dfa1c667eb7962fef51ed782e628acb2e6bae35df5fbfb931bea65b32a23c9"
+hash = "8289d53013e5e0fd806205c29d4e9bb50ca9408f9fce0a210ee14d41b183f01d"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/sniper_skeletons.toml"
-hash = "dc6e724223f1c837236d8af1d8c03c8e9465143b96ef9fddecf846dd548d7178"
+hash = "eeb752dd333bafaf91d7cba4799aefe843b42c89facaa70d6d4a97d811f808b3"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/spitfire_skeletons.toml"
-hash = "18d9468459552b2f2bc6c4a96393edcbfaf4013cdb8446c4e4a794a8ab4a6393"
+hash = "60d8d8ad9bf95320cc0f9cf039a23aafce69328d57f99e4ecdf37cf1a2fdcb65"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/stray_skeletons.toml"
-hash = "3967a5677e23a8e3b65d5202b0d3afe993deb065b7686fdc011d481cb7382408"
+hash = "0051492c992d58d1ea95204e345a8034c401720570c0af6bc492e689f1f8f7bf"
 
 [[files]]
 file = "config/SpecialMobs/skeletons/weathered_skeletons.toml"
-hash = "cdfd701aa717a98b334c8113e24ac5fd97de5e69fdaeab37e3a4f3d5d2685e28"
+hash = "3285869c55af7c9291dbfbd157994dc42212f3df256b053c4eec34a717062541"
 
 [[files]]
 file = "config/SpecialMobs/slimes/_family_of_slimes.toml"
@@ -672,31 +672,31 @@ hash = "c53331440c57b33befe237bda7627f38d77948e5064d0008d011efd0a5106be2"
 
 [[files]]
 file = "config/SpecialMobs/wither_skeletons/brute_wither_skeletons.toml"
-hash = "a6eef145db13948a157e72ef785a78e3bc17f208e9721b75fd5b6ca36aab2750"
+hash = "52c2a24c0700e3ba4598cc38eabdb9fd38d0464093a8ea2474c6440740b711c9"
 
 [[files]]
 file = "config/SpecialMobs/wither_skeletons/gatling_wither_skeletons.toml"
-hash = "34b9c67e4534f000030a8f659b8e900fe22685dff112a428739afc8d369ba253"
+hash = "cbf1e283c6b3a5e7393ab32e8e4dd286a5fdfb768de4f90b31d59b18d8c11697"
 
 [[files]]
 file = "config/SpecialMobs/wither_skeletons/giant_wither_skeletons.toml"
-hash = "2520fcd5a043aef84dfc2b2ff74771dde37a73995e9ccea486ab0c2752504ba0"
+hash = "84490d79ae5be4156f36a114e6720466678b74d27e1797c44071d7fb1d920c71"
 
 [[files]]
 file = "config/SpecialMobs/wither_skeletons/knight_wither_skeletons.toml"
-hash = "ff2ac3e043757b9cb6729c03a400b9996fd2220875a32a928212bf59e8033e59"
+hash = "9e00fdc653ba1914cf222a437106af36a9904688c07d49e026c168e536319c92"
 
 [[files]]
 file = "config/SpecialMobs/wither_skeletons/ninja_wither_skeletons.toml"
-hash = "cc53ac585e883ecd2e2fefccf2eb6f9c9724efe995e2d12eda722a4b1452777b"
+hash = "11b211606fd6b640ae5e87dee82dba6981499e81117915e53d24a16d53e2696b"
 
 [[files]]
 file = "config/SpecialMobs/wither_skeletons/sniper_wither_skeletons.toml"
-hash = "cdeac32d78fdc8612946aaa990e50204c78bdfe8384bb08f30bb37afe474e8bb"
+hash = "9f21bbd330455addcafd8a00ca9f5aa89464dc201758ce6d2fe9e6b0e6541456"
 
 [[files]]
 file = "config/SpecialMobs/wither_skeletons/spitfire_wither_skeletons.toml"
-hash = "3b25846d54a611b2ea075f461957fc74fe69c09cf9e09a96d1a9905709b8b206"
+hash = "3da701ed2c3293be222f670932c46cd7a410ee2b409e60430edaaf5675eff25e"
 
 [[files]]
 file = "config/SpecialMobs/zombies/_family_of_zombies.toml"
@@ -708,39 +708,39 @@ hash = "957b10b5f5bf49f357ed384fd7d205a444e5fe17b5af23be020e11d84d4b65cf"
 
 [[files]]
 file = "config/SpecialMobs/zombies/brute_zombies.toml"
-hash = "5f35d3441caec77af55d3c72bf3e7d17156af99d9bbeb8452a9b968ddfaee93a"
+hash = "400dd1c56ddd884f0044f5d1087c63d250fed852e5f9d3a42feca7ee0bc441f1"
 
 [[files]]
 file = "config/SpecialMobs/zombies/fire_zombies.toml"
-hash = "f31234257e9a9448841e328b8caea066b8694060c89f9ed7b061bfcbb7d20305"
+hash = "9c20edc3f40696ea7222f9e47221343e3f9c2297e16e9678b1947423b601da87"
 
 [[files]]
 file = "config/SpecialMobs/zombies/fishing_zombies.toml"
-hash = "22c7fef16b9bf17c0f200941b0a1f9d39e962d87136db10e89e3a51688fad08f"
+hash = "8b7123c84377262c410abde1c0937c81203228cd3a84b5715605399f43b95fa4"
 
 [[files]]
 file = "config/SpecialMobs/zombies/frozen_zombies.toml"
-hash = "6dd342b5f6fd40e9d411f947420f0c670a6919f62b5a3113b2bf9bc209c9294b"
+hash = "d9daaa8f818e59851666d3fc78c74e6198b03f84b5ec78effe461b7f8cd84322"
 
 [[files]]
 file = "config/SpecialMobs/zombies/giant_zombies.toml"
-hash = "b33039373ef24323fac8a772399dbc1b2fb79c60664f67572db3b651d4a34cd7"
+hash = "d4dd9bffe580453591badcfcaf9fc3f8a9a878a750b80246bddc13c03a88bb42"
 
 [[files]]
 file = "config/SpecialMobs/zombies/hungry_zombies.toml"
-hash = "14ea1256df92ae817e9458de5b56acdb8d8a59cec6f6874cc9bd37a90c2924be"
+hash = "2350eac59f5356b8f23d3872d7a215da2a32e54c75075dc659dc895703f1f6c7"
 
 [[files]]
 file = "config/SpecialMobs/zombies/husk_zombies.toml"
-hash = "f5f2beb8852f993de8e433382b98eef7a4dceafd4d8d5704f207cff80d477f9c"
+hash = "fc39d49254b3ec31a9a0636deb3ad1d072926b3be7e5e0c828738f06bc1dbafa"
 
 [[files]]
 file = "config/SpecialMobs/zombies/mad_scientist_zombies.toml"
-hash = "0ba747d436a6c00a0b8af365526a57dcb7e2685b758ad85a9185cf6867b780fd"
+hash = "3013f2f8ba1c0997d00fb32708f6076d26dc0b57faa2ac2a75b2ecf7c27247f5"
 
 [[files]]
 file = "config/SpecialMobs/zombies/plague_zombies.toml"
-hash = "bd539ddd3f95e76831454a9cf0bf08c4a68f7abe04ce0477d49b1e9c14487ca0"
+hash = "942fb9d9f995507a51b0d0f6688f354beb0ed461a6a98c3d2f53082a230075a4"
 
 [[files]]
 file = "config/SpecialMobs/zombified_piglins/_family_of_zombified_piglins.toml"
@@ -752,31 +752,31 @@ hash = "970492724debecb62f124c59eab7a754e55bfdfdbf09aeb064972af57a6f377b"
 
 [[files]]
 file = "config/SpecialMobs/zombified_piglins/brute_zombified_piglins.toml"
-hash = "259f7c84792732dda75c1c6051e07187f9a4aea9a47aa1e76394ba550f1e1d91"
+hash = "ea0cdd7712903bf13d6e1c610792d655a741aad9ff4a480e84deb28846641117"
 
 [[files]]
 file = "config/SpecialMobs/zombified_piglins/fishing_zombified_piglins.toml"
-hash = "a2819b525c089233aec4fb47a8ce0cd1c8ef3eff5415bb2ad0099e3e34bac03d"
+hash = "14d4c334f9e85a61b57fcc567ab86155ae988c064eaeb18fb4ae03ed71b44279"
 
 [[files]]
 file = "config/SpecialMobs/zombified_piglins/giant_zombified_piglins.toml"
-hash = "43914c03decacdea23825aad8348d1f3c1061f46b147ebfd17cba5251230594c"
+hash = "d4a2e6d0ce8357938974e1aed73c5ce58e71b6efadb1a7a7816d05265d9bfdac"
 
 [[files]]
 file = "config/SpecialMobs/zombified_piglins/hungry_zombified_piglins.toml"
-hash = "4a7bd0f1c1ed9402b5358b71a3e279ca6fc192714ca67f27f3bb9a10380a32bc"
+hash = "e1f23ced083faac77e6fce46cbf0942d5dec1decead30888823cdf7324e8a0f4"
 
 [[files]]
 file = "config/SpecialMobs/zombified_piglins/knight_zombified_piglins.toml"
-hash = "185f37c4d5c53b1a7d0c4a5e3b96d6ab879d0713836e7d948270e63f2c922aa6"
+hash = "b2ee9db23bd0101c2dc92cbf3fa2cdb0292b1151daa471afadcca638ddfc012f"
 
 [[files]]
 file = "config/SpecialMobs/zombified_piglins/plague_zombified_piglins.toml"
-hash = "bd99d438545037d68c7d6326b2520811cf469a5e4239d2e5d1a62025ad4e7c5c"
+hash = "82fb44dc6de50f4f309523755bbd4f571ab229d8b592393aa40846e5302c01e4"
 
 [[files]]
 file = "config/SpecialMobs/zombified_piglins/vampire_zombified_piglins.toml"
-hash = "1c1babb0f97555c6b8eeace2022b8abc8d53981897bf10be144b194f7e0fd724"
+hash = "6fdee37c2586dd2283e8f56baed3e67b3808c7e6d1e9d965b1eca18b23c09df5"
 
 [[files]]
 file = "config/ad_astra-client.jsonc"
@@ -948,15 +948,15 @@ hash = "19764b6e8faca099741f29098a84c2e8054ac5ba1660a527103d0cc391fd707b"
 
 [[files]]
 file = "config/coldsweat/entity.toml"
-hash = "2da551a5dc4492dff699ac361b2ca3fb5c791cfb3c4101f28f758de1e3348da8"
+hash = "c5147607522b82d667c6ee5a4aa44ff5d510c01085ace14ec240a4c59b0d54c7"
 
 [[files]]
 file = "config/coldsweat/item.toml"
-hash = "6b4dd36a22a75bcb70e9bb4074bc7ccfb5ad3a20a952cb7293a4c892e852ae23"
+hash = "5b5e4f3eebd675382a1a2336231cc6a793284364a7c70ebdd506d2477d2ca05d"
 
 [[files]]
 file = "config/coldsweat/main.toml"
-hash = "7e3c6032865925cdc9ea15f47dff60d2d3691ae985d7101a21c677d343f9fb45"
+hash = "61067fa4ffa18d8f16a2decbe413bac9a4c396b955fa69cfa301b8be5c50d143"
 
 [[files]]
 file = "config/coldsweat/world.toml"
@@ -1000,7 +1000,7 @@ hash = "7ac94e5c0a1bfbe7611666c05491a2da0009940cfa6e7886d6a4f6051f672c09"
 
 [[files]]
 file = "config/crash_assistant/config.toml"
-hash = "2cdc3f20b82320940b83c275cefcb0709e54ac4052285c96fd0aa4ab030bcb7d"
+hash = "3e0629147b2370a4d8ad41515577b65ccc135c502bb3fd314749ed221db4ab65"
 
 [[files]]
 file = "config/crash_assistant/config.toml.bak"
@@ -1148,7 +1148,7 @@ hash = "dc19b9aed0ec576b1d962f51a4e6920e7354ae67a92899771cbcbb5ea0d0be59"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "568a6be4f1d5d9e59fa6f2261f2f3d6032d180ae844bb162b0e396314a7b7cb9"
+hash = "a7988264341b387e6a4757f11d8f7e099b8e52753afaba21a6b4d379008205ab"
 
 [[files]]
 file = "config/crash_assistant/scripts/log_analysis/example.jexl"
@@ -1163,6 +1163,10 @@ file = "config/crash_assistant/scripts/startup/memory_check.jexl"
 hash = "d1d620a30e64e6293a6981d1084e33c2ed15b780ce5c0fab14bed1870a0cfb17"
 
 [[files]]
+file = "config/crash_assistant_localization_overrides/es_es.json"
+hash = "2fc365703078edc498b07cb742143385e74d875c7af5efc4ca752688ea65a315"
+
+[[files]]
 file = "config/create-client.toml"
 hash = "d450dabe4d5eb00f28acc6397a33b39aca4d93d4d959fd0523f9e19d2ff6527e"
 
@@ -1172,7 +1176,7 @@ hash = "36a4d9f5da68f6801b83ce0c4a1a8805fbeffb0dd997f2d405465d7774522296"
 
 [[files]]
 file = "config/create_connected-common.toml"
-hash = "bb3d13b619b8eaf0236ec23fb81407a8b29af778076b16694941b854f7ffa722"
+hash = "2b90357c519fa1de4027c3387de6e7c46d562416a57490ddec4522c58d9754e3"
 
 [[files]]
 file = "config/create_mechanical_extruder-common.toml"
@@ -1180,7 +1184,7 @@ hash = "8151645f71a2fc68464b5bc29e69f5fa47aa2ca727e903ea7c7bc8c09ceea4e5"
 
 [[files]]
 file = "config/createaddition-common.toml"
-hash = "1f45a741dc79ba3ad0000884a5677bd76f0235ccb81d99957a181247e416cae6"
+hash = "b48015a432ba69acc90980174479ed8fcc7afb52440e3b41d3604e5351dde2c5"
 
 [[files]]
 file = "config/curios-client.toml"
@@ -1515,6 +1519,10 @@ file = "config/exdeorum/compost_colors/torchmaster.txt"
 hash = "4658ee8047231fc823eb514a0aa7dcbc304cf92850bef846a8abbde4ef30f74b"
 
 [[files]]
+file = "config/exdeorum/compost_colors/varkin_system.txt"
+hash = "e9b105f644198a7a4d5643ef725b9a23a788821d3ae414d5dcdeccc9a4ce261b"
+
+[[files]]
 file = "config/exdeorum/compost_colors/vegandelight.txt"
 hash = "b0a0ac20edf73dfec1610d83571dcdd7cc0d81a0234ad92d6d3fee8882102630"
 
@@ -1648,7 +1656,7 @@ hash = "7fd9d0d43fd7f140025258117ecfaa968a99204694ca834741b0431745a2a9c7"
 
 [[files]]
 file = "config/immediatelyfast.json"
-hash = "3152244144f830eeec003b007bc0045297ff5336ffc81550dab87552aad497ac"
+hash = "f2b7f219198f0a911d04b09f545f2c1256e8d114951443924878dc10963e16aa"
 
 [[files]]
 file = "config/immersive_weathering-client.toml"
@@ -1700,7 +1708,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "6992a6ca5aa433332b5d0d99d00f884b634acdf3fdba87a561641a5e7f88a94b"
+hash = "f11c6192b885d0793c5233c0746baabf379d82c9062e1b81abc66a5d462f88e0"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -1764,7 +1772,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "571db5639c886147acbd3c25ba2431e63fd24803580a4572e9fa18855ca8a0fe"
+hash = "c7ca5455e6ab2dbc8a0147079bf92ab89145eec2175afeca832b0fbdc92ce437"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1800,7 +1808,7 @@ hash = "1dfdb9fceb4c59f18063629049f550a642a45a743e22ac83901e6b013192b651"
 
 [[files]]
 file = "config/lighty.config"
-hash = "5bf4fa100efb6f33299458eb3a69034d9dbfa61ca3fe496335d96210987f8e02"
+hash = "678a9983a34cbf05bfbc546a7eccff06cc54953317134d888a5567051beea3e3"
 
 [[files]]
 file = "config/lmft.json"
@@ -1848,7 +1856,7 @@ hash = "297c899fead9c3e358d9fc45edcc241f4ffbc25b71a8c1c2c84609d8110b8eca"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "dff4320cd6b0bd4ab6bae1238d532b8e1e7ac6e24be66e347aee154f4b6b6866"
+hash = "d48d48cb9c9cd0b2181062dc836bb37bfd8af8e29528bd860fecee762170d27f"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -2880,7 +2888,7 @@ hash = "4e263d07be12d31fb1e4977e9285c2437a015755fe77ce93394d71fcb04e3189"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/crate_5x5/9.nbt"
-hash = "f571613c6d09111f227e7a0a2c5628297f120eeeae0372a5d1cd3fe9e856b4b4"
+hash = "dbf6fede3c749537f560d5bacfa9942c8a74e82129d11ca871a8061d0160799d"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/deco/cupboard_3x2/1.nbt"
@@ -3316,15 +3324,15 @@ hash = "19995f244c00d60b04f608f794d21e16e956a0c03956480898b3cc8ae121dc7d"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/back_left.nbt"
-hash = "b822335c5500d33d1ea495e2ff864aef6208fce930fd3cc4f9b1e8a29d205f0a"
+hash = "fe8a4935dfc9932d55c38126f78b7977a90a3fb5ca85e9bed678a97c5990e4f0"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/back_right.nbt"
-hash = "f6d1f54bc3765e0d9f7045116449c695b6fea7ad8e9baaefcaedb876652d8fc5"
+hash = "40f8effd05c27ea1bd0237484a0d9e43bbc5e2f7ab37cb7dff5db83ab483c473"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/center.nbt"
-hash = "b119c09c6ea748a82b7025a48124c0abe3fe4d3fedc049a175ad30d56ad39a60"
+hash = "14032a3741280cccdcc5daf6361408eab4f966d5e255958f6383e38918db891b"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/front.nbt"
@@ -3332,11 +3340,11 @@ hash = "8c7ca42fe2f15f845bb72082988946e7cd29f758c393a204ba8fc98b9cc42772"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/front_left.nbt"
-hash = "0fe31a53cd77ba93b87dc133c27b97d83f5ec08413b155eae44493dc2eb360a7"
+hash = "b72e1c8e6db891499b06f9f31468ff4c50bd281e47510b0f28a100d6ac34dbb8"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/mer_lab/front_right.nbt"
-hash = "d911d3f65d1b9571b177042f79d3cdbbc51b58a6b48dedf8937d54e336267b0c"
+hash = "36fdf04e26cab3de3c5d7037a2e8ae31f55ddc08f5a1cce2e982f02709e3f4dd"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/nuclear_plant/decor/corners/7x7/left/left_0.nbt"
@@ -3652,11 +3660,11 @@ hash = "3d376c33b469c53e3063c27c241883bd01ae137208655ad298cbd97bde25aaa7"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/center.nbt"
-hash = "cba87bd53e651728b7250e4859ab3181714731c180aa21c868698d98280b36b4"
+hash = "68687336a5da406c7a530eae20634c3414c8d4805cc1c4e5f6b530eb02ac633f"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/e.nbt"
-hash = "5b31b172a740b297277b75460c6f8a648098662cb37a0939e67aeceef98c5349"
+hash = "ac496e0e36ef406a359c78d19e3df91a9c64b4d09a63f14e6c9953a15dbcb52d"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/ee.nbt"
@@ -3664,11 +3672,11 @@ hash = "d350df8e8b0d91f886bf468a9e6c6aabdf7f784a1466124497c2b794d3cd90b7"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/n.nbt"
-hash = "16f87c46dd9680827c3f6a1f3d554d81ab4a7a03644d887f730b7223099a8811"
+hash = "7537e66e930e173c9c72fcd1f0971aeda190d6cf6bcb22fdae6c7729c405b7ac"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/ne.nbt"
-hash = "3b4da10989f8b5c7492528435408f938307a026e2fbf58ccf277d803834066ae"
+hash = "e30eb60bc91b758681c7130adc09545588b5c883777edd6d9bb6ad5768fbb930"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/nee.nbt"
@@ -3676,11 +3684,11 @@ hash = "0c76f39c3216783cb9b6fcf0dad1dfc488cd1e8c9f324ef17274035887461e6b"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/nw.nbt"
-hash = "71db6ecc6de6b3b67a39a5a7640d29116cc82e272aaf0950bb98d44d1c082c22"
+hash = "97c063d35bdbda037483bafc63745e1a434fa7bf1c4512c80be80960d7ee55fa"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/refinery.nbt"
-hash = "fc24ab2a393f74dbdee71f7131dadf33aebb5b0692ba57e777f29bb57b4ac166"
+hash = "188f05608890fbcad06dd949bf7fc13f3999d15ad516475007541287c7cbbe12"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/rig.nbt"
@@ -3688,11 +3696,11 @@ hash = "291dae5e5d2308ae6e97ace98d18f819990bdb5071b83d0e15ff00949ef9f786"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/s.nbt"
-hash = "7aa23d012a6edf825b60ba01a0204fc8ee9aa5b82bc234ed04a5a06ba628d16f"
+hash = "35ffe6354b8645971476430c57da65695a553e407aca4c700905cd12ec9d5fd6"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/se.nbt"
-hash = "bb55bb490e4e1e4034d5c75e838b5b09999b2fcf23a6cf0ca49d563b519141cd"
+hash = "2b1fd2ad209760387c5e3b0f03c574095d1e4d46a4adb1892641bc36f2caa628"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/see.nbt"
@@ -3700,7 +3708,7 @@ hash = "0eecc93e4d1603e9016dacf7644a1cb554fc251859876fcd6ac0a89836d2cc4e"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/sw.nbt"
-hash = "991c689f6b4fbf50c146ef9fd454d6d1630d7b9d1cb8c3ec2b9a40285492f7b8"
+hash = "3db034717694281d40a201fa83720af30758234f3070bdfc3e0d733bca77e9a6"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/tanks/1.nbt"
@@ -3732,7 +3740,7 @@ hash = "6abf1aac7f271068162d8c2fb0a2e243167b9773db08883a58ba1a572a6deb10"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/oil_rig/w.nbt"
-hash = "37de0005e1b85d63da69d967ec9563239a76514a2dbf17d9bb70c190e65f9da6"
+hash = "cb8d188919f7421ff77b34fb9915bc5bb0215d4f634de4c9cfe1c4ea84676e9c"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ruins/andesite/corner_1.nbt"
@@ -3793,6 +3801,10 @@ hash = "aa1c2b0fa8b5c1d65a4e7165675658dfe95f893d091fd6000cb4b23b9d3ff485"
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ship_crash/ship5.nbt"
 hash = "e1cac1ddfa047240507a7d130b81b5d3da11f0e96176aa7e26904dfb72c679cd"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/desolate_planet/structures/ship_crash/ship6.nbt"
+hash = "d3d37d33e0a16cf708dad59e32f1bd927be47199cd98d9f82815a8051bbfd26d"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/structures/spread/farm_1.nbt"
@@ -4220,7 +4232,7 @@ hash = "f4efc8e5b4f71179f242a403611b5d081ba336caa69f7ce20629bef4e56290a0"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/desolate_planet/worldgen/template_pool/ship.json"
-hash = "e8952f4d05496e797b81b6ac2913b2fc7fed81f5a0944236419e748c1d3139d0"
+hash = "c0cbb73dd2337328c0d5786c46073d17b7aa1583035d1b139841610ec03a63a1"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/enderio/recipes/sag_milling/blackstone.json"
@@ -4344,7 +4356,7 @@ hash = "97050e06129dbc63023be015955097efb3fffaa4b8e1294b37292436f6befaed"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/hqm/recipes/book.json"
-hash = "855d1bde14f5f7636a5c9f4d64753e1a3fb46d79a2c4b997c2a1c8e0eb8e8bb6"
+hash = "a0531871fe076dca4cf1571eb305d347bc61da24a32816e5d917d7362d2e82ac"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/immersive_weathering/fluid_generators/blackstone.json"
@@ -4939,6 +4951,22 @@ file = "config/openloader/data/dustplanet/data/pneumaticcraft/recipes/assembly_l
 hash = "a51ef8382f761ec22da228f854a23b190a3be726aea4970481fc3d0a5a0e8d01"
 
 [[files]]
+file = "config/openloader/data/dustplanet/data/pneumaticcraft/recipes/block_heat_properties/createaddition/liquid_blaze_burner_fading.json"
+hash = "6e829acefdced8e89f0334c755c25e11753b32fa66e3bb673c3a5d59820b47c4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/pneumaticcraft/recipes/block_heat_properties/createaddition/liquid_blaze_burner_kindled.json"
+hash = "22855be71e9eb242c6e16bb1abfeb08df7a5d5ab51c9f971f155cf1ad11fe4fa"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/pneumaticcraft/recipes/block_heat_properties/createaddition/liquid_blaze_burner_seething.json"
+hash = "40ae91f0c1ff6e9d3b610a544e0972c447ea53283dabf87763bc4c5469784a4e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/pneumaticcraft/recipes/block_heat_properties/createaddition/liquid_blaze_burner_smouldering.json"
+hash = "e1a4417040744f5760631a15da32e64b513a50c2b9631b33f675db0655d04c98"
+
+[[files]]
 file = "config/openloader/data/dustplanet/data/pneumaticcraft/recipes/camo_applicator.json"
 hash = "4c3c03cb645a835f867c2f45391b1348ca0fef9ed276ca90b51f7a8c30a032d7"
 
@@ -5268,7 +5296,7 @@ hash = "72708e45a364bec129c7b317e30794671c972dcdbb1bfead83049910b5f10a6c"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/copper/ore_chunk.json"
-hash = "4cffa6de0431e5dbf853ceb99ef34574b891754e880933082a2f873daf6e7ec7"
+hash = "fe15fd9748e0e3f5f72b004ba52234d9277066421ab1403be70f6a4cffb3fc9a"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/gold/ore_chunk.json"
@@ -5708,15 +5736,15 @@ hash = "51a4925287b7003016bdbe74b99f86743957705aced3df5410fbd314e6d41fc8"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_chair.json"
-hash = "44265880c4e8ba5127fc045dfab9e023affb42dd247c6c57c294c234d1223adf"
+hash = "cea3f2610e456929a540c8b26f9955684108c4164c613b61904949e556924d1b"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_coffee_table_one.json"
-hash = "cd67de8a7ce5f53d4d702d9f9b55961b00c6e5c9488f3b92f18506a1e5385ecb"
+hash = "a3f27871ced6799ad2efe0a9ee4232e372bf2ecd7a0942f8ddc261a9695e73a8"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_coffee_table_single.json"
-hash = "3ab081b46399aae2fb19d667b57ba977e04ff8448c0546ab9ca9d14c8c6128c3"
+hash = "6ab6ca8ca8355766426133aafbf9e2c25b3f6fea3cfd783fc05a289f3fbb867c"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_coffee_table_three.json"
@@ -5724,91 +5752,91 @@ hash = "1e672caff326111f909c397b6996ebfd653e892eb2eacca8a9852b73ced1efca"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_coffee_table_two_alt.json"
-hash = "52d9b2531db35544bee96e9fbb58a46aca2f63505054d67019b2e619aee5ffdb"
+hash = "28a773183ecd14e5efd7e61f729634d5009487acc561a8be9ec9641eb30ed59d"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_kitchen_counter_default.json"
-hash = "53de688ee97a7992322030ca6b8b6cf2af54b09c419765e94f8938e79dba012f"
+hash = "f4cfc00b988d389205c7d7ae5c9d4c5b0950f800cb6c0969580a255b0c007578"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_kitchen_counter_left_corner.json"
-hash = "8e81f653ef69990fe9e7f56a670415f6b9283a72da3be4f89070e11aea79b263"
+hash = "3e1d91fd3fa60269fda8f3e555194cf783c94ac16b71ae6142365780621e522f"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_kitchen_counter_left_corner_inverted.json"
-hash = "de3f148b73d0d394a000993951805649304416c6c02a172cc40d87231bab27fb"
+hash = "37b2fc44be1d723bd0a1954265ef60ac0442456c6e9fe8d442bd82f9f6b6ae55"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_kitchen_counter_right_corner.json"
-hash = "1444303ff48a160e3ee4141fdba3829130384bf7342d8a5453b22558b4272b64"
+hash = "56cee551c8ece4eeae77d41ba19c0930968a94389bfb9f96c4ad76e80348add8"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_kitchen_counter_right_corner_inverted.json"
-hash = "c0743efe5b27badb2b6eead15ee7ecfb6643bc8278b14269e1c0f3d9243f72f5"
+hash = "138f8ff416f6d318760876c90d14fa92636b0d9d95d794585fd9bedbbc64f26b"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_kitchen_sink_alt.json"
-hash = "5f351f54b40a67cee2b4a5c4d019a6a798bf4e7b7908ebbe5caf5d98be929552"
+hash = "7a315f4ef6a043cd433ac38bdc1b543a67a5eec4f07dd3c92befff029b587e50"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_table_one.json"
-hash = "917099d3d8fd0d5a287a056f582233605323fb014bf6de8bb53c45ac59b51dce"
+hash = "74c53f2b980e759833fa523b996f8d3ac6968e20dfb77768b2f14f27d2f808ad"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_table_single.json"
-hash = "ea8d91d532dacc214df4408965e3eff9c08e7d828f3dc1232bfed84b6c522bf9"
+hash = "03d3e9ffa2ec1357b8a76f927dba7c9f7e19387eda0e7e44378e7740e2df0ad6"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/modern_table_two_alt.json"
-hash = "1562196bd6e2d69f7996bf5e4c78c4efaba2483bc721d2a208550e3f8347b915"
+hash = "1f92c5aa26c4f861230c7665ff8b0198f341fe3240c1778e52ab9f1ec219ebf3"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/oven_dark.json"
-hash = "6bc8fba205404488343a06afad95c982972ab112fba7d4049c3e34b1b336fc22"
+hash = "a0580dba92b92be882f3897eb33a1b03e0a97d3af6e571aa8a199a82d757f2e8"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/oven_light.json"
-hash = "7e82b387d5ba6d64c112b6b3d3d5d8ea5159a82dcb319d3037e518f85adce5b0"
+hash = "dea2e1baf1c95ad032189cb191c640c36871c9e08e86e3dfc957e07f6a1fd901"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/oven_range_hood_dark.json"
-hash = "455b556885b543f2202b3a765483c7657ca58c0fc6c3f1cd8c4a8c4d6347490f"
+hash = "4c8a0730c44413f2e0b4a7957e8900fd65e4bc8fc56d22b28ac76f1437c52f3e"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/oven_range_hood_light.json"
-hash = "1f0e10b9e4c695f7e5339f5dafce3397798c9fd61cda4f37e23bba288a0bc92b"
+hash = "7db7116e42f1d509efa38d207a6cf9ffbb9a331db1ef5564c7fec3da5ef164d5"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/shower_head_dark.json"
-hash = "d27a8f45ac18b00df21b34b1c1b1e6e23be8f2f960b15fc3b0cd3647ead646da"
+hash = "ff55ca82d6c075bfaa9be0916319971ededff60d82c7928b5421e1db07af7edd"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/shower_head_light.json"
-hash = "7c0d986fc85d44b4ad1d213e48a17710aece989586104289ed82b9bfc8a54fa8"
+hash = "25e187637f61fc377fe3cb1de8143f0fc0a8bef67be41fb9a038c833abe0ee06"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/sink_dark.json"
-hash = "76c294a6e80fa64d57bebcd68866ea495a84bb60d1914d2e93d5dca9c62dc30d"
+hash = "ef90f790ee30fd4d55396ba50421f9589cc6a574cd205d2f4a9112c1f5af2daf"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/sink_light.json"
-hash = "0cc620a521d804225ca1f5756d03a7f6bff43ef541e67c37476935118da6a7ca"
+hash = "48a64f6f7f3f88457bc38c5d727a3f0a1b88eef7d6860a2c0830eafc2bb9c0ed"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/television_stand_left.json"
-hash = "44fc9561327d4d150da2b6862c1bb5f35126eb5dacfcbbc355f2d21700804be9"
+hash = "9dc880d756b655f51e3323620925e80a3065e74d8b76bd4c34bc67a4c3b267f0"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/television_stand_middle.json"
-hash = "ca349a3cc212379e0b63d5d8077365cd8a71d17c66e7bd38b8488ac75365033b"
+hash = "1da2d5d77db3264582ebbbfdc914e441ecbf4823671c08665376259d6444d03d"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/television_stand_right.json"
-hash = "da0b4d4131138428a501ce89e82e2b8d11c761b1a767cc526d794c6fd92d2d79"
+hash = "18048a068a2b95d07865af2cc16e354e88c64bf6cdbe21a02bb0fd31cd0aa5c9"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/nfm/models/block/television_stand_single.json"
-hash = "3901c63bcb189ca39086369244325a0e324fe5fd9f2460dee2fdaedc05cf926a"
+hash = "5389c815b32dffb213ab4a5fb126f465cdb1bcbe84239c7c487f656d80f49b09"
 
 [[files]]
 file = "config/openloader/resources/pawjwp_tweaks/assets/tconstruct/models/item/plate_shield.json"
@@ -6932,7 +6960,7 @@ hash = "38ae1ed6caca08047f7b7ec62bfbd99962a64d9c1aa8ede41969eaa139e04f20"
 
 [[files]]
 file = "config/scarcity-common.toml"
-hash = "010680d762a106907b469c3a8731f74cca43bcbeaf345a09ef2efc4b64fcdf71"
+hash = "d64e373dde539a3d76cd467ecbd04d21e7ffcced55289e3c5df915c3952fd30a"
 
 [[files]]
 file = "config/sfm-client-program-editor.toml"
@@ -6972,11 +7000,11 @@ hash = "3175ac14ac1da55ba706d1f0321c0b5620cd968a381e60323b283778e7b6d9e6"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "5fb98b193f03c659cff23c2579286ef60bebf94190532e451499efad86b7fa0c"
+hash = "4181294f7697614f0d6ea6074810a4029d4c90b225bbec964c2b84e0096585cf"
 
 [[files]]
 file = "config/sophisticatedstorage-client.toml"
-hash = "a8b075f32d04199dc8eaf1bdfae28ed69a66cec9d5301b4f91f8a8cc297f9c0b"
+hash = "a7895ac59795b7d8cc96f4344baa4b35f1ae7cc53dae364a2494aff99f762d96"
 
 [[files]]
 file = "config/sophisticatedstorage-common.toml"
@@ -6991,8 +7019,8 @@ file = "config/starterstructure.json5"
 hash = "9ef59e2b6635dcfe560e92a0f16a167e39a7dc1d3118e8cc07a985fbab4b49a5"
 
 [[files]]
-file = "config/starterstructure/schematics/ship5.nbt"
-hash = "3c06caf50d71da6c1fca3ebe263a85ee680be12399234e68b4b9a005125ffd77"
+file = "config/starterstructure/schematics/ship6.nbt"
+hash = "d3d37d33e0a16cf708dad59e32f1bd927be47199cd98d9f82815a8051bbfd26d"
 
 [[files]]
 file = "config/sync-common.toml"
@@ -7068,7 +7096,7 @@ hash = "565e7782790d656fd31350ef9d90cb8ff8b4f38d1fb2418072829fb404195e58"
 
 [[files]]
 file = "config/tleveling/common.toml"
-hash = "0f80bdfb4ca46594bdef2bd1da0da4a295539d4033fc6599fc7a2e3cb7cf7393"
+hash = "f9342b84f3aa9f4dbd54509654c9b8ce4d6eb8e670ec8d4f62409f1babe8e36f"
 
 [[files]]
 file = "config/tleveling/modifiers.json"
@@ -7085,6 +7113,10 @@ hash = "11e2fd51f2487c460fd659f0c5824a14e3643d0629888988d0c87a2a1dabcbce"
 [[files]]
 file = "config/trender.json"
 hash = "e28327bfc6526ecf8dbf9f74436da291b36b9a3c72bd76ff6299e800c7bd19d1"
+
+[[files]]
+file = "config/varkin_system-common.toml"
+hash = "a0a19e161acf855f9d5d01f9ca187a4592c4413b5fb8e6384e2b1b401d87b110"
 
 [[files]]
 file = "config/zeta-common.toml"
@@ -7160,7 +7192,7 @@ hash = "c9d4aa493be6ae7b106172beca9c4adee0b96111db73ca50912fcba387fde8d6"
 
 [[files]]
 file = "kubejs/assets/a_balanced_diet/es_es.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+hash = "58b104a7aadde2a8a49a9a4ecc38b58be16cc896670a5832e3469b6bac2dbdf8"
 
 [[files]]
 file = "kubejs/assets/a_balanced_diet/fi_fi.json"
@@ -7284,11 +7316,11 @@ hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/desolate_planet/lang/en_au.json"
-hash = "84caf7a5c7f8a6d7276f547b70eab26eaa3da954efdb3329249c76330c49bcb0"
+hash = "fa9b8604bf8a803dea95b536ccd876d17a448a1b5838aa42f61ccd430611f277"
 
 [[files]]
 file = "kubejs/assets/desolate_planet/lang/en_gb.json"
-hash = "aa0e67a028a6d3143120a3702d63722903460f3000097fecdf981f4fe531bc9c"
+hash = "2d1e9f1d6932e325fef89fc082400fdfa0c6a2d71b5fdbaac51fbb38741b88b7"
 
 [[files]]
 file = "kubejs/assets/desolate_planet/lang/en_pt.json"
@@ -7296,11 +7328,11 @@ hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/desolate_planet/lang/en_us.json"
-hash = "cb2941882ced8a98a9cc9427b3f6480eccde0504d05ad93f5d302f843154e1d8"
+hash = "20c74ac09935725d4a519fc1e0b5c7d1c860420da5b78fb702fabea800772f24"
 
 [[files]]
 file = "kubejs/assets/desolate_planet/lang/es_es.json"
-hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+hash = "fbcef86365a64d0b464d8480feb1de9b08738cd0e7fba253d626b45ce8cd9e98"
 
 [[files]]
 file = "kubejs/assets/desolate_planet/lang/fi_fi.json"
@@ -7348,7 +7380,7 @@ hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/desolate_planet/lang/pt_br.json"
-hash = "1a32a4dee45c24e11991066b59da8e27ab2261174c1f81b3aef8812d38a36b6d"
+hash = "e71e097f8d5a9389ec0e9738221141ac4d906d3fbc678f2a1d636b4d1453c18a"
 
 [[files]]
 file = "kubejs/assets/desolate_planet/lang/pt_pt.json"
@@ -7696,7 +7728,7 @@ hash = "c9a5da4cd9dad6241d05cb3df5dd77350e0f36a4fa49751762e031e84f1c4165"
 
 [[files]]
 file = "kubejs/assets/diet/lang/es_es.json"
-hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+hash = "253bb7b44722342f137e43e43082467d24e54aa1144e113a61aa0a7fa3c4fa34"
 
 [[files]]
 file = "kubejs/assets/diet/lang/fi_fi.json"
@@ -7844,7 +7876,7 @@ hash = "d4350e20a57dcc505e44c21002a6e9a8e3e94ac44268a060ca642acc797af085"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/es_es.json"
-hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+hash = "434d46143b0e9b02b5c5835337283959d6e1efb596e34b5dc8b9636a7a3c0333"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/fi_fi.json"
@@ -7876,7 +7908,7 @@ hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/ko_kr.json"
-hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+hash = "37b1554fd82e68ad37335d76aca5b7360c701c1ae5e358be3f45a8dae816b280"
 
 [[files]]
 file = "kubejs/assets/hardcorequesting/lang/nl_nl.json"
@@ -7935,20 +7967,8 @@ file = "kubejs/assets/hardcorequesting/lang/zh_tw.json"
 hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
 
 [[files]]
-file = "kubejs/assets/kubejs/blockstates/black_ship_chair.json"
-hash = "5f5b961095f2c1cec3fb34372c739056a0e63a50e6c74af4033b3e3d184b38a8"
-
-[[files]]
 file = "kubejs/assets/kubejs/blockstates/blazing_block.json"
 hash = "f9d40112f82f2b1b9d0fae61894bcc9b2d5b43816e16e14fd85389f139685ae5"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/blue_ship_chair.json"
-hash = "75bc791b2bed114f00b8c5bd0222e478fb66ddfe009cfc5d50de180ed91b821e"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/brown_ship_chair.json"
-hash = "85e64c4543083bd56f8f7bb13b665f5ef1039e4b3d089d84f6a3697620356acc"
 
 [[files]]
 file = "kubejs/assets/kubejs/blockstates/crashed_me_drive.json"
@@ -7963,68 +7983,16 @@ file = "kubejs/assets/kubejs/blockstates/crashed_refinery_output.json"
 hash = "f2aec75f60144df0e48ef3d64c7ebff8e1dc34cf2c23022cbede95b3dd1c0fc2"
 
 [[files]]
-file = "kubejs/assets/kubejs/blockstates/cyan_ship_chair.json"
-hash = "619f37472c0d34829ca293847aa215557d125b9dba0abe2917aa0a53d33c5b6d"
-
-[[files]]
 file = "kubejs/assets/kubejs/blockstates/dust_pile.json"
 hash = "ed970bfd30e562f79cdc9f4ab0638ad5e1acdb5181a75a30d9bf6648a63bafe3"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/gray_ship_chair.json"
-hash = "cd84ab7608b792badb825101ae5b4936316d487360c43eafeaeecfd19a0e7f69"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/green_ship_chair.json"
-hash = "f1829e7611f13655a00c2e790e30c0086d057ee7c860f4b7121478f809b3ca73"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/light_blue_ship_chair.json"
-hash = "86c01924e9f856bd5e3bf135c2aff9c78853a0ac3a087e8c6d0473b12b378f86"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/light_gray_ship_chair.json"
-hash = "62120403d2a3c2a81697fed6fd55676ce6b15cd0695f31bb189c2205cbfa8b2e"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/lime_ship_chair.json"
-hash = "6abb2a83fc37db2d304dc31ce682ba93d1c5114ca7279f7690e6432e47b927cf"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/magenta_ship_chair.json"
-hash = "0707dc836347a843aa37566c6edce5bc4b8dc0b9fdc67024f7f4a835e9fcf52b"
 
 [[files]]
 file = "kubejs/assets/kubejs/blockstates/metal_crate.json"
 hash = "177681645245cded5e2dfe9a06d6c4ecee50cef48da63df8afa29bf8249de511"
 
 [[files]]
-file = "kubejs/assets/kubejs/blockstates/orange_ship_chair.json"
-hash = "7a323ce76fc6357b28e0fb9a28a892ea739a2adedca43fbc425f86de3873df4b"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/pink_ship_chair.json"
-hash = "f5cee37dfa28b4188d34029a402c00d9db4d3062e3f21893968dd1b99caccd98"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/purple_ship_chair.json"
-hash = "15afdf1db62ea0c9bd976498273327d8fbf07565a9b7bc042ca56f891b4574de"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/red_ship_chair.json"
-hash = "7418f129ad64951fd20ae3cc0e2a3fcb0d8214b83d719e9e153eebf6fc201b94"
-
-[[files]]
 file = "kubejs/assets/kubejs/blockstates/trash_pile.json"
 hash = "6c85a383a2a0b43072f21e8f6635a1cfcfc816fb65f7c4bf0330c5733a74dc70"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/white_ship_chair.json"
-hash = "45d28a82b777c908cd4ec00d35ff92df41e4ac92f46ede92696530d245309946"
-
-[[files]]
-file = "kubejs/assets/kubejs/blockstates/yellow_ship_chair.json"
-hash = "be70bc2f57e038011b3d82aaafb4f931b265c8e6032adf2cfc03183048375308"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/blazing_block.json"
@@ -8101,70 +8069,6 @@ hash = "ebab974c87d3878d17c6bef507d3e3cecb58907888abb4ccc1790069e0e8ea52"
 [[files]]
 file = "kubejs/assets/kubejs/models/block/ostrum_door_block.json"
 hash = "85f3e05b841b0bf34b78779093e27d95ca4352b7595ffbb4a66944015232ec79"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/black.json"
-hash = "fdf627101848c9466b7186988ea00c91498531b19f5f1f5d4e5c3ca6759c72b2"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/blue.json"
-hash = "5ebd36872e0014327a7392cecd78665329c5bd26a6d695f9d8ac07266934afd5"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/brown.json"
-hash = "41cff2e6ec978844844ccd15039bbd9f59cb0b9118afcad270e51b91f11e11fd"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/cyan.json"
-hash = "4d8076319f0aaa5e849b82cb62f62d9b6316d38a02f8e1b50f26de932dddf2c8"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/gray.json"
-hash = "0cf220248d0e00748d7abf0b4f7f7f452498c52291c7b2f59a2e33d47d3b1857"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/green.json"
-hash = "14adac127264e3d5743eeaa786c59bc82a3d80cdd8aa3456430018584c850a8a"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/light_blue.json"
-hash = "b36b27ea60cdcea73cbf090e22605e96c4401e0cd62002f0735569d5861354a9"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/light_gray.json"
-hash = "e434d6644d8e6023512f4dd83887692d4ca7ebe53f8b794c336e2f0149569885"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/lime.json"
-hash = "a32cc5ec4f5f1959c5eef2c1a6d209db043072c8136ed7d75381276009d99bcb"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/magenta.json"
-hash = "b612825ece782d0394f44543e3377a1a3fca90b250ab975e21cbf7df0a2e9521"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/orange.json"
-hash = "7e5f538ccc889c3e3a5bd908042dbbcef913602fe0ea2b5db288730f95814d57"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/pink.json"
-hash = "c83ec25a51a3b7aa83f479267c4f06f73655dd636d68c56569e0fb2e32bd2d6d"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/purple.json"
-hash = "afe291a4799b3aa337fcd75925f3dfe3496636772178223eb2d2dcad26e637d6"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/red.json"
-hash = "01b8c1a044a7b97408658a07fa0a8d1db3b4a2356b0c7735f2f2f03b37f2a1e4"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/white.json"
-hash = "688547cf34e3c4f787513d0f54d16dfc3443b491538770e4b869185663ada206"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/block/ship_chair/yellow.json"
-hash = "92635ebad8dd7470690ad97f02b769a1fbc19b53bf2e258deb7951f5cdc30903"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/trash_pile/10.json"
@@ -8297,18 +8201,6 @@ hash = "9aeac6ea7cbd3d011cd4eb6701d4a524a8d0b62ac81db47ac7a3fc530eac9c2e"
 [[files]]
 file = "kubejs/assets/kubejs/models/item/advanced_camel_pack.json"
 hash = "edfc6cda432299e9f8940de94854c0017f35048dfb1ffd80cb87443e246769d0"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/black_ship_chair.json"
-hash = "7eb753ebeddb84071b6d637aee1898d404684703214d13c7263e6985645e3048"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/blue_ship_chair.json"
-hash = "e3a56297048df1c681290cbb06cf8d689df988901f09d226d9388db4aa2fa562"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/brown_ship_chair.json"
-hash = "1ff964c97d343947a1c471ed23547b169ac7e8527b896e614959904ea619b34a"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/camel_pack.json"
@@ -8883,56 +8775,12 @@ file = "kubejs/assets/kubejs/models/item/crushing_hammer_broken.json"
 hash = "d925411530528e59bb8892cc328398de5dbaf8b7e4dbf094f836da7e67c5ab6d"
 
 [[files]]
-file = "kubejs/assets/kubejs/models/item/cyan_ship_chair.json"
-hash = "ee3158d8746466f1d3da8902d2e68c4e31869d41bcdf27527406bf5650ab1006"
-
-[[files]]
 file = "kubejs/assets/kubejs/models/item/dust_pile.json"
 hash = "6047beba1dcfec74dd232bdca290be4c36d067a1bbb2286db4023518343bc22e"
 
 [[files]]
-file = "kubejs/assets/kubejs/models/item/gray_ship_chair.json"
-hash = "7255a49256020d7e839c5604d59f9fc12b3256d84826a49678ab3a13c41eb1bf"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/green_ship_chair.json"
-hash = "94cda53c064d4bf3e0be812389f6e6f58698ca07b62599bd10f421659a2d2483"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/light_blue_ship_chair.json"
-hash = "8fcdb5f64c83a0b8c69aa3a66fab132fbc768406a50cd95ebc4e5108180a27b5"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/light_gray_ship_chair.json"
-hash = "60dc0df34aeac00ca688c32e3a71007a89e3740e87d2cb88201b604287219ff6"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/lime_ship_chair.json"
-hash = "438ed53f6af25d0dea3fa1291db96fea80d4e5df4fdd52f07ae2b9bf0d9dba63"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/magenta_ship_chair.json"
-hash = "0d792ae89fdc97a9e4b467a3c08b28367ed7d24b8b515ed369b5c9e3bea87105"
-
-[[files]]
 file = "kubejs/assets/kubejs/models/item/metal_crate.json"
 hash = "3814b29a00cbe2333caec66a70d171cc28b65bb578590009e38cba483e6a4456"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/orange_ship_chair.json"
-hash = "a522740a15a65010b530072e199e9634bc916a601abb960e7acff983e1a2c3dc"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/pink_ship_chair.json"
-hash = "ef4bc6f5a7a8add814d887ce9a71c7e527ad0bf3fda8c50946b96fe4c4a74edb"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/purple_ship_chair.json"
-hash = "152a3134b053cedceb15b44d7c016ef1c18c2de43a1c09678b1064a8424fd5c3"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/red_ship_chair.json"
-hash = "e2653f686f356eea96491b4908ff1677b31758b818991daf9de8fd283d1611c4"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/trash_pile.json"
@@ -8941,14 +8789,6 @@ hash = "1300f215ca9a57192cf608b7d1588c1459634713c5cb9708a3292216dd8007a2"
 [[files]]
 file = "kubejs/assets/kubejs/models/item/unlimited_camel_pack.json"
 hash = "fd1db35ee58ab2a830aea802f119c85d5d7c14603944a7e52b01f7e766b0d769"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/white_ship_chair.json"
-hash = "6e92ef000136f5572d0b520f047b9e09b0ede898f15b0bf800a2e4e9c42109e1"
-
-[[files]]
-file = "kubejs/assets/kubejs/models/item/yellow_ship_chair.json"
-hash = "6a965bd9edb4b415ffa2e230eb18237f80580c7f93f4c32156fdaa1752e96a4b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/_crashed_color_pallete.png"
@@ -9039,10 +8879,6 @@ file = "kubejs/assets/kubejs/textures/block/crumbling_seared_bricks.png.mcmeta"
 hash = "a6ee213b00b6db2dd4e30c0a7037f60b922dd1e9bc170ebd6c72d09d938762b3"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/block/dark_plasteel_block.png"
-hash = "39fab4a6cc855e5fbaedf2166197fa31e8da7fc1d298e0d52f89faec420d4b2d"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
@@ -9065,10 +8901,6 @@ hash = "04735e5d0c76dfe3851d763a3bb20bc79e960d166631dbd79456bb4f2bcbd017"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/light_block_block.png"
 hash = "a850c0eff0a309a99edbd65ef2cd70ee4d51385e7513bced40d19d2e13cbb00d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/light_plasteel_block.png"
-hash = "3c24331d5a13f71694e435c9b8c3cc46236237180d6aa588a03082c4f8eb4b83"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/me_controller_core.png"
@@ -9105,70 +8937,6 @@ hash = "b8b7ae5f5211604b73e8042f12cbd3c4407aeea54cc8e54727c7b34e76323caf"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/reactor_frame_crash.png"
 hash = "a8fb85e650b874f8bd0178266b0178323ee6efed7202c344790d716e97e7a948"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/black.png"
-hash = "5b36b7f24a164987132e823e02bd82cc19abe326942023b399468276a6b87d20"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/blue.png"
-hash = "49416d3bb66b2aeb10d11c6b1265f8923850257b28e49ac75029c355a8afd17a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/brown.png"
-hash = "b6621715acf9d9566b18ee167ed968a7b02352e80a71f8ce55616f419469ac6e"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/cyan.png"
-hash = "24f493ae62ccdeb7fe1058745fd02af766c37de91e33c9490708de0a10532f23"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/gray.png"
-hash = "a19f20e1d50cd0ed8d031e41d2a364839d7c5a333d02988838659981f073beb5"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/green.png"
-hash = "c54a549bb31ca788b2bcf29cd62859e07290b0277a7b374162b24e366a0e6259"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/light_blue.png"
-hash = "29b1a609408b6b6eafa3984c452a67e86945556378bcd19d3cc2968c74d8e761"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/light_gray.png"
-hash = "1608bfb2dda03a0aadd1d8c2414c52bc595ef61f2ec800a786c15384cc4610e0"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/lime.png"
-hash = "5409d4539095bec76dce9452c3cbff1707d45b1de51b06a38a866fd03108a6bc"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/magenta.png"
-hash = "8b4a603974e3876be6ccfe55cee68c1ca4826e0136c693ed8e1a27ef4d4189de"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/orange.png"
-hash = "808e0bb0ebab246ad431184e7a4dcaf0958f64eea0f2799a5db27f677b7e5f99"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/pink.png"
-hash = "9fe3f8ee94f5adbf497c481f412d3b0d2114f7d85e7c4a90a9145fa30dbc2d15"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/purple.png"
-hash = "fff0e0b1ba96d588f8c1f6363c5c2318e4a0d9f989ddfd88704a0bdd8dced461"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/red.png"
-hash = "6321b4ee15a3b3d059b5cd6e4352947db174af162a4aa1572cf0e0b1f443989c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/white.png"
-hash = "03ed44e69e05dbec7475fc01ed818fda6683fec2dd80571f7c1b22c33af77358"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ship_chair/yellow.png"
-hash = "e2bb585fcd905f9b85a131d08ba6cff5f7d868c2eb91f9fa09d637462051a0ac"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/test_gradient.png"
@@ -10088,7 +9856,7 @@ hash = "66593c7896b385714cfc43ed398da8409bb25520ff66c44c81e32daed790a21a"
 
 [[files]]
 file = "kubejs/assets/legumedelight/es_es.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+hash = "c3f781efb28b8986293d12ee2d9aed4d02505ffcada8855f10cea02affff9f49"
 
 [[files]]
 file = "kubejs/assets/legumedelight/fi_fi.json"
@@ -10292,7 +10060,7 @@ hash = "bb1db29fd57865474d2db1f03df7e72d953c18efa223551cd4bd3ecca06d71d6"
 
 [[files]]
 file = "kubejs/assets/scarcity/es_es.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+hash = "7f54ab0599f105afeac73a6e7edec8c76432396746f8023da7c5c47d51cc8083"
 
 [[files]]
 file = "kubejs/assets/scarcity/fi_fi.json"
@@ -10512,7 +10280,7 @@ hash = "376202518c24497577d914d7ed51f510912d0c850077c69a76f0ef957a0872fe"
 
 [[files]]
 file = "kubejs/assets/tips/lang/es_es.json"
-hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+hash = "71ae1eb2c9949ec4aa15e90f359a95fda22a8313bbf3421c30c26562fa292e38"
 
 [[files]]
 file = "kubejs/assets/tips/lang/fi_fi.json"
@@ -10704,7 +10472,7 @@ hash = "02de2bf938536e72a85ad034516bb1116826cffdd8e95d6b300e1523f06e8cd0"
 
 [[files]]
 file = "kubejs/data/desolate_planet/diet/food_values/farmersdelight.json"
-hash = "26b73708ad7e8b671432f30b6f148fc700cb03edf0eea73eed603de2d55ebec6"
+hash = "552c88af70bb4b49aaa954adccb1cb92dd6e8df5a136e48d3a1ebe131192b464"
 
 [[files]]
 file = "kubejs/data/desolate_planet/diet/food_values/legumedelight.json"
@@ -10739,64 +10507,8 @@ file = "kubejs/data/desolate_planet/diet/suites/builtin.json"
 hash = "7dd661360c583edbd1c2b1ad91941aa2c2fbfa6faa2d54a6ff0ee17861fe62cf"
 
 [[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/black_ship_chair.json"
-hash = "946ebad680e3fbfc5f1d3143cdbbc022dd484cc1303d4a36c97aa5c26ca03e6f"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/blue_ship_chair.json"
-hash = "a12729742bf8de26e49a744f2585423d0e3d02629ff2b46ef46726f3c413116f"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/brown_ship_chair.json"
-hash = "3bcb6093dc40bc0d6cff579de273ea45f4733d0172780afc6093be22f8d39d70"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/cyan_ship_chair.json"
-hash = "f0b1ebab564ab67f40556d103bb6f1b45e7573def84f9a46d0683543c689bbf6"
-
-[[files]]
 file = "kubejs/data/kubejs/loot_tables/blocks/dust_pile.json"
 hash = "b4715d3f6e6fbbc1691e09a11cda341ca99eb6cb1fcc2b9138d9e90896b09f3e"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/gray_ship_chair.json"
-hash = "266ed51129264ca3e4d55cc23e189019241ebf80b5a154c9183ee21fe05f197e"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/green_ship_chair.json"
-hash = "5b1913253cc3380d5840a28f716286458b285fe57722eb1e0a3bd2d0f2c9ce3a"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/light_blue_ship_chair.json"
-hash = "192d9412fe002a2a6b75ac08f9f4948c39c6f538a40cccb80d7346cbe1257f1d"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/light_gray_ship_chair.json"
-hash = "9d1213cb25ea1f1339afd2aeab1c57c70311afb9b2d0ac5eede35f7493eb2638"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/lime_ship_chair.json"
-hash = "ddefb825174a7ec02a2bfbd4a711d7b39f8e856f6ef2018dd15bc690f39d471f"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/magenta_ship_chair.json"
-hash = "68a5e28b884f07cef6087fc9268ca6d26fb3bce17d3a4b9a4a97bc6d53e040c5"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/orange_ship_chair.json"
-hash = "cf05075d077fcfdbc61142bbcc20b9da219f5bca8cc59bf08861bf759a92c4ce"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/pink_ship_chair.json"
-hash = "3b3c5c4218e2dc5c59581ef56878c82510d9a36121550ba4692afd733f7dacc3"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/purple_ship_chair.json"
-hash = "63f06054a36e55fd15cd99af35b2b65d50d7855f11ad8e642e3067a25e4f9c5c"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/red_ship_chair.json"
-hash = "0213e39bf66bc12ef47b2217bbd4c049790699128e63081ae4ced7303792df34"
 
 [[files]]
 file = "kubejs/data/kubejs/loot_tables/blocks/trash_pile.json"
@@ -10809,14 +10521,6 @@ hash = "6c497f2df92d53eb2c5f15370ad3162b598775db6f1d176d71ed75a72a47165e"
 [[files]]
 file = "kubejs/data/kubejs/loot_tables/blocks/trash_pile_silk.json"
 hash = "a2661039b4b0a54426c682367f0f6d43e72bc7faa861eab9f740409fb6e9b8d8"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/white_ship_chair.json"
-hash = "0d560bac0828a472e7da171850e2b3645512858f8a72ba060266b44b4fa595da"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_tables/blocks/yellow_ship_chair.json"
-hash = "53cf71b740054594e0806bebecddefd9fc8d8749d1e488e0743a95fcb020dfd7"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/tools/crook.json"
@@ -10984,11 +10688,11 @@ hash = "403932f9500bbbeeb2f0e7252034cc0f637283c9d1743387a09b3dd04010d96b"
 
 [[files]]
 file = "kubejs/server_scripts/paste.js"
-hash = "60cd77b60aa95e859df87e3ed07aaae69ab9d9f323ed962acb5ed7953ac480c7"
+hash = "91d03bd05a4be855f76eb2892de7b3270ab051b94ed536c81c89ee24aae658f8"
 
 [[files]]
 file = "kubejs/server_scripts/plasteel.js"
-hash = "3e62098287ccb84147a8a9509fed5cc8b94183b26218e3b0cf308de5218c6cad"
+hash = "65ada597780cdbd934c85bd90d488d225ff2c8d904dd18385e172242fdb41d46"
 
 [[files]]
 file = "kubejs/server_scripts/pneumaticcraft.js"
@@ -11036,7 +10740,7 @@ hash = "ba2f3d8a812ace903bcc58706ea041bfbd57dd4f5c6c6f4d5317f483df3be652"
 
 [[files]]
 file = "kubejs/server_scripts/ship_chair_recipe.js"
-hash = "4bbbd2c581301e766d6a4b971f7511d4ca887227f09a724300a2bb7c88f5850b"
+hash = "a06558fd40101f6281ce09e17540d77bfd892a65310431b672e6190be1ec33ea"
 
 [[files]]
 file = "kubejs/server_scripts/sieve_tables/sieve_drop_tables.js"
@@ -11056,7 +10760,7 @@ hash = "1014877f1cff1e7a1bf0e05a033f6dc36d7387d42cae884e080f322a19205a0b"
 
 [[files]]
 file = "kubejs/server_scripts/sunlight_detection.js"
-hash = "1d95ef502b3dcdd4780096e4e9bd5cb7ed2b608275f9a634f64cf9c48c393350"
+hash = "77e494beff890a6e81c3224122e2f06d6249f7517940255a308c91c808dbca82"
 
 [[files]]
 file = "kubejs/server_scripts/tags/bookshelf_books.js"
@@ -11072,11 +10776,11 @@ hash = "76ac58c9ee0d4fd6f0c01c19ef53a5ba4d9b9e27dc5aca4c91ec79ca95aa6811"
 
 [[files]]
 file = "kubejs/server_scripts/tags/mineables.js"
-hash = "a8bf5c7a304aeb9dc0654b33e1fb9da29e2fab2d7657aec8a9034ab082c85ca0"
+hash = "cb5e9403a2c8f30e4f1678913f0801b5a3d6b008bcd3fa5823a870bd35aebaf2"
 
 [[files]]
 file = "kubejs/server_scripts/tags/misc.js"
-hash = "1da4ff7595e93dea76bbf6adb84e612d8f95de998da58f7c81c186d4ed93d2ba"
+hash = "dc02e4b424b1aef4bc55f13693f93edb4475d0a41b16953d410823d4797d3853"
 
 [[files]]
 file = "kubejs/server_scripts/tags/plastic_scraps.js"
@@ -11089,10 +10793,6 @@ hash = "728d5862328fbeee2ad3b4b2deb3449dcab31e3810721dead5d3ad82f079da3e"
 [[files]]
 file = "kubejs/server_scripts/tags/staple_foods.js"
 hash = "09f8569d825184cbe86eaa1ef9361a8aad575993e3e5e3a60bbe11f793bff0f3"
-
-[[files]]
-file = "kubejs/server_scripts/tags/sync_block_ingredients.js"
-hash = "4ff4599678f13136ca95af8e1a6e862c62ee9591945cc234d7b1e0aa635c7d73"
 
 [[files]]
 file = "kubejs/server_scripts/tags/tinkering.js"
@@ -11156,11 +10856,11 @@ hash = "653baaa40a01d605caf3f6b3594e6559394e3fc0919411dc1940dc26b69e257a"
 
 [[files]]
 file = "kubejs/startup_scripts/crash_blocks/custom_blocks.js"
-hash = "b4081d8184635c2688566091eff640ee3575336aafcce9f6eedd1e43eb6a1e81"
+hash = "3a130975e9bfa78a3d04c8e43c58936a3ddecb0a2e8f6cf401524d0c4da4ebb8"
 
 [[files]]
 file = "kubejs/startup_scripts/crash_blocks/ship_blocks.js"
-hash = "473abcf512e38b8acddf1c61d9322326e3393ede4a4aa15aa826462dc9b90625"
+hash = "179854752fa2b7bf0841ebbe9de8b960b58f9474cfc33cb4d30ec2af99f0b3bf"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_armor.js"
@@ -11211,10 +10911,6 @@ file = "kubejs/startup_scripts/food/halved_food.js"
 hash = "c32fc6315b51a246abd6e83c84263581bd79a5a16ad398194b0705b4952897c1"
 
 [[files]]
-file = "kubejs/startup_scripts/furnitures/ship_chair.js"
-hash = "7577ea9430aa9c525ac14ec640c86d953e42d253a733be946b99485cb6ce5c41"
-
-[[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
 hash = "23f76104148facdea59426226ca4888814c9eb1a0df42b7ea297ed3f56c3dbe0"
 
@@ -11255,7 +10951,7 @@ metafile = true
 
 [[files]]
 file = "mods/advanced-loot-info.pw.toml"
-hash = "f91913276882c543a7aa8743f96a8ab8597748d909dbf8857dd3fc0e69379c98"
+hash = "384ea0bd25e2b85894d50c97a2c12250a59e2004c45698483103524f7463c67c"
 metafile = true
 
 [[files]]
@@ -11305,7 +11001,7 @@ metafile = true
 
 [[files]]
 file = "mods/astages.pw.toml"
-hash = "cf63b9b53bdbbcc43b842eebede2ca086178a476863d2bafb77cc25966f43b93"
+hash = "6be502acebb4757f0a3526e8aa53e49b6b63cebd81aa11f15b3e3c83f6176041"
 metafile = true
 
 [[files]]
@@ -11330,12 +11026,12 @@ metafile = true
 
 [[files]]
 file = "mods/baubley-heart-canisters.pw.toml"
-hash = "919b3ad751188efc04e95a6138c835a298693d3fb0e711c731fea4889c1a0e52"
+hash = "1466071bbbf302a72ae487c84b7e7bb1b11648435f06c911dbded3dcf0592b63"
 metafile = true
 
 [[files]]
 file = "mods/betterblockz.pw.toml"
-hash = "2354e271ffd6adf532e07a9b4550f4b7803548b097be71a4433f746a8118894a"
+hash = "ecc99cf5d182aaa46c3485034f6c7dfeeec7189ed379a53cc36544e91b1e693a"
 metafile = true
 
 [[files]]
@@ -11360,7 +11056,7 @@ metafile = true
 
 [[files]]
 file = "mods/cable-facades.pw.toml"
-hash = "ca7bcb7a727b27c073ef26c2c8cbdc6bec48a3b442170612d440a895a52ecbe4"
+hash = "8ee0bedba41018fbc72ff0870276500f2d6d2923cf4793e5ab8e77d81984b1f0"
 metafile = true
 
 [[files]]
@@ -11405,17 +11101,17 @@ metafile = true
 
 [[files]]
 file = "mods/cold-sweat.pw.toml"
-hash = "eac825335a71f025ace7045f560f7d968f1b16ab5348d6a1dbfc976bb395027a"
+hash = "64b6dd90fdd0531dea166ff021a5d5165db3c515ce7ae9d4829d00a8debd70c6"
 metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "9fa7c932c04f4a9447f19d5418bdb5b84a28526c090788910bbb9541324d6c53"
+hash = "8bdd0f05924d213e74facae04f3721032f121d81ddbe506a69752899d46d50c3"
 metafile = true
 
 [[files]]
 file = "mods/colorwheel.pw.toml"
-hash = "158d733846379f3e9f84bf24ab2b1227d8668cf669b25bdf72480a7579650c42"
+hash = "a85ba7ba18bb361e24447e4d15aabf988c391a110f77514301636b31397613e5"
 metafile = true
 
 [[files]]
@@ -11470,7 +11166,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "173c96ff07c9c198e7a7a7e4f9e677bc6bd6f8a88d40b57744b4c181e66e6f74"
+hash = "5cf59dfda8835a4c9e77f79dc0c29bc3bf63c6e6c9879bc669d583decda93bfb"
 metafile = true
 
 [[files]]
@@ -11485,7 +11181,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "623096fd04b0674b647fc5a83940d924f35fb744096a50a202fff2559a157e9a"
+hash = "648fcb2b556d5bee618e3eee31d3218b6f62736d08aab6b1ea2fee226a5f8231"
 metafile = true
 
 [[files]]
@@ -11510,7 +11206,7 @@ metafile = true
 
 [[files]]
 file = "mods/crust.pw.toml"
-hash = "7cf07e5fd85a463e7492b1981f7a7a3a60a20d938020cb36c5c3546c7baa3e16"
+hash = "dcd7cd04828afdef14c7c96ce33a32f13a478dc1c178788c0e2ce1c2432b5365"
 metafile = true
 
 [[files]]
@@ -11525,7 +11221,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "54343259f122e2b470fc8779f89ed8290f9b0087337cd6fd956b31f8893c392a"
+hash = "76d54bb85fafe3e9d0a42c8ccf9990e4a08d28dfaeab4aa3fd2e3efe6c36e177"
 metafile = true
 
 [[files]]
@@ -11555,12 +11251,12 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "5adbf817ce7780f00ecd5866ee42f6d0f23600b601ad516b020ed7b1a1036f92"
+hash = "eaeb446d5408c9fe8cba35b1f884379d32fae3a4008dcae702a5205ccc8fab8b"
 metafile = true
 
 [[files]]
 file = "mods/ex-deorum.pw.toml"
-hash = "98dffbee07d1f68f15497eef7738d7494a49eca6e5edad399d2d65e079e1170d"
+hash = "7d983a7753390ea247ddf282d6494897cf9f53b5457356c844079547a61e7243"
 metafile = true
 
 [[files]]
@@ -11580,7 +11276,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "9ef71f9c8e58ee251941a2fc0fc4125da766e88fc290165b53db6ac4c7e3d882"
+hash = "1d4b474a0d0c7942ce6cf1f8bb52c6c9daabf9d949539a693bb8cf17c08d80d3"
 metafile = true
 
 [[files]]
@@ -11645,7 +11341,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "a2e4177685c00ef020bec725e95b4b811224716c736d5723599e38024860a1b0"
+hash = "606e38058a2913795ecebcd9b407a453d8fc24cfd3409a9eb431ff56e10bcfe8"
 metafile = true
 
 [[files]]
@@ -11790,7 +11486,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "ea31f9244a5e1389b0bd2b598e8f520c0042dcd0c56621b00f5acaed77f5ca84"
+hash = "c542e5e9661a7fb46bc58fe71559352500cce3605b904697cd71f97b5e924c33"
 metafile = true
 
 [[files]]
@@ -11940,7 +11636,7 @@ metafile = true
 
 [[files]]
 file = "mods/scarcity.pw.toml"
-hash = "918d27870b2ee3d37312dc1049b87ea5d9c4685645dd70ea357d4d7181560d7b"
+hash = "2d9c4fd2b797f2a911e98acdcc0a75116ee800dc11b218625d298c4aeb409917"
 metafile = true
 
 [[files]]
@@ -11950,7 +11646,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "7b9a08ffb5761b87c1bef75608e1443a9b0908322609dcdd067672ac78bd5829"
+hash = "2720aee58db6299559f89ea9dc8b1d573b8324f2b4af1e594c5239607585487b"
 metafile = true
 
 [[files]]
@@ -11970,27 +11666,27 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
-hash = "f008f3140c54d7257bdd67249674bed78d7a121d116ac3f175fe898273dc6f16"
+hash = "3a35760ccfbbe065b0e839f776699b27c4063e7ebc28512871602ec402683338"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "cd714ac544133aa0a17442739549bc8bae779832ca8280d8bd8ba3402f44aa20"
+hash = "25f39841426bf0606207cb57e7c9b8ec41d8a26e79d570b3d5eaecdef3b0cfd9"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "8bc780985944992a9c86ff9eee039e9ffffd8035f4e06ea9a064ed76e4f3b483"
+hash = "3ffdeb591c2704c811cffc43874d4e9965cce8825c8f97441c66cb23d877845e"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "9346cdef282fd5da4b48318c0c7d4e6e54d204489de4d82c966f46af78fa7b08"
+hash = "e4fcc3cdfc450d042863482d5a41886ba5ae5ca2f4b2d62907204d9499372a6b"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "dd69c0f88fa1b0c66036b4e9155fb6ea62fd183abbb0c73f202605e26f8ed129"
+hash = "417ab465d909e310825d1e4b91974a30093e7500acd5dfb87e9169a74d6205f9"
 metafile = true
 
 [[files]]
@@ -12026,6 +11722,11 @@ metafile = true
 [[files]]
 file = "mods/tagtooltips.pw.toml"
 hash = "0a3cc88137cb823b703f7b2e1381990a87a2b9f48cd92b8864235c24faa0d70a"
+metafile = true
+
+[[files]]
+file = "mods/the-varkin-system.pw.toml"
+hash = "6edf120aebaad9b792431bb6421dad9a30b69860f26fb71ddfb08904a4ee3a99"
 metafile = true
 
 [[files]]
@@ -12075,7 +11776,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkers-tool-leveling-2.pw.toml"
-hash = "fcfd02710d6cff8ae3a8ad650336759d5aa34f1e872ae88213e897757193e888"
+hash = "015066789970b5e07fae34713416b2eb737fcbadb4f31b43059a86a8fbac6a00"
 metafile = true
 
 [[files]]
