@@ -1,13 +1,13 @@
 name = "Crust"
-filename = "crust-1.20.1-4.17.27.jar"
+filename = "crust-1.20.1-4.17.28.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ea8a044881c1ed6ae5d376aea8bfeabf3300ed93"
+hash = "e2cfe59697d7d21524d6540640dee579ed770761"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8145414
+file-id = 8197602
 project-id = 873570

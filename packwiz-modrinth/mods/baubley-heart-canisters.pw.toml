@@ -1,13 +1,13 @@
 name = "Baubley Heart Canisters"
-filename = "baubley-heart-canisters-1.20.1-1.1.0.jar"
+filename = "baubley-heart-canisters-1.20.1-1.2.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/fPdy2fCM/versions/8vKuvkxV/baubley-heart-canisters-1.20.1-1.1.0.jar"
+url = "https://cdn.modrinth.com/data/fPdy2fCM/versions/DHWGsQDA/baubley-heart-canisters-1.20.1-1.2.0.jar"
 hash-format = "sha512"
-hash = "865483a2a3988d0cff749fc77dd99c77391a036e3a33b9194e11760e3c69b043ac8791f0cb81637a712389bcd1fa11367de3659412534989e9f8882e3baa0d5c"
+hash = "3128c4444e246218591fb2c29a81919b07ff37e6d5749cbf6d6647615ea03cff3ebd6a0a099a7f568b8ab86c49874aa59d36fd162bcc718c76f12b4f57b96d5f"
 
 [update]
 [update.modrinth]
 mod-id = "fPdy2fCM"
-version = "8vKuvkxV"
+version = "DHWGsQDA"

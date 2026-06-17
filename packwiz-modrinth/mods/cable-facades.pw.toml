@@ -1,13 +1,13 @@
 name = "Cable Facades"
-filename = "cable_facades-1.20.1-Forge-1.3.2.jar"
+filename = "cable_facades-1.20.1-Forge-2.1.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/twipgzWx/versions/gPtB58re/cable_facades-1.20.1-Forge-1.3.2.jar"
+url = "https://cdn.modrinth.com/data/twipgzWx/versions/QlzAYfTm/cable_facades-1.20.1-Forge-2.1.0.jar"
 hash-format = "sha512"
-hash = "b717e9e88ca47b4386870eac0b91002c14b11a907b1ee75a156260192fe9625e53c698e02d917902bdc80197d9d0918afabd2d9eda9ba96844783035b6ab2b84"
+hash = "b623f51d3dead74a4791736c6f140835f9b08fa7846cf24555add5345791f71d59463efec4c2618f260675391247c49edfcec9921b16d5f55cac2a74eda0017d"
 
 [update]
 [update.modrinth]
 mod-id = "twipgzWx"
-version = "gPtB58re"
+version = "QlzAYfTm"
