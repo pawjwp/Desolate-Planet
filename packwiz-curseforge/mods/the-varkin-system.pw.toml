@@ -1,0 +1,13 @@
+name = "The Varkin System"
+filename = "varkin_system-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "516b956bf3cae67e112b7ddf12280e83925bba87"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8258701
+project-id = 1503755

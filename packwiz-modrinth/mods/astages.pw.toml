@@ -1,13 +1,13 @@
 name = "AStages"
-filename = "astages-2.0.0-1.20.1-all.jar"
+filename = "astages-2.1.0-1.20.1-all.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/6wy8fmIk/versions/JLsgPBWv/astages-2.0.0-1.20.1-all.jar"
+url = "https://cdn.modrinth.com/data/6wy8fmIk/versions/k7iKGf5I/astages-2.1.0-1.20.1-all.jar"
 hash-format = "sha512"
-hash = "d04f4347c7c8fbc9a7e53b963d7c1e1af7b402bab276adc13eea40d79b65b67ad2bbc6b2e38e15848b2a8aead38588e7334e72af694d8831034182e28f05fe0a"
+hash = "0f48140d98d08918069acabc9739ff24032a2260a8f6833e1a82b7abd4095dbebddf42d4541df605979885b58fbd3c332ac692f0ed83b954c7c5dbc2f252fe98"
 
 [update]
 [update.modrinth]
 mod-id = "6wy8fmIk"
-version = "JLsgPBWv"
+version = "k7iKGf5I"

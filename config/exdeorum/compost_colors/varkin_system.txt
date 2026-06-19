@@ -1,10 +1,12 @@
 // Compost colors for varkin_system. You may add your own colors, change existing ones, or remove colors that aren't needed.
+calorite_sliding_door, #ffd4e8
 chalcopyrite_crystal_cluster, #fff89a
 chalcopyrite_crystal_large, #ffffff
 chalcopyrite_crystal_medium, #ffffff
 chalcopyrite_crystal_shard, #ffffe1
 chalcopyrite_crystal_small, #ffffff
 chalcopyrite_dust, #ffffff
+desh_sliding_door, #ffe8e7
 electrum_crystal_cluster, #ffffb6
 electrum_crystal_large, #ffffff
 electrum_crystal_medium, #ffffff
@@ -17,6 +19,8 @@ galena_crystal_medium, #ffffff
 galena_crystal_shard, #c6cae4
 galena_crystal_small, #ffffff
 galena_dust, #f5faff
+iron_sliding_door, #f0f2f2
+ostrum_sliding_door, #ffebf8
 pentlandite_crystal_cluster, #d6c5a5
 pentlandite_crystal_large, #ffffff
 pentlandite_crystal_medium, #ffffff
@@ -35,3 +39,4 @@ stannite_crystal_medium, #ffffff
 stannite_crystal_shard, #fbf7ed
 stannite_crystal_small, #ffffff
 stannite_dust, #ffffff
+steel_sliding_door, #e6e6ea
