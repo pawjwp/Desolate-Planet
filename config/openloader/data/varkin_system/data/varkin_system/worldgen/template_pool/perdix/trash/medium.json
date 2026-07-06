@@ -1,0 +1,104 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/trash/medium/legacy",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/trash/medium/tube",
+                "processors": "minecraft:empty"
+            },
+            "weight": 10
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/trash/medium/tower",
+                "processors": "minecraft:empty"
+            },
+            "weight": 10
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/trash/medium/gears",
+                "processors": "minecraft:empty"
+            },
+            "weight": 10
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/trash/medium/waste_barrel",
+                "processors": "minecraft:empty"
+            },
+            "weight": 10
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/trash/medium/onion_ring",
+                "processors": "minecraft:empty"
+            },
+            "weight": 10
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/trash/medium/cube",
+                "processors": "minecraft:empty"
+            },
+            "weight": 10
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/trash/medium/broken_scaffold",
+                "processors": "minecraft:empty"
+            },
+            "weight": 10
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/trash/medium/lone_gear",
+                "processors": "minecraft:empty"
+            },
+            "weight": 10
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/trash/medium/pipes",
+                "processors": "minecraft:empty"
+            },
+            "weight": 10
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/trash/medium/solar_panel",
+                "processors": "minecraft:empty"
+            },
+            "weight": 10
+        }
+    ]
+}
