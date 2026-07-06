@@ -28,6 +28,7 @@
     [],
     [
       "ad_astra:moon_soul_soil",
+      "varkin_system:perdix_lichen",
 	  "varkin_system:trash_columns",
 	  "varkin_system:trash_piles_moderate",
 	  "varkin_system:trash_piles_small"
@@ -41,24 +42,25 @@
   "has_precipitation": false,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [],
+    "ambient": [
+      {
+        "type": "alexscaves:notor",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 20
+      }
+	],
     "axolotls": [],
-    "creature": [
+    "creature": [],
+    "misc": [],
+    "monster": [
       {
-        "type": "alexscave:notor",
-        "maxCount": 8,
-        "minCount": 2,
-        "weight": 100
-      },
-      {
-        "type": "alexscave:teletor",
-        "maxCount": 5,
-        "minCount": 2,
+        "type": "alexscaves:teletor",
+        "maxCount": 1,
+        "minCount": 1,
         "weight": 25
       }
     ],
-    "misc": [],
-    "monster": [],
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []

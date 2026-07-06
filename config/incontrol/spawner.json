@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "mob": "alexscaves:notor",
+    "persecond": 0.5,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2,
+      "groupdistance": 3
+    },
+    "conditions": {
+      "dimension": "varkin_system:perdix",
+	  "norestrictions": true,
+      "minheight": 100,
+      "maxheight": 175,
+      "maxthis": 20
+    }
+  }
+]

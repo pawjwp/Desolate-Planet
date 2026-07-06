@@ -27,7 +27,8 @@
     [],
     [],
     [
-      "ad_astra:moon_soul_soil"
+      "ad_astra:moon_soul_soil",
+      "varkin_system:perdix_lichen"
     ],
     [
       "minecraft:large_dripstone",
@@ -38,24 +39,25 @@
   "has_precipitation": false,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [],
-    "axolotls": [],
-    "creature": [
+    "ambient": [
       {
-        "type": "alexscave:notor",
-        "maxCount": 4,
+        "type": "alexscaves:notor",
+        "maxCount": 1,
         "minCount": 1,
-        "weight": 100
-      },
+        "weight": 20
+      }
+	],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
       {
-        "type": "alexscave:teletor",
-        "maxCount": 2,
+        "type": "alexscaves:notor",
+        "maxCount": 1,
         "minCount": 1,
         "weight": 25
       }
-    ],
-    "misc": [],
-    "monster": [],
+	],
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
