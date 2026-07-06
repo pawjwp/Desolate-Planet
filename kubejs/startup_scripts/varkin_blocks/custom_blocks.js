@@ -4,7 +4,7 @@ let mechanicalScrapsLayer
 let moonTrashLayer
 
 StartupEvents.registry('block', event => {
-    moonTrashLayer = event.createCustom('varkin_system:verdix_trash_pile', () => new $LayerBlock($Properties.copy(Blocks.GLASS)
+    moonTrashLayer = event.createCustom('varkin_system:perdix_trash_pile', () => new $LayerBlock($Properties.copy(Blocks.GLASS)
         .sound($SoundType.SUSPICIOUS_GRAVEL)
         .destroyTime(0.1)
     ))
@@ -23,7 +23,7 @@ StartupEvents.registry('block', event => {
 })
 
 StartupEvents.registry('item', event => {
-    event.createCustom('varkin_system:verdix_trash_pile', () => new $BlockItem(moonTrashLayer.get(), new $IProperties()))
+    event.createCustom('varkin_system:perdix_trash_pile', () => new $BlockItem(moonTrashLayer.get(), new $IProperties()))
     event.createCustom('varkin_system:organic_waste', () => new $BlockItem(organicWasteLayer.get(), new $IProperties()))
     event.createCustom('varkin_system:mineral_waste', () => new $BlockItem(mineralWasteLayer.get(), new $IProperties()))
     event.createCustom('varkin_system:mechanical_scraps', () => new $BlockItem(mechanicalScrapsLayer.get(), new $IProperties()))

@@ -1,0 +1,115 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 32,
+    "xz_spread": 3,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "direction": "up",
+          "allowed_placement": {
+            "type": "minecraft:true"
+          },
+          "prioritize_tip": false,
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 6
+                }
+              },
+              "provider": {
+                "type": "minecraft:weighted_state_provider",
+                "state": {
+                  "Name": "varkin_system:perdix_trash_pile",
+                  "Properties": {
+                    "layers": "8"
+                  }
+                },
+                "entries": [
+                  {
+                    "weight": 20,
+                    "data": {
+                      "Name": "varkin_system:perdix_trash_pile",
+                      "Properties": {
+                        "layers": "8"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "alexscaves:scrap_metal"
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "alexscaves:scrap_metal_plate"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "height": 1,
+              "provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "varkin_system:perdix_trash_pile",
+                      "Properties": {
+                        "layers": "2"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "varkin_system:perdix_trash_pile",
+                      "Properties": {
+                        "layers": "4"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "varkin_system:perdix_trash_pile",
+                      "Properties": {
+                        "layers": "6"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "ad_astra:moon_sand",
+            "offset": [0,-1,0]
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}

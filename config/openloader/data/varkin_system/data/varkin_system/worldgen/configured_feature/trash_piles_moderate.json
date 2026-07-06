@@ -13,7 +13,7 @@
               {
                 "weight": 2,
                 "data": {
-                  "Name": "kubejs:trash_pile",
+                  "Name": "varkin_system:perdix_trash_pile",
                   "Properties": {
                     "layers": "4"
                   }
@@ -22,7 +22,7 @@
               {
                 "weight": 2,
                 "data": {
-                  "Name": "kubejs:trash_pile",
+                  "Name": "varkin_system:perdix_trash_pile",
                   "Properties": {
                     "layers": "3"
                   }
@@ -31,7 +31,7 @@
               {
                 "weight": 3,
                 "data": {
-                  "Name": "kubejs:trash_pile",
+                  "Name": "varkin_system:perdix_trash_pile",
                   "Properties": {
                     "layers": "2"
                   }
@@ -40,7 +40,7 @@
               {
                 "weight": 4,
                 "data": {
-                  "Name": "kubejs:trash_pile",
+                  "Name": "varkin_system:perdix_trash_pile",
                   "Properties": {
                     "layers": "1"
                   }

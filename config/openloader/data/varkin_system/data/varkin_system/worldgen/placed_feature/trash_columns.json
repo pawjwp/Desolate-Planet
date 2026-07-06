@@ -1,0 +1,21 @@
+{
+  "feature": "varkin_system:trash_columns",
+  "placement": [
+    {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 2,
+      "below_noise": 0,
+      "noise_level": -0.5
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
