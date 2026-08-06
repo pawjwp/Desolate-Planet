@@ -522,32 +522,6 @@
         ]
       },
       {
-        "id": "ac74e3b7-c1d0-4d26-837d-d91d4fbb1730",
-        "name": {
-          "text": "Good Raw 2",
-          "isTranslationKey": false
-        },
-        "limit": 0,
-        "items": [
-          {
-            "id": "thermal:gold_dust",
-            "Count": 16
-          },
-          {
-            "id": "thermal:silver_dust",
-            "Count": 16
-          },
-          {
-            "id": "mekanism:dust_lead",
-            "Count": 16
-          },
-          {
-            "id": "thermal:nickel_dust",
-            "Count": 16
-          }
-        ]
-      },
-      {
         "id": "3f4f89d6-08d7-41ca-a932-5589d6d9c05d",
         "name": {
           "text": "Good Tools",
@@ -583,12 +557,38 @@
           {
             "id": "tconstruct:dagger",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:flint\"],tic_modifiers:[{level:2,name:\"tconstruct:jagged\"},{level:1,name:\"tconstruct:offhand_attack\"},{level:1,name:\"tconstruct:padded\"},{level:1,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":3.03875f,\"tconstruct:attack_speed\":2.0f,\"tconstruct:block_amount\":10.0f,\"tconstruct:durability\":54.1875f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":2.625f,\"tconstruct:use_item_speed\":1.0f},tic_volatile_data:{abilities:1,\"tconstruct:duel_wielding\":1b,upgrades:3}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:flint\",\"tconstruct:flint\"],tic_modifiers:[{level:1,name:\"tconstruct:offhand_attack\"},{level:2,name:\"tconstruct:jagged\"},{level:1,name:\"tconstruct:padded\"},{level:1,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.65f,\"tconstruct:durability\":0.75f,\"tconstruct:mining_speed\":0.75f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":3.03875f,\"tconstruct:attack_speed\":2.0f,\"tconstruct:block_amount\":10.0f,\"tconstruct:durability\":54.1875f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":2.625f,\"tconstruct:use_item_speed\":1.0f},tic_volatile_data:{abilities:1,\"tconstruct:duel_wielding\":1b,upgrades:3}}"
           },
           {
             "id": "tconstruct:battlesign",
             "Count": 1,
             "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:copper\"],tic_modifiers:[{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:depth_protection\"},{level:1,name:\"tconstruct:bonking\"},{level:1,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:blocking\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":2.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:block_amount\":50.0f,\"tconstruct:durability\":294.0f,\"tconstruct:mining_speed\":0.5f},tic_volatile_data:{abilities:1,defense:3}}"
+          }
+        ]
+      },
+      {
+        "id": "ac74e3b7-c1d0-4d26-837d-d91d4fbb1730",
+        "name": {
+          "text": "Good Raw 2",
+          "isTranslationKey": false
+        },
+        "limit": 0,
+        "items": [
+          {
+            "id": "thermal:gold_dust",
+            "Count": 16
+          },
+          {
+            "id": "thermal:silver_dust",
+            "Count": 16
+          },
+          {
+            "id": "mekanism:dust_lead",
+            "Count": 16
+          },
+          {
+            "id": "thermal:nickel_dust",
+            "Count": 16
           }
         ]
       }
@@ -609,6 +609,16 @@
     ],
     "groups": [
       {
+        "id": "756efebc-4d9c-46f3-acba-039ee0dae163",
+        "limit": 0,
+        "items": [
+          {
+            "id": "pneumaticcraft:compressed_iron_block",
+            "Count": 16
+          }
+        ]
+      },
+      {
         "id": "744973f0-76ba-4682-989d-00af75722852",
         "name": {
           "text": "Very Nice Armor",
@@ -619,22 +629,22 @@
           {
             "id": "tconstruct:plate_helmet",
             "Count": 1,
-            "tag": "{Damage:0,Insulation:[],tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":382.80002f,\"tconstruct:projectile_damage\":2.2f},tic_volatile_data:{defense:3,upgrades:2}}"
+            "tag": "{Damage:0,Insulation:[],tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":382.80002f},tic_volatile_data:{defense:3,upgrades:2}}"
           },
           {
             "id": "tconstruct:plate_chestplate",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.4f},tic_persistent:{},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":556.80005f,\"tconstruct:projectile_damage\":2.2f},tic_volatile_data:{defense:3,upgrades:2}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.4f},tic_persistent:{},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":556.80005f},tic_volatile_data:{defense:3,upgrades:2}}"
           },
           {
             "id": "tconstruct:plate_leggings",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":522.0f,\"tconstruct:projectile_damage\":2.2f},tic_volatile_data:{defense:3,upgrades:2}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":522.0f},tic_volatile_data:{defense:3,upgrades:2}}"
           },
           {
             "id": "tconstruct:plate_boots",
             "Count": 1,
-            "tag": "{Damage:0,Insulation:[],tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":452.40002f,\"tconstruct:projectile_damage\":2.2f},tic_volatile_data:{defense:3,upgrades:2}}"
+            "tag": "{Damage:0,Insulation:[],tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":452.40002f},tic_volatile_data:{defense:3,upgrades:2}}"
           }
         ]
       },
@@ -649,16 +659,6 @@
           {
             "id": "ae2:certus_quartz_crystal",
             "Count": 64
-          }
-        ]
-      },
-      {
-        "id": "756efebc-4d9c-46f3-acba-039ee0dae163",
-        "limit": 0,
-        "items": [
-          {
-            "id": "pneumaticcraft:compressed_iron_block",
-            "Count": 16
           }
         ]
       }
@@ -678,6 +678,16 @@
       40
     ],
     "groups": [
+      {
+        "id": "3ec305ae-d4e5-4ba3-9ebc-374fc3d0b3e9",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:redstone_block",
+            "Count": 64
+          }
+        ]
+      },
       {
         "id": "1c9bd71d-01e0-41b6-bf9d-7a61ccfc77c5",
         "name": {
@@ -705,16 +715,6 @@
             "id": "minecraft:diamond_boots",
             "Count": 1,
             "tag": "{Damage:0,Enchantments:[{id:\"minecraft:feather_falling\",lvl:4s},{id:\"minecraft:protection\",lvl:4s}],Insulation:[],RepairCost:3}"
-          }
-        ]
-      },
-      {
-        "id": "3ec305ae-d4e5-4ba3-9ebc-374fc3d0b3e9",
-        "limit": 0,
-        "items": [
-          {
-            "id": "minecraft:redstone_block",
-            "Count": 64
           }
         ]
       }

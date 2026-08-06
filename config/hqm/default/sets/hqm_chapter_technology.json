@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "name": {
     "text": "hqm.chapter.technology",
     "isTranslationKey": true
@@ -14,8 +15,8 @@
         "text": "hqm.quest.technological_revolution.blast_chiller.desc",
         "isTranslationKey": true
       },
-      "x": 62,
-      "y": 48,
+      "x": 74,
+      "y": 63,
       "icon": {
         "id": "thermal:machine_chiller",
         "Count": 1
@@ -62,8 +63,8 @@
         "text": "hqm.quest.technological_revolution.mob_crusher.desc",
         "isTranslationKey": true
       },
-      "x": 222,
-      "y": 102,
+      "x": 234,
+      "y": 117,
       "icon": {
         "id": "industrialforegoing:mob_crusher",
         "Count": 1
@@ -115,8 +116,8 @@
         "text": "hqm.quest.technological_revolution.mob_duplicator.desc",
         "isTranslationKey": true
       },
-      "x": 254,
-      "y": 120,
+      "x": 266,
+      "y": 135,
       "icon": {
         "id": "industrialforegoing:mob_duplicator",
         "Count": 1
@@ -189,8 +190,8 @@
         "text": "hqm.quest.technological_revolution.compression_dynamo.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 174,
+      "x": 170,
+      "y": 189,
       "icon": {
         "id": "thermal:dynamo_compression",
         "Count": 1
@@ -242,8 +243,8 @@
         "text": "hqm.quest.technological_revolution.dissolution_chamber.desc",
         "isTranslationKey": true
       },
-      "x": 206,
-      "y": 75,
+      "x": 218,
+      "y": 90,
       "icon": {
         "id": "industrialforegoing:dissolution_chamber",
         "Count": 1
@@ -290,8 +291,8 @@
         "text": "hqm.quest.technological_revolution.multiservo_press.desc",
         "isTranslationKey": true
       },
-      "x": 94,
-      "y": 48,
+      "x": 106,
+      "y": 63,
       "icon": {
         "id": "thermal:machine_press",
         "Count": 1
@@ -350,8 +351,8 @@
         "text": "hqm.quest.technological_revolution.internal_components_3.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 156,
+      "x": 138,
+      "y": 171,
       "icon": {
         "id": "thermal:upgrade_augment_3",
         "Count": 1
@@ -401,8 +402,8 @@
         "text": "hqm.quest.technological_revolution.internal_components_1.desc",
         "isTranslationKey": true
       },
-      "x": 142,
-      "y": 129,
+      "x": 154,
+      "y": 144,
       "icon": {
         "id": "thermal:upgrade_augment_1",
         "Count": 1
@@ -452,8 +453,8 @@
         "text": "hqm.quest.technological_revolution.thermal_capstone.desc",
         "isTranslationKey": true
       },
-      "x": 30,
-      "y": 138,
+      "x": 42,
+      "y": 153,
       "icon": {
         "id": "thermal:enderium_ingot",
         "Count": 1
@@ -529,8 +530,8 @@
         "text": "hqm.quest.technological_revolution.machine_frame.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 84,
+      "x": 170,
+      "y": 99,
       "icon": {
         "id": "thermal:machine_frame",
         "Count": 1
@@ -579,8 +580,8 @@
         "text": "hqm.quest.technological_revolution.sludge_refiner.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 156,
+      "x": 202,
+      "y": 171,
       "icon": {
         "id": "industrialforegoing:sludge_refiner",
         "Count": 1
@@ -627,8 +628,8 @@
         "text": "hqm.quest.technological_revolution.induction_smelter.desc",
         "isTranslationKey": true
       },
-      "x": 110,
-      "y": 75,
+      "x": 122,
+      "y": 90,
       "icon": {
         "id": "thermal:machine_smelter",
         "Count": 1
@@ -675,8 +676,8 @@
         "text": "hqm.quest.technological_revolution.magma_crucible.desc",
         "isTranslationKey": true
       },
-      "x": 94,
-      "y": 102,
+      "x": 106,
+      "y": 117,
       "icon": {
         "id": "thermal:machine_crucible",
         "Count": 1
@@ -723,8 +724,8 @@
         "text": "hqm.quest.technological_revolution.industrial_foregoing_capstone.desc",
         "isTranslationKey": true
       },
-      "x": 286,
-      "y": 138,
+      "x": 298,
+      "y": 153,
       "icon": {
         "id": "industrialforegoing:fertilizer",
         "Count": 1
@@ -795,8 +796,8 @@
         "text": "hqm.quest.technological_revolution.mechanical_dirt.desc",
         "isTranslationKey": true
       },
-      "x": 206,
-      "y": 129,
+      "x": 218,
+      "y": 144,
       "icon": {
         "id": "industrialforegoing:mechanical_dirt",
         "Count": 1
@@ -843,8 +844,8 @@
         "text": "hqm.quest.technological_revolution.phytogenic_insolator.desc",
         "isTranslationKey": true
       },
-      "x": 63,
-      "y": 121,
+      "x": 75,
+      "y": 136,
       "icon": {
         "id": "thermal:machine_insolator",
         "Count": 1
@@ -895,8 +896,8 @@
         "text": "hqm.quest.technological_revolution.sewage.desc",
         "isTranslationKey": true
       },
-      "x": 254,
-      "y": 48,
+      "x": 266,
+      "y": 63,
       "icon": {
         "id": "industrialforegoing:sewer",
         "Count": 1
@@ -950,8 +951,8 @@
         "text": "hqm.quest.technological_revolution.conduits.desc",
         "isTranslationKey": true
       },
-      "x": 174,
-      "y": 21,
+      "x": 186,
+      "y": 36,
       "icon": {
         "id": "enderio:item_conduit",
         "Count": 1
@@ -1021,8 +1022,8 @@
         "text": "hqm.quest.technological_revolution.pitiful_generator.desc",
         "isTranslationKey": true
       },
-      "x": 142,
-      "y": 21,
+      "x": 154,
+      "y": 36,
       "icon": {
         "id": "industrialforegoing:pitiful_generator",
         "Count": 1
@@ -1070,8 +1071,8 @@
         "text": "hqm.quest.technological_revolution.plant_sower.desc",
         "isTranslationKey": true
       },
-      "x": 174,
-      "y": 129,
+      "x": 186,
+      "y": 144,
       "icon": {
         "id": "industrialforegoing:plant_sower",
         "Count": 1
@@ -1125,8 +1126,8 @@
         "text": "hqm.quest.technological_revolution.pulverizer.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 102,
+      "x": 138,
+      "y": 117,
       "icon": {
         "id": "thermal:machine_pulverizer",
         "Count": 1
@@ -1173,8 +1174,8 @@
         "text": "hqm.quest.technological_revolution.spawn_eggs.desc",
         "isTranslationKey": true
       },
-      "x": 222,
-      "y": 48,
+      "x": 234,
+      "y": 63,
       "icon": {
         "id": "industrialforegoing:animal_feeder",
         "Count": 1
@@ -1232,8 +1233,8 @@
         "text": "hqm.quest.technological_revolution.internal_components_2.desc",
         "isTranslationKey": true
       },
-      "x": 110,
-      "y": 129,
+      "x": 122,
+      "y": 144,
       "icon": {
         "id": "thermal:upgrade_augment_2",
         "Count": 1
@@ -1283,8 +1284,8 @@
         "text": "hqm.quest.technological_revolution.manual_alloying.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 48,
+      "x": 170,
+      "y": 63,
       "icon": {
         "id": "thermal:invar_dust",
         "Count": 1
@@ -1341,8 +1342,8 @@
         "text": "hqm.quest.technological_revolution.addons.desc",
         "isTranslationKey": true
       },
-      "x": 238,
-      "y": 75,
+      "x": 250,
+      "y": 90,
       "icon": {
         "id": "industrialforegoing:range_addon0",
         "Count": 1,
@@ -1408,8 +1409,8 @@
         "text": "hqm.quest.technological_revolution.augments.desc",
         "isTranslationKey": true
       },
-      "x": 78,
-      "y": 75,
+      "x": 90,
+      "y": 90,
       "icon": {
         "id": "thermal:machine_speed_augment",
         "Count": 1
@@ -1487,8 +1488,8 @@
         "text": "hqm.quest.technological_revolution.mob_slaughter_factory.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 102,
+      "x": 202,
+      "y": 117,
       "icon": {
         "id": "industrialforegoing:mob_slaughter_factory",
         "Count": 1

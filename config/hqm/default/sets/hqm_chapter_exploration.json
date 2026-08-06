@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "name": {
     "text": "hqm.chapter.exploration",
     "isTranslationKey": true
@@ -14,8 +15,8 @@
         "text": "hqm.quest.salvage_operation.structure_mer_lab.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 48,
+      "x": 138,
+      "y": 63,
       "icon": {
         "id": "kubejs:crashed_applied_controller",
         "Count": 1
@@ -104,8 +105,8 @@
         "text": "hqm.quest.salvage_operation.me_processors.desc",
         "isTranslationKey": true
       },
-      "x": 94,
-      "y": 66,
+      "x": 106,
+      "y": 81,
       "icon": {
         "id": "ae2:calculation_processor",
         "Count": 1
@@ -246,8 +247,8 @@
         "text": "hqm.quest.salvage_operation.foundry.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 138,
+      "x": 170,
+      "y": 153,
       "icon": {
         "id": "tconstruct:foundry_controller",
         "Count": 1
@@ -312,8 +313,8 @@
         "text": "hqm.quest.salvage_operation.exploration_supplies.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 30,
+      "x": 170,
+      "y": 45,
       "icon": {
         "id": "hangglider:hang_glider",
         "Count": 1,
@@ -364,7 +365,8 @@
                 "id": "kubejs:camel_pack",
                 "Count": 1
               },
-              "precision": "TAG_FUZZY"
+              "precision": "TAG_FUZZY",
+              "tag": "desolate_planet:camel_packs"
             }
           ]
         }
@@ -405,8 +407,8 @@
         "text": "hqm.quest.salvage_operation.cast_chest.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 119,
+      "x": 202,
+      "y": 134,
       "icon": {
         "id": "tconstruct:cast_chest",
         "Count": 1
@@ -453,8 +455,8 @@
         "text": "hqm.quest.salvage_operation.smeltery.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 102,
+      "x": 170,
+      "y": 117,
       "icon": {
         "id": "tconstruct:smeltery_controller",
         "Count": 1
@@ -527,8 +529,8 @@
         "text": "hqm.quest.salvage_operation.manyullyn_hepatizon.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 174,
+      "x": 170,
+      "y": 189,
       "icon": {
         "id": "tconstruct:manyullyn_ingot",
         "Count": 1
@@ -599,8 +601,8 @@
         "text": "hqm.quest.salvage_operation.nuclear_reactor.desc",
         "isTranslationKey": true
       },
-      "x": 222,
-      "y": 66,
+      "x": 234,
+      "y": 81,
       "icon": {
         "id": "biggerreactors:reactor_casing",
         "Count": 1
@@ -683,8 +685,8 @@
         "text": "hqm.quest.salvage_operation.structure_nuclear_plant.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 48,
+      "x": 202,
+      "y": 63,
       "icon": {
         "id": "kubejs:crashed_reactor_frame",
         "Count": 1
@@ -703,7 +705,9 @@
                 "id": "kubejs:crashed_reactor_controller",
                 "Count": 1
               },
-              "precision": "TAG_FUZZY"
+              "precision": "TAG_FUZZY",
+              "tag": "desolate_planet:reactor_terminals",
+              "cycle": false
             },
             {
               "item": {
@@ -737,8 +741,8 @@
         "text": "hqm.quest.salvage_operation.structure_tinkers_smeltery.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 66,
+      "x": 170,
+      "y": 81,
       "icon": {
         "id": "tconstruct:seared_bricks",
         "Count": 1
@@ -789,8 +793,8 @@
         "text": "hqm.quest.salvage_operation.bronze_constantan.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 156,
+      "x": 138,
+      "y": 171,
       "icon": {
         "id": "thermal:bronze_ingot",
         "Count": 1
@@ -856,8 +860,8 @@
         "text": "hqm.quest.salvage_operation.blazing_blood.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 156,
+      "x": 202,
+      "y": 171,
       "icon": {
         "id": "tconstruct:blazing_blood_bucket",
         "Count": 1
@@ -903,8 +907,8 @@
         "text": "hqm.quest.salvage_operation.me_system.desc",
         "isTranslationKey": true
       },
-      "x": 62,
-      "y": 84,
+      "x": 74,
+      "y": 99,
       "icon": {
         "id": "ae2:controller",
         "Count": 1
@@ -1020,8 +1024,8 @@
         "text": "hqm.quest.salvage_operation.tinkers_anvil.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 120,
+      "x": 138,
+      "y": 135,
       "icon": {
         "id": "tconstruct:tinkers_anvil",
         "Count": 1
@@ -1068,8 +1072,8 @@
         "text": "hqm.quest.salvage_operation.turbine.desc",
         "isTranslationKey": true
       },
-      "x": 254,
-      "y": 84,
+      "x": 266,
+      "y": 99,
       "icon": {
         "id": "biggerreactors:turbine_casing",
         "Count": 1

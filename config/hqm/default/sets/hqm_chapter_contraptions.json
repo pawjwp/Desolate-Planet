@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "name": {
     "text": "hqm.chapter.contraptions",
     "isTranslationKey": true
@@ -14,8 +15,8 @@
         "text": "hqm.quest.like_clockwork.encased_fan.desc",
         "isTranslationKey": true
       },
-      "x": 78,
-      "y": 57,
+      "x": 90,
+      "y": 72,
       "icon": {
         "id": "create:encased_fan",
         "Count": 1
@@ -173,8 +174,8 @@
         "text": "hqm.quest.like_clockwork.gearbox.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 84,
+      "x": 202,
+      "y": 99,
       "icon": {
         "id": "create:gearbox",
         "Count": 1
@@ -225,8 +226,8 @@
         "text": "hqm.quest.like_clockwork.millstone.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 120,
+      "x": 138,
+      "y": 135,
       "icon": {
         "id": "create:millstone",
         "Count": 1
@@ -272,8 +273,8 @@
         "text": "hqm.quest.like_clockwork.rotation_speed_controller.desc",
         "isTranslationKey": true
       },
-      "x": 270,
-      "y": 111,
+      "x": 282,
+      "y": 126,
       "icon": {
         "id": "create:rotation_speed_controller",
         "Count": 1
@@ -319,8 +320,8 @@
         "text": "hqm.quest.like_clockwork.mechanical_mixer.desc",
         "isTranslationKey": true
       },
-      "x": 46,
-      "y": 75,
+      "x": 58,
+      "y": 90,
       "icon": {
         "id": "create:mechanical_mixer",
         "Count": 1
@@ -381,8 +382,8 @@
         "text": "hqm.quest.like_clockwork.hand_crank.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 66,
+      "x": 170,
+      "y": 81,
       "icon": {
         "id": "create:hand_crank",
         "Count": 1
@@ -432,8 +433,8 @@
         "text": "hqm.quest.like_clockwork.crushing_wheels.desc",
         "isTranslationKey": true
       },
-      "x": 238,
-      "y": 93,
+      "x": 250,
+      "y": 108,
       "icon": {
         "id": "create:crushing_wheel",
         "Count": 1
@@ -493,8 +494,8 @@
         "text": "hqm.quest.like_clockwork.simple_create.desc",
         "isTranslationKey": true
       },
-      "x": 174,
-      "y": 21,
+      "x": 186,
+      "y": 36,
       "icon": {
         "id": "create:clipboard",
         "Count": 1
@@ -534,8 +535,8 @@
         "text": "hqm.quest.like_clockwork.chute.desc",
         "isTranslationKey": true
       },
-      "x": 14,
-      "y": 93,
+      "x": 26,
+      "y": 108,
       "icon": {
         "id": "create:chute",
         "Count": 1
@@ -586,8 +587,8 @@
         "text": "hqm.quest.like_clockwork.deployer.desc",
         "isTranslationKey": true
       },
-      "x": 302,
-      "y": 57,
+      "x": 314,
+      "y": 72,
       "icon": {
         "id": "create:deployer",
         "Count": 1
@@ -642,8 +643,8 @@
         "text": "hqm.quest.like_clockwork.super_glue.desc",
         "isTranslationKey": true
       },
-      "x": 14,
-      "y": 57,
+      "x": 26,
+      "y": 72,
       "icon": {
         "id": "create:super_glue",
         "Count": 1,
@@ -697,8 +698,8 @@
         "text": "hqm.quest.like_clockwork.windmill.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 48,
+      "x": 202,
+      "y": 63,
       "icon": {
         "id": "create:white_sail",
         "Count": 1
@@ -772,8 +773,8 @@
         "text": "hqm.quest.like_clockwork.precision_mechanism.desc",
         "isTranslationKey": true
       },
-      "x": 302,
-      "y": 93,
+      "x": 314,
+      "y": 108,
       "icon": {
         "id": "create:precision_mechanism",
         "Count": 1
@@ -824,8 +825,8 @@
         "text": "hqm.quest.like_clockwork.item_drain.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 192,
+      "x": 138,
+      "y": 207,
       "icon": {
         "id": "create:item_drain",
         "Count": 1
@@ -876,8 +877,8 @@
         "text": "hqm.quest.like_clockwork.cogwheel.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 102,
+      "x": 170,
+      "y": 117,
       "icon": {
         "id": "create:cogwheel",
         "Count": 1
@@ -932,8 +933,8 @@
         "text": "hqm.quest.like_clockwork.copper_sheet.desc",
         "isTranslationKey": true
       },
-      "x": 110,
-      "y": 165,
+      "x": 122,
+      "y": 180,
       "icon": {
         "id": "create:copper_sheet",
         "Count": 1
@@ -980,8 +981,8 @@
         "text": "hqm.quest.like_clockwork.andesite_alloy_detailed_create.desc",
         "isTranslationKey": true
       },
-      "x": 174,
-      "y": 21,
+      "x": 186,
+      "y": 36,
       "icon": {
         "id": "create:andesite_alloy",
         "Count": 1
@@ -1056,8 +1057,8 @@
         "text": "hqm.quest.like_clockwork.mechanical_extruder.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 120,
+      "x": 202,
+      "y": 135,
       "icon": {
         "id": "create_mechanical_extruder:mechanical_extruder",
         "Count": 1
@@ -1103,8 +1104,8 @@
         "text": "hqm.quest.like_clockwork.belts_funnels.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 84,
+      "x": 138,
+      "y": 99,
       "icon": {
         "id": "create:belt_connector",
         "Count": 1
@@ -1174,8 +1175,8 @@
         "text": "hqm.quest.like_clockwork.wrench.desc",
         "isTranslationKey": true
       },
-      "x": 222,
-      "y": 191,
+      "x": 234,
+      "y": 206,
       "icon": {
         "id": "create:wrench",
         "Count": 1
@@ -1225,8 +1226,8 @@
         "text": "hqm.quest.like_clockwork.andesite_alloy_simple_create.desc",
         "isTranslationKey": true
       },
-      "x": 142,
-      "y": 21,
+      "x": 154,
+      "y": 36,
       "icon": {
         "id": "create:andesite_alloy",
         "Count": 1
@@ -1301,8 +1302,8 @@
         "text": "hqm.quest.like_clockwork.engineers_goggles.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 192,
+      "x": 202,
+      "y": 207,
       "icon": {
         "id": "create:goggles",
         "Count": 1
@@ -1357,8 +1358,8 @@
         "text": "hqm.quest.like_clockwork.mechanical_saw_harvester_drill.desc",
         "isTranslationKey": true
       },
-      "x": 78,
-      "y": 93,
+      "x": 90,
+      "y": 108,
       "icon": {
         "id": "create:mechanical_saw",
         "Count": 1
@@ -1459,8 +1460,8 @@
         "text": "hqm.quest.like_clockwork.water_wheel.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 48,
+      "x": 138,
+      "y": 63,
       "icon": {
         "id": "create:water_wheel",
         "Count": 1
@@ -1528,8 +1529,8 @@
         "text": "hqm.quest.like_clockwork.blaze_burner.desc",
         "isTranslationKey": true
       },
-      "x": 46,
-      "y": 111,
+      "x": 58,
+      "y": 126,
       "icon": {
         "id": "create:blaze_burner",
         "Count": 1
@@ -1602,8 +1603,8 @@
         "text": "hqm.quest.like_clockwork.mechanical_press.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 138,
+      "x": 170,
+      "y": 153,
       "icon": {
         "id": "create:mechanical_press",
         "Count": 1
@@ -1656,8 +1657,8 @@
         "text": "hqm.quest.like_clockwork.spout.desc",
         "isTranslationKey": true
       },
-      "x": 94,
-      "y": 192,
+      "x": 106,
+      "y": 207,
       "icon": {
         "id": "create:spout",
         "Count": 1
@@ -1713,8 +1714,8 @@
         "text": "hqm.quest.like_clockwork.detailed_create.desc",
         "isTranslationKey": true
       },
-      "x": 142,
-      "y": 21,
+      "x": 154,
+      "y": 36,
       "icon": {
         "id": "create:precision_mechanism",
         "Count": 1
@@ -1752,8 +1753,8 @@
         "text": "hqm.quest.like_clockwork.electric_motor.desc",
         "isTranslationKey": true
       },
-      "x": 270,
-      "y": 75,
+      "x": 282,
+      "y": 90,
       "icon": {
         "id": "createaddition:electric_motor",
         "Count": 1
@@ -1817,8 +1818,8 @@
         "text": "hqm.quest.like_clockwork.detailed_create_trigger.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": -9,
+      "x": 170,
+      "y": 6,
       "trigger": "QUEST_TRIGGER",
       "prerequisites": [
         "4e8ad6b7-41d0-4281-bbea-1e192a609e64"
@@ -1838,8 +1839,8 @@
         "text": "hqm.quest.like_clockwork.iron_sheet.desc",
         "isTranslationKey": true
       },
-      "x": 46,
-      "y": 39,
+      "x": 58,
+      "y": 54,
       "icon": {
         "id": "create:iron_sheet",
         "Count": 1
@@ -1885,8 +1886,8 @@
         "text": "hqm.quest.like_clockwork.mechanical_crafter.desc",
         "isTranslationKey": true
       },
-      "x": 238,
-      "y": 57,
+      "x": 250,
+      "y": 72,
       "icon": {
         "id": "create:mechanical_crafter",
         "Count": 1
@@ -1934,8 +1935,8 @@
         "text": "hqm.quest.like_clockwork.brass_sheet.desc",
         "isTranslationKey": true
       },
-      "x": 271,
-      "y": 39,
+      "x": 283,
+      "y": 54,
       "icon": {
         "id": "create:brass_sheet",
         "Count": 1
@@ -1999,8 +2000,8 @@
         "text": "hqm.quest.like_clockwork.golden_sheet.desc",
         "isTranslationKey": true
       },
-      "x": 206,
-      "y": 165,
+      "x": 218,
+      "y": 180,
       "icon": {
         "id": "create:golden_sheet",
         "Count": 1

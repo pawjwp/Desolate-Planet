@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "name": {
     "text": "hqm.chapter.pneumatics",
     "isTranslationKey": true
@@ -14,8 +15,8 @@
         "text": "hqm.quest.under_pressure.advanced_air_compressor.desc",
         "isTranslationKey": true
       },
-      "x": 286,
-      "y": 102,
+      "x": 298,
+      "y": 117,
       "icon": {
         "id": "pneumaticcraft:advanced_air_compressor",
         "Count": 1
@@ -86,8 +87,8 @@
         "text": "hqm.quest.under_pressure.upgrades.desc",
         "isTranslationKey": true
       },
-      "x": 142,
-      "y": 129,
+      "x": 154,
+      "y": 144,
       "icon": {
         "id": "pneumaticcraft:speed_upgrade",
         "Count": 1
@@ -150,8 +151,8 @@
         "text": "hqm.quest.under_pressure.pressure_chamber_interface.desc",
         "isTranslationKey": true
       },
-      "x": 110,
-      "y": 129,
+      "x": 122,
+      "y": 144,
       "icon": {
         "id": "pneumaticcraft:pressure_chamber_interface",
         "Count": 1
@@ -197,8 +198,8 @@
         "text": "hqm.quest.under_pressure.compressed_iron.desc",
         "isTranslationKey": true
       },
-      "x": 30,
-      "y": 102,
+      "x": 42,
+      "y": 117,
       "icon": {
         "id": "pneumaticcraft:ingot_iron_compressed",
         "Count": 1
@@ -241,7 +242,9 @@
                 "id": "minecraft:tnt",
                 "Count": 1
               },
-              "precision": "TAG_FUZZY"
+              "precision": "TAG_FUZZY",
+              "tag": "desolate_planet:explosives",
+              "cycle": false
             }
           ]
         },
@@ -288,8 +291,8 @@
         "text": "hqm.quest.under_pressure.gas_lift_oil.desc",
         "isTranslationKey": true
       },
-      "x": 78,
-      "y": 75,
+      "x": 90,
+      "y": 90,
       "icon": {
         "id": "pneumaticcraft:gas_lift",
         "Count": 1
@@ -367,8 +370,8 @@
         "text": "hqm.quest.under_pressure.pressure_gauge.desc",
         "isTranslationKey": true
       },
-      "x": 78,
-      "y": 129,
+      "x": 90,
+      "y": 144,
       "icon": {
         "id": "pneumaticcraft:pressure_gauge_module",
         "Count": 1
@@ -414,8 +417,8 @@
         "text": "hqm.quest.under_pressure.pcb_2_uv_light_box.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 102,
+      "x": 170,
+      "y": 117,
       "icon": {
         "id": "pneumaticcraft:empty_pcb",
         "Count": 1,
@@ -487,8 +490,8 @@
         "text": "hqm.quest.under_pressure.refining_oil.desc",
         "isTranslationKey": true
       },
-      "x": 110,
-      "y": 75,
+      "x": 122,
+      "y": 90,
       "icon": {
         "id": "pneumaticcraft:refinery",
         "Count": 1
@@ -588,8 +591,8 @@
         "text": "hqm.quest.under_pressure.misc_tools.desc",
         "isTranslationKey": true
       },
-      "x": 254,
-      "y": 120,
+      "x": 266,
+      "y": 135,
       "icon": {
         "id": "pneumaticcraft:pneumatic_wrench",
         "Count": 1
@@ -705,8 +708,8 @@
         "text": "hqm.quest.under_pressure.plastic_processing.desc",
         "isTranslationKey": true
       },
-      "x": 142,
-      "y": 75,
+      "x": 154,
+      "y": 90,
       "icon": {
         "id": "pneumaticcraft:thermopneumatic_processing_plant",
         "Count": 1
@@ -776,8 +779,8 @@
         "text": "hqm.quest.under_pressure.pcb_3_etching_tank.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 102,
+      "x": 202,
+      "y": 117,
       "icon": {
         "id": "pneumaticcraft:unassembled_pcb",
         "Count": 1
@@ -853,8 +856,8 @@
         "text": "hqm.quest.under_pressure.pressure_chamber.desc",
         "isTranslationKey": true
       },
-      "x": 94,
-      "y": 102,
+      "x": 106,
+      "y": 117,
       "icon": {
         "id": "pneumaticcraft:pressure_chamber_wall",
         "Count": 1
@@ -912,8 +915,8 @@
         "text": "hqm.quest.under_pressure.pcb_4_assembly.desc",
         "isTranslationKey": true
       },
-      "x": 222,
-      "y": 102,
+      "x": 234,
+      "y": 117,
       "icon": {
         "id": "pneumaticcraft:printed_circuit_board",
         "Count": 1
@@ -967,8 +970,8 @@
         "text": "hqm.quest.under_pressure.pcb_1_empty_pcb.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 102,
+      "x": 138,
+      "y": 117,
       "icon": {
         "id": "pneumaticcraft:empty_pcb",
         "Count": 1
@@ -1057,8 +1060,8 @@
         "text": "hqm.quest.under_pressure.air_compressor.desc",
         "isTranslationKey": true
       },
-      "x": 62,
-      "y": 102,
+      "x": 74,
+      "y": 117,
       "icon": {
         "id": "pneumaticcraft:pressure_tube",
         "Count": 1
@@ -1127,8 +1130,8 @@
         "text": "hqm.quest.under_pressure.assembly_line.desc",
         "isTranslationKey": true
       },
-      "x": 254,
-      "y": 84,
+      "x": 266,
+      "y": 99,
       "icon": {
         "id": "pneumaticcraft:assembly_controller",
         "Count": 1

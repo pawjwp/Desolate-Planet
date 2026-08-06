@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "name": {
     "text": "hqm.chapter.basic_survival",
     "isTranslationKey": true
@@ -14,8 +15,8 @@
         "text": "hqm.quest.basic_survival.crook.desc",
         "isTranslationKey": true
       },
-      "x": 110,
-      "y": 129,
+      "x": 122,
+      "y": 144,
       "icon": {
         "id": "kubejs:crook",
         "Count": 1,
@@ -63,8 +64,8 @@
         "text": "hqm.quest.basic_survival.rich_soil.desc",
         "isTranslationKey": true
       },
-      "x": 94,
-      "y": 48,
+      "x": 106,
+      "y": 63,
       "icon": {
         "id": "farmersdelight:rich_soil",
         "Count": 1
@@ -133,8 +134,8 @@
         "text": "hqm.quest.basic_survival.flint_mesh.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 102,
+      "x": 202,
+      "y": 117,
       "icon": {
         "id": "exdeorum:flint_mesh",
         "Count": 1
@@ -184,8 +185,8 @@
         "text": "hqm.quest.basic_survival.sword.desc",
         "isTranslationKey": true
       },
-      "x": 94,
-      "y": 156,
+      "x": 106,
+      "y": 171,
       "icon": {
         "id": "tconstruct:sword",
         "Count": 1,
@@ -248,8 +249,8 @@
         "text": "hqm.quest.basic_survival.shell_storage.desc",
         "isTranslationKey": true
       },
-      "x": 286,
-      "y": 102,
+      "x": 298,
+      "y": 117,
       "icon": {
         "id": "sync:shell_storage",
         "Count": 1
@@ -310,8 +311,8 @@
         "text": "hqm.quest.basic_survival.easy_route_trigger.desc",
         "isTranslationKey": true
       },
-      "x": 270,
-      "y": 75,
+      "x": 282,
+      "y": 90,
       "trigger": "QUEST_TRIGGER",
       "prerequisites": [
         "7ee731c2-da61-4aab-a5fa-864fc4b62277"
@@ -331,8 +332,8 @@
         "text": "hqm.quest.basic_survival.shell_constructor.desc",
         "isTranslationKey": true
       },
-      "x": 254,
-      "y": 102,
+      "x": 266,
+      "y": 117,
       "icon": {
         "id": "sync:sync_core",
         "Count": 1
@@ -386,8 +387,8 @@
         "text": "hqm.quest.basic_survival.purified_water.desc",
         "isTranslationKey": true
       },
-      "x": 206,
-      "y": 75,
+      "x": 218,
+      "y": 90,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
@@ -441,8 +442,8 @@
         "text": "hqm.quest.basic_survival.mattock.desc",
         "isTranslationKey": true
       },
-      "x": 62,
-      "y": 156,
+      "x": 74,
+      "y": 171,
       "icon": {
         "id": "tconstruct:mattock",
         "Count": 1,
@@ -505,8 +506,8 @@
         "text": "hqm.quest.basic_survival.advanced_metals.desc",
         "isTranslationKey": true
       },
-      "x": 222,
-      "y": 102,
+      "x": 234,
+      "y": 117,
       "icon": {
         "id": "thermal:silver_ingot",
         "Count": 1
@@ -580,8 +581,8 @@
         "text": "hqm.quest.basic_survival.basic_metals.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 102,
+      "x": 170,
+      "y": 117,
       "icon": {
         "id": "minecraft:iron_ingot",
         "Count": 1
@@ -641,8 +642,8 @@
         "text": "hqm.quest.basic_survival.netherrack_end_stone.desc",
         "isTranslationKey": true
       },
-      "x": 110,
-      "y": 21,
+      "x": 122,
+      "y": 36,
       "icon": {
         "id": "minecraft:netherrack",
         "Count": 1
@@ -698,8 +699,8 @@
         "text": "hqm.quest.basic_survival.barrel_dirt.desc",
         "isTranslationKey": true
       },
-      "x": 110,
-      "y": 75,
+      "x": 122,
+      "y": 90,
       "icon": {
         "id": "minecraft:dirt",
         "Count": 1
@@ -746,8 +747,8 @@
         "text": "hqm.quest.basic_survival.alloying_trigger.desc",
         "isTranslationKey": true
       },
-      "x": 14,
-      "y": 3,
+      "x": 26,
+      "y": 18,
       "icon": {
         "id": "create:brass_ingot",
         "Count": 1
@@ -773,8 +774,8 @@
         "text": "hqm.quest.basic_survival.gathering_supplies.desc",
         "isTranslationKey": true
       },
-      "x": 30,
-      "y": 102,
+      "x": 42,
+      "y": 117,
       "icon": {
         "id": "hardcorequesting:quest_book",
         "Count": 1
@@ -837,8 +838,8 @@
         "text": "hqm.quest.basic_survival.camel_pack.desc",
         "isTranslationKey": true
       },
-      "x": 238,
-      "y": 75,
+      "x": 250,
+      "y": 90,
       "icon": {
         "id": "kubejs:camel_pack",
         "Count": 1
@@ -891,8 +892,8 @@
         "text": "hqm.quest.basic_survival.furnace.desc",
         "isTranslationKey": true
       },
-      "x": 94,
-      "y": 102,
+      "x": 106,
+      "y": 117,
       "icon": {
         "id": "minecraft:furnace",
         "Count": 1
@@ -939,8 +940,8 @@
         "text": "hqm.quest.basic_survival.mob_drops.desc",
         "isTranslationKey": true
       },
-      "x": 110,
-      "y": 183,
+      "x": 122,
+      "y": 198,
       "icon": {
         "id": "minecraft:rotten_flesh",
         "Count": 1
@@ -1037,8 +1038,8 @@
         "text": "hqm.quest.basic_survival.tinker_tables.desc",
         "isTranslationKey": true
       },
-      "x": 78,
-      "y": 129,
+      "x": 90,
+      "y": 144,
       "icon": {
         "id": "tconstruct:tinker_station",
         "Count": 1
@@ -1117,8 +1118,8 @@
         "text": "hqm.quest.basic_survival.acceptable_water.desc",
         "isTranslationKey": true
       },
-      "x": 174,
-      "y": 75,
+      "x": 186,
+      "y": 90,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
@@ -1167,8 +1168,8 @@
         "text": "hqm.quest.basic_survival.pressed_metal_trigger.desc",
         "isTranslationKey": true
       },
-      "x": 30,
-      "y": 12,
+      "x": 42,
+      "y": 27,
       "icon": {
         "id": "create:mechanical_press",
         "Count": 1
@@ -1193,8 +1194,8 @@
         "text": "hqm.quest.basic_survival.crucible.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 102,
+      "x": 138,
+      "y": 117,
       "icon": {
         "id": "exdeorum:porcelain_crucible",
         "Count": 1
@@ -1262,8 +1263,8 @@
         "text": "hqm.quest.basic_survival.stillsuit.desc",
         "isTranslationKey": true
       },
-      "x": 238,
-      "y": 129,
+      "x": 250,
+      "y": 144,
       "icon": {
         "id": "kubejs:stillsuit",
         "Count": 1
@@ -1311,8 +1312,8 @@
         "text": "hqm.quest.basic_survival.desert_clothes.desc",
         "isTranslationKey": true
       },
-      "x": 174,
-      "y": 129,
+      "x": 186,
+      "y": 144,
       "icon": {
         "id": "kubejs:desert_tunic",
         "Count": 1,
@@ -1389,8 +1390,8 @@
         "text": "hqm.quest.basic_survival.dirty_water.desc",
         "isTranslationKey": true
       },
-      "x": 142,
-      "y": 75,
+      "x": 154,
+      "y": 90,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
@@ -1448,8 +1449,8 @@
         "text": "hqm.quest.basic_survival.hard_route.desc",
         "isTranslationKey": true
       },
-      "x": 46,
-      "y": 129,
+      "x": 58,
+      "y": 144,
       "icon": {
         "id": "minecraft:skeleton_skull",
         "Count": 1
@@ -1506,8 +1507,8 @@
         "text": "hqm.quest.basic_survival.hammer.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 156,
+      "x": 138,
+      "y": 171,
       "icon": {
         "id": "kubejs:crushing_hammer",
         "Count": 1,
@@ -1589,8 +1590,8 @@
         "text": "hqm.quest.basic_survival.soul_sand.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 48,
+      "x": 138,
+      "y": 63,
       "icon": {
         "id": "minecraft:soul_sand",
         "Count": 1
@@ -1659,8 +1660,8 @@
         "text": "hqm.quest.basic_survival.leather_insulation.desc",
         "isTranslationKey": true
       },
-      "x": 206,
-      "y": 129,
+      "x": 218,
+      "y": 144,
       "icon": {
         "id": "kubejs:leather_insulation",
         "Count": 1
@@ -1706,8 +1707,8 @@
         "text": "hqm.quest.basic_survival.paste.desc",
         "isTranslationKey": true
       },
-      "x": 62,
-      "y": 48,
+      "x": 74,
+      "y": 63,
       "icon": {
         "id": "kubejs:paste",
         "Count": 1
@@ -1754,8 +1755,8 @@
         "text": "hqm.quest.basic_survival.basic_sifting.desc",
         "isTranslationKey": true
       },
-      "x": 62,
-      "y": 102,
+      "x": 74,
+      "y": 117,
       "icon": {
         "id": "exdeorum:oak_sieve",
         "Count": 1
@@ -1807,8 +1808,8 @@
         "text": "hqm.quest.basic_survival.string.desc",
         "isTranslationKey": true
       },
-      "x": 142,
-      "y": 129,
+      "x": 154,
+      "y": 144,
       "icon": {
         "id": "exdeorum:silk_worm",
         "Count": 1
@@ -1854,8 +1855,8 @@
         "text": "hqm.quest.basic_survival.centrifuge_water.desc",
         "isTranslationKey": true
       },
-      "x": 78,
-      "y": 75,
+      "x": 90,
+      "y": 90,
       "icon": {
         "id": "minecraft:oak_sapling",
         "Count": 1
@@ -1903,8 +1904,8 @@
         "text": "hqm.quest.basic_survival.easy_route.desc",
         "isTranslationKey": true
       },
-      "x": 46,
-      "y": 75,
+      "x": 58,
+      "y": 90,
       "icon": {
         "id": "legumedelight:peanut_butter_and_jam_sandwich",
         "Count": 1

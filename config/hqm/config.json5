@@ -53,6 +53,36 @@
 			// Set to true to disable the default colour pulse and use the colour specified above
 			"SINGLE_COLOUR": false,
 		},
+		// Colour settings for the quest book text
+		"Text": {
+			// Use the HTML format, e.g.: #404040
+			"NORMAL": "#404040",
+			// Use the HTML format, e.g.: #707070
+			"HINT": "#707070",
+			// Use the HTML format, e.g.: #ff5555
+			"WARNING": "#ff5555",
+			// Use the HTML format, e.g.: #ff0000
+			"ERROR": "#ff0000",
+			// Use the HTML format, e.g.: #aaaaaa
+			"HOVERED": "#aaaaaa",
+			// Use the HTML format, e.g.: #c0c0c0
+			"SELECTED": "#c0c0c0",
+			// Use the HTML format, e.g.: #d0d0d0
+			"SELECTED_HOVERED": "#d0d0d0",
+		},
+		// Colour settings for the quest map
+		"QuestMap": {
+			// Use the HTML format with alpha, e.g.: #ff404040
+			"CONNECTING_LINE": "#ff404040",
+			// Use the HTML format with alpha, e.g.: #ff4040dd
+			"OPTION_LINK_LINE": "#ff4040dd",
+			// Use the HTML format with alpha, e.g.: #ffbbffbb
+			"SELECTED_MARKER": "#ffbbffbb",
+			// Use the HTML format with alpha, e.g.: #fff8bbff
+			"SPECIAL_SELECTED_MARKER": "#fff8bbff",
+			// Thickness of the connecting lines in GUI-scaled pixels
+			"LINE_THICKNESS": 3.0,
+		},
 	},
 	// Enable this to cause the player to be granted a gift on spawning into the world
 	"SPAWN_BOOK": true,
@@ -73,9 +103,48 @@
 		// Set to false to prevent the 'use /hqm op instead' message when operators use '/hqm edit' instead.
 		"OP_REMINDER": true,
 	},
+	// Settings related to the quest book keybind
+	"Keybind": {
+		// Require the player to have a quest book in their inventory to open it with the keybind
+		"REQUIRE_BOOK": false,
+		// Pressing the keybind while the book is already open closes it
+		"TOGGLE": false,
+	},
 	// Settings related to edit mode
 	"Editing": {
 		// Set to true to automatically enable edit mode when entering worlds in single-player. Has no effect in multiplayer.
 		"USE_EDITOR": false,
+		// Snap quest markers to a grid when moving or creating them in the editor. Hold shift while dragging or placing to bypass snapping.
+		"SNAP_TO_GRID": true,
+		// Horizontal grid increment in pixels.
+		"SNAP_HORIZONTAL": 8,
+		// Vertical grid increment in pixels.
+		"SNAP_VERTICAL": 9,
+		// Horizontal grid offset.
+		"SNAP_OFFSET_HORIZONTAL": 2,
+		// Vertical grid offset.
+		"SNAP_OFFSET_VERTICAL": 0,
+	},
+	// Settings related to item viewer integration (JEI/EMI)
+	"Integration": {
+		// Set to true to show JEI's item list sidebar next to the quest book. Has no effect on EMI, which never shows its sidebar here.
+		"SHOW_JEI_SIDEBAR": false,
+	},
+	// Settings related to the Multipurpose Assistance Terminal (MAT)
+	"MAT": {
+		// Enable the Multipurpose Assistance Terminal (MAT). When disabled, the item is non-functional.
+		"ENABLE_MAT": true,
+		// Enable the Default mode tab
+		"ENABLE_DEFAULT": true,
+		// Enable the Quest mode tab
+		"ENABLE_QUEST": true,
+		// Enable the Crafting mode tab
+		"ENABLE_CRAFTING": true,
+		// Enable the Tracking mode tab
+		"ENABLE_TRACKING": true,
+		// Enable the Storage mode tab
+		"ENABLE_STORAGE": true,
+		// If true, switching tabs in the MAT UI will also change the mode currently selected in the MAT item
+		"TABS_SWITCH_DEFAULT_MODE": false,
 	},
 }

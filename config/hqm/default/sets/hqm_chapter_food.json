@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "name": {
     "text": "hqm.chapter.food",
     "isTranslationKey": true
@@ -14,8 +15,8 @@
         "text": "hqm.quest.the_food_pyramid.pasta_and_tomato_sauce.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 102,
+      "x": 170,
+      "y": 117,
       "icon": {
         "id": "legumedelight:pasta_with_tomato_sauce",
         "Count": 1
@@ -66,8 +67,8 @@
         "text": "hqm.quest.the_food_pyramid.sugars.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 48,
+      "x": 170,
+      "y": 63,
       "icon": {
         "id": "minecraft:sugar",
         "Count": 1
@@ -113,8 +114,8 @@
         "text": "hqm.quest.the_food_pyramid.bug_broth.desc",
         "isTranslationKey": true
       },
-      "x": 174,
-      "y": 129,
+      "x": 186,
+      "y": 144,
       "icon": {
         "id": "kubejs:bug_broth",
         "Count": 1
@@ -165,8 +166,8 @@
         "text": "hqm.quest.the_food_pyramid.proteins.desc",
         "isTranslationKey": true
       },
-      "x": 110,
-      "y": 129,
+      "x": 122,
+      "y": 144,
       "icon": {
         "id": "legumedelight:beans",
         "Count": 1
@@ -182,10 +183,11 @@
           "items": [
             {
               "item": {
-                "id": "kubejs:staple_proteins",
+                "id": "legumedelight:beans",
                 "Count": 1
               },
-              "precision": "TAG_FUZZY"
+              "precision": "TAG_FUZZY",
+              "tag": "desolate_planet:staple_proteins"
             }
           ]
         }
@@ -222,8 +224,8 @@
         "text": "hqm.quest.the_food_pyramid.peanut_butter_and_jam_sandwich.desc",
         "isTranslationKey": true
       },
-      "x": 174,
-      "y": 75,
+      "x": 186,
+      "y": 90,
       "icon": {
         "id": "legumedelight:peanut_butter_and_jam_sandwich",
         "Count": 1
@@ -273,8 +275,8 @@
         "text": "hqm.quest.the_food_pyramid.monster_mash.desc",
         "isTranslationKey": true
       },
-      "x": 206,
-      "y": 129,
+      "x": 218,
+      "y": 144,
       "icon": {
         "id": "kubejs:monster_mash",
         "Count": 1
@@ -324,8 +326,8 @@
         "text": "hqm.quest.the_food_pyramid.watering_can.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 156,
+      "x": 202,
+      "y": 171,
       "icon": {
         "id": "exdeorum:wooden_watering_can",
         "Count": 1
@@ -373,8 +375,8 @@
         "text": "hqm.quest.the_food_pyramid.bread.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 156,
+      "x": 138,
+      "y": 171,
       "icon": {
         "id": "minecraft:bread",
         "Count": 1
@@ -425,8 +427,8 @@
         "text": "hqm.quest.the_food_pyramid.fruits.desc",
         "isTranslationKey": true
       },
-      "x": 142,
-      "y": 75,
+      "x": 154,
+      "y": 90,
       "icon": {
         "id": "minecraft:sweet_berries",
         "Count": 1
@@ -442,10 +444,11 @@
           "items": [
             {
               "item": {
-                "id": "kubejs:staple_fruits",
+                "id": "minecraft:sweet_berries",
                 "Count": 1
               },
-              "precision": "TAG_FUZZY"
+              "precision": "TAG_FUZZY",
+              "tag": "desolate_planet:staple_fruits"
             }
           ]
         }
@@ -482,8 +485,8 @@
         "text": "hqm.quest.the_food_pyramid.cooking_pot.desc",
         "isTranslationKey": true
       },
-      "x": 158,
-      "y": 156,
+      "x": 170,
+      "y": 171,
       "icon": {
         "id": "farmersdelight:cooking_pot",
         "Count": 1
@@ -536,8 +539,8 @@
         "text": "hqm.quest.the_food_pyramid.enderios.desc",
         "isTranslationKey": true
       },
-      "x": 190,
-      "y": 102,
+      "x": 202,
+      "y": 117,
       "icon": {
         "id": "kubejs:enderios",
         "Count": 1
@@ -587,8 +590,8 @@
         "text": "hqm.quest.the_food_pyramid.beans_and_rice.desc",
         "isTranslationKey": true
       },
-      "x": 142,
-      "y": 129,
+      "x": 154,
+      "y": 144,
       "icon": {
         "id": "legumedelight:beans_and_rice",
         "Count": 1
@@ -635,8 +638,8 @@
         "text": "hqm.quest.the_food_pyramid.zombie_jerky.desc",
         "isTranslationKey": true
       },
-      "x": 222,
-      "y": 156,
+      "x": 234,
+      "y": 171,
       "icon": {
         "id": "kubejs:zombie_jerky",
         "Count": 1
@@ -659,7 +662,9 @@
                 "id": "mekanism:salt",
                 "Count": 1
               },
-              "precision": "TAG_FUZZY"
+              "precision": "TAG_FUZZY",
+              "tag": "forge:salt",
+              "cycle": false
             }
           ]
         },
@@ -730,8 +735,8 @@
         "text": "hqm.quest.the_food_pyramid.vegetables.desc",
         "isTranslationKey": true
       },
-      "x": 126,
-      "y": 102,
+      "x": 138,
+      "y": 117,
       "icon": {
         "id": "farmersdelight:cabbage",
         "Count": 1
@@ -747,10 +752,11 @@
           "items": [
             {
               "item": {
-                "id": "kubejs:staple_vegetables",
+                "id": "farmersdelight:cabbage",
                 "Count": 1
               },
-              "precision": "TAG_FUZZY"
+              "precision": "TAG_FUZZY",
+              "tag": "desolate_planet:staple_vegetables"
             }
           ]
         }
@@ -795,8 +801,8 @@
         "text": "hqm.quest.the_food_pyramid.grains.desc",
         "isTranslationKey": true
       },
-      "x": 94,
-      "y": 156,
+      "x": 106,
+      "y": 171,
       "icon": {
         "id": "minecraft:wheat",
         "Count": 1
