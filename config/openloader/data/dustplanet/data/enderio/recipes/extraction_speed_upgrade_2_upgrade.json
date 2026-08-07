@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "enderio:extraction_speed_upgrade_2"
+    },
+    {
+      "tag": "forge:ingots/refined_obsidian"
+    },
+    {
+      "tag": "forge:ingots/refined_obsidian"
+    }
+  ],
+  "result": {
+    "item": "enderio:extraction_speed_upgrade_3"
+  }
+}
