@@ -117,9 +117,6 @@
 	#The modded gamerules should be populated after loading the game, only integer and boolean values are valid
 	[gamerules.modded]
 
-		[gamerules.modded.updates]
-			doDaylightCycle_tc = true
-
 		[gamerules.modded.misc]
 			doClaimedBlockPlacing = false
 			canPickupClaimedItems = false
