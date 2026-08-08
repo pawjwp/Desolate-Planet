@@ -5,7 +5,7 @@
       {
         "target": {
           "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:base_stone_nether"
+          "tag": "varkin_system:base_stone_icarus"
         },
         "state": {
           "Name": "varkin_system:chalcopyrite_crystal_budding"

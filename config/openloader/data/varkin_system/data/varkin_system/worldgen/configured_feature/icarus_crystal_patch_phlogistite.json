@@ -1,0 +1,24 @@
+{
+  "type": "varkin_system:crystal_patch",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "varkin_system:base_stone_icarus"
+        },
+        "state": {
+          "Name": "varkin_system:phlogistite_crystal_budding"
+        }
+      }
+    ],
+    "crystal_size": 2,
+    "budding_size": 1,
+    "xz_spread": 2,
+    "y_spread": 1,
+    "small_crystal": "varkin_system:phlogistite_crystal_small",
+    "medium_crystal": "varkin_system:phlogistite_crystal_medium",
+    "large_crystal": "varkin_system:phlogistite_crystal_large",
+    "crystal_cluster": "varkin_system:phlogistite_crystal_cluster"
+  }
+}
