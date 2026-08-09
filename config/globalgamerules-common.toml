@@ -44,7 +44,7 @@
 
 	[gamerules.drops]
 		#Whether block loot is dropped by all blocks (false) or randomly (true) depending on how far the block is from the center of a block explosion (e.g. clicking a bed in dimensions other than the Overworld).
-		block_explosion_drop_decay = true
+		block_explosion_drop_decay = false
 		#Whether entities that are not mobs should have drops.
 		do_entity_drops = true
 		#Whether mobs should drop items and experience orbs.
@@ -52,7 +52,7 @@
 		#Whether blocks should have drops.
 		do_tile_drops = true
 		#Whether block loot is dropped by all blocks (false) or randomly (true) depending on how far the block is from the center of a mob explosion (e.g. Creeper explosion).
-		mob_explosion_drop_decay = true
+		mob_explosion_drop_decay = false
 		#Whether block loot is dropped by all blocks (false) or randomly (true) depending on how far the block is from the center of a TNT explosion.
 		tnt_explosion_drop_decay = false
 
@@ -77,13 +77,13 @@
 		#Range: > -2147483648
 		max_entity_cramming = 24
 		#Whether creepers, zombies, endermen, ghasts, withers, ender dragons, rabbits, sheep, villagers, silverfish, snow golems, and end crystals should be able to change blocks, and whether mobs can pick up items. When mobGriefing is disabled, piglins do not pick up gold ingots, but a player can still barter with them by using the item on the mob. Similarly, villagers do not pick up food items but can still breed until they run out of any food already in their inventory. This also affects the capability of zombie-like creatures like zombified piglins and drowned to pathfind to turtle eggs.
-		mob_griefing = false
+		mob_griefing = true
 		#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
-		universal_anger = true
+		universal_anger = false
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.
-		do_daylight_cycle = false
+		do_daylight_cycle = true
 		#Whether fire should spread and naturally extinguish
 		do_fire_tick = true
 		#Whether vines can spread to other blocks. Cave vines, weeping vines, and twisting vines are not affected.
@@ -126,8 +126,8 @@
 			doClaimedEntityInteractions = false
 			maxChunkLoaded = 64
 			maxClaimedChunks = 1089
-			claimedMobGriefing = false
-			doClaimedBlockExplosions = false
+			claimedMobGriefing = true
+			doClaimedBlockExplosions = true
 
 		[gamerules.modded.player]
 			slushSourceConversion = false
