@@ -8,6 +8,7 @@ StartupEvents.registry('block', event => {
         .sound($SoundType.SUSPICIOUS_GRAVEL)
         .destroyTime(0.1)
     ))
+	.displayName('Trash Pile')
     organicWasteLayer = event.createCustom('varkin_system:organic_waste', () => new $LayerBlock($Properties.copy(Blocks.GLASS)
         .sound($SoundType.MUD)
         .destroyTime(0.1)
