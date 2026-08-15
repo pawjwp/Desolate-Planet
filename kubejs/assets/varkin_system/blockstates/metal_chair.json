@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,tucked=false": {
+      "model": "varkin_system:block/chair/metal",
+      "y": 90
+    },
+    "facing=east,tucked=true": {
+      "model": "varkin_system:block/chair/metal_tucked",
+      "y": 90
+    },
+    "facing=north,tucked=false": {
+      "model": "varkin_system:block/chair/metal"
+    },
+    "facing=north,tucked=true": {
+      "model": "varkin_system:block/chair/metal_tucked"
+    },
+    "facing=south,tucked=false": {
+      "model": "varkin_system:block/chair/metal",
+      "y": 180
+    },
+    "facing=south,tucked=true": {
+      "model": "varkin_system:block/chair/metal_tucked",
+      "y": 180
+    },
+    "facing=west,tucked=false": {
+      "model": "varkin_system:block/chair/metal",
+      "y": 270
+    },
+    "facing=west,tucked=true": {
+      "model": "varkin_system:block/chair/metal_tucked",
+      "y": 270
+    }
+  }
+}

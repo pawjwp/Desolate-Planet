@@ -1,0 +1,6 @@
+{
+    "parent": "another_furniture:item/template/bench",
+    "textures": {
+        "all": "varkin_system:block/bench/metal"
+    }
+}

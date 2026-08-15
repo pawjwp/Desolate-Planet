@@ -1,0 +1,7 @@
+{
+  "parent": "refurbished_furniture:block/chair",
+  "textures": {
+    "particle": "varkin_system:block/chair/metal_particle",
+    "texture": "varkin_system:block/chair/metal"
+  }
+}

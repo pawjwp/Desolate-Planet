@@ -1,0 +1,10 @@
+{
+    "loader": "fusion:model",
+    "type": "connecting",
+    "parent": "another_furniture:block/template/table_top",
+    "textures": {
+        "top": "varkin_system:block/table/metal_top",
+        "bottom": "varkin_system:block/table/metal_bottom",
+        "sides": "varkin_system:block/table/metal_sides"
+    }
+}

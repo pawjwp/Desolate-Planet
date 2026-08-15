@@ -1,0 +1,7 @@
+{
+    "parent": "another_furniture:block/template/bench_back_left",
+    "textures": {
+        "1": "varkin_system:block/bench/metal",
+        "particle": "varkin_system:block/bench/metal"
+    }
+}

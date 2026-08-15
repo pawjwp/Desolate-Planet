@@ -1,0 +1,78 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "facing": "north"
+            },
+            "apply": {
+                "model": "varkin_system:block/table/metal_top"
+            }
+        },
+        {
+            "when": {
+                "facing": "east"
+            },
+            "apply": {
+                "model": "varkin_system:block/table/metal_top",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "south"
+            },
+            "apply": {
+                "model": "varkin_system:block/table/metal_top",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "west"
+            },
+            "apply": {
+                "model": "varkin_system:block/table/metal_top",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "leg_1": "true"
+            },
+            "apply": {
+                "model": "varkin_system:block/table/metal_leg",
+                "uvlock": false
+            }
+        },
+        {
+            "when": {
+                "leg_2": "true"
+            },
+            "apply": {
+                "model": "varkin_system:block/table/metal_leg",
+                "y": 90,
+                "uvlock": false
+            }
+        },
+        {
+            "when": {
+                "leg_3": "true"
+            },
+            "apply": {
+                "model": "varkin_system:block/table/metal_leg",
+                "y": 180,
+                "uvlock": false
+            }
+        },
+        {
+            "when": {
+                "leg_4": "true"
+            },
+            "apply": {
+                "model": "varkin_system:block/table/metal_leg",
+                "y": 270,
+                "uvlock": false
+            }
+        }
+    ]
+}

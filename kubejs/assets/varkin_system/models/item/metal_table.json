@@ -1,0 +1,9 @@
+{
+    "parent": "another_furniture:block/template/table_full",
+    "textures": {
+        "top": "varkin_system:block/table/metal_top",
+        "sides": "varkin_system:block/table/metal_sides",
+        "bottom": "varkin_system:block/table/metal_bottom",
+        "supports": "varkin_system:block/table/metal_supports"
+    }
+}
