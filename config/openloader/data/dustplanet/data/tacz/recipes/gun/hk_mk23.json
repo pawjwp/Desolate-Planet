@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 36
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:hk_mk23",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"SEMI\",GunId:\"tacz:hk_mk23\",HasBulletInBarrel:0b}"
+  }
+}

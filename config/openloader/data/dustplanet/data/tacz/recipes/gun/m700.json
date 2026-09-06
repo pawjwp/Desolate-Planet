@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 36
+    },
+    {
+      "item": {
+        "item": "mekanism:basic_control_circuit"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m700",
+    "nbt": "{AttachmentSCOPE:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"tacz:scope_contender\"}},GunCurrentAmmoCount:0,GunFireMode:\"SEMI\",GunId:\"tacz:m700\",HasBulletInBarrel:0b}"
+  }
+}

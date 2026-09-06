@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:deagle_golden_long_barrel",
+    "nbt": "{AttachmentId:\"tacz:deagle_golden_long_barrel\"}"
+  }
+}

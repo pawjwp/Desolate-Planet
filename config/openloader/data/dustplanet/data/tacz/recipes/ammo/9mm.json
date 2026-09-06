@@ -1,0 +1,23 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "create:brass_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:gunpowder"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:9mm",
+    "nbt": "{AmmoId:\"tacz:9mm\"}",
+    "count": 32
+  }
+}

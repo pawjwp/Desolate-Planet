@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "minecraft:gunpowder"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:22wmr",
+    "nbt": "{AmmoId:\"tacz:22wmr\"}",
+    "count": 100
+  }
+}

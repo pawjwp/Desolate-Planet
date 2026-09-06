@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "minecraft:dark_oak_log"
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m16a1",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"AUTO\",GunId:\"tacz:m16a1\",HasBulletInBarrel:0b}"
+  }
+}

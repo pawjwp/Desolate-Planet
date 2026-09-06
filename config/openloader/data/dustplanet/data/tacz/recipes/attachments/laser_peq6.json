@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:laser_peq6",
+    "nbt": "{AttachmentId:\"tacz:laser_peq6\"}"
+  }
+}

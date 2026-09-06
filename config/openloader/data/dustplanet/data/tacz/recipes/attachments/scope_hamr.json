@@ -1,0 +1,28 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "industrialforegoing:laser_lens0"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:scope_hamr",
+    "nbt": "{AttachmentId:\"tacz:scope_hamr\"}"
+  }
+}

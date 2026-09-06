@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 48
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:timeless50",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"SEMI\",GunId:\"tacz:timeless50\",HasBulletInBarrel:0b}"
+  }
+}

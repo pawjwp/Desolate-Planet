@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:sight_pk06_rifle",
+    "nbt": "{AttachmentId:\"tacz:sight_pk06_rifle\"}"
+  }
+}

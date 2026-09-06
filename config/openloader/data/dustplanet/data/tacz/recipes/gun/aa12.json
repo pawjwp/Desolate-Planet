@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 80
+    },
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:blaze_rod"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:aa12",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"SEMI\",GunId:\"tacz:aa12\",HasBulletInBarrel:0b}"
+  }
+}

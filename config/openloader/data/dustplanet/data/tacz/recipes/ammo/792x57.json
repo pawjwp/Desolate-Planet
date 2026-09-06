@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:copper_ingot"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "item": "minecraft:gunpowder"
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:792x57",
+    "nbt": "{AmmoId:\"tacz:792x57\"}",
+    "count": 48
+  }
+}

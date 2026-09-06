@@ -1,0 +1,22 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "mekanism:basic_control_circuit"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m320",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"SEMI\",GunId:\"tacz:m320\",HasBulletInBarrel:0b}"
+  }
+}

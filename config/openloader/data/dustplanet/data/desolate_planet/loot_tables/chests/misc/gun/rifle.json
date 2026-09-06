@@ -5,31 +5,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cgm:rifle",
+          "name": "tacz:modern_kinetic_gun",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Color:4673362}",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.33
-                }
-              ]
+              "tag": "{GunId:\"tacz:sks_tactical\"}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Color:6192150}",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.33
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{AmmoCount:0}"
+              "tag": "{GunCurrentAmmoCount:0,HasBulletInBarrel:0b}"
             }
           ]
         }
@@ -40,10 +24,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cgm:advanced_bullet",
+          "name": "tacz:ammo",
           "weight": 1,
           "quality": 1,
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId:\"tacz:762x39\"}"
+            },
             {
               "function": "minecraft:set_count",
               "count": {

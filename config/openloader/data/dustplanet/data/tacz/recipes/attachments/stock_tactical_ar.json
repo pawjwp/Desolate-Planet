@@ -1,0 +1,22 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "thermal:cured_rubber"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:stock_tactical_ar",
+    "nbt": "{AttachmentId:\"tacz:stock_tactical_ar\"}"
+  }
+}

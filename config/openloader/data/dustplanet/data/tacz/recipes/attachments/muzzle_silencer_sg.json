@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 18
+    },
+    {
+      "item": {
+        "item": "minecraft:leather"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:muzzle_silencer_sg",
+    "nbt": "{AttachmentId:\"tacz:muzzle_silencer_sg\"}"
+  }
+}

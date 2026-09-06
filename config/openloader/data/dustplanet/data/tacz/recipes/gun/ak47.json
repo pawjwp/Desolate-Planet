@@ -1,0 +1,22 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 28
+    },
+    {
+      "item": {
+        "item": "mekanism:basic_control_circuit"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:ak47",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"AUTO\",GunId:\"tacz:ak47\",HasBulletInBarrel:0b}"
+  }
+}

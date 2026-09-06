@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 110
+    },
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:spas_12",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"SEMI\",GunId:\"tacz:spas_12\",HasBulletInBarrel:0b}"
+  }
+}

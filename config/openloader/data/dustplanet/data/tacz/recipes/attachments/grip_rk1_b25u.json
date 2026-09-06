@@ -1,0 +1,22 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "thermal:cured_rubber"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:grip_rk1_b25u",
+    "nbt": "{AttachmentId:\"tacz:grip_rk1_b25u\"}"
+  }
+}

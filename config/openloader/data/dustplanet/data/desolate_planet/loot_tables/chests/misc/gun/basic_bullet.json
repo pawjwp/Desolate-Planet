@@ -9,10 +9,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cgm:basic_bullet",
+          "name": "tacz:ammo",
           "weight": 1,
           "quality": 1,
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId:\"tacz:9mm\"}"
+            },
             {
               "function": "minecraft:set_count",
               "count": {

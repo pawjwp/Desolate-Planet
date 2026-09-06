@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "minecraft:leather"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:oem_stock_light",
+    "nbt": "{AttachmentId:\"tacz:oem_stock_light\"}"
+  }
+}

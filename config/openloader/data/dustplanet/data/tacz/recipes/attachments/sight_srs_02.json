@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:glass"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:sight_srs_02",
+    "nbt": "{AttachmentId:\"tacz:sight_srs_02\"}"
+  }
+}

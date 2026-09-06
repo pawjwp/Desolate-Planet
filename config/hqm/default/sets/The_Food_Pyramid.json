@@ -197,7 +197,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "cgm:shell",
+          "id": "tacz:ammo",
+          "tag": "{AmmoId:\"tacz:12g\"}",
           "Count": 16
         },
         {
@@ -440,7 +441,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "cgm:shell",
+          "id": "tacz:ammo",
+          "tag": "{AmmoId:\"tacz:12g\"}",
           "Count": 16
         },
         {
@@ -609,7 +611,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "cgm:shell",
+          "id": "tacz:ammo",
+          "tag": "{AmmoId:\"tacz:12g\"}",
           "Count": 16
         },
         {

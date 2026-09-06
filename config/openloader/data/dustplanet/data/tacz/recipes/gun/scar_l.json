@@ -1,0 +1,22 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "mekanism:ultimate_control_circuit"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:scar_l",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"AUTO\",GunId:\"tacz:scar_l\",HasBulletInBarrel:0b}"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 145
+    },
+    {
+      "item": {
+        "item": "minecraft:blaze_rod"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:fn_evolys",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"AUTO\",GunId:\"tacz:fn_evolys\",HasBulletInBarrel:0b}"
+  }
+}

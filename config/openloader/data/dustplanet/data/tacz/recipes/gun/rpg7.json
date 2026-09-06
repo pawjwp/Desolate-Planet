@@ -1,0 +1,28 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 44
+    },
+    {
+      "item": {
+        "item": "minecraft:piston"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "mekanism:basic_control_circuit"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:rpg7",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"SEMI\",GunId:\"tacz:rpg7\",HasBulletInBarrel:0b}"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "create:brass_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:gunpowder"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:50bmg",
+    "nbt": "{AmmoId:\"tacz:50bmg\"}",
+    "count": 32
+  }
+}

@@ -967,7 +967,8 @@
           "tag": "{display:{Lore:['{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}']}}"
         },
         {
-          "id": "cgm:shell",
+          "id": "tacz:ammo",
+          "tag": "{AmmoId:\"tacz:12g\"}",
           "Count": 64
         }
       ],

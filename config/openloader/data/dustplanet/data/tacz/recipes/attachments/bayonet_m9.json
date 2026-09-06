@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "minecraft:dark_oak_log"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:bayonet_m9",
+    "nbt": "{AttachmentId:\"tacz:bayonet_m9\"}"
+  }
+}

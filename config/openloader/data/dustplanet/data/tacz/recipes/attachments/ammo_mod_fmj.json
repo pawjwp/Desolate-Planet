@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:ammo_mod_fmj",
+    "nbt": "{AttachmentId:\"tacz:ammo_mod_fmj\"}"
+  }
+}

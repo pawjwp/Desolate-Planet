@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_c",
+    "nbt": {
+      "BlockId": "tacz:attachment_workbench"
+    }
+  },
+  "pattern": [
+    "LAL",
+    "IBI",
+    "I I"
+  ],
+  "key": {
+    "L": {
+      "item": "pneumaticcraft:compressed_stone_slab"
+    },
+    "I": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "A": {
+      "item": "create:mechanical_press"
+    },
+    "B": {
+      "item": "thermal:cured_rubber"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 39
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "minecraft:dark_oak_log"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:aug",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"AUTO\",GunId:\"tacz:aug\",HasBulletInBarrel:0b}"
+  }
+}
