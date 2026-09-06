@@ -1,0 +1,28 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "industrialforegoing:laser_lens0"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:sight_uh1",
+    "nbt": "{AttachmentId:\"tacz:sight_uh1\"}"
+  }
+}

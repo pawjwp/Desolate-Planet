@@ -9,10 +9,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cgm:advanced_bullet",
+          "name": "tacz:ammo",
           "weight": 1,
           "quality": 1,
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId:\"tacz:556x45\"}"
+            },
             {
               "function": "minecraft:set_count",
               "count": {

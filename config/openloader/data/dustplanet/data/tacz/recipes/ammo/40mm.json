@@ -1,0 +1,23 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:tnt"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:40mm",
+    "nbt": "{AmmoId:\"tacz:40mm\"}",
+    "count": 2
+  }
+}

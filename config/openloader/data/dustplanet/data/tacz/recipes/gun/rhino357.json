@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "minecraft:dark_oak_log"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:rhino357",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"SEMI\",GunId:\"tacz:rhino357\",HasBulletInBarrel:0b}"
+  }
+}

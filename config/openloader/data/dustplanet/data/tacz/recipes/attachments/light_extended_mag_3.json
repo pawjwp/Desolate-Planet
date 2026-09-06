@@ -1,0 +1,22 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "mekanism:elite_control_circuit"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:light_extended_mag_3",
+    "nbt": "{AttachmentId:\"tacz:light_extended_mag_3\"}"
+  }
+}

@@ -108,7 +108,8 @@
           "tag": "{Material:\"tconstruct:bronze\"}"
         },
         {
-          "id": "cgm:shell",
+          "id": "tacz:ammo",
+          "tag": "{AmmoId:\"tacz:12g\"}",
           "Count": 32
         }
       ],
@@ -739,7 +740,8 @@
           "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;2B,2B,2B,2B,2B,2B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
         },
         {
-          "id": "cgm:shell",
+          "id": "tacz:ammo",
+          "tag": "{AmmoId:\"tacz:12g\"}",
           "Count": 32
         },
         {
@@ -861,7 +863,8 @@
           "Count": 4
         },
         {
-          "id": "cgm:shell",
+          "id": "tacz:ammo",
+          "tag": "{AmmoId:\"tacz:12g\"}",
           "Count": 32
         },
         {

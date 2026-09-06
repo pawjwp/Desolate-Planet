@@ -5,31 +5,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cgm:shotgun",
+          "name": "tacz:modern_kinetic_gun",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Color:4673362}",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.33
-                }
-              ]
+              "tag": "{GunId:\"tacz:m870\"}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Color:11762508}",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.33
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{AmmoCount:0}"
+              "tag": "{GunCurrentAmmoCount:0,HasBulletInBarrel:0b}"
             }
           ]
         }
@@ -40,10 +24,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cgm:shell",
+          "name": "tacz:ammo",
           "weight": 1,
           "quality": 1,
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId:\"tacz:12g\"}"
+            },
             {
               "function": "minecraft:set_count",
               "count": {

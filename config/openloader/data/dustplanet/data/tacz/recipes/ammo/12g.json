@@ -1,0 +1,29 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "create:brass_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:gold_nugget"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:gunpowder"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:12g",
+    "nbt": "{AmmoId:\"tacz:12g\"}",
+    "count": 32
+  }
+}

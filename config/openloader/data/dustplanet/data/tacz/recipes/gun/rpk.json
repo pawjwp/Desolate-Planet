@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 56
+    },
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "minecraft:dark_oak_log"
+      },
+      "count": 12
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:rpk",
+    "nbt": "{AttachmentSTOCK:{Count:1b,id:\"tacz:attachment\",tag:{AttachmentId:\"tacz:oem_stock_heavy\"}},GunCurrentAmmoCount:0,GunFireMode:\"AUTO\",GunId:\"tacz:rpk\",HasBulletInBarrel:0b}"
+  }
+}

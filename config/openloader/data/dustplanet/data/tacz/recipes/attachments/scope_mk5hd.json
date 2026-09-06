@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:scope_mk5hd",
+    "nbt": "{AttachmentId:\"tacz:scope_mk5hd\"}"
+  }
+}

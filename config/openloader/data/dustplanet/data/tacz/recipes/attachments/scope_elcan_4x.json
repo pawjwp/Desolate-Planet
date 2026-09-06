@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:scope_elcan_4x",
+    "nbt": "{AttachmentId:\"tacz:scope_elcan_4x\"}"
+  }
+}

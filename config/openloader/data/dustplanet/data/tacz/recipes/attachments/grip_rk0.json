@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 11
+    },
+    {
+      "item": {
+        "item": "minecraft:leather"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:grip_rk0",
+    "nbt": "{AttachmentId:\"tacz:grip_rk0\"}"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "pneumaticcraft:drill_pipe"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:tnt"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:rpg_rocket",
+    "nbt": "{AmmoId:\"tacz:rpg_rocket\"}",
+    "count": 1
+  }
+}

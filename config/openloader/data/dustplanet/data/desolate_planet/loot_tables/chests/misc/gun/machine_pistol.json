@@ -5,31 +5,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cgm:machine_pistol",
+          "name": "tacz:modern_kinetic_gun",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Color:1908001}",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.33
-                }
-              ]
+              "tag": "{GunId:\"tacz:cz75\"}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Color:14669225}",
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.33
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{AmmoCount:0}"
+              "tag": "{GunCurrentAmmoCount:0,GunFireMode:\"AUTO\",HasBulletInBarrel:0b}"
             }
           ]
         }
@@ -44,10 +28,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cgm:basic_bullet",
+          "name": "tacz:ammo",
           "weight": 1,
           "quality": 1,
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId:\"tacz:9mm\"}"
+            },
             {
               "function": "minecraft:set_count",
               "count": {

@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:laser_peq15"
+  }
+}

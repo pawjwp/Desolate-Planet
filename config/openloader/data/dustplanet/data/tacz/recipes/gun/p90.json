@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ],
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 72
+    },
+    {
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:p90",
+    "nbt": "{GunCurrentAmmoCount:0,GunFireMode:\"AUTO\",GunId:\"tacz:p90\",HasBulletInBarrel:0b}"
+  }
+}

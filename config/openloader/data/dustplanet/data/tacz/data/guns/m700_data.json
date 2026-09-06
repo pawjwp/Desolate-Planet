@@ -1,0 +1,185 @@
+{
+    "ammo": "tacz:30_06",
+    "ammo_amount": 5,
+    "extended_mag_ammo_amount": [
+        6,
+        8,
+        10
+    ],
+    "bolt": "manual_action",
+    "rpm": 180,
+    "bullet": {
+        "life": 1,
+        "bullet_amount": 1,
+        "damage": 18.0,
+        "tracer_count_interval": 0,
+        "extra_damage": {
+            "armor_ignore": 0.50,
+            "head_shot_multiplier": 1.5,
+            "damage_adjust": [
+                {
+                    "distance": 48,
+                    "damage": 18.0
+                },
+                {
+                    "distance": 96,
+                    "damage": 14.0
+                },
+                {
+                    "distance": 190,
+                    "damage": 12.0
+                },
+                {
+                    "distance": "infinite",
+                    "damage": 10.5
+                }
+            ]
+        },
+        "speed": 380,
+        "gravity": 0.15,
+        "knockback": 0,
+        "friction": 0.015,
+        "ignite": false,
+        "pierce": 2
+    },
+    "reload": {
+        "type": "magazine",
+        "feed": {
+            "empty": 2.85,
+            "tactical": 1.75
+        },
+        "cooldown": {
+            "empty": 3.45,
+            "tactical": 2.25
+        }
+    },
+    "draw_time": 0.35,
+    "put_away_time": 0.4,
+    "aim_time": 0.17,
+    "sprint_time": 0.2,
+    "bolt_action_time": 0.75,
+    "weight": 6.5,
+    "movement_speed": {
+        "base": 0.0,
+        "aim": -0.5,
+        "reload": -0.2
+    },
+    "crawl_recoil_multiplier": 0.25,
+    "fire_mode": [
+        "semi"
+    ],
+    "recoil": {
+        "pitch": [
+            {
+                "time": 0,
+                "value": [
+                    3.25,
+                    3.25
+                ]
+            },
+            {
+                "time": 0.07,
+                "value": [
+                    2.375,
+                    2.375
+                ]
+            },
+            {
+                "time": 0.16,
+                "value": [
+                    3,
+                    3
+                ]
+            },
+            {
+                "time": 0.24,
+                "value": [
+                    1.85,
+                    1.85
+                ]
+            },
+            {
+                "time": 0.6,
+                "value": [
+                    -0.5,
+                    -0.5
+                ]
+            },
+            {
+                "time": 0.71,
+                "value": [
+                    0.25,
+                    0.25
+                ]
+            },
+            {
+                "time": 0.83,
+                "value": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "time": 0.88,
+                "value": [
+                    0,
+                    0
+                ]
+            }
+        ],
+        "yaw": [
+            {
+                "time": 0,
+                "value": [
+                    -0.5,
+                    -0.5
+                ]
+            },
+            {
+                "time": 0.17,
+                "value": [
+                    0.1,
+                    0.1
+                ]
+            },
+            {
+                "time": 0.3,
+                "value": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "time": 0.8,
+                "value": [
+                    0,
+                    0
+                ]
+            }
+        ]
+    },
+    "inaccuracy": {
+        "stand": 5,
+        "move": 6,
+        "sneak": 3,
+        "lie": 2,
+        "aim": 0.08
+    },
+    "melee": {
+        "distance": 1,
+        "cooldown": 1.0,
+        "default": {
+            "animation_type": "melee_stock",
+            "distance": 0,
+            "range_angle": 30,
+            "damage": 2,
+            "knockback": 0.75,
+            "prep": 0.1
+        }
+    },
+    "allow_attachment_types": [
+        "extended_mag",
+        "scope",
+        "muzzle"
+    ]
+}

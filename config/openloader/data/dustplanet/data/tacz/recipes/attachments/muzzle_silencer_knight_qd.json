@@ -1,0 +1,22 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:sponge"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:muzzle_silencer_knight_qd",
+    "nbt": "{AttachmentId:\"tacz:muzzle_silencer_knight_qd\"}"
+  }
+}
