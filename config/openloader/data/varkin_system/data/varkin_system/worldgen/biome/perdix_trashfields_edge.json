@@ -31,11 +31,7 @@
       "varkin_system:perdix_lichen",
 	  "varkin_system:trash_piles_small"
     ],
-    [
-      "minecraft:large_dripstone",
-      "minecraft:dripstone_cluster",
-      "minecraft:pointed_dripstone"
-    ]
+    []
   ],
   "has_precipitation": false,
   "spawn_costs": {},

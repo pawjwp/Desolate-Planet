@@ -30,11 +30,7 @@
       "ad_astra:moon_soul_soil",
       "varkin_system:perdix_lichen"
     ],
-    [
-      "minecraft:large_dripstone",
-      "minecraft:dripstone_cluster",
-      "minecraft:pointed_dripstone"
-    ]
+    []
   ],
   "has_precipitation": false,
   "spawn_costs": {},
