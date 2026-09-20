@@ -1,0 +1,111 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/surveillance/base",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/surveillance/base_disc",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/surveillance/base_elevator",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/surveillance/shaft_1",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/surveillance/floor_1",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/surveillance/shaft_2",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/surveillance/floor_2",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/surveillance/floor_2_basin",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/surveillance/stairs",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/surveillance/floor_3",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        },
+
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "varkin_system:perdix/surveillance/magnetron",
+                "processors": "minecraft:empty"
+            },
+            "weight": 1
+        }
+    ]
+}

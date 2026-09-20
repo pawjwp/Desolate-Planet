@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "varkin_system:perdix/surveillance",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 12,
+    "spread": 3,
+    "count": 3,
+    "preferred_biomes": [
+      "varkin_system:perdix_wastelands"
+    ],
+    "salt": 23531791,
+    "frequency": 0.5
+  }
+}
