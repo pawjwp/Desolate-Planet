@@ -39,25 +39,11 @@
   "has_precipitation": false,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [
-      {
-        "type": "alexscaves:notor",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 20
-      }
-	],
+    "ambient": [],
     "axolotls": [],
     "creature": [],
     "misc": [],
-    "monster": [
-      {
-        "type": "alexscaves:notor",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 25
-      }
-	],
+    "monster": [],
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
