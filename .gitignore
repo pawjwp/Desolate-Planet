@@ -1,3 +1,4 @@
+# Ignore file types
 *.gz
 *.json_old
 *.json5_old
@@ -5,76 +6,48 @@
 *.mrpack
 *.txt_old
 *.zip
-/.example_assets
-/.example_data
-/.vscode
-/backups
-/config/axiom
+
+# Ignore logs
+/crash-reports/
+/logs/
+/hs_err_pid*.log
+/win_event*.txt
+
+# Ignore local player data
+/screenshots/
+/options.txt
+/servers.dat
+/servers.dat_old
+/usercache.json
+/usernamecache.json
+
+# Ignore local mod configs
+/config/axiom/
+/config/jei/world/
+/config/worldedit/
 /config/cubes_without_borders.json
-/config/fabric
-/config/jei/world
 /config/lighty.config
 /config/modernfix-mixins.properties
 /config/oculus.properties
-/config/worldedit
-/cosmetics
-/crash-reports
-/data
+
+# Ignore other local mod data
+/backups/
+/cosmetics/
+/data/
+/essential/
+/journeymap/
+/local/
+/modernfix/
+/tconplanner/
 /ESM/*/*.dat
-/essential
-/journeymap
-/local
-/logs
-/modernfix
-/mods/.connector
-/screenshots
-/tconplanner
-fabricloader.log
-hs_err_pid*.log
-knownkeys.txt
-options.txt
-patchouli_data.json
-rhino.local.properties
-servers.dat
-servers.dat_old
-supportercache.json
-usercache.json
-usernamecache.json
-win_event*.txt
+/patchouli_data.json
+/rhino.local.properties
 
-# Packwiz ignores
-/mods
-/resourcepacks
-/shaderpacks
-packwiz.json
-packwiz-installer.jar
-packwiz-installer-bootstrap.jar
+# Ignore IDE files
+/.idea/
+/.vscode/
 
-packwiz-scripts/tools/forge-*-installer.jar
-packwiz-scripts/forge-*-installer.jar.log
 
-/packwiz-scripts/**/*.nbt
-/packwiz-scripts/**/*.snbt
-
-/packwiz-builds
-
-/packwiz-curseforge/config
-/packwiz-curseforge/defaultconfigs
-/packwiz-curseforge/kubejs
-/packwiz-curseforge/saves
-
-/packwiz-modrinth/config
-/packwiz-modrinth/defaultconfigs
-/packwiz-modrinth/kubejs
-/packwiz-modrinth/saves
-
-/packwiz-server/config
-/packwiz-server/defaultconfigs
-/packwiz-server/kubejs
-/packwiz-server/libraries
-/packwiz-server/mods
-/packwiz-server/resourcepacks
-/packwiz-server/shaderpacks
 
 # Ignore all save folders
 /saves/*
@@ -82,11 +55,10 @@ packwiz-scripts/forge-*-installer.jar.log
 !/saves/Original world, will reset when pack updates/
 # Except do ignore everything inside it
 /saves/Original world, will reset when pack updates/**
-# Except don't ignore these three files
+# Except don't ignore these files
 !/saves/Original world, will reset when pack updates/icon.png
 !/saves/Original world, will reset when pack updates/level.dat
-!/saves/Original world, will reset when pack updates/level.dat.backup
-# And do ignore the region folder
+# And don't ignore the region folder
 !/saves/Original world, will reset when pack updates/region/
 # But don't ignore the first 4 region files around 0,0
 !/saves/Original world, will reset when pack updates/region/r.0.0.mca
@@ -95,12 +67,39 @@ packwiz-scripts/forge-*-installer.jar.log
 !/saves/Original world, will reset when pack updates/region/r.-1.-1.mca
 
 # Tips
-/packwiz-scripts/tip_generation/tips
-packwiz-scripts/tip_generation/en_us.json
+/packwiz-scripts/tip_generation/tips/
+/packwiz-scripts/tip_generation/en_us.json
 
-# Markdown files
-*.md
-!README.md
-!README-Curseforge.md
-!CONTRIBUTING.md
-!TEST.md
+# Packwiz ignores
+/mods/
+/resourcepacks/
+/shaderpacks/
+packwiz-installer-bootstrap.jar
+packwiz-installer.jar
+packwiz.json
+
+/packwiz-scripts/tools/forge-*-installer.jar
+/packwiz-scripts/forge-*-installer.jar.log
+
+/packwiz-scripts/**/*.nbt
+/packwiz-scripts/**/*.snbt
+
+/packwiz-builds
+
+/packwiz-curseforge/config/
+/packwiz-curseforge/defaultconfigs/
+/packwiz-curseforge/kubejs/
+/packwiz-curseforge/saves/
+
+/packwiz-modrinth/config/
+/packwiz-modrinth/defaultconfigs/
+/packwiz-modrinth/kubejs/
+/packwiz-modrinth/saves/
+
+/packwiz-server/config/
+/packwiz-server/defaultconfigs/
+/packwiz-server/kubejs/
+/packwiz-server/libraries/
+/packwiz-server/mods/
+/packwiz-server/resourcepacks/
+/packwiz-server/shaderpacks/
