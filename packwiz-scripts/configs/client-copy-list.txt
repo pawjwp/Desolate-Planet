@@ -5,6 +5,12 @@ kubejs
 
 # Exclusion
 -config\jei\world
+-config\jei\blacklist.json
+-config\jei\client\jei-client.ini
+-config\jei\client\jei-colors.ini
+-config\jei\client\jei-debug.ini
+-config\jei\client\jei-mod-id-format.ini
+-config\mezz_config\client\settings.ini
 -config\worldedit
 -config\cubes_without_borders.json
 -kubejs\probe

@@ -23,12 +23,18 @@
 
 # Ignore local mod configs
 /config/axiom/
-/config/jei/world/
 /config/worldedit/
 /config/cubes_without_borders.json
 /config/lighty.config
 /config/modernfix-mixins.properties
 /config/oculus.properties
+
+# Ignore local JEI and MezzConfig files, leave default ones
+/config/jei/**/*.bak*
+/config/jei/blacklist.json
+/config/jei/client/jei-*.ini
+/config/jei/world/**
+/config/mezz_config/client/*.ini
 
 # Ignore other local mod data
 /backups/
