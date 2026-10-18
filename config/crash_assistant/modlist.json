@@ -1354,14 +1354,6 @@
     "curseForgeHash": 3344053725,
     "modrinthHash": "de1c5adad2a77c7f6e168f2df6e7b82d9c3db719"
   },
-  "timecontrol-1.20.1-1.6.0.jar": {
-    "jarName": "timecontrol-1.20.1-1.6.0.jar",
-    "modId": "timecontrol",
-    "name": "TimeControl",
-    "version": "1.6.0",
-    "curseForgeHash": 3918943778,
-    "modrinthHash": "955afd02aaf486dd5417f08e902584ddd954de1f"
-  },
   "Tips-Forge-1.20.1-12.1.9.jar": {
     "jarName": "Tips-Forge-1.20.1-12.1.9.jar",
     "modId": "tipsmod",
