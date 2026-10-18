@@ -46,7 +46,7 @@ shipbreaker_spawn_cooldown_variance = 10.0
 #Range: 1.0 ~ 60.0
 shipbreaker_spawn_retry_delay = 1.0
 #Allowed Values: OVERRIDE, MERGE, NONE
-biome_spawner_mode = "OVERRIDE"
+biome_spawner_mode = "NONE"
 enable_maw_spawning = true
 #Range: 1 ~ 400
 maw_spawn_weight = 400
