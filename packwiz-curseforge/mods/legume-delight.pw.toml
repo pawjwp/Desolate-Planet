@@ -1,13 +1,13 @@
 name = "Legume Delight"
-filename = "legumedelight-1.3.1.jar"
+filename = "legumedelight-1.20.1-1.4.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "002253208b5d78c876b2d5a92373375a33936acc"
+hash = "9cbe49be52d63357bae683b53789d156691f1f29"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8008386
+file-id = 8866734
 project-id = 1383091

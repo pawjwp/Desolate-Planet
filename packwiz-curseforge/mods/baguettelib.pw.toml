@@ -1,13 +1,13 @@
 name = "BaguetteLib"
-filename = "baguettelib-1.20.1-Forge-1.1.6.jar"
+filename = "baguettelib-1.20.1-Forge-2.0.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8d3c9551bbed4c2f2e8cb2b9a10d31bad4edb52d"
+hash = "e4f18588d02137f34989393fad5a7369ef03a862"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7544807
+file-id = 8887462
 project-id = 1264423

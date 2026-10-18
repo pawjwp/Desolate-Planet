@@ -1,13 +1,13 @@
 name = "Tinker's Planner  Reborn"
-filename = "tconplanner-1.20.1-forge-1.7.jar"
+filename = "TconPlanner-1.20.1-forge-1.8.0.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "aa0cbe1f9ce8883627edf60af20be5687385579b"
+hash = "db1df2e61e410ebe099c331a71372a48e6bfd8de"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7676886
+file-id = 8600413
 project-id = 1307719

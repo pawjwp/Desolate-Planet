@@ -1,13 +1,13 @@
 name = "Aquamirae"
-filename = "aquamirae-forge-1.20.1-6.2.0.jar"
+filename = "aquamirae-forge-1.20.1-7.1.14.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/k23mNPhZ/versions/aYn7gHI2/aquamirae-forge-1.20.1-6.2.0.jar"
+url = "https://cdn.modrinth.com/data/k23mNPhZ/versions/rRfT3ynS/aquamirae-forge-1.20.1-7.1.14.jar"
 hash-format = "sha512"
-hash = "950bff1c3eaf2b9f4b190a368119ac768b07bace7cd7d1c943dd398695e7d85d801e2ea44b219cc195e028b7ecd0e26f5b09ab068960d3dabd05f12e0239b5e3"
+hash = "b39a086c3c8432cf1d21f8fd4aa707c031d897189fd5fc42eafb0fd2b5065c699732c5ebfe7bc9201ba0555cf90f66cf58a09ba5db05a5a80a9588630b3757d3"
 
 [update]
 [update.modrinth]
 mod-id = "k23mNPhZ"
-version = "aYn7gHI2"
+version = "rRfT3ynS"

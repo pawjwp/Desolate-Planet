@@ -1,13 +1,13 @@
 name = "Huge Structure Blocks"
-filename = "huge-structure-blocks-1.0.9-forge.jar"
+filename = "huge-structure-blocks-forge-1.1.10.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/AMLtKGdJ/versions/t2Zt3WNi/huge-structure-blocks-1.0.9-forge.jar"
+url = "https://cdn.modrinth.com/data/AMLtKGdJ/versions/VJkeBgK8/huge-structure-blocks-forge-1.1.10.jar"
 hash-format = "sha512"
-hash = "908b08b3a64cc199c82f1baebe8c23c212963334ff4b7fb6ccebd123948a473124c91ae73ab63731da1ea604f8791912b669a6891b7bdc8855dcea6f1d0b7509"
+hash = "6de595a756bc0e4dcc4b40c312a7235d4aaf81750fc7b6c47a8b9618fbbba777ef18ea2b4e2bdeab47804c9958a7b17e9d6b947edad310ededb873324f37f064"
 
 [update]
 [update.modrinth]
 mod-id = "AMLtKGdJ"
-version = "t2Zt3WNi"
+version = "VJkeBgK8"

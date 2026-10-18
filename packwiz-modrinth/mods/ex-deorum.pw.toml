@@ -1,13 +1,13 @@
 name = "Ex Deorum"
-filename = "exdeorum-1.50.jar"
+filename = "exdeorum-1.53.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WP0FLyzv/versions/LbUI6oRE/exdeorum-1.50.jar"
+url = "https://cdn.modrinth.com/data/WP0FLyzv/versions/9lT0xIkP/exdeorum-1.53.jar"
 hash-format = "sha512"
-hash = "9b0014fc8cef950e1ea3c6da35a0dab270acd39959de69de6dd170c14c1601403de663fd91b0bafc35b350080ff5d141a55904bc9d869975ed88341efce9ecb9"
+hash = "1c7f80da17fc51f006055b6ace80bb776f2f36ede0b737c89afbe3056cd0f05fcdbb01c47386a657ae1f2b3f26d02f6e2195e461edb82a91af36bebf4fba7610"
 
 [update]
 [update.modrinth]
 mod-id = "WP0FLyzv"
-version = "LbUI6oRE"
+version = "9lT0xIkP"

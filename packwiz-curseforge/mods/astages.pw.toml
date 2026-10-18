@@ -1,13 +1,13 @@
 name = "AStages"
-filename = "astages-2.1.0-1.20.1-all.jar"
+filename = "astages-2.5.3-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "79b584f9ee88f7cb83851b26682df355dc3bae8f"
+hash = "4c82ecf62bf245de8592cd5479f034f09d549913"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8247022
+file-id = 8846310
 project-id = 1120180

@@ -1,13 +1,13 @@
 name = "BetterBlockZ"
-filename = "betterblockz-0.2.9-1.20.1-forge.jar"
+filename = "betterblockz-0.2.10-1.20.1-forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/oPU4euBQ/versions/j885m1Ia/betterblockz-0.2.9-1.20.1-forge.jar"
+url = "https://cdn.modrinth.com/data/oPU4euBQ/versions/jU3M3Rc4/betterblockz-0.2.10-1.20.1-forge.jar"
 hash-format = "sha512"
-hash = "98e9e098a678232e929c829d15a453c120be463219ef26fbed900ea9cbc2ab89c98a680a520db7ea5a51473e4ca7ae2f55fdb2e058b9568c80b1e2808bf8457e"
+hash = "b3c6f2d5c1c80e1f5cb74a78e36e14f1c077574a74fe843bd71d92ac88214470226da09a161864c29ce0de8c17d1180fc125717272b6db37a39cad9b395604b9"
 
 [update]
 [update.modrinth]
 mod-id = "oPU4euBQ"
-version = "j885m1Ia"
+version = "jU3M3Rc4"
