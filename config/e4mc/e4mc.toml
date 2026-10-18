@@ -1,3 +1,6 @@
+# Whether to hide the domain on chat and only allow copying
+# default: false
+hideDomainInChat = false
 # Whether to use the broker to get the best relay based on location or use a hard-coded relay.
 # default: true
 useBroker = true

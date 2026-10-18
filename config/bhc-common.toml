@@ -9,3 +9,23 @@
 	#Chance for the Soul Heart to return a Blue Heart Canister after being broken
 	soulHeartReturnChance = 1.0
 
+["Heart Patches"]
+	#Heal amounts are in half-hearts (e.g. 2 = 1 full heart)
+	#Amount of health restored by the Red Heart Patch
+	redPatchHealAmount = 2
+	#Amount of health restored by the Yellow Heart Patch
+	yellowPatchHealAmount = 6
+	#Amount of health restored by the Green Heart Patch
+	greenPatchHealAmount = 10
+	#Amount of health restored by the Blue Heart Patch
+	bluePatchHealAmount = 20
+	#Cooldowns are in seconds
+	#Cooldown in seconds for the Red Heart Patch
+	redPatchCooldown = 5
+	#Cooldown in seconds for the Yellow Heart Patch
+	yellowPatchCooldown = 10
+	#Cooldown in seconds for the Green Heart Patch
+	greenPatchCooldown = 20
+	#Cooldown in seconds for the Blue Heart Patch
+	bluePatchCooldown = 30
+

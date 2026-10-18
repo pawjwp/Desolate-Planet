@@ -23,4 +23,10 @@
 	#The scroll direction for paginated lists
 	#Allowed Values: UP, DOWN
 	"Scroll Direction" = "DOWN"
+	#Size the planner draws its tooltips at.
+	#AUTO keeps the vanilla size and only shrinks a tooltip that would not fit the window.
+	#THREE_QUARTER and HALF shrink every tooltip, which is useful at GUI Scale 3 and 4 where a
+	#full tool tooltip is taller than the screen. All three still shrink further if they must.
+	#Allowed Values: AUTO, THREE_QUARTER, HALF
+	"Tooltip Scale" = "AUTO"
 

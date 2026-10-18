@@ -1,105 +1,88 @@
-
-[General]
-	chatNotifications = true
-
-[Mobs]
-
-	[Mobs.GhostOfCaptainCornelia]
-		#Range: 0.0 ~ 10.0
-		movementSpeed = 0.2
-		#Range: 1.0 ~ 100000.0
-		maxHealth = 200.0
-		#Range: 0.0 ~ 1000.0
-		armor = 16.0
-		#Range: 1.0 ~ 1000.0
-		attackDamage = 1.0
-		#Range: 0.0 ~ 10.0
-		knockbackResistance = 0.5
-		#Range: 0.0 ~ 10.0
-		attackKnockback = 2.0
-		#Range: 1.0 ~ 256.0
-		followRange = 128.0
-		pullAndSpinTargets = true
-		#Range: 0 ~ 1000
-		regenerationSkillUses = 2
-
-	[Mobs.Anglerfish]
-		#Range: 0.0 ~ 100.0
-		swimSpeed = 3.0
-		#Range: 1.0 ~ 100000.0
-		maxHealth = 40.0
-		#Range: 0.0 ~ 1000.0
-		armor = 2.0
-		#Range: 0.0 ~ 10.0
-		knockbackResistance = 0.0
-		#Range: 1.0 ~ 1000.0
-		attackDamage = 6.0
-		#Range: 0.0 ~ 10.0
-		attackKnockback = 1.0
-		#Range: 1.0 ~ 256.0
-		followRange = 48.0
-
-	[Mobs.Maw]
-		#Range: 0.0 ~ 10.0
-		movementSpeed = 0.2
-		#Range: 0.0 ~ 100.0
-		swimSpeed = 5.0
-		#Range: 1.0 ~ 100000.0
-		maxHealth = 20.0
-		#Range: 0.0 ~ 1000.0
-		armor = 0.0
-		#Range: 0.0 ~ 10.0
-		knockbackResistance = 0.0
-		#Range: 1.0 ~ 1000.0
-		attackDamage = 4.0
-		#Range: 0.0 ~ 10.0
-		attackKnockback = 0.3
-		#Range: 1.0 ~ 256.0
-		followRange = 24.0
-
-	[Mobs.TorturedSoul]
-		#Range: 0.0 ~ 10.0
-		movementSpeed = 0.2
-		#Range: 0.0 ~ 100.0
-		swimSpeed = 3.0
-		#Range: 1.0 ~ 100000.0
-		maxHealth = 30.0
-		#Range: 0.0 ~ 1000.0
-		armor = 4.0
-		#Range: 0.0 ~ 10.0
-		knockbackResistance = 0.0
-		#Range: 1.0 ~ 1000.0
-		attackDamage = 7.0
-		#Range: 0.0 ~ 10.0
-		attackKnockback = 0.7
-		#Range: 1.0 ~ 256.0
-		followRange = 24.0
-
-	[Mobs.MotherOfTheMaze]
-		#Range: 0.0 ~ 100.0
-		swimSpeed = 3.0
-		#Range: 1.0 ~ 100000.0
-		maxHealth = 100.0
-		#Range: 0.0 ~ 1000.0
-		armor = 6.0
-		#Range: 0.0 ~ 10.0
-		knockbackResistance = 0.2
-		#Range: 1.0 ~ 1000.0
-		attackDamage = 5.0
-		#Range: 0.0 ~ 10.0
-		attackKnockback = 0.5
-		#Range: 1.0 ~ 256.0
-		followRange = 128.0
-
-	[Mobs.Eel]
-		#Range: 1.0 ~ 100000.0
-		maxHealth = 180.0
-		#Range: 0.0 ~ 1000.0
-		armor = 20.0
-		#Range: 1.0 ~ 1000.0
-		attackDamage = 8.0
-		#Range: 0.0 ~ 10.0
-		attackKnockback = 2.0
-		#Range: 1.0 ~ 256.0
-		followRange = 32.0
+#=============[ Aquamirae Common Config ]============
+# Please prefer editing the config through the in-game 
+# configuration screen (available via the mods list),
+# as it includes many hints and quality-of-life improvements.
+#====================================================
+#Allowed Values: EVERYWHERE, ICE_MAZE, THE_MAELSTROM
+shell_horn_usage_mode = "ICE_MAZE"
+#Range: 6 ~ 64
+shell_horn_search_radius = 12
+#Range: -16 ~ 0
+shell_horn_spawn_offset = -4
+#Range: 0 ~ 60
+shell_horn_summon_delay = 3
+#Range: 0 ~ 60
+shell_horn_cooldown = 5
+#Range: 0.0 ~ 1.0
+remnant_saber_base_bonus = 0.1
+#Range: 0.0 ~ 1.0
+remnant_saber_per_kill_bonus = 0.001
+#Range: 0.0 ~ 10.0
+remnant_saber_max_bonus = 2.0
+#Range: 0.0 ~ 9.0
+terrible_blade_poison_amplifier = 0.0
+#Range: 0.0 ~ 60.0
+terrible_blade_poison_duration = 6.0
+#Range: 0.0 ~ 9.0
+terrible_blade_regeneration_amplifier = 1.0
+#Range: 0.0 ~ 60.0
+terrible_blade_regeneration_duration = 6.0
+scuttler_attributes = ["generic.max_health base(8~12)", "generic.movement_speed base(0.3)", "generic.armor base(2~4)"]
+shellback_attributes = ["generic.max_health base(30~50)", "generic.movement_speed base(0.25)", "generic.armor base(10~20)"]
+golden_moth_attributes = ["generic.max_health base(3~4)", "generic.movement_speed base(0.4)", "generic.flying_speed base(0.4)"]
+spinefish_attributes = ["minecraft:generic.max_health base(8~12)"]
+maw_attributes = ["generic.max_health base(18~22)", "generic.movement_speed base(0.18~0.22)", "generic.attack_damage base(4)", "generic.attack_knockback base(0.3)", "generic.follow_range base(24)"]
+anglerfish_attributes = ["generic.max_health base(30~40)", "generic.armor base(2~4)", "generic.movement_speed base(0.35)", "generic.attack_damage base(5)", "generic.attack_knockback base(1)", "generic.follow_range base(64)"]
+eel_attributes = ["generic.max_health base(160~200)", "generic.armor base(20)", "generic.attack_damage base(8)", "generic.attack_knockback base(2)", "generic.knockback_resistance base(100)", "generic.movement_speed base(0)"]
+tortured_soul_attributes = ["generic.max_health base(30)", "generic.armor base(4)", "generic.movement_speed base(0.2)", "generic.attack_damage base(7)", "generic.attack_knockback base(0.7)", "generic.knockback_resistance base(0)", "generic.follow_range base(24)"]
+maze_mother_attributes = ["generic.max_health base(100)", "generic.armor base(10)", "generic.movement_speed base(64)", "generic.attack_damage base(5)", "generic.attack_knockback base(0.5)", "generic.knockback_resistance base(0.2)", "generic.follow_range base(128)"]
+captain_cornelia_attributes = ["generic.max_health base(300)", "generic.armor base(16)", "generic.movement_speed base(0.2)", "generic.attack_damage base(1)", "generic.attack_knockback base(2)", "generic.knockback_resistance base(0.75)", "generic.follow_range base(128)", "aquamirae:depths_fury base(2)", "aquamirae:depths_resilience base(2)"]
+shipbreaker_griefing = false
+enable_shipbreaker_spawning = true
+#Range: 1.0 ~ 300.0
+shipbreaker_spawn_cooldown = 30.0
+#Range: 0.0 ~ 300.0
+shipbreaker_spawn_cooldown_variance = 10.0
+#Range: 1.0 ~ 60.0
+shipbreaker_spawn_retry_delay = 1.0
+#Allowed Values: OVERRIDE, MERGE, NONE
+biome_spawner_mode = "OVERRIDE"
+enable_maw_spawning = true
+#Range: 1 ~ 400
+maw_spawn_weight = 400
+#Range: 1 ~ 10
+maw_spawn_min_count = 2
+#Range: 1 ~ 10
+maw_spawn_max_count = 4
+enable_anglerfish_spawning = true
+#Range: 1 ~ 400
+anglerfish_spawn_weight = 10
+#Range: 1 ~ 10
+anglerfish_spawn_min_count = 1
+#Range: 1 ~ 10
+anglerfish_spawn_max_count = 1
+enable_scuttler_spawning = true
+#Range: 1 ~ 400
+scuttler_spawn_weight = 10
+#Range: 1 ~ 10
+scuttler_spawn_min_count = 1
+#Range: 1 ~ 10
+scuttler_spawn_max_count = 2
+enable_spinefish_spawning = true
+#Range: 1 ~ 400
+spinefish_spawn_weight = 10
+#Range: 1 ~ 10
+spinefish_spawn_min_count = 4
+#Range: 1 ~ 10
+spinefish_spawn_max_count = 8
+enable_abyssal_scyphoid_spawning = true
+#Range: 1 ~ 400
+abyssal_spawn_weight = 10
+#Range: 1 ~ 10
+abyssal_spawn_min_count = 2
+#Range: 1 ~ 10
+abyssal_spawn_max_count = 4
+enable_maze_mother_spawning = true
+#Range: 0.0 ~ 1.0
+maze_mother_spawn_chance = 0.01
 

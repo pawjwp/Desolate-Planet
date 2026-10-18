@@ -33,4 +33,8 @@ notificationsEnabled = true
 #NEVER = never fire
 #Allowed Values: ALWAYS, ONCE, NEVER
 notificationsDefaultFrequency = "ONCE"
+#The diet suite that players use by default.
+defaultSuite = "builtin"
+#If enabled, eating food will only increase diet values if it also increases their hunger.
+requireHungerGain = false
 

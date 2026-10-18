@@ -1,11 +1,16 @@
-
-[General]
-	renderThreeBoltHelmetOverlay = true
-	stylizedBossbar = true
-
-[IceMazeAmbient]
-	spawnParticles = true
-	playAmbientSounds = true
-	playBiomeMusic = true
-	playCorneliaMusic = true
+#=============[ Aquamirae Client Config ]============
+# Please prefer editing the config through the in-game 
+# configuration screen (available via the mods list),
+# as it includes many hints and quality-of-life improvements.
+#====================================================
+blizzard_custom_fog = true
+#Range: 0.0 ~ 256.0
+blizzard_fog_start = 0.0
+#Range: 0.0 ~ 256.0
+blizzard_fog_end = 128.0
+blizzard_custom_particles = true
+#Range: 0.0 ~ 100.0
+blizzard_wind_offset = 10.0
+#Range: 0.0 ~ 100.0
+blizzard_speed_multiplier = 20.0
 

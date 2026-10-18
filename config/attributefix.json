@@ -319,6 +319,17 @@
         "value": 10000000
       }
     },
+    "aquamirae:depths_fury": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -759,17 +770,6 @@
         "value": 10000000
       }
     },
-    "scarcity:regen_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "obscure_api:critical_damage": {
       "enabled": false,
       "min": {
@@ -779,6 +779,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "scarcity:regen_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "tconstruct:player.critical_damage": {
@@ -812,6 +823,17 @@
       "max": {
         "default": 1024,
         "value": 10000000
+      }
+    },
+    "aquamirae:depths_resilience": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2,
+        "value": 2
       }
     },
     "tconstruct:generic.protection_cap": {

@@ -14,4 +14,12 @@ last_version_blocks = []
 #Previous config version. Do not modify manually.
 #Range: > 0
 lastConfigVersion = 1
+#Whether new blocks for the config should be fetched from the network.
+auto_update_config = true
+#List of blocks that need z-fighting fixes. Supports '*' as a wildcard.
+z_fighting = ["ae2:cable_bus"]
+#List of blocks that should not render when covered by a facade. Supports '*' as a wildcard.
+hidden_when_facaded = []
+#List of blocks that need a slight scale-up when facaded (e.g. Create mod blocks). Supports '*' as a wildcard.
+scale_up_blocks = ["*create*"]
 

@@ -1,7 +1,24 @@
 
-["Client Configs for AStages Mod"]
-	#Enable experimental settings for LevelChunk class, client side
-	"Enable Experiments for LevelChunk" = false
-	#Enable experimental settings for LevelChunkSection class, client side
-	"Enable Experiments for LevelChunkSection" = false
+[Mechanics]
+	#Which recipe viewer integration to use.
+	#DEFAULT automatically chooses the highest priority installed mod (REI > EMI > JEI).
+	#NONE disables all recipe viewer integrations.
+	#Changes require a server reload to take effect.
+	#Allowed Values: JEI, REI, EMI, DEFAULT, NONE
+	"Recipe Viewer" = "DEFAULT"
+
+[Performances]
+	#NOT YET IMPLEMENTED.
+	#If true, item and fluid recipe viewer caches for stage restrictions are built
+	#asynchronously, reducing stutter upon (re)load at the cost of a slight delay
+	#before restrictions take effect.
+	"Build Caches Asynchronously" = false
+
+[Experimental]
+	#Enable experimental settings for the LevelChunk class (Client-side only).
+	#Warning: May cause visual glitches.
+	"Enable LevelChunk Experiments" = false
+	#Enable experimental settings for the LevelChunkSection class (Client-side only).
+	#Warning: May cause visual glitches.
+	"Enable LevelChunkSection Experiments" = false
 
