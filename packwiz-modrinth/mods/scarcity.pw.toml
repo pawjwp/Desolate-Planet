@@ -1,13 +1,13 @@
 name = "Scarcity"
-filename = "scarcity-1.1.5.jar"
+filename = "scarcity-1.2.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9x6gkfgk/versions/A0l1gT6q/scarcity-1.1.5.jar"
+url = "https://cdn.modrinth.com/data/9x6gkfgk/versions/CHpfuUsQ/scarcity-1.2.0.jar"
 hash-format = "sha512"
-hash = "5cff5495eb3a33959ba2c683e958bfacbd018cc0150e35563026b8ebf8ea6d070a7976c9ed85e43f7f8dd182d743b0d4c7bbcc0e4232c15cab66d9cac82bd112"
+hash = "ce8420161d8f0244e68cbb6aa6eadffa5640fd020b1492919bc0b8333b3bc847c628d5df0613069b3be23010b5ea2b1a92da6f2bc34be747127e569fdbc95b4a"
 
 [update]
 [update.modrinth]
 mod-id = "9x6gkfgk"
-version = "A0l1gT6q"
+version = "CHpfuUsQ"

@@ -104,4 +104,28 @@
 	#Hide the Obscure API title-screen button.
 	#The button is added by Obscure API and cannot normally be hidden, only repositioned.
 	hide_obscure_api_menu_button = true
+	#Enable the Tinkers Construct Crook and Crushing Hammer.
+	#Requires Tinkers Construct and Ex Deorum.
+	enable_tinkers_tools = true
+	#Enable Ex Deorum overrides for Scarcity's Tinkers tools:
+	#- Broken tools no longer work as hammers/crooks
+	#- The Heavy-Hammering modifier makes the Crushing Hammer act as a compressed hammer
+	#- Tinkers tools inside the Mechanical Hammer break instead of being destroyed
+	enable_exdeorum_tool_overrides = true
+	#Enable the Particulate Sieve machine and Heavy Agitator augment.
+	#Requires Thermal and Ex Deorum.
+	enable_machine_sieve = true
+	#Base energy per tick used by the Particulate Sieve.
+	#Range: 1 ~ 100000
+	machine_sieve_energy_per_tick = 40
+	#Base energy consumed by one sieve operation.
+	#Range: 1 ~ 10000000
+	machine_sieve_energy_per_operation = 4000
+	#Energy consumption multiplier from the Heavy Agitator augment.
+	#Range: 0.1 ~ 100.0
+	heavy_agitator_power_multiplier = 2.0
+	#Total energy per operation multiplier from the Heavy Agitator augment.
+	#Determines process speed combined with the power multiplier
+	#Range: 0.1 ~ 100.0
+	heavy_agitator_energy_multiplier = 6.0
 
