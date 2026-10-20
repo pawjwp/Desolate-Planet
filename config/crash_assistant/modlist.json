@@ -1402,6 +1402,14 @@
     "curseForgeHash": 1066971240,
     "modrinthHash": "9c52765ca56f917ef8cbafc20e9a4f45c346508f"
   },
+  "worldpresets-1.0.0.jar": {
+    "jarName": "worldpresets-1.0.0.jar",
+    "modId": "worldpresets",
+    "name": "World Presets",
+    "version": "1.0.0",
+    "curseForgeHash": 1450685862,
+    "modrinthHash": "ce1eb2c5e5994181136762fbc4bcb108243a2344"
+  },
   "Zeta-1.0-31.jar": {
     "jarName": "Zeta-1.0-31.jar",
     "modId": "zeta",

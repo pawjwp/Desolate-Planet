@@ -1,0 +1,39 @@
+{
+    hidden: false,
+    title: "Talos",
+    description: "\u00a7oThe standard desert planet experience\u00a7r\nDifficulty: \u00a7eModerate\u00a7r\nA high temperature, low-moisture desert world with mineral-rich dust, underground oil, and mysterious abandoned structures.",
+    order: 0,
+    world: {
+        name: "Desolate Planet - Talos",
+        gamemode: "hardcore",
+        difficulty: "hard",
+        allow_cheats: false,
+        world_type: "minecraft:normal",
+        seed: "8650895174575052359"
+    },
+    gamerules: {
+        disableElytraMovementCheck: true,
+        blockExplosionDropDecay: false,
+        mobExplosionDropDecay: false,
+        tntExplosionDropDecay: false,
+        disableRaids: true,
+        forgiveDeadPlayers: true,
+        mobGriefing: true,
+        doDaylightCycle: true,
+        lavaSourceConversion: false,
+        waterSourceConversion: false,
+        doPatrolSpawning: false,
+        doTraderSpawning: false,
+        claimedMobGriefing: true,
+        doClaimedBlockExplosions: true
+    },
+    dimension: {
+        dimension_id: "varkin_system:talos",
+        respawn_mode: "last_dimension"
+    },
+    structures: [
+        {
+            structure: "desolate_planet:ship_talos_default"
+        }
+    ]
+}

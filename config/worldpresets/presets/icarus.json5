@@ -1,0 +1,39 @@
+{
+    hidden: false,
+    title: "Icarus",
+    description: "\u00a7oA brutal lava planet\u00a7r\nDifficulty: \u00a74Very Hard\u00a7r\nAn extremely high temperature planet with no water or oxygen. Minerals must be found in underground lava-flows.",
+    order: 2,
+    world: {
+        name: "Desolate Planet - Icarus",
+        gamemode: "hardcore",
+        difficulty: "hard",
+        allow_cheats: false,
+        world_type: "minecraft:normal",
+        seed: "8650895174575052359"
+    },
+    gamerules: {
+        disableElytraMovementCheck: true,
+        blockExplosionDropDecay: false,
+        mobExplosionDropDecay: false,
+        tntExplosionDropDecay: false,
+        disableRaids: true,
+        forgiveDeadPlayers: true,
+        mobGriefing: true,
+        doDaylightCycle: true,
+        lavaSourceConversion: false,
+        waterSourceConversion: false,
+        doPatrolSpawning: false,
+        doTraderSpawning: false,
+        claimedMobGriefing: true,
+        doClaimedBlockExplosions: true
+    },
+    dimension: {
+        dimension_id: "varkin_system:icarus",
+        respawn_mode: "last_dimension"
+    },
+    structures: [
+        {
+            structure: "desolate_planet:ship_icarus_default"
+        }
+    ]
+}

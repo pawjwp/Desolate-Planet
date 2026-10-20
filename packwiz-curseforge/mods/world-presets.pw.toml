@@ -1,0 +1,13 @@
+name = "World Presets"
+filename = "worldpresets-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ce1eb2c5e5994181136762fbc4bcb108243a2344"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8933190
+project-id = 1701370

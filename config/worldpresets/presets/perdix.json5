@@ -1,0 +1,39 @@
+{
+    hidden: false,
+    title: "Perdix",
+    description: "\u00a7oA barren, trash-filled moon\u00a7r\nDifficulty: \u00a76Hard\u00a7r\nA barren and airless moon used as a landfill by an advanced civilization.",
+    order: 1,
+    world: {
+        name: "Desolate Planet - Perdix",
+        gamemode: "hardcore",
+        difficulty: "hard",
+        allow_cheats: false,
+        world_type: "minecraft:normal",
+        seed: "8650895174575052359"
+    },
+    gamerules: {
+        disableElytraMovementCheck: true,
+        blockExplosionDropDecay: false,
+        mobExplosionDropDecay: false,
+        tntExplosionDropDecay: false,
+        disableRaids: true,
+        forgiveDeadPlayers: true,
+        mobGriefing: true,
+        doDaylightCycle: true,
+        lavaSourceConversion: false,
+        waterSourceConversion: false,
+        doPatrolSpawning: false,
+        doTraderSpawning: false,
+        claimedMobGriefing: true,
+        doClaimedBlockExplosions: true
+    },
+    dimension: {
+        dimension_id: "varkin_system:perdix",
+        respawn_mode: "last_dimension"
+    },
+    structures: [
+        {
+            structure: "desolate_planet:ship_perdix_default"
+        }
+    ]
+}

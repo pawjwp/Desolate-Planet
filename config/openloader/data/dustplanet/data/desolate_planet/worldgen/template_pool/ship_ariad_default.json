@@ -1,5 +1,4 @@
 {
-    "name": "minecraft:badlands",
     "fallback": "minecraft:empty",
     "elements": [
         {

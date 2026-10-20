@@ -1,0 +1,39 @@
+{
+    hidden: false,
+    title: "Iapyx",
+    description: "\u00a7oA lush, living planet\u00a7r\nDifficulty: \u00a7aEasy\u00a7r\nA lush planet full of giant vines and fungi, endlessly competing with each other for territory.",
+    order: 3,
+    world: {
+        name: "Desolate Planet - Iapyx",
+        gamemode: "hardcore",
+        difficulty: "hard",
+        allow_cheats: false,
+        world_type: "minecraft:normal",
+        seed: "8650895174575052359"
+    },
+    gamerules: {
+        disableElytraMovementCheck: true,
+        blockExplosionDropDecay: false,
+        mobExplosionDropDecay: false,
+        tntExplosionDropDecay: false,
+        disableRaids: true,
+        forgiveDeadPlayers: true,
+        mobGriefing: true,
+        doDaylightCycle: true,
+        lavaSourceConversion: false,
+        waterSourceConversion: false,
+        doPatrolSpawning: false,
+        doTraderSpawning: false,
+        claimedMobGriefing: true,
+        doClaimedBlockExplosions: true
+    },
+    dimension: {
+        dimension_id: "varkin_system:iapyx",
+        respawn_mode: "last_dimension"
+    },
+    structures: [
+        {
+            structure: "desolate_planet:ship_iapyx_default"
+        }
+    ]
+}

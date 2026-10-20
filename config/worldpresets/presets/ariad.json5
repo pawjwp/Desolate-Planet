@@ -1,0 +1,39 @@
+{
+    hidden: false,
+    title: "Ariad",
+    description: "\u00a7oA frozen ocean planet\u00a7r\nDifficulty: \u00a7eModerate\u00a7r\nA frigid ocean world with diverse but dangerous sea life.",
+    order: 4,
+    world: {
+        name: "Desolate Planet - Ariad",
+        gamemode: "hardcore",
+        difficulty: "hard",
+        allow_cheats: false,
+        world_type: "minecraft:normal",
+        seed: "8650895174575052359"
+    },
+    gamerules: {
+        disableElytraMovementCheck: true,
+        blockExplosionDropDecay: false,
+        mobExplosionDropDecay: false,
+        tntExplosionDropDecay: false,
+        disableRaids: true,
+        forgiveDeadPlayers: true,
+        mobGriefing: true,
+        doDaylightCycle: true,
+        lavaSourceConversion: false,
+        waterSourceConversion: false,
+        doPatrolSpawning: false,
+        doTraderSpawning: false,
+        claimedMobGriefing: true,
+        doClaimedBlockExplosions: true
+    },
+    dimension: {
+        dimension_id: "varkin_system:ariad",
+        respawn_mode: "last_dimension"
+    },
+    structures: [
+        {
+            structure: "desolate_planet:ship_ariad_default"
+        }
+    ]
+}
