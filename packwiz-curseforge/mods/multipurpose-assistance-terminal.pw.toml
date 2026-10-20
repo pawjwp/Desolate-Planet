@@ -1,0 +1,13 @@
+name = "Multipurpose Assistance Terminal"
+filename = "MAT-1.20.1-6.0.0-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "77da92b30b27993e0b325af47e92d118c0c65b8c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9240079
+project-id = 1752309

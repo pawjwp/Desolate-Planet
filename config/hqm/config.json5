@@ -55,20 +55,20 @@
 		},
 		// Colour settings for the quest book text
 		"Text": {
-			// Use the HTML format, e.g.: #404040
-			"NORMAL": "#404040",
+			// Use the HTML format, e.g.: #3f3f3f
+			"NORMAL": "#3f3f3f",
 			// Use the HTML format, e.g.: #707070
 			"HINT": "#707070",
 			// Use the HTML format, e.g.: #ff5555
 			"WARNING": "#ff5555",
 			// Use the HTML format, e.g.: #ff0000
 			"ERROR": "#ff0000",
-			// Use the HTML format, e.g.: #aaaaaa
-			"HOVERED": "#aaaaaa",
-			// Use the HTML format, e.g.: #c0c0c0
-			"SELECTED": "#c0c0c0",
-			// Use the HTML format, e.g.: #d0d0d0
-			"SELECTED_HOVERED": "#d0d0d0",
+			// Use the HTML format, e.g.: #9f9f9f
+			"HOVERED": "#9f9f9f",
+			// Use the HTML format, e.g.: #7f7f7f
+			"SELECTED": "#7f7f7f",
+			// Use the HTML format, e.g.: #bfbfbf
+			"SELECTED_HOVERED": "#bfbfbf",
 		},
 		// Colour settings for the quest map
 		"QuestMap": {
@@ -83,10 +83,12 @@
 			// Thickness of the connecting lines in GUI-scaled pixels
 			"LINE_THICKNESS": 3.0,
 		},
+		// EXPERIMENTAL: Scale multiplier at which the GUI is drawn when HQM GUIs are open.This multiplier is applied to the vanilla GUI scale and clamped to valid values.
+		"UI_SCALE_MULTIPLIER": 1.0,
 	},
 	// Enable this to cause the player to be granted a gift on spawning into the world
 	"SPAWN_BOOK": true,
-	// Loose the quest book when you die, if set to false it will stay in your inventory
+	// Lose the quest book/MAT when you die. If set to false, they stay in your inventory.
 	"LOSE_QUEST_BOOK": true,
 	// Allow every single player in a party to claim the reward for a quest. Setting this to false will give the party one set of rewards to share.
 	"MULTI_REWARD": true,
@@ -105,7 +107,7 @@
 	},
 	// Settings related to the quest book keybind
 	"Keybind": {
-		// Require the player to have a quest book in their inventory to open it with the keybind
+		// Require the player to have a quest book or MAT in their inventory to open it with the keybind
 		"REQUIRE_BOOK": false,
 		// Pressing the keybind while the book is already open closes it
 		"TOGGLE": false,
@@ -134,17 +136,23 @@
 	"MAT": {
 		// Enable the Multipurpose Assistance Terminal (MAT). When disabled, the item is non-functional.
 		"ENABLE_MAT": true,
-		// Enable the Default mode tab
-		"ENABLE_DEFAULT": true,
-		// Enable the Quest mode tab
-		"ENABLE_QUEST": true,
+		// Enable the Info mode tab
+		"ENABLE_INFO": true,
+		// Enable the Questing mode tab
+		"ENABLE_QUESTING": true,
 		// Enable the Crafting mode tab
 		"ENABLE_CRAFTING": true,
 		// Enable the Tracking mode tab
 		"ENABLE_TRACKING": true,
 		// Enable the Storage mode tab
-		"ENABLE_STORAGE": true,
-		// If true, switching tabs in the MAT UI will also change the mode currently selected in the MAT item
+		"ENABLE_STORAGE": false,
+		// If true, switching tabs in the MAT UI will also change the mode currently selected on the MAT item
 		"TABS_SWITCH_DEFAULT_MODE": false,
+		// Radius in blocks that are scanned for the MAT's life sign statistics
+		"LIFE_SIGNS_RADIUS": 64,
+		// Only allow unlocking tutorials with a valid tutorial file. When false, any tutorial ID can be unlocked with a warning.
+		"REQUIRE_TUTORIAL_FILES": false,
+		// Show exact coordinates/distances in the Tracking tab. When disabled, coordinates are disabled and distances are rounded.
+		"SHOW_TRACKING_COORDINATES": false,
 	},
 }

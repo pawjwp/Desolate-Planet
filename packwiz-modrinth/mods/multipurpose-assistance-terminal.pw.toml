@@ -1,0 +1,13 @@
+name = "Multipurpose Assistance Terminal"
+filename = "MAT-1.20.1-6.0.0-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/i2tjebHT/versions/gom2KCwb/MAT-1.20.1-6.0.0-forge.jar"
+hash-format = "sha512"
+hash = "2e195ce6e01979a59a3a113c7ade840840c5a7f514b698369af2fca9f7b60190493b751ea108764ff5047d194abfab0149dfc60785744bb4e786b8a2f3875240"
+
+[update]
+[update.modrinth]
+mod-id = "i2tjebHT"
+version = "gom2KCwb"

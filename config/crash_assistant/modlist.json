@@ -701,14 +701,6 @@
     "curseForgeHash": 2214578654,
     "modrinthHash": "e4a5deeb545db6853ae4d668d0751228e641fc61"
   },
-  "HQM-1.20.1-5.16.0-forge.jar": {
-    "jarName": "HQM-1.20.1-5.16.0-forge.jar",
-    "modId": "hardcorequesting",
-    "name": "Hardcore Questing Mode",
-    "version": "1.20.1-5.16.0",
-    "curseForgeHash": 3157678091,
-    "modrinthHash": "9888495c7ba70fda642ab20cb5390725f244aa31"
-  },
   "huge-structure-blocks-forge-1.1.10.jar": {
     "jarName": "huge-structure-blocks-forge-1.1.10.jar",
     "modId": "hugestructureblocks",
@@ -889,6 +881,14 @@
     "version": "1.11.117",
     "curseForgeHash": 4130372343,
     "modrinthHash": "0d6af73ad4f11fe685aa466cedd2786b7bc57245"
+  },
+  "MAT-1.20.1-6.0.0-forge.jar": {
+    "jarName": "MAT-1.20.1-6.0.0-forge.jar",
+    "modId": "hardcorequesting",
+    "name": "Multipurpose Assistance Terminal",
+    "version": "1.20.1-6.0.0",
+    "curseForgeHash": 3077412601,
+    "modrinthHash": "77da92b30b27993e0b325af47e92d118c0c65b8c"
   },
   "Mekanism-1.20.1-10.4.15.75.jar": {
     "jarName": "Mekanism-1.20.1-10.4.15.75.jar",
