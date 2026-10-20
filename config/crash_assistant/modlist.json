@@ -309,13 +309,13 @@
     "curseForgeHash": 3041669468,
     "modrinthHash": "6f7c0056fece31bf393df450d79482810ed444af"
   },
-  "ColdSweat-2.4.1.jar": {
-    "jarName": "ColdSweat-2.4.1.jar",
+  "ColdSweat-2.4.4.jar": {
+    "jarName": "ColdSweat-2.4.4.jar",
     "modId": "cold_sweat",
     "name": "Cold Sweat",
-    "version": "2.4.1",
-    "curseForgeHash": 88434877,
-    "modrinthHash": "e41299c1d6afe255571038287051f63a437e856f"
+    "version": "2.4.4",
+    "curseForgeHash": 2341631370,
+    "modrinthHash": "c673267a116cc20f241a029a998a3cfadf505af1"
   },
   "colorwheel-forge-1.3.0+mc1.20.1.jar": {
     "jarName": "colorwheel-forge-1.3.0+mc1.20.1.jar",
